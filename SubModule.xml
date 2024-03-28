@@ -1,0 +1,99 @@
+<Module>
+	<Name value="Split"/>
+	<Id value="Split"/>
+	<Version value="v1.6.0"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<DependedModules>
+		<DependedModule Id="Native"/>
+		<DependedModule Id="SandBoxCore"/>
+		<DependedModule Id="Sandbox"/>
+		<DependedModule Id="CustomBattle"/>
+		<DependedModule Id="StoryMode"/>
+		<!-- <DependedModule Id="swadian armoury"/> -->
+	</DependedModules>
+	<SubModules>
+         <SubModule>
+             <Name value="Split"/>
+             <DLLName value="Split.dll"/>
+             <SubModuleClassType value="Split.SubModule"/>
+             <Tags>
+                 <Tag key="DedicatedServerType" value="none" />
+                 <Tag key="IsNoRenderModeElement" value="false" />
+             </Tags>
+         </SubModule>
+	</SubModules>
+	<Xmls>
+		<XmlNode>
+			<XmlName id="BodyProperties" path="bodyproperties"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="SPCultures" path="cultures"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="educationcharactertemplates"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="EquipmentRosters" path="educationequipmenttemplates"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<!-- <XmlNode>
+			<XmlName id="Kingdoms" path="kingdoms"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode> -->
+        <XmlNode>
+            <XmlName id="partyTemplates" path="partytemplates"/>
+            <IncludedGameTypes>
+                <GameType value="Campaign"/>
+                <GameType value="CampaignStoryMode"/>
+                <GameType value="CustomGame"/>
+            </IncludedGameTypes>
+        </XmlNode>
+		<XmlNode>
+			<XmlName id="GameText" path="strings"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="troops"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+	    <XmlNode>
+			<XmlName id="CultureStartPositions" path="CultureStartPositions"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+	</Xmls>
+</Module>

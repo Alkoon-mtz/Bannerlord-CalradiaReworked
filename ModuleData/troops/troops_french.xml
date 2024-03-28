@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+	<NPCCharacter id="french_villager"
+		default_group="Infantry"
+		level="1"
+		name="{=french peasant}French Peasant"
+		occupation="Villager"
+		culture="Culture.french"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<BodyProperties
+				version="4"
+				age="24.29"
+				weight="0.162"
+				build="0.3657"
+				key="00000007800000800160000000114151100471100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000" />
+			<BodyPropertiesMax
+				version="4"
+				age="67.62"
+				weight="0.733"
+				build="0.6651"
+				key="0013C80E40003406EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE07BAB0780BEFEEEF000000000000000000000000000000000000000067789105" />
+		</face>
+		<skills></skills>
+		<upgrade_targets>
+			<upgrade_target
+				id="NPCCharacter.french_recruit" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.long_woolen_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.monk_robe" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cloth_tunic" />
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.monk_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cloth_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.leather_cap" />
+				<equipment
+					slot="Body"
+					id="Item.bandit_leather_water_flask" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Gloves"
+					id="Item.leather_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.bandit_leather_water_flask" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.leather_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Body"
+					id="Item.cloth_apron" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.sackcloth_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.bandit_envelope_dress_v2" />
+				<equipment
+					slot="Head"
+					id="Item.leather_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Body"
+					id="Item.long_hemp_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.long_hemp_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Body"
+					id="Item.long_woolen_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.leather_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.long_woolen_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Body"
+					id="Item.sackcloth_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Body"
+					id="Item.tattered_rags" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.bandit_envelope_dress_v2" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.tunic_with_rolled_cloth" />
+				<equipment
+					slot="Head"
+					id="Item.leather_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Body"
+					id="Item.long_hemp_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.long_hemp_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Body"
+					id="Item.long_woolen_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.leather_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.long_woolen_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Body"
+					id="Item.sackcloth_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="french_knight"
+		default_group="Cavalry"
+		level="16"
+		name="{=French Knight}French Knight"
+		upgrade_requires="ItemCategory.war_horse"
+		occupation="Soldier"
+		culture="Culture.french"
+		is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="30"/>
+			<skill id="Riding" value="115"/>
+			<skill id="OneHanded" value="65"/>
+			<skill id="TwoHanded" value="15"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="15"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.french_baron"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.western_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.leather_and_iron_plate_armor"/>
+				<equipment slot="Gloves" id="Item.padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="french_baron"
+		default_group="Cavalry"
+		level="21"
+		name="{=French Baron}French Baron"
+		occupation="Soldier"
+		culture="Culture.french">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="50"/>
+			<skill id="Riding" value="160"/>
+			<skill id="OneHanded" value="90"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="140"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.french_count"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.fortified_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard3"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.fortified_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard4"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.fortified_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard1"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.fortified_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard2"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="french_count"
+		default_group="Cavalry"
+		level="26"
+		name="{=French Count}French Count"
+		occupation="Soldier"
+		culture="Culture.french">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="220"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="30"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.french_duke"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.Pothelm2"/>
+				<equipment slot="Cape" id="Item.Western_chain_shoulders"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard3"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_western"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.Pothelm"/>
+				<equipment slot="Cape" id="Item.Western_chain_shoulders"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard4"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_western"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.Pothelm2"/>
+				<equipment slot="Cape" id="Item.Western_chain_shoulders"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard1"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_western"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.Pothelm"/>
+				<equipment slot="Cape" id="Item.Western_chain_shoulders"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard2"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_western"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="french_duke"
+		default_group="Cavalry"
+		level="31"
+		name="{=French Duke}French Duke"
+		occupation="Soldier"
+		culture="Culture.french">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="260"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_noble_sword_3_t5"/>
+				<equipment slot="Head" id="Item.vlandian_helm_with_visor"/>
+				<equipment slot="Cape" id="Item.noble_pauldron_with_cape"/>
+				<equipment slot="Body" id="Item.Sa_tabbartplate"/>
+				<equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
+				<equipment slot="Horse" id="Item.noble_horse_western"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="french_recruit"
+		default_group="Infantry"
+		level="6"
+		name="{=French Recruit}French Recruit"
+		occupation="Soldier"
+		culture="Culture.french"
+		is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="25"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="5"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.french_footman"/>
+			<upgrade_target id="NPCCharacter.french_crossbowman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+				<equipment slot="Head" id="Item.leather_cap"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.long_hemp_tunic"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
+				<equipment slot="Head" id="Item.leather_cap"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.long_hemp_tunic"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_pickaxe_1_t1"/>
+				<equipment slot="Head" id="Item.leather_cap"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.long_hemp_tunic"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>	
+	<NPCCharacter id="french_footman"
+		default_group="Infantry"
+		level="11"
+		name="{=French Footman}French Footman"
+		occupation="Soldier"
+		culture="Culture.french">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="50"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="15"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.french_cavalry"/>
+			<upgrade_target id="NPCCharacter.french_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.flat_heater_shield"/>
+				<equipment slot="Head" id="Item.spangenhelm_with_leather"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.nordic_sloven"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Left French -->
+	<NPCCharacter id="french_cavalry"
+		default_group="Cavalry"
+		level="16"
+		name="{=French Cavalry}French Cavalry"
+		upgrade_requires="ItemCategory.war_horse"
+		occupation="Soldier"
+		culture="Culture.french">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="90"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="30"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.french_heavy_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Head" id="Item.imperial_mail_coif"/>
+				<equipment slot="Cape" id="Item.chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="french_heavy_cavalry"
+		default_group="Cavalry"
+		level="21"
+		name="{=French Heavy Cavalry}French Heavy Cavalry"
+		occupation="Soldier"
+		culture="Culture.french">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.french_champion"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.wide_heater_shield"/>
+				<equipment slot="Head" id="Item.pigface_bascinet"/>
+				<equipment slot="Cape" id="Item.chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.white_coat_over_mail"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="french_champion"
+		default_group="Cavalry"
+		level="26"
+		name="{=French Champion}French Champion"
+		occupation="Soldier"
+		culture="Culture.french">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="160"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="30"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.wide_heater_shield"/>
+				<equipment slot="Head" id="Item.sa_bacinet_with_facemask"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_striped_cuirass"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
+				<equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.wide_heater_shield"/>
+				<equipment slot="Head" id="Item.sa_bacinet_with_facemask"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_cuirass"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
+				<equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Midle French -->
+	<NPCCharacter id="french_swordsman"
+		default_group="Infantry"
+		level="16"
+		name="{=French Swordsman}French Swordsman"
+		occupation="Soldier"
+		culture="Culture.french">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.french_sergeant"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Head" id="Item.segmented_cervelliere_over_mail"/>
+				<equipment slot="Cape" id="Item.Western_chain_shoulders"/>
+				<equipment slot="Body" id="Item.banded_leather_over_mail"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="french_sergeant"
+		default_group="Infantry"
+		level="21"
+		name="{=French Sergeant}French Sergeant"
+		occupation="Soldier"
+		culture="Culture.french">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.wide_heater_shield"/>
+				<equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Right French -->
+	<NPCCharacter id="french_crossbowman"
+		default_group="Ranged"
+		level="11"
+		name="{=French Crossbowman}French Crossbowman"
+		occupation="Soldier"
+		culture="Culture.french">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="50"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="15"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.french_elite_crossbowman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_b"/>
+				<equipment slot="Item1" id="Item.bolt_a"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_padded_cloth"/>
+				<equipment slot="Cape" id="Item.padded_leather_shoulders"/>
+				<equipment slot="Body" id="Item.sleeveless_padded_coat"/>
+				<equipment slot="Gloves" id="Item.padded_vambrace"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="french_elite_crossbowman"
+		default_group="Ranged"
+		level="16"
+		name="{=French Elite Crossbowman}French Elite Crossbowman"
+		occupation="Soldier"
+		culture="Culture.french">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="15"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="30"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.french_sharpshooter"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_b"/>
+				<equipment slot="Item1" id="Item.bolt_b"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_laced_coif"/>
+				<equipment slot="Cape" id="Item.mail_shoulders"/>
+				<equipment slot="Body" id="Item.padded_coat"/>
+				<equipment slot="Gloves" id="Item.reinforced_padded_mitten"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="french_sharpshooter"
+		default_group="Ranged"
+		level="21"
+		name="{=French Sharpshooter}French Sharpshooter"
+		occupation="Soldier"
+		culture="Culture.french">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="110"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.french_elite_sharpshooter"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_d"/>
+				<equipment slot="Item1" id="Item.bolt_b"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Item3" id="Item.pavise_shield"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.Western_chain_shoulders"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="french_elite_sharpshooter"
+		default_group="Ranged"
+		level="26"
+		name="{=French Elite Sharpshooter}French Elite Sharpshooter"
+		occupation="Soldier"
+		culture="Culture.french">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="30"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="160"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_f"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_4_t4"/>
+				<equipment slot="Item3" id="Item.pavise_shield"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.vlandia_chainmail"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+<!-- Regulartroop French End -->
+</NPCCharacters>

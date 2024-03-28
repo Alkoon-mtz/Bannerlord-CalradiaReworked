@@ -1,0 +1,17 @@
+<strings>
+    <string id="str_adjective_for_culture.french" text="{=E11FR_adj_cul}French" />
+    <string id="str_culture_rich_name.french" text="{=E11FR_cul_name}Frankish" />
+    <string id="str_faction_ruler_name_with_title.french" text="{=E11FR_ruler_title}{?RULER.GENDER}Bossette{?}Boss{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.french" text="{=E11FR_noble_title}{?RULER.GENDER}Mamzell{?}Msieur{\?} {RULER.NAME}" />
+    <string id="str_faction_official.french" text="{=E11FR_noble_m}Msieur" />
+    <string id="str_faction_official.french_f" text="{=E11FR_noble_f}Mamzell" />
+    <string id="str_faction_ruler.french" text="{=E11FR_ruler_m}Boss" />
+    <string id="str_faction_ruler.french_f" text="{=E11FR_ruler_f}Bossette" />
+    <string id="str_faction_ruler_term_in_speech.french" text="{=E11FR_ruler_sp}{?RULER.GENDER}Bossette{?}Boss{\?} {RULER.NAME}" />
+    <string id="str_neutral_term_for_culture.french" text="{=E11FR_n_cul}French" />
+    <string id="str_adjective_for_faction.french" text="{=E11FR_adj_fac}French" />
+    <string id="str_short_term_for_faction.french" text="{=E11FR_short_term}Frankia" />
+    <string id="str_faction_formal_name_for_culture.french" text="{=E11FR_formal_name}The Powerhouse of Frankia" />
+    <string id="str_faction_informal_name_for_culture.french" text="{=E11FR_informal_name}the Franks" />	
+	<string id="str_culture_description.french" text="{=E11FR_desc}France rules bebe" />	
+</strings>
