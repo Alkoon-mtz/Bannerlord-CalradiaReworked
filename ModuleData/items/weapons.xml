@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<CraftedItem
+		id="norman_throwing_axe_4_t1"
+		name="{=Normand Throwing Axe 4}Normand Throwing Axe 4"
+		crafting_template="CTNormandThrowingAxe"
+		culture="Culture.vlandia"
+		modifier_group="axe_throwing">
+		<Pieces>
+			<Piece
+				id="normand_axe_craft_01_head"
+				Type="Blade"
+				scale_factor="200" />
+			<Piece
+				id="normand_axe_craft_01_handle"
+				Type="Handle"
+				scale_factor="70" />
+		</Pieces>
+	</CraftedItem>
+</Items>

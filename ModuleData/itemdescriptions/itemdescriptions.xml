@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WeaponDescriptions>
+	<!-- <WeaponDescription id="WDNormandThrowingAxe"
+		weapon_class="ThrowingAxe"
+		item_usage_features="throwing:axe">
+		<WeaponFlags>
+			<WeaponFlag value="RangedWeapon" />
+			<WeaponFlag value="Consumable" />
+			<WeaponFlag value="AmmoSticksWhenShot" />
+			<WeaponFlag value="UseHandAsThrowBase" />
+			<WeaponFlag value="AutoReload" />
+			<WeaponFlag value="UnloadWhenSheathed" />
+		</WeaponFlags>
+		<AvailablePieces>
+			<AvailablePiece id="normand_axe_craft_01_head" />
+			<AvailablePiece id="normand_axe_craft_01_handle" />
+		</AvailablePieces>
+	</WeaponDescription> -->
+</WeaponDescriptions>

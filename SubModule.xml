@@ -64,6 +64,28 @@
 				<GameType value = "CustomGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
+		<XmlNode>                
+			<XmlName id="CraftingTemplates" path="itemcraftingtemplates"/>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="WeaponDescriptions" path="itemdescriptions"/>
+		</XmlNode>
+		<XmlNode>                
+			<XmlName id="CraftingPieces" path="itempieces"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>                
+			<XmlName id="Items" path="items"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
 		<!-- <XmlNode>
 			<XmlName id="Kingdoms" path="kingdoms"/>
 			<IncludedGameTypes>
