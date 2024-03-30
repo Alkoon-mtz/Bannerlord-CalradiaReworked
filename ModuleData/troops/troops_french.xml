@@ -336,6 +336,7 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
+<!-- Elitetroop French -->
 	<NPCCharacter id="french_knight"
 		default_group="Cavalry"
 		level="16"
@@ -575,7 +576,7 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-
+<!-- Regulartroop French -->
 	<NPCCharacter id="french_recruit"
 		default_group="Infantry"
 		level="6"
@@ -1049,5 +1050,4 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-<!-- Regulartroop French End -->
 </NPCCharacters>
