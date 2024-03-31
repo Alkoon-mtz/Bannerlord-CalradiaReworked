@@ -808,7 +808,7 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- Midle French -->
+	<!-- Middle French -->
 	<NPCCharacter id="french_swordsman"
 		default_group="Infantry"
 		level="16"
