@@ -1,5 +1,15 @@
 Chinese banner
 11.143.143.1536.1536.764.764.1.0.0.154.89.143.400.400.732.752.1.0.257.154.89.143.400.400.715.789.1.0.257.122.89.143.400.400.831.750.1.0.-45
 
+
+cd 'D:\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\'
+gci -recurse | Unblock-File
+
 African troops
 https://www.nexusmods.com/mountandblade2bannerlord/mods/3479
+
+Headman    Dean    Elder    Archduke    Senator    Consul
+Pharaoh    Majesty    Shogun    President
+
+tzkurion_axe_t3
+axe_craft_26_head

@@ -39,10 +39,10 @@
 		name="{=Normand Head}Normand Head"
 		tier="3"
 		piece_type="Blade"
-		mesh="axe_craft_26_head"
+		mesh="axe_craft_26_head_x3"
 		distance_to_next_piece="9"
 		distance_to_previous_piece="3.5"
-		weight="0.400">
+		weight="0.800">
 		<BuildData
 			piece_offset="-7" />
 		<BladeData
@@ -54,7 +54,7 @@
             holster_mesh="throwing_axe_quiver_1">
 			<Swing
 				damage_type="Cut"
-				damage_factor="3" />
+				damage_factor="4" />
 		</BladeData>
         <Materials>
 			<Material
@@ -83,6 +83,33 @@
 			<Material
 				id="Iron3"
 				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+		id="vlandian_blade_3_x2"
+		name="{=mak3naEe}Zweihander Blade"
+		tier="5"
+		piece_type="Blade"
+		mesh="vlandian_blade_3_x2"
+		culture="Culture.vlandia"
+		length="99.4"
+		weight="1.35">
+		<BladeData
+			stack_amount="3"
+			physics_material="metal_weapon"
+			body_name="bo_sword_one_handed">
+			<Thrust
+				damage_type="Pierce"
+				damage_factor="3.2" />
+			<Swing
+				damage_type="Cut"
+				damage_factor="4.1" />
+		</BladeData>
+		<Materials>
+			<Material
+				id="Iron6"
+				count="4" />
 		</Materials>
 	</CraftingPiece>
 </CraftingPieces>

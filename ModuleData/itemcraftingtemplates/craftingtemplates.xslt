@@ -23,6 +23,13 @@
         </xsl:copy>
     </xsl:template>
 
+    <xsl:template match="CraftingTemplate[@id='TwoHandedSword']/UsablePieces">
+        <xsl:copy>
+            <xsl:apply-templates/>
+            <UsablePiece piece_id="vlandian_blade_3_x2"/>
+        </xsl:copy>
+    </xsl:template>
+
     <!-- <xsl:template match="//CraftingTemplate[@id='ThrowingAxe']//UsablePiece[not(following-sibling::UsablePiece)]">
         <xsl:copy-of select="."/>
         <UsablePiece piece_id="normand_axe_craft_01_head"/>
