@@ -42,7 +42,7 @@
 		mesh="axe_craft_26_head_x3"
 		distance_to_next_piece="9"
 		distance_to_previous_piece="3.5"
-		weight="0.800">
+		weight="0.400">
 		<BuildData
 			piece_offset="-7" />
 		<BladeData

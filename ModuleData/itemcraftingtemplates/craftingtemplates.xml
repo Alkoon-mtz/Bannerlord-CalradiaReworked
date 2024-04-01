@@ -3,8 +3,8 @@
 	<CraftingTemplate id="CTNormandThrowingAxe"
 		item_type="Thrown"
 		modifier_group="axe_throwing"
-		item_holsters="axe_back"
-		default_item_holster_position_offset="0,0,-0.5"
+		item_holsters="axe_back:axe_back_2:axe_back_3:axe_back_4"
+		default_item_holster_position_offset="0,0,-0.05"
 		always_show_holster_with_weapon="true">
 		<PieceDatas>
 			<PieceData piece_type="Handle" build_order="0" />
