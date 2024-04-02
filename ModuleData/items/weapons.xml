@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
-	<CraftedItem id="norman_throwing_axe_4_t1"
+	<!-- Normand -->
+	<CraftedItem id="normand_throwing_axe_4_t1"
 		name="{=Normand Throwing Axe 4}Normand Throwing Axe 4"
 		crafting_template="CTNormandThrowingAxe"
 		culture="Culture.vlandia"
@@ -14,6 +15,49 @@
 				scale_factor="90" />
 		</Pieces>
 	</CraftedItem>
+	<CraftedItem id="normand_axethrower_axe"
+		name="{=6q0nmVtg}Normand Francisk"
+		crafting_template="TwoHandedAxe"
+		culture="Culture.vlandia"
+		modifier_group="axe">
+		<Pieces>
+			<Piece id="normand_axe_craft_01_head"
+				Type="Blade"
+				scale_factor="100" />
+			<Piece id="axe_craft_29_handle"
+				Type="Handle"
+				scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="norman_axe_t5"
+		name="{=6q0nmVtg}Normand Axe t5"
+		crafting_template="OneHandedAxe"
+		culture="Culture.vlandia"
+		modifier_group="axe">
+		<Pieces>
+			<Piece id="normand_axe_craft_8_head"
+				Type="Blade"
+				scale_factor="120" />
+			<Piece id="axe_craft_24_handle"
+				Type="Handle"
+				scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="norman_axe_t4"
+		name="{=6q0nmVtg}Normand Axe t4"
+		crafting_template="OneHandedAxe"
+		culture="Culture.vlandia"
+		modifier_group="axe">
+		<Pieces>
+			<Piece id="normand_axe_craft_8_head"
+				Type="Blade"
+				scale_factor="100" />
+			<Piece id="axe_craft_24_handle"
+				Type="Handle"
+				scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<!-- Rekgeist -->
 	<CraftedItem id="rekgeist_2hsword_1_t5"
 		name="{=9ZiUK3JJ}Zweihander Sword"
 		crafting_template="TwoHandedSword"

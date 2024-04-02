@@ -19,7 +19,15 @@
         <xsl:copy>
             <xsl:apply-templates/>
             <UsablePiece piece_id="normand_axe_craft_01_head"/>
+            <UsablePiece piece_id="normand_axe_craft_8_head"/>
             <UsablePiece piece_id="normand_axe_craft_01_handle"/>
+        </xsl:copy>
+    </xsl:template>
+
+    <xsl:template match="CraftingTemplate[@id='TwoHandedAxe']/UsablePieces">
+        <xsl:copy>
+            <xsl:apply-templates/>
+            <UsablePiece piece_id="normand_axe_craft_01_head"/>
         </xsl:copy>
     </xsl:template>
 
