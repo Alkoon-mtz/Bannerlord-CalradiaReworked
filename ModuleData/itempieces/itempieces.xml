@@ -39,7 +39,7 @@
 		name="{=Normand Head}Normand Head"
 		tier="5"
 		piece_type="Blade"
-		mesh="axe_craft_26_head_x3"
+		mesh="axe_craft_26_head_x2"
 		distance_to_next_piece="9"
 		distance_to_previous_piece="3.5"
 		weight="0.500">
