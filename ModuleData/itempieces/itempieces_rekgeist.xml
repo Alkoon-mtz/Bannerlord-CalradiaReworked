@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>
+    <CraftingPiece
+        id="rekgesit_blade_elite_t5"
+        name="{=ZweihanderBlade}Zweihander Blade"
+        tier="5"
+        piece_type="Blade"
+        mesh="rekgesit_blade_elite_t5"
+        culture="Culture.vlandia"
+        length="99.4"
+        weight="1.35">
+        <BladeData
+            stack_amount="3"
+            physics_material="metal_weapon"
+            body_name="bo_sword_one_handed">
+            <Thrust
+                damage_type="Pierce"
+                damage_factor="3.2" />
+            <Swing
+                damage_type="Cut"
+                damage_factor="4.1" />
+        </BladeData>
+        <Materials>
+            <Material
+                id="Iron6"
+                count="4" />
+        </Materials>
+    </CraftingPiece>
+</CraftingPieces>

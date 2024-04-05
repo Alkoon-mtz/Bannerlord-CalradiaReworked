@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <!-- Throwing Axes -->
+    <CraftedItem id="scarhok_throwing_axe_t2"
+        name="{=scarhok_throwing_axe_t2}Scarhok Throwing Axe T2"
+        crafting_template="CTScarhokThrowingAxe"
+        culture="Culture.vlandia"
+        modifier_group="axe_throwing">
+        <Pieces>
+            <Piece id="scarhok_throwing_axe_craft_t2_head"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="axe_craft_11_handle"
+                Type="Handle"
+                scale_factor="90" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="scarhok_throwing_axe_t3"
+        name="{=scarhok_throwing_axe_t3}Scarhok Throwing Axe T3"
+        crafting_template="CTScarhokThrowingAxe"
+        culture="Culture.vlandia"
+        modifier_group="axe_throwing">
+        <Pieces>
+            <Piece id="scarhok_throwing_axe_craft_t3_head"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="axe_craft_11_handle"
+                Type="Handle"
+                scale_factor="90" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="scarhok_throwing_axe_t4"
+        name="{=scarhok_throwing_axe_t4}Scarhok Throwing Axe T4"
+        crafting_template="CTScarhokThrowingAxe"
+        culture="Culture.vlandia"
+        modifier_group="axe_throwing">
+        <Pieces>
+            <Piece id="scarhok_throwing_axe_craft_t4_head"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="axe_craft_11_handle"
+                Type="Handle"
+                scale_factor="90" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="scarhok_throwing_axe_t5"
+        name="{=scarhok_throwing_axe_t5}Scarhok Throwing Axe T5"
+        crafting_template="CTScarhokThrowingAxe"
+        culture="Culture.vlandia"
+        modifier_group="axe_throwing">
+        <Pieces>
+            <Piece id="scarhok_throwing_axe_craft_t5_head"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="axe_craft_11_handle"
+                Type="Handle"
+                scale_factor="90" />
+        </Pieces>
+    </CraftedItem>
+    <!-- 2H Axes -->
+    <CraftedItem id="scarhok_axethrower_axe_t2"
+        name="{=scarhok_axethrower_axe_t2}Scarhok Francisk T2"
+        crafting_template="TwoHandedAxe"
+        culture="Culture.vlandia"
+        modifier_group="axe">
+        <Pieces>
+            <Piece id="scarhok_throwing_axe_craft_t2_head"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="axe_craft_29_handle"
+                Type="Handle"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="scarhok_axethrower_axe_t3"
+        name="{=scarhok_axethrower_axe_t3}Scarhok Francisk T3"
+        crafting_template="TwoHandedAxe"
+        culture="Culture.vlandia"
+        modifier_group="axe">
+        <Pieces>
+            <Piece id="scarhok_throwing_axe_craft_t3_head"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="axe_craft_29_handle"
+                Type="Handle"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="scarhok_axethrower_axe_t4"
+        name="{=scarhok_axethrower_axe_t4}Scarhok Francisk T4"
+        crafting_template="TwoHandedAxe"
+        culture="Culture.vlandia"
+        modifier_group="axe">
+        <Pieces>
+            <Piece id="scarhok_throwing_axe_craft_t4_head"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="axe_craft_29_handle"
+                Type="Handle"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="scarhok_axethrower_axe_t5"
+        name="{=scarhok_axethrower_axe_t5}Scarhok Francisk T5"
+        crafting_template="TwoHandedAxe"
+        culture="Culture.vlandia"
+        modifier_group="axe">
+        <Pieces>
+            <Piece id="scarhok_throwing_axe_craft_t5_head"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="axe_craft_29_handle"
+                Type="Handle"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <!-- 1H Axes -->
+    <CraftedItem id="scarhok_elite_axe_t3"
+        name="{=scarhok_elite_axe_t3}Scarhok Elite Axe t3"
+        crafting_template="OneHandedAxe"
+        culture="Culture.vlandia"
+        modifier_group="axe">
+        <Pieces>
+            <Piece id="scarhok_axe_craft_t3_head"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="axe_craft_13_handle"
+                Type="Handle"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="scarhok_elite_axe_t4"
+        name="{=scarhok_elite_axe_t4}Scarhok Elite Axe t4"
+        crafting_template="OneHandedAxe"
+        culture="Culture.vlandia"
+        modifier_group="axe">
+        <Pieces>
+            <Piece id="scarhok_axe_craft_t4_head"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="axe_craft_13_handle"
+                Type="Handle"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="scarhok_elite_axe_t5"
+        name="{=scarhok_elite_axe_t5}Scarhok Elite Axe t5"
+        crafting_template="OneHandedAxe"
+        culture="Culture.vlandia"
+        modifier_group="axe">
+        <Pieces>
+            <Piece id="scarhok_axe_craft_t5_head"
+                Type="Blade"
+                scale_factor="120" />
+            <Piece id="axe_craft_13_handle"
+                Type="Handle"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="scarhok_elite_axe_t6"
+        name="{=scarhok_elite_axe_t6}Scarhok Elite Axe t6"
+        crafting_template="OneHandedAxe"
+        culture="Culture.vlandia"
+        modifier_group="axe">
+        <Pieces>
+            <Piece id="scarhok_axe_craft_t6_head"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="axe_craft_13_handle"
+                Type="Handle"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+</Items>

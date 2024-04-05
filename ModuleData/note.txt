@@ -7,12 +7,12 @@ Pharaoh    Majesty    Shogun    President
 
 Qinguo banners
 11.143.143.1536.1536.764.764.1.0.0.154.89.143.400.400.732.752.1.0.257.154.89.143.400.400.715.789.1.0.257.122.89.143.400.400.831.750.1.0.-45
-Normand banners
+Scarhok banners
 11.145.72.2538.2543.764.788.1.0.0.419.116.142.500.500.764.764.0.0.0.134.116.142.500.500.764.764.0.0.0
 
-Normands :
-Change value for AR_vlandia_armor_a2 => Normand elite T4 ?
-Change value for AR_vlandia_armor_a => Normand elite T4 (downgrad a little)
+Scarhoks :
+Change value for AR_vlandia_armor_a2 => Scarhok elite T4 ?
+Change value for AR_vlandia_armor_a => Scarhok elite T5 (downgrad a little)
 Make Axes :
     Change handle to a shorter one (see elite t3)
     Elite axe t3/4/5/6 models base on axe_craft_8_head

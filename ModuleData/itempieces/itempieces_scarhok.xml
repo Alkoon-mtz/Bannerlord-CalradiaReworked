@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>
+    <!-- Throwing Axes + 2H -->
+    <CraftingPiece id="scarhok_throwing_axe_craft_t2_head"
+        name="{=scarhok_throwing_axe_craft_t2_head}Scarhok Throwing Axe Head T2"
+        tier="5"
+        piece_type="Blade"
+        mesh="scarhok_axe_craft_26_head_t2"
+        distance_to_next_piece="9"
+        distance_to_previous_piece="3.5"
+        weight="0.500">
+        <BuildData piece_offset="-7" />
+        <BladeData stack_amount="15"
+            blade_length="20"
+            blade_width="25"
+            physics_material="metal_weapon"
+            body_name="bo_axe_longer_b"
+            holster_mesh="throwing_axe_quiver_1">
+            <Swing damage_type="Cut"
+                damage_factor="3.5" />
+        </BladeData>
+        <Materials>
+            <Material id="Iron3"
+                count="4" />
+        </Materials>
+        <Flags>
+            <Flag name="CanBePickedUpFromCorpse"
+                type="ItemFlags" />
+            <Flag name="BonusAgainstShield" />
+        </Flags>
+    </CraftingPiece>
+    <CraftingPiece id="scarhok_throwing_axe_craft_t3_head"
+        name="{=scarhok_throwing_axe_craft_t3_head}Scarhok Throwing Axe Head T3"
+        tier="5"
+        piece_type="Blade"
+        mesh="scarhok_axe_craft_26_head_t3"
+        distance_to_next_piece="9"
+        distance_to_previous_piece="3.5"
+        weight="0.500">
+        <BuildData piece_offset="-7" />
+        <BladeData stack_amount="15"
+            blade_length="20"
+            blade_width="25"
+            physics_material="metal_weapon"
+            body_name="bo_axe_longer_b"
+            holster_mesh="throwing_axe_quiver_1">
+            <Swing damage_type="Cut"
+                damage_factor="4" />
+        </BladeData>
+        <Materials>
+            <Material id="Iron3"
+                count="4" />
+        </Materials>
+        <Flags>
+            <Flag name="CanBePickedUpFromCorpse"
+                type="ItemFlags" />
+            <Flag name="BonusAgainstShield" />
+        </Flags>
+    </CraftingPiece>
+    <CraftingPiece id="scarhok_throwing_axe_craft_t4_head"
+        name="{=scarhok_throwing_axe_craft_t4_head}Scarhok Throwing Axe Head T4"
+        tier="5"
+        piece_type="Blade"
+        mesh="scarhok_axe_craft_26_head_t4"
+        distance_to_next_piece="9"
+        distance_to_previous_piece="3.5"
+        weight="0.500">
+        <BuildData piece_offset="-7" />
+        <BladeData stack_amount="15"
+            blade_length="20"
+            blade_width="25"
+            physics_material="metal_weapon"
+            body_name="bo_axe_longer_b"
+            holster_mesh="throwing_axe_quiver_1">
+            <Swing damage_type="Cut"
+                damage_factor="4.5" />
+        </BladeData>
+        <Materials>
+            <Material id="Iron3"
+                count="4" />
+        </Materials>
+        <Flags>
+            <Flag name="CanBePickedUpFromCorpse"
+                type="ItemFlags" />
+            <Flag name="BonusAgainstShield" />
+        </Flags>
+    </CraftingPiece>
+    <CraftingPiece id="scarhok_throwing_axe_craft_t5_head"
+        name="{=scarhok_throwing_axe_craft_t5_head}Scarhok Throwing Axe Head T5"
+        tier="5"
+        piece_type="Blade"
+        mesh="scarhok_axe_craft_26_head_t5"
+        distance_to_next_piece="9"
+        distance_to_previous_piece="3.5"
+        weight="0.500">
+        <BuildData piece_offset="-7" />
+        <BladeData stack_amount="15"
+            blade_length="20"
+            blade_width="25"
+            physics_material="metal_weapon"
+            body_name="bo_axe_longer_b"
+            holster_mesh="throwing_axe_quiver_1">
+            <Swing damage_type="Cut"
+                damage_factor="5" />
+        </BladeData>
+        <Materials>
+            <Material id="Iron3"
+                count="4" />
+        </Materials>
+        <Flags>
+            <Flag name="CanBePickedUpFromCorpse"
+                type="ItemFlags" />
+            <Flag name="BonusAgainstShield" />
+        </Flags>
+    </CraftingPiece>
+    <!-- 1H -->
+    <CraftingPiece id="scarhok_axe_craft_t3_head"
+        name="{=scarhok_axe_craft_t3_head}Scarhok Rectangular Axe Head T3"
+        tier="5"
+        piece_type="Blade"
+        mesh="scarhok_axe_craft_8_head_t2"
+        distance_to_next_piece="11.156"
+        distance_to_previous_piece="1.96"
+        weight="0.751">
+        <BuildData piece_offset="-3.92" />
+        <BladeData stack_amount="3"
+            blade_length="22.332"
+            blade_width="23.205"
+            physics_material="metal_weapon"
+            body_name="bo_axe_longer_b">
+            <Swing damage_type="Cut"
+                damage_factor="3.0" />
+        </BladeData>
+        <Flags>
+            <Flag name="BonusAgainstShield" />
+            <Flag name="CanBePickedUpFromCorpse"
+                type="ItemFlags" />
+        </Flags>
+        <Materials>
+            <Material id="Iron4"
+                count="3" />
+            <Material id="Iron5"
+                count="3" />
+        </Materials>
+    </CraftingPiece>
+    <CraftingPiece id="scarhok_axe_craft_t4_head"
+        name="{=scarhok_axe_craft_t4_head}Scarhok Rectangular Axe Head T4"
+        tier="5"
+        piece_type="Blade"
+        mesh="scarhok_axe_craft_8_head_t3"
+        distance_to_next_piece="11.156"
+        distance_to_previous_piece="1.96"
+        weight="0.751">
+        <BuildData piece_offset="-3.92" />
+        <BladeData stack_amount="3"
+            blade_length="22.332"
+            blade_width="23.205"
+            physics_material="metal_weapon"
+            body_name="bo_axe_longer_b">
+            <Swing damage_type="Cut"
+                damage_factor="4.0" />
+        </BladeData>
+        <Flags>
+            <Flag name="BonusAgainstShield" />
+            <Flag name="CanBePickedUpFromCorpse"
+                type="ItemFlags" />
+        </Flags>
+        <Materials>
+            <Material id="Iron4"
+                count="3" />
+            <Material id="Iron5"
+                count="3" />
+        </Materials>
+    </CraftingPiece>
+    <CraftingPiece id="scarhok_axe_craft_t5_head"
+        name="{=scarhok_axe_craft_t5_head}Scarhok Rectangular Axe Head T5"
+        tier="5"
+        piece_type="Blade"
+        mesh="scarhok_axe_craft_8_head_t4"
+        distance_to_next_piece="11.156"
+        distance_to_previous_piece="1.96"
+        weight="0.751">
+        <BuildData piece_offset="-3.92" />
+        <BladeData stack_amount="3"
+            blade_length="22.332"
+            blade_width="23.205"
+            physics_material="metal_weapon"
+            body_name="bo_axe_longer_b">
+            <Swing damage_type="Cut"
+                damage_factor="5.0" />
+        </BladeData>
+        <Flags>
+            <Flag name="BonusAgainstShield" />
+            <Flag name="CanBePickedUpFromCorpse"
+                type="ItemFlags" />
+        </Flags>
+        <Materials>
+            <Material id="Iron4"
+                count="3" />
+            <Material id="Iron5"
+                count="3" />
+        </Materials>
+    </CraftingPiece>
+    <CraftingPiece id="scarhok_axe_craft_t6_head"
+        name="{=scarhok_axe_craft_t6_head}Scarhok Rectangular Axe Head T6"
+        tier="5"
+        piece_type="Blade"
+        mesh="scarhok_axe_craft_8_head_t5"
+        distance_to_next_piece="11.156"
+        distance_to_previous_piece="1.96"
+        weight="0.751">
+        <BuildData piece_offset="-3.92" />
+        <BladeData stack_amount="3"
+            blade_length="22.332"
+            blade_width="23.205"
+            physics_material="metal_weapon"
+            body_name="bo_axe_longer_b">
+            <Swing damage_type="Cut"
+                damage_factor="6.0" />
+        </BladeData>
+        <Flags>
+            <Flag name="BonusAgainstShield" />
+            <Flag name="CanBePickedUpFromCorpse"
+                type="ItemFlags" />
+        </Flags>
+        <Materials>
+            <Material id="Iron4"
+                count="3" />
+            <Material id="Iron5"
+                count="3" />
+        </Materials>
+    </CraftingPiece>
+</CraftingPieces>

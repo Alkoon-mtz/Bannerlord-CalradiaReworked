@@ -10,24 +10,35 @@
         <xsl:copy>
             <xsl:apply-templates/>
             <AvailablePiece id="axe_craft_26_head" />
-            <AvailablePiece id="normand_axe_craft_01_head" />
-            <AvailablePiece id="normand_axe_craft_01_handle" />
+            <AvailablePiece id="scarhok_throwing_axe_craft_t2_head" />
+            <AvailablePiece id="scarhok_throwing_axe_craft_t3_head" />
+            <AvailablePiece id="scarhok_throwing_axe_craft_t4_head" />
+            <AvailablePiece id="scarhok_throwing_axe_craft_t5_head" />
         </xsl:copy>
     </xsl:template>
 
     <xsl:template match="WeaponDescription[@id='OneHandedAxe']/AvailablePieces">
         <xsl:copy>
             <xsl:apply-templates/>
-            <AvailablePiece id="normand_axe_craft_01_head" />
-            <AvailablePiece id="normand_axe_craft_8_head" />
-            <AvailablePiece id="normand_axe_craft_01_handle" />
+            <AvailablePiece id="scarhok_axe_craft_8_head" />
+            <AvailablePiece id="scarhok_throwing_axe_craft_t2_head" />
+            <AvailablePiece id="scarhok_throwing_axe_craft_t3_head" />
+            <AvailablePiece id="scarhok_throwing_axe_craft_t4_head" />
+            <AvailablePiece id="scarhok_throwing_axe_craft_t5_head" />
+            <AvailablePiece id="scarhok_axe_craft_t3_head" />
+            <AvailablePiece id="scarhok_axe_craft_t4_head" />
+            <AvailablePiece id="scarhok_axe_craft_t5_head" />
+            <AvailablePiece id="scarhok_axe_craft_t6_head" />
         </xsl:copy>
     </xsl:template>
 
     <xsl:template match="WeaponDescription[@id='TwoHandedAxe']/AvailablePieces">
         <xsl:copy>
             <xsl:apply-templates/>
-            <AvailablePiece id="normand_axe_craft_01_head" />
+            <AvailablePiece id="scarhok_throwing_axe_craft_t2_head" />
+            <AvailablePiece id="scarhok_throwing_axe_craft_t3_head" />
+            <AvailablePiece id="scarhok_throwing_axe_craft_t4_head" />
+            <AvailablePiece id="scarhok_throwing_axe_craft_t5_head" />
         </xsl:copy>
     </xsl:template>
 

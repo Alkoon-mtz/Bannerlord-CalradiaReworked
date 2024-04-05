@@ -1,649 +1,649 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
 <!-- Elitetroop Rekgeist -->
-	<NPCCharacter id="rekgeist_bidenhänder"
-		default_group="Infantry"
-		level="16"
-		name="{=Rekgeist E3}Rekgeist Bidenhänder"
-		occupation="Soldier"
-		culture="Culture.sturgia"
-		is_basic_troop="true">
-		<face>
-			<face_key_template value="BodyProperty.villager_sturgia"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="100"/>
-			<skill id="Riding" value="30"/>
-			<skill id="OneHanded" value="65"/>
-			<skill id="TwoHanded" value="115"/>
-			<skill id="Polearm" value="15"/>
-			<skill id="Bow" value="10"/>
-			<skill id="Crossbow" value="15"/>
-			<skill id="Throwing" value="10"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rekgeist_beidhänder"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.bracketed_heater_shield"/>
-				<equipment slot="Item1" id="Item.battania_2hsword_1_t2"/>
-				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
-				<equipment slot="Body" id="Item.AP_leather_tabard_d"/>
-				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_g"/>
-				<equipment slot="Leg" id="Item.mail_chausses"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item2" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rekgeist_beidhänder"
-		default_group="Infantry"
-		level="21"
-		name="{=Rekgeist E4}Rekgeist Beidhänder"
-		occupation="Soldier"
-		culture="Culture.sturgia">
-		<face>
-			<face_key_template value="BodyProperty.villager_sturgia"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="140"/>
-			<skill id="Riding" value="50"/>
-			<skill id="OneHanded" value="90"/>
-			<skill id="TwoHanded" value="160"/>
-			<skill id="Polearm" value="20"/>
-			<skill id="Bow" value="10"/>
-			<skill id="Crossbow" value="20"/>
-			<skill id="Throwing" value="10"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rekgeist_doppelhänder"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.wide_heater_shield"/>
-				<equipment slot="Item1" id="Item.battania_2hsword_1_t2"/>
-				<equipment slot="Head" id="Item.tv_vlandia_helmet_b3"/>
-				<equipment slot="Cape" id="Item.Western_chain_shoulders"/>
-				<equipment slot="Body" id="Item.AR_vlandia_armor_c"/>
-				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
-				<equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item2" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rekgeist_doppelhänder"
-		default_group="Infantry"
-		level="26"
-		name="{=Rekgeist E5}Rekgeist Doppelhänder"
-		occupation="Soldier"
-		culture="Culture.sturgia">
-		<face>
-			<face_key_template value="BodyProperty.villager_sturgia"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="200"/>
-			<skill id="Riding" value="60"/>
-			<skill id="OneHanded" value="120"/>
-			<skill id="TwoHanded" value="220"/>
-			<skill id="Polearm" value="30"/>
-			<skill id="Bow" value="20"/>
-			<skill id="Crossbow" value="30"/>
-			<skill id="Throwing" value="20"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rekgeist_zweihänder"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.tall_heater_shield"/>
-				<equipment slot="Item1" id="Item.justicier_2hsword"/>
-				<equipment slot="Head" id="Item.great_helm_base"/>
-				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_h"/>
-				<equipment slot="Body" id="Item.sacoat1"/>
-				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-				<equipment slot="Leg" id="Item.plate_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.tall_heater_shield"/>
-				<equipment slot="Item1" id="Item.justicier_2hsword"/>
-				<equipment slot="Head" id="Item.great_helm_base"/>
-				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_h"/>
-				<equipment slot="Body" id="Item.sacoat2"/>
-				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-				<equipment slot="Leg" id="Item.plate_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.tall_heater_shield"/>
-				<equipment slot="Item1" id="Item.justicier_2hsword"/>
-				<equipment slot="Head" id="Item.great_helm_base"/>
-				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_h"/>
-				<equipment slot="Body" id="Item.sacoat3"/>
-				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-				<equipment slot="Leg" id="Item.plate_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item2" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rekgeist_zweihänder"
-		default_group="Infantry"
-		level="31"
-		name="{=Rekgeist E6}Rekgeist Zweihänder"
-		occupation="Soldier"
-		culture="Culture.sturgia">
-		<face>
-			<face_key_template value="BodyProperty.villager_sturgia"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="260"/>
-			<skill id="Riding" value="60"/>
-			<skill id="OneHanded" value="180"/>
-			<skill id="TwoHanded" value="300"/>
-			<skill id="Polearm" value="40"/>
-			<skill id="Bow" value="20"/>
-			<skill id="Crossbow" value="40"/>
-			<skill id="Throwing" value="20"/>
-		</skills>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.heavy_heater_shield"/>
-				<equipment slot="Item1" id="Item.vlandia_2hsword_1_t5"/>
-				<equipment slot="Head" id="Item.winged_great_helm_base"/>
-				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_h"/>
-				<equipment slot="Body" id="Item.sa_1ChurburghTorso"/>
-				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-				<equipment slot="Leg" id="Item.plate_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item2" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
+    <NPCCharacter id="rekgeist_bidenhänder"
+        default_group="Infantry"
+        level="16"
+        name="{=Rekgeist E3}Rekgeist Bidenhänder"
+        occupation="Soldier"
+        culture="Culture.sturgia"
+        is_basic_troop="true">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="30"/>
+            <skill id="OneHanded" value="65"/>
+            <skill id="TwoHanded" value="115"/>
+            <skill id="Polearm" value="15"/>
+            <skill id="Bow" value="10"/>
+            <skill id="Crossbow" value="15"/>
+            <skill id="Throwing" value="10"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rekgeist_beidhänder"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.bracketed_heater_shield"/>
+                <equipment slot="Item1" id="Item.battania_2hsword_1_t2"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
+                <equipment slot="Body" id="Item.AP_leather_tabard_d"/>
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_g"/>
+                <equipment slot="Leg" id="Item.mail_chausses"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rekgeist_beidhänder"
+        default_group="Infantry"
+        level="21"
+        name="{=Rekgeist E4}Rekgeist Beidhänder"
+        occupation="Soldier"
+        culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="140"/>
+            <skill id="Riding" value="50"/>
+            <skill id="OneHanded" value="90"/>
+            <skill id="TwoHanded" value="160"/>
+            <skill id="Polearm" value="20"/>
+            <skill id="Bow" value="10"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="10"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rekgeist_doppelhänder"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.wide_heater_shield"/>
+                <equipment slot="Item1" id="Item.battania_2hsword_1_t2"/>
+                <equipment slot="Head" id="Item.tv_vlandia_helmet_b3"/>
+                <equipment slot="Cape" id="Item.Western_chain_shoulders"/>
+                <equipment slot="Body" id="Item.AR_vlandia_armor_c"/>
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
+                <equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rekgeist_doppelhänder"
+        default_group="Infantry"
+        level="26"
+        name="{=Rekgeist E5}Rekgeist Doppelhänder"
+        occupation="Soldier"
+        culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="200"/>
+            <skill id="Riding" value="60"/>
+            <skill id="OneHanded" value="120"/>
+            <skill id="TwoHanded" value="220"/>
+            <skill id="Polearm" value="30"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="30"/>
+            <skill id="Throwing" value="20"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rekgeist_zweihänder"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.tall_heater_shield"/>
+                <equipment slot="Item1" id="Item.justicier_2hsword"/>
+                <equipment slot="Head" id="Item.great_helm_base"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_h"/>
+                <equipment slot="Body" id="Item.sacoat1"/>
+                <equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+                <equipment slot="Leg" id="Item.plate_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.tall_heater_shield"/>
+                <equipment slot="Item1" id="Item.justicier_2hsword"/>
+                <equipment slot="Head" id="Item.great_helm_base"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_h"/>
+                <equipment slot="Body" id="Item.sacoat2"/>
+                <equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+                <equipment slot="Leg" id="Item.plate_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.tall_heater_shield"/>
+                <equipment slot="Item1" id="Item.justicier_2hsword"/>
+                <equipment slot="Head" id="Item.great_helm_base"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_h"/>
+                <equipment slot="Body" id="Item.sacoat3"/>
+                <equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+                <equipment slot="Leg" id="Item.plate_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rekgeist_zweihänder"
+        default_group="Infantry"
+        level="31"
+        name="{=Rekgeist E6}Rekgeist Zweihänder"
+        occupation="Soldier"
+        culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="260"/>
+            <skill id="Riding" value="60"/>
+            <skill id="OneHanded" value="180"/>
+            <skill id="TwoHanded" value="300"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="40"/>
+            <skill id="Throwing" value="20"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.heavy_heater_shield"/>
+                <equipment slot="Item1" id="Item.vlandia_2hsword_1_t5"/>
+                <equipment slot="Head" id="Item.winged_great_helm_base"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_h"/>
+                <equipment slot="Body" id="Item.sa_1ChurburghTorso"/>
+                <equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+                <equipment slot="Leg" id="Item.plate_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
 <!-- Regulartroop Rekgeist -->
-	<NPCCharacter id="rekgeist_recruit"
-		default_group="Infantry"
-		level="6"
-		name="{=Rekgeist Recruit}Rekgeist Recruit"
-		occupation="Soldier"
-		culture="Culture.sturgia"
-		is_basic_troop="true">
-		<face>
-			<face_key_template value="BodyProperty.villager_sturgia"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="25"/>
-			<skill id="Riding" value="10"/>
-			<skill id="OneHanded" value="5"/>
-			<skill id="TwoHanded" value="30"/>
-			<skill id="Polearm" value="10"/>
-			<skill id="Bow" value="5"/>
-			<skill id="Crossbow" value="5"/>
-			<skill id="Throwing" value="5"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rekgeist_wache"/>
-			<upgrade_target id="NPCCharacter.rekgeist_pikenier"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
-				<equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
-				<equipment slot="Body" id="Item.tundra_tunic"/>
-				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
-				<equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
-				<equipment slot="Body" id="Item.tundra_tunic"/>
-				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
-				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
-				<equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
-				<equipment slot="Body" id="Item.tundra_tunic"/>
-				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
-				<equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
-				<equipment slot="Body" id="Item.tundra_tunic"/>
-				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item2" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rekgeist_wache"
-		default_group="Ranged"
-		level="11"
-		name="{=Rekgeist A2}Rekgeist Wache"
-		occupation="Soldier"
-		culture="Culture.sturgia">
-		<face>
-			<face_key_template value="BodyProperty.villager_sturgia"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="50"/>
-			<skill id="Riding" value="15"/>
-			<skill id="OneHanded" value="20"/>
-			<skill id="TwoHanded" value="20"/>
-			<skill id="Polearm" value="15"/>
-			<skill id="Bow" value="10"/>
-			<skill id="Crossbow" value="60"/>
-			<skill id="Throwing" value="10"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rekgeist_reiter"/>
-			<upgrade_target id="NPCCharacter.rekgeist_armbrustschütze"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.crossbow_a"/>
-				<equipment slot="Item1" id="Item.bolt_e"/>
-				<equipment slot="Item2" id="Item.simple_sparth_axe_t2"/>
-				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
-				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
-				<equipment slot="Body" id="Item.ao_mail_shirt_sleeveless"/>
-				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item2" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<!-- Left Rekgeist -->
-	<NPCCharacter id="rekgeist_reiter"
-		default_group="Cavalry"
-		level="16"
-		name="{=Rekgeist C3}Rekgeist Reiter"
-		upgrade_requires="ItemCategory.horse"
-		occupation="Soldier"
-		culture="Culture.sturgia">
-		<face>
-			<face_key_template value="BodyProperty.villager_sturgia"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="90"/>
-			<skill id="OneHanded" value="30"/>
-			<skill id="TwoHanded" value="100"/>
-			<skill id="Polearm" value="40"/>
-			<skill id="Bow" value="15"/>
-			<skill id="Crossbow" value="30"/>
-			<skill id="Throwing" value="15"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rekgeist_leichter_reiter"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.battania_2hsword_1_t2"/>
-				<equipment slot="Head" id="Item.vlandia_helmet_s_ii"/>
-				<equipment slot="Cape" id="Item.mercenary_padding_cape"/>
-				<equipment slot="Body" id="Item.AR_vlandia_armor_d2"/>
-				<equipment slot="Leg" id="Item.DZ_vlandia_boots_a"/>
-				<equipment slot="Horse" id="Item.sturgia_horse"/>
-				<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item2" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rekgeist_leichter_reiter"
-		default_group="Cavalry"
-		level="21"
-		name="{=Rekgeist C4}Rekgeist Leichter Reiter"
-		occupation="Soldier"
-		culture="Culture.sturgia">
-		<face>
-			<face_key_template value="BodyProperty.villager_sturgia"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="60"/>
-			<skill id="Riding" value="120"/>
-			<skill id="OneHanded" value="40"/>
-			<skill id="TwoHanded" value="140"/>
-			<skill id="Polearm" value="60"/>
-			<skill id="Bow" value="20"/>
-			<skill id="Crossbow" value="40"/>
-			<skill id="Throwing" value="20"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rekgeist_schwerer_reiter"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.justicier_2hsword"/>
-				<equipment slot="Head" id="Item.vlandia_helmet_s_iii"/>
-				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
-				<equipment slot="Body" id="Item.TV_vlandia_armor_i"/>
-				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_g"/>
-				<equipment slot="Leg" id="Item.mail_chausses"/>
-				<equipment slot="Horse" id="Item.t3_sturgia_horse"/>
-				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item2" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rekgeist_schwerer_reiter"
-		default_group="Cavalry"
-		level="26"
-		name="{=Rekgeist C5}Rekgeist Schwerer Reiter"
-		occupation="Soldier"
-		culture="Culture.sturgia">
-		<face>
-			<face_key_template value="BodyProperty.villager_sturgia"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="80"/>
-			<skill id="Riding" value="160"/>
-			<skill id="OneHanded" value="60"/>
-			<skill id="TwoHanded" value="200"/>
-			<skill id="Polearm" value="80"/>
-			<skill id="Bow" value="30"/>
-			<skill id="Crossbow" value="60"/>
-			<skill id="Throwing" value="30"/>
-		</skills>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_2hsword_1_t5"/>
-				<equipment slot="Head" id="Item.vlandian_helm_with_faceplate_painted"/>
-				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
-				<equipment slot="Body" id="Item.coat_of_plates9_c"/>
-				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-				<equipment slot="Leg" id="Item.plate_boots"/>
-				<equipment slot="Horse" id="Item.noble_horse_northern"/>
-				<equipment slot="HorseHarness" id="Item.northern_ring_barding"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_2hsword_1_t5"/>
-				<equipment slot="Head" id="Item.vlandian_helm_with_faceplate"/>
-				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
-				<equipment slot="Body" id="Item.coat_of_plates10_c"/>
-				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-				<equipment slot="Leg" id="Item.plate_boots"/>
-				<equipment slot="Horse" id="Item.noble_horse_northern"/>
-				<equipment slot="HorseHarness" id="Item.northern_ring_barding"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item2" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<!-- Midle Rekgeist -->
-	<NPCCharacter id="rekgeist_armbrustschütze"
-		default_group="Ranged"
-		level="16"
-		name="{=Rekgeist A3}Rekgeist Armbrustschütze"
-		occupation="Soldier"
-		culture="Culture.sturgia">
-		<face>
-			<face_key_template value="BodyProperty.villager_sturgia"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="90"/>
-			<skill id="Riding" value="30"/>
-			<skill id="OneHanded" value="40"/>
-			<skill id="TwoHanded" value="40"/>
-			<skill id="Polearm" value="30"/>
-			<skill id="Bow" value="15"/>
-			<skill id="Crossbow" value="100"/>
-			<skill id="Throwing" value="15"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rekgeist_elite_armbrustschütze"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.crossbow_b"/>
-				<equipment slot="Item1" id="Item.bolt_a"/>
-				<equipment slot="Item2" id="Item.bolt_a"/>
-				<equipment slot="Item3" id="Item.battania_2haxe_1_t2"/>
-				<equipment slot="Head" id="Item.kettle_hat_over_padded_cloth"/>
-				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_m"/>
-				<equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
-				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_e"/>
-				<equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item2" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rekgeist_elite_armbrustschütze"
-		default_group="Ranged"
-		level="21"
-		name="{=Rekgeist A4}Rekgeist Elite Armbrustschütze"
-		occupation="Soldier"
-		culture="Culture.sturgia">
-		<face>
-			<face_key_template value="BodyProperty.villager_sturgia"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="120"/>
-			<skill id="Riding" value="40"/>
-			<skill id="OneHanded" value="60"/>
-			<skill id="TwoHanded" value="60"/>
-			<skill id="Polearm" value="40"/>
-			<skill id="Bow" value="20"/>
-			<skill id="Crossbow" value="140"/>
-			<skill id="Throwing" value="20"/>
-		</skills>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.crossbow_d"/>
-				<equipment slot="Item1" id="Item.bolt_d"/>
-				<equipment slot="Item2" id="Item.bolt_d"/>
-				<equipment slot="Item3" id="Item.battania_2haxe_1_t2_blunt"/>
-				<equipment slot="Head" id="Item.kettle_helmet_over_mail"/>
-				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_n"/>
-				<equipment slot="Body" id="Item.AR_vlandia_armor_f"/>
-				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
-				<equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item2" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<!-- Right Rekgeist -->
-	<NPCCharacter id="rekgeist_pikenier"
-		default_group="Infantry"
-		level="11"
-		name="{=Rekgeist P2}Rekgeist Pikenier"
-		occupation="Soldier"
-		culture="Culture.sturgia">
-		<face>
-			<face_key_template value="BodyProperty.villager_sturgia"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="50"/>
-			<skill id="Riding" value="15"/>
-			<skill id="OneHanded" value="30"/>
-			<skill id="TwoHanded" value="15"/>
-			<skill id="Polearm" value="50"/>
-			<skill id="Bow" value="10"/>
-			<skill id="Crossbow" value="20"/>
-			<skill id="Throwing" value="10"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rekgeist_elite_pikenier"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_lance_1_t3"/>
-				<equipment slot="Item1" id="Item.flat_heater_shield"/>
-				<equipment slot="Item2" id="Item.aserai_mace_2_t2"/>
-				<equipment slot="Head" id="Item.TV_vlandia_helmet_s"/>
-				<equipment slot="Body" id="Item.woven_leather_vest"/>
-				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item2" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rekgeist_elite_pikenier"
-		default_group="Infantry"
-		level="16"
-		name="{=Rekgeist P3}Rekgeist Elite Pikenier"
-		occupation="Soldier"
-		culture="Culture.sturgia">
-		<face>
-			<face_key_template value="BodyProperty.villager_sturgia"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="80"/>
-			<skill id="Riding" value="30"/>
-			<skill id="OneHanded" value="70"/>
-			<skill id="TwoHanded" value="30"/>
-			<skill id="Polearm" value="80"/>
-			<skill id="Bow" value="15"/>
-			<skill id="Crossbow" value="40"/>
-			<skill id="Throwing" value="15"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rekgeist_pfähler"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.sturgia_lance_1_t4"/>
-				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
-				<equipment slot="Item2" id="Item.morningstar_mace_t3"/>
-				<equipment slot="Head" id="Item.TV_vlandia_helmet_l"/>
-				<equipment slot="Body" id="Item.Sa_brigandine6"/>
-				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
-				<equipment slot="Leg" id="Item.TV_empire_boots_c"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item2" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rekgeist_pfähler"
-		default_group="Infantry"
-		level="21"
-		name="{=Rekgeist P4}Rekgeist Pfähler"
-		occupation="Soldier"
-		culture="Culture.sturgia">
-		<face>
-			<face_key_template value="BodyProperty.villager_sturgia"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="110"/>
-			<skill id="Riding" value="40"/>
-			<skill id="OneHanded" value="100"/>
-			<skill id="TwoHanded" value="40"/>
-			<skill id="Polearm" value="110"/>
-			<skill id="Bow" value="20"/>
-			<skill id="Crossbow" value="60"/>
-			<skill id="Throwing" value="20"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rekgeist_uberpfahler"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.northern_spear_4_t5"/>
-				<equipment slot="Item1" id="Item.tall_heater_shield"/>
-				<equipment slot="Item2" id="Item.empire_mace_2_t4"/>
-				<equipment slot="Head" id="Item.sallet_no_visor"/>
-				<equipment slot="Body" id="Item.Sa_brigandine5"/>
-				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-				<equipment slot="Leg" id="Item.plate_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item2" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rekgeist_uberpfahler"
-		default_group="Infantry"
-		level="26"
-		name="{=Rekgeist P5}Rekgeist Überpfähler"
-		occupation="Soldier"
-		culture="Culture.sturgia">
-		<face>
-			<face_key_template value="BodyProperty.villager_sturgia"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="150"/>
-			<skill id="Riding" value="60"/>
-			<skill id="OneHanded" value="140"/>
-			<skill id="TwoHanded" value="60"/>
-			<skill id="Polearm" value="160"/>
-			<skill id="Bow" value="30"/>
-			<skill id="Crossbow" value="70"/>
-			<skill id="Throwing" value="30"/>
-		</skills>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
-				<equipment slot="Item1" id="Item.tall_heater_shield"/>
-				<equipment slot="Item2" id="Item.empire_mace_4_t5"/>
-				<equipment slot="Head" id="Item.sallet_base"/>
-				<equipment slot="Body" id="Item.Sa_brigandine_plate3"/>
-				<equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
-				<equipment slot="Leg" id="Item.sa_2ChurburghBoots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item2" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
+    <NPCCharacter id="rekgeist_recruit"
+        default_group="Infantry"
+        level="6"
+        name="{=Rekgeist Recruit}Rekgeist Recruit"
+        occupation="Soldier"
+        culture="Culture.sturgia"
+        is_basic_troop="true">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="25"/>
+            <skill id="Riding" value="10"/>
+            <skill id="OneHanded" value="5"/>
+            <skill id="TwoHanded" value="30"/>
+            <skill id="Polearm" value="10"/>
+            <skill id="Bow" value="5"/>
+            <skill id="Crossbow" value="5"/>
+            <skill id="Throwing" value="5"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rekgeist_wache"/>
+            <upgrade_target id="NPCCharacter.rekgeist_pikenier"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
+                <equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+                <equipment slot="Body" id="Item.tundra_tunic"/>
+                <equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
+                <equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+                <equipment slot="Body" id="Item.tundra_tunic"/>
+                <equipment slot="Gloves" id="Item.ragged_armwraps"/>
+                <equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
+                <equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+                <equipment slot="Body" id="Item.tundra_tunic"/>
+                <equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
+                <equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+                <equipment slot="Body" id="Item.tundra_tunic"/>
+                <equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rekgeist_wache"
+        default_group="Ranged"
+        level="11"
+        name="{=Rekgeist A2}Rekgeist Wache"
+        occupation="Soldier"
+        culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="50"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="20"/>
+            <skill id="TwoHanded" value="20"/>
+            <skill id="Polearm" value="15"/>
+            <skill id="Bow" value="10"/>
+            <skill id="Crossbow" value="60"/>
+            <skill id="Throwing" value="10"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rekgeist_reiter"/>
+            <upgrade_target id="NPCCharacter.rekgeist_armbrustschütze"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.crossbow_a"/>
+                <equipment slot="Item1" id="Item.bolt_e"/>
+                <equipment slot="Item2" id="Item.simple_sparth_axe_t2"/>
+                <equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+                <equipment slot="Body" id="Item.ao_mail_shirt_sleeveless"/>
+                <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <!-- Left Rekgeist -->
+    <NPCCharacter id="rekgeist_reiter"
+        default_group="Cavalry"
+        level="16"
+        name="{=Rekgeist C3}Rekgeist Reiter"
+        upgrade_requires="ItemCategory.horse"
+        occupation="Soldier"
+        culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="40"/>
+            <skill id="Riding" value="90"/>
+            <skill id="OneHanded" value="30"/>
+            <skill id="TwoHanded" value="100"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="15"/>
+            <skill id="Crossbow" value="30"/>
+            <skill id="Throwing" value="15"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rekgeist_leichter_reiter"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.battania_2hsword_1_t2"/>
+                <equipment slot="Head" id="Item.vlandia_helmet_s_ii"/>
+                <equipment slot="Cape" id="Item.mercenary_padding_cape"/>
+                <equipment slot="Body" id="Item.AR_vlandia_armor_d2"/>
+                <equipment slot="Leg" id="Item.DZ_vlandia_boots_a"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rekgeist_leichter_reiter"
+        default_group="Cavalry"
+        level="21"
+        name="{=Rekgeist C4}Rekgeist Leichter Reiter"
+        occupation="Soldier"
+        culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="60"/>
+            <skill id="Riding" value="120"/>
+            <skill id="OneHanded" value="40"/>
+            <skill id="TwoHanded" value="140"/>
+            <skill id="Polearm" value="60"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="40"/>
+            <skill id="Throwing" value="20"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rekgeist_schwerer_reiter"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.justicier_2hsword"/>
+                <equipment slot="Head" id="Item.vlandia_helmet_s_iii"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
+                <equipment slot="Body" id="Item.TV_vlandia_armor_i"/>
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_g"/>
+                <equipment slot="Leg" id="Item.mail_chausses"/>
+                <equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rekgeist_schwerer_reiter"
+        default_group="Cavalry"
+        level="26"
+        name="{=Rekgeist C5}Rekgeist Schwerer Reiter"
+        occupation="Soldier"
+        culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="80"/>
+            <skill id="Riding" value="160"/>
+            <skill id="OneHanded" value="60"/>
+            <skill id="TwoHanded" value="200"/>
+            <skill id="Polearm" value="80"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="60"/>
+            <skill id="Throwing" value="30"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_2hsword_1_t5"/>
+                <equipment slot="Head" id="Item.vlandian_helm_with_faceplate_painted"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
+                <equipment slot="Body" id="Item.coat_of_plates9_c"/>
+                <equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+                <equipment slot="Leg" id="Item.plate_boots"/>
+                <equipment slot="Horse" id="Item.noble_horse_northern"/>
+                <equipment slot="HorseHarness" id="Item.northern_ring_barding"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_2hsword_1_t5"/>
+                <equipment slot="Head" id="Item.vlandian_helm_with_faceplate"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
+                <equipment slot="Body" id="Item.coat_of_plates10_c"/>
+                <equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+                <equipment slot="Leg" id="Item.plate_boots"/>
+                <equipment slot="Horse" id="Item.noble_horse_northern"/>
+                <equipment slot="HorseHarness" id="Item.northern_ring_barding"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <!-- Midle Rekgeist -->
+    <NPCCharacter id="rekgeist_armbrustschütze"
+        default_group="Ranged"
+        level="16"
+        name="{=Rekgeist A3}Rekgeist Armbrustschütze"
+        occupation="Soldier"
+        culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="90"/>
+            <skill id="Riding" value="30"/>
+            <skill id="OneHanded" value="40"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="30"/>
+            <skill id="Bow" value="15"/>
+            <skill id="Crossbow" value="100"/>
+            <skill id="Throwing" value="15"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rekgeist_elite_armbrustschütze"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.crossbow_b"/>
+                <equipment slot="Item1" id="Item.bolt_a"/>
+                <equipment slot="Item2" id="Item.bolt_a"/>
+                <equipment slot="Item3" id="Item.battania_2haxe_1_t2"/>
+                <equipment slot="Head" id="Item.kettle_hat_over_padded_cloth"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_m"/>
+                <equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_e"/>
+                <equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rekgeist_elite_armbrustschütze"
+        default_group="Ranged"
+        level="21"
+        name="{=Rekgeist A4}Rekgeist Elite Armbrustschütze"
+        occupation="Soldier"
+        culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="120"/>
+            <skill id="Riding" value="40"/>
+            <skill id="OneHanded" value="60"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="140"/>
+            <skill id="Throwing" value="20"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.crossbow_d"/>
+                <equipment slot="Item1" id="Item.bolt_d"/>
+                <equipment slot="Item2" id="Item.bolt_d"/>
+                <equipment slot="Item3" id="Item.battania_2haxe_1_t2_blunt"/>
+                <equipment slot="Head" id="Item.kettle_helmet_over_mail"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_n"/>
+                <equipment slot="Body" id="Item.AR_vlandia_armor_f"/>
+                <equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+                <equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <!-- Right Rekgeist -->
+    <NPCCharacter id="rekgeist_pikenier"
+        default_group="Infantry"
+        level="11"
+        name="{=Rekgeist P2}Rekgeist Pikenier"
+        occupation="Soldier"
+        culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="50"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="30"/>
+            <skill id="TwoHanded" value="15"/>
+            <skill id="Polearm" value="50"/>
+            <skill id="Bow" value="10"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="10"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rekgeist_elite_pikenier"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_1_t3"/>
+                <equipment slot="Item1" id="Item.flat_heater_shield"/>
+                <equipment slot="Item2" id="Item.aserai_mace_2_t2"/>
+                <equipment slot="Head" id="Item.TV_vlandia_helmet_s"/>
+                <equipment slot="Body" id="Item.woven_leather_vest"/>
+                <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rekgeist_elite_pikenier"
+        default_group="Infantry"
+        level="16"
+        name="{=Rekgeist P3}Rekgeist Elite Pikenier"
+        occupation="Soldier"
+        culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="80"/>
+            <skill id="Riding" value="30"/>
+            <skill id="OneHanded" value="70"/>
+            <skill id="TwoHanded" value="30"/>
+            <skill id="Polearm" value="80"/>
+            <skill id="Bow" value="15"/>
+            <skill id="Crossbow" value="40"/>
+            <skill id="Throwing" value="15"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rekgeist_pfähler"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sturgia_lance_1_t4"/>
+                <equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+                <equipment slot="Item2" id="Item.morningstar_mace_t3"/>
+                <equipment slot="Head" id="Item.TV_vlandia_helmet_l"/>
+                <equipment slot="Body" id="Item.Sa_brigandine6"/>
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
+                <equipment slot="Leg" id="Item.TV_empire_boots_c"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rekgeist_pfähler"
+        default_group="Infantry"
+        level="21"
+        name="{=Rekgeist P4}Rekgeist Pfähler"
+        occupation="Soldier"
+        culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="110"/>
+            <skill id="Riding" value="40"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="110"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="60"/>
+            <skill id="Throwing" value="20"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rekgeist_uberpfahler"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.northern_spear_4_t5"/>
+                <equipment slot="Item1" id="Item.tall_heater_shield"/>
+                <equipment slot="Item2" id="Item.empire_mace_2_t4"/>
+                <equipment slot="Head" id="Item.sallet_no_visor"/>
+                <equipment slot="Body" id="Item.Sa_brigandine5"/>
+                <equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+                <equipment slot="Leg" id="Item.plate_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rekgeist_uberpfahler"
+        default_group="Infantry"
+        level="26"
+        name="{=Rekgeist P5}Rekgeist Überpfähler"
+        occupation="Soldier"
+        culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="150"/>
+            <skill id="Riding" value="60"/>
+            <skill id="OneHanded" value="140"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="160"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="70"/>
+            <skill id="Throwing" value="30"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+                <equipment slot="Item1" id="Item.tall_heater_shield"/>
+                <equipment slot="Item2" id="Item.empire_mace_4_t5"/>
+                <equipment slot="Head" id="Item.sallet_base"/>
+                <equipment slot="Body" id="Item.Sa_brigandine_plate3"/>
+                <equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
+                <equipment slot="Leg" id="Item.sa_2ChurburghBoots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
 </NPCCharacters>

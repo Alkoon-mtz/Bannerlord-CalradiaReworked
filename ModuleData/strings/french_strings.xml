@@ -12,6 +12,6 @@
     <string id="str_adjective_for_faction.french" text="{=E11FR_adj_fac}French" />
     <string id="str_short_term_for_faction.french" text="{=E11FR_short_term}Frankia" />
     <string id="str_faction_formal_name_for_culture.french" text="{=E11FR_formal_name}The Powerhouse of Frankia" />
-    <string id="str_faction_informal_name_for_culture.french" text="{=E11FR_informal_name}the Franks" />	
-	<string id="str_culture_description.french" text="{=E11FR_desc}France rules bebe" />	
+    <string id="str_faction_informal_name_for_culture.french" text="{=E11FR_informal_name}the Franks" />
+    <string id="str_culture_description.french" text="{=E11FR_desc}France rules bebe" />
 </strings>
