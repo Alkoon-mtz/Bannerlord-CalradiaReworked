@@ -171,4 +171,18 @@
                 scale_factor="100" />
         </Pieces>
     </CraftedItem>
+    <CraftedItem id="scarhok_archer_axe_t5"
+        name="{=scarhok_archer_axe_t5}Scarhok Bearded Axe"
+        crafting_template="OneHandedAxe"
+        culture="Culture.battania"
+        modifier_group="axe">
+        <Pieces>
+            <Piece id="axe_craft_9_head"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="axe_craft_21_handle"
+                Type="Handle"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
 </Items>

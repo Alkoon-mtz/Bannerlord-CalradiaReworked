@@ -45,7 +45,7 @@
     <xsl:template match="WeaponDescription[@id='TwoHandedSword']/AvailablePieces">
         <xsl:copy>
             <xsl:apply-templates/>
-            <AvailablePiece id="vlandian_blade_3_x2" />
+            <AvailablePiece id="rekgeist_blade_elite_t5" />
         </xsl:copy>
     </xsl:template>
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CraftingPieces>
     <CraftingPiece
-        id="rekgesit_blade_elite_t5"
+        id="rekgeist_blade_elite_t5"
         name="{=ZweihanderBlade}Zweihander Blade"
         tier="5"
         piece_type="Blade"
-        mesh="rekgesit_blade_elite_t5"
+        mesh="rekgeist_blade_elite_t5"
         culture="Culture.vlandia"
         length="99.4"
         weight="1.35">

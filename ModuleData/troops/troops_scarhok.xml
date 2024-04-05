@@ -1,130 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
 <!-- Elitetroop Scarhok -->
-<!-- Regulartroop Scarhok -->
-    <!-- Left Scarhok -->
-    <!-- Midle Scarhok -->
-    <!-- Right Scarhok -->
-    <NPCCharacter id="copy_basic_root"
-        default_group="Infantry"
-        level="6"
-        name="{=Recruit}Recruit"
-        occupation="Soldier"
-        culture="Culture.vlandia">
-        <face>
-            <face_key_template value="BodyProperty.villager_vlandia"/>
-        </face>
-        <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
-        </skills>
-        <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_basic_root0"/>
-            <upgrade_target id="NPCCharacter.copy_basic_root1"/>
-        </upgrade_targets>
-        <Equipments>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
-                <equipment slot="Body" id="Item.leather_coat_over_cloth"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
-                <equipment slot="Head" id="Item.padded_cap"/>
-                <equipment slot="Cape" id="Item.scarf"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
-                <equipment slot="Head" id="Item.leather_cap"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pickaxe_1_t1"/>
-                <equipment slot="Head" id="Item.padded_cap"/>
-                <equipment slot="Cape" id="Item.hood"/>
-                <equipment slot="Body" id="Item.sackcloth_tunic"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="copy_elite_root"
-        default_group="Infantry"
-        level="11"
-        name="{=Elite Recruit}Elite Recruit"
-        occupation="Soldier"
-        culture="Culture.vlandia">
-        <face>
-            <face_key_template value="BodyProperty.villager_vlandia"/>
-        </face>
-        <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
-        </skills>
-        <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_elite_root0"/>
-        </upgrade_targets>
-        <Equipments>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.seax"/>
-                <equipment slot="Item1" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Gloves" id="Item.armwraps"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hammer_2_t1"/>
-                <equipment slot="Head" id="Item.wrapped_headcloth"/>
-                <equipment slot="Body" id="Item.vlandia_bandit_c"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-            <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="copy_elite_root0"
+    <NPCCharacter id="scarhok_boukhal"
         default_group="Infantry"
         level="16"
-        name="{=Elite Soldier0}Elite Soldier0"
+        name="{=scarhok_boukhal}Scarhok Boukhal"
         occupation="Soldier"
-        culture="Culture.vlandia">
+        culture="Culture.vlandia"
+        is_basic_troop="true">
         <face>
-            <face_key_template value="BodyProperty.villager_vlandia"/>
+            <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -137,11 +22,11 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_elite_root00"/>
+            <upgrade_target id="NPCCharacter.scarhok_kigenn"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+                <equipment slot="Item0" id="Item.scarhok_elite_axe_t3"/>
                 <equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
                 <equipment slot="Head" id="Item.tv_vlandia_helmet_b2"/>
                 <equipment slot="Cape" id="Item.hood"/>
@@ -149,28 +34,6 @@
                 <equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
                 <equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
             </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
-                <equipment slot="Item1" id="Item.chivalric_kite_shield"/>
-                <equipment slot="Head" id="Item.tv_vlandia_helmet_i"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.seax"/>
-                <equipment slot="Item1" id="Item.chivalric_kite_shield"/>
-                <equipment slot="Head" id="Item.tv_vlandia_helmet_i"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Gloves" id="Item.armwraps"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hammer_2_t1"/>
-                <equipment slot="Item1" id="Item.chivalric_kite_shield"/>
-                <equipment slot="Head" id="Item.tv_vlandia_helmet_i"/>
-                <equipment slot="Body" id="Item.vlandia_bandit_c"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
                 <equipment slot="Item2" id="Item.throwing_stone"/>
@@ -179,14 +42,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="copy_elite_root00"
+    <NPCCharacter id="scarhok_kigenn"
         default_group="Infantry"
         level="21"
-        name="{=Elite Soldier00}Elite Soldier00"
+        name="{=scarhok_kigenn}Scarhok Kigenn"
         occupation="Soldier"
         culture="Culture.vlandia">
         <face>
-            <face_key_template value="BodyProperty.villager_vlandia"/>
+            <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -199,11 +62,11 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_elite_root000"/>
+            <upgrade_target id="NPCCharacter.scarhok_haveroi"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.sturgia_axe_5_t5"/>
+                <equipment slot="Item0" id="Item.scarhok_elite_axe_t4"/>
                 <equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
                 <equipment slot="Head" id="Item.tv_vlandia_helmet_b3"/>
                 <equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
@@ -211,26 +74,6 @@
                 <equipment slot="Gloves" id="Item.TV_vlandia_gloves_g"/>
                 <equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
             </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
-                <equipment slot="Head" id="Item.tv_vlandia_helmet_i2"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.seax"/>
-                <equipment slot="Item1" id="Item.throwing_stone"/>
-                <equipment slot="Head" id="Item.tv_vlandia_helmet_i2"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Gloves" id="Item.armwraps"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hammer_2_t1"/>
-                <equipment slot="Head" id="Item.tv_vlandia_helmet_i2"/>
-                <equipment slot="Body" id="Item.vlandia_bandit_c"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
                 <equipment slot="Item2" id="Item.throwing_stone"/>
@@ -239,14 +82,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="copy_elite_root000"
+    <NPCCharacter id="scarhok_haveroi"
         default_group="Infantry"
         level="26"
-        name="{=Elite Soldier000}Elite Soldier000"
+        name="{=scarhok_haveroi}Scarhok Haveroi"
         occupation="Soldier"
         culture="Culture.vlandia">
         <face>
-            <face_key_template value="BodyProperty.villager_vlandia"/>
+            <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -259,11 +102,11 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_elite_root0000"/>
+            <upgrade_target id="NPCCharacter.scarhok_elite_haveroi"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.norman_axe_t4"/>
+                <equipment slot="Item0" id="Item.scarhok_elite_axe_t5"/>
                 <equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
                 <equipment slot="Head" id="Item.tv_vlandia_helmet_b4"/>
                 <equipment slot="Cape" id="Item.DZ_vlandia_shoulders_a"/>
@@ -271,26 +114,6 @@
                 <equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
                 <equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
             </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
-                <equipment slot="Head" id="Item.tv_vlandia_helmet_j"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.seax"/>
-                <equipment slot="Item1" id="Item.throwing_stone"/>
-                <equipment slot="Head" id="Item.tv_vlandia_helmet_i3"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Gloves" id="Item.armwraps"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hammer_2_t1"/>
-                <equipment slot="Head" id="Item.tv_vlandia_helmet_i3"/>
-                <equipment slot="Body" id="Item.vlandia_bandit_c"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
                 <equipment slot="Item2" id="Item.throwing_stone"/>
@@ -299,14 +122,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="copy_elite_root0000"
+    <NPCCharacter id="scarhok_elite_haveroi"
         default_group="Infantry"
         level="31"
-        name="{=Elite Soldier0000}Elite Soldier0000"
+        name="{=scarhok_elite_haveroi}Scarhok Elite Haveroi"
         occupation="Soldier"
         culture="Culture.vlandia">
         <face>
-            <face_key_template value="BodyProperty.villager_vlandia"/>
+            <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -320,35 +143,13 @@
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.norman_axe_t5"/>
+                <equipment slot="Item0" id="Item.scarhok_elite_axe_t6"/>
                 <equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
                 <equipment slot="Head" id="Item.italio_norman_helm"/>
                 <equipment slot="Cape" id="Item.AR_vlandia_shoulders_f"/>
                 <equipment slot="Body" id="Item.AR_vlandia_armor_b"/>
                 <equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
                 <equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
-                <equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
-                <equipment slot="Head" id="Item.AR_battania_lord_helmet_d"/>
-                <equipment slot="Body" id="Item.AR_vlandia_armor_b"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.seax"/>
-                <equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
-                <equipment slot="Head" id="Item.italio_norman_helm"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Gloves" id="Item.armwraps"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hammer_2_t1"/>
-                <equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
-                <equipment slot="Head" id="Item.vlandian_faceguard_helmet_b"/>
-                <equipment slot="Body" id="Item.vlandia_bandit_c"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
@@ -358,14 +159,16 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="copy_basic_root0"
+<!-- Regulartroop Scarhok -->
+    <NPCCharacter id="scarhok_recruit"
         default_group="Infantry"
-        level="11"
-        name="{=Soldier0}Soldier0"
+        level="6"
+        name="{=scarhok_recruit}Scarhok Recruit"
         occupation="Soldier"
-        culture="Culture.vlandia">
+        culture="Culture.vlandia"
+        is_basic_troop="true">
         <face>
-            <face_key_template value="BodyProperty.villager_vlandia"/>
+            <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -378,8 +181,44 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_basic_root00"/>
-            <upgrade_target id="NPCCharacter.copy_basic_root01"/>
+            <upgrade_target id="NPCCharacter.scarhok_soudard"/>
+            <upgrade_target id="NPCCharacter.scarhok_axe_wielder"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+                <equipment slot="Body" id="Item.leather_coat_over_cloth"/>
+                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+                <equipment slot="Body" id="Item.leather_coat_over_cloth"/>
+                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scarhok_soudard"
+        default_group="Infantry"
+        level="11"
+        name="{=scarhok_soudard}Scarhok Soudard"
+        occupation="Soldier"
+        culture="Culture.vlandia">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scarhok"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="0"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="0"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="0"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scarhok_gareg"/>
+            <upgrade_target id="NPCCharacter.scarhok_marhig"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -391,24 +230,6 @@
                 <equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
                 <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
             </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
-                <equipment slot="Head" id="Item.nasalhelm_over_leather"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
-                <equipment slot="Head" id="Item.nasalhelm_over_leather"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pickaxe_1_t1"/>
-                <equipment slot="Head" id="Item.nasalhelm_over_leather"/>
-                <equipment slot="Body" id="Item.sackcloth_tunic"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
                 <equipment slot="Item2" id="Item.throwing_stone"/>
@@ -417,247 +238,15 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="copy_basic_root1"
-        default_group="Infantry"
-        level="11"
-        name="{=Soldier1}Soldier1"
-        occupation="Soldier"
-        culture="Culture.vlandia">
-        <face>
-            <face_key_template value="BodyProperty.villager_vlandia"/>
-        </face>
-        <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
-        </skills>
-        <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_basic_root10"/>
-        </upgrade_targets>
-        <Equipments>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.normand_throwing_axe_4_t1"/>
-                <equipment slot="Item1" id="Item.normand_throwing_axe_4_t1"/>
-                <equipment slot="Item2" id="Item.simple_sparth_axe_t2"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_i"/>
-                <equipment slot="Cape" id="Item.battania_woodland_cloak"/>
-                <equipment slot="Body" id="Item.nordic_sloven"/>
-                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
-                <equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_i"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_i"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pickaxe_1_t1"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_i"/>
-                <equipment slot="Body" id="Item.sackcloth_tunic"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="copy_basic_root10"
-        default_group="Infantry"
-        level="16"
-        name="{=Soldier10}Soldier10"
-        occupation="Soldier"
-        culture="Culture.vlandia">
-        <face>
-            <face_key_template value="BodyProperty.villager_vlandia"/>
-        </face>
-        <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
-        </skills>
-        <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_basic_root100"/>
-        </upgrade_targets>
-        <Equipments>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.normand_throwing_axe_4_t1"/>
-                <equipment slot="Item1" id="Item.normand_throwing_axe_4_t1"/>
-                <equipment slot="Item2" id="Item.battania_2haxe_1_t2"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_u"/>
-                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
-                <equipment slot="Body" id="Item.ao_nordic_sloven_mail_sleeveless"/>
-                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
-                <equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_j"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_j"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pickaxe_1_t1"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_j"/>
-                <equipment slot="Body" id="Item.sackcloth_tunic"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="copy_basic_root100"
-        default_group="Infantry"
-        level="21"
-        name="{=Normand Throwing Axeman}Normand Throwing Axeman"
-        occupation="Soldier"
-        culture="Culture.vlandia">
-        <face>
-            <face_key_template value="BodyProperty.villager_vlandia"/>
-        </face>
-        <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
-        </skills>
-        <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_basic_root1000"/>
-        </upgrade_targets>
-        <Equipments>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.normand_throwing_axe_4_t1"/>
-                <equipment slot="Item1" id="Item.normand_throwing_axe_4_t1"/>
-                <equipment slot="Item2" id="Item.normand_axethrower_axe"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_u2"/>
-                <equipment slot="Cape" id="Item.DZ_vlandia_shoulders_b"/>
-                <equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
-                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
-                <equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_e"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_e"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pickaxe_1_t1"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_e"/>
-                <equipment slot="Body" id="Item.sackcloth_tunic"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="copy_basic_root1000"
-        default_group="Infantry"
-        level="26"
-        name="{=Normand Elite Throwing Axeman}Normand Elite Throwing Axeman"
-        occupation="Soldier"
-        culture="Culture.vlandia">
-        <face>
-            <face_key_template value="BodyProperty.villager_vlandia"/>
-        </face>
-        <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
-        </skills>
-        <Equipments>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.normand_throwing_axe_4_t1"/>
-                <equipment slot="Item1" id="Item.normand_throwing_axe_4_t1"/>
-                <equipment slot="Item2" id="Item.normand_axethrower_axe"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_f"/>
-                <equipment slot="Cape" id="Item.DZ_vlandia_shoulders_b"/>
-                <equipment slot="Body" id="Item.AR_sturgia_armor_c"/>
-                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
-                <equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_f"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_f"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pickaxe_1_t1"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_f"/>
-                <equipment slot="Body" id="Item.sackcloth_tunic"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="copy_basic_root00"
+    <!-- Left Scarhok -->
+    <NPCCharacter id="scarhok_gareg"
         default_group="Ranged"
         level="16"
-        name="{=Soldier00}Soldier00"
+        name="{=scarhok_gareg}Scarhok Gareg"
         occupation="Soldier"
         culture="Culture.vlandia">
         <face>
-            <face_key_template value="BodyProperty.villager_vlandia"/>
+            <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -670,7 +259,7 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_basic_root000"/>
+            <upgrade_target id="NPCCharacter.scarhok_gareker"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -684,24 +273,6 @@
                 <equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
                 <equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
             </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
-                <equipment slot="Head" id="Item.nasal_helmet"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
-                <equipment slot="Head" id="Item.nasal_helmet"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pickaxe_1_t1"/>
-                <equipment slot="Head" id="Item.nasal_helmet"/>
-                <equipment slot="Body" id="Item.sackcloth_tunic"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
                 <equipment slot="Item2" id="Item.throwing_stone"/>
@@ -710,15 +281,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="copy_basic_root01"
-        default_group="Cavalry"
-        level="16"
-        name="{=Soldier01}Soldier01"
-        upgrade_requires="ItemCategory.horse"
+    <NPCCharacter id="scarhok_gareker"
+        default_group="Ranged"
+        level="21"
+        name="{=scarhok_gareker}Scarhok Gareker"
         occupation="Soldier"
         culture="Culture.vlandia">
         <face>
-            <face_key_template value="BodyProperty.villager_vlandia"/>
+            <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -731,7 +301,90 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_basic_root010"/>
+            <upgrade_target id="NPCCharacter.scarhok_garhaner"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.lowland_yew_bow"/>
+                <equipment slot="Item1" id="Item.range_arrows"/>
+                <equipment slot="Item2" id="Item.range_arrows"/>
+                <equipment slot="Item3" id="Item.battania_axe_2_t4"/>
+                <equipment slot="Head" id="Item.ao_vlandian_nasal_helmet_with_mail_coif"/>
+                <equipment slot="Cape" id="Item.hood"/>
+                <equipment slot="Body" id="Item.AO_eorling_armor_d"/>
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
+                <equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scarhok_garhaner"
+        default_group="Ranged"
+        level="26"
+        name="{=scarhok_garhaner}Scarhok Garhaner"
+        occupation="Soldier"
+        culture="Culture.vlandia">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scarhok"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="0"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="0"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="0"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.lowland_yew_bow"/>
+                <equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+                <equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+                <equipment slot="Item3" id="Item.scarhok_archer_axe_t5"/>
+                <equipment slot="Head" id="Item.nasal_helmet_with_mail"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
+                <equipment slot="Body" id="Item.ao_eorling_bronze_scale_over_mail"/>
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
+                <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <!-- Midle Scarhok -->
+    <NPCCharacter id="scarhok_marhig"
+        default_group="Cavalry"
+        level="16"
+        name="{=scarhok_marhig}Scarhok Marhig"
+        upgrade_requires="ItemCategory.horse"
+        occupation="Soldier"
+        culture="Culture.vlandia">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scarhok"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="0"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="0"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="0"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scarhok_strellig"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -745,26 +398,6 @@
                 <equipment slot="Horse" id="Item.sturgia_horse"/>
                 <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
             </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_m"/>
-                <equipment slot="Cape" id="Item.scarf"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_m"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pickaxe_1_t1"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_m"/>
-                <equipment slot="Cape" id="Item.hood"/>
-                <equipment slot="Body" id="Item.sackcloth_tunic"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
                 <equipment slot="Item2" id="Item.throwing_stone"/>
@@ -773,15 +406,15 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="copy_basic_root010"
+    <NPCCharacter id="scarhok_strellig"
         default_group="Cavalry"
         level="21"
-        name="{=Soldier010}Soldier010"
+        name="{=scarhok_strellig}Scarhok Strellig"
         upgrade_requires="ItemCategory.war_horse"
         occupation="Soldier"
         culture="Culture.vlandia">
         <face>
-            <face_key_template value="BodyProperty.villager_vlandia"/>
+            <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -806,24 +439,6 @@
                 <equipment slot="Horse" id="Item.t2_sturgia_horse"/>
                 <equipment slot="HorseHarness" id="Item.northern_light_harness"/>
             </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_o"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_o"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pickaxe_1_t1"/>
-                <equipment slot="Head" id="Item.TV_nord_helmet_o"/>
-                <equipment slot="Body" id="Item.sackcloth_tunic"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
                 <equipment slot="Item2" id="Item.throwing_stone"/>
@@ -832,14 +447,15 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="copy_basic_root000"
-        default_group="Ranged"
-        level="21"
-        name="{=Soldier000}Soldier000"
+    <!-- Right Scarhok -->
+    <NPCCharacter id="scarhok_axe_wielder"
+        default_group="Infantry"
+        level="11"
+        name="{=scarhok_axe_wielder}Scarhok Axe Wielder"
         occupation="Soldier"
         culture="Culture.vlandia">
         <face>
-            <face_key_template value="BodyProperty.villager_vlandia"/>
+            <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -852,37 +468,18 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_basic_root0000"/>
+            <upgrade_target id="NPCCharacter.scarhok_axe_thrower"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.lowland_yew_bow"/>
-                <equipment slot="Item1" id="Item.range_arrows"/>
-                <equipment slot="Item2" id="Item.range_arrows"/>
-                <equipment slot="Item3" id="Item.battania_axe_2_t4"/>
-                <equipment slot="Head" id="Item.ao_vlandian_nasal_helmet_with_mail_coif"/>
-                <equipment slot="Cape" id="Item.hood"/>
-                <equipment slot="Body" id="Item.AO_eorling_armor_d"/>
-                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
-                <equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
-                <equipment slot="Head" id="Item.ao_vlandian_nasal_helmet_with_mail_coif"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
-                <equipment slot="Head" id="Item.ao_vlandian_nasal_helmet_with_mail_coif"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pickaxe_1_t1"/>
-                <equipment slot="Head" id="Item.ao_vlandian_nasal_helmet_with_mail_coif"/>
-                <equipment slot="Body" id="Item.sackcloth_tunic"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
+                <equipment slot="Item0" id="Item.scarhok_throwing_axe_t2"/>
+                <equipment slot="Item1" id="Item.scarhok_throwing_axe_t2"/>
+                <equipment slot="Item2" id="Item.scarhok_axethrower_axe_t2"/>
+                <equipment slot="Head" id="Item.TV_nord_helmet_i"/>
+                <equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+                <equipment slot="Body" id="Item.nordic_sloven"/>
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
+                <equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
@@ -892,14 +489,96 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="copy_basic_root0000"
-        default_group="Ranged"
-        level="26"
-        name="{=Soldier0000}Soldier0000"
+    <NPCCharacter id="scarhok_axe_thrower"
+        default_group="Infantry"
+        level="16"
+        name="{=scarhok_axe_thrower}Scarhok Axe Thrower"
         occupation="Soldier"
         culture="Culture.vlandia">
         <face>
-            <face_key_template value="BodyProperty.villager_vlandia"/>
+            <face_key_template value="BodyProperty.fighter_scarhok"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="0"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="0"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="0"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scarhok_throwing_axeman"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.scarhok_throwing_axe_t3"/>
+                <equipment slot="Item1" id="Item.scarhok_throwing_axe_t3"/>
+                <equipment slot="Item2" id="Item.scarhok_axethrower_axe_t3"/>
+                <equipment slot="Head" id="Item.TV_nord_helmet_u"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+                <equipment slot="Body" id="Item.ao_nordic_sloven_mail_sleeveless"/>
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
+                <equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scarhok_throwing_axeman"
+        default_group="Infantry"
+        level="21"
+        name="{=scarhok_throwing_axeman}Scarhok Throwing Axeman"
+        occupation="Soldier"
+        culture="Culture.vlandia">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scarhok"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="0"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="0"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="0"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scarhok_elite_throwing_axeman"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.scarhok_throwing_axe_t4"/>
+                <equipment slot="Item1" id="Item.scarhok_throwing_axe_t4"/>
+                <equipment slot="Item2" id="Item.scarhok_axethrower_axe_t4"/>
+                <equipment slot="Head" id="Item.TV_nord_helmet_u2"/>
+                <equipment slot="Cape" id="Item.DZ_vlandia_shoulders_b"/>
+                <equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
+                <equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scarhok_elite_throwing_axeman"
+        default_group="Infantry"
+        level="26"
+        name="{=scarhok_elite_throwing_axeman}Scarhok Elite Throwing Axeman"
+        occupation="Soldier"
+        culture="Culture.vlandia">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -913,33 +592,14 @@
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.lowland_yew_bow"/>
-                <equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-                <equipment slot="Item2" id="Item.bodkin_arrows_a"/>
-                <equipment slot="Item3" id="Item.battania_axe_3_t5"/>
-                <equipment slot="Head" id="Item.nasal_helmet_with_mail"/>
-                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
-                <equipment slot="Body" id="Item.ao_eorling_bronze_scale_over_mail"/>
+                <equipment slot="Item0" id="Item.scarhok_throwing_axe_t5"/>
+                <equipment slot="Item1" id="Item.scarhok_throwing_axe_t5"/>
+                <equipment slot="Item2" id="Item.scarhok_axethrower_axe_t5"/>
+                <equipment slot="Head" id="Item.TV_nord_helmet_f"/>
+                <equipment slot="Cape" id="Item.DZ_vlandia_shoulders_b"/>
+                <equipment slot="Body" id="Item.AR_sturgia_armor_c"/>
                 <equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
-                <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
-                <equipment slot="Head" id="Item.nasal_helmet_with_mail"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
-                <equipment slot="Head" id="Item.nasal_helmet_with_mail"/>
-                <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pickaxe_1_t1"/>
-                <equipment slot="Head" id="Item.nasal_helmet_with_mail"/>
-                <equipment slot="Body" id="Item.sackcloth_tunic"/>
-                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
+                <equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-<!-- Elitetroop Rekgeist -->
+<!-- Elitetroop Zulizwe -->
     <NPCCharacter id="zulizwe_impi"
         default_group="Infantry"
         level="16"
@@ -167,7 +167,7 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-<!-- Regulartroop Rekgeist -->
+<!-- Regulartroop Zulizwe -->
     <NPCCharacter id="zulizwe_recruit"
         default_group="Infantry"
         level="6"
@@ -304,7 +304,7 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <!-- Left Rekgeist -->
+    <!-- Left Zulizwe -->
     <NPCCharacter id="zulizwe_farasi"
         default_group="Cavalry"
         level="16"
@@ -536,7 +536,7 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <!-- Midle Rekgeist -->
+    <!-- Midle Zulizwe -->
     <NPCCharacter id="zulizwe_kwato"
         default_group="HorseArcher"
         level="16"
@@ -703,7 +703,7 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <!-- Right Rekgeist -->
+    <!-- Right Zulizwe -->
     <NPCCharacter id="zulizwe_mshale"
         default_group="Ranged"
         level="11"
