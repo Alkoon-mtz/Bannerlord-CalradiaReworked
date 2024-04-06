@@ -13,7 +13,3 @@ Scarhok banners
 Scarhoks :
 Change value for AR_vlandia_armor_a2 => Scarhok elite T4 ?
 Change value for AR_vlandia_armor_a => Scarhok elite T5 (downgrad a little)
-Make Axes :
-    Change handle to a shorter one (see elite t3)
-    Elite axe t3/4/5/6 models base on axe_craft_8_head
-    Thrower axe t2/3/4/5 use resized models

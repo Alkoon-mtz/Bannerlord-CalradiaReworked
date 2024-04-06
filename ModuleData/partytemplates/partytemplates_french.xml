@@ -1,72 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
 <partyTemplates>
-<!-- Party Civilian -->
+    <!-- Party Civilian -->
     <MBPartyTemplate id="french_villager_template">
         <stacks>
-            <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_vlandia" />
+            <PartyTemplateStack min_value="15"
+                max_value="30"
+                troop="NPCCharacter.villager_vlandia" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="french_rebels_template">
         <stacks>
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.french_recruit" />
+            <PartyTemplateStack min_value="1"
+                max_value="1"
+                troop="NPCCharacter.french_recruit" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="french_caravan_template">
         <stacks>
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_vlandia" />
-            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_vlandia" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_vlandia" />
+            <PartyTemplateStack min_value="8"
+                max_value="8"
+                troop="NPCCharacter.armed_trader_vlandia" />
+            <PartyTemplateStack min_value="4"
+                max_value="4"
+                troop="NPCCharacter.caravan_guard_vlandia" />
+            <PartyTemplateStack min_value="2"
+                max_value="2"
+                troop="NPCCharacter.veteran_caravan_guard_vlandia" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="french_elite_caravan_template">
         <stacks>
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_vlandia" />
-            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_vlandia" />
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_vlandia" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_vlandia" />
+            <PartyTemplateStack min_value="8"
+                max_value="8"
+                troop="NPCCharacter.armed_trader_vlandia" />
+            <PartyTemplateStack min_value="7"
+                max_value="7"
+                troop="NPCCharacter.caravan_guard_vlandia" />
+            <PartyTemplateStack min_value="8"
+                max_value="8"
+                troop="NPCCharacter.veteran_caravan_guard_vlandia" />
+            <PartyTemplateStack min_value="2"
+                max_value="2"
+                troop="NPCCharacter.caravan_master_vlandia" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="french_militia_template">
         <stacks>
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.vlandian_militia_spearman" />
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.vlandian_militia_archer" />
+            <PartyTemplateStack min_value="1"
+                max_value="1"
+                troop="NPCCharacter.vlandian_militia_spearman" />
+            <PartyTemplateStack min_value="1"
+                max_value="1"
+                troop="NPCCharacter.vlandian_militia_archer" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="french_kingdom_hero_party_template">
         <stacks>
-            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.french_recruit" />
-            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.french_footman" />
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.french_swordsman" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.french_sergeant" />
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.french_cavalry" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.french_heavy_cavalry" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.french_champion" />
-            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.french_elite_crossbowman" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.french_elite_sharpshooter" />
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.french_baron" />
+            <PartyTemplateStack min_value="16"
+                max_value="16"
+                troop="NPCCharacter.french_recruit" />
+            <PartyTemplateStack min_value="4"
+                max_value="4"
+                troop="NPCCharacter.french_footman" />
+            <PartyTemplateStack min_value="8"
+                max_value="8"
+                troop="NPCCharacter.french_swordsman" />
+            <PartyTemplateStack min_value="2"
+                max_value="2"
+                troop="NPCCharacter.french_sergeant" />
+            <PartyTemplateStack min_value="8"
+                max_value="8"
+                troop="NPCCharacter.french_cavalry" />
+            <PartyTemplateStack min_value="2"
+                max_value="2"
+                troop="NPCCharacter.french_heavy_cavalry" />
+            <PartyTemplateStack min_value="2"
+                max_value="2"
+                troop="NPCCharacter.french_champion" />
+            <PartyTemplateStack min_value="4"
+                max_value="4"
+                troop="NPCCharacter.french_elite_crossbowman" />
+            <PartyTemplateStack min_value="2"
+                max_value="2"
+                troop="NPCCharacter.french_elite_sharpshooter" />
+            <PartyTemplateStack min_value="8"
+                max_value="8"
+                troop="NPCCharacter.french_baron" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="french_kingdom_hero_party_mercenary_template">
         <stacks>
-            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.company_of_the_boar_tier_3" />
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.company_of_the_boar_tier_2" />
-            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.company_of_the_boar_tier_1" />
+            <PartyTemplateStack min_value="4"
+                max_value="4"
+                troop="NPCCharacter.company_of_the_boar_tier_3" />
+            <PartyTemplateStack min_value="8"
+                max_value="8"
+                troop="NPCCharacter.company_of_the_boar_tier_2" />
+            <PartyTemplateStack min_value="16"
+                max_value="16"
+                troop="NPCCharacter.company_of_the_boar_tier_1" />
         </stacks>
     </MBPartyTemplate>
+
     <MBPartyTemplate id="french_kingdom_hero_party_outlaw_template">
         <stacks>
-            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.brotherhood_of_woods_tier_3" />
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.brotherhood_of_woods_tier_2" />
-            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.brotherhood_of_woods_tier_1" />
+            <PartyTemplateStack min_value="4"
+                max_value="4"
+                troop="NPCCharacter.brotherhood_of_woods_tier_3" />
+            <PartyTemplateStack min_value="8"
+                max_value="8"
+                troop="NPCCharacter.brotherhood_of_woods_tier_2" />
+            <PartyTemplateStack min_value="16"
+                max_value="16"
+                troop="NPCCharacter.brotherhood_of_woods_tier_1" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="french_vassal_reward_troops">
         <stacks>
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.french_duke" />
-            <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.french_heavy_cavalry" />
+            <PartyTemplateStack min_value="1"
+                max_value="1"
+                troop="NPCCharacter.french_duke" />
+            <PartyTemplateStack min_value="5"
+                max_value="5"
+                troop="NPCCharacter.french_heavy_cavalry" />
         </stacks>
     </MBPartyTemplate>
-<!-- Party Civilian end -->
-<!-- Party Lords -->
-<!-- Party Lords end -->
+    <!-- Party Civilian end -->
+    <!-- Party Lords -->
+    <!-- Party Lords end -->
 </partyTemplates>

@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+    <!-- Parents -->
+    <!--1.Boyar's Companion-->
+    <EquipmentRoster id="mother_char_creation_1_sturgia"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.northern_dress" />
+            <Equipment slot="Leg"
+                id="Item.southern_moccasins" />
+            <Equipment slot="Head"
+                id="Item.headscarf_d" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_1_sturgia"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Head"
+                id="Item.nordic_fur_cap" />
+            <Equipment slot="Body"
+                id="Item.nordic_lamellar_armor" />
+            <Equipment slot="Leg"
+                id="Item.strapped_leather_boots" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--2.Trader-->
+    <EquipmentRoster id="mother_char_creation_2_sturgia"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.cut_dress" />
+            <Equipment slot="Leg"
+                id="Item.southern_moccasins" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_2_sturgia"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.merchants_fur_coat" />
+            <Equipment slot="Leg"
+                id="Item.strapped_shoes" />
+            <Equipment slot="Head"
+                id="Item.northern_fur_cap" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--3.Farmer-->
+    <EquipmentRoster id="mother_char_creation_3_sturgia"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Head"
+                id="Item.headscarf_c" />
+            <Equipment slot="Body"
+                id="Item.laced_dress" />
+            <Equipment slot="Leg"
+                id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_3_sturgia"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Head"
+                id="Item.nordic_fur_cap" />
+            <Equipment slot="Body"
+                id="Item.nordic_tunic" />
+            <Equipment slot="Leg"
+                id="Item.strapped_shoes" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--4.Artisan-->
+    <EquipmentRoster id="mother_char_creation_4_sturgia"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.cloth_apron" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+            <Equipment slot="Head"
+                id="Item.head_wrapped" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_4_sturgia"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.leather_apron" />
+            <Equipment slot="Leg"
+                id="Item.leather_cavalier_boots" />
+            <Equipment slot="Head"
+                id="Item.nordic_fur_cap" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--5.Hunter-->
+    <EquipmentRoster id="mother_char_creation_5_sturgia"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.battania_female_civil_a" />
+            <Equipment slot="Leg"
+                id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_5_sturgia"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.battania_civil_b" />
+            <Equipment slot="Leg"
+                id="Item.rough_tied_boots" />
+            <Equipment slot="Head"
+                id="Item.roughhide_cap" />
+            <Equipment slot="Cape"
+                id="Item.battania_woodland_cloak" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--6.Vagabond-->
+    <EquipmentRoster id="mother_char_creation_6_sturgia"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.plain_dress" />
+            <Equipment slot="Leg"
+                id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_6_sturgia"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.torn_bandit_clothes" />
+            <Equipment slot="Leg"
+                id="Item.fine_town_boots" />
+        </EquipmentSet>
+    </EquipmentRoster>
+
+    <!-- Culture first choice -->
+    <!--Boyar's companion -->
+    <EquipmentRoster id="player_char_creation_childhood_age_sturgia_1_m"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.heavy_nordic_tunic" />
+            <Equipment slot="Head"
+                id="Item.northern_fur_cap" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_sturgia_1_m"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.heavy_nordic_tunic" />
+            <Equipment slot="Head"
+                id="Item.northern_fur_cap" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_childhood_age_sturgia_1_f"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.northern_dress" />
+            <Equipment slot="Head"
+                id="Item.northern_fur_cap" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_sturgia_1_f"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.northern_dress" />
+            <Equipment slot="Head"
+                id="Item.northern_fur_cap" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Trader -->
+    <EquipmentRoster id="player_char_creation_childhood_age_sturgia_2_m"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.heavy_nordic_coat" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_sturgia_2_m"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.heavy_nordic_coat" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_childhood_age_sturgia_2_f"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.heavy_nordic_coat" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_sturgia_2_f"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.heavy_nordic_coat" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Farmer -->
+    <EquipmentRoster id="player_char_creation_childhood_age_sturgia_3_m"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.nordic_tunic" />
+            <Equipment slot="Head"
+                id="Item.northern_fur_cap" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_sturgia_3_m"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.nordic_tunic" />
+            <Equipment slot="Head"
+                id="Item.northern_fur_cap" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_childhood_age_sturgia_3_f"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.nordic_tunic" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+            <Equipment slot="Head"
+                id="Item.northern_fur_cap" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_sturgia_3_f"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.nordic_tunic" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Artisan -->
+    <EquipmentRoster id="player_char_creation_childhood_age_sturgia_4_m"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.cloth_apron" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_sturgia_4_m"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.cloth_apron" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_childhood_age_sturgia_4_f"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.cloth_apron" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_sturgia_4_f"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.cloth_apron" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Hunter -->
+    <EquipmentRoster id="player_char_creation_childhood_age_sturgia_5_m"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_sturgia_5_m"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_childhood_age_sturgia_5_f"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_sturgia_5_f"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Vagabond -->
+    <EquipmentRoster id="player_char_creation_childhood_age_sturgia_6_m"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.torn_bandit_clothes" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_sturgia_6_m"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.torn_bandit_clothes" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_childhood_age_sturgia_6_f"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.torn_bandit_clothes" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_sturgia_6_f"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.torn_bandit_clothes" />
+        </EquipmentSet>
+    </EquipmentRoster>
+
+    <!-- Special Situations -->
+    <!--trained with hearth guard=> Battania and Sturgia Only, Parents Are Retainers-->
+    <EquipmentRoster id="player_char_creation_sturgia_9_m"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.small_flat_heater_shield" />
+            <Equipment slot="Item1"
+                id="Item.sturgia_axe_2_t2" />
+            <Equipment slot="Item2"
+                id="Item.northern_spear_1_t2" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Leg"
+                id="Item.highland_boots" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness"
+                id="Item.northern_noble_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+            <Equipment slot="Leg"
+                id="Item.highland_boots" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_sturgia_9_f"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.small_flat_heater_shield" />
+            <Equipment slot="Item1"
+                id="Item.sturgia_axe_2_t2" />
+            <Equipment slot="Item2"
+                id="Item.northern_spear_1_t2" />
+            <Equipment slot="Cape"
+                id="Item.female_scarf" />
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Leg"
+                id="Item.highland_boots" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness"
+                id="Item.northern_noble_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Cape"
+                id="Item.female_scarf" />
+            <Equipment slot="Leg"
+                id="Item.highland_boots" />
+        </EquipmentSet>
+    </EquipmentRoster>
+
+    <!--stood guard with the garrisons-->
+    <EquipmentRoster id="player_char_creation_sturgia_1_m"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.sturgia_axe_2_t2" />
+            <Equipment slot="Item1"
+                id="Item.small_flat_heater_shield" />
+            <Equipment slot="Item2"
+                id="Item.hunting_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Body"
+                id="Item.northern_padded_gambeson" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+            <Equipment slot="Head"
+                id="Item.nordic_fur_cap" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Body"
+                id="Item.northern_padded_gambeson" />
+            <Equipment slot="Head"
+                id="Item.nordic_fur_cap" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--stood guard with the garrisons-->
+    <EquipmentRoster id="player_char_creation_sturgia_1_f"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.sturgia_axe_2_t2" />
+            <Equipment slot="Item1"
+                id="Item.small_flat_heater_shield" />
+            <Equipment slot="Item2"
+                id="Item.hunting_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Body"
+                id="Item.northern_padded_gambeson" />
+            <Equipment slot="Cape"
+                id="Item.female_scarf" />
+            <Equipment slot="Head"
+                id="Item.nordic_fur_cap" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Body"
+                id="Item.northern_padded_gambeson" />
+            <Equipment slot="Cape"
+                id="Item.female_scarf" />
+            <Equipment slot="Head"
+                id="Item.nordic_fur_cap" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--rode with the scouts-->
+    <EquipmentRoster id="player_char_creation_sturgia_2_m"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Item2"
+                id="Item.sturgia_axe_2_t2" />
+            <Equipment slot="Item0"
+                id="Item.hunting_bow" />
+            <Equipment slot="Item1"
+                id="Item.default_arrows" />
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+            <Equipment slot="Head"
+                id="Item.nordic_fur_cap" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Head"
+                id="Item.nordic_fur_cap" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--rode with the scouts-->
+    <EquipmentRoster id="player_char_creation_sturgia_2_f"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Item2"
+                id="Item.sturgia_axe_2_t2" />
+            <Equipment slot="Item0"
+                id="Item.hunting_bow" />
+            <Equipment slot="Item1"
+                id="Item.default_arrows" />
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Head"
+                id="Item.nordic_fur_cap" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Head"
+                id="Item.nordic_fur_cap" />
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--trained with the infantry-->
+    <EquipmentRoster id="player_char_creation_sturgia_3_m"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Item2"
+                id="Item.northern_spear_1_t2" />
+            <Equipment slot="Body"
+                id="Item.nordic_padded_cloth" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+            <Equipment slot="Head"
+                id="Item.northern_fur_cap" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Body"
+                id="Item.nordic_padded_cloth" />
+            <Equipment slot="Head"
+                id="Item.northern_fur_cap" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--trained with the infantry-->
+    <EquipmentRoster id="player_char_creation_sturgia_3_f"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Item2"
+                id="Item.northern_spear_1_t2" />
+            <Equipment slot="Body"
+                id="Item.nordic_padded_cloth" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+            <Equipment slot="Head"
+                id="Item.northern_fur_cap" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Head"
+                id="Item.northern_fur_cap" />
+            <Equipment slot="Body"
+                id="Item.nordic_padded_cloth" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--joined the skirmishers-->
+    <EquipmentRoster id="player_char_creation_sturgia_4_m"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Item3"
+                id="Item.northern_javelin_1_t2" />
+            <Equipment slot="Item2"
+                id="Item.northern_javelin_1_t2" />
+            <Equipment slot="Body"
+                id="Item.northern_tunic" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Body"
+                id="Item.northern_tunic" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--joined the skirmishers-->
+    <EquipmentRoster id="player_char_creation_sturgia_4_f"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Item3"
+                id="Item.northern_javelin_1_t2" />
+            <Equipment slot="Item2"
+                id="Item.northern_javelin_1_t2" />
+            <Equipment slot="Body"
+                id="Item.northern_tunic" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="Cape"
+                id="Item.female_scarf" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Cape"
+                id="Item.female_scarf" />
+            <Equipment slot="Body"
+                id="Item.northern_tunic" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--marched with the camp followers-->
+    <EquipmentRoster id="player_char_creation_sturgia_5_m"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.northern_spear_1_t2" />
+            <Equipment slot="Item2"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Body"
+                id="Item.heavy_nordic_coat" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+            <Equipment slot="Head"
+                id="Item.northern_fur_cap" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Body"
+                id="Item.heavy_nordic_coat" />
+            <Equipment slot="Head"
+                id="Item.northern_fur_cap" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--marched with the camp followers-->
+    <EquipmentRoster id="player_char_creation_sturgia_5_f"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.northern_spear_1_t2" />
+            <Equipment slot="Item2"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Head"
+                id="Item.northern_fur_cap" />
+            <Equipment slot="Body"
+                id="Item.heavy_nordic_coat" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Body"
+                id="Item.heavy_nordic_coat" />
+            <Equipment slot="Head"
+                id="Item.northern_fur_cap" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Ignore 6th Option-->
+    <EquipmentRoster id="player_char_creation_sturgia_6_m"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Item2"
+                id="Item.northern_scouts_shield" />
+            <Equipment slot="Item3"
+                id="Item.battania_mace_2_t2" />
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Ignore 6th Option-->
+    <EquipmentRoster id="player_char_creation_sturgia_6_f"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Item2"
+                id="Item.small_flat_heater_shield" />
+            <Equipment slot="Item3"
+                id="Item.battania_mace_2_t2" />
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.sturgia_sword_1_t2" />
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!-- Character creation show armor set -->
+    <EquipmentRoster id="player_char_creation_show_sturgia"
+        culture="Culture.sturgia">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.nordic_lamellar_vest" />
+            <Equipment slot="Gloves"
+                id="Item.highland_gloves" />
+            <Equipment slot="Leg"
+                id="Item.leather_shoes" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.battania_mace_2_t2" />
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+        </EquipmentSet>
+    </EquipmentRoster>
+
+    <!-- Child equipment templates -->
+    <!--Villager -->
+    <EquipmentRoster id="child_template_sturgia_villager_male"
+        culture="Culture.sturgia">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.tundra_tunic" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.roughcloth_shortcoat" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="child_template_sturgia_villager_female"
+        culture="Culture.sturgia">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.tundra_tunic" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.roughcloth_shortcoat" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="teenager_template_sturgia_villager_male"
+        culture="Culture.sturgia">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Leg"
+                id="Item.steppe_leather_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.rough_fur_over_chain" />
+            <Equipment slot="Leg"
+                id="Item.rough_tied_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head"
+                id="Item.nordic_fur_cap" />
+            <Equipment slot="Body"
+                id="Item.heavy_nordic_tunic" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+            <Equipment slot="Leg"
+                id="Item.strapped_leather_boots" />
+        </EquipmentSet>
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="teenager_template_sturgia_villager_female"
+        culture="Culture.sturgia">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head"
+                id="Item.womens_headwrap_b" />
+            <Equipment slot="Body"
+                id="Item.laced_dress" />
+            <Equipment slot="Leg"
+                id="Item.southern_moccasins" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head"
+                id="Item.northern_fur_cap" />
+            <Equipment slot="Body"
+                id="Item.cut_dress" />
+            <Equipment slot="Leg"
+                id="Item.southern_moccasins" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.plain_dress" />
+            <Equipment slot="Leg"
+                id="Item.southern_moccasins" />
+        </EquipmentSet>
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
+    </EquipmentRoster>
+
+    <!--Townsman -->
+    <EquipmentRoster id="child_template_sturgia_townsman_male"
+        culture="Culture.sturgia">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.tundra_tunic" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.leather_coat" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="child_template_sturgia_townsman_female"
+        culture="Culture.sturgia">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.tundra_tunic" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.leather_coat" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="teenager_template_sturgia_townsman_male"
+        culture="Culture.sturgia">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head"
+                id="Item.nordic_fur_cap" />
+            <Equipment slot="Body"
+                id="Item.heavy_nordic_tunic" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+            <Equipment slot="Leg"
+                id="Item.strapped_leather_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.rough_fur_over_chain" />
+            <Equipment slot="Leg"
+                id="Item.rough_tied_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Leg"
+                id="Item.steppe_leather_boots" />
+        </EquipmentSet>
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="teenager_template_sturgia_townsman_female"
+        culture="Culture.sturgia">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.cut_dress_with_pouch" />
+            <Equipment slot="Leg"
+                id="Item.southern_moccasins" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head"
+                id="Item.womens_headwrap_b" />
+            <Equipment slot="Body"
+                id="Item.laced_dress" />
+            <Equipment slot="Leg"
+                id="Item.southern_moccasins" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.laced_dress" />
+            <Equipment slot="Leg"
+                id="Item.southern_moccasins" />
+        </EquipmentSet>
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
+    </EquipmentRoster>
+
+    <!--Noble -->
+    <EquipmentRoster id="child_template_sturgia_noble_male"
+        culture="Culture.sturgia">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.nordic_tunic" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.northern_leather_tabard" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.leather_coat" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="child_template_sturgia_noble_female"
+        culture="Culture.sturgia">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.nordic_tunic" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.northern_leather_tabard" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.leather_coat" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="teenager_template_sturgia_noble_female"
+        culture="Culture.sturgia">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head"
+                id="Item.nordic_leather_cap" />
+            <Equipment slot="Body"
+                id="Item.decorated_nordic_hauberk" />
+            <Equipment slot="Cape"
+                id="Item.battania_cloak_furr" />
+            <Equipment slot="Leg"
+                id="Item.northern_plated_boots" />
+            <Equipment slot="Gloves"
+                id="Item.northern_plated_gloves" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head"
+                id="Item.spangenhelm_with_leather" />
+            <Equipment slot="Body"
+                id="Item.nordic_hauberk" />
+            <Equipment slot="Cape"
+                id="Item.mail_shoulders" />
+            <Equipment slot="Leg"
+                id="Item.strapped_mail_chausses" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Leg"
+                id="Item.steppe_leather_boots" />
+        </EquipmentSet>
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="teenager_template_sturgia_noble_male"
+        culture="Culture.sturgia">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head"
+                id="Item.nordic_leather_cap" />
+            <Equipment slot="Body"
+                id="Item.decorated_nordic_hauberk" />
+            <Equipment slot="Cape"
+                id="Item.battania_cloak_furr" />
+            <Equipment slot="Leg"
+                id="Item.northern_plated_boots" />
+            <Equipment slot="Gloves"
+                id="Item.northern_plated_gloves" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head"
+                id="Item.spangenhelm_with_leather" />
+            <Equipment slot="Body"
+                id="Item.nordic_hauberk" />
+            <Equipment slot="Cape"
+                id="Item.mail_shoulders" />
+            <Equipment slot="Leg"
+                id="Item.strapped_mail_chausses" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.northern_leather_vest" />
+            <Equipment slot="Leg"
+                id="Item.steppe_leather_boots" />
+        </EquipmentSet>
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
+    </EquipmentRoster>
+</EquipmentRosters>

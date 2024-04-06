@@ -1,12 +1,348 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
+    <NPCCharacter id="villager_rekgeist"
+        default_group="Infantry"
+        level="1"
+        name="{=villager_rekgeist}Rekgeist Peasant"
+        occupation="Villager"
+        culture="Culture.rekgeist"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <BodyProperties
+                version="4"
+                age="24.29"
+                weight="0.162"
+                build="0.3657"
+                key="00000007800000800160000000114151100471100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000" />
+            <BodyPropertiesMax
+                version="4"
+                age="67.62"
+                weight="0.733"
+                build="0.6651"
+                key="0013C80E40003406EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE07BAB0780BEFEEEF000000000000000000000000000000000000000067789105" />
+        </face>
+        <skills></skills>
+        <upgrade_targets>
+            <upgrade_target
+                id="NPCCharacter.rekgeist_recruit" />
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster
+                civilian="true">
+                <equipment
+                    slot="Item0"
+                    id="Item.peasant_sickle_1_t1" />
+                <equipment
+                    slot="Body"
+                    id="Item.long_woolen_tunic" />
+                <equipment
+                    slot="Leg"
+                    id="Item.strapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster
+                civilian="true">
+                <equipment
+                    slot="Body"
+                    id="Item.monk_robe" />
+                <equipment
+                    slot="Cape"
+                    id="Item.scarf" />
+                <equipment
+                    slot="Leg"
+                    id="Item.strapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster
+                civilian="true">
+                <equipment
+                    slot="Body"
+                    id="Item.cloth_tunic" />
+                <equipment
+                    slot="Cape"
+                    id="Item.hood" />
+                <equipment
+                    slot="Leg"
+                    id="Item.strapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster
+                civilian="true">
+                <equipment
+                    slot="Body"
+                    id="Item.monk_robe" />
+                <equipment
+                    slot="Leg"
+                    id="Item.strapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster
+                civilian="true">
+                <equipment
+                    slot="Body"
+                    id="Item.cloth_tunic" />
+                <equipment
+                    slot="Leg"
+                    id="Item.strapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster
+                civilian="true">
+                <equipment
+                    slot="Item0"
+                    id="Item.peasant_sickle_1_t1" />
+                <equipment
+                    slot="Head"
+                    id="Item.leather_cap" />
+                <equipment
+                    slot="Body"
+                    id="Item.bandit_leather_water_flask" />
+                <equipment
+                    slot="Leg"
+                    id="Item.wrapped_shoes" />
+                <equipment
+                    slot="Cape"
+                    id="Item.hood" />
+                <equipment
+                    slot="Gloves"
+                    id="Item.leather_gloves" />
+            </EquipmentRoster>
+            <EquipmentRoster
+                civilian="true">
+                <equipment
+                    slot="Body"
+                    id="Item.bandit_leather_water_flask" />
+                <equipment
+                    slot="Leg"
+                    id="Item.strapped_leather_boots" />
+                <equipment
+                    slot="Gloves"
+                    id="Item.leather_gloves" />
+            </EquipmentRoster>
+            <EquipmentRoster
+                civilian="true">
+                <equipment
+                    slot="Cape"
+                    id="Item.hood" />
+                <equipment
+                    slot="Body"
+                    id="Item.cloth_apron" />
+                <equipment
+                    slot="Leg"
+                    id="Item.strapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster
+                civilian="true">
+                <equipment
+                    slot="Body"
+                    id="Item.sackcloth_tunic" />
+                <equipment
+                    slot="Leg"
+                    id="Item.strapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster
+                civilian="true">
+                <equipment
+                    slot="Body"
+                    id="Item.bandit_envelope_dress_v2" />
+                <equipment
+                    slot="Head"
+                    id="Item.leather_cap" />
+                <equipment
+                    slot="Leg"
+                    id="Item.strapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster
+                civilian="true">
+                <equipment
+                    slot="Cape"
+                    id="Item.hood" />
+                <equipment
+                    slot="Body"
+                    id="Item.long_hemp_tunic" />
+                <equipment
+                    slot="Leg"
+                    id="Item.wrapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster
+                civilian="true">
+                <equipment
+                    slot="Body"
+                    id="Item.long_hemp_tunic" />
+                <equipment
+                    slot="Leg"
+                    id="Item.wrapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster
+                civilian="true">
+                <equipment
+                    slot="Cape"
+                    id="Item.hood" />
+                <equipment
+                    slot="Body"
+                    id="Item.long_woolen_tunic" />
+                <equipment
+                    slot="Leg"
+                    id="Item.strapped_leather_boots" />
+                <equipment
+                    slot="Gloves"
+                    id="Item.leather_gloves" />
+            </EquipmentRoster>
+            <EquipmentRoster
+                civilian="true">
+                <equipment
+                    slot="Body"
+                    id="Item.long_woolen_tunic" />
+                <equipment
+                    slot="Leg"
+                    id="Item.strapped_leather_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster
+                civilian="true">
+                <equipment
+                    slot="Cape"
+                    id="Item.hood" />
+                <equipment
+                    slot="Body"
+                    id="Item.sackcloth_tunic" />
+                <equipment
+                    slot="Leg"
+                    id="Item.strapped_leather_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment
+                    slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment
+                    slot="Item1"
+                    id="Item.peasant_polearm_1_t1" />
+                <equipment
+                    slot="Cape"
+                    id="Item.hood" />
+                <equipment
+                    slot="Body"
+                    id="Item.tattered_rags" />
+                <equipment
+                    slot="Leg"
+                    id="Item.strapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment
+                    slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment
+                    slot="Item1"
+                    id="Item.peasant_polearm_1_t1" />
+                <equipment
+                    slot="Body"
+                    id="Item.bandit_envelope_dress_v2" />
+                <equipment
+                    slot="Leg"
+                    id="Item.strapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment
+                    slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment
+                    slot="Item1"
+                    id="Item.peasant_polearm_1_t1" />
+                <equipment
+                    slot="Body"
+                    id="Item.tunic_with_rolled_cloth" />
+                <equipment
+                    slot="Head"
+                    id="Item.leather_cap" />
+                <equipment
+                    slot="Leg"
+                    id="Item.strapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment
+                    slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment
+                    slot="Item1"
+                    id="Item.peasant_polearm_1_t1" />
+                <equipment
+                    slot="Cape"
+                    id="Item.hood" />
+                <equipment
+                    slot="Body"
+                    id="Item.long_hemp_tunic" />
+                <equipment
+                    slot="Leg"
+                    id="Item.wrapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment
+                    slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment
+                    slot="Item1"
+                    id="Item.peasant_2haxe_1_t1" />
+                <equipment
+                    slot="Body"
+                    id="Item.long_hemp_tunic" />
+                <equipment
+                    slot="Leg"
+                    id="Item.wrapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment
+                    slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment
+                    slot="Item1"
+                    id="Item.peasant_2haxe_1_t1" />
+                <equipment
+                    slot="Cape"
+                    id="Item.hood" />
+                <equipment
+                    slot="Body"
+                    id="Item.long_woolen_tunic" />
+                <equipment
+                    slot="Leg"
+                    id="Item.strapped_leather_boots" />
+                <equipment
+                    slot="Gloves"
+                    id="Item.leather_gloves" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment
+                    slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment
+                    slot="Item1"
+                    id="Item.peasant_2haxe_1_t1" />
+                <equipment
+                    slot="Body"
+                    id="Item.long_woolen_tunic" />
+                <equipment
+                    slot="Leg"
+                    id="Item.strapped_leather_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment
+                    slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment
+                    slot="Item1"
+                    id="Item.peasant_2haxe_1_t1" />
+                <equipment
+                    slot="Cape"
+                    id="Item.hood" />
+                <equipment
+                    slot="Body"
+                    id="Item.sackcloth_tunic" />
+                <equipment
+                    slot="Leg"
+                    id="Item.strapped_leather_boots" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
 <!-- Elitetroop Rekgeist -->
     <NPCCharacter id="rekgeist_bidenhänder"
         default_group="Infantry"
         level="16"
         name="{=Rekgeist E3}Rekgeist Bidenhänder"
         occupation="Soldier"
-        culture="Culture.sturgia"
+        culture="Culture.rekgeist"
         is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.villager_sturgia"/>
@@ -46,7 +382,7 @@
         level="21"
         name="{=Rekgeist E4}Rekgeist Beidhänder"
         occupation="Soldier"
-        culture="Culture.sturgia">
+        culture="Culture.rekgeist">
         <face>
             <face_key_template value="BodyProperty.villager_sturgia"/>
         </face>
@@ -86,7 +422,7 @@
         level="26"
         name="{=Rekgeist E5}Rekgeist Doppelhänder"
         occupation="Soldier"
-        culture="Culture.sturgia">
+        culture="Culture.rekgeist">
         <face>
             <face_key_template value="BodyProperty.villager_sturgia"/>
         </face>
@@ -144,7 +480,7 @@
         level="31"
         name="{=Rekgeist E6}Rekgeist Zweihänder"
         occupation="Soldier"
-        culture="Culture.sturgia">
+        culture="Culture.rekgeist">
         <face>
             <face_key_template value="BodyProperty.villager_sturgia"/>
         </face>
@@ -182,7 +518,7 @@
         level="6"
         name="{=Rekgeist Recruit}Rekgeist Recruit"
         occupation="Soldier"
-        culture="Culture.sturgia"
+        culture="Culture.rekgeist"
         is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.villager_sturgia"/>
@@ -240,7 +576,7 @@
         level="11"
         name="{=Rekgeist A2}Rekgeist Wache"
         occupation="Soldier"
-        culture="Culture.sturgia">
+        culture="Culture.rekgeist">
         <face>
             <face_key_template value="BodyProperty.villager_sturgia"/>
         </face>
@@ -283,7 +619,7 @@
         name="{=Rekgeist C3}Rekgeist Reiter"
         upgrade_requires="ItemCategory.horse"
         occupation="Soldier"
-        culture="Culture.sturgia">
+        culture="Culture.rekgeist">
         <face>
             <face_key_template value="BodyProperty.villager_sturgia"/>
         </face>
@@ -323,7 +659,7 @@
         level="21"
         name="{=Rekgeist C4}Rekgeist Leichter Reiter"
         occupation="Soldier"
-        culture="Culture.sturgia">
+        culture="Culture.rekgeist">
         <face>
             <face_key_template value="BodyProperty.villager_sturgia"/>
         </face>
@@ -364,7 +700,7 @@
         level="26"
         name="{=Rekgeist C5}Rekgeist Schwerer Reiter"
         occupation="Soldier"
-        culture="Culture.sturgia">
+        culture="Culture.rekgeist">
         <face>
             <face_key_template value="BodyProperty.villager_sturgia"/>
         </face>
@@ -413,7 +749,7 @@
         level="16"
         name="{=Rekgeist A3}Rekgeist Armbrustschütze"
         occupation="Soldier"
-        culture="Culture.sturgia">
+        culture="Culture.rekgeist">
         <face>
             <face_key_template value="BodyProperty.villager_sturgia"/>
         </face>
@@ -455,7 +791,7 @@
         level="21"
         name="{=Rekgeist A4}Rekgeist Elite Armbrustschütze"
         occupation="Soldier"
-        culture="Culture.sturgia">
+        culture="Culture.rekgeist">
         <face>
             <face_key_template value="BodyProperty.villager_sturgia"/>
         </face>
@@ -495,7 +831,7 @@
         level="11"
         name="{=Rekgeist P2}Rekgeist Pikenier"
         occupation="Soldier"
-        culture="Culture.sturgia">
+        culture="Culture.rekgeist">
         <face>
             <face_key_template value="BodyProperty.villager_sturgia"/>
         </face>
@@ -534,7 +870,7 @@
         level="16"
         name="{=Rekgeist P3}Rekgeist Elite Pikenier"
         occupation="Soldier"
-        culture="Culture.sturgia">
+        culture="Culture.rekgeist">
         <face>
             <face_key_template value="BodyProperty.villager_sturgia"/>
         </face>
@@ -574,7 +910,7 @@
         level="21"
         name="{=Rekgeist P4}Rekgeist Pfähler"
         occupation="Soldier"
-        culture="Culture.sturgia">
+        culture="Culture.rekgeist">
         <face>
             <face_key_template value="BodyProperty.villager_sturgia"/>
         </face>
@@ -614,7 +950,7 @@
         level="26"
         name="{=Rekgeist P5}Rekgeist Überpfähler"
         occupation="Soldier"
-        culture="Culture.sturgia">
+        culture="Culture.rekgeist">
         <face>
             <face_key_template value="BodyProperty.villager_sturgia"/>
         </face>
