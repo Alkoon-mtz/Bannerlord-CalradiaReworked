@@ -4,7 +4,7 @@
     <NPCCharacter id="scarhok_boukhal"
         default_group="Infantry"
         level="16"
-        name="{=scarhok_boukhal}Scarhok Boukhal"
+        name="{=Scarhok F3}Scarhok Boukhal"
         occupation="Soldier"
         culture="Culture.vlandia"
         is_basic_troop="true">
@@ -12,14 +12,14 @@
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="115"/>
+            <skill id="TwoHanded" value="30"/>
+            <skill id="Polearm" value="10"/>
+            <skill id="Bow" value="15"/>
+            <skill id="Crossbow" value="10"/>
+            <skill id="Throwing" value="65"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.scarhok_kigenn"/>
@@ -45,21 +45,21 @@
     <NPCCharacter id="scarhok_kigenn"
         default_group="Infantry"
         level="21"
-        name="{=scarhok_kigenn}Scarhok Kigenn"
+        name="{=Scarhok F4}Scarhok Kigenn"
         occupation="Soldier"
         culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="140"/>
+            <skill id="Riding" value="20"/>
+            <skill id="OneHanded" value="160"/>
+            <skill id="TwoHanded" value="50"/>
+            <skill id="Polearm" value="10"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="10"/>
+            <skill id="Throwing" value="90"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.scarhok_haveroi"/>
@@ -85,21 +85,21 @@
     <NPCCharacter id="scarhok_haveroi"
         default_group="Infantry"
         level="26"
-        name="{=scarhok_haveroi}Scarhok Haveroi"
+        name="{=Scarhok F5}Scarhok Haveroi"
         occupation="Soldier"
         culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="200"/>
+            <skill id="Riding" value="30"/>
+            <skill id="OneHanded" value="220"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="20"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="120"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.scarhok_elite_haveroi"/>
@@ -125,21 +125,21 @@
     <NPCCharacter id="scarhok_elite_haveroi"
         default_group="Infantry"
         level="31"
-        name="{=scarhok_elite_haveroi}Scarhok Elite Haveroi"
+        name="{=Scarhok F6}Scarhok Elite Haveroi"
         occupation="Soldier"
         culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="260"/>
+            <skill id="Riding" value="40"/>
+            <skill id="OneHanded" value="300"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="20"/>
+            <skill id="Bow" value="40"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="180"/>
         </skills>
         <Equipments>
             <EquipmentRoster>
@@ -163,7 +163,7 @@
     <NPCCharacter id="scarhok_recruit"
         default_group="Infantry"
         level="6"
-        name="{=scarhok_recruit}Scarhok Recruit"
+        name="{=Scarhok Recruit}Scarhok Recruit"
         occupation="Soldier"
         culture="Culture.vlandia"
         is_basic_troop="true">
@@ -171,14 +171,14 @@
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="25"/>
+            <skill id="Riding" value="5"/>
+            <skill id="OneHanded" value="30"/>
+            <skill id="TwoHanded" value="5"/>
+            <skill id="Polearm" value="5"/>
+            <skill id="Bow" value="10"/>
+            <skill id="Crossbow" value="5"/>
+            <skill id="Throwing" value="10"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.scarhok_soudard"/>
@@ -200,21 +200,21 @@
     <NPCCharacter id="scarhok_soudard"
         default_group="Infantry"
         level="11"
-        name="{=scarhok_soudard}Scarhok Soudard"
+        name="{=Scarhok CR2}Scarhok Soudard"
         occupation="Soldier"
         culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="50"/>
+            <skill id="Riding" value="20"/>
+            <skill id="OneHanded" value="60"/>
+            <skill id="TwoHanded" value="15"/>
+            <skill id="Polearm" value="10"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="10"/>
+            <skill id="Throwing" value="15"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.scarhok_gareg"/>
@@ -242,21 +242,21 @@
     <NPCCharacter id="scarhok_gareg"
         default_group="Ranged"
         level="16"
-        name="{=scarhok_gareg}Scarhok Gareg"
+        name="{=Scarhok A3}Scarhok Gareg"
         occupation="Soldier"
         culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="90"/>
+            <skill id="Riding" value="30"/>
+            <skill id="OneHanded" value="40"/>
+            <skill id="TwoHanded" value="30"/>
+            <skill id="Polearm" value="15"/>
+            <skill id="Bow" value="100"/>
+            <skill id="Crossbow" value="15"/>
+            <skill id="Throwing" value="40"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.scarhok_gareker"/>
@@ -284,21 +284,21 @@
     <NPCCharacter id="scarhok_gareker"
         default_group="Ranged"
         level="21"
-        name="{=scarhok_gareker}Scarhok Gareker"
+        name="{=Scarhok A4}Scarhok Gareker"
         occupation="Soldier"
         culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="120"/>
+            <skill id="Riding" value="40"/>
+            <skill id="OneHanded" value="60"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="20"/>
+            <skill id="Bow" value="140"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="60"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.scarhok_garhaner"/>
@@ -326,21 +326,21 @@
     <NPCCharacter id="scarhok_garhaner"
         default_group="Ranged"
         level="26"
-        name="{=scarhok_garhaner}Scarhok Garhaner"
+        name="{=Scarhok A5}Scarhok Garhaner"
         occupation="Soldier"
         culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="160"/>
+            <skill id="Riding" value="60"/>
+            <skill id="OneHanded" value="80"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="30"/>
+            <skill id="Bow" value="200"/>
+            <skill id="Crossbow" value="30"/>
+            <skill id="Throwing" value="80"/>
         </skills>
         <Equipments>
             <EquipmentRoster>
@@ -366,7 +366,7 @@
     <NPCCharacter id="scarhok_marhig"
         default_group="Cavalry"
         level="16"
-        name="{=scarhok_marhig}Scarhok Marhig"
+        name="{=Scarhok CR3}Scarhok Marhig"
         upgrade_requires="ItemCategory.horse"
         occupation="Soldier"
         culture="Culture.vlandia">
@@ -374,14 +374,14 @@
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="40"/>
+            <skill id="Riding" value="90"/>
+            <skill id="OneHanded" value="40"/>
+            <skill id="TwoHanded" value="30"/>
+            <skill id="Polearm" value="15"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="15"/>
+            <skill id="Throwing" value="100"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.scarhok_strellig"/>
@@ -409,7 +409,7 @@
     <NPCCharacter id="scarhok_strellig"
         default_group="Cavalry"
         level="21"
-        name="{=scarhok_strellig}Scarhok Strellig"
+        name="{=Scarhok CR4}Scarhok Strellig"
         upgrade_requires="ItemCategory.war_horse"
         occupation="Soldier"
         culture="Culture.vlandia">
@@ -417,14 +417,14 @@
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="60"/>
+            <skill id="Riding" value="120"/>
+            <skill id="OneHanded" value="60"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="20"/>
+            <skill id="Bow" value="40"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="140"/>
         </skills>
         <Equipments>
             <EquipmentRoster>
@@ -451,21 +451,21 @@
     <NPCCharacter id="scarhok_axe_wielder"
         default_group="Infantry"
         level="11"
-        name="{=scarhok_axe_wielder}Scarhok Axe Wielder"
+        name="{=Scarhok R2}Scarhok Axe Wielder"
         occupation="Soldier"
         culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="30"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="20"/>
+            <skill id="TwoHanded" value="50"/>
+            <skill id="Polearm" value="10"/>
+            <skill id="Bow" value="15"/>
+            <skill id="Crossbow" value="10"/>
+            <skill id="Throwing" value="50"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.scarhok_axe_thrower"/>
@@ -492,21 +492,21 @@
     <NPCCharacter id="scarhok_axe_thrower"
         default_group="Infantry"
         level="16"
-        name="{=scarhok_axe_thrower}Scarhok Axe Thrower"
+        name="{=Scarhok R3}Scarhok Axe Thrower"
         occupation="Soldier"
         culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="70"/>
+            <skill id="Riding" value="30"/>
+            <skill id="OneHanded" value="40"/>
+            <skill id="TwoHanded" value="80"/>
+            <skill id="Polearm" value="15"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="15"/>
+            <skill id="Throwing" value="80"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.scarhok_throwing_axeman"/>
@@ -533,21 +533,21 @@
     <NPCCharacter id="scarhok_throwing_axeman"
         default_group="Infantry"
         level="21"
-        name="{=scarhok_throwing_axeman}Scarhok Throwing Axeman"
+        name="{=Scarhok R4}Scarhok Throwing Axeman"
         occupation="Soldier"
         culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="40"/>
+            <skill id="OneHanded" value="60"/>
+            <skill id="TwoHanded" value="110"/>
+            <skill id="Polearm" value="20"/>
+            <skill id="Bow" value="40"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="110"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.scarhok_elite_throwing_axeman"/>
@@ -574,21 +574,21 @@
     <NPCCharacter id="scarhok_elite_throwing_axeman"
         default_group="Infantry"
         level="26"
-        name="{=scarhok_elite_throwing_axeman}Scarhok Elite Throwing Axeman"
+        name="{=Scarhok_elite_throwing_axeman}Scarhok Elite Throwing Axeman"
         occupation="Soldier"
         culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="140"/>
+            <skill id="Riding" value="60"/>
+            <skill id="OneHanded" value="70"/>
+            <skill id="TwoHanded" value="150"/>
+            <skill id="Polearm" value="30"/>
+            <skill id="Bow" value="60"/>
+            <skill id="Crossbow" value="30"/>
+            <skill id="Throwing" value="160"/>
         </skills>
         <Equipments>
             <EquipmentRoster>

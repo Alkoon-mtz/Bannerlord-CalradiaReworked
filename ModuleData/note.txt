@@ -5,11 +5,41 @@ Leader titles ideas
 Headman    Dean    Elder    Archduke    Senator    Consul
 Pharaoh    Majesty    Shogun    President
 
-Qinguo banners
-11.143.143.1536.1536.764.764.1.0.0.154.89.143.400.400.732.752.1.0.257.154.89.143.400.400.715.789.1.0.257.122.89.143.400.400.831.750.1.0.-45
-Scarhok banners
-11.145.72.2538.2543.764.788.1.0.0.419.116.142.500.500.764.764.0.0.0.134.116.142.500.500.764.764.0.0.0
+For Cultures check : culture / education_character_templates / education_equipement_templates / equipment_sets / partytemplates / strings / troops
+For Items check : itempieces / craftingtemplates / descriptions / items / Assets(if custom)
 
-Scarhoks :
+ALL Cultures:
+Customize:
+    militia_spearman + veteran
+    militia_archer + veteran
+    townsman + variant + City NPC (ransom_broker etc)
+    weapon_practice_stage_1 ?
+    wanderer + notables
+    tournament_team_templates
+    basic_mercenary_troops
+Make kingdoms
+Make Lords + Heroes
+Make Clans
+Assign Settlements
+
+French:
+Find new name
+Recheck all files
+Custom BodyProperty
+
+Qinguo:
+banners : 11.143.143.1536.1536.764.764.1.0.0.154.89.143.400.400.732.752.1.0.257.154.89.143.400.400.715.789.1.0.257.122.89.143.400.400.831.750.1.0.-45
+Check BodyProperty not enough margin
+
+Rekgeist:
+Custom BodyProperty
+
+Scarhoks:
 Change value for AR_vlandia_armor_a2 => Scarhok elite T4 ?
 Change value for AR_vlandia_armor_a => Scarhok elite T5 (downgrad a little)
+
+Zulizwe :
+Make banner
+
+Code:
+Cultural Start
