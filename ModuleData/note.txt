@@ -46,5 +46,7 @@ Cultural Start
 Cultural choice at char creation
 
 Debug:
-Sequence contains no matching element
-For notables, merchants need (apparently) caravan_master of the same culture in culture+elite_caravan_party_template
+- Sequence contains no matching element
+    For notables, merchants need (apparently) caravan_master of the same culture in culture+elite_caravan_party_template
+- Same face troops/face always set to BodyPropertiesMax
+    Check if BodyPropertiesMin and BodyPropertiesMax are different, carefull about the c/p and the simple "<BodyProperties version="4..."

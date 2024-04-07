@@ -66,7 +66,7 @@
             key="0008A00540003689FEFEEFFEBBBFFFFFFFFFFF979EF8FFFEFFFFFFEFFFEFFFFE00EEE0030EFFFFFF000000000000000000000000000000000000000077C89105" />
     </BodyProperty>
     <BodyProperty id="villager_rekgeist">
-        <BodyProperties version="4"
+        <BodyPropertiesMin version="4"
             age="25"
             weight="0.200"
             build="0.150"
@@ -184,7 +184,7 @@
 
     <!-- Celts -->
     <BodyProperty id="fighter_celt">
-        <BodyProperties version="4"
+        <BodyPropertiesMin version="4"
             age="25"
             weight="0.150"
             build="0.350"
@@ -196,7 +196,7 @@
             key="0008680A400035D4FF9FEEFFBBBEEEFEF9FF8EFFEFF7FFFFFEEFEFEE97FEFFEE00FA80030FEEEFEE000000000000000000000000000000000000000001F89105" />
     </BodyProperty>
     <BodyProperty id="villager_celt">
-        <BodyProperties version="4"
+        <BodyPropertiesMin version="4"
             age="25"
             weight="0.50"
             build="0.250"
