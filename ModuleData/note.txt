@@ -25,14 +25,14 @@ Assign Settlements
 French:
 Find new name
 Recheck all files
-Custom BodyProperty
 
 Qinguo:
 banners : 11.143.143.1536.1536.764.764.1.0.0.154.89.143.400.400.732.752.1.0.257.154.89.143.400.400.715.789.1.0.257.122.89.143.400.400.831.750.1.0.-45
-Check BodyProperty not enough margin
 
 Rekgeist:
-Custom BodyProperty
+Add Lords
+Add Clans
+Add NPCgenerics
 
 Scarhoks:
 Change value for AR_vlandia_armor_a2 => Scarhok elite T4 ?
@@ -50,3 +50,4 @@ Debug:
     For notables, merchants need (apparently) caravan_master of the same culture in culture+elite_caravan_party_template
 - Same face troops/face always set to BodyPropertiesMax
     Check if BodyPropertiesMin and BodyPropertiesMax are different, carefull about the c/p and the simple "<BodyProperties version="4..."
+    BodyPropertiesMin and BodyPropertiesMax must be "wide" enough or else it won't differ a lot
