@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <strings>
     <string id="str_adjective_for_culture.french" text="{=E11FR_adj_cul}French" />
     <string id="str_culture_rich_name.french" text="{=E11FR_cul_name}Frankish" />

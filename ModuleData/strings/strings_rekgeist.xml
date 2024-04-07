@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <strings>
     <string id="str_adjective_for_culture.rekgeist" text="{=E11RG_adj_cul}Rekgeisten" />
     <string id="str_culture_rich_name.rekgeist" text="{=E11RG_cul_name}Rekgeistens" />

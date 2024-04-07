@@ -19,7 +19,7 @@ Customize:
     basic_mercenary_troops
 Make kingdoms
 Make Lords + Heroes
-Make Clans
+Make Clans(faction)
 Assign Settlements
 
 French:

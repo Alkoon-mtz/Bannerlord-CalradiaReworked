@@ -1,0 +1,9 @@
+<Factions>
+  <Faction id="clan_rekgeist_1"
+           name="{=example_faction_1}Reklol"
+           tier="6"
+           owner="Hero.lord_example_faction_1"
+           culture="Culture.rekgeist"
+           super_faction="Kingdom.kingdom_rekgeist"
+           banner_key="11.116.72.2538.2543.764.788.1.0.0.449.127.116.400.400.764.964.0.0.0.102.127.116.500.500.764.764.0.0.0" />
+</Factions>

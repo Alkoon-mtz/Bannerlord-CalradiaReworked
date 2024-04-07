@@ -1,0 +1,4 @@
+<Heroes>
+   <Hero id="lord_example_faction_1" faction="Faction.clan_rekgeist_1" />
+   <Hero id="lord_example_faction_2" faction="Faction.clan_rekgeist_1" />
+</Heroes>
