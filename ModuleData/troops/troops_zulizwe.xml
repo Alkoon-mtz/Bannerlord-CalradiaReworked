@@ -176,7 +176,7 @@
         culture="Culture.aserai"
         is_basic_troop="true">
         <face>
-            <face_key_template value="BodyProperty.fighter_jawwal"/>
+            <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
         <skills >
             <skill id="Athletics" value="25"/>
@@ -238,7 +238,7 @@
         occupation="Soldier"
         culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_jawwal"/>
+            <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
         <skills >
             <skill id="Athletics" value="15"/>
@@ -313,7 +313,7 @@
         occupation="Soldier"
         culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_jawwal"/>
+            <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
         <skills >
             <skill id="Athletics" value="40"/>
@@ -388,7 +388,7 @@
         occupation="Soldier"
         culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_jawwal"/>
+            <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
         <skills >
             <skill id="Athletics" value="60"/>
@@ -467,7 +467,7 @@
         occupation="Soldier"
         culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_jawwal"/>
+            <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
         <skills >
             <skill id="Athletics" value="80"/>
@@ -711,7 +711,7 @@
         occupation="Soldier"
         culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_jawwal"/>
+            <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
         <skills >
             <skill id="Athletics" value="50"/>
@@ -782,7 +782,7 @@
         occupation="Soldier"
         culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_jawwal"/>
+            <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
         <skills >
             <skill id="Athletics" value="80"/>
@@ -857,7 +857,7 @@
         occupation="Soldier"
         culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_jawwal"/>
+            <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
         <skills >
             <skill id="Athletics" value="110"/>
@@ -932,7 +932,7 @@
         occupation="Soldier"
         culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_jawwal"/>
+            <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
         <skills >
             <skill id="Athletics" value="150"/>

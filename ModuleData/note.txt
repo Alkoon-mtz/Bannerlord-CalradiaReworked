@@ -10,11 +10,11 @@ For Items check : itempieces / craftingtemplates / descriptions / items / Assets
 
 ALL Cultures:
 Customize:
+    wanderer + notables (PRIORITY since notables culture affect troops recruit in cities/villages)
     militia_spearman + veteran
     militia_archer + veteran
     townsman + variant + City NPC (ransom_broker etc)
     weapon_practice_stage_1 ?
-    wanderer + notables
     tournament_team_templates
     basic_mercenary_troops
 Make kingdoms

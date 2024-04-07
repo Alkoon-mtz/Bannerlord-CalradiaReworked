@@ -8,18 +8,7 @@
         culture="Culture.rekgeist"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <BodyProperties
-                version="4"
-                age="24.29"
-                weight="0.162"
-                build="0.3657"
-                key="00000007800000800160000000114151100471100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000" />
-            <BodyPropertiesMax
-                version="4"
-                age="67.62"
-                weight="0.733"
-                build="0.6651"
-                key="0013C80E40003406EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE07BAB0780BEFEEEF000000000000000000000000000000000000000067789105" />
+            <face_key_template value="BodyProperty.villager_rekgeist"/>
         </face>
         <skills></skills>
         <upgrade_targets>
@@ -345,7 +334,7 @@
         culture="Culture.rekgeist"
         is_basic_troop="true">
         <face>
-            <face_key_template value="BodyProperty.villager_sturgia"/>
+            <face_key_template value="BodyProperty.fighter_rekgeist"/>
         </face>
         <skills >
             <skill id="Athletics" value="100"/>
@@ -384,7 +373,7 @@
         occupation="Soldier"
         culture="Culture.rekgeist">
         <face>
-            <face_key_template value="BodyProperty.villager_sturgia"/>
+            <face_key_template value="BodyProperty.fighter_rekgeist"/>
         </face>
         <skills >
             <skill id="Athletics" value="140"/>
@@ -424,7 +413,7 @@
         occupation="Soldier"
         culture="Culture.rekgeist">
         <face>
-            <face_key_template value="BodyProperty.villager_sturgia"/>
+            <face_key_template value="BodyProperty.fighter_rekgeist"/>
         </face>
         <skills >
             <skill id="Athletics" value="200"/>
@@ -482,7 +471,7 @@
         occupation="Soldier"
         culture="Culture.rekgeist">
         <face>
-            <face_key_template value="BodyProperty.villager_sturgia"/>
+            <face_key_template value="BodyProperty.fighter_rekgeist"/>
         </face>
         <skills >
             <skill id="Athletics" value="260"/>
@@ -521,7 +510,7 @@
         culture="Culture.rekgeist"
         is_basic_troop="true">
         <face>
-            <face_key_template value="BodyProperty.villager_sturgia"/>
+            <face_key_template value="BodyProperty.fighter_rekgeist"/>
         </face>
         <skills >
             <skill id="Athletics" value="25"/>
@@ -578,7 +567,7 @@
         occupation="Soldier"
         culture="Culture.rekgeist">
         <face>
-            <face_key_template value="BodyProperty.villager_sturgia"/>
+            <face_key_template value="BodyProperty.fighter_rekgeist"/>
         </face>
         <skills >
             <skill id="Athletics" value="50"/>
@@ -621,7 +610,7 @@
         occupation="Soldier"
         culture="Culture.rekgeist">
         <face>
-            <face_key_template value="BodyProperty.villager_sturgia"/>
+            <face_key_template value="BodyProperty.fighter_rekgeist"/>
         </face>
         <skills >
             <skill id="Athletics" value="40"/>
@@ -661,7 +650,7 @@
         occupation="Soldier"
         culture="Culture.rekgeist">
         <face>
-            <face_key_template value="BodyProperty.villager_sturgia"/>
+            <face_key_template value="BodyProperty.fighter_rekgeist"/>
         </face>
         <skills >
             <skill id="Athletics" value="60"/>
@@ -702,7 +691,7 @@
         occupation="Soldier"
         culture="Culture.rekgeist">
         <face>
-            <face_key_template value="BodyProperty.villager_sturgia"/>
+            <face_key_template value="BodyProperty.fighter_rekgeist"/>
         </face>
         <skills >
             <skill id="Athletics" value="80"/>
@@ -751,7 +740,7 @@
         occupation="Soldier"
         culture="Culture.rekgeist">
         <face>
-            <face_key_template value="BodyProperty.villager_sturgia"/>
+            <face_key_template value="BodyProperty.fighter_rekgeist"/>
         </face>
         <skills >
             <skill id="Athletics" value="90"/>
@@ -793,7 +782,7 @@
         occupation="Soldier"
         culture="Culture.rekgeist">
         <face>
-            <face_key_template value="BodyProperty.villager_sturgia"/>
+            <face_key_template value="BodyProperty.fighter_rekgeist"/>
         </face>
         <skills >
             <skill id="Athletics" value="120"/>
@@ -833,7 +822,7 @@
         occupation="Soldier"
         culture="Culture.rekgeist">
         <face>
-            <face_key_template value="BodyProperty.villager_sturgia"/>
+            <face_key_template value="BodyProperty.fighter_rekgeist"/>
         </face>
         <skills >
             <skill id="Athletics" value="50"/>
@@ -872,7 +861,7 @@
         occupation="Soldier"
         culture="Culture.rekgeist">
         <face>
-            <face_key_template value="BodyProperty.villager_sturgia"/>
+            <face_key_template value="BodyProperty.fighter_rekgeist"/>
         </face>
         <skills >
             <skill id="Athletics" value="80"/>
@@ -912,7 +901,7 @@
         occupation="Soldier"
         culture="Culture.rekgeist">
         <face>
-            <face_key_template value="BodyProperty.villager_sturgia"/>
+            <face_key_template value="BodyProperty.fighter_rekgeist"/>
         </face>
         <skills >
             <skill id="Athletics" value="110"/>
@@ -952,7 +941,7 @@
         occupation="Soldier"
         culture="Culture.rekgeist">
         <face>
-            <face_key_template value="BodyProperty.villager_sturgia"/>
+            <face_key_template value="BodyProperty.fighter_rekgeist"/>
         </face>
         <skills >
             <skill id="Athletics" value="150"/>
