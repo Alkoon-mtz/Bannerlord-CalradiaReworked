@@ -43,3 +43,8 @@ Make banner
 
 Code:
 Cultural Start
+Cultural choice at char creation
+
+Debug:
+Sequence contains no matching element
+For notables, merchants need (apparently) caravan_master of the same culture in culture+elite_caravan_party_template

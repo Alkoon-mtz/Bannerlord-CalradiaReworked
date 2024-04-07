@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+    <NPCCharacter id="caravan_master_rekgeist"
+            default_group="Infantry"
+            level="26" name="{=uDseaKcb}Rekgeisten Caravan Master"
+            occupation="CaravanGuard"
+            culture="Culture.rekgeist">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rekgeist" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="150"/>
+            <skill id="Riding" value="60"/>
+            <skill id="OneHanded" value="140"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="160"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="70"/>
+            <skill id="Throwing" value="30"/>
+        </skills>
+        <upgrade_targets></upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+                <equipment slot="Item1" id="Item.tall_heater_shield"/>
+                <equipment slot="Item2" id="Item.empire_mace_4_t5"/>
+                <equipment slot="Head" id="Item.sallet_base"/>
+                <equipment slot="Body" id="Item.Sa_brigandine_plate3"/>
+                <equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
+                <equipment slot="Leg" id="Item.sa_2ChurburghBoots"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

@@ -27,7 +27,7 @@
         text="{=rekgeist_text}Only a 2 handed sword can settle an argument"
         tournament_master="NPCCharacter.tournament_master_sturgia"
         villager="NPCCharacter.villager_rekgeist"
-        caravan_master="NPCCharacter.caravan_master_sturgia"
+        caravan_master="NPCCharacter.caravan_master_rekgeist"
         armed_trader="NPCCharacter.armed_trader_sturgia"
         caravan_guard="NPCCharacter.caravan_guard_sturgia"
         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_sturgia"
@@ -292,24 +292,27 @@
             <template name="NPCCharacter.spc_wanderer_sturgia_7" />
             <template name="NPCCharacter.spc_wanderer_sturgia_8" />
             <template name="NPCCharacter.spc_wanderer_sturgia_9" />
-            <template name="NPCCharacter.spc_notable_sturgia_0" />
-            <template name="NPCCharacter.spc_notable_sturgia_0b" />
-            <template name="NPCCharacter.spc_notable_sturgia_1" />
-            <template name="NPCCharacter.spc_notable_sturgia_2" />
-            <template name="NPCCharacter.spc_notable_sturgia_2b" />
-            <template name="NPCCharacter.spc_notable_sturgia_3" />
-            <template name="NPCCharacter.spc_notable_sturgia_3b" />
-            <template name="NPCCharacter.spc_notable_sturgia_3c" />
-            <template name="NPCCharacter.spc_notable_sturgia_4" />
-            <template name="NPCCharacter.spc_notable_sturgia_5" />
-            <template name="NPCCharacter.spc_notable_sturgia_6" />
-            <template name="NPCCharacter.spc_notable_sturgia_7" />
-            <template name="NPCCharacter.spc_notable_sturgia_8" />
-            <template name="NPCCharacter.spc_notable_sturgia_9" />
-            <template name="NPCCharacter.spc_notable_sturgia_10" />
-            <template name="NPCCharacter.spc_sturgia_headman_1" />
-            <template name="NPCCharacter.spc_sturgia_headman_2" />
-            <template name="NPCCharacter.spc_sturgia_headman_3" />
+            <template name="NPCCharacter.spc_merchant_rekgeist_1" />
+            <template name="NPCCharacter.spc_merchant_rekgeist_1f" />
+            <template name="NPCCharacter.spc_merchant_rekgeist_2" />
+            <template name="NPCCharacter.spc_merchant_rekgeist_2f" />
+            <template name="NPCCharacter.spc_merchant_rekgeist_3" />
+            <template name="NPCCharacter.spc_merchant_rekgeist_3f" />
+            <template name="NPCCharacter.spc_merchant_rekgeist_4" />
+            <template name="NPCCharacter.spc_merchant_rekgeist_4f" />
+            <template name="NPCCharacter.spc_preacher_rekgeist_1" />
+            <template name="NPCCharacter.spc_preacher_rekgeist_1f" />
+            <template name="NPCCharacter.spc_gangleader_rekgeist_1" />
+            <template name="NPCCharacter.spc_gangleader_rekgeist_1f" />
+            <template name="NPCCharacter.spc_artisan_rekgeist_1" />
+            <template name="NPCCharacter.spc_artisan_rekgeist_1f" />
+            <template name="NPCCharacter.spc_ruralnotable_rekgeist_1" />
+            <template name="NPCCharacter.spc_ruralnotable_rekgeist_1f" />
+            <template name="NPCCharacter.spc_ruralnotable_rekgeist_2" />
+            <template name="NPCCharacter.spc_ruralnotable_rekgeist_2f" />
+            <template name="NPCCharacter.spc_headman_rekgeist_1" />
+            <template name="NPCCharacter.spc_headman_rekgeist_1f" />
+            <template name="NPCCharacter.spc_headman_rekgeist_2" />
         </notable_and_wanderer_templates>
         <lord_templates>
             <template name="NPCCharacter.spc_skolderbrotva_leader_0" />

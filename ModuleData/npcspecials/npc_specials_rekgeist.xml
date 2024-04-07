@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+    <NPCCharacter id="spc_merchant_rekgeist_1"
+        name="{=!}Cautious Rekgeisten merchant"
+        voice="ironic"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.rekgeist"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_rekgeist_1f"
+        name="{=!}Caustic Rekgeisten merchant"
+        voice="ironic"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.rekgeist"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="Commander"
+                value="2" />
+            <Trait id="Honor"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_rekgeist_2"
+        name="{=!}Curt Rekgeisten merchant"
+        voice="curt"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.rekgeist"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Generosity"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_rekgeist_2f"
+        name="{=!}Adventurous Rekgeisten merchant"
+        voice="earnest"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.rekgeist"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="Valor"
+                value="1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_rekgeist_3"
+        name="{=!}Honest Rekgeisten merchant"
+        voice="curt"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.rekgeist"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="Commander"
+                value="6" />
+            <Trait id="Honor"
+                value="1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_rekgeist_3f"
+        name="{=!}Affable Rekgeisten merchant"
+        voice="earnest"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.rekgeist"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="Commander"
+                value="2" />
+            <Trait id="Generosity"
+                value="1" />
+            <Trait id="Calculating"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_rekgeist_4"
+        name="{=!}Honorable Rekgeisten merchant"
+        voice="earnest"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.rekgeist"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="Honor"
+                value="1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_rekgeist_4f"
+        name="{=!}Devious Rekgeisten merchant"
+        voice="ironic"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.rekgeist"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="Commander"
+                value="2" />
+            <Trait id="Honor"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_preacher_rekgeist_1"
+        name="{=!}Rekgeisten seer"
+        voice="curt"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.rekgeist"
+        occupation="Preacher">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="Honor"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_preacher_rekgeist_1f"
+        name="{=!}Rekgeisten mystic"
+        voice="softspoken"
+        is_template="true"
+        default_group="Infantry"
+        is_female="true"
+        culture="Culture.rekgeist"
+        occupation="Preacher">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="Honor"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_gangleader_rekgeist_1"
+        name="{=!}Rekgeisten gang leader"
+        voice="ironic"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.rekgeist"
+        occupation="GangLeader">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rekgeist" />
+        </face>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="Valor"
+                value="1" />
+            <Trait id="Mercy"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_gangleader_rekgeist_1f"
+        name="{=!}Rekgeisten female gang leader"
+        voice="ironic"
+        is_template="true"
+        default_group="Infantry"
+        is_female="true"
+        culture="Culture.rekgeist"
+        occupation="GangLeader">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="Valor"
+                value="1" />
+            <Trait id="Mercy"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_artisan_rekgeist_1"
+        name="{=!}Rekgeisten artisan"
+        voice="curt"
+        is_template="true"
+        default_group="Infantry"
+        culture="Culture.rekgeist"
+        occupation="Artisan">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="Generosity"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_artisan_rekgeist_1f"
+        name="{=!}Rekgeisten female artisan"
+        voice="curt"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        culture="Culture.rekgeist"
+        occupation="Artisan">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="Calculating"
+                value="1" />
+            <Trait id="Generosity"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_ruralnotable_rekgeist_1"
+        name="{=!}Rekgeisten land captain gruff notable"
+        voice="curt"
+        is_template="true"
+        default_group="Infantry"
+        culture="Culture.rekgeist"
+        occupation="RuralNotable">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="Generosity"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_ruralnotable_rekgeist_1f"
+        name="{=!}Rekgeisten female land captain gruff notable"
+        voice="curt"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        culture="Culture.rekgeist"
+        occupation="RuralNotable">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="Valor"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_ruralnotable_rekgeist_2"
+        name="{=!}Rekgeisten land captain helpful notable"
+        voice="softspoken"
+        is_template="true"
+        default_group="Infantry"
+        culture="Culture.rekgeist"
+        occupation="RuralNotable">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="Calculating"
+                value="1" />
+            <Trait id="Generosity"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_ruralnotable_rekgeist_2f"
+        name="{=!}Rekgeisten female land captain helpful notable"
+        voice="softspoken"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        culture="Culture.rekgeist"
+        occupation="RuralNotable">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="Honor"
+                value="1" />
+            <Trait id="Generosity"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_headman_rekgeist_1"
+        name="{=!}Rekgeisten rebellious headman"
+        voice="earnest"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.rekgeist"
+        occupation="Headman">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="BalancedFightingSkills"
+                value="5" />
+            <Trait id="Valor"
+                value="1" />
+            <Trait id="Calculating"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_headman_rekgeist_1f"
+        name="{=!}Rekgeisten conservative headwoman"
+        voice="curt"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.rekgeist"
+        occupation="Headman">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills"
+                value="4" />
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Generosity"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_headman_rekgeist_2"
+        name="{=!}Rekgeisten devious headman"
+        voice="softspoken"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.rekgeist"
+        occupation="Headman">
+        <face>
+            <face_key_template value="BodyProperty.villager_rekgeist" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="RusHair"
+                value="1" />
+            <Trait id="BalancedFightingSkills"
+                value="3" />
+            <Trait id="Calculating"
+                value="1" />
+            <Trait id="Honor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
+            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

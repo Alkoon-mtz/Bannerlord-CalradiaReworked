@@ -62,19 +62,19 @@
         <BodyPropertiesMax version="4"
             age="38"
             weight="0.900"
-            build="0.800"
+            build="0.750"
             key="0008A00540003689FEFEEFFEBBBFFFFFFFFFFF979EF8FFFEFFFFFFEFFFEFFFFE00EEE0030EFFFFFF000000000000000000000000000000000000000077C89105" />
     </BodyProperty>
     <BodyProperty id="villager_rekgeist">
         <BodyProperties version="4"
             age="25"
-            weight="0.150"
-            build="0.250"
+            weight="0.200"
+            build="0.150"
             key="00000400000002462110000001211010010411111010002221111001301101000185201408112000000000000000000000000000000000000000000001100000" />
         <BodyPropertiesMax version="4"
             age="68"
             weight="0.700"
-            build="0.500"
+            build="0.550"
             key="0008A00540003689FEFEEFFEBBBFFFFFFFFFFF979EF8FFFEFFFFFFEFFFEFFFFE00EEE0030EFFFFFF000000000000000000000000000000000000000077C89105" />
     </BodyProperty>
 
