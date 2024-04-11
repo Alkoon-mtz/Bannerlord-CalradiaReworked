@@ -28,6 +28,7 @@ Recheck all files
 
 Qinguo:
 banners : 11.143.143.1536.1536.764.764.1.0.0.154.89.143.400.400.732.752.1.0.257.154.89.143.400.400.715.789.1.0.257.122.89.143.400.400.831.750.1.0.-45
+Make larger glaive blade (guandao)
 
 Rekgeist:
 Add Lords
@@ -46,8 +47,36 @@ Cultural Start
 Cultural choice at char creation
 
 Debug:
+- Troops incorrect culture in cities
+    Notables in culture@notable_and_wanderer_templates must be of the troops culture, city culture is not used for that
 - Sequence contains no matching element
     For notables, merchants need (apparently) caravan_master of the same culture in culture+elite_caravan_party_template
-- Same face troops/face always set to BodyPropertiesMax
+- Same face troops/face always set to BodyPropertiesMin or BodyPropertiesMax
     Check if BodyPropertiesMin and BodyPropertiesMax are different, carefull about the c/p and the simple "<BodyProperties version="4..."
     BodyPropertiesMin and BodyPropertiesMax must be "wide" enough or else it won't differ a lot
+
+
+Guides
+If you want to use a piece for another weapon "type" and the vanilla game doesn't allow it, you have to add this piece to the weapon description (via xslt)
+for example adding the `axe_craft_26_head` to throwing axe weapon.
+`CraftingTemplate.ThrowingAxe` use 2 `WeaponDescription` and so you have to add your piece in both weapon description, in our case `ThrowingAxe` and `OneHandedAxe`
+Since the `axe_craft_26_head` is already "allowed" in `OneHandedAxe` description+craftingtemplates you don't have to add it
+But you have to add it in `ThrowingAxe` WeaponDescription.AvailablePieces and CraftingTemplate.UsablePieces
+In `weapondescriptions.xslt` 
+```xml
+    <xsl:template match="WeaponDescription[@id='ThrowingAxe']/AvailablePieces">
+        <xsl:copy>
+            <xsl:apply-templates/>
+            <AvailablePiece id="axe_craft_26_head" />
+        </xsl:copy>
+    </xsl:template>
+```
+and in `craftingtemplates.xslt`
+```xml
+    <xsl:template match="CraftingTemplate[@id='ThrowingAxe']/UsablePieces">
+        <xsl:copy>
+            <xsl:apply-templates/>
+            <UsablePiece piece_id="axe_craft_26_head" />
+        </xsl:copy>
+    </xsl:template>
+```
