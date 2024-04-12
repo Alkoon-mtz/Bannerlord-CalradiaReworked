@@ -130,8 +130,8 @@
             key="003FF80FCDCC301AEE8EEEDEEEEBEFFFEE7F9FDCCEEAFCDFEFFFFFCF992FEEF800FD96030FBCCCCA000000000000000000000000000000000000000005FC9142" />
     </BodyProperty>
 
-    <!-- Italgrec -->
-    <BodyProperty id="fighter_italgrec">
+    <!-- Kratorios -->
+    <BodyProperty id="fighter_kratorios">
         <BodyPropertiesMin version="4"
             age="25"
             weight="0.300"
@@ -143,7 +143,7 @@
             build="0.500"
             key="0010F80FC000370FFFFFEFEFFEEFFF7EEEFFFFFFFEF7EFFEFFFFFFFFFEFFFFFF07CBF0780CFFFFEF000000000000000000000000000000000000000061809105" />
     </BodyProperty>
-    <BodyProperty id="villager_italgrec">
+    <BodyProperty id="villager_kratorios">
         <BodyPropertiesMin version="4"
             age="25"
             weight="0.150"
