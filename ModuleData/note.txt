@@ -86,4 +86,3 @@ Error	CS1705	Assembly '0Harmony' with identity '0Harmony, Version=2.3.1.1, Cultu
 uses 'System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' 
 which has a higher version than referenced assembly 
 'System.Runtime' with identity 'System.Runtime, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'	
-

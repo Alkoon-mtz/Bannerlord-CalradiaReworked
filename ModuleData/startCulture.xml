@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<StartCultures>
+    <StartCulture id="empire" x="657.95" y="279.08" />
+    <StartCulture id="sturgia" x="356.75" y="551.52" />
+    <StartCulture id="aserai" x="300.78" y="259.99" />
+    <StartCulture id="battania" x="293.64" y="446.39" />
+    <StartCulture id="khuzait" x="680.73" y="480.8" />
+    <StartCulture id="vlandia" x="207.04" y="389.04" />
+    <StartCulture id="french" x="207.04" y="389.04" />
+    <StartCulture id="rekgeist" x="533.15" y="490.55" />
+</StartCultures>

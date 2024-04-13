@@ -159,9 +159,10 @@
             </IncludedGameTypes>
         </XmlNode>
         <XmlNode>
-            <XmlName id="CultureStartPositions" path="CultureStartPositions"/>
+            <XmlName id="StartCultures" path="startCulture"/>
             <IncludedGameTypes>
                 <GameType value = "Campaign"/>
+                <GameType value = "CustomGame"/>
                 <GameType value = "CustomGame"/>
             </IncludedGameTypes>
         </XmlNode>
