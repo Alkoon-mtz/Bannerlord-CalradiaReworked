@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
 <!-- Elitetroop Zulizwe -->
-    <NPCCharacter id="copy_elite_root0"
+    <NPCCharacter id="crusader_elite0"
         default_group="Ranged"
         level="16"
         name="{=Crusader X3}Crusader X3"
@@ -22,7 +22,7 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_elite_root00"/>
+            <upgrade_target id="NPCCharacter.crusader_elite00"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -44,7 +44,7 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="copy_elite_root00"
+    <NPCCharacter id="crusader_elite00"
         default_group="Ranged"
         level="21"
         name="{=Crusader X4}Crusader X4"
@@ -64,7 +64,7 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_elite_root000"/>
+            <upgrade_target id="NPCCharacter.crusader_elite000"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -86,7 +86,7 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="copy_elite_root000"
+    <NPCCharacter id="crusader_elite000"
         default_group="Ranged"
         level="26"
         name="{=Crusader X5}Crusader X5"
@@ -106,7 +106,7 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_elite_root0000"/>
+            <upgrade_target id="NPCCharacter.crusader_elite0000"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -128,7 +128,7 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="copy_elite_root0000"
+    <NPCCharacter id="crusader_elite0000"
         default_group="Ranged"
         level="31"
         name="{=Crusader X6}Crusader X6"
@@ -168,7 +168,7 @@
         </Equipments>
     </NPCCharacter>
 <!-- Regulartroop Zulizwe -->
-    <NPCCharacter id="copy_basic_root"
+    <NPCCharacter id="crusader_basic"
         default_group="Infantry"
         level="6"
         name="{=Crusader Recruit}Crusader Recruit"
@@ -189,8 +189,8 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_basic_root0"/>
-            <upgrade_target id="NPCCharacter.copy_basic_root1"/>
+            <upgrade_target id="NPCCharacter.crusader_basic0"/>
+            <upgrade_target id="NPCCharacter.crusader_basic1"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -207,7 +207,7 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="copy_basic_root0"
+    <NPCCharacter id="crusader_basic0"
         default_group="Infantry"
         level="11"
         name="{=Crusader F2}Crusader F2"
@@ -227,8 +227,8 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_basic_root00"/>
-            <upgrade_target id="NPCCharacter.copy_basic_root01"/>
+            <upgrade_target id="NPCCharacter.crusader_basic00"/>
+            <upgrade_target id="NPCCharacter.crusader_basic01"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -248,7 +248,7 @@
         </Equipments>
     </NPCCharacter>
     <!-- Left Zulizwe -->
-    <NPCCharacter id="copy_basic_root00"
+    <NPCCharacter id="crusader_basic00"
         default_group="Infantry"
         level="16"
         name="{=Crusader F3}Crusader F3"
@@ -268,7 +268,7 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_basic_root000"/>
+            <upgrade_target id="NPCCharacter.crusader_basic000"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -288,7 +288,7 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="copy_basic_root000"
+    <NPCCharacter id="crusader_basic000"
         default_group="Infantry"
         level="21"
         name="{=Crusader F4}Crusader F4"
@@ -308,7 +308,7 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_basic_root0000"/>
+            <upgrade_target id="NPCCharacter.crusader_basic0000"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -328,7 +328,7 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="copy_basic_root0000"
+    <NPCCharacter id="crusader_basic0000"
         default_group="Infantry"
         level="26"
         name="{=Crusader F5}Crusader F5"
@@ -366,7 +366,7 @@
         </Equipments>
     </NPCCharacter>
     <!-- Midle Zulizwe -->
-    <NPCCharacter id="copy_basic_root01"
+    <NPCCharacter id="crusader_basic01"
         default_group="Cavalry"
         level="16"
         name="{=Crusader CM3}Crusader CM3"
@@ -387,7 +387,7 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_basic_root010"/>
+            <upgrade_target id="NPCCharacter.crusader_basic010"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -409,7 +409,7 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="copy_basic_root010"
+    <NPCCharacter id="crusader_basic010"
         default_group="Cavalry"
         level="21"
         name="{=Crusader CM4}Crusader CM4"
@@ -450,7 +450,7 @@
         </Equipments>
     </NPCCharacter>
     <!-- Right Zulizwe -->
-    <NPCCharacter id="copy_basic_root1"
+    <NPCCharacter id="crusader_basic1"
         default_group="HorseArcher"
         level="11"
         name="{=Crusader CX2}Crusader CX2"
@@ -471,7 +471,7 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_basic_root10"/>
+            <upgrade_target id="NPCCharacter.crusader_basic10"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -494,7 +494,7 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="copy_basic_root10"
+    <NPCCharacter id="crusader_basic10"
         default_group="HorseArcher"
         level="16"
         name="{=Crusader CX3}Crusader CX3"
@@ -514,7 +514,7 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_basic_root100"/>
+            <upgrade_target id="NPCCharacter.crusader_basic100"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -538,7 +538,7 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="copy_basic_root100"
+    <NPCCharacter id="crusader_basic100"
         default_group="HorseArcher"
         level="21"
         name="{=Crusader CX4}Crusader CX4"
@@ -559,7 +559,7 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.copy_basic_root1000"/>
+            <upgrade_target id="NPCCharacter.crusader_basic1000"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -583,7 +583,7 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="copy_basic_root1000"
+    <NPCCharacter id="crusader_basic1000"
         default_group="HorseArcher"
         level="26"
         name="{=Crusader CX5}Crusader CX5"

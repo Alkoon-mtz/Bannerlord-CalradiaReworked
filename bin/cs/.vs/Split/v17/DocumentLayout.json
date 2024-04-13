@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\Split\\bin\\cs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{422361A2-D3D8-477D-B813-40782C7816C1}|Split.csproj|d:\\steam\\steamapps\\common\\mount \u0026 blade ii bannerlord\\modules\\split\\bin\\cs\\startingposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422361A2-D3D8-477D-B813-40782C7816C1}|Split.csproj|solutionrelative:startingposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422361A2-D3D8-477D-B813-40782C7816C1}|Split.csproj|d:\\steam\\steamapps\\common\\mount \u0026 blade ii bannerlord\\modules\\split\\bin\\cs\\submodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422361A2-D3D8-477D-B813-40782C7816C1}|Split.csproj|solutionrelative:submodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubModule.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\Split\\bin\\cs\\SubModule.cs",
+              "RelativeDocumentMoniker": "SubModule.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\Split\\bin\\cs\\SubModule.cs",
+              "RelativeToolTip": "SubModule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T21:44:02.614Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startingposition.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\Split\\bin\\cs\\Startingposition.cs",
+              "RelativeDocumentMoniker": "Startingposition.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\Split\\bin\\cs\\Startingposition.cs",
+              "RelativeToolTip": "Startingposition.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAAE4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T21:44:00.824Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
