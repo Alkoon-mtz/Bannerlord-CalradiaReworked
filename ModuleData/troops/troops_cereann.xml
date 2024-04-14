@@ -9,7 +9,7 @@
         culture="Culture.battania"
         is_basic_troop="true">
         <face>
-            <face_key_template value="BodyProperty.villager_battania"/>
+            <face_key_template value="BodyProperty.fighter_cereann"/>
         </face>
         <skills >
             <skill id="Athletics" value="100"/>
@@ -51,7 +51,7 @@
         occupation="Soldier"
         culture="Culture.battania">
         <face>
-            <face_key_template value="BodyProperty.villager_battania"/>
+            <face_key_template value="BodyProperty.fighter_cereann"/>
         </face>
         <skills >
             <skill id="Athletics" value="140"/>
@@ -93,7 +93,7 @@
         occupation="Soldier"
         culture="Culture.battania">
         <face>
-            <face_key_template value="BodyProperty.villager_battania"/>
+            <face_key_template value="BodyProperty.fighter_cereann"/>
         </face>
         <skills >
             <skill id="Athletics" value="200"/>
@@ -135,7 +135,7 @@
         occupation="Soldier"
         culture="Culture.battania">
         <face>
-            <face_key_template value="BodyProperty.villager_battania"/>
+            <face_key_template value="BodyProperty.fighter_cereann"/>
         </face>
         <skills >
             <skill id="Athletics" value="260"/>
@@ -176,7 +176,7 @@
         culture="Culture.battania"
         is_basic_troop="true">
         <face>
-            <face_key_template value="BodyProperty.villager_battania"/>
+            <face_key_template value="BodyProperty.fighter_cereann"/>
         </face>
         <skills >
             <skill id="Athletics" value="20"/>
@@ -214,7 +214,7 @@
         occupation="Soldier"
         culture="Culture.battania">
         <face>
-            <face_key_template value="BodyProperty.villager_battania"/>
+            <face_key_template value="BodyProperty.fighter_cereann"/>
         </face>
         <skills >
             <skill id="Athletics" value="50"/>
@@ -255,7 +255,7 @@
         occupation="Soldier"
         culture="Culture.battania">
         <face>
-            <face_key_template value="BodyProperty.villager_battania"/>
+            <face_key_template value="BodyProperty.fighter_cereann"/>
         </face>
         <skills >
             <skill id="Athletics" value="90"/>
@@ -295,7 +295,7 @@
         occupation="Soldier"
         culture="Culture.battania">
         <face>
-            <face_key_template value="BodyProperty.villager_battania"/>
+            <face_key_template value="BodyProperty.fighter_cereann"/>
         </face>
         <skills >
             <skill id="Athletics" value="120"/>
@@ -335,7 +335,7 @@
         occupation="Soldier"
         culture="Culture.battania">
         <face>
-            <face_key_template value="BodyProperty.villager_battania"/>
+            <face_key_template value="BodyProperty.fighter_cereann"/>
         </face>
         <skills >
             <skill id="Athletics" value="160"/>
@@ -373,7 +373,7 @@
         occupation="Soldier"
         culture="Culture.battania">
         <face>
-            <face_key_template value="BodyProperty.villager_battania"/>
+            <face_key_template value="BodyProperty.fighter_cereann"/>
         </face>
         <skills >
             <skill id="Athletics" value="90"/>
@@ -415,7 +415,7 @@
         occupation="Soldier"
         culture="Culture.battania">
         <face>
-            <face_key_template value="BodyProperty.villager_battania"/>
+            <face_key_template value="BodyProperty.fighter_cereann"/>
         </face>
         <skills >
             <skill id="Athletics" value="120"/>
@@ -457,7 +457,7 @@
         culture="Culture.battania"
         is_female="true">
         <face>
-            <face_key_template value="BodyProperty.villager_battania"/>
+            <face_key_template value="BodyProperty.fighter_cereann"/>
         </face>
         <skills >
             <skill id="Athletics" value="20"/>
@@ -502,7 +502,7 @@
         culture="Culture.battania"
         is_female="true">
         <face>
-            <face_key_template value="BodyProperty.villager_battania"/>
+            <face_key_template value="BodyProperty.fighter_cereann"/>
         </face>
         <skills >
             <skill id="Athletics" value="40"/>
@@ -548,7 +548,7 @@
         culture="Culture.battania"
         is_female="true">
         <face>
-            <face_key_template value="BodyProperty.villager_battania"/>
+            <face_key_template value="BodyProperty.fighter_cereann"/>
         </face>
         <skills >
             <skill id="Athletics" value="60"/>
@@ -593,7 +593,7 @@
         culture="Culture.battania"
         is_female="true">
         <face>
-            <face_key_template value="BodyProperty.villager_battania"/>
+            <face_key_template value="BodyProperty.fighter_cereann"/>
         </face>
         <skills >
             <skill id="Athletics" value="70"/>

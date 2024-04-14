@@ -184,8 +184,8 @@
             key="0020C80FC0003A4FDFEEEFEFAABEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00AAA0030AEEEFFF00000000000000000000000000000000000000006F609105" />
     </BodyProperty>
 
-    <!-- Celts -->
-    <BodyProperty id="fighter_celt">
+    <!-- Cereanns -->
+    <BodyProperty id="fighter_cereann">
         <BodyPropertiesMin version="4"
             age="25"
             weight="0.150"
@@ -197,7 +197,7 @@
             build="0.700"
             key="0008680A400035D4FF9FEEFFBBBEEEFEF9FF8EFFEFF7FFFFFEEFEFEE97FEFFEE00FA80030FEEEFEE000000000000000000000000000000000000000001F89105" />
     </BodyProperty>
-    <BodyProperty id="villager_celt">
+    <BodyProperty id="villager_cereann">
         <BodyPropertiesMin version="4"
             age="25"
             weight="0.50"
