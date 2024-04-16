@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-<!-- Elitetroop Zulizwe -->
-    <NPCCharacter id="crusader_elite0"
+<!-- Elitetroop Iustrium -->
+    <NPCCharacter id="iustrium_fidelis"
         default_group="Ranged"
         level="16"
-        name="{=Crusader X3}Crusader X3"
+        name="{=Iustrium X3}Iustrium Fidelis"
         occupation="Soldier"
         culture="Culture.empire"
         is_basic_troop="true">
         <face>
-            <face_key_template value="BodyProperty.villager_empire"/>
+            <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -22,7 +22,7 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.crusader_elite00"/>
+            <upgrade_target id="NPCCharacter.iustrium_creditis"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -44,14 +44,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="crusader_elite00"
+    <NPCCharacter id="iustrium_creditis"
         default_group="Ranged"
         level="21"
-        name="{=Crusader X4}Crusader X4"
+        name="{=Iustrium X4}Iustrium Creditis"
         occupation="Soldier"
         culture="Culture.empire">
         <face>
-            <face_key_template value="BodyProperty.villager_empire"/>
+            <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -64,7 +64,7 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.crusader_elite000"/>
+            <upgrade_target id="NPCCharacter.iustrium_luxidis"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -86,14 +86,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="crusader_elite000"
+    <NPCCharacter id="iustrium_luxidis"
         default_group="Ranged"
         level="26"
-        name="{=Crusader X5}Crusader X5"
+        name="{=Iustrium X5}Iustrium Luxidis"
         occupation="Soldier"
         culture="Culture.empire">
         <face>
-            <face_key_template value="BodyProperty.villager_empire"/>
+            <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -106,7 +106,7 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.crusader_elite0000"/>
+            <upgrade_target id="NPCCharacter.iustrium_desculis"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -128,14 +128,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="crusader_elite0000"
+    <NPCCharacter id="iustrium_desculis"
         default_group="Ranged"
         level="31"
-        name="{=Crusader X6}Crusader X6"
+        name="{=Iustrium X6}Iustrium Desculis"
         occupation="Soldier"
         culture="Culture.empire">
         <face>
-            <face_key_template value="BodyProperty.villager_empire"/>
+            <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -167,16 +167,16 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-<!-- Regulartroop Zulizwe -->
-    <NPCCharacter id="crusader_basic"
+<!-- Regulartroop Iustrium -->
+    <NPCCharacter id="iustrium_recruit"
         default_group="Infantry"
         level="6"
-        name="{=Crusader Recruit}Crusader Recruit"
+        name="{=Iustrium Recruit}Iustrium Recruit"
         occupation="Soldier"
         culture="Culture.empire"
         is_basic_troop="true">
         <face>
-            <face_key_template value="BodyProperty.villager_empire"/>
+            <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -189,8 +189,8 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.crusader_basic0"/>
-            <upgrade_target id="NPCCharacter.crusader_basic1"/>
+            <upgrade_target id="NPCCharacter.iustrium_bellatus"/>
+            <upgrade_target id="NPCCharacter.iustrium_patritor"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -207,14 +207,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="crusader_basic0"
+    <NPCCharacter id="iustrium_bellatus"
         default_group="Infantry"
         level="11"
-        name="{=Crusader F2}Crusader F2"
+        name="{=Iustrium F2}Iustrium Bellatus"
         occupation="Soldier"
         culture="Culture.empire">
         <face>
-            <face_key_template value="BodyProperty.villager_empire"/>
+            <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -227,8 +227,8 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.crusader_basic00"/>
-            <upgrade_target id="NPCCharacter.crusader_basic01"/>
+            <upgrade_target id="NPCCharacter.iustrium_fratus"/>
+            <upgrade_target id="NPCCharacter.iustrium_equitrix "/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -247,15 +247,15 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <!-- Left Zulizwe -->
-    <NPCCharacter id="crusader_basic00"
+    <!-- Left Iustrium -->
+    <NPCCharacter id="iustrium_fratus"
         default_group="Infantry"
         level="16"
-        name="{=Crusader F3}Crusader F3"
+        name="{=Iustrium F3}Iustrium Fratus"
         occupation="Soldier"
         culture="Culture.empire">
         <face>
-            <face_key_template value="BodyProperty.villager_empire"/>
+            <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -268,7 +268,7 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.crusader_basic000"/>
+            <upgrade_target id="NPCCharacter.iustrium_scutus"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -288,14 +288,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="crusader_basic000"
+    <NPCCharacter id="iustrium_scutus"
         default_group="Infantry"
         level="21"
-        name="{=Crusader F4}Crusader F4"
+        name="{=Iustrium F4}Iustrium Scutus"
         occupation="Soldier"
         culture="Culture.empire">
         <face>
-            <face_key_template value="BodyProperty.villager_empire"/>
+            <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -308,7 +308,7 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.crusader_basic0000"/>
+            <upgrade_target id="NPCCharacter.iustrium_duxus"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -328,14 +328,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="crusader_basic0000"
+    <NPCCharacter id="iustrium_duxus"
         default_group="Infantry"
         level="26"
-        name="{=Crusader F5}Crusader F5"
+        name="{=Iustrium F5}Iustrium Duxus"
         occupation="Soldier"
         culture="Culture.empire">
         <face>
-            <face_key_template value="BodyProperty.villager_empire"/>
+            <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -365,16 +365,17 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <!-- Midle Zulizwe -->
-    <NPCCharacter id="crusader_basic01"
+    <!-- Midle Iustrium -->
+    <NPCCharacter id="iustrium_equitrix "
         default_group="Cavalry"
         level="16"
-        name="{=Crusader CM3}Crusader CM3"
+        name="{=Iustrium CM3}Iustrium Equitrix"
         upgrade_requires="ItemCategory.horse"
         occupation="Soldier"
-        culture="Culture.empire">
+        culture="Culture.empire"
+        is_female="true">
         <face>
-            <face_key_template value="BodyProperty.villager_empire"/>
+            <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -387,7 +388,7 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.crusader_basic010"/>
+            <upgrade_target id="NPCCharacter.iustrium_praetrix "/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -409,15 +410,16 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="crusader_basic010"
+    <NPCCharacter id="iustrium_praetrix "
         default_group="Cavalry"
         level="21"
-        name="{=Crusader CM4}Crusader CM4"
+        name="{=Iustrium CM4}Iustrium Praetrix "
         upgrade_requires="ItemCategory.war_horse"
         occupation="Soldier"
-        culture="Culture.empire">
+        culture="Culture.empire"
+        is_female="true">
         <face>
-            <face_key_template value="BodyProperty.villager_empire"/>
+            <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -449,16 +451,16 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <!-- Right Zulizwe -->
-    <NPCCharacter id="crusader_basic1"
+    <!-- Right Iustrium -->
+    <NPCCharacter id="iustrium_patritor"
         default_group="HorseArcher"
         level="11"
-        name="{=Crusader CX2}Crusader CX2"
+        name="{=Iustrium CX2}Iustrium Patritor"
         upgrade_requires="ItemCategory.horse"
         occupation="Soldier"
         culture="Culture.empire">
         <face>
-            <face_key_template value="BodyProperty.villager_empire"/>
+            <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -471,7 +473,7 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.crusader_basic10"/>
+            <upgrade_target id="NPCCharacter.iustrium_scrutator"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -494,14 +496,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="crusader_basic10"
+    <NPCCharacter id="iustrium_scrutator"
         default_group="HorseArcher"
         level="16"
-        name="{=Crusader CX3}Crusader CX3"
+        name="{=Iustrium CX3}Iustrium Scrutator"
         occupation="Soldier"
         culture="Culture.empire">
         <face>
-            <face_key_template value="BodyProperty.villager_empire"/>
+            <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -514,7 +516,7 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.crusader_basic100"/>
+            <upgrade_target id="NPCCharacter.iustrium_limitator"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -538,15 +540,15 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="crusader_basic100"
+    <NPCCharacter id="iustrium_limitator"
         default_group="HorseArcher"
         level="21"
-        name="{=Crusader CX4}Crusader CX4"
+        name="{=Iustrium CX4}Iustrium Limitator"
         upgrade_requires="ItemCategory.war_horse"
         occupation="Soldier"
         culture="Culture.empire">
         <face>
-            <face_key_template value="BodyProperty.villager_empire"/>
+            <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
@@ -559,7 +561,7 @@
             <skill id="Throwing" value="0"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.crusader_basic1000"/>
+            <upgrade_target id="NPCCharacter.iustrium_vigilator"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -583,14 +585,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="crusader_basic1000"
+    <NPCCharacter id="iustrium_vigilator"
         default_group="HorseArcher"
         level="26"
-        name="{=Crusader CX5}Crusader CX5"
+        name="{=Iustrium CX5}Iustrium Vigilator"
         occupation="Soldier"
         culture="Culture.empire">
         <face>
-            <face_key_template value="BodyProperty.villager_empire"/>
+            <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
             <skill id="Athletics" value="0"/>
