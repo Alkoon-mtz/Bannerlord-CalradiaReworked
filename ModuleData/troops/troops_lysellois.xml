@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-    <NPCCharacter id="french_villager"
+    <NPCCharacter id="lysellois_villager"
         default_group="Infantry"
         level="1"
-        name="{=french peasant}French Peasant"
+        name="{=lysellois peasant}Lysellois Peasant"
         occupation="Villager"
-        culture="Culture.french"
+        culture="Culture.lysellois"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_french"/>
+            <face_key_template value="BodyProperty.villager_lysellois"/>
         </face>
         <skills></skills>
         <upgrade_targets>
             <upgrade_target
-                id="NPCCharacter.french_recruit" />
+                id="NPCCharacter.lysellois_recruit" />
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster
@@ -325,17 +325,17 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-<!-- Elitetroop French -->
-    <NPCCharacter id="french_knight"
+<!-- Elitetroop Lysellois -->
+    <NPCCharacter id="lysellois_chevalier"
         default_group="Cavalry"
         level="16"
-        name="{=French Knight}French Knight"
+        name="{=lysellois_chevalier}Lysellois Chevalier"
         upgrade_requires="ItemCategory.war_horse"
         occupation="Soldier"
-        culture="Culture.french"
+        culture="Culture.lysellois"
         is_basic_troop="true">
         <face>
-            <face_key_template value="BodyProperty.fighter_french"/>
+            <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
         <skills >
             <skill id="Athletics" value="30"/>
@@ -348,7 +348,7 @@
             <skill id="Throwing" value="15"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.french_baron"/>
+            <upgrade_target id="NPCCharacter.lysellois_baron"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -371,14 +371,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="french_baron"
+    <NPCCharacter id="lysellois_baron"
         default_group="Cavalry"
         level="21"
-        name="{=French Baron}French Baron"
+        name="{=lysellois_baron}Lysellois Baron"
         occupation="Soldier"
-        culture="Culture.french">
+        culture="Culture.lysellois">
         <face>
-            <face_key_template value="BodyProperty.fighter_french"/>
+            <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
         <skills >
             <skill id="Athletics" value="50"/>
@@ -391,7 +391,7 @@
             <skill id="Throwing" value="20"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.french_count"/>
+            <upgrade_target id="NPCCharacter.lysellois_comte"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -446,14 +446,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="french_count"
+    <NPCCharacter id="lysellois_comte"
         default_group="Cavalry"
         level="26"
-        name="{=French Count}French Count"
+        name="{=lysellois_comte}Lysellois Comte"
         occupation="Soldier"
-        culture="Culture.french">
+        culture="Culture.lysellois">
         <face>
-            <face_key_template value="BodyProperty.fighter_french"/>
+            <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
         <skills >
             <skill id="Athletics" value="60"/>
@@ -466,7 +466,7 @@
             <skill id="Throwing" value="30"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.french_duke"/>
+            <upgrade_target id="NPCCharacter.lysellois_duc"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -525,14 +525,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="french_duke"
+    <NPCCharacter id="lysellois_duc"
         default_group="Cavalry"
         level="31"
-        name="{=French Duke}French Duke"
+        name="{=lysellois_duc}Lysellois Duc"
         occupation="Soldier"
-        culture="Culture.french">
+        culture="Culture.lysellois">
         <face>
-            <face_key_template value="BodyProperty.fighter_french"/>
+            <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
         <skills >
             <skill id="Athletics" value="60"/>
@@ -565,16 +565,16 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-<!-- Regulartroop French -->
-    <NPCCharacter id="french_recruit"
+<!-- Regulartroop Lysellois -->
+    <NPCCharacter id="lysellois_recruit"
         default_group="Infantry"
         level="6"
-        name="{=French Recruit}French Recruit"
+        name="{=lysellois_recruit}Lysellois Recruit"
         occupation="Soldier"
-        culture="Culture.french"
+        culture="Culture.lysellois"
         is_basic_troop="true">
         <face>
-            <face_key_template value="BodyProperty.fighter_french"/>
+            <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
         <skills >
             <skill id="Athletics" value="25"/>
@@ -587,8 +587,8 @@
             <skill id="Throwing" value="10"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.french_footman"/>
-            <upgrade_target id="NPCCharacter.french_crossbowman"/>
+            <upgrade_target id="NPCCharacter.lysellois_fantassin"/>
+            <upgrade_target id="NPCCharacter.lysellois_arbaletrier"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -620,14 +620,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>    
-    <NPCCharacter id="french_footman"
+    <NPCCharacter id="lysellois_fantassin"
         default_group="Infantry"
         level="11"
-        name="{=French Footman}French Footman"
+        name="{=lysellois_fantassin}Lysellois Fantassin"
         occupation="Soldier"
-        culture="Culture.french">
+        culture="Culture.lysellois">
         <face>
-            <face_key_template value="BodyProperty.fighter_french"/>
+            <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
         <skills >
             <skill id="Athletics" value="50"/>
@@ -640,8 +640,8 @@
             <skill id="Throwing" value="15"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.french_cavalry"/>
-            <upgrade_target id="NPCCharacter.french_swordsman"/>
+            <upgrade_target id="NPCCharacter.lysellois_cavalier"/>
+            <upgrade_target id="NPCCharacter.lysellois_epeiste"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -661,16 +661,16 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <!-- Left French -->
-    <NPCCharacter id="french_cavalry"
+    <!-- Left Lysellois -->
+    <NPCCharacter id="lysellois_cavalier"
         default_group="Cavalry"
         level="16"
-        name="{=French Cavalry}French Cavalry"
+        name="{=lysellois_cavalier}Lysellois Cavalier"
         upgrade_requires="ItemCategory.war_horse"
         occupation="Soldier"
-        culture="Culture.french">
+        culture="Culture.lysellois">
         <face>
-            <face_key_template value="BodyProperty.fighter_french"/>
+            <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
         <skills >
             <skill id="Athletics" value="40"/>
@@ -683,7 +683,7 @@
             <skill id="Throwing" value="30"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.french_heavy_cavalry"/>
+            <upgrade_target id="NPCCharacter.lysellois_cavalier_lourd"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -705,14 +705,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="french_heavy_cavalry"
+    <NPCCharacter id="lysellois_cavalier_lourd"
         default_group="Cavalry"
         level="21"
-        name="{=French Heavy Cavalry}French Heavy Cavalry"
+        name="{=lysellois_cavalier_lourd}Lysellois Cavalier Lourd"
         occupation="Soldier"
-        culture="Culture.french">
+        culture="Culture.lysellois">
         <face>
-            <face_key_template value="BodyProperty.fighter_french"/>
+            <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
         <skills >
             <skill id="Athletics" value="60"/>
@@ -725,7 +725,7 @@
             <skill id="Throwing" value="40"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.french_champion"/>
+            <upgrade_target id="NPCCharacter.lysellois_champion"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -747,14 +747,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="french_champion"
+    <NPCCharacter id="lysellois_champion"
         default_group="Cavalry"
         level="26"
-        name="{=French Champion}French Champion"
+        name="{=lysellois_champion}Lysellois Champion"
         occupation="Soldier"
-        culture="Culture.french">
+        culture="Culture.lysellois">
         <face>
-            <face_key_template value="BodyProperty.fighter_french"/>
+            <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
         <skills >
             <skill id="Athletics" value="80"/>
@@ -797,15 +797,15 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <!-- Middle French -->
-    <NPCCharacter id="french_swordsman"
+    <!-- Middle Lysellois -->
+    <NPCCharacter id="lysellois_epeiste"
         default_group="Infantry"
         level="16"
-        name="{=French Swordsman}French Swordsman"
+        name="{=lysellois_epeiste}Lysellois Epeiste"
         occupation="Soldier"
-        culture="Culture.french">
+        culture="Culture.lysellois">
         <face>
-            <face_key_template value="BodyProperty.fighter_french"/>
+            <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
         <skills >
             <skill id="Athletics" value="90"/>
@@ -818,7 +818,7 @@
             <skill id="Throwing" value="40"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.french_sergeant"/>
+            <upgrade_target id="NPCCharacter.lysellois_sergent"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -838,14 +838,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="french_sergeant"
+    <NPCCharacter id="lysellois_sergent"
         default_group="Infantry"
         level="21"
-        name="{=French Sergeant}French Sergeant"
+        name="{=lysellois_sergent}Lysellois Sergent"
         occupation="Soldier"
-        culture="Culture.french">
+        culture="Culture.lysellois">
         <face>
-            <face_key_template value="BodyProperty.fighter_french"/>
+            <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
         <skills >
             <skill id="Athletics" value="120"/>
@@ -875,15 +875,15 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <!-- Right French -->
-    <NPCCharacter id="french_crossbowman"
+    <!-- Right Lysellois -->
+    <NPCCharacter id="lysellois_arbaletrier"
         default_group="Ranged"
         level="11"
-        name="{=French Crossbowman}French Crossbowman"
+        name="{=lysellois_arbaletrier}Lysellois Arbaletrier"
         occupation="Soldier"
-        culture="Culture.french">
+        culture="Culture.lysellois">
         <face>
-            <face_key_template value="BodyProperty.fighter_french"/>
+            <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
         <skills >
             <skill id="Athletics" value="50"/>
@@ -896,7 +896,7 @@
             <skill id="Throwing" value="20"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.french_elite_crossbowman"/>
+            <upgrade_target id="NPCCharacter.lysellois_elite_arbaletrier"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -917,14 +917,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="french_elite_crossbowman"
+    <NPCCharacter id="lysellois_elite_arbaletrier"
         default_group="Ranged"
         level="16"
-        name="{=French Elite Crossbowman}French Elite Crossbowman"
+        name="{=lysellois_elite_arbaletrier}Lysellois Elite Arbaletrier"
         occupation="Soldier"
-        culture="Culture.french">
+        culture="Culture.lysellois">
         <face>
-            <face_key_template value="BodyProperty.fighter_french"/>
+            <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
         <skills >
             <skill id="Athletics" value="80"/>
@@ -937,7 +937,7 @@
             <skill id="Throwing" value="40"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.french_sharpshooter"/>
+            <upgrade_target id="NPCCharacter.lysellois_tireur"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -958,14 +958,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="french_sharpshooter"
+    <NPCCharacter id="lysellois_tireur"
         default_group="Ranged"
         level="21"
-        name="{=French Sharpshooter}French Sharpshooter"
+        name="{=lysellois_tireur}Lysellois Tireur"
         occupation="Soldier"
-        culture="Culture.french">
+        culture="Culture.lysellois">
         <face>
-            <face_key_template value="BodyProperty.fighter_french"/>
+            <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
         <skills >
             <skill id="Athletics" value="110"/>
@@ -978,7 +978,7 @@
             <skill id="Throwing" value="60"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.french_elite_sharpshooter"/>
+            <upgrade_target id="NPCCharacter.lysellois_elite_tireur"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -1000,14 +1000,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="french_elite_sharpshooter"
+    <NPCCharacter id="lysellois_elite_tireur"
         default_group="Ranged"
         level="26"
-        name="{=French Elite Sharpshooter}French Elite Sharpshooter"
+        name="{=lysellois_elite_tireur}Lysellois Elite Tireur"
         occupation="Soldier"
-        culture="Culture.french">
+        culture="Culture.lysellois">
         <face>
-            <face_key_template value="BodyProperty.fighter_french"/>
+            <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
         <skills >
             <skill id="Athletics" value="150"/>

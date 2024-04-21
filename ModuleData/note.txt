@@ -30,7 +30,7 @@ Tweak Armors ?
 Cereann:
 banner: 11.2.2.4922.4922.764.764.1.0.0.415.82.2.500.500.764.754.0.0.0.438.82.2.659.400.764.474.0.0.0.438.82.2.659.400.764.1034.0.1.180
 
-French:
+Lysellois:
 Find new name
 Recheck all files
 

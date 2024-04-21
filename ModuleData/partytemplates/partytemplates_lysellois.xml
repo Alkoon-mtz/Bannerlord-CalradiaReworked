@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <partyTemplates>
     <!-- Party Civilian -->
-    <MBPartyTemplate id="french_villager_template">
+    <MBPartyTemplate id="lysellois_villager_template">
         <stacks>
             <PartyTemplateStack min_value="15"
                 max_value="30"
                 troop="NPCCharacter.villager_vlandia" />
         </stacks>
     </MBPartyTemplate>
-    <MBPartyTemplate id="french_rebels_template">
+    <MBPartyTemplate id="lysellois_rebels_template">
         <stacks>
             <PartyTemplateStack min_value="1"
                 max_value="1"
-                troop="NPCCharacter.french_recruit" />
+                troop="NPCCharacter.lysellois_recruit" />
         </stacks>
     </MBPartyTemplate>
-    <MBPartyTemplate id="french_caravan_template">
+    <MBPartyTemplate id="lysellois_caravan_template">
         <stacks>
             <PartyTemplateStack min_value="8"
                 max_value="8"
@@ -28,7 +28,7 @@
                 troop="NPCCharacter.veteran_caravan_guard_vlandia" />
         </stacks>
     </MBPartyTemplate>
-    <MBPartyTemplate id="french_elite_caravan_template">
+    <MBPartyTemplate id="lysellois_elite_caravan_template">
         <stacks>
             <PartyTemplateStack min_value="8"
                 max_value="8"
@@ -44,7 +44,7 @@
                 troop="NPCCharacter.caravan_master_vlandia" />
         </stacks>
     </MBPartyTemplate>
-    <MBPartyTemplate id="french_militia_template">
+    <MBPartyTemplate id="lysellois_militia_template">
         <stacks>
             <PartyTemplateStack min_value="1"
                 max_value="1"
@@ -54,41 +54,41 @@
                 troop="NPCCharacter.vlandian_militia_archer" />
         </stacks>
     </MBPartyTemplate>
-    <MBPartyTemplate id="french_kingdom_hero_party_template">
+    <MBPartyTemplate id="lysellois_kingdom_hero_party_template">
         <stacks>
             <PartyTemplateStack min_value="16"
                 max_value="16"
-                troop="NPCCharacter.french_recruit" />
+                troop="NPCCharacter.lysellois_recruit" />
             <PartyTemplateStack min_value="4"
                 max_value="4"
-                troop="NPCCharacter.french_footman" />
+                troop="NPCCharacter.lysellois_footman" />
             <PartyTemplateStack min_value="8"
                 max_value="8"
-                troop="NPCCharacter.french_swordsman" />
+                troop="NPCCharacter.lysellois_swordsman" />
             <PartyTemplateStack min_value="2"
                 max_value="2"
-                troop="NPCCharacter.french_sergeant" />
+                troop="NPCCharacter.lysellois_sergeant" />
             <PartyTemplateStack min_value="8"
                 max_value="8"
-                troop="NPCCharacter.french_cavalry" />
+                troop="NPCCharacter.lysellois_cavalry" />
             <PartyTemplateStack min_value="2"
                 max_value="2"
-                troop="NPCCharacter.french_heavy_cavalry" />
+                troop="NPCCharacter.lysellois_heavy_cavalry" />
             <PartyTemplateStack min_value="2"
                 max_value="2"
-                troop="NPCCharacter.french_champion" />
+                troop="NPCCharacter.lysellois_champion" />
             <PartyTemplateStack min_value="4"
                 max_value="4"
-                troop="NPCCharacter.french_elite_crossbowman" />
+                troop="NPCCharacter.lysellois_elite_crossbowman" />
             <PartyTemplateStack min_value="2"
                 max_value="2"
-                troop="NPCCharacter.french_elite_sharpshooter" />
+                troop="NPCCharacter.lysellois_elite_sharpshooter" />
             <PartyTemplateStack min_value="8"
                 max_value="8"
-                troop="NPCCharacter.french_baron" />
+                troop="NPCCharacter.lysellois_baron" />
         </stacks>
     </MBPartyTemplate>
-    <MBPartyTemplate id="french_kingdom_hero_party_mercenary_template">
+    <MBPartyTemplate id="lysellois_kingdom_hero_party_mercenary_template">
         <stacks>
             <PartyTemplateStack min_value="4"
                 max_value="4"
@@ -102,7 +102,7 @@
         </stacks>
     </MBPartyTemplate>
 
-    <MBPartyTemplate id="french_kingdom_hero_party_outlaw_template">
+    <MBPartyTemplate id="lysellois_kingdom_hero_party_outlaw_template">
         <stacks>
             <PartyTemplateStack min_value="4"
                 max_value="4"
@@ -115,14 +115,14 @@
                 troop="NPCCharacter.brotherhood_of_woods_tier_1" />
         </stacks>
     </MBPartyTemplate>
-    <MBPartyTemplate id="french_vassal_reward_troops">
+    <MBPartyTemplate id="lysellois_vassal_reward_troops">
         <stacks>
             <PartyTemplateStack min_value="1"
                 max_value="1"
-                troop="NPCCharacter.french_duke" />
+                troop="NPCCharacter.lysellois_duke" />
             <PartyTemplateStack min_value="5"
                 max_value="5"
-                troop="NPCCharacter.french_heavy_cavalry" />
+                troop="NPCCharacter.lysellois_heavy_cavalry" />
         </stacks>
     </MBPartyTemplate>
     <!-- Party Civilian end -->

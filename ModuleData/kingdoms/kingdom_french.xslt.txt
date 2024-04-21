@@ -5,7 +5,7 @@
         <xsl:apply-templates select="@*|node()"/>
     </xsl:copy>
 </xsl:template>
-<!-- French -->
+<!-- Lysellois -->
     <!-- Colors and Banner -->
     <xsl:template match="Kingdom[@id='vlandia']/@banner_key">
         <xsl:attribute name="banner_key">11.12.12.1536.1536.764.764.1.0.0.500.131.12.600.600.764.764.1.0.0.424.131.12.497.497.764.764.1.0.0</xsl:attribute>

@@ -10,7 +10,8 @@
         <DependedModule Id="Sandbox"/>
         <DependedModule Id="CustomBattle"/>
         <DependedModule Id="StoryMode"/>
-        <!-- <DependedModule Id="swadian armoury"/> -->
+        <DependedModule Id="swadian armoury"/>
+        <DependedModule Id="OpenSourceArmory"/>
     </DependedModules>
     <SubModules>
          <SubModule>

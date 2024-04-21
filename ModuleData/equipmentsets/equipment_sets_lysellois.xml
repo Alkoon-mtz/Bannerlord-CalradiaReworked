@@ -2,8 +2,8 @@
 <EquipmentRosters>
     <!-- Parents -->
     <!--1.Retainer-->
-    <EquipmentRoster id="mother_char_creation_1_french"
-        culture="Culture.french">
+    <EquipmentRoster id="mother_char_creation_1_lysellois"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Head"
                 id="Item.head_wrapped" />
@@ -13,8 +13,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="father_char_creation_1_french"
-        culture="Culture.french">
+    <EquipmentRoster id="father_char_creation_1_lysellois"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.coat_of_plates_over_mail" />
@@ -25,15 +25,15 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--2.Merchant-->
-    <EquipmentRoster id="mother_char_creation_2_french"
-        culture="Culture.french">
+    <EquipmentRoster id="mother_char_creation_2_lysellois"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.cut_dress_with_pouch" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="father_char_creation_2_french"
-        culture="Culture.french">
+    <EquipmentRoster id="father_char_creation_2_lysellois"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.merchants_fur_coat" />
@@ -42,8 +42,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--3.Farmer-->
-    <EquipmentRoster id="mother_char_creation_3_french"
-        culture="Culture.french">
+    <EquipmentRoster id="mother_char_creation_3_lysellois"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Head"
                 id="Item.head_scarf" />
@@ -53,8 +53,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="father_char_creation_3_french"
-        culture="Culture.french">
+    <EquipmentRoster id="father_char_creation_3_lysellois"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.bandit_leather_water_flask" />
@@ -65,8 +65,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--4.Artisan-->
-    <EquipmentRoster id="mother_char_creation_4_french"
-        culture="Culture.french">
+    <EquipmentRoster id="mother_char_creation_4_lysellois"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Head"
                 id="Item.headscarf" />
@@ -76,8 +76,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="father_char_creation_4_french"
-        culture="Culture.french">
+    <EquipmentRoster id="father_char_creation_4_lysellois"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.leather_apron" />
@@ -88,8 +88,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--5.Hunter-->
-    <EquipmentRoster id="mother_char_creation_5_french"
-        culture="Culture.french">
+    <EquipmentRoster id="mother_char_creation_5_lysellois"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.battania_female_civil_a" />
@@ -99,8 +99,8 @@
                 id="Item.ragged_boots" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="father_char_creation_5_french"
-        culture="Culture.french">
+    <EquipmentRoster id="father_char_creation_5_lysellois"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.layered_leather_tunic" />
@@ -113,8 +113,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--6.Mercenary-->
-    <EquipmentRoster id="mother_char_creation_6_french"
-        culture="Culture.french">
+    <EquipmentRoster id="mother_char_creation_6_lysellois"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Head"
                 id="Item.head_wrapped" />
@@ -124,8 +124,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="father_char_creation_6_french"
-        culture="Culture.french">
+    <EquipmentRoster id="father_char_creation_6_lysellois"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.padded_short_coat" />
@@ -135,8 +135,8 @@
     </EquipmentRoster>
     <!-- Culture first -->
     <!--Retainer -->
-    <EquipmentRoster id="player_char_creation_childhood_age_french_1_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_1_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.tunic_with_rolled_cloth" />
@@ -144,8 +144,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_french_1_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_education_age_lysellois_1_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.tunic_with_rolled_cloth" />
@@ -153,8 +153,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_childhood_age_french_1_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_1_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.tunic_with_rolled_cloth" />
@@ -162,8 +162,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_french_1_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_education_age_lysellois_1_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.tunic_with_rolled_cloth" />
@@ -172,8 +172,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--Merchant -->
-    <EquipmentRoster id="player_char_creation_childhood_age_french_2_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_2_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.long_woolen_tunic" />
@@ -181,8 +181,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_french_2_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_education_age_lysellois_2_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.long_woolen_tunic" />
@@ -190,8 +190,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_childhood_age_french_2_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_2_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.long_woolen_tunic" />
@@ -199,8 +199,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_french_2_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_education_age_lysellois_2_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.long_woolen_tunic" />
@@ -209,8 +209,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--Yeomen -->
-    <EquipmentRoster id="player_char_creation_childhood_age_french_3_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_3_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.bandit_leather_water_flask" />
@@ -218,8 +218,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_french_3_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_education_age_lysellois_3_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.bandit_leather_water_flask" />
@@ -227,8 +227,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_childhood_age_french_3_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_3_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.plain_dress" />
@@ -236,8 +236,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_french_3_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_education_age_lysellois_3_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.plain_dress" />
@@ -246,8 +246,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--Blacksmith -->
-    <EquipmentRoster id="player_char_creation_childhood_age_french_4_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_4_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.cloth_apron" />
@@ -255,8 +255,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_french_4_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_education_age_lysellois_4_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.cloth_apron" />
@@ -264,8 +264,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_childhood_age_french_4_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_4_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.cloth_apron" />
@@ -273,8 +273,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_french_4_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_education_age_lysellois_4_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.cloth_apron" />
@@ -283,8 +283,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--Hunter -->
-    <EquipmentRoster id="player_char_creation_childhood_age_french_5_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_5_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.bandit_envelope_dress_v1" />
@@ -292,8 +292,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_french_5_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_education_age_lysellois_5_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.bandit_envelope_dress_v1" />
@@ -301,8 +301,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_childhood_age_french_5_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_5_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.bandit_envelope_dress_v1" />
@@ -310,8 +310,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_french_5_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_education_age_lysellois_5_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.bandit_envelope_dress_v1" />
@@ -320,8 +320,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--Mercenary -->
-    <EquipmentRoster id="player_char_creation_childhood_age_french_6_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_6_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.long_hemp_tunic" />
@@ -329,8 +329,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_french_6_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_education_age_lysellois_6_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.long_hemp_tunic" />
@@ -338,8 +338,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_childhood_age_french_6_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_6_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.long_hemp_tunic" />
@@ -347,8 +347,8 @@
                 id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_french_6_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_education_age_lysellois_6_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.long_hemp_tunic" />
@@ -359,8 +359,8 @@
 
     <!-- Special Situations -->
     <!--served as a baron's groom=> Vlandia Only, Parents Are Retainers-->
-    <EquipmentRoster id="player_char_creation_french_10_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_lysellois_10_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Item0"
                 id="Item.small_flat_heater_shield" />
@@ -390,8 +390,8 @@
                 id="Item.empire_horseman_boots" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_french_10_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_lysellois_10_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Item0"
                 id="Item.small_flat_heater_shield" />
@@ -422,8 +422,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--trained with the cavalry=> Empire Khuzait Aserai Vlandia Only, Parents Are Retainers-->
-    <EquipmentRoster id="player_char_creation_french_9_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_lysellois_9_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Item0"
                 id="Item.small_flat_heater_shield" />
@@ -451,8 +451,8 @@
                 id="Item.empire_horseman_boots" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_french_9_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_lysellois_9_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Item0"
                 id="Item.small_flat_heater_shield" />
@@ -483,8 +483,8 @@
 
     <!-- Player Characters -->
     <!--stood guard with the garrisons-->
-    <EquipmentRoster id="player_char_creation_french_1_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_lysellois_1_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Item0"
                 id="Item.vlandia_sword_1_t2" />
@@ -513,8 +513,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--stood guard with the garrisons-->
-    <EquipmentRoster id="player_char_creation_french_1_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_lysellois_1_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Item0"
                 id="Item.vlandia_sword_1_t2" />
@@ -543,8 +543,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--rode with the scouts-->
-    <EquipmentRoster id="player_char_creation_french_2_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_lysellois_2_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Item2"
                 id="Item.vlandia_mace_1_t2" />
@@ -571,8 +571,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--rode with the scouts-->
-    <EquipmentRoster id="player_char_creation_french_2_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_lysellois_2_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Item2"
                 id="Item.vlandia_mace_1_t2" />
@@ -599,8 +599,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--trained with the infantry-->
-    <EquipmentRoster id="player_char_creation_french_3_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_lysellois_3_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Item2"
                 id="Item.western_spear_2_t2" />
@@ -629,8 +629,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--trained with the infantry-->
-    <EquipmentRoster id="player_char_creation_french_3_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_lysellois_3_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Item2"
                 id="Item.western_spear_2_t2" />
@@ -659,8 +659,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--joined the skirmishers-->
-    <EquipmentRoster id="player_char_creation_french_4_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_lysellois_4_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Item0"
                 id="Item.vlandia_sword_1_t2" />
@@ -687,8 +687,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--joined the skirmishers-->
-    <EquipmentRoster id="player_char_creation_french_4_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_lysellois_4_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Item0"
                 id="Item.vlandia_sword_1_t2" />
@@ -715,8 +715,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--marched with the camp followers-->
-    <EquipmentRoster id="player_char_creation_french_5_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_lysellois_5_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Item2"
                 id="Item.vlandia_sword_1_t2" />
@@ -743,8 +743,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--marched with the camp followers-->
-    <EquipmentRoster id="player_char_creation_french_5_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_lysellois_5_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Item2"
                 id="Item.vlandia_sword_1_t2" />
@@ -771,8 +771,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--Ignore 6th Option-->
-    <EquipmentRoster id="player_char_creation_french_6_m"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_lysellois_6_m"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Item2"
                 id="Item.morningstar_mace_t3" />
@@ -797,8 +797,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--Ignore 6th Option-->
-    <EquipmentRoster id="player_char_creation_french_6_f"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_lysellois_6_f"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Item2"
                 id="Item.morningstar_mace_t3" />
@@ -823,8 +823,8 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!-- Character creation show armor set -->
-    <EquipmentRoster id="player_char_creation_show_french"
-        culture="Culture.french">
+    <EquipmentRoster id="player_char_creation_show_lysellois"
+        culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.banded_leather_over_mail" />
@@ -845,8 +845,8 @@
 
     <!-- Child equipment templates -->
     <!--Villager -->
-    <EquipmentRoster id="child_template_french_villager_male"
-        culture="Culture.french">
+    <EquipmentRoster id="child_template_lysellois_villager_male"
+        culture="Culture.lysellois">
         <EquipmentSet civilian="true">
             <Equipment slot="Body"
                 id="Item.sackcloth_tunic" />
@@ -865,8 +865,8 @@
             IsCivilianTemplate="true"
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="child_template_french_villager_female"
-        culture="Culture.french">
+    <EquipmentRoster id="child_template_lysellois_villager_female"
+        culture="Culture.lysellois">
         <EquipmentSet civilian="true">
             <Equipment slot="Body"
                 id="Item.sackcloth_tunic" />
@@ -885,8 +885,8 @@
             IsCivilianTemplate="true"
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="teenager_template_french_villager_male"
-        culture="Culture.french">
+    <EquipmentRoster id="teenager_template_lysellois_villager_male"
+        culture="Culture.lysellois">
         <EquipmentSet civilian="true">
             <Equipment slot="Body"
                 id="Item.cloth_apron" />
@@ -915,8 +915,8 @@
             IsCivilianTemplate="true"
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="teenager_template_french_villager_female"
-        culture="Culture.french">
+    <EquipmentRoster id="teenager_template_lysellois_villager_female"
+        culture="Culture.lysellois">
         <EquipmentSet civilian="true">
             <Equipment slot="Head"
                 id="Item.headscarf" />
@@ -945,8 +945,8 @@
     </EquipmentRoster>
 
     <!--Townsman -->
-    <EquipmentRoster id="child_template_french_townsman_male"
-        culture="Culture.french">
+    <EquipmentRoster id="child_template_lysellois_townsman_male"
+        culture="Culture.lysellois">
         <EquipmentSet civilian="true">
             <Equipment slot="Body"
                 id="Item.leather_tunic" />
@@ -971,8 +971,8 @@
             IsCivilianTemplate="true"
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="child_template_french_townsman_female"
-        culture="Culture.french">
+    <EquipmentRoster id="child_template_lysellois_townsman_female"
+        culture="Culture.lysellois">
         <EquipmentSet civilian="true">
             <Equipment slot="Body"
                 id="Item.leather_tunic" />
@@ -997,8 +997,8 @@
             IsCivilianTemplate="true"
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="teenager_template_french_townsman_male"
-        culture="Culture.french">
+    <EquipmentRoster id="teenager_template_lysellois_townsman_male"
+        culture="Culture.lysellois">
         <EquipmentSet civilian="true">
             <Equipment slot="Body"
                 id="Item.leather_tunic" />
@@ -1023,8 +1023,8 @@
             IsCivilianTemplate="true"
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="teenager_template_french_townsman_female"
-        culture="Culture.french">
+    <EquipmentRoster id="teenager_template_lysellois_townsman_female"
+        culture="Culture.lysellois">
         <EquipmentSet civilian="true">
             <Equipment slot="Head"
                 id="Item.head_piece" />
@@ -1055,8 +1055,8 @@
     </EquipmentRoster>
 
     <!--Noble -->
-    <EquipmentRoster id="child_template_french_noble_male"
-        culture="Culture.french">
+    <EquipmentRoster id="child_template_lysellois_noble_male"
+        culture="Culture.lysellois">
         <EquipmentSet civilian="true">
             <Equipment slot="Body"
                 id="Item.leather_coat" />
@@ -1081,8 +1081,8 @@
             IsCivilianTemplate="true"
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="child_template_french_noble_female"
-        culture="Culture.french">
+    <EquipmentRoster id="child_template_lysellois_noble_female"
+        culture="Culture.lysellois">
         <EquipmentSet civilian="true">
             <Equipment slot="Body"
                 id="Item.leather_coat" />
@@ -1107,8 +1107,8 @@
             IsCivilianTemplate="true"
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="teenager_template_french_noble_male"
-        culture="Culture.french">
+    <EquipmentRoster id="teenager_template_lysellois_noble_male"
+        culture="Culture.lysellois">
         <EquipmentSet civilian="true">
             <Equipment slot="Body"
                 id="Item.cloth_tunic" />
@@ -1133,8 +1133,8 @@
             IsCivilianTemplate="true"
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="teenager_template_french_noble_female"
-        culture="Culture.french">
+    <EquipmentRoster id="teenager_template_lysellois_noble_female"
+        culture="Culture.lysellois">
         <EquipmentSet civilian="true">
             <Equipment slot="Head"
                 id="Item.head_piece" />

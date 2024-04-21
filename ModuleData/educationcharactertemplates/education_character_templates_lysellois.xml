@@ -1,11 +1,11 @@
 <NPCCharacters>
-  <NPCCharacter id= "child_education_templates_stage_2_page_0_branch_0_french"
-                name = "{=!}stage_2_page_0_branch_0_french"
+  <NPCCharacter id= "child_education_templates_stage_2_page_0_branch_0_lysellois"
+                name = "{=!}stage_2_page_0_branch_0_lysellois"
                 age = "45"
                 default_group = "Infantry"
                 is_hero = "false"
                 occupation = "Lord"
-                culture = "Culture.french"
+                culture = "Culture.lysellois"
                 skill_template = "SkillSet.infantry_heavyinfantry_level1_template_skills"
                 is_template="true">
     <face>
@@ -23,13 +23,13 @@
       <EquipmentRoster civilian="true"/>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id= "child_education_templates_stage_2_page_0_branch_1_french"
-                name = "{=!}stage_2_page_0_branch_1_french"
+  <NPCCharacter id= "child_education_templates_stage_2_page_0_branch_1_lysellois"
+                name = "{=!}stage_2_page_0_branch_1_lysellois"
                 age = "45"
                 default_group = "Infantry"
                 is_hero = "false"
                 occupation = "Lord"
-                culture = "Culture.french"
+                culture = "Culture.lysellois"
                 skill_template = "SkillSet.infantry_heavyinfantry_level1_template_skills"
                 is_template="true">
     <face>
@@ -45,13 +45,13 @@
       <EquipmentRoster civilian="true"/>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id= "child_education_templates_stage_2_page_0_branch_2_french"
-                name = "{=!}stage_2_page_0_branch_2_french"
+  <NPCCharacter id= "child_education_templates_stage_2_page_0_branch_2_lysellois"
+                name = "{=!}stage_2_page_0_branch_2_lysellois"
                 age = "45"
                 default_group = "Infantry"
                 is_hero = "false"
                 occupation = "Lord"
-                culture = "Culture.french"
+                culture = "Culture.lysellois"
                 skill_template = "SkillSet.infantry_heavyinfantry_level1_template_skills"
                 is_template="true">
     <face>
@@ -67,13 +67,13 @@
       <EquipmentRoster civilian="true"/>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id= "child_education_templates_stage_2_page_0_branch_3_french"
-                name = "{=!}stage_2_page_0_branch_3_french"
+  <NPCCharacter id= "child_education_templates_stage_2_page_0_branch_3_lysellois"
+                name = "{=!}stage_2_page_0_branch_3_lysellois"
                 age = "45"
                 default_group = "Infantry"
                 is_hero = "false"
                 occupation = "Lord"
-                culture = "Culture.french"
+                culture = "Culture.lysellois"
                 skill_template = "SkillSet.infantry_heavyinfantry_level1_template_skills"
                 is_template="true">
     <face>
@@ -89,13 +89,13 @@
       <EquipmentRoster civilian="true"/>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id= "child_education_templates_stage_2_page_0_branch_4_french"
-                name = "{=!}stage_2_page_0_branch_4_french"
+  <NPCCharacter id= "child_education_templates_stage_2_page_0_branch_4_lysellois"
+                name = "{=!}stage_2_page_0_branch_4_lysellois"
                 age = "45"
                 default_group = "Infantry"
                 is_hero = "false"
                 occupation = "Lord"
-                culture = "Culture.french"
+                culture = "Culture.lysellois"
                 skill_template = "SkillSet.infantry_heavyinfantry_level1_template_skills"
                 is_template="true">
     <face>
@@ -113,13 +113,13 @@
       <EquipmentRoster civilian="true"/>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id= "child_education_templates_stage_2_page_0_branch_5_french"
-                name = "{=!}stage_2_page_0_branch_5_french"
+  <NPCCharacter id= "child_education_templates_stage_2_page_0_branch_5_lysellois"
+                name = "{=!}stage_2_page_0_branch_5_lysellois"
                 age = "45"
                 default_group = "Infantry"
                 is_hero = "false"
                 occupation = "Lord"
-                culture = "Culture.french"
+                culture = "Culture.lysellois"
                 skill_template = "SkillSet.infantry_heavyinfantry_level1_template_skills"
                 is_template="true">
     <face>

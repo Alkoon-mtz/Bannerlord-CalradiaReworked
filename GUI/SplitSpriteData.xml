@@ -11,7 +11,7 @@
   <SpriteParts>
     <SpritePart>
       <SheetID>1</SheetID>
-      <Name>CharacterCreation\Culture\french</Name>
+      <Name>CharacterCreation\Culture\lysellois</Name>
       <Width>373</Width>
       <Height>665</Height>
       <SheetX>4</SheetX>
@@ -21,8 +21,8 @@
   </SpriteParts>
   <Sprites>
     <GenericSprite>
-      <Name>CharacterCreation\Culture\french</Name>
-      <SpritePartName>CharacterCreation\Culture\french</SpritePartName>
+      <Name>CharacterCreation\Culture\lysellois</Name>
+      <SpritePartName>CharacterCreation\Culture\lysellois</SpritePartName>
     </GenericSprite>
   </Sprites>
 </SpriteData>

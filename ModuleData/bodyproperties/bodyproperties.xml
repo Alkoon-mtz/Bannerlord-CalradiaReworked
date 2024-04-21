@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BodyProperties>
-    <!-- French -->
-    <BodyProperty id="fighter_french">
+    <!-- Lysellois -->
+    <BodyProperty id="fighter_lysellois">
         <BodyPropertiesMin version="4"
             age="25"
             weight="0.200"
@@ -13,7 +13,7 @@
             build="0.700"
             key="0013880E40003386EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE00AA60030AEFEEEF000000000000000000000000000000000000000067489105" />
     </BodyProperty>
-    <BodyProperty id="villager_french">
+    <BodyProperty id="villager_lysellois">
         <BodyPropertiesMin version="4"
             age="25"
             weight="0.100"
