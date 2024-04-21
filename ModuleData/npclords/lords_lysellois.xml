@@ -1,0 +1,36 @@
+<NPCCharacters>
+    <NPCCharacter id="lord_lysellois_1_1"
+        name="{=lord_lysellois_1_1}Louis"
+        age="33"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.lysellois"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="33"
+                weight="0.3283"
+                build="0.8553"
+                key="0010240D00580202B379B24D4767849BC78387858587B773A87677498DA05B5D007D560307886597000000000000000000000000000000000000000028E43002" />
+        </face>
+        <skills>
+            <skill id="OneHanded" value="200" />
+            <skill id="Throwing" value="290" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="90" />
+            <skill id="Scouting" value="90" />
+            <skill id="Steward" value="140" />
+            <skill id="Medicine" value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Honor" value="+2" />
+            <Trait id="Valor" value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

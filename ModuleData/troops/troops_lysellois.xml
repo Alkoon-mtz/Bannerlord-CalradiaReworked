@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-    <NPCCharacter id="lysellois_villager"
+    <NPCCharacter id="villager_lysellois"
         default_group="Infantry"
         level="1"
-        name="{=lysellois peasant}Lysellois Peasant"
+        name="{=villager_lysellois}Lysellois Peasant"
         occupation="Villager"
         culture="Culture.lysellois"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">

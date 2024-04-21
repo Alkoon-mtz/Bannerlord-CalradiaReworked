@@ -1,0 +1,9 @@
+<Factions>
+  <Faction id="clan_lysellois_1"
+           name="{=clan_lysellois_1}de Sargot"
+           tier="6"
+           owner="Hero.lord_lysellois_1_1"
+           culture="Culture.lysellois"
+           super_faction="Kingdom.kingdom_lysellois"
+           banner_key="11.12.12.1536.1536.764.764.1.0.0.500.131.12.600.600.764.764.1.0.0.424.131.12.497.497.764.764.1.0.0" />
+</Factions>

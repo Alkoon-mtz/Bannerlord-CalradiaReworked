@@ -1,0 +1,25 @@
+<Kingdoms>
+    <Kingdom id="kingdom_lysellois"
+        owner="Hero.lord_lysellois_1_1"
+        banner_key="11.12.12.1536.1536.764.764.1.0.0.500.131.12.600.600.764.764.1.0.0.424.131.12.497.497.764.764.1.0.0"
+        primary_banner_color="0xff000C7B"
+        secondary_banner_color="0xffC2BAB0"
+        label_color="FF000C7B"
+        color="FF000C7B"
+        color2="FFC2BAB0"
+        alternative_color="FFC2BAB0"
+        alternative_color2="FF000C7B"
+        culture="Culture.lysellois"
+        settlement_banner_mesh="encounter_flag_a"
+        flag_mesh="info_screen_flags_b"
+        name="{=LY_kingdom_name}Kingdom of Lysellois"
+        short_name="{=LY_short_name}Lysellegiens"
+        title="{=LY_kingdom_title}Kingdom of Lysellois"
+        ruler_title="{=hwnp9abW}King"
+        text="{=LY_text}These are the french but with an other name to be honest">
+        <relationships></relationships>
+        <policies>
+            <policy id="policy_royal_guard" />
+        </policies>
+    </Kingdom>
+</Kingdoms>

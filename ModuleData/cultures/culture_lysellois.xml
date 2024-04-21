@@ -6,7 +6,7 @@
         is_main_culture="true"
         color="FF000C7B"
         color2="FFC2BAB0"
-        elite_basic_troop="NPCCharacter.lysellois_knight"
+        elite_basic_troop="NPCCharacter.lysellois_chevalier"
         basic_troop="NPCCharacter.lysellois_recruit"
         melee_militia_troop="NPCCharacter.vlandian_militia_spearman"
         ranged_militia_troop="NPCCharacter.vlandian_militia_archer"
@@ -26,8 +26,8 @@
         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
         text="{=1Ww5lg6I}The first Vlandians arrived from overseas, mercenaries and adventurers, speaking the tongues of many lands, taking the empire's silver to guard the frontiers against the unsubdued tribes of the interior. They took their name from one of their first warlords, Wilund the Bold - Valandion, in Calradic - and became known as the Vlandians. Their heavy cavalry, second to none, ran down the Emperor's foes from the Aserai wastes to the distant steppes. But cash-strapped officials soon began to pay them with land grants and titles instead of silver, perhaps not the most far-sighted of policies. The Vlandians settled, married, planted farms, and seized nearby imperial fortresses as their own. Now they are an independent kingdom, their traditions drawing from both Calradia and their distant homelands."
         tournament_master="NPCCharacter.tournament_master_vlandia"
-        villager="NPCCharacter.lysellois_villager"
-        caravan_master="NPCCharacter.caravan_master_vlandia"
+        villager="NPCCharacter.villager_lysellois"
+        caravan_master="NPCCharacter.caravan_master_lysellois"
         armed_trader="NPCCharacter.armed_trader_vlandia"
         caravan_guard="NPCCharacter.caravan_guard_vlandia"
         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_vlandia"
@@ -295,25 +295,27 @@
             <template name="NPCCharacter.spc_wanderer_vlandia_10" />
             <template name="NPCCharacter.spc_wanderer_vlandia_11" />
             <template name="NPCCharacter.spc_wanderer_vlandia_12" />
-            <template name="NPCCharacter.spc_notable_vlandia_merch1" />
-            <template name="NPCCharacter.spc_notable_vlandia_merch2" />
-            <template name="NPCCharacter.spc_notable_vlandia_merch3" />
-            <template name="NPCCharacter.spc_notable_vlandia_merch4" />
-            <template name="NPCCharacter.spc_notable_vlandia_merch5" />
-            <template name="NPCCharacter.spc_notable_vlandia_1" />
-            <template name="NPCCharacter.spc_notable_vlandia_1b" />
-            <template name="NPCCharacter.spc_notable_vlandia_2" />
-            <template name="NPCCharacter.spc_notable_vlandia_3" />
-            <template name="NPCCharacter.spc_vlandia_gangleader_1" />
-            <template name="NPCCharacter.spc_vlandia_gangleader_2" />
-            <template name="NPCCharacter.spc_vlandia_gangleader_3" />
-            <template name="NPCCharacter.spc_notable_vlandia_artisan_1" />
-            <template name="NPCCharacter.spc_notable_vlandia_artisan_2" />
-            <template name="NPCCharacter.spc_notable_vlandia_rural_1" />
-            <template name="NPCCharacter.spc_notable_vlandia_rural_2" />
-            <template name="NPCCharacter.spc_vlandia_headman_1" />
-            <template name="NPCCharacter.spc_vlandia_headman_2" />
-            <template name="NPCCharacter.spc_vlandia_headman_3" />
+            <template name="NPCCharacter.spc_merchant_lysellois_1" />
+            <template name="NPCCharacter.spc_merchant_lysellois_2" />
+            <template name="NPCCharacter.spc_merchant_lysellois_3" />
+            <template name="NPCCharacter.spc_merchant_lysellois_4" />
+            <template name="NPCCharacter.spc_merchant_lysellois_5" />
+            <template name="NPCCharacter.spc_merchant_lysellois_6" />
+            <template name="NPCCharacter.spc_merchant_lysellois_6f" />
+            <template name="NPCCharacter.spc_preacher_lysellois_1" />
+            <template name="NPCCharacter.spc_preacher_lysellois_1f" />
+            <template name="NPCCharacter.spc_gangleader_lysellois_1" />
+            <template name="NPCCharacter.spc_gangleader_lysellois_1f" />
+            <template name="NPCCharacter.spc_gangleader_lysellois_2f" />
+            <template name="NPCCharacter.spc_artisan_lysellois_1" />
+            <template name="NPCCharacter.spc_artisan_lysellois_2" />
+            <template name="NPCCharacter.spc_ruralnotable_lysellois_1" />
+            <template name="NPCCharacter.spc_ruralnotable_lysellois_1f" />
+            <template name="NPCCharacter.spc_ruralnotable_lysellois_2" />
+            <template name="NPCCharacter.spc_ruralnotable_lysellois_2f" />
+            <template name="NPCCharacter.spc_headman_lysellois_1" />
+            <template name="NPCCharacter.spc_headman_lysellois_1f" />
+            <template name="NPCCharacter.spc_headman_lysellois_2" />
         </notable_and_wanderer_templates>
         <lord_templates>
             <template name="NPCCharacter.spc_company_of_the_boar_leader_0" />

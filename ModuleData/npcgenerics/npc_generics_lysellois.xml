@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+    <NPCCharacter id="caravan_master_lysellois"
+            default_group="Infantry"
+            level="26" name="{=uDseaKcb}Lysellegien Caravan Master"
+            occupation="CaravanGuard"
+            culture="Culture.lysellois">
+        <face>
+            <face_key_template value="BodyProperty.fighter_lysellois" />
+        </face>
+        <skills >
+            <skill id="Athletics" value="150"/>
+            <skill id="Riding" value="30"/>
+            <skill id="OneHanded" value="140"/>
+            <skill id="TwoHanded" value="30"/>
+            <skill id="Polearm" value="60"/>
+            <skill id="Bow" value="60"/>
+            <skill id="Crossbow" value="160"/>
+            <skill id="Throwing" value="70"/>
+        </skills>
+        <upgrade_targets></upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.crossbow_f"/>
+                <equipment slot="Item1" id="Item.bolt_c"/>
+                <equipment slot="Item2" id="Item.vlandia_sword_4_t4"/>
+                <equipment slot="Item3" id="Item.pavise_shield"/>
+                <equipment slot="Head" id="Item.peaked_helmet_over_mail_coif"/>
+                <equipment slot="Cape" id="Item.chainmail_shoulder_armor"/>
+                <equipment slot="Body" id="Item.vlandia_chainmail"/>
+                <equipment slot="Gloves" id="Item.mail_mitten"/>
+                <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>
