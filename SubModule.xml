@@ -14,15 +14,15 @@
         <DependedModule Id="OpenSourceArmory"/>
     </DependedModules>
     <SubModules>
-         <SubModule>
-             <Name value="Split"/>
-             <DLLName value="Split.dll"/>
-             <SubModuleClassType value="Split.SubModule"/>
-             <Tags>
-                 <Tag key="DedicatedServerType" value="none" />
-                 <Tag key="IsNoRenderModeElement" value="false" />
-             </Tags>
-         </SubModule>
+        <SubModule>
+            <Name value="Split"/>
+            <DLLName value="Split.dll"/>
+            <SubModuleClassType value="Split.SubModule"/>
+            <Tags>
+                <Tag key="DedicatedServerType" value="none" />
+                <Tag key="IsNoRenderModeElement" value="false" />
+            </Tags>
+        </SubModule>
     </SubModules>
     <Xmls>
         <XmlNode>
@@ -169,6 +169,14 @@
         </XmlNode>
         <XmlNode>
             <XmlName id="Settlements" path="settlements"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
+                <GameType value = "CustomGame"/>
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="SkillSets" path="skillsets"/>
             <IncludedGameTypes>
                 <GameType value = "Campaign"/>
                 <GameType value = "CampaignStoryMode"/>

@@ -59,7 +59,7 @@ Debug:
 - Troops incorrect culture in cities
     Notables in culture@notable_and_wanderer_templates must be of the troops culture, city culture is not used for that
 - Sequence contains no matching element
-    For notables, merchants need (apparently) caravan_master of the same culture in culture+elite_caravan_party_template
+    For notables, merchants needs caravan_master of the same culture in culture+elite_caravan_party_template
 - Same face troops/face always set to BodyPropertiesMin or BodyPropertiesMax
     Check if BodyPropertiesMin and BodyPropertiesMax are different, carefull about the c/p and the simple "<BodyProperties version="4..."
     BodyPropertiesMin and BodyPropertiesMax must be "wide" enough or else it won't differ a lot
