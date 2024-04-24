@@ -5,7 +5,7 @@
         name="{=Lysellois}Lysellois"
         is_main_culture="true"
         color="FF000C7B"
-        color2="FFC2BAB0"
+        color2="FFF2C131"
         elite_basic_troop="NPCCharacter.lysellois_chevalier"
         basic_troop="NPCCharacter.lysellois_recruit"
         melee_militia_troop="NPCCharacter.vlandian_militia_spearman"

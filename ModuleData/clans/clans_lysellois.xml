@@ -6,4 +6,39 @@
            culture="Culture.lysellois"
            super_faction="Kingdom.kingdom_lysellois"
            banner_key="11.12.12.1536.1536.764.764.1.0.0.500.131.12.600.600.764.764.1.0.0.424.131.12.497.497.764.764.1.0.0" />
+  <Faction id="clan_lysellois_2"
+           name="{=clan_lysellois_2}de Valmont"
+           tier="6"
+           owner="Hero.lord_lysellois_2_1"
+           culture="Culture.lysellois"
+           super_faction="Kingdom.kingdom_lysellois"
+           banner_key="11.12.12.1536.1536.764.764.1.0.0.304.131.12.400.600.764.764.1.0.0.126.131.12.400.450.634.819.1.0.0.126.131.12.400.450.894.819.1.1.0" />
+  <Faction id="clan_lysellois_3"
+           name="{=clan_lysellois_3}de Desbran"
+           tier="5"
+           owner="Hero.lord_lysellois_3_1"
+           culture="Culture.lysellois"
+           super_faction="Kingdom.kingdom_lysellois"
+           banner_key="11.184.14.4922.4922.764.764.1.0.0.207.15.0.267.238.863.918.0.1.332.207.15.0.238.238.651.918.0.0.28.220.15.0.408.408.757.646.0.0.0.512.15.0.111.111.757.879.0.0.1" />
+  <Faction id="clan_lysellois_4"
+           name="{=clan_lysellois_4}de Cotelet"
+           tier="5"
+           owner="Hero.lord_lysellois_4_1"
+           culture="Culture.lysellois"
+           super_faction="Kingdom.kingdom_lysellois"
+           banner_key="11.184.14.4922.4922.764.764.1.0.0.419.15.0.454.454.764.764.0.0.0.512.15.0.125.125.653.887.0.0.0.512.15.0.125.125.875.641.0.0.0.512.15.0.125.125.869.887.0.0.0.512.15.0.125.125.653.641.0.0.0" />
+  <Faction id="clan_lysellois_5"
+           name="{=clan_lysellois_5}de Forgea"
+           tier="5"
+           owner="Hero.lord_lysellois_5_1"
+           culture="Culture.lysellois"
+           super_faction="Kingdom.kingdom_lysellois"
+           banner_key="11.184.14.4922.4922.764.764.1.0.0.419.15.0.454.454.764.764.0.0.0.512.15.0.125.125.653.887.0.0.0.512.15.0.125.125.875.641.0.0.0.512.15.0.125.125.869.887.0.0.0.512.15.0.125.125.653.641.0.0.0" />
+  <Faction id="clan_lysellois_6"
+           name="{=clan_lysellois_6}de Saintmer"
+           tier="5"
+           owner="Hero.lord_lysellois_6_1"
+           culture="Culture.lysellois"
+           super_faction="Kingdom.kingdom_lysellois"
+           banner_key="11.12.131.4922.4922.764.764.1.0.0.505.15.0.60.60.583.911.0.0.134.505.15.0.60.60.668.909.0.0.134.505.15.0.60.60.666.827.0.0.134.505.15.0.60.60.751.827.0.0.134.505.15.0.60.60.751.744.0.0.134.505.15.0.60.60.833.745.0.0.134.505.15.0.60.60.833.663.0.0.134.505.15.0.60.60.916.663.0.0.134.505.15.0.60.60.916.580.0.0.134.207.15.0.188.188.638.664.0.0.310.207.15.0.188.188.894.898.0.1.135" />
 </Factions>

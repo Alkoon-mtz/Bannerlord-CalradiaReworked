@@ -33,4 +33,175 @@
             <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_lysellois_2_1"
+        name="{=lord_lysellois_2_1}François"
+        age="40"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.lysellois"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="40"
+                weight="0.6333"
+                build="0.6651"
+                key="00050002C000360D38716B50212852B8845A7E6426849A2395757F277207138603AA90350A848C3400000000000000000000000000000000000000006B400002" />
+        </face>
+        <skills>
+            <skill id="OneHanded" value="200" />
+            <skill id="Throwing" value="290" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="90" />
+            <skill id="Scouting" value="90" />
+            <skill id="Steward" value="140" />
+            <skill id="Medicine" value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Generosity" value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_lysellois_3_1"
+        name="{=lord_lysellois_3_1}Foulques"
+        age="53"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.lysellois"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="53"
+                weight="0.6333"
+                build="0.6651"
+                key="0000FC02C000220458C56743D5B5AB56396A8C717B876E66C7B287AB79C2A84B0000000305C96766000000000000000000000000000000000000000000F02000" />
+        </face>
+        <skills>
+            <skill id="OneHanded" value="200" />
+            <skill id="Throwing" value="290" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="90" />
+            <skill id="Scouting" value="90" />
+            <skill id="Steward" value="140" />
+            <skill id="Medicine" value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Generosity" value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_lysellois_4_1"
+        name="{=lord_lysellois_4_1}Elenor"
+        age="41"
+        voice="ironic"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.lysellois"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="41"
+                weight="0.300"
+                build="0.6651"
+                key="000044000000000577707780B7C07777C2BB71F7EFF77AA7956746991C7775C70000000505C7966A000000000000000000000000000000000000000000000100" />
+        </face>
+        <skills>
+            <skill id="OneHanded" value="200" />
+            <skill id="Throwing" value="290" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="90" />
+            <skill id="Scouting" value="90" />
+            <skill id="Steward" value="140" />
+            <skill id="Medicine" value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Generosity" value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_lysellois_5_1"
+        name="{=lord_lysellois_5_1}Hubert"
+        age="41"
+        voice="earnest"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.lysellois"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="41"
+                weight="0.5517"
+                build="0.5949"
+                key="000B60014000234665734C57613665A5354588837351AC1455E8373672131432037980350768BB63000000000000000000000000000000000000000026E01082" />
+        </face>
+        <skills>
+            <skill id="OneHanded" value="200" />
+            <skill id="Throwing" value="290" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="90" />
+            <skill id="Scouting" value="90" />
+            <skill id="Steward" value="140" />
+            <skill id="Medicine" value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Generosity" value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_lysellois_6_1"
+        name="{=lord_lysellois_6_1}Gaston"
+        age="26"
+        voice="curt"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.lysellois"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="26"
+                weight="0.400"
+                build="0.600"
+                key="00006C02C000000977A84702762098CB27AD8D4D54C9895378C97B1E27408574000440040488276B000000000000000000000000000000000000000000780000" />
+        </face>
+        <skills>
+            <skill id="OneHanded" value="200" />
+            <skill id="Throwing" value="290" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="90" />
+            <skill id="Scouting" value="90" />
+            <skill id="Steward" value="140" />
+            <skill id="Medicine" value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Generosity" value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
 </NPCCharacters>

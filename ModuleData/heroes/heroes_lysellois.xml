@@ -1,3 +1,8 @@
 <Heroes>
    <Hero id="lord_lysellois_1_1" faction="Faction.clan_lysellois_1" />
+   <Hero id="lord_lysellois_2_1" faction="Faction.clan_lysellois_2" />
+   <Hero id="lord_lysellois_3_1" faction="Faction.clan_lysellois_3" />
+   <Hero id="lord_lysellois_4_1" faction="Faction.clan_lysellois_4" />
+   <Hero id="lord_lysellois_5_1" faction="Faction.clan_lysellois_5" />
+   <Hero id="lord_lysellois_6_1" faction="Faction.clan_lysellois_6" />
 </Heroes>
