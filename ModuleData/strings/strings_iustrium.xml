@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<strings>
+    <string id="str_adjective_for_culture.iustrium" text="{=E11IS_adj_cul}Iustram" />
+    <string id="str_culture_rich_name.iustrium" text="{=E11IS_cul_name}Iustrams" />
+    <string id="str_faction_ruler_name_with_title.iustrium" text="{=E11FRG_ruler_title}{?RULER.GENDER}Princess{?}Prince{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.iustrium" text="{=E11IS_noble_title}{?RULER.GENDER}Dona{?}Done{\?} {RULER.NAME}" />
+    <string id="str_faction_official.iustrium" text="{=E11IS_noble_m}a done" />
+    <string id="str_faction_official.iustrium_f" text="{=E11IS_noble_f}a dona" />
+    <string id="str_faction_ruler.iustrium" text="{=E11IS_ruler_m}Prince" />
+    <string id="str_faction_ruler.iustrium_f" text="{=E11IS_ruler_f}Princess" />
+    <string id="str_faction_ruler_term_in_speech.iustrium" text="{=E11IS_ruler_sp}{?RULER.GENDER}Princess{?}Prince{\?} {RULER.NAME}" />
+    <string id="str_neutral_term_for_culture.iustrium" text="{=E11IS_n_cul}Iustrams" />
+    <string id="str_adjective_for_faction.iustrium" text="{=E11IS_adj_fac}Iustram" />
+    <string id="str_short_term_for_faction.iustrium" text="{=E11IS_short_term}Iustram" />
+    <string id="str_faction_formal_name_for_culture.iustrium" text="{=E11IS_formal_name}Principality of Iustrium" />
+    <string id="str_faction_informal_name_for_culture.iustrium" text="{=E11IS_informal_name}Iustram" />
+    <string id="str_culture_description.iustrium" text="{=E11IS_desc}Deus Lo Vult" />
+</strings>
