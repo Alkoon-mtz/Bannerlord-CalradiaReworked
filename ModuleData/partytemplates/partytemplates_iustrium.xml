@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <!-- Party Civilian -->
+    <MBPartyTemplate id="iustrium_villager_template">
+        <stacks>
+            <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_iustrium" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="iustrium_rebels_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.iustrium_recruit" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="iustrium_caravan_template">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_aserai" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_aserai" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_aserai" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="iustrium_elite_caravan_template">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_aserai" />
+            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_aserai" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_aserai" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_aserai" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="iustrium_militia_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aserai_militia_spearman" />
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aserai_militia_archer" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="iustrium_kingdom_hero_party_template">
+        <stacks>
+            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.iustrium_recruit" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.iustrium_bellatus" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.iustrium_equitrix" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.iustrium_praetrix" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.iustrium_fratus" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.iustrium_scutus" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.iustrium_duxus" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.iustrium_limitator" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.iustrium_vigilator" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.iustrium_creditis" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="iustrium_kingdom_hero_party_mercenary_template">
+        <stacks>
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.company_of_the_boar_tier_3" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.company_of_the_boar_tier_2" />
+            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.company_of_the_boar_tier_1" />
+        </stacks>
+    </MBPartyTemplate>
+
+    <MBPartyTemplate id="iustrium_kingdom_hero_party_outlaw_template">
+        <stacks>
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.brotherhood_of_woods_tier_3" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.brotherhood_of_woods_tier_2" />
+            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.brotherhood_of_woods_tier_1" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="iustrium_vassal_reward_troops">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.iustrium_desculis" />
+            <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.iustrium_vigilator" />
+        </stacks>
+    </MBPartyTemplate>
+    <!-- Party Civilian end -->
+    <!-- Party Lords -->
+    <!-- Party Lords end -->
+</partyTemplates>

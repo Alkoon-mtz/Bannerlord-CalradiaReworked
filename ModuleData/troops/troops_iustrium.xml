@@ -1,12 +1,213 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
+    <NPCCharacter id="villager_iustrium"
+        default_group="Infantry"
+        level="1"
+        name="{=villager_iustrium}Iustrium Peasant"
+        occupation="Villager"
+        culture="Culture.iustrium"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_iustrium"/>
+        </face>
+        <skills></skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.iustrium_recruit" />
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body"
+                    id="Item.cloth_tunic" />
+                <equipment slot="Leg"
+                    id="Item.strapped_shoes" />
+                <equipment slot="Cape"
+                    id="Item.scarf" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body"
+                    id="Item.tied_cloth_tunic" />
+                <equipment slot="Head"
+                    id="Item.merchants_hat" />
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Cape"
+                    id="Item.scarf" />
+                <equipment slot="Body"
+                    id="Item.tundra_tunic" />
+                <equipment slot="Leg"
+                    id="Item.strapped_leather_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0"
+                    id="Item.peasant_sickle_1_t1" />
+                <equipment slot="Body"
+                    id="Item.hemp_tunic" />
+                <equipment slot="Cape"
+                    id="Item.scarf" />
+                <equipment slot="Leg"
+                    id="Item.strapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body"
+                    id="Item.tunic_with_shoulder_pads" />
+                <equipment slot="Head"
+                    id="Item.merchants_hat" />
+                <equipment slot="Leg"
+                    id="Item.strapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body"
+                    id="Item.fine_town_tunic" />
+                <equipment slot="Leg"
+                    id="Item.strapped_leather_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body"
+                    id="Item.fine_town_tunic" />
+                <equipment slot="Leg"
+                    id="Item.leather_boots" />
+                <equipment slot="Head"
+                    id="Item.merchants_hat" />
+                <equipment slot="Cape"
+                    id="Item.scarf" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body"
+                    id="Item.burlap_waistcoat" />
+                <equipment slot="Leg"
+                    id="Item.strapped_leather_boots" />
+                <equipment slot="Gloves"
+                    id="Item.armwraps" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body"
+                    id="Item.cloth_tunic" />
+                <equipment slot="Cape"
+                    id="Item.scarf" />
+                <equipment slot="Leg"
+                    id="Item.highland_leg_wrappings" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Item1"
+                    id="Item.throwing_stone" />
+                <equipment slot="Body"
+                    id="Item.cloth_tunic" />
+                <equipment slot="Leg"
+                    id="Item.strapped_shoes" />
+                <equipment slot="Cape"
+                    id="Item.scarf" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.peasant_hatchet_1_t1" />
+                <equipment slot="Item1"
+                    id="Item.throwing_stone" />
+                <equipment slot="Body"
+                    id="Item.tied_cloth_tunic" />
+                <equipment slot="Head"
+                    id="Item.merchants_hat" />
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Item1"
+                    id="Item.throwing_stone" />
+                <equipment slot="Cape"
+                    id="Item.scarf" />
+                <equipment slot="Body"
+                    id="Item.tundra_tunic" />
+                <equipment slot="Leg"
+                    id="Item.strapped_leather_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.peasant_pitchfork_2_t1" />
+                <equipment slot="Item1"
+                    id="Item.throwing_stone" />
+                <equipment slot="Item0"
+                    id="Item.peasant_sickle_1_t1" />
+                <equipment slot="Body"
+                    id="Item.hemp_tunic" />
+                <equipment slot="Cape"
+                    id="Item.scarf" />
+                <equipment slot="Leg"
+                    id="Item.strapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.peasant_pitchfork_1_t1" />
+                <equipment slot="Item1"
+                    id="Item.throwing_stone" />
+                <equipment slot="Body"
+                    id="Item.tunic_with_shoulder_pads" />
+                <equipment slot="Head"
+                    id="Item.merchants_hat" />
+                <equipment slot="Leg"
+                    id="Item.strapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1" />
+                <equipment slot="Item1"
+                    id="Item.throwing_stone" />
+                <equipment slot="Body"
+                    id="Item.fine_town_tunic" />
+                <equipment slot="Leg"
+                    id="Item.strapped_leather_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Item1"
+                    id="Item.throwing_stone" />
+                <equipment slot="Body"
+                    id="Item.fine_town_tunic" />
+                <equipment slot="Leg"
+                    id="Item.leather_boots" />
+                <equipment slot="Head"
+                    id="Item.merchants_hat" />
+                <equipment slot="Cape"
+                    id="Item.scarf" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Item1"
+                    id="Item.throwing_stone" />
+                <equipment slot="Body"
+                    id="Item.burlap_waistcoat" />
+                <equipment slot="Leg"
+                    id="Item.strapped_leather_boots" />
+                <equipment slot="Gloves"
+                    id="Item.armwraps" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.peasant_sickle_1_t1" />
+                <equipment slot="Item1"
+                    id="Item.throwing_stone" />
+                <equipment slot="Body"
+                    id="Item.cloth_tunic" />
+                <equipment slot="Cape"
+                    id="Item.scarf" />
+                <equipment slot="Leg"
+                    id="Item.highland_leg_wrappings" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
 <!-- Elitetroop Iustrium -->
     <NPCCharacter id="iustrium_fidelis"
         default_group="Ranged"
         level="16"
         name="{=Iustrium X3}Iustrium Fidelis"
         occupation="Soldier"
-        culture="Culture.empire"
+        culture="Culture.iustrium"
         is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.fighter_iustrium"/>
@@ -49,7 +250,7 @@
         level="21"
         name="{=Iustrium X4}Iustrium Creditis"
         occupation="Soldier"
-        culture="Culture.empire">
+        culture="Culture.iustrium">
         <face>
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
@@ -91,7 +292,7 @@
         level="26"
         name="{=Iustrium X5}Iustrium Luxidis"
         occupation="Soldier"
-        culture="Culture.empire">
+        culture="Culture.iustrium">
         <face>
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
@@ -133,7 +334,7 @@
         level="31"
         name="{=Iustrium X6}Iustrium Desculis"
         occupation="Soldier"
-        culture="Culture.empire">
+        culture="Culture.iustrium">
         <face>
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
@@ -173,7 +374,7 @@
         level="6"
         name="{=Iustrium Recruit}Iustrium Recruit"
         occupation="Soldier"
-        culture="Culture.empire"
+        culture="Culture.iustrium"
         is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.fighter_iustrium"/>
@@ -212,7 +413,7 @@
         level="11"
         name="{=Iustrium F2}Iustrium Bellatus"
         occupation="Soldier"
-        culture="Culture.empire">
+        culture="Culture.iustrium">
         <face>
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
@@ -253,7 +454,7 @@
         level="16"
         name="{=Iustrium F3}Iustrium Fratus"
         occupation="Soldier"
-        culture="Culture.empire">
+        culture="Culture.iustrium">
         <face>
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
@@ -293,7 +494,7 @@
         level="21"
         name="{=Iustrium F4}Iustrium Scutus"
         occupation="Soldier"
-        culture="Culture.empire">
+        culture="Culture.iustrium">
         <face>
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
@@ -333,7 +534,7 @@
         level="26"
         name="{=Iustrium F5}Iustrium Duxus"
         occupation="Soldier"
-        culture="Culture.empire">
+        culture="Culture.iustrium">
         <face>
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
@@ -372,7 +573,7 @@
         name="{=Iustrium CM3}Iustrium Equitrix"
         upgrade_requires="ItemCategory.horse"
         occupation="Soldier"
-        culture="Culture.empire"
+        culture="Culture.iustrium"
         is_female="true">
         <face>
             <face_key_template value="BodyProperty.fighter_iustrium"/>
@@ -416,7 +617,7 @@
         name="{=Iustrium CM4}Iustrium Praetrix "
         upgrade_requires="ItemCategory.war_horse"
         occupation="Soldier"
-        culture="Culture.empire"
+        culture="Culture.iustrium"
         is_female="true">
         <face>
             <face_key_template value="BodyProperty.fighter_iustrium"/>
@@ -458,7 +659,7 @@
         name="{=Iustrium CX2}Iustrium Patritor"
         upgrade_requires="ItemCategory.horse"
         occupation="Soldier"
-        culture="Culture.empire">
+        culture="Culture.iustrium">
         <face>
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
@@ -501,7 +702,7 @@
         level="16"
         name="{=Iustrium CX3}Iustrium Scrutator"
         occupation="Soldier"
-        culture="Culture.empire">
+        culture="Culture.iustrium">
         <face>
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
@@ -546,7 +747,7 @@
         name="{=Iustrium CX4}Iustrium Limitator"
         upgrade_requires="ItemCategory.war_horse"
         occupation="Soldier"
-        culture="Culture.empire">
+        culture="Culture.iustrium">
         <face>
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
@@ -590,7 +791,7 @@
         level="26"
         name="{=Iustrium CX5}Iustrium Vigilator"
         occupation="Soldier"
-        culture="Culture.empire">
+        culture="Culture.iustrium">
         <face>
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>

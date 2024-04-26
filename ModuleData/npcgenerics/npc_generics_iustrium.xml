@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+    <NPCCharacter id="caravan_master_iustrium"
+            default_group="HorseArcher"
+            level="26" name="{=uDseaKcb}Iustrium Caravan Master"
+            occupation="CaravanGuard"
+            culture="Culture.iustrium">
+        <face>
+            <face_key_template value="BodyProperty.fighter_iustrium" />
+        </face>
+        <skills >
+            <skill id="Athletics" value="150"/>
+            <skill id="Riding" value="30"/>
+            <skill id="OneHanded" value="140"/>
+            <skill id="TwoHanded" value="30"/>
+            <skill id="Polearm" value="60"/>
+            <skill id="Bow" value="60"/>
+            <skill id="Crossbow" value="160"/>
+            <skill id="Throwing" value="70"/>
+        </skills>
+        <upgrade_targets></upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.crossbow_g"/>
+                <equipment slot="Item1" id="Item.bolt_c"/>
+                <equipment slot="Item2" id="Item.vlandia_lance_3_t5"/>
+                <equipment slot="Item3" id="Item.heavy_horsemans_kite_shield"/>
+                <equipment slot="Head" id="Item.tv_vlandia_helmet_k6"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_j"/>
+                <equipment slot="Body" id="Item.AR_aserai_armor_g"/>
+                <equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+                <equipment slot="Leg" id="Item.DZ_battania_boots_a"/>
+                <equipment slot="Horse" id="Item.t3_aserai_horse"/>
+                <equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>
