@@ -1,0 +1,276 @@
+<NPCCharacters>
+    <NPCCharacter id="lord_qinguo_1_1"
+        name="{=lord_qinguo_1_1}Zheng"
+        age="38"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.qinguo"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="38"
+                weight="0.3283"
+                build="0.8553"
+                key="0016FC0FC000274D9EBF61FFB762A46EA4959AF6F9A58E3DC8756149D64B84A8000C265309B1E944000000000000000000000000000000000000000000F07080" />
+        </face>
+        <skills>
+            <skill id="OneHanded" value="200" />
+            <skill id="Throwing" value="290" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="90" />
+            <skill id="Scouting" value="90" />
+            <skill id="Steward" value="140" />
+            <skill id="Medicine" value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Honor" value="+2" />
+            <Trait id="Valor" value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_qinguo_1_2"
+        name="{=lord_qinguo_1_1}Ji"
+        age="31"
+        voice="ironic"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.qinguo"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="31"
+                weight="0.3283"
+                build="0.8553"
+                key="0005C00CC0FC100ACF976462A77185200E018468F0EF0103B6830C71720A23D40517065601101915000000000000000000000000000000000000000000240000" />
+        </face>
+        <skills>
+            <skill id="OneHanded" value="200" />
+            <skill id="Throwing" value="290" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="90" />
+            <skill id="Scouting" value="90" />
+            <skill id="Steward" value="140" />
+            <skill id="Medicine" value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Honor" value="+2" />
+            <Trait id="Valor" value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_qinguo_2_1"
+        name="{=lord_qinguo_2_1}Jian"
+        age="40"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.qinguo"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="40"
+                weight="0.6333"
+                build="0.6651"
+                key="001CA00B40002505A27021394CB83B284566793CD6CE760869ABA623872A251306BDE0670B5556350000000000000000000000000000000000000000256820C1" />
+        </face>
+        <skills>
+            <skill id="OneHanded" value="200" />
+            <skill id="Throwing" value="290" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="90" />
+            <skill id="Scouting" value="90" />
+            <skill id="Steward" value="140" />
+            <skill id="Medicine" value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Generosity" value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_qinguo_3_1"
+        name="{=lord_qinguo_3_1}Wu"
+        age="34"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.qinguo"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="34"
+                weight="0.6333"
+                build="0.6651"
+                key="0015940B402C3754C39748898767B25A78E6B7968A3D58947935C86A959177790987509A0887B667000000000000000000000000000000000000000067183040" />
+        </face>
+        <skills>
+            <skill id="OneHanded" value="200" />
+            <skill id="Throwing" value="290" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="90" />
+            <skill id="Scouting" value="90" />
+            <skill id="Steward" value="140" />
+            <skill id="Medicine" value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Generosity" value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_qinguo_4_1"
+        name="{=lord_qinguo_4_1}Duan He"
+        age="41"
+        voice="ironic"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.qinguo"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="41"
+                weight="0.300"
+                build="0.6651"
+                key="0011D40FDA002001E9761DA0AD922600CE626C60F0EF0710F7DA1E1A740E10510847168904634C0A000000000000000000000000000000000000000034944083" />
+        </face>
+        <skills>
+            <skill id="OneHanded" value="200" />
+            <skill id="Throwing" value="290" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="90" />
+            <skill id="Scouting" value="90" />
+            <skill id="Steward" value="140" />
+            <skill id="Medicine" value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Generosity" value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_qinguo_5_1"
+        name="{=lord_qinguo_5_1}Qi"
+        age="53"
+        voice="earnest"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.qinguo"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="53"
+                weight="0.5517"
+                build="0.5949"
+                key="001C840CC7FC03896DACA8926B35885A859C14A35794A7B4D6698187A2756C3C000C5534099977690000037F0000000F00000037049140010000000000788000" />
+        </face>
+        <skills>
+            <skill id="OneHanded" value="200" />
+            <skill id="Throwing" value="290" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="90" />
+            <skill id="Scouting" value="90" />
+            <skill id="Steward" value="140" />
+            <skill id="Medicine" value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Generosity" value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_qinguo_6_1"
+        name="{=lord_qinguo_6_1}Xin"
+        age="25"
+        voice="curt"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.qinguo"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="25"
+                weight="0.400"
+                build="0.600"
+                key="001ED40D80FC06C67988B899C63C8B19698954BC6B89698827479497A849D99900633603067B8965000000000000000000000000000000000000000070CC2103" />
+        </face>
+        <skills>
+            <skill id="OneHanded" value="200" />
+            <skill id="Throwing" value="290" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="90" />
+            <skill id="Scouting" value="90" />
+            <skill id="Steward" value="140" />
+            <skill id="Medicine" value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Generosity" value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_qinguo_7_1"
+        name="{=lord_qinguo_7_1}Ji"
+        age="29"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.qinguo"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="29"
+                weight="0.300"
+                build="0.6651"
+                key="001C9808800036519270212A4BB7076824B8763BDAAF7B916A9A1B238431A313026EC024064567A500000000000000000000000000000000000000005AD84005" />
+        </face>
+        <skills>
+            <skill id="OneHanded" value="200" />
+            <skill id="Throwing" value="290" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="90" />
+            <skill id="Scouting" value="90" />
+            <skill id="Steward" value="140" />
+            <skill id="Medicine" value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Generosity" value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,25 @@
+<Kingdoms>
+    <Kingdom id="kingdom_qinguo"
+        owner="Hero.lord_qinguo_1_1"
+        banner_key="11.143.143.1536.1536.764.764.1.0.0.122.89.89.200.200.642.893.0.0.326.122.89.89.300.300.712.811.0.0.326.122.89.89.400.400.801.702.0.0.321.510.89.89.1250.800.1169.939.0.0.50.510.89.89.1250.800.359.589.0.0.50.516.89.89.100.100.624.549.0.0.0.516.89.89.100.100.704.464.0.0.0.516.89.89.100.100.544.634.0.0.0.516.89.89.100.100.906.981.0.0.0.516.89.89.100.100.986.896.0.0.0.516.89.89.100.100.826.1066.0.0.0"
+        primary_banner_color="0xffF4CA14"
+        secondary_banner_color="0xff019678"
+        label_color="FFF4CA14"
+        color="FFF4CA14"
+        color2="FF019678"
+        alternative_color="FF5AA4AD"
+        alternative_color2="FFF4CA14"
+        culture="Culture.qinguo"
+        settlement_banner_mesh="encounter_flag_c"
+        flag_mesh="info_screen_flags_a"
+        name="{=QG_kingdom_name}Qinguo State"
+        short_name="{=QG_short_name}Qinshi"
+        title="{=QG_kingdom_title}State of Qinguo"
+        ruler_title="{=isnp9abW}Supreme Leader"
+        text="{=QG_text}Once a great empire, they got hard times against cavalry coming from the north">
+        <relationships></relationships>
+        <policies>
+            <policy id="policy_royal_guard" />
+        </policies>
+    </Kingdom>
+</Kingdoms>

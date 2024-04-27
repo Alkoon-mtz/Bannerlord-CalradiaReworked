@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EquipmentRosters>
     <!-- Parents -->
+    <EquipmentRoster id="mother_char_creation_0_khuzait"
+        culture="Culture.empire">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.khuzait_dress" />
+            <Equipment slot="Cape"
+                id="Item.female_hood" />
+            <Equipment slot="Leg"
+                id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_0_khuzait"
+        culture="Culture.empire">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.hemp_tunic" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+    </EquipmentRoster>
     <!--1.Kinsfolk-->
     <EquipmentRoster id="mother_char_creation_1_khuzait"
         culture="Culture.khuzait">
@@ -1197,5 +1217,1247 @@
             IsNobleTemplate="true"
             IsCivilianTemplate="true"
             IsNoncombatantTemplate="true" />
+    </EquipmentRoster>
+
+    <!--Lord -->
+    <EquipmentRoster id="khu_bat_template_medium"
+        culture="Culture.khuzait">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_1_t5" />
+            <Equipment slot="Item1"
+                id="Item.eastern_spear_5_t5" />
+            <Equipment slot="Item2"
+                id="Item.noble_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.khuzait_noble_helmet_with_fur" />
+            <Equipment slot="Body"
+                id="Item.brass_lamellar_over_mail" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.eastern_plated_leather_vambraces" />
+            <Equipment slot="Cape"
+                id="Item.a_metal_lamellar_armor_shoulder_a" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_2_t5" />
+            <Equipment slot="Item1"
+                id="Item.khuzait_polearm_2_t5" />
+            <Equipment slot="Item2"
+                id="Item.noble_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.khuzait_noble_helmet_with_neckguard" />
+            <Equipment slot="Body"
+                id="Item.brass_lamellar_over_mail" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.eastern_plated_leather_vambraces" />
+            <Equipment slot="Cape"
+                id="Item.brass_lamellar_shoulder" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_mace_4_t5" />
+            <Equipment slot="Item1"
+                id="Item.khuzait_lance_3_t5" />
+            <Equipment slot="Item2"
+                id="Item.steel_round_shield" />
+            <Equipment slot="Head"
+                id="Item.eastern_vendel_helmet" />
+            <Equipment slot="Body"
+                id="Item.leather_lamellar_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.eastern_plated_leather_vambraces" />
+            <Equipment slot="Cape"
+                id="Item.lamellar_shoulders" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_3_t5" />
+            <Equipment slot="Item1"
+                id="Item.khuzait_polearm_2_t5" />
+            <Equipment slot="Item2"
+                id="Item.noyans_shield" />
+            <Equipment slot="Head"
+                id="Item.spiked_helmet" />
+            <Equipment slot="Body"
+                id="Item.leather_lamellar_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.eastern_plated_leather_vambraces" />
+            <Equipment slot="Cape"
+                id="Item.eastern_studded_shoulders" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_3_t5" />
+            <Equipment slot="Item1"
+                id="Item.eastern_spear_5_t5" />
+            <Equipment slot="Item2"
+                id="Item.composite_steppe_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.spiked_helmet" />
+            <Equipment slot="Body"
+                id="Item.brass_lamellar_over_mail" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.eastern_plated_leather_vambraces" />
+            <Equipment slot="Cape"
+                id="Item.eastern_studded_shoulders" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true"
+            IsMediumTemplate="true"
+            IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="khu_bat_template_flamboyant"
+        culture="Culture.khuzait">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_1_t5" />
+            <Equipment slot="Item1"
+                id="Item.eastern_spear_5_t5" />
+            <Equipment slot="Item2"
+                id="Item.noble_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.khuzait_noble_helmet_with_neckguard" />
+            <Equipment slot="Body"
+                id="Item.khuzait_heavy_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.khuzait_heavy_armor_bracer" />
+            <Equipment slot="Cape"
+                id="Item.lamellar_shoulders" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_1_t5" />
+            <Equipment slot="Item1"
+                id="Item.eastern_spear_5_t5" />
+            <Equipment slot="Item2"
+                id="Item.noble_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.khuzait_noble_helmet_with_feathers" />
+            <Equipment slot="Body"
+                id="Item.eastern_lamellar_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.eastern_plated_leather_vambraces" />
+            <Equipment slot="Cape"
+                id="Item.a_brass_lamellar_shoulder_white_a" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_2_t5" />
+            <Equipment slot="Item1"
+                id="Item.khuzait_polearm_2_t5" />
+            <Equipment slot="Item2"
+                id="Item.noble_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.khuzait_noble_helmet_with_neckguard" />
+            <Equipment slot="Body"
+                id="Item.brass_lamellar_over_mail" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.eastern_plated_leather_vambraces" />
+            <Equipment slot="Cape"
+                id="Item.brass_lamellar_shoulder" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_mace_4_t5" />
+            <Equipment slot="Item1"
+                id="Item.khuzait_lance_3_t5" />
+            <Equipment slot="Item2"
+                id="Item.steel_round_shield" />
+            <Equipment slot="Head"
+                id="Item.khuzait_noble_helmet_with_feathers" />
+            <Equipment slot="Body"
+                id="Item.leather_lamellar_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.eastern_plated_leather_vambraces" />
+            <Equipment slot="Cape"
+                id="Item.a_brass_lamellar_shoulder_b" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_3_t5" />
+            <Equipment slot="Item1"
+                id="Item.khuzait_polearm_2_t5" />
+            <Equipment slot="Item2"
+                id="Item.noyans_shield" />
+            <Equipment slot="Head"
+                id="Item.khuzait_noble_helmet_with_feathers" />
+            <Equipment slot="Body"
+                id="Item.leather_lamellar_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.eastern_plated_leather_vambraces" />
+            <Equipment slot="Cape"
+                id="Item.a_brass_lamellar_shoulder_white_a" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_3_t5" />
+            <Equipment slot="Item1"
+                id="Item.eastern_spear_5_t5" />
+            <Equipment slot="Item2"
+                id="Item.composite_steppe_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.khuzait_noble_helmet_with_feathers" />
+            <Equipment slot="Body"
+                id="Item.eastern_lamellar_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.eastern_plated_leather_vambraces" />
+            <Equipment slot="Cape"
+                id="Item.a_brass_lamellar_shoulder_white_b" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true"
+            IsFlamboyantTemplate="true"
+            IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="khu_bat_template_heavy"
+        culture="Culture.khuzait">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_1_t5" />
+            <Equipment slot="Item1"
+                id="Item.eastern_spear_5_t5" />
+            <Equipment slot="Item2"
+                id="Item.noble_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.khuzait_noble_helmet_with_neckguard" />
+            <Equipment slot="Body"
+                id="Item.khuzait_heavy_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.khuzait_heavy_armor_bracer" />
+            <Equipment slot="Cape"
+                id="Item.lamellar_shoulders" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_1_t5" />
+            <Equipment slot="Item1"
+                id="Item.eastern_spear_5_t5" />
+            <Equipment slot="Item2"
+                id="Item.noble_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.khuzait_noble_helmet_with_fur" />
+            <Equipment slot="Body"
+                id="Item.brass_lamellar_over_mail" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.eastern_plated_leather_vambraces" />
+            <Equipment slot="Cape"
+                id="Item.brass_lamellar_shoulder" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_2_t5" />
+            <Equipment slot="Item1"
+                id="Item.khuzait_polearm_2_t5" />
+            <Equipment slot="Item2"
+                id="Item.noble_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.khuzait_noble_helmet_with_neckguard" />
+            <Equipment slot="Body"
+                id="Item.eastern_lamellar_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.eastern_plated_leather_vambraces" />
+            <Equipment slot="Cape"
+                id="Item.lamellar_shoulders" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_mace_4_t5" />
+            <Equipment slot="Item1"
+                id="Item.khuzait_lance_3_t5" />
+            <Equipment slot="Item2"
+                id="Item.steel_round_shield" />
+            <Equipment slot="Head"
+                id="Item.khuzait_noble_helmet_with_neckguard" />
+            <Equipment slot="Body"
+                id="Item.eastern_lamellar_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.eastern_plated_leather_vambraces" />
+            <Equipment slot="Cape"
+                id="Item.lamellar_shoulders" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_3_t5" />
+            <Equipment slot="Item1"
+                id="Item.khuzait_polearm_2_t5" />
+            <Equipment slot="Item2"
+                id="Item.noyans_shield" />
+            <Equipment slot="Head"
+                id="Item.khuzait_noble_helmet_with_fur" />
+            <Equipment slot="Body"
+                id="Item.brass_lamellar_over_mail" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.eastern_plated_leather_vambraces" />
+            <Equipment slot="Cape"
+                id="Item.brass_lamellar_shoulder" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_3_t5" />
+            <Equipment slot="Item1"
+                id="Item.eastern_spear_5_t5" />
+            <Equipment slot="Item2"
+                id="Item.composite_steppe_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.khuzait_noble_helmet_with_fur" />
+            <Equipment slot="Body"
+                id="Item.brass_lamellar_over_mail" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.eastern_plated_leather_vambraces" />
+            <Equipment slot="Cape"
+                id="Item.brass_lamellar_shoulder" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true"
+            IsHeavyTemplate="true"
+            IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="khu_bat_template_nomad"
+        culture="Culture.khuzait">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_1_t5" />
+            <Equipment slot="Item1"
+                id="Item.eastern_spear_5_t5" />
+            <Equipment slot="Item2"
+                id="Item.noble_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.plumed_nomad_helmet" />
+            <Equipment slot="Body"
+                id="Item.khuzait_fortified_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.leather_gloves" />
+            <Equipment slot="Cape"
+                id="Item.wolf_shoulder" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_2_t5" />
+            <Equipment slot="Item1"
+                id="Item.khuzait_polearm_2_t5" />
+            <Equipment slot="Item2"
+                id="Item.noble_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.steppe_helmet" />
+            <Equipment slot="Body"
+                id="Item.khuzait_sturdy_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.leather_gloves" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_mace_4_t5" />
+            <Equipment slot="Item1"
+                id="Item.khuzait_lance_3_t5" />
+            <Equipment slot="Item2"
+                id="Item.steel_round_shield" />
+            <Equipment slot="Head"
+                id="Item.nomad_helmet" />
+            <Equipment slot="Body"
+                id="Item.khuzait_leather_stitched" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_3_t5" />
+            <Equipment slot="Item1"
+                id="Item.khuzait_polearm_2_t5" />
+            <Equipment slot="Item2"
+                id="Item.noyans_shield" />
+            <Equipment slot="Head"
+                id="Item.plumed_fur_lined_helmet" />
+            <Equipment slot="Body"
+                id="Item.eastern_stitched_leather_coat" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Cape"
+                id="Item.battania_woodland_cloak" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true"
+            IsNomadTemplate="true"
+            IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="khu_bat_template_lady"
+        culture="Culture.khuzait">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_1_t5" />
+            <Equipment slot="Item1"
+                id="Item.eastern_spear_5_t5" />
+            <Equipment slot="Item2"
+                id="Item.noble_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.khuzait_noble_helmet_with_neckguard" />
+            <Equipment slot="Body"
+                id="Item.khuzait_heavy_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.khuzait_heavy_armor_bracer" />
+            <Equipment slot="Cape"
+                id="Item.lamellar_shoulders" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_1_t5" />
+            <Equipment slot="Body"
+                id="Item.brass_lamellar_over_mail" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.eastern_plated_leather_vambraces" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_2_t5" />
+            <Equipment slot="Body"
+                id="Item.brass_lamellar_over_mail" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.eastern_plated_leather_vambraces" />
+            <Equipment slot="Cape"
+                id="Item.brass_lamellar_shoulder" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true"
+            IsFemaleTemplate="true"
+            IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="khu_civ_template_default"
+        culture="Culture.khuzait">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_1_t5" />
+            <Equipment slot="Body"
+                id="Item.khuzait_fortified_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_3_t5" />
+            <Equipment slot="Head"
+                id="Item.fur_hat" />
+            <Equipment slot="Body"
+                id="Item.khuzait_civil_coat" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_3_t5" />
+            <Equipment slot="Body"
+                id="Item.khuzait_fortified_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_1_t5" />
+            <Equipment slot="Body"
+                id="Item.khuzait_fortified_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Cape"
+                id="Item.leather_lamellar_shoulders" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_3_t5" />
+            <Equipment slot="Head"
+                id="Item.fur_hat" />
+            <Equipment slot="Body"
+                id="Item.khuzait_civil_coat" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Cape"
+                id="Item.eastern_studded_shoulders" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_2_t5" />
+            <Equipment slot="Head"
+                id="Item.fur_hat" />
+            <Equipment slot="Body"
+                id="Item.khuzait_civil_coat" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Cape"
+                id="Item.eastern_studded_shoulders" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true"
+            IsNobleTemplate="true"
+            IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="khu_civ_template_lady_normal"
+        culture="Culture.khuzait">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_1_t5" />
+            <Equipment slot="Body"
+                id="Item.steppe_dress" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_3_t5" />
+            <Equipment slot="Body"
+                id="Item.steppe_dress" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_1_t5" />
+            <Equipment slot="Body"
+                id="Item.khuzait_dress_b" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <Flags IsFemaleTemplate="true"
+            IsCivilianTemplate="true"
+            IsCombatantTemplate="true"
+            IsNobleTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="khu_civ_template_flamboyant"
+        culture="Culture.khuzait">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_1_t5" />
+            <Equipment slot="Body"
+                id="Item.khuzait_belt_leather" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_3_t5" />
+            <Equipment slot="Body"
+                id="Item.khuzait_belt_leather" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_3_t5" />
+            <Equipment slot="Body"
+                id="Item.khuzait_civil_coat" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_1_t5" />
+            <Equipment slot="Body"
+                id="Item.khuzait_belt_leather" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_3_t5" />
+            <Equipment slot="Body"
+                id="Item.khuzait_belt_leather" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_2_t5" />
+            <Equipment slot="Body"
+                id="Item.khuzait_civil_coat" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true"
+            IsCivilianTemplate="true"
+            IsCombatantTemplate="true"
+            IsFlamboyantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="khu_civ_template_heavy"
+        culture="Culture.khuzait">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_1_t5" />
+            <Equipment slot="Body"
+                id="Item.khuzait_fortified_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_3_t5" />
+            <Equipment slot="Body"
+                id="Item.khuzait_belt_leather" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_3_t5" />
+            <Equipment slot="Body"
+                id="Item.khuzait_fortified_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Head"
+                id="Item.decorated_nomad_cap" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_1_t5" />
+            <Equipment slot="Body"
+                id="Item.khuzait_fortified_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Cape"
+                id="Item.wrapped_scarf" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_3_t5" />
+            <Equipment slot="Head"
+                id="Item.decorated_nomad_cap" />
+            <Equipment slot="Body"
+                id="Item.khuzait_civil_coat" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Cape"
+                id="Item.eastern_studded_shoulders" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_2_t5" />
+            <Equipment slot="Head"
+                id="Item.fur_hat" />
+            <Equipment slot="Body"
+                id="Item.khuzait_fortified_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true"
+            IsCombatantTemplate="true"
+            IsHeavyTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="khu_civ_template_nomad"
+        culture="Culture.khuzait">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_1_t5" />
+            <Equipment slot="Head"
+                id="Item.plumed_fur_lined_helmet" />
+            <Equipment slot="Body"
+                id="Item.khuzait_fortified_armor" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Gloves"
+                id="Item.leather_gloves" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_3_t5" />
+            <Equipment slot="Head"
+                id="Item.fur_hat" />
+            <Equipment slot="Body"
+                id="Item.khuzait_civil_coat" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true"
+            IsCivilianTemplate="true"
+            IsCombatantTemplate="true"
+            IsNomadTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="khu_noncom_template_default"
+        culture="Culture.khuzait">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.khuzait_dress" />
+            <Equipment slot="Leg"
+                id="Item.southern_moccasins" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head"
+                id="Item.decorated_nomad_cap" />
+            <Equipment slot="Body"
+                id="Item.khuzait_dress_b" />
+            <Equipment slot="Leg"
+                id="Item.southern_moccasins" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.steppe_dress" />
+            <Equipment slot="Leg"
+                id="Item.southern_moccasins" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.steppe_dress" />
+            <Equipment slot="Leg"
+                id="Item.southern_moccasins" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <Flags IsFemaleTemplate="true"
+            IsNoncombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="khu_noncom_template_flamboyant"
+        culture="Culture.khuzait">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.empire_dress" />
+            <Equipment slot="Leg"
+                id="Item.southern_moccasins" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.steppe_dress" />
+            <Equipment slot="Leg"
+                id="Item.southern_moccasins" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <Flags IsFemaleTemplate="true"
+            IsNobleTemplate="true"
+            IsNoncombatantTemplate="true"
+            IsFlamboyantTemplate="true" />
+    </EquipmentRoster>
+
+    <!-- King -->
+    <EquipmentRoster id="khu_king_template_civ_m"
+        culture="Culture.khuzait">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_1_t5" />
+            <Equipment slot="Head"
+                id="Item.khuzait_crown" />
+            <Equipment slot="Cape"
+                id="Item.rough_bearskin" />
+            <Equipment slot="Body"
+                id="Item.khuzait_civil_coat" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <Flags IsCombatantTemplate="true"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="khu_king_template_civ_f"
+        culture="Culture.khuzait">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.khuzait_noble_sword_2_t5" />
+            <Equipment slot="Head"
+                id="Item.khuzait_crown" />
+            <Equipment slot="Cape"
+                id="Item.wolf_shoulder" />
+            <Equipment slot="Body"
+                id="Item.steppe_dress" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <Flags IsCombatantTemplate="true"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="khu_king_template_bat_m"
+        culture="Culture.khuzait">
+        <EquipmentSet civilian="false">
+            <Equipment slot="Item0"
+                id="Item.composite_steppe_bow" />
+            <Equipment slot="Item1"
+                id="Item.steppe_arrows" />
+            <Equipment slot="Item2"
+                id="Item.steppe_arrows" />
+            <Equipment slot="Item3"
+                id="Item.khuzait_polearm_1_t4" />
+            <Equipment slot="Head"
+                id="Item.khuzait_battle_crown" />
+            <Equipment slot="Cape"
+                id="Item.brass_lamellar_shoulder_white" />
+            <Equipment slot="Body"
+                id="Item.khuzait_heavy_armor" />
+            <Equipment slot="Gloves"
+                id="Item.khuzait_heavy_armor_bracer" />
+            <Equipment slot="Leg"
+                id="Item.reinforced_suede_boots" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <Flags IsCombatantTemplate="true"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="false" />
+    </EquipmentRoster>
+    <EquipmentRoster id="khu_king_template_bat_f"
+        culture="Culture.khuzait">
+        <EquipmentSet civilian="false">
+            <Equipment slot="Item0"
+                id="Item.composite_steppe_bow" />
+            <Equipment slot="Item1"
+                id="Item.steppe_arrows" />
+            <Equipment slot="Item2"
+                id="Item.steppe_arrows" />
+            <Equipment slot="Item3"
+                id="Item.khuzait_polearm_1_t4" />
+            <Equipment slot="Head"
+                id="Item.khuzait_battle_crown" />
+            <Equipment slot="Cape"
+                id="Item.brass_lamellar_shoulder_white" />
+            <Equipment slot="Body"
+                id="Item.khuzait_heavy_armor" />
+            <Equipment slot="Gloves"
+                id="Item.khuzait_heavy_armor_bracer" />
+            <Equipment slot="Leg"
+                id="Item.reinforced_suede_boots" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_eastern" />
+            <Equipment slot="HorseHarness"
+                id="Item.studded_steppe_barding" />
+        </EquipmentSet>
+        <Flags IsCombatantTemplate="true"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="false" />
+    </EquipmentRoster>
+
+    <!-- Duel -->
+    <EquipmentRoster id="khu_duel_preset_template"
+        culture="Culture.khuzait">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.morningstar_mace_t3" />
+            <Equipment slot="Item1"
+                id="Item.leather_round_shield" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_sword_2_t3" />
+            <Equipment slot="Item1"
+                id="Item.leather_round_shield" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.bearded_axe_t3" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.ridged_2hsword_t4" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.khuzait_polearm_1_t4" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head"
+                id="Item.aserai_civil_d_hscarf" />
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_d" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_c_head" />
+            <Equipment slot="Cape"
+                id="Item.wrapped_scarf" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_c" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.aserai_civil_b" />
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_hscarf_b" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.aserai_civil_a" />
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_e_hscarf" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_f" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_e_hscarf" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.aserai_civil_e" />
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.desert_cap" />
+            <Equipment slot="Cape"
+                id="Item.wrapped_scarf" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_hscarf_b" />
+            <Equipment slot="Body"
+                id="Item.layered_robe" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Body"
+                id="Item.layered_robe" />
+            <Equipment slot="Head"
+                id="Item.tied_head_wrapping" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.turban" />
+            <Equipment slot="Cape"
+                id="Item.wrapped_scarf" />
+            <Equipment slot="Body"
+                id="Item.tassled_southern_robes" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+    </EquipmentRoster>
+
+    <!-- Cutscene -->
+    <EquipmentRoster id="marriage_female_khu_cutscene_template"
+        culture="Culture.khuzait">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.steppe_dress" />
+            <Equipment slot="Leg"
+                id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="comingofage_kid_khu_cutscene_template"
+        culture="Culture.khuzait">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.khuzait_civil_coat_b" />
+            <Equipment slot="Leg"
+                id="Item.leather_shoes" />
+        </EquipmentSet>
     </EquipmentRoster>
 </EquipmentRosters>

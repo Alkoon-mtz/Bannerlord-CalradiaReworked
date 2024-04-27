@@ -3,7 +3,7 @@
     <!-- Parents -->
     <!--1.Kinsfolk-->
     <EquipmentRoster id="mother_char_creation_1_qinguo"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.steppe_dress" />
@@ -12,7 +12,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_1_qinguo"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.eastern_lamellar_armor" />
@@ -24,7 +24,7 @@
     </EquipmentRoster>
     <!--2.Merchant-->
     <EquipmentRoster id="mother_char_creation_2_qinguo"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.khuzait_dress" />
@@ -33,7 +33,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_2_qinguo"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.merchants_fur_coat" />
@@ -45,7 +45,7 @@
     </EquipmentRoster>
     <!--3.Tribespeople-->
     <EquipmentRoster id="mother_char_creation_3_qinguo"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.steppe_dress" />
@@ -54,7 +54,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_3_qinguo"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Head"
                 id="Item.peaked_fur_hood" />
@@ -68,7 +68,7 @@
     </EquipmentRoster>
     <!--4.Farmer-->
     <EquipmentRoster id="mother_char_creation_4_qinguo"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Head"
                 id="Item.eastern_cap" />
@@ -79,7 +79,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_4_qinguo"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Head"
                 id="Item.upturned_fur_cap" />
@@ -91,7 +91,7 @@
     </EquipmentRoster>
     <!--5.Shaman-->
     <EquipmentRoster id="mother_char_creation_5_qinguo"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Head"
                 id="Item.fur_hat" />
@@ -102,7 +102,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_5_qinguo"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.crude_leather_armor" />
@@ -116,7 +116,7 @@
     </EquipmentRoster>
     <!--6.Nomad-->
     <EquipmentRoster id="mother_char_creation_6_qinguo"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.khuzait_dress_b" />
@@ -127,7 +127,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_6_qinguo"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Head"
                 id="Item.nomad_padded_hood" />
@@ -141,7 +141,7 @@
     <!-- Culture first choice -->
     <!--Kinsfolk -->
     <EquipmentRoster id="player_char_creation_childhood_age_qinguo_1_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.khuzait_civil_coat" />
@@ -150,7 +150,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_education_age_qinguo_1_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.khuzait_civil_coat" />
@@ -159,7 +159,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_childhood_age_qinguo_1_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.khuzait_civil_coat" />
@@ -168,7 +168,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_education_age_qinguo_1_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.khuzait_civil_coat" />
@@ -178,7 +178,7 @@
     </EquipmentRoster>
     <!--Merchant -->
     <EquipmentRoster id="player_char_creation_childhood_age_qinguo_2_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.khuzait_civil_coat_b" />
@@ -187,7 +187,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_education_age_qinguo_2_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.khuzait_civil_coat_b" />
@@ -196,7 +196,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_childhood_age_qinguo_2_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.khuzait_civil_coat_b" />
@@ -205,7 +205,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_education_age_qinguo_2_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.khuzait_civil_coat_b" />
@@ -215,7 +215,7 @@
     </EquipmentRoster>
     <!--Tribespeople -->
     <EquipmentRoster id="player_char_creation_childhood_age_qinguo_3_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.steppe_armor" />
@@ -224,7 +224,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_education_age_qinguo_3_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.steppe_armor" />
@@ -233,7 +233,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_childhood_age_qinguo_3_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.steppe_armor" />
@@ -242,7 +242,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_education_age_qinguo_3_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.steppe_armor" />
@@ -252,7 +252,7 @@
     </EquipmentRoster>
     <!--Farmer -->
     <EquipmentRoster id="player_char_creation_childhood_age_qinguo_4_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.steppe_robe" />
@@ -263,7 +263,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_education_age_qinguo_4_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.steppe_robe" />
@@ -274,7 +274,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_childhood_age_qinguo_4_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.steppe_robe" />
@@ -285,7 +285,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_education_age_qinguo_4_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.steppe_robe" />
@@ -297,7 +297,7 @@
     </EquipmentRoster>
     <!--Shaman -->
     <EquipmentRoster id="player_char_creation_childhood_age_qinguo_5_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.khuzait_civil_coat_b" />
@@ -306,7 +306,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_education_age_qinguo_5_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.khuzait_civil_coat_b" />
@@ -315,7 +315,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_childhood_age_qinguo_5_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.khuzait_civil_coat_b" />
@@ -324,7 +324,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_education_age_qinguo_5_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.khuzait_civil_coat_b" />
@@ -334,7 +334,7 @@
     </EquipmentRoster>
     <!--Nomads -->
     <EquipmentRoster id="player_char_creation_childhood_age_qinguo_6_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.bandit_envelope_dress_v1" />
@@ -345,7 +345,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_education_age_qinguo_6_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.bandit_envelope_dress_v1" />
@@ -356,7 +356,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_childhood_age_qinguo_6_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.bandit_envelope_dress_v1" />
@@ -367,7 +367,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_education_age_qinguo_6_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.bandit_envelope_dress_v1" />
@@ -381,7 +381,7 @@
     <!-- Special Situations -->
     <!--were a chieftain's servant=> Battania and Khuzait Only, Parents Are Retainers-->
     <EquipmentRoster id="player_char_creation_qinguo_10_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Item0"
                 id="Item.small_flat_heater_shield" />
@@ -408,7 +408,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_qinguo_10_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Item0"
                 id="Item.small_flat_heater_shield" />
@@ -438,7 +438,7 @@
     </EquipmentRoster>
     <!--trained with the cavalry=> Empire Khuzait Aserai Vlandia Only, Parents Are Retainers-->
     <EquipmentRoster id="player_char_creation_qinguo_9_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Item0"
                 id="Item.small_flat_heater_shield" />
@@ -467,7 +467,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_qinguo_9_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Item0"
                 id="Item.small_flat_heater_shield" />
@@ -498,7 +498,7 @@
 
     <!--stood guard with the garrisons-->
     <EquipmentRoster id="player_char_creation_qinguo_1_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Item1"
                 id="Item.adarga" />
@@ -527,7 +527,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="player_char_creation_qinguo_1_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Item1"
                 id="Item.adarga" />
@@ -557,7 +557,7 @@
     </EquipmentRoster>
     <!--rode with the scouts-->
     <EquipmentRoster id="player_char_creation_qinguo_2_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Item1"
                 id="Item.default_arrows" />
@@ -587,7 +587,7 @@
     </EquipmentRoster>
     <!--rode with the scouts-->
     <EquipmentRoster id="player_char_creation_qinguo_2_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Item1"
                 id="Item.default_arrows" />
@@ -617,7 +617,7 @@
     </EquipmentRoster>
     <!--trained with the infantry-->
     <EquipmentRoster id="player_char_creation_qinguo_3_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Item2"
                 id="Item.eastern_spear_1_t2" />
@@ -643,7 +643,7 @@
     </EquipmentRoster>
     <!--trained with the infantry-->
     <EquipmentRoster id="player_char_creation_qinguo_3_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Item2"
                 id="Item.eastern_spear_1_t2" />
@@ -669,7 +669,7 @@
     </EquipmentRoster>
     <!--joined the skirmishers-->
     <EquipmentRoster id="player_char_creation_qinguo_4_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Item0"
                 id="Item.khuzait_sword_1_t2" />
@@ -697,7 +697,7 @@
     </EquipmentRoster>
     <!--joined the skirmishers-->
     <EquipmentRoster id="player_char_creation_qinguo_4_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Item0"
                 id="Item.khuzait_sword_1_t2" />
@@ -725,7 +725,7 @@
     </EquipmentRoster>
     <!--marched with the camp followers-->
     <EquipmentRoster id="player_char_creation_qinguo_5_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Item3"
                 id="Item.eastern_javelin_1_t2" />
@@ -753,7 +753,7 @@
     </EquipmentRoster>
     <!--marched with the camp followers-->
     <EquipmentRoster id="player_char_creation_qinguo_5_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Item0"
                 id="Item.eastern_spear_1_t2" />
@@ -779,7 +779,7 @@
     </EquipmentRoster>
     <!--Ignore 6th Option-->
     <EquipmentRoster id="player_char_creation_qinguo_6_m"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Item2"
                 id="Item.khuzait_mace_1_t2" />
@@ -809,7 +809,7 @@
     </EquipmentRoster>
     <!--Ignore 6th Option-->
     <EquipmentRoster id="player_char_creation_qinguo_6_f"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Item2"
                 id="Item.khuzait_mace_1_t2" />
@@ -839,7 +839,7 @@
     </EquipmentRoster>
     <!-- Character creation show armor set -->
     <EquipmentRoster id="player_char_creation_show_qinguo"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet>
             <Equipment slot="Body"
                 id="Item.reinforced_suede_armor" />
@@ -859,7 +859,7 @@
     <!-- Child equipment templates -->
     <!--Villager -->
     <EquipmentRoster id="child_template_qinguo_villager_male"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet civilian="true">
             <Equipment slot="Body"
                 id="Item.studded_fur_armor" />
@@ -879,7 +879,7 @@
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="child_template_qinguo_villager_female"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet civilian="true">
             <Equipment slot="Body"
                 id="Item.fur_armor_with_strap" />
@@ -899,7 +899,7 @@
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_qinguo_villager_male"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet civilian="true">
             <Equipment slot="Body"
                 id="Item.merchants_fur_coat" />
@@ -935,7 +935,7 @@
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_qinguo_villager_female"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet civilian="true">
             <Equipment slot="Head"
                 id="Item.fur_hat" />
@@ -969,7 +969,7 @@
 
     <!--Townsman -->
     <EquipmentRoster id="child_template_qinguo_townsman_male"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet civilian="true">
             <Equipment slot="Body"
                 id="Item.khuzait_dress" />
@@ -989,7 +989,7 @@
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="child_template_qinguo_townsman_female"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet civilian="true">
             <Equipment slot="Body"
                 id="Item.khuzait_dress" />
@@ -1009,7 +1009,7 @@
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_qinguo_townsman_male"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet civilian="true">
             <Equipment slot="Head"
                 id="Item.eastern_cap" />
@@ -1043,7 +1043,7 @@
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_qinguo_townsman_female"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet civilian="true">
             <Equipment slot="Body"
                 id="Item.khuzait_dress" />
@@ -1075,7 +1075,7 @@
 
     <!--Noble -->
     <EquipmentRoster id="child_template_qinguo_noble_male"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet civilian="true">
             <Equipment slot="Body"
                 id="Item.studded_steppe_leather" />
@@ -1095,7 +1095,7 @@
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="child_template_qinguo_noble_female"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet civilian="true">
             <Equipment slot="Body"
                 id="Item.studded_steppe_leather" />
@@ -1121,7 +1121,7 @@
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_qinguo_noble_male"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet civilian="true">
             <Equipment slot="Body"
                 id="Item.merchants_fur_coat" />
@@ -1167,7 +1167,7 @@
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_qinguo_noble_female"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <EquipmentSet civilian="true">
             <Equipment slot="Body"
                 id="Item.steppe_armor" />

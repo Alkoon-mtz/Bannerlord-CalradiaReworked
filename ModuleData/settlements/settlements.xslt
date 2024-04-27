@@ -249,7 +249,70 @@
 
     <!-- Qinguo -->
     <!-- Cities -->
+    <xsl:template match="Settlement[@id='town_K2']/@owner"><xsl:attribute name='owner'>Faction.clan_qinguo_1</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_K2']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_K2_1']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_K2_2']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_K2_3']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_K2_5']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_K7']/@owner"><xsl:attribute name='owner'>Faction.clan_qinguo_2</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_K7']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_K7_1']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_K7_2']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_K7_3']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_ES7']/@owner"><xsl:attribute name='owner'>Faction.clan_qinguo_3</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_ES7']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_ES7_1']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_ES7_2']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_ES7_3']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_ES5']/@owner"><xsl:attribute name='owner'>Faction.clan_qinguo_4</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_ES5']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_ES5_1']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_ES5_2']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_ES5_3']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_K6']/@owner"><xsl:attribute name='owner'>Faction.clan_qinguo_5</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_K6']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_K6_1']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_K6_2']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_K6_3']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_K8']/@owner"><xsl:attribute name='owner'>Faction.clan_qinguo_6</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_K8']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_K8_1']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_K8_2']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_K8_3']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
     <!-- Castles -->
+    <xsl:template match="Settlement[@id='castle_K2']/@owner"><xsl:attribute name='owner'>Faction.clan_qinguo_1</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_K2']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_K2_1']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_K2_2']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_K3']/@owner"><xsl:attribute name='owner'>Faction.clan_qinguo_1</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_K3']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_K3_1']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_K3_2']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_K7']/@owner"><xsl:attribute name='owner'>Faction.clan_qinguo_2</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_K7']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_K7_1']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_K7_2']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_ES3']/@owner"><xsl:attribute name='owner'>Faction.clan_qinguo_3</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_ES3']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_ES3_1']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_ES3_2']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_ES2']/@owner"><xsl:attribute name='owner'>Faction.clan_qinguo_4</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_ES2']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_ES2_1']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_ES2_2']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_K8']/@owner"><xsl:attribute name='owner'>Faction.clan_qinguo_5</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_K8']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_K8_1']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_K8_2']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_K10']/@owner"><xsl:attribute name='owner'>Faction.clan_qinguo_6</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_K10']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_K10_1']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_K10_2']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_K11']/@owner"><xsl:attribute name='owner'>Faction.clan_qinguo_7</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_K11']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_K2_4']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_K11_2']/@culture"><xsl:attribute name='culture'>Culture.qinguo</xsl:attribute></xsl:template>
 
     <!-- Rekgeist -->
     <!-- Cities -->

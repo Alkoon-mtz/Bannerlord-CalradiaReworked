@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EquipmentRosters>
     <!-- Parents -->
+    <EquipmentRoster id="mother_char_creation_0_battania"
+        culture="Culture.empire">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.northern_dress" />
+            <Equipment slot="Cape"
+                id="Item.female_scarf" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_0_battania"
+        culture="Culture.empire">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.long_fur_coat" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+            <Equipment slot="Leg"
+                id="Item.highland_leg_wrappings" />
+        </EquipmentSet>
+    </EquipmentRoster>
     <!--1.Hearthguard-->
     <EquipmentRoster id="mother_char_creation_1_battania"
         culture="Culture.battania">
@@ -1318,4 +1340,1213 @@
             IsCivilianTemplate="true"
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
+
+    <!--Lord -->
+    <EquipmentRoster id="bat_bat_template_medium"
+        culture="Culture.battania">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_3_t5" />
+            <Equipment slot="Item1"
+                id="Item.highland_riders_shield" />
+            <Equipment slot="Item2"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battanian_crowned_helmet" />
+            <Equipment slot="Cape"
+                id="Item.battania_shoulder_furr" />
+            <Equipment slot="Body"
+                id="Item.ranger_mail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_polearm_1_t5" />
+            <Equipment slot="Item1"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item2"
+                id="Item.default_arrows" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battanian_plated_noble_helmet" />
+            <Equipment slot="Cape"
+                id="Item.armored_bearskin" />
+            <Equipment slot="Body"
+                id="Item.battania_noble_armor" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_axe_3_t5" />
+            <Equipment slot="Item1"
+                id="Item.highland_riders_shield" />
+            <Equipment slot="Item2"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.ridged_northernhelm" />
+            <Equipment slot="Cape"
+                id="Item.battania_scarf_a" />
+            <Equipment slot="Body"
+                id="Item.battania_woodland_chainmail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_2hsword_5_t5" />
+            <Equipment slot="Item1"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item2"
+                id="Item.default_arrows" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battanian_crowned_helmet" />
+            <Equipment slot="Cape"
+                id="Item.battania_shoulder_furr" />
+            <Equipment slot="Body"
+                id="Item.ranger_mail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_1_t5" />
+            <Equipment slot="Item1"
+                id="Item.highland_scouts_shield" />
+            <Equipment slot="Item2"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battanian_crowned_helmet" />
+            <Equipment slot="Cape"
+                id="Item.battania_shoulder_furr" />
+            <Equipment slot="Body"
+                id="Item.ranger_mail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_2_t5" />
+            <Equipment slot="Item1"
+                id="Item.highland_scouts_shield" />
+            <Equipment slot="Item2"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battanian_plated_noble_helmet" />
+            <Equipment slot="Cape"
+                id="Item.armored_bearskin" />
+            <Equipment slot="Body"
+                id="Item.battania_noble_armor" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_3_t5" />
+            <Equipment slot="Item1"
+                id="Item.highland_riders_shield" />
+            <Equipment slot="Item2"
+                id="Item.battania_polearm_1_t5" />
+            <Equipment slot="Head"
+                id="Item.battanian_plated_noble_helmet" />
+            <Equipment slot="Cape"
+                id="Item.armored_bearskin" />
+            <Equipment slot="Body"
+                id="Item.battania_noble_armor" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_2hsword_5_t5" />
+            <Equipment slot="Item1"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item2"
+                id="Item.default_arrows" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battanian_plated_noble_helmet" />
+            <Equipment slot="Cape"
+                id="Item.armored_bearskin" />
+            <Equipment slot="Body"
+                id="Item.battania_noble_armor" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_1_t5" />
+            <Equipment slot="Item1"
+                id="Item.battania_polearm_1_t5" />
+            <Equipment slot="Item2"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battanian_crowned_helmet" />
+            <Equipment slot="Cape"
+                id="Item.battanian_leather_shoulder_a" />
+            <Equipment slot="Body"
+                id="Item.battania_woodland_chainmail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true"
+            IsMediumTemplate="true"
+            IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_bat_template_heavy"
+        culture="Culture.battania">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_3_t5" />
+            <Equipment slot="Item1"
+                id="Item.highland_riders_shield" />
+            <Equipment slot="Item2"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battanian_crowned_helmet" />
+            <Equipment slot="Cape"
+                id="Item.battanian_chainmail_shoulder_b" />
+            <Equipment slot="Body"
+                id="Item.ranger_mail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_polearm_1_t5" />
+            <Equipment slot="Item1"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item2"
+                id="Item.default_arrows" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battania_earmuff_helmet_b" />
+            <Equipment slot="Cape"
+                id="Item.battanian_chainmail_shoulder_a" />
+            <Equipment slot="Body"
+                id="Item.battania_noble_armor" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_axe_3_t5" />
+            <Equipment slot="Item1"
+                id="Item.highland_riders_shield" />
+            <Equipment slot="Item2"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battania_earmuff_helmet_a" />
+            <Equipment slot="Cape"
+                id="Item.bearskin" />
+            <Equipment slot="Body"
+                id="Item.battania_woodland_chainmail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_2hsword_5_t5" />
+            <Equipment slot="Item1"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item2"
+                id="Item.default_arrows" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battanian_crowned_helmet" />
+            <Equipment slot="Cape"
+                id="Item.battania_shoulder_furr" />
+            <Equipment slot="Body"
+                id="Item.ranger_mail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_1_t5" />
+            <Equipment slot="Item1"
+                id="Item.highland_scouts_shield" />
+            <Equipment slot="Item2"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battanian_plated_noble_helmet" />
+            <Equipment slot="Cape"
+                id="Item.armored_bearskin" />
+            <Equipment slot="Body"
+                id="Item.battania_noble_armor" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_2_t5" />
+            <Equipment slot="Item1"
+                id="Item.highland_scouts_shield" />
+            <Equipment slot="Item2"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battania_earmuff_helmet_a" />
+            <Equipment slot="Cape"
+                id="Item.bearskin" />
+            <Equipment slot="Body"
+                id="Item.battania_woodland_chainmail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_3_t5" />
+            <Equipment slot="Item1"
+                id="Item.highland_riders_shield" />
+            <Equipment slot="Item2"
+                id="Item.battania_polearm_1_t5" />
+            <Equipment slot="Head"
+                id="Item.battanian_crowned_helmet" />
+            <Equipment slot="Cape"
+                id="Item.bearskin" />
+            <Equipment slot="Body"
+                id="Item.battania_woodland_chainmail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_2hsword_5_t5" />
+            <Equipment slot="Item1"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item2"
+                id="Item.default_arrows" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battanian_crowned_helmet" />
+            <Equipment slot="Cape"
+                id="Item.bearskin" />
+            <Equipment slot="Body"
+                id="Item.battania_woodland_chainmail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_1_t5" />
+            <Equipment slot="Item1"
+                id="Item.battania_polearm_1_t5" />
+            <Equipment slot="Item2"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battanian_crowned_helmet" />
+            <Equipment slot="Cape"
+                id="Item.bearskin" />
+            <Equipment slot="Body"
+                id="Item.battania_woodland_chainmail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true"
+            IsHeavyTemplate="true"
+            IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_bat_template_flamboyant"
+        culture="Culture.battania">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_3_t5" />
+            <Equipment slot="Item1"
+                id="Item.highland_riders_shield" />
+            <Equipment slot="Item2"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battanian_crowned_helmet" />
+            <Equipment slot="Cape"
+                id="Item.battania_shoulder_furr" />
+            <Equipment slot="Body"
+                id="Item.ranger_mail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_polearm_1_t5" />
+            <Equipment slot="Item1"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item2"
+                id="Item.default_arrows" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battanian_noble_helmet_with_feather" />
+            <Equipment slot="Cape"
+                id="Item.armored_bearskin" />
+            <Equipment slot="Body"
+                id="Item.ranger_mail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_axe_3_t5" />
+            <Equipment slot="Item1"
+                id="Item.highland_riders_shield" />
+            <Equipment slot="Item2"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battanian_noble_helmet_with_feather" />
+            <Equipment slot="Cape"
+                id="Item.armored_bearskin" />
+            <Equipment slot="Body"
+                id="Item.ranger_mail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_2hsword_5_t5" />
+            <Equipment slot="Item1"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item2"
+                id="Item.default_arrows" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battanian_crowned_helmet" />
+            <Equipment slot="Cape"
+                id="Item.battania_shoulder_furr" />
+            <Equipment slot="Body"
+                id="Item.ranger_mail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_1_t5" />
+            <Equipment slot="Item1"
+                id="Item.highland_scouts_shield" />
+            <Equipment slot="Item2"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.battanian_noble_helmet_with_feather" />
+            <Equipment slot="Cape"
+                id="Item.armored_bearskin" />
+            <Equipment slot="Body"
+                id="Item.ranger_mail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true"
+            IsFlamboyantTemplate="true"
+            IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_bat_template_wild"
+        culture="Culture.battania">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_3_t5" />
+            <Equipment slot="Item1"
+                id="Item.highland_riders_shield" />
+            <Equipment slot="Item2"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.wolfhead" />
+            <Equipment slot="Cape"
+                id="Item.bearskin" />
+            <Equipment slot="Body"
+                id="Item.ranger_mail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.highland_gloves" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_polearm_1_t5" />
+            <Equipment slot="Item1"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item2"
+                id="Item.default_arrows" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.bearhead" />
+            <Equipment slot="Cape"
+                id="Item.fur_cloak_c" />
+            <Equipment slot="Body"
+                id="Item.battania_woodland_chainmail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.highland_gloves" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_axe_3_t5" />
+            <Equipment slot="Item1"
+                id="Item.highland_riders_shield" />
+            <Equipment slot="Item2"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.wolfhead" />
+            <Equipment slot="Cape"
+                id="Item.armored_bearskin" />
+            <Equipment slot="Body"
+                id="Item.battania_woodland_chainmail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.highland_gloves" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_2hsword_5_t5" />
+            <Equipment slot="Item1"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item2"
+                id="Item.default_arrows" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.wolfhead" />
+            <Equipment slot="Cape"
+                id="Item.fur_cloak_b" />
+            <Equipment slot="Body"
+                id="Item.ranger_mail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.highland_gloves" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_1_t5" />
+            <Equipment slot="Item1"
+                id="Item.highland_scouts_shield" />
+            <Equipment slot="Item2"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.wolfhead" />
+            <Equipment slot="Cape"
+                id="Item.armored_bearskin" />
+            <Equipment slot="Body"
+                id="Item.battania_woodland_chainmail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.highland_gloves" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_2_t5" />
+            <Equipment slot="Item1"
+                id="Item.highland_scouts_shield" />
+            <Equipment slot="Item2"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.bearhead" />
+            <Equipment slot="Cape"
+                id="Item.fur_cloak_a" />
+            <Equipment slot="Body"
+                id="Item.battania_woodland_chainmail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.highland_gloves" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_3_t5" />
+            <Equipment slot="Item1"
+                id="Item.highland_riders_shield" />
+            <Equipment slot="Item2"
+                id="Item.battania_polearm_1_t5" />
+            <Equipment slot="Head"
+                id="Item.wolfhead" />
+            <Equipment slot="Cape"
+                id="Item.bearskin" />
+            <Equipment slot="Body"
+                id="Item.ranger_mail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.highland_gloves" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_2hsword_5_t5" />
+            <Equipment slot="Item1"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item2"
+                id="Item.default_arrows" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.bearhead" />
+            <Equipment slot="Cape"
+                id="Item.wolf_shoulder" />
+            <Equipment slot="Body"
+                id="Item.battania_woodland_chainmail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.highland_gloves" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_1_t5" />
+            <Equipment slot="Item1"
+                id="Item.battania_polearm_1_t5" />
+            <Equipment slot="Item2"
+                id="Item.noble_long_bow" />
+            <Equipment slot="Item3"
+                id="Item.default_arrows" />
+            <Equipment slot="Head"
+                id="Item.wolfhead" />
+            <Equipment slot="Cape"
+                id="Item.fur_cloak_a" />
+            <Equipment slot="Body"
+                id="Item.ranger_mail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.highland_gloves" />
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true"
+            IsFlamboyantTemplate="true"
+            IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_bat_template_lady"
+        culture="Culture.battania">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_3_t5" />
+            <Equipment slot="Item1"
+                id="Item.highland_riders_shield" />
+            <Equipment slot="Cape"
+                id="Item.fur_cloak_b" />
+            <Equipment slot="Body"
+                id="Item.ranger_mail" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+            <Equipment slot="Cape"
+                id="Item.a_battania_cloak_a" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_3_t5" />
+            <Equipment slot="Body"
+                id="Item.battania_noble_armor" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true"
+            IsFemaleTemplate="true"
+            IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_civ_template_default"
+        culture="Culture.battania">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.battania_axe_3_t5" />
+            <Equipment slot="Body"
+                id="Item.battania_civil_a" />
+            <Equipment slot="Gloves"
+                id="Item.highland_gloves" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Cape"
+                id="Item.a_battania_cloak_a" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_1_t5" />
+            <Equipment slot="Body"
+                id="Item.battania_civil_c" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.highland_gloves" />
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true"
+            IsCivilianTemplate="true"
+            IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_civ_template_flamboyant"
+        culture="Culture.battania">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_3_t5" />
+            <Equipment slot="Body"
+                id="Item.battania_civil_c" />
+            <Equipment slot="Leg"
+                id="Item.highland_boots" />
+            <Equipment slot="Cape"
+                id="Item.a_battania_cloak_a" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_3_t5" />
+            <Equipment slot="Body"
+                id="Item.battania_civil_c" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Cape"
+                id="Item.a_battania_cloak_a" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_3_t5" />
+            <Equipment slot="Body"
+                id="Item.battania_civil_c" />
+            <Equipment slot="Leg"
+                id="Item.highland_boots" />
+            <Equipment slot="Cape"
+                id="Item.a_battania_cloak_a" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_3_t5" />
+            <Equipment slot="Body"
+                id="Item.battania_civil_c" />
+            <Equipment slot="Leg"
+                id="Item.highland_boots" />
+            <Equipment slot="Cape"
+                id="Item.a_battania_cloak_a" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_2_t5" />
+            <Equipment slot="Body"
+                id="Item.battania_civil_c" />
+            <Equipment slot="Leg"
+                id="Item.highland_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_2_t5" />
+            <Equipment slot="Body"
+                id="Item.battania_civil_c" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true"
+            IsFlamboyantTemplate="true"
+            IsCombatantTemplate="true"
+            IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_civ_template_heavy"
+        culture="Culture.battania">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_3_t5" />
+            <Equipment slot="Body"
+                id="Item.battania_civil_a" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_1_t5" />
+            <Equipment slot="Body"
+                id="Item.battania_civil_c" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true"
+            IsFlamboyantTemplate="true"
+            IsCombatantTemplate="true"
+            IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_civ_template_wild"
+        culture="Culture.battania">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.battania_axe_3_t5" />
+            <Equipment slot="Body"
+                id="Item.battania_light_armor_e" />
+            <Equipment slot="Gloves"
+                id="Item.highland_gloves" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Cape"
+                id="Item.bearskin" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_1_t5" />
+            <Equipment slot="Body"
+                id="Item.battania_light_armor_d" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.highland_gloves" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_3_t5" />
+            <Equipment slot="Body"
+                id="Item.battania_civil_b" />
+            <Equipment slot="Gloves"
+                id="Item.highland_gloves" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Cape"
+                id="Item.armored_bearskin" />
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true"
+            IsFlamboyantTemplate="true"
+            IsCombatantTemplate="true"
+            IsWoodlandTemplate="true"
+            IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_civ_template_lady_normal"
+        culture="Culture.battania">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_2_t5" />
+            <Equipment slot="Body"
+                id="Item.battania_dress_a" />
+            <Equipment slot="Gloves"
+                id="Item.leather_gloves" />
+            <Equipment slot="Leg"
+                id="Item.strapped_shoes" />
+            <Equipment slot="Cape"
+                id="Item.battania_cloak" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_3_t5" />
+            <Equipment slot="Body"
+                id="Item.battania_dress_a" />
+            <Equipment slot="Leg"
+                id="Item.strapped_shoes" />
+            <Equipment slot="Cape"
+                id="Item.battania_cloak" />
+        </EquipmentSet>
+        <Flags IsFemaleTemplate="true"
+            IsCivilianTemplate="true"
+            IsCombatantTemplate="true"
+            IsNobleTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_noncom_template_default"
+        culture="Culture.battania">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.battania_dress_a" />
+            <Equipment slot="Gloves"
+                id="Item.leather_gloves" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.battania_female_civil_b" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.leather_gloves" />
+            <Equipment slot="Cape"
+                id="Item.scarf" />
+        </EquipmentSet>
+        <Flags IsFemaleTemplate="true"
+            IsNobleTemplate="true"
+            IsNoncombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_noncom_template_wild"
+        culture="Culture.battania">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.battania_dress_a" />
+            <Equipment slot="Gloves"
+                id="Item.leather_gloves" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Cape"
+                id="Item.wolf_shoulder" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.battania_female_civil_b" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.leather_gloves" />
+            <Equipment slot="Cape"
+                id="Item.bearskin" />
+        </EquipmentSet>
+        <Flags IsFemaleTemplate="true"
+            IsNoncombatantTemplate="true"
+            IsNobleTemplate="true"
+            IsWoodlandTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_noncom_template_flamboyant"
+        culture="Culture.battania">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.battania_dress_a" />
+            <Equipment slot="Gloves"
+                id="Item.leather_gloves" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Cape"
+                id="Item.wolf_shoulder" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.battania_female_civil_b" />
+            <Equipment slot="Head"
+                id="Item.bearhead" />
+            <Equipment slot="Leg"
+                id="Item.battania_fur_boots" />
+            <Equipment slot="Gloves"
+                id="Item.leather_gloves" />
+            <Equipment slot="Cape"
+                id="Item.battania_civil_cape" />
+        </EquipmentSet>
+        <Flags IsFemaleTemplate="true"
+            IsNoncombatantTemplate="true"
+            IsNobleTemplate="true"
+            IsFlamboyantTemplate="true" />
+    </EquipmentRoster>
+
+    <!-- King -->
+    <EquipmentRoster id="bat_king_template_civ_m"
+        culture="Culture.battania">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_1_t5" />
+            <Equipment slot="Head"
+                id="Item.battania_crown" />
+            <Equipment slot="Cape"
+                id="Item.bearskin" />
+            <Equipment slot="Body"
+                id="Item.merchants_fur_coat" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_battania" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <Flags IsCombatantTemplate="true"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_king_template_civ_f"
+        culture="Culture.battania">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.battania_noble_sword_2_t5" />
+            <Equipment slot="Head"
+                id="Item.battania_crown" />
+            <Equipment slot="Cape"
+                id="Item.leopard_pelt" />
+            <Equipment slot="Body"
+                id="Item.battania_dress_a" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_leather_boots" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_battania" />
+            <Equipment slot="HorseHarness"
+                id="Item.light_harness" />
+        </EquipmentSet>
+        <Flags IsCombatantTemplate="true"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_king_template_bat_m"
+        culture="Culture.battania">
+        <EquipmentSet civilian="false">
+            <Equipment slot="Item0"
+                id="Item.battania_sword_4_t4" />
+            <Equipment slot="Item1"
+                id="Item.battania_shield_targe_a" />
+            <Equipment slot="Item2"
+                id="Item.western_javelin_3_t4" />
+            <Equipment slot="Head"
+                id="Item.battania_battle_crown" />
+            <Equipment slot="Cape"
+                id="Item.aserai_scale_shoulder_b" />
+            <Equipment slot="Body"
+                id="Item.battania_noble_armor" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+            <Equipment slot="Leg"
+                id="Item.northern_plated_boots" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_battania" />
+            <Equipment slot="HorseHarness"
+                id="Item.battania_horse_harness_scaled" />
+        </EquipmentSet>
+        <Flags IsCombatantTemplate="true"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="false" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_king_template_bat_f"
+        culture="Culture.battania">
+        <EquipmentSet civilian="false">
+            <Equipment slot="Item0"
+                id="Item.battania_sword_4_t4" />
+            <Equipment slot="Item1"
+                id="Item.battania_shield_targe_a" />
+            <Equipment slot="Item2"
+                id="Item.western_javelin_3_t4" />
+            <Equipment slot="Head"
+                id="Item.battania_battle_crown" />
+            <Equipment slot="Cape"
+                id="Item.aserai_scale_shoulder_b" />
+            <Equipment slot="Body"
+                id="Item.battania_noble_armor" />
+            <Equipment slot="Gloves"
+                id="Item.battania_noble_bracers" />
+            <Equipment slot="Leg"
+                id="Item.northern_plated_boots" />
+            <Equipment slot="Horse"
+                id="Item.noble_horse_battania" />
+            <Equipment slot="HorseHarness"
+                id="Item.battania_horse_harness_scaled" />
+        </EquipmentSet>
+        <Flags IsCombatantTemplate="true"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="false" />
+    </EquipmentRoster>
+
+    <!-- Duel -->
+    <EquipmentRoster id="bat_duel_preset_template"
+        culture="Culture.battania">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.light_mace_t3" />
+            <Equipment slot="Item1"
+                id="Item.fortified_kite_shield" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.morningstar_mace_t3" />
+            <Equipment slot="Item1"
+                id="Item.fortified_kite_shield" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.battania_2haxe_1_t2" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.northern_spear_3_t4" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head"
+                id="Item.aserai_civil_d_hscarf" />
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_d" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_c_head" />
+            <Equipment slot="Cape"
+                id="Item.wrapped_scarf" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_c" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.aserai_civil_b" />
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_hscarf_b" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.aserai_civil_a" />
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_e_hscarf" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_f" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_e_hscarf" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.aserai_civil_e" />
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.desert_cap" />
+            <Equipment slot="Cape"
+                id="Item.wrapped_scarf" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_hscarf_b" />
+            <Equipment slot="Body"
+                id="Item.layered_robe" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Body"
+                id="Item.layered_robe" />
+            <Equipment slot="Head"
+                id="Item.tied_head_wrapping" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.turban" />
+            <Equipment slot="Cape"
+                id="Item.wrapped_scarf" />
+            <Equipment slot="Body"
+                id="Item.tassled_southern_robes" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+    </EquipmentRoster>
+
+    <!-- Cutscene -->
+    <EquipmentRoster id="marriage_female_bat_cutscene_template"
+        culture="Culture.battania">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.battania_dress_a" />
+            <Equipment slot="Leg"
+                id="Item.ladys_shoe" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="comingofage_kid_bat_cutscene_template"
+        culture="Culture.battania">
+        <EquipmentSet>
+            <Equipment slot="Body"
+                id="Item.battania_civil_a" />
+            <Equipment slot="Leg"
+                id="Item.leather_shoes" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    
 </EquipmentRosters>

@@ -133,6 +133,7 @@
                 id="Item.strapped_shoes" />
         </EquipmentSet>
     </EquipmentRoster>
+
     <!-- Culture first -->
     <!--Retainer -->
     <EquipmentRoster id="player_char_creation_childhood_age_lysellois_1_m"
