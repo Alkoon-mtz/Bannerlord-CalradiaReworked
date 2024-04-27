@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <StartCultures>
-    <StartCulture id="empire" x="657.95" y="279.08" />
+    <StartCulture id="empire" x="479.74" y="274.82" />
     <StartCulture id="sturgia" x="356.75" y="551.52" />
     <StartCulture id="aserai" x="300.78" y="259.99" />
     <StartCulture id="battania" x="293.64" y="446.39" />
     <StartCulture id="khuzait" x="680.73" y="480.8" />
     <StartCulture id="vlandia" x="140.46" y="548.78" />
-    <StartCulture id="lysellois" x="156.45" y="391.034" />
+    <StartCulture id="lysellois" x="156.45" y="391.04" />
     <StartCulture id="rekgeist" x="404.46" y="471.97" />
     <StartCulture id="iustrium" x="570.19" y="246.87" />
 </StartCultures>
