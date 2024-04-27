@@ -307,7 +307,6 @@
     <xsl:template match="Settlement[@id='castle_S2']/@culture"><xsl:attribute name='culture'>Culture.rekgeist</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_S2_1']/@culture"><xsl:attribute name='culture'>Culture.rekgeist</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_S2_2']/@culture"><xsl:attribute name='culture'>Culture.rekgeist</xsl:attribute></xsl:template>
-
     <xsl:template match="Settlement[@id='castle_S4']/@owner"><xsl:attribute name='owner'>Faction.clan_rekgeist_6</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_S4']/@culture"><xsl:attribute name='culture'>Culture.rekgeist</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_S4_1']/@culture"><xsl:attribute name='culture'>Culture.rekgeist</xsl:attribute></xsl:template>

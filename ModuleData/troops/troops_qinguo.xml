@@ -1,45 +1,105 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-<!-- Elitetroop Qinguo -->
+    <NPCCharacter id="villager_qinguo"
+        default_group="Infantry"
+        level="1"
+        name="{=villager_qinguo}Qinguo Peasant"
+        occupation="Villager"
+        culture="Culture.qinguo"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_qinguo"/>
+        </face>
+        <skills></skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.qinguo_recruit" />
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body"
+                    id="Item.khuzait_civil_coat" />
+                <equipment slot="Cape"
+                    id="Item.scarf" />
+                <equipment slot="Leg"
+                    id="Item.leather_shoes" />
+                <equipment slot="Head"
+                    id="Item.fur_hood" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment slot="Item1"
+                    id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Body"
+                    id="Item.steppe_robe" />
+                <equipment slot="Leg"
+                    id="Item.strapped_leather_boots" />
+                <equipment slot="Cape"
+                    id="Item.scarf" />
+                <equipment slot="Head"
+                    id="Item.fur_hat" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <!-- Elitetroop Qinguo -->
     <NPCCharacter id="qinguo_wushi"
         default_group="Cavalry"
         level="16"
         name="{=Qinguo Wushi}Qinguo Wushi"
         upgrade_requires="ItemCategory.war_horse"
         occupation="Soldier"
-        culture="Culture.khuzait"
+        culture="Culture.qinguo"
         is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.fighter_qinguo"/>
         </face>
         <skills >
-            <skill id="Athletics" value="30"/>
-            <skill id="Riding" value="100"/>
-            <skill id="OneHanded" value="15"/>
-            <skill id="TwoHanded" value="65"/>
-            <skill id="Polearm" value="115"/>
-            <skill id="Bow" value="10"/>
-            <skill id="Crossbow" value="15"/>
-            <skill id="Throwing" value="10"/>
+            <skill id="Athletics"
+                value="30"/>
+            <skill id="Riding"
+                value="100"/>
+            <skill id="OneHanded"
+                value="15"/>
+            <skill id="TwoHanded"
+                value="65"/>
+            <skill id="Polearm"
+                value="115"/>
+            <skill id="Bow"
+                value="10"/>
+            <skill id="Crossbow"
+                value="15"/>
+            <skill id="Throwing"
+                value="10"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.qinguo_erbai"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
-                <equipment slot="Head" id="Item.AR_khuzait_helmet_q"/>
-                <equipment slot="Body" id="Item.southern_lamellar_armor"/>
-                <equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-                <equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
-                <equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-                <equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+                <equipment slot="Item0"
+                    id="Item.khuzait_polearm_1_t4"/>
+                <equipment slot="Head"
+                    id="Item.AR_khuzait_helmet_q"/>
+                <equipment slot="Body"
+                    id="Item.southern_lamellar_armor"/>
+                <equipment slot="Gloves"
+                    id="Item.TV_aserai_gloves_d"/>
+                <equipment slot="Leg"
+                    id="Item.TV_aserai_boots_e2"/>
+                <equipment slot="Horse"
+                    id="Item.t2_khuzait_horse"/>
+                <equipment slot="HorseHarness"
+                    id="Item.desert_cloth_harness"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
@@ -48,38 +108,57 @@
         level="21"
         name="{=Qinguo Erbai}Qinguo Erbai"
         occupation="Soldier"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <face>
             <face_key_template value="BodyProperty.fighter_qinguo"/>
         </face>
         <skills >
-            <skill id="Athletics" value="50"/>
-            <skill id="Riding" value="140"/>
-            <skill id="OneHanded" value="20"/>
-            <skill id="TwoHanded" value="90"/>
-            <skill id="Polearm" value="160"/>
-            <skill id="Bow" value="10"/>
-            <skill id="Crossbow" value="20"/>
-            <skill id="Throwing" value="10"/>
+            <skill id="Athletics"
+                value="50"/>
+            <skill id="Riding"
+                value="140"/>
+            <skill id="OneHanded"
+                value="20"/>
+            <skill id="TwoHanded"
+                value="90"/>
+            <skill id="Polearm"
+                value="160"/>
+            <skill id="Bow"
+                value="10"/>
+            <skill id="Crossbow"
+                value="20"/>
+            <skill id="Throwing"
+                value="10"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.qinguo_wubai"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
-                <equipment slot="Head" id="Item.AR_khuzait_helmet_r"/>
-                <equipment slot="Body" id="Item.AR_aserai_armor_d2"/>
-                <equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-                <equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
-                <equipment slot="Horse" id="Item.steppe_war_horse"/>
-                <equipment slot="HorseHarness" id="Item.half_mail_and_plate_barding"/>
+                <equipment slot="Item0"
+                    id="Item.khuzait_polearm_1_t4"/>
+                <equipment slot="Head"
+                    id="Item.AR_khuzait_helmet_r"/>
+                <equipment slot="Body"
+                    id="Item.AR_aserai_armor_d2"/>
+                <equipment slot="Gloves"
+                    id="Item.TV_aserai_gloves_d"/>
+                <equipment slot="Leg"
+                    id="Item.TV_aserai_boots_e2"/>
+                <equipment slot="Horse"
+                    id="Item.steppe_war_horse"/>
+                <equipment slot="HorseHarness"
+                    id="Item.half_mail_and_plate_barding"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
@@ -88,39 +167,59 @@
         level="26"
         name="{=Qinguo Wubai}Qinguo Wubai"
         occupation="Soldier"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <face>
             <face_key_template value="BodyProperty.fighter_qinguo"/>
         </face>
         <skills >
-            <skill id="Athletics" value="60"/>
-            <skill id="Riding" value="200"/>
-            <skill id="OneHanded" value="30"/>
-            <skill id="TwoHanded" value="120"/>
-            <skill id="Polearm" value="220"/>
-            <skill id="Bow" value="20"/>
-            <skill id="Crossbow" value="30"/>
-            <skill id="Throwing" value="20"/>
+            <skill id="Athletics"
+                value="60"/>
+            <skill id="Riding"
+                value="200"/>
+            <skill id="OneHanded"
+                value="30"/>
+            <skill id="TwoHanded"
+                value="120"/>
+            <skill id="Polearm"
+                value="220"/>
+            <skill id="Bow"
+                value="20"/>
+            <skill id="Crossbow"
+                value="30"/>
+            <skill id="Throwing"
+                value="20"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.qinguo_yiqian"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
-                <equipment slot="Head" id="Item.AR_khuzait_helmet_s"/>
-                <equipment slot="Cape" id="Item.AR_imperial_lamellar_shoulders_a"/>
-                <equipment slot="Body" id="Item.TV_empire_armor_e2"/>
-                <equipment slot="Gloves" id="Item.AR_empire_gloves_d"/>
-                <equipment slot="Leg" id="Item.AR_empire_boots_c"/>
-                <equipment slot="Horse" id="Item.noble_horse_eastern"/>
-                <equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+                <equipment slot="Item0"
+                    id="Item.khuzait_polearm_1_t4"/>
+                <equipment slot="Head"
+                    id="Item.AR_khuzait_helmet_s"/>
+                <equipment slot="Cape"
+                    id="Item.AR_imperial_lamellar_shoulders_a"/>
+                <equipment slot="Body"
+                    id="Item.TV_empire_armor_e2"/>
+                <equipment slot="Gloves"
+                    id="Item.AR_empire_gloves_d"/>
+                <equipment slot="Leg"
+                    id="Item.AR_empire_boots_c"/>
+                <equipment slot="Horse"
+                    id="Item.noble_horse_eastern"/>
+                <equipment slot="HorseHarness"
+                    id="Item.mail_and_plate_barding"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
@@ -129,59 +228,87 @@
         level="31"
         name="{=Qinguo Yiqian}Qinguo Yiqian"
         occupation="Soldier"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <face>
             <face_key_template value="BodyProperty.fighter_qinguo"/>
         </face>
         <skills >
-            <skill id="Athletics" value="60"/>
-            <skill id="Riding" value="260"/>
-            <skill id="OneHanded" value="40"/>
-            <skill id="TwoHanded" value="180"/>
-            <skill id="Polearm" value="300"/>
-            <skill id="Bow" value="20"/>
-            <skill id="Crossbow" value="40"/>
-            <skill id="Throwing" value="20"/>
+            <skill id="Athletics"
+                value="60"/>
+            <skill id="Riding"
+                value="260"/>
+            <skill id="OneHanded"
+                value="40"/>
+            <skill id="TwoHanded"
+                value="180"/>
+            <skill id="Polearm"
+                value="300"/>
+            <skill id="Bow"
+                value="20"/>
+            <skill id="Crossbow"
+                value="40"/>
+            <skill id="Throwing"
+                value="20"/>
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
-                <equipment slot="Head" id="Item.khuzait_noble_helmet_with_feathers"/>
-                <equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a2"/>
-                <equipment slot="Body" id="Item.AR_aserai_armor_c"/>
-                <equipment slot="Gloves" id="Item.AR_empire_gloves_d"/>
-                <equipment slot="Leg" id="Item.AR_empire_boots_c"/>
-                <equipment slot="Horse" id="Item.noble_horse_eastern"/>
-                <equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+                <equipment slot="Item0"
+                    id="Item.khuzait_polearm_1_t4"/>
+                <equipment slot="Head"
+                    id="Item.khuzait_noble_helmet_with_feathers"/>
+                <equipment slot="Cape"
+                    id="Item.AR_imperial_lamellar_cape_a2"/>
+                <equipment slot="Body"
+                    id="Item.AR_aserai_armor_c"/>
+                <equipment slot="Gloves"
+                    id="Item.AR_empire_gloves_d"/>
+                <equipment slot="Leg"
+                    id="Item.AR_empire_boots_c"/>
+                <equipment slot="Horse"
+                    id="Item.noble_horse_eastern"/>
+                <equipment slot="HorseHarness"
+                    id="Item.mail_and_plate_barding"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-<!-- Regulartroop Qinguo -->
-    <NPCCharacter id="qinguo_zhaomu"
+    <!-- Regulartroop Qinguo -->
+    <NPCCharacter id="qinguo_recruit"
         default_group="Infantry"
         level="6"
-        name="{=Qinguo Zhaomu}Qinguo Zhaomu"
+        name="{=Qinguo Recruit}Qinguo Recruit"
         occupation="Soldier"
-        culture="Culture.khuzait"
+        culture="Culture.qinguo"
         is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.fighter_qinguo"/>
         </face>
         <skills >
-            <skill id="Athletics" value="25"/>
-            <skill id="Riding" value="10"/>
-            <skill id="OneHanded" value="30"/>
-            <skill id="TwoHanded" value="5"/>
-            <skill id="Polearm" value="10"/>
-            <skill id="Bow" value="5"/>
-            <skill id="Crossbow" value="5"/>
-            <skill id="Throwing" value="5"/>
+            <skill id="Athletics"
+                value="25"/>
+            <skill id="Riding"
+                value="10"/>
+            <skill id="OneHanded"
+                value="30"/>
+            <skill id="TwoHanded"
+                value="5"/>
+            <skill id="Polearm"
+                value="10"/>
+            <skill id="Bow"
+                value="5"/>
+            <skill id="Crossbow"
+                value="5"/>
+            <skill id="Throwing"
+                value="5"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.qinguo_heitao"/>
@@ -189,34 +316,54 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.khuzait_mace_1_t2"/>
-                <equipment slot="Head" id="Item.nomad_cap"/>
-                <equipment slot="Body" id="Item.DZ_khuzait_armor_a"/>
-                <equipment slot="Leg" id="Item.TV_aserai_boots_f"/>
+                <equipment slot="Item0"
+                    id="Item.khuzait_mace_1_t2"/>
+                <equipment slot="Head"
+                    id="Item.nomad_cap"/>
+                <equipment slot="Body"
+                    id="Item.DZ_khuzait_armor_a"/>
+                <equipment slot="Leg"
+                    id="Item.TV_aserai_boots_f"/>
             </EquipmentRoster>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
-                <equipment slot="Head" id="Item.nomad_cap"/>
-                <equipment slot="Body" id="Item.DZ_khuzait_armor_a"/>
-                <equipment slot="Leg" id="Item.TV_aserai_boots_f"/>
+                <equipment slot="Item0"
+                    id="Item.peasant_pitchfork_1_t1"/>
+                <equipment slot="Head"
+                    id="Item.nomad_cap"/>
+                <equipment slot="Body"
+                    id="Item.DZ_khuzait_armor_a"/>
+                <equipment slot="Leg"
+                    id="Item.TV_aserai_boots_f"/>
             </EquipmentRoster>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
-                <equipment slot="Head" id="Item.nomad_cap"/>
-                <equipment slot="Body" id="Item.DZ_khuzait_armor_a"/>
-                <equipment slot="Leg" id="Item.TV_aserai_boots_f"/>
+                <equipment slot="Item0"
+                    id="Item.peasant_polearm_1_t1"/>
+                <equipment slot="Head"
+                    id="Item.nomad_cap"/>
+                <equipment slot="Body"
+                    id="Item.DZ_khuzait_armor_a"/>
+                <equipment slot="Leg"
+                    id="Item.TV_aserai_boots_f"/>
             </EquipmentRoster>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
-                <equipment slot="Head" id="Item.nomad_cap"/>
-                <equipment slot="Body" id="Item.DZ_khuzait_armor_a"/>
-                <equipment slot="Leg" id="Item.TV_aserai_boots_f"/>
+                <equipment slot="Item0"
+                    id="Item.peasant_sickle_1_t1"/>
+                <equipment slot="Head"
+                    id="Item.nomad_cap"/>
+                <equipment slot="Body"
+                    id="Item.DZ_khuzait_armor_a"/>
+                <equipment slot="Leg"
+                    id="Item.TV_aserai_boots_f"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
@@ -225,19 +372,27 @@
         level="11"
         name="{=Qinguo Heitao}Qinguo Heitao"
         occupation="Soldier"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <face>
             <face_key_template value="BodyProperty.fighter_qinguo"/>
         </face>
         <skills >
-            <skill id="Athletics" value="50"/>
-            <skill id="Riding" value="15"/>
-            <skill id="OneHanded" value="15"/>
-            <skill id="TwoHanded" value="20"/>
-            <skill id="Polearm" value="60"/>
-            <skill id="Bow" value="10"/>
-            <skill id="Crossbow" value="20"/>
-            <skill id="Throwing" value="10"/>
+            <skill id="Athletics"
+                value="50"/>
+            <skill id="Riding"
+                value="15"/>
+            <skill id="OneHanded"
+                value="15"/>
+            <skill id="TwoHanded"
+                value="20"/>
+            <skill id="Polearm"
+                value="60"/>
+            <skill id="Bow"
+                value="10"/>
+            <skill id="Crossbow"
+                value="20"/>
+            <skill id="Throwing"
+                value="10"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.qinguo_nushou"/>
@@ -245,18 +400,28 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
-                <equipment slot="Item1" id="Item.decorated_steppe_shield"/>
-                <equipment slot="Item2" id="Item.peasant_sickle_1_t1"/>
-                <equipment slot="Head" id="Item.TV_aserai_guard_helmet_d"/>
-                <equipment slot="Body" id="Item.ao_durkhan_sleeveless_leather_lamellar"/>
-                <equipment slot="Leg" id="Item.TV_khuzait_boots_a"/>
+                <equipment slot="Item0"
+                    id="Item.eastern_spear_3_t3"/>
+                <equipment slot="Item1"
+                    id="Item.decorated_steppe_shield"/>
+                <equipment slot="Item2"
+                    id="Item.peasant_sickle_1_t1"/>
+                <equipment slot="Head"
+                    id="Item.TV_aserai_guard_helmet_d"/>
+                <equipment slot="Body"
+                    id="Item.ao_durkhan_sleeveless_leather_lamellar"/>
+                <equipment slot="Leg"
+                    id="Item.TV_khuzait_boots_a"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
@@ -266,39 +431,59 @@
         level="16"
         name="{=Qinguo Nushou}Qinguo Nushou"
         occupation="Soldier"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <face>
             <face_key_template value="BodyProperty.fighter_qinguo"/>
         </face>
         <skills >
-            <skill id="Athletics" value="90"/>
-            <skill id="Riding" value="15"/>
-            <skill id="OneHanded" value="40"/>
-            <skill id="TwoHanded" value="15"/>
-            <skill id="Polearm" value="40"/>
-            <skill id="Bow" value="30"/>
-            <skill id="Crossbow" value="100"/>
-            <skill id="Throwing" value="30"/>
+            <skill id="Athletics"
+                value="90"/>
+            <skill id="Riding"
+                value="15"/>
+            <skill id="OneHanded"
+                value="40"/>
+            <skill id="TwoHanded"
+                value="15"/>
+            <skill id="Polearm"
+                value="40"/>
+            <skill id="Bow"
+                value="30"/>
+            <skill id="Crossbow"
+                value="100"/>
+            <skill id="Throwing"
+                value="30"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.qinguo_jingrui_nushou"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.crossbow_a"/>
-                <equipment slot="Item1" id="Item.bolt_d"/>
-                <equipment slot="Item2" id="Item.bolt_d"/>
-                <equipment slot="Item3" id="Item.khuzait_sword_1_t2"/>
-                <equipment slot="Head" id="Item.TV_aserai_helmet_v"/>
-                <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
-                <equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-                <equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+                <equipment slot="Item0"
+                    id="Item.crossbow_a"/>
+                <equipment slot="Item1"
+                    id="Item.bolt_d"/>
+                <equipment slot="Item2"
+                    id="Item.bolt_d"/>
+                <equipment slot="Item3"
+                    id="Item.khuzait_sword_1_t2"/>
+                <equipment slot="Head"
+                    id="Item.TV_aserai_helmet_v"/>
+                <equipment slot="Body"
+                    id="Item.nordic_lamellar_vest"/>
+                <equipment slot="Gloves"
+                    id="Item.TV_aserai_gloves_d"/>
+                <equipment slot="Leg"
+                    id="Item.TV_aserai_boots_e2"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
@@ -307,40 +492,61 @@
         level="21"
         name="{=Qinguo Jingrui Nushou}Qinguo Jingrui Nushou"
         occupation="Soldier"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <face>
             <face_key_template value="BodyProperty.fighter_qinguo"/>
         </face>
         <skills >
-            <skill id="Athletics" value="120"/>
-            <skill id="Riding" value="20"/>
-            <skill id="OneHanded" value="60"/>
-            <skill id="TwoHanded" value="20"/>
-            <skill id="Polearm" value="60"/>
-            <skill id="Bow" value="40"/>
-            <skill id="Crossbow" value="140"/>
-            <skill id="Throwing" value="40"/>
+            <skill id="Athletics"
+                value="120"/>
+            <skill id="Riding"
+                value="20"/>
+            <skill id="OneHanded"
+                value="60"/>
+            <skill id="TwoHanded"
+                value="20"/>
+            <skill id="Polearm"
+                value="60"/>
+            <skill id="Bow"
+                value="40"/>
+            <skill id="Crossbow"
+                value="140"/>
+            <skill id="Throwing"
+                value="40"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.qinguo_jujishou"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.crossbow_e"/>
-                <equipment slot="Item1" id="Item.bolt_b"/>
-                <equipment slot="Item2" id="Item.bolt_b"/>
-                <equipment slot="Item3" id="Item.khuzait_sword_2_t3"/>
-                <equipment slot="Head" id="Item.TV_aserai_helmet_w"/>
-                <equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_c"/>
-                <equipment slot="Body" id="Item.AR_aserai_armor_e2"/>
-                <equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-                <equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+                <equipment slot="Item0"
+                    id="Item.crossbow_e"/>
+                <equipment slot="Item1"
+                    id="Item.bolt_b"/>
+                <equipment slot="Item2"
+                    id="Item.bolt_b"/>
+                <equipment slot="Item3"
+                    id="Item.khuzait_sword_2_t3"/>
+                <equipment slot="Head"
+                    id="Item.TV_aserai_helmet_w"/>
+                <equipment slot="Cape"
+                    id="Item.a_aserai_scale_b_shoulder_c"/>
+                <equipment slot="Body"
+                    id="Item.AR_aserai_armor_e2"/>
+                <equipment slot="Gloves"
+                    id="Item.TV_aserai_gloves_d"/>
+                <equipment slot="Leg"
+                    id="Item.TV_aserai_boots_e2"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
@@ -349,37 +555,58 @@
         level="26"
         name="{=Qinguo Jujishou}Qinguo Jujishou"
         occupation="Soldier"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <face>
             <face_key_template value="BodyProperty.fighter_qinguo"/>
         </face>
         <skills >
-            <skill id="Athletics" value="160"/>
-            <skill id="Riding" value="30"/>
-            <skill id="OneHanded" value="80"/>
-            <skill id="TwoHanded" value="30"/>
-            <skill id="Polearm" value="80"/>
-            <skill id="Bow" value="60"/>
-            <skill id="Crossbow" value="200"/>
-            <skill id="Throwing" value="60"/>
+            <skill id="Athletics"
+                value="160"/>
+            <skill id="Riding"
+                value="30"/>
+            <skill id="OneHanded"
+                value="80"/>
+            <skill id="TwoHanded"
+                value="30"/>
+            <skill id="Polearm"
+                value="80"/>
+            <skill id="Bow"
+                value="60"/>
+            <skill id="Crossbow"
+                value="200"/>
+            <skill id="Throwing"
+                value="60"/>
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.crossbow_g"/>
-                <equipment slot="Item1" id="Item.bolt_c"/>
-                <equipment slot="Item2" id="Item.bolt_c"/>
-                <equipment slot="Item3" id="Item.khuzait_noble_sword_1_t5"/>
-                <equipment slot="Head" id="Item.TV_aserai_helmet_y2"/>
-                <equipment slot="Cape" id="Item.AR_aserai_shoulder_c"/>
-                <equipment slot="Body" id="Item.AR_aserai_armor_f2"/>
-                <equipment slot="Gloves" id="Item.AR_empire_gloves_c"/>
-                <equipment slot="Leg" id="Item.AR_empire_boots_c"/>
+                <equipment slot="Item0"
+                    id="Item.crossbow_g"/>
+                <equipment slot="Item1"
+                    id="Item.bolt_c"/>
+                <equipment slot="Item2"
+                    id="Item.bolt_c"/>
+                <equipment slot="Item3"
+                    id="Item.khuzait_noble_sword_1_t5"/>
+                <equipment slot="Head"
+                    id="Item.TV_aserai_helmet_y2"/>
+                <equipment slot="Cape"
+                    id="Item.AR_aserai_shoulder_c"/>
+                <equipment slot="Body"
+                    id="Item.AR_aserai_armor_f2"/>
+                <equipment slot="Gloves"
+                    id="Item.AR_empire_gloves_c"/>
+                <equipment slot="Leg"
+                    id="Item.AR_empire_boots_c"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
@@ -389,39 +616,59 @@
         level="16"
         name="{=Qinguo Qiangqi}Qinguo Qiangqi"
         occupation="Soldier"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <face>
             <face_key_template value="BodyProperty.fighter_qinguo"/>
         </face>
         <skills >
-            <skill id="Athletics" value="90"/>
-            <skill id="Riding" value="30"/>
-            <skill id="OneHanded" value="30"/>
-            <skill id="TwoHanded" value="40"/>
-            <skill id="Polearm" value="100"/>
-            <skill id="Bow" value="15"/>
-            <skill id="Crossbow" value="40"/>
-            <skill id="Throwing" value="15"/>
+            <skill id="Athletics"
+                value="90"/>
+            <skill id="Riding"
+                value="30"/>
+            <skill id="OneHanded"
+                value="30"/>
+            <skill id="TwoHanded"
+                value="40"/>
+            <skill id="Polearm"
+                value="100"/>
+            <skill id="Bow"
+                value="15"/>
+            <skill id="Crossbow"
+                value="40"/>
+            <skill id="Throwing"
+                value="15"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.qinguo_cichuan"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
-                <equipment slot="Item1" id="Item.studded_round_shield"/>
-                <equipment slot="Item2" id="Item.simple_back_sword_t2"/>
-                <equipment slot="Head" id="Item.TV_aserai_guard_helmet_d2"/>
-                <equipment slot="Cape" id="Item.TV_khuzait_shoulder_q"/>
-                <equipment slot="Body" id="Item.TV_khuzait_armor_h"/>
-                <equipment slot="Gloves" id="Item.TV_khuzait_gloves_b"/>
-                <equipment slot="Leg" id="Item.AO_durkhan_boots_b"/>
+                <equipment slot="Item0"
+                    id="Item.khuzait_lance_2_t4"/>
+                <equipment slot="Item1"
+                    id="Item.studded_round_shield"/>
+                <equipment slot="Item2"
+                    id="Item.simple_back_sword_t2"/>
+                <equipment slot="Head"
+                    id="Item.TV_aserai_guard_helmet_d2"/>
+                <equipment slot="Cape"
+                    id="Item.TV_khuzait_shoulder_q"/>
+                <equipment slot="Body"
+                    id="Item.TV_khuzait_armor_h"/>
+                <equipment slot="Gloves"
+                    id="Item.TV_khuzait_gloves_b"/>
+                <equipment slot="Leg"
+                    id="Item.AO_durkhan_boots_b"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
@@ -430,36 +677,56 @@
         level="21"
         name="{=Qinguo Cichuan}Qinguo Cichuan"
         occupation="Soldier"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <face>
             <face_key_template value="BodyProperty.fighter_qinguo"/>
         </face>
         <skills >
-            <skill id="Athletics" value="120"/>
-            <skill id="Riding" value="40"/>
-            <skill id="OneHanded" value="40"/>
-            <skill id="TwoHanded" value="60"/>
-            <skill id="Polearm" value="140"/>
-            <skill id="Bow" value="20"/>
-            <skill id="Crossbow" value="60"/>
-            <skill id="Throwing" value="20"/>
+            <skill id="Athletics"
+                value="120"/>
+            <skill id="Riding"
+                value="40"/>
+            <skill id="OneHanded"
+                value="40"/>
+            <skill id="TwoHanded"
+                value="60"/>
+            <skill id="Polearm"
+                value="140"/>
+            <skill id="Bow"
+                value="20"/>
+            <skill id="Crossbow"
+                value="60"/>
+            <skill id="Throwing"
+                value="20"/>
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.eastern_throwing_spear_1_t3"/>
-                <equipment slot="Item1" id="Item.steel_round_shield"/>
-                <equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
-                <equipment slot="Head" id="Item.TV_aserai_guard_helmet_c4"/>
-                <equipment slot="Cape" id="Item.TV_khuzait_shoulder_q"/>
-                <equipment slot="Body" id="Item.TV_khuzait_armor_t"/>
-                <equipment slot="Gloves" id="Item.TV_khuzait_gloves_a"/>
-                <equipment slot="Leg" id="Item.AO_durkhan_boots_c"/>
+                <equipment slot="Item0"
+                    id="Item.eastern_throwing_spear_1_t3"/>
+                <equipment slot="Item1"
+                    id="Item.steel_round_shield"/>
+                <equipment slot="Item2"
+                    id="Item.khuzait_sword_2_t3"/>
+                <equipment slot="Head"
+                    id="Item.TV_aserai_guard_helmet_c4"/>
+                <equipment slot="Cape"
+                    id="Item.TV_khuzait_shoulder_q"/>
+                <equipment slot="Body"
+                    id="Item.TV_khuzait_armor_t"/>
+                <equipment slot="Gloves"
+                    id="Item.TV_khuzait_gloves_a"/>
+                <equipment slot="Leg"
+                    id="Item.AO_durkhan_boots_c"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
@@ -470,40 +737,61 @@
         name="{=Qinguo Xunluo}Qinguo Xunluo"
         upgrade_requires="ItemCategory.horse"
         occupation="Soldier"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <face>
             <face_key_template value="BodyProperty.fighter_qinguo"/>
         </face>
         <skills >
-            <skill id="Athletics" value="20"/>
-            <skill id="Riding" value="50"/>
-            <skill id="OneHanded" value="10"/>
-            <skill id="TwoHanded" value="30"/>
-            <skill id="Polearm" value="15"/>
-            <skill id="Bow" value="15"/>
-            <skill id="Crossbow" value="50"/>
-            <skill id="Throwing" value="10"/>
+            <skill id="Athletics"
+                value="20"/>
+            <skill id="Riding"
+                value="50"/>
+            <skill id="OneHanded"
+                value="10"/>
+            <skill id="TwoHanded"
+                value="30"/>
+            <skill id="Polearm"
+                value="15"/>
+            <skill id="Bow"
+                value="15"/>
+            <skill id="Crossbow"
+                value="50"/>
+            <skill id="Throwing"
+                value="10"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.qinguo_jingying_xunluo"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.crossbow_a"/>
-                <equipment slot="Item1" id="Item.bolt_e"/>
-                <equipment slot="Item2" id="Item.bolt_e"/>
-                <equipment slot="Item3" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Head" id="Item.AR_battania_helmet_a"/>
-                <equipment slot="Body" id="Item.ao_durkhan_light_lamellar"/>
-                <equipment slot="Leg" id="Item.TV_khuzait_boots_a"/>
-                <equipment slot="Horse" id="Item.khuzait_horse"/>
-                <equipment slot="HorseHarness" id="Item.steppe_harness"/>
+                <equipment slot="Item0"
+                    id="Item.crossbow_a"/>
+                <equipment slot="Item1"
+                    id="Item.bolt_e"/>
+                <equipment slot="Item2"
+                    id="Item.bolt_e"/>
+                <equipment slot="Item3"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Head"
+                    id="Item.AR_battania_helmet_a"/>
+                <equipment slot="Body"
+                    id="Item.ao_durkhan_light_lamellar"/>
+                <equipment slot="Leg"
+                    id="Item.TV_khuzait_boots_a"/>
+                <equipment slot="Horse"
+                    id="Item.khuzait_horse"/>
+                <equipment slot="HorseHarness"
+                    id="Item.steppe_harness"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
@@ -512,41 +800,63 @@
         level="16"
         name="{=Qinguo Jingying Xunluo}Qinguo Jingying Xunluo"
         occupation="Soldier"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <face>
             <face_key_template value="BodyProperty.fighter_qinguo"/>
         </face>
         <skills >
-            <skill id="Athletics" value="40"/>
-            <skill id="Riding" value="80"/>
-            <skill id="OneHanded" value="15"/>
-            <skill id="TwoHanded" value="70"/>
-            <skill id="Polearm" value="30"/>
-            <skill id="Bow" value="30"/>
-            <skill id="Crossbow" value="80"/>
-            <skill id="Throwing" value="15"/>
+            <skill id="Athletics"
+                value="40"/>
+            <skill id="Riding"
+                value="80"/>
+            <skill id="OneHanded"
+                value="15"/>
+            <skill id="TwoHanded"
+                value="70"/>
+            <skill id="Polearm"
+                value="30"/>
+            <skill id="Bow"
+                value="30"/>
+            <skill id="Crossbow"
+                value="80"/>
+            <skill id="Throwing"
+                value="15"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.qinguo_manu"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.crossbow_b"/>
-                <equipment slot="Item1" id="Item.bolt_a"/>
-                <equipment slot="Item2" id="Item.bolt_a"/>
-                <equipment slot="Item3" id="Item.justicier_2hsword"/>
-                <equipment slot="Head" id="Item.AR_battania_helmet_b"/>
-                <equipment slot="Cape" id="Item.a_leather_lamellar_armor_shoulder_a"/>
-                <equipment slot="Body" id="Item.ao_durkhan_lamellar"/>
-                <equipment slot="Leg" id="Item.AO_durkhan_boots_c"/>
-                <equipment slot="Horse" id="Item.khuzait_horse"/>
-                <equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+                <equipment slot="Item0"
+                    id="Item.crossbow_b"/>
+                <equipment slot="Item1"
+                    id="Item.bolt_a"/>
+                <equipment slot="Item2"
+                    id="Item.bolt_a"/>
+                <equipment slot="Item3"
+                    id="Item.justicier_2hsword"/>
+                <equipment slot="Head"
+                    id="Item.AR_battania_helmet_b"/>
+                <equipment slot="Cape"
+                    id="Item.a_leather_lamellar_armor_shoulder_a"/>
+                <equipment slot="Body"
+                    id="Item.ao_durkhan_lamellar"/>
+                <equipment slot="Leg"
+                    id="Item.AO_durkhan_boots_c"/>
+                <equipment slot="Horse"
+                    id="Item.khuzait_horse"/>
+                <equipment slot="HorseHarness"
+                    id="Item.steppe_fur_harness"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
@@ -556,42 +866,65 @@
         name="{=Qinguo Manu}Qinguo Manu"
         upgrade_requires="ItemCategory.war_horse"
         occupation="Soldier"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <face>
             <face_key_template value="BodyProperty.fighter_qinguo"/>
         </face>
         <skills >
-            <skill id="Athletics" value="60"/>
-            <skill id="Riding" value="110"/>
-            <skill id="OneHanded" value="20"/>
-            <skill id="TwoHanded" value="100"/>
-            <skill id="Polearm" value="40"/>
-            <skill id="Bow" value="40"/>
-            <skill id="Crossbow" value="110"/>
-            <skill id="Throwing" value="20"/>
+            <skill id="Athletics"
+                value="60"/>
+            <skill id="Riding"
+                value="110"/>
+            <skill id="OneHanded"
+                value="20"/>
+            <skill id="TwoHanded"
+                value="100"/>
+            <skill id="Polearm"
+                value="40"/>
+            <skill id="Bow"
+                value="40"/>
+            <skill id="Crossbow"
+                value="110"/>
+            <skill id="Throwing"
+                value="20"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.qinguo_jingying_manu"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.crossbow_d"/>
-                <equipment slot="Item1" id="Item.bolt_d"/>
-                <equipment slot="Item2" id="Item.bolt_d"/>
-                <equipment slot="Item3" id="Item.cleaver_2hsword_t3"/>
-                <equipment slot="Head" id="Item.AR_battania_helmet_b2"/>
-                <equipment slot="Cape" id="Item.a_metal_lamellar_armor_shoulder_a"/>
-                <equipment slot="Body" id="Item.TV_khuzait_armor_g"/>
-                <equipment slot="Gloves" id="Item.TV_khuzait_gloves_b"/>
-                <equipment slot="Leg" id="Item.AR_empire_boots_c"/>
-                <equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-                <equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+                <equipment slot="Item0"
+                    id="Item.crossbow_d"/>
+                <equipment slot="Item1"
+                    id="Item.bolt_d"/>
+                <equipment slot="Item2"
+                    id="Item.bolt_d"/>
+                <equipment slot="Item3"
+                    id="Item.cleaver_2hsword_t3"/>
+                <equipment slot="Head"
+                    id="Item.AR_battania_helmet_b2"/>
+                <equipment slot="Cape"
+                    id="Item.a_metal_lamellar_armor_shoulder_a"/>
+                <equipment slot="Body"
+                    id="Item.TV_khuzait_armor_g"/>
+                <equipment slot="Gloves"
+                    id="Item.TV_khuzait_gloves_b"/>
+                <equipment slot="Leg"
+                    id="Item.AR_empire_boots_c"/>
+                <equipment slot="Horse"
+                    id="Item.t2_khuzait_horse"/>
+                <equipment slot="HorseHarness"
+                    id="Item.steppe_half_barding"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
@@ -600,39 +933,62 @@
         level="26"
         name="{=Qinguo Jingying Manu}Qinguo Jingying Manu"
         occupation="Soldier"
-        culture="Culture.khuzait">
+        culture="Culture.qinguo">
         <face>
             <face_key_template value="BodyProperty.fighter_qinguo"/>
         </face>
         <skills >
-            <skill id="Athletics" value="70"/>
-            <skill id="Riding" value="150"/>
-            <skill id="OneHanded" value="30"/>
-            <skill id="TwoHanded" value="140"/>
-            <skill id="Polearm" value="60"/>
-            <skill id="Bow" value="60"/>
-            <skill id="Crossbow" value="160"/>
-            <skill id="Throwing" value="30"/>
+            <skill id="Athletics"
+                value="70"/>
+            <skill id="Riding"
+                value="150"/>
+            <skill id="OneHanded"
+                value="30"/>
+            <skill id="TwoHanded"
+                value="140"/>
+            <skill id="Polearm"
+                value="60"/>
+            <skill id="Bow"
+                value="60"/>
+            <skill id="Crossbow"
+                value="160"/>
+            <skill id="Throwing"
+                value="30"/>
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.crossbow_f"/>
-                <equipment slot="Item1" id="Item.bolt_c"/>
-                <equipment slot="Item2" id="Item.bolt_c"/>
-                <equipment slot="Item3" id="Item.cleaver_2hsword_t3"/>
-                <equipment slot="Head" id="Item.AR_battania_lord_helmet_j"/>
-                <equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_c"/>
-                <equipment slot="Body" id="Item.TV_vlandia_armor_d2"/>
-                <equipment slot="Gloves" id="Item.AR_empire_gloves_d"/>
-                <equipment slot="Leg" id="Item.AR_empire_boots_c"/>
-                <equipment slot="Horse" id="Item.t3_khuzait_horse"/>
-                <equipment slot="HorseHarness" id="Item.studded_steppe_barding"/>
+                <equipment slot="Item0"
+                    id="Item.crossbow_f"/>
+                <equipment slot="Item1"
+                    id="Item.bolt_c"/>
+                <equipment slot="Item2"
+                    id="Item.bolt_c"/>
+                <equipment slot="Item3"
+                    id="Item.cleaver_2hsword_t3"/>
+                <equipment slot="Head"
+                    id="Item.AR_battania_lord_helmet_j"/>
+                <equipment slot="Cape"
+                    id="Item.a_aserai_scale_b_shoulder_c"/>
+                <equipment slot="Body"
+                    id="Item.TV_vlandia_armor_d2"/>
+                <equipment slot="Gloves"
+                    id="Item.AR_empire_gloves_d"/>
+                <equipment slot="Leg"
+                    id="Item.AR_empire_boots_c"/>
+                <equipment slot="Horse"
+                    id="Item.t3_khuzait_horse"/>
+                <equipment slot="HorseHarness"
+                    id="Item.studded_steppe_barding"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>

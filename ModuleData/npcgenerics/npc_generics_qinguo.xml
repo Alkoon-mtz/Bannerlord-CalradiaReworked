@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+    <NPCCharacter id="caravan_master_qinguo"
+        default_group="Infantry"
+        level="26"
+        name="{=caravan_master_qinguo}Qinguo Caravan Master"
+        occupation="CaravanGuard"
+        culture="Culture.qinguo">
+        <face>
+            <face_key_template value="BodyProperty.fighter_qinguo" />
+        </face>
+        <skills>
+            <skill id="Athletics"
+                value="130" />
+            <skill id="Riding"
+                value="130" />
+            <skill id="OneHanded"
+                value="160" />
+            <skill id="TwoHanded"
+                value="80" />
+            <skill id="Polearm"
+                value="60" />
+            <skill id="Bow"
+                value="80" />
+            <skill id="Crossbow"
+                value="20" />
+            <skill id="Throwing"
+                value="50" />
+        </skills>
+        <upgrade_targets></upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.khuzait_sword_3_t3" />
+                <equipment slot="Head"
+                    id="Item.plumed_fur_lined_helmet" />
+                <equipment slot="Body"
+                    id="Item.northern_leather_tabard" />
+                <equipment slot="Gloves"
+                    id="Item.northern_brass_bracers" />
+                <equipment slot="Cape"
+                    id="Item.brass_scale_shoulders" />
+                <equipment slot="Leg"
+                    id="Item.woven_leather_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.khuzait_sword_3_t3" />
+                <equipment slot="Head"
+                    id="Item.plumed_fur_lined_helmet" />
+                <equipment slot="Body"
+                    id="Item.khuzait_sturdy_armor" />
+                <equipment slot="Gloves"
+                    id="Item.northern_brass_bracers" />
+                <equipment slot="Cape"
+                    id="Item.brass_scale_shoulders" />
+                <equipment slot="Leg"
+                    id="Item.woven_leather_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.khuzait_sword_3_t3" />
+                <equipment slot="Head"
+                    id="Item.nomad_helmet" />
+                <equipment slot="Body"
+                    id="Item.khuzait_belt_leather" />
+                <equipment slot="Cape"
+                    id="Item.eastern_studded_shoulders" />
+                <equipment slot="Leg"
+                    id="Item.woven_leather_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0"
+                    id="Item.khuzait_sword_3_t3" />
+                <equipment slot="Head"
+                    id="Item.plumed_fur_lined_helmet" />
+                <equipment slot="Body"
+                    id="Item.khuzait_sturdy_armor" />
+                <equipment slot="Gloves"
+                    id="Item.northern_brass_bracers" />
+                <equipment slot="Cape"
+                    id="Item.brass_scale_shoulders" />
+                <equipment slot="Leg"
+                    id="Item.woven_leather_boots" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <!-- Party Civilian -->
+    <MBPartyTemplate id="qinguo_villager_template">
+        <stacks>
+            <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_qinguo" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="qinguo_kingdom_hero_party_template">
+        <stacks>
+            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.qinguo_recruit" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.qinguo_heitao" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.qinguo_qiangqi" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.qinguo_cichuan" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.qinguo_nushou" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.qinguo_jingrui_nushou" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.qinguo_jujishou" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.qinguo_jingying_xunluo" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.qinguo_manu" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.qinguo_erbai" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="qinguo_elite_caravan_template">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_khuzait" />
+            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_khuzait" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_khuzait" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_qinguo" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="qinguo_caravan_template">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_khuzait" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_khuzait" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_khuzait" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="qinguo_militia_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khuzait_militia_spearman" />
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khuzait_militia_archer" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="qinguo_rebels_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.qinguo_recruit" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="qinguo_vassal_reward_troops">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.qinguo_yiqian" />
+            <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.qinguo_jingying_manu" />
+        </stacks>
+    </MBPartyTemplate>
+    <!-- Party Civilian end -->
+    <!-- Party Lords -->
+    <!-- Party Lords end -->
+</partyTemplates>

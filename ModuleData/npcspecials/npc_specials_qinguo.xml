@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+    <NPCCharacter id="spc_merchant_qinguo_1"
+        name="{=!}Cautious Qinguo merchant"
+        voice="ironic"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.qinguo"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_qinguo" />
+        </face>
+        <Traits>
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_qinguo_2"
+        name="{=!}{FIRSTNAME} the Broker"
+        voice="ironic"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.qinguo"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_qinguo" />
+        </face>
+        <Traits>
+            <Trait id="Commander"
+                value="4" />
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_qinguo_3"
+        name="{=!}{FIRSTNAME} the Dyer"
+        voice="ironic"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.qinguo"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_qinguo" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Generosity"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_qinguo_4"
+        name="{=!}{FIRSTNAME} the Horsetrader"
+        is_template="true"
+        voice="ironic"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.qinguo"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_qinguo" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Commander"
+                value="4" />
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Generosity"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_qinguo_4f"
+        name="{=!}{FIRSTNAME} the Silkseller"
+        voice="ironic"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.qinguo"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_qinguo" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Commander"
+                value="4" />
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_qinguo_5"
+        name="{=!}{FIRSTNAME} the Wineseller"
+        is_template="true"
+        voice="ironic"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.qinguo"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_qinguo" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Commander"
+                value="4" />
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Generosity"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_qinguo_5f"
+        name="{=!}{FIRSTNAME} the Freedwoman"
+        is_template="true"
+        voice="ironic"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.qinguo"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_qinguo" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_preacher_qinguo_1"
+        name="{=!}Qinguo shaman"
+        voice="softspoken"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.qinguo"
+        occupation="Preacher">
+        <face>
+            <face_key_template value="BodyProperty.villager_qinguo" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Honor"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_preacher_qinguo_1f"
+        name="{=!}Female preacher"
+        voice="softspoken"
+        is_template="true"
+        default_group="Infantry"
+        is_female="true"
+        culture="Culture.qinguo"
+        occupation="Preacher">
+        <face>
+            <face_key_template value="BodyProperty.villager_qinguo" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Honor"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_gangleader_qinguo_1f"
+        name="{=!}Female gang leader"
+        voice="curt"
+        is_template="true"
+        default_group="Infantry"
+        is_female="true"
+        culture="Culture.qinguo"
+        occupation="GangLeader">
+        <face>
+            <face_key_template value="BodyProperty.villager_qinguo" />
+        </face>
+        <Traits>
+            <Trait id="Valor"
+                value="1" />
+            <Trait id="Mercy"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_gangleader_qinguo_1"
+        name="{=!}Standard male gang leader"
+        voice="ironic"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.qinguo"
+        occupation="GangLeader">
+        <face>
+            <face_key_template value="BodyProperty.fighter_qinguo" />
+        </face>
+        <Traits>
+            <Trait id="Valor"
+                value="1" />
+            <Trait id="Mercy"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_gangleader_qinguo_2"
+        name="{=!}Standard male gang leader"
+        voice="softspoken"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.qinguo"
+        occupation="GangLeader">
+        <face>
+            <face_key_template value="BodyProperty.fighter_qinguo" />
+        </face>
+        <Traits>
+            <Trait id="Valor"
+                value="1" />
+            <Trait id="Calculating"
+                value="1" />
+            <Trait id="Honor"
+                value="-1" />
+            <Trait id="Mercy"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_artisan_qinguo_1"
+        name="{=!}qinguo rebellious artisan"
+        voice="earnest"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.qinguo"
+        occupation="Artisan">
+        <face>
+            <face_key_template value="BodyProperty.villager_qinguo" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="SteppeHair"
+                value="1" />
+            <Trait id="Valor"
+                value="1" />
+            <Trait id="Calculating"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_artisan_qinguo_2"
+        name="{=!}qinguo conservative artisan"
+        voice="curt"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.qinguo"
+        occupation="Artisan">
+        <face>
+            <face_key_template value="BodyProperty.villager_qinguo" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="SteppeHair"
+                value="1" />
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Generosity"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_artisan_qinguo_3"
+        name="{=!}qinguo devious artisan"
+        voice="ironic"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.qinguo"
+        occupation="Artisan">
+        <face>
+            <face_key_template value="BodyProperty.villager_qinguo" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="SteppeHair"
+                value="1" />
+            <Trait id="Calculating"
+                value="1" />
+            <Trait id="Honor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_ruralnotable_qinguo_1"
+        name="{=!}Qinguo craft rural notable"
+        is_template="true"
+        voice="ironic"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.qinguo"
+        occupation="RuralNotable">
+        <face>
+            <face_key_template value="BodyProperty.villager_qinguo" />
+        </face>
+        <Traits>
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_ruralnotable_qinguo_2"
+        name="{=!}Qinguo proud rural notable"
+        voice="earnest"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.qinguo"
+        occupation="RuralNotable">
+        <face>
+            <face_key_template value="BodyProperty.villager_qinguo" />
+        </face>
+        <Traits>
+            <Trait id="Valor"
+                value="1" />
+            <Trait id="Calculating"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_headman_qinguo_1"
+        name="{=!}qinguo rebellious headman"
+        voice="earnest"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.qinguo"
+        occupation="Headman">
+        <face>
+            <face_key_template value="BodyProperty.villager_qinguo" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="SteppeHair"
+                value="1" />
+            <Trait id="Valor"
+                value="1" />
+            <Trait id="Calculating"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_headman_qinguo_2"
+        name="{=!}qinguo conservative headman"
+        voice="curt"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.qinguo"
+        occupation="Headman">
+        <face>
+            <face_key_template value="BodyProperty.villager_qinguo" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="SteppeHair"
+                value="1" />
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Generosity"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_headman_qinguo_3"
+        name="{=!}qinguo devious headman"
+        voice="softspoken"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.qinguo"
+        occupation="Headman">
+        <face>
+            <face_key_template value="BodyProperty.villager_qinguo" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="SteppeHair"
+                value="1" />
+            <Trait id="Calculating"
+                value="1" />
+            <Trait id="Honor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+            <EquipmentSet id="npc_wanderer_equipment_template_khuzait"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>
