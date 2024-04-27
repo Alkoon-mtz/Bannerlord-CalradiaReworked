@@ -5,7 +5,22 @@
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
-    
+    <!-- Cereann -->
+    <xsl:template match="Culture[@id='battania']/@name"> <xsl:attribute name="name">Cereann</xsl:attribute> </xsl:template>
+    <xsl:template match="Culture[@id='battania']/@color"> <xsl:attribute name="color">0xff284E19</xsl:attribute> </xsl:template>
+    <xsl:template match="Culture[@id='battania']/@color2"> <xsl:attribute name="color2">0xffD08E54</xsl:attribute> </xsl:template>
+    <xsl:template match="Culture[@id='battania']/@faction_banner_key"> <xsl:attribute name="faction_banner_key">11.2.2.4345.4345.764.764.1.0.0.500.80.2.600.600.764.764.0.0.0.415.80.2.195.195.764.592.0.0.45.415.80.2.195.195.764.936.0.0.45.415.80.2.195.195.592.764.0.0.45.415.80.2.195.195.936.764.0.0.45.527.80.2.75.100.834.694.0.0.45.527.80.2.75.100.694.694.0.1.315.527.80.2.75.100.694.834.0.0.-135.527.80.2.75.100.834.834.0.1.135.510.80.2.150.75.689.594.0.0.90.510.80.2.150.75.839.594.0.0.90.510.80.2.150.75.934.689.0.0.0.510.80.2.150.75.934.839.0.0.0.510.80.2.150.75.839.934.0.0.90.510.80.2.150.75.689.934.0.0.90.510.80.2.150.75.594.839.0.0.0.510.80.2.150.75.594.689.0.0.0.413.80.2.150.150.764.764.0.0.50</xsl:attribute> </xsl:template>
+    <xsl:template match="Culture[@id='battania']/@elite_basic_troop"> <xsl:attribute name="elite_basic_troop">NPCCharacter.cereann_stuaghair</xsl:attribute> </xsl:template>
+    <xsl:template match="Culture[@id='battania']/@basic_troop"> <xsl:attribute name="basic_troop">NPCCharacter.cereann_recruit</xsl:attribute> </xsl:template>
+    <xsl:template match="Culture[@id='battania']/@villager_party_template"> <xsl:attribute name="villager_party_template">PartyTemplate.cereann_villager_template</xsl:attribute> </xsl:template>
+    <xsl:template match="Culture[@id='battania']/@default_party_template"> <xsl:attribute name="default_party_template">PartyTemplate.cereann_kingdom_hero_party_template</xsl:attribute> </xsl:template>
+    <xsl:template match="Culture[@id='battania']/@elite_caravan_party_template"> <xsl:attribute name="elite_caravan_party_template">PartyTemplate.cereann_elite_caravan_template</xsl:attribute> </xsl:template>
+    <xsl:template match="Culture[@id='battania']/@caravan_party_template"> <xsl:attribute name="caravan_party_template">PartyTemplate.cereann_caravan_template</xsl:attribute> </xsl:template>
+    <xsl:template match="Culture[@id='battania']/@militia_party_template"> <xsl:attribute name="militia_party_template">PartyTemplate.cereann_militia_template</xsl:attribute> </xsl:template>
+    <xsl:template match="Culture[@id='battania']/@rebels_party_template"> <xsl:attribute name="rebels_party_template">PartyTemplate.cereann_rebels_template</xsl:attribute> </xsl:template>
+    <xsl:template match="Culture[@id='battania']/@villager"> <xsl:attribute name="villager">NPCCharacter.villager_cereann</xsl:attribute> </xsl:template>
+    <xsl:template match="Culture[@id='battania']/@vassal_reward_party_template"> <xsl:attribute name="vassal_reward_party_template">PartyTemplate.cereann_vassal_reward_troops</xsl:attribute> </xsl:template>
+
     <!-- Scarhok -->
     <xsl:template match="Culture[@id='vlandia']/@name"> <xsl:attribute name="name">Scarhok</xsl:attribute> </xsl:template>
     <xsl:template match="Culture[@id='vlandia']/@color"> <xsl:attribute name="color">0xff830808</xsl:attribute> </xsl:template>
