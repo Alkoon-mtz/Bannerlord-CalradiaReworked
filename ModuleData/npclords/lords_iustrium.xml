@@ -1,11 +1,11 @@
 <NPCCharacters>
-    <NPCCharacter id="lord_lysellois_1_1"
-        name="{=lord_lysellois_1_1}Louis"
+    <NPCCharacter id="lord_iustrium_1_1"
+        name="{=lord_iustrium_1_1}Baudouin"
         age="33"
         voice="ironic"
         default_group="Cavalry"
         is_hero="true"
-        culture="Culture.lysellois"
+        culture="Culture.iustrium"
         occupation="Lord">
         <face>
             <BodyProperties version="4"
@@ -33,13 +33,48 @@
             <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="lord_lysellois_2_1"
-        name="{=lord_lysellois_2_1}François"
+    <NPCCharacter id="lord_iustrium_1_2"
+        name="{=lord_iustrium_1_1}Sibylle"
+        age="31"
+        voice="ironic"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="31"
+                weight="0.3283"
+                build="0.8553"
+                key="0010240D00580202B379B24D4767849BC78387858587B773A87677498DA05B5D007D560307886597000000000000000000000000000000000000000028E43002" />
+        </face>
+        <skills>
+            <skill id="OneHanded" value="200" />
+            <skill id="Throwing" value="290" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="90" />
+            <skill id="Scouting" value="90" />
+            <skill id="Steward" value="140" />
+            <skill id="Medicine" value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Honor" value="+2" />
+            <Trait id="Valor" value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_2_1"
+        name="{=lord_iustrium_2_1}Godefroy"
         age="40"
         voice="ironic"
         default_group="Cavalry"
         is_hero="true"
-        culture="Culture.lysellois"
+        culture="Culture.iustrium"
         occupation="Lord">
         <face>
             <BodyProperties version="4"
@@ -67,13 +102,13 @@
             <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="lord_lysellois_3_1"
-        name="{=lord_lysellois_3_1}Foulques"
+    <NPCCharacter id="lord_iustrium_3_1"
+        name="{=lord_iustrium_3_1}Amaury"
         age="53"
         voice="ironic"
         default_group="Cavalry"
         is_hero="true"
-        culture="Culture.lysellois"
+        culture="Culture.iustrium"
         occupation="Lord">
         <face>
             <BodyProperties version="4"
@@ -101,14 +136,14 @@
             <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="lord_lysellois_4_1"
-        name="{=lord_lysellois_4_1}Elenor"
+    <NPCCharacter id="lord_iustrium_4_1"
+        name="{=lord_iustrium_4_1}Mélisende"
         age="41"
         voice="ironic"
         is_female="true"
         default_group="Cavalry"
         is_hero="true"
-        culture="Culture.lysellois"
+        culture="Culture.iustrium"
         occupation="Lord">
         <face>
             <BodyProperties version="4"
@@ -136,13 +171,13 @@
             <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="lord_lysellois_5_1"
-        name="{=lord_lysellois_5_1}Hubert"
+    <NPCCharacter id="lord_iustrium_5_1"
+        name="{=lord_iustrium_5_1}Guy"
         age="41"
         voice="earnest"
         default_group="Cavalry"
         is_hero="true"
-        culture="Culture.lysellois"
+        culture="Culture.iustrium"
         occupation="Lord">
         <face>
             <BodyProperties version="4"
@@ -170,13 +205,13 @@
             <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="lord_lysellois_6_1"
-        name="{=lord_lysellois_6_1}Gaston"
+    <NPCCharacter id="lord_iustrium_6_1"
+        name="{=lord_iustrium_6_1}Amaury"
         age="26"
         voice="curt"
         default_group="Cavalry"
         is_hero="true"
-        culture="Culture.lysellois"
+        culture="Culture.iustrium"
         occupation="Lord">
         <face>
             <BodyProperties version="4"
@@ -204,20 +239,21 @@
             <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="lord_lysellois_7_1"
-        name="{=lord_lysellois_7_1}Philippe"
-        age="26"
-        voice="curt"
+    <NPCCharacter id="lord_iustrium_7_1"
+        name="{=lord_iustrium_7_1}Isabelle"
+        age="41"
+        voice="ironic"
+        is_female="true"
         default_group="Cavalry"
         is_hero="true"
-        culture="Culture.lysellois"
+        culture="Culture.iustrium"
         occupation="Lord">
         <face>
             <BodyProperties version="4"
-                age="26"
-                weight="0.400"
-                build="0.600"
-                key="000044000000000577707780B7C07777C2BB71F7EFF77AA7956746991C7775C70000000505C7966A000000000000000000000000000000000000000000000100" />
+                age="41"
+                weight="0.300"
+                build="0.6651"
+                key="00006C02C000000977A84702762098CB27AD8D4D54C9895378C97B1E27408574000440040488276B000000000000000000000000000000000000000000780000" />
         </face>
         <skills>
             <skill id="OneHanded" value="200" />

@@ -8,7 +8,7 @@
     
     <!-- Scarhok -->
     <xsl:template match="Culture[@id='vlandia']/@name"> <xsl:attribute name="name">Scarhok</xsl:attribute> </xsl:template>
-    <xsl:template match="Culture[@id='vlandia']/@color"> <xsl:attribute name="color">0xff830000</xsl:attribute> </xsl:template>
+    <xsl:template match="Culture[@id='vlandia']/@color"> <xsl:attribute name="color">0xff830808</xsl:attribute> </xsl:template>
     <xsl:template match="Culture[@id='vlandia']/@color2"> <xsl:attribute name="color2">0xff0D0D0D</xsl:attribute> </xsl:template>
     <xsl:template match="Culture[@id='vlandia']/@faction_banner_key"> <xsl:attribute name="faction_banner_key">11.142.116.1536.1536.764.764.1.0.0.140.116.142.300.300.939.764.1.1.0.140.116.142.300.300.764.764.1.1.0.140.116.142.300.300.589.764.1.1.0</xsl:attribute> </xsl:template>
     <xsl:template match="Culture[@id='vlandia']/@elite_basic_troop"> <xsl:attribute name="elite_basic_troop">NPCCharacter.scarhok_boukhal</xsl:attribute> </xsl:template>

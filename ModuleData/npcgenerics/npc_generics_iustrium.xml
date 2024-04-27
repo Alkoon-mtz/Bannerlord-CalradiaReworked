@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
     <NPCCharacter id="caravan_master_iustrium"
-            default_group="HorseArcher"
-            level="26" name="{=uDseaKcb}Iustrium Caravan Master"
+            default_group="Infantry"
+            level="26"
+            name="{=uDseaKcb}Iustrium Caravan Master"
             occupation="CaravanGuard"
             culture="Culture.iustrium">
         <face>
@@ -30,8 +31,6 @@
                 <equipment slot="Body" id="Item.AR_aserai_armor_g"/>
                 <equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
                 <equipment slot="Leg" id="Item.DZ_battania_boots_a"/>
-                <equipment slot="Horse" id="Item.t3_aserai_horse"/>
-                <equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>

@@ -1,0 +1,51 @@
+<Factions>
+  <Faction id="clan_iustrium_1"
+           name="{=clan_iustrium_1}ab Vitorus"
+           tier="6"
+           owner="Hero.lord_iustrium_1_1"
+           culture="Culture.iustrium"
+           super_faction="Kingdom.kingdom_iustrium"
+           banner_key="11.41.142.4922.4922.764.764.1.0.0.301.145.41.700.500.769.714.0.0.90.301.145.41.700.500.759.714.0.1.270.301.145.41.700.800.765.770.0.0.180" />
+  <Faction id="clan_iustrium_2"
+           name="{=clan_iustrium_2}ab Potentus"
+           tier="6"
+           owner="Hero.lord_iustrium_2_1"
+           culture="Culture.iustrium"
+           super_faction="Kingdom.kingdom_iustrium"
+           banner_key="11.41.142.4922.4922.764.764.1.0.0.510.145.41.1700.700.764.764.0.1.0.510.145.41.1500.700.764.764.0.1.90.419.145.41.200.200.589.569.0.1.0.419.145.41.200.200.939.569.0.1.0.419.145.41.200.200.939.959.0.1.0.419.145.41.200.200.589.959.0.1.0" />
+  <Faction id="clan_iustrium_3"
+           name="{=clan_iustrium_3}ab Arimus"
+           tier="5"
+           owner="Hero.lord_iustrium_3_1"
+           culture="Culture.iustrium"
+           super_faction="Kingdom.kingdom_iustrium"
+           banner_key="11.41.142.4922.4922.764.764.1.0.0.510.145.41.400.150.714.917.0.0.90.510.145.41.400.150.814.917.0.0.90.510.145.41.100.150.764.1082.0.0.0.510.145.41.200.150.891.752.0.0.0.510.145.41.100.150.969.702.0.0.90.510.145.41.200.150.891.652.0.0.0.510.145.41.200.150.637.652.0.0.0.510.145.41.100.150.559.702.0.0.90.510.145.41.200.150.637.752.0.0.0.510.145.41.200.150.714.575.0.0.90.510.145.41.100.150.764.497.0.0.0.510.145.41.200.150.814.575.0.0.90.458.145.41.175.175.644.704.0.0.0.458.145.41.175.175.884.704.0.1.0.458.145.41.175.175.764.584.0.1.90.458.145.41.175.175.764.941.0.0.90.458.145.41.175.175.764.828.0.0.90.515.145.41.175.175.764.704.0.0.90.438.145.41.110.280.764.1049.0.1.180" />
+  <Faction id="clan_iustrium_4"
+           name="{=clan_iustrium_4}ab Foritus"
+           tier="5"
+           owner="Hero.lord_iustrium_4_1"
+           culture="Culture.iustrium"
+           super_faction="Kingdom.kingdom_iustrium"
+           banner_key="11.41.142.4922.4922.764.764.1.0.0.316.145.41.700.700.765.770.0.1.0.419.41.145.400.400.765.770.0.1.0" />
+  <Faction id="clan_iustrium_5"
+           name="{=clan_iustrium_5}ab Sarus"
+           tier="5"
+           owner="Hero.lord_iustrium_5_1"
+           culture="Culture.iustrium"
+           super_faction="Kingdom.kingdom_iustrium"
+           banner_key="11.41.142.4922.4922.764.764.1.0.0.305.145.41.700.700.765.770.0.1.0.411.145.41.400.400.764.819.0.1.0" />
+  <Faction id="clan_iustrium_6"
+           name="{=clan_iustrium_6}ab Regus"
+           tier="5"
+           owner="Hero.lord_iustrium_6_1"
+           culture="Culture.iustrium"
+           super_faction="Kingdom.kingdom_iustrium"
+           banner_key="11.41.142.4922.4922.764.764.1.0.0.403.145.41.650.700.764.764.0.0.180.503.145.41.400.400.764.799.0.1.0.315.41.41.400.340.764.815.0.1.0" />
+  <Faction id="clan_iustrium_7"
+           name="{=clan_iustrium_7}ab Initus"
+           tier="2"
+           owner="Hero.lord_iustrium_7_1"
+           culture="Culture.iustrium"
+           super_faction="Kingdom.kingdom_iustrium"
+           banner_key="11.41.41.1400.1400.764.764.1.1.0.504.142.41.600.2000.764.1364.0.1.0.504.142.41.600.2000.764.164.0.1.180.504.142.41.600.2000.164.764.0.1.270.504.142.41.600.2000.1364.764.0.1.90.505.142.41.600.600.764.764.0.0.0.320.41.142.300.300.764.764.0.0.0" />
+</Factions>

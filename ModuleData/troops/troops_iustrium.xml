@@ -213,14 +213,14 @@
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="30"/>
+            <skill id="TwoHanded" value="15"/>
+            <skill id="Polearm" value="65"/>
+            <skill id="Bow" value="10"/>
+            <skill id="Crossbow" value="115"/>
+            <skill id="Throwing" value="10"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.iustrium_creditis"/>
@@ -255,14 +255,14 @@
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="140"/>
+            <skill id="Riding" value="20"/>
+            <skill id="OneHanded" value="50"/>
+            <skill id="TwoHanded" value="20"/>
+            <skill id="Polearm" value="90"/>
+            <skill id="Bow" value="10"/>
+            <skill id="Crossbow" value="160"/>
+            <skill id="Throwing" value="10"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.iustrium_luxidis"/>
@@ -297,14 +297,14 @@
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="200"/>
+            <skill id="Riding" value="30"/>
+            <skill id="OneHanded" value="60"/>
+            <skill id="TwoHanded" value="30"/>
+            <skill id="Polearm" value="120"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="220"/>
+            <skill id="Throwing" value="20"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.iustrium_desculis"/>
@@ -339,14 +339,14 @@
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="260"/>
+            <skill id="Riding" value="40"/>
+            <skill id="OneHanded" value="60"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="180"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="300"/>
+            <skill id="Throwing" value="20"/>
         </skills>
         <Equipments>
             <EquipmentRoster>
@@ -380,14 +380,14 @@
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="20"/>
+            <skill id="Riding" value="5"/>
+            <skill id="OneHanded" value="25"/>
+            <skill id="TwoHanded" value="5"/>
+            <skill id="Polearm" value="10"/>
+            <skill id="Bow" value="5"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="5"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.iustrium_bellatus"/>
@@ -418,18 +418,18 @@
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="50"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="60"/>
+            <skill id="TwoHanded" value="15"/>
+            <skill id="Polearm" value="20"/>
+            <skill id="Bow" value="10"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="10"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.iustrium_fratus"/>
-            <upgrade_target id="NPCCharacter.iustrium_equitrix "/>
+            <upgrade_target id="NPCCharacter.iustrium_equitrix"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -459,14 +459,14 @@
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="90"/>
+            <skill id="Riding" value="30"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="30"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="15"/>
+            <skill id="Crossbow" value="40"/>
+            <skill id="Throwing" value="15"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.iustrium_scutus"/>
@@ -499,14 +499,14 @@
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="120"/>
+            <skill id="Riding" value="40"/>
+            <skill id="OneHanded" value="140"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="60"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="60"/>
+            <skill id="Throwing" value="20"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.iustrium_duxus"/>
@@ -539,14 +539,14 @@
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="160"/>
+            <skill id="Riding" value="60"/>
+            <skill id="OneHanded" value="200"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="80"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="80"/>
+            <skill id="Throwing" value="30"/>
         </skills>
         <Equipments>
             <EquipmentRoster>
@@ -567,7 +567,7 @@
         </Equipments>
     </NPCCharacter>
     <!-- Midle Iustrium -->
-    <NPCCharacter id="iustrium_equitrix "
+    <NPCCharacter id="iustrium_equitrix"
         default_group="Cavalry"
         level="16"
         name="{=Iustrium CM3}Iustrium Equitrix"
@@ -579,17 +579,17 @@
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="40"/>
+            <skill id="Riding" value="90"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="30"/>
+            <skill id="Polearm" value="30"/>
+            <skill id="Bow" value="15"/>
+            <skill id="Crossbow" value="40"/>
+            <skill id="Throwing" value="15"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.iustrium_praetrix "/>
+            <upgrade_target id="NPCCharacter.iustrium_praetrix"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -611,10 +611,10 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="iustrium_praetrix "
+    <NPCCharacter id="iustrium_praetrix"
         default_group="Cavalry"
         level="21"
-        name="{=Iustrium CM4}Iustrium Praetrix "
+        name="{=Iustrium CM4}Iustrium Praetrix"
         upgrade_requires="ItemCategory.war_horse"
         occupation="Soldier"
         culture="Culture.iustrium"
@@ -623,14 +623,14 @@
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="60"/>
+            <skill id="Riding" value="120"/>
+            <skill id="OneHanded" value="140"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="60"/>
+            <skill id="Throwing" value="20"/>
         </skills>
         <Equipments>
             <EquipmentRoster>
@@ -664,14 +664,14 @@
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="20"/>
+            <skill id="Riding" value="50"/>
+            <skill id="OneHanded" value="15"/>
+            <skill id="TwoHanded" value="15"/>
+            <skill id="Polearm" value="30"/>
+            <skill id="Bow" value="10"/>
+            <skill id="Crossbow" value="50"/>
+            <skill id="Throwing" value="10"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.iustrium_scrutator"/>
@@ -707,14 +707,14 @@
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="40"/>
+            <skill id="Riding" value="80"/>
+            <skill id="OneHanded" value="30"/>
+            <skill id="TwoHanded" value="30"/>
+            <skill id="Polearm" value="70"/>
+            <skill id="Bow" value="15"/>
+            <skill id="Crossbow" value="80"/>
+            <skill id="Throwing" value="15"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.iustrium_limitator"/>
@@ -752,14 +752,14 @@
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="60"/>
+            <skill id="Riding" value="110"/>
+            <skill id="OneHanded" value="40"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="110"/>
+            <skill id="Throwing" value="20"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.iustrium_vigilator"/>
@@ -796,14 +796,14 @@
             <face_key_template value="BodyProperty.fighter_iustrium"/>
         </face>
         <skills >
-            <skill id="Athletics" value="0"/>
-            <skill id="Riding" value="0"/>
-            <skill id="OneHanded" value="0"/>
-            <skill id="TwoHanded" value="0"/>
-            <skill id="Polearm" value="0"/>
-            <skill id="Bow" value="0"/>
-            <skill id="Crossbow" value="0"/>
-            <skill id="Throwing" value="0"/>
+            <skill id="Athletics" value="70"/>
+            <skill id="Riding" value="150"/>
+            <skill id="OneHanded" value="60"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="140"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="160"/>
+            <skill id="Throwing" value="30"/>
         </skills>
         <Equipments>
             <EquipmentRoster>

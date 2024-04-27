@@ -147,7 +147,7 @@
         culture="Culture.iustrium"
         occupation="Merchant">
         <face>
-            <face_key_template value="BodyProperty.townswoman_aserai" />
+            <face_key_template value="BodyProperty.villager_iustrium" />
         </face>
         <skills></skills>
         <Traits>
@@ -203,7 +203,7 @@
         culture="Culture.iustrium"
         occupation="Merchant">
         <face>
-            <face_key_template value="BodyProperty.townswoman_aserai" />
+            <face_key_template value="BodyProperty.villager_iustrium" />
         </face>
         <skills></skills>
         <Traits>
@@ -221,7 +221,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_preacher_iustrium_1"
-        name="{=!}Aserai rebellious preacher"
+        name="{=!}Iustrium rebellious preacher"
         voice="earnest"
         is_template="true"
         default_group="Infantry"
@@ -247,7 +247,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_preacher_iustrium_2"
-        name="{=!}Aserai fire-and-brimstone preacher"
+        name="{=!}Iustrium fire-and-brimstone preacher"
         voice="curt"
         is_template="true"
         default_group="Infantry"
@@ -273,7 +273,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_preacher_iustrium_2f"
-        name="{=!}Aserai female preacher"
+        name="{=!}Iustrium female preacher"
         voice="earnest"
         is_template="true"
         default_group="Infantry"
@@ -281,7 +281,7 @@
         culture="Culture.iustrium"
         occupation="Preacher">
         <face>
-            <face_key_template value="BodyProperty.townswoman_aserai" />
+            <face_key_template value="BodyProperty.villager_iustrium" />
         </face>
         <skills></skills>
         <Traits>
@@ -299,7 +299,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_gangleader_iustrium_1"
-        name="{=!}Aserai fitiwi"
+        name="{=!}Iustrium fitiwi"
         voice="earnest"
         is_template="true"
         default_group="Infantry"
@@ -329,7 +329,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_gangleader_iustrium_2"
-        name="{=!}Aserai fitiwi"
+        name="{=!}Iustrium fitiwi"
         voice="ironic"
         is_template="true"
         default_group="Infantry"
@@ -354,7 +354,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_gangleader_iustrium_2f"
-        name="{=!}Fearsome female Aserai gang leader"
+        name="{=!}Fearsome female Iustrium gang leader"
         voice="curt"
         is_template="true"
         default_group="Infantry"
@@ -362,7 +362,7 @@
         culture="Culture.iustrium"
         occupation="GangLeader">
         <face>
-            <face_key_template value="BodyProperty.townswoman_aserai" />
+            <face_key_template value="BodyProperty.villager_iustrium" />
         </face>
         <skills></skills>
         <Traits>
@@ -382,7 +382,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_artisan_iustrium_1"
-        name="{=!}Aserai artisan leader"
+        name="{=!}Iustrium artisan leader"
         voice="curt"
         is_template="true"
         default_group="Infantry"
@@ -405,7 +405,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_ruralnotable_iustrium_1"
-        name="{=!}Aserai earnest umda rural notable"
+        name="{=!}Iustrium earnest umda rural notable"
         voice="earnest"
         is_template="true"
         default_group="Infantry"
@@ -427,7 +427,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_ruralnotable_iustrium_2"
-        name="{=!}Aserai quiet umda rural notable"
+        name="{=!}Iustrium quiet umda rural notable"
         voice="softspoken"
         is_template="true"
         default_group="Infantry"
@@ -449,7 +449,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_headman_iustrium_1"
-        name="{=!}Aserai rebellious headman"
+        name="{=!}Iustrium rebellious headman"
         voice="earnest"
         is_template="true"
         default_group="Infantry"
@@ -475,7 +475,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_headman_iustrium_2"
-        name="{=!}Aserai conservative headman"
+        name="{=!}Iustrium conservative headman"
         voice="curt"
         is_template="true"
         default_group="Infantry"
@@ -501,7 +501,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_headman_iustrium_3"
-        name="{=!}Aserai devious headman"
+        name="{=!}Iustrium devious headman"
         voice="softspoken"
         is_template="true"
         default_group="Infantry"
