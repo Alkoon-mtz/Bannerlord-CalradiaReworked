@@ -204,4 +204,38 @@
             <EquipmentSet id="stu_king_template_civ_m" civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_rekgeist_6_1"
+        name="{=lord_rekgeist_6_1}Unric"
+        age="25"
+        voice="softspoken"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.rekgeist"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" 
+                age="25"
+                weight="0.2207"
+                build="0.7361"
+                key="00138406C0001001498A5963C744879A7587758C449BAC591C8C8B987A767186004B36030467799C0000000000000000000000000000000000000000588420C3" />
+        </face>
+        <skills>
+            <skill id="OneHanded" value="200" />
+            <skill id="Throwing" value="290" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="90" />
+            <skill id="Scouting" value="90" />
+            <skill id="Steward" value="140" />
+            <skill id="Medicine" value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Honor" value="+2" />
+            <Trait id="Valor" value="+1" />
+            <Trait id="Mercy" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="stu_king_template_bat_m" />
+            <EquipmentSet id="stu_king_template_civ_m" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
 </NPCCharacters>

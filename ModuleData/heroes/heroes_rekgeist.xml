@@ -5,4 +5,5 @@
     <Hero id="lord_rekgeist_3_1" faction="Faction.clan_rekgeist_3" />
     <Hero id="lord_rekgeist_4_1" faction="Faction.clan_rekgeist_4" />
     <Hero id="lord_rekgeist_5_1" faction="Faction.clan_rekgeist_5" />
+    <Hero id="lord_rekgeist_6_1" faction="Faction.clan_rekgeist_6" />
 </Heroes>
