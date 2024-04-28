@@ -17,7 +17,7 @@
         villager_party_template="PartyTemplate.rekgeist_villager_template"
         default_party_template="PartyTemplate.rekgeist_kingdom_hero_party_template"
         encounter_background_mesh="encounter_vlandia"
-        faction_banner_key="11.116.72.2538.2543.764.788.1.0.0.449.127.116.400.400.764.964.0.0.0.102.127.116.500.500.764.764.0.0.0"
+        faction_banner_key="11.116.72.2538.2543.764.788.1.0.0.449.127.116.400.400.764.964.0.0.0.102.127.40.500.500.764.764.0.0.0.340.127.116.300.200.764.504.0.0.0"
         elite_caravan_party_template="PartyTemplate.rekgeist_elite_caravan_template"
         caravan_party_template="PartyTemplate.rekgeist_caravan_template"
         militia_party_template="PartyTemplate.rekgeist_militia_template"

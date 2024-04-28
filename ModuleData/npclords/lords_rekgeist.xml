@@ -238,4 +238,38 @@
             <EquipmentSet id="stu_king_template_civ_m" civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_rekgeist_7_1"
+        name="{=lord_rekgeist_7_1}Unberg"
+        age="25"
+        voice="softspoken"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.rekgeist"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" 
+                age="25"
+                weight="0.2207"
+                build="0.7361"
+                key="0000300140001384967132012584CCB36EC472158520143875848D198317281906BBB0680B68CB80000000000000000000000000000000000000000073788003" />
+        </face>
+        <skills>
+            <skill id="OneHanded" value="200" />
+            <skill id="Throwing" value="290" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="90" />
+            <skill id="Scouting" value="90" />
+            <skill id="Steward" value="140" />
+            <skill id="Medicine" value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Honor" value="+2" />
+            <Trait id="Valor" value="+1" />
+            <Trait id="Mercy" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="stu_king_template_bat_m" />
+            <EquipmentSet id="stu_king_template_civ_m" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
 </NPCCharacters>

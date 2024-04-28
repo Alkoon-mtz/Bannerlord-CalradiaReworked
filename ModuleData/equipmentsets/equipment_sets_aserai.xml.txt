@@ -2447,4 +2447,517 @@
         </EquipmentSet>
     </EquipmentRoster>
     
+    <!-- sbc_equipment_sets -->
+    <EquipmentRoster id="npc_wanderer_equipment_template_aserai_civilian">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head"
+                id="Item.aserai_civil_d_hscarf" />
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_d" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true"
+            IsCombatantTemplate="true"
+            IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="npc_wanderer_equipment_template_aserai"
+        culture="Culture.aserai">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head"
+                id="Item.aserai_civil_d_hscarf" />
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_d" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_c_head" />
+            <Equipment slot="Cape"
+                id="Item.wrapped_scarf" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_c" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.aserai_civil_b" />
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_hscarf_b" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.aserai_civil_a" />
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_e_hscarf" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_f" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_e_hscarf" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.aserai_civil_e" />
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.desert_cap" />
+            <Equipment slot="Cape"
+                id="Item.wrapped_scarf" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_hscarf_b" />
+            <Equipment slot="Body"
+                id="Item.layered_robe" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Body"
+                id="Item.layered_robe" />
+            <Equipment slot="Head"
+                id="Item.tied_head_wrapping" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.turban" />
+            <Equipment slot="Cape"
+                id="Item.wrapped_scarf" />
+            <Equipment slot="Body"
+                id="Item.tassled_southern_robes" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.turban" />
+            <Equipment slot="Cape"
+                id="Item.wrapped_scarf" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_c" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true"
+            IsCombatantTemplate="true"
+            IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="npc_armed_wanderer_equipment_template_aserai"
+        culture="Culture.aserai">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head"
+                id="Item.aserai_civil_d_hscarf" />
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_d" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_c_head" />
+            <Equipment slot="Cape"
+                id="Item.wrapped_scarf" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_c" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.aserai_civil_b" />
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_hscarf_b" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.aserai_civil_a" />
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_e_hscarf" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_f" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_e_hscarf" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body"
+                id="Item.aserai_civil_e" />
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.desert_cap" />
+            <Equipment slot="Cape"
+                id="Item.wrapped_scarf" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_hscarf_b" />
+            <Equipment slot="Body"
+                id="Item.layered_robe" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Body"
+                id="Item.layered_robe" />
+            <Equipment slot="Head"
+                id="Item.tied_head_wrapping" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.turban" />
+            <Equipment slot="Cape"
+                id="Item.wrapped_scarf" />
+            <Equipment slot="Body"
+                id="Item.tassled_southern_robes" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.turban" />
+            <Equipment slot="Cape"
+                id="Item.wrapped_scarf" />
+            <Equipment slot="Body"
+                id="Item.tassled_southern_robes" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true"
+            IsCombatantTemplate="true"
+            IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="npc_companion_equipment_template_aserai"
+        culture="Culture.aserai">
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.aserai_sword_1_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_hscarf_b" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_d" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness"
+                id="Item.bandit_saddle_desert" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.aserai_sword_1_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_hscarf_b" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_d" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.aserai_sword_1_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_e_hscarf" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_b" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness"
+                id="Item.bandit_saddle_desert" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.aserai_sword_1_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_e_hscarf" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_b" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.aserai_sword_1_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_hscarf_a" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_a" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness"
+                id="Item.bandit_saddle_desert" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.aserai_sword_1_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_hscarf_a" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_a" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.aserai_sword_1_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_hscarf_a" />
+            <Equipment slot="Body"
+                id="Item.layered_robe" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness"
+                id="Item.bandit_saddle_desert" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.aserai_sword_1_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_hscarf_a" />
+            <Equipment slot="Body"
+                id="Item.layered_robe" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.aserai_sword_1_t2" />
+            <Equipment slot="Head"
+                id="Item.desert_cap" />
+            <Equipment slot="Body"
+                id="Item.short_padded_robe" />
+            <Equipment slot="Cape"
+                id="Item.wrapped_scarf" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness"
+                id="Item.bandit_saddle_desert" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0"
+                id="Item.aserai_sword_1_t2" />
+            <Equipment slot="Head"
+                id="Item.desert_cap" />
+            <Equipment slot="Cape"
+                id="Item.wrapped_scarf" />
+            <Equipment slot="Body"
+                id="Item.short_padded_robe" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.aserai_sword_1_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_hscarf_a" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_a" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.aserai_sword_1_t2" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_e_hscarf" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_b" />
+            <Equipment slot="Leg"
+                id="Item.khuzait_curved_boots" />
+            <Equipment slot="Horse"
+                id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness"
+                id="Item.bandit_saddle_desert" />
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true"
+            IsCivilianTemplate="true"
+            IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="aserai_troop_civilian_template_t1"
+        culture="Culture.aserai">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.pugio" />
+            <Equipment slot="Head"
+                id="Item.aserai_civil_c_head" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_a" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_shoes" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.pugio" />
+            <Equipment slot="Head"
+                id="Item.woven_turban" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_c" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_shoes" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.falchion_sword_t2" />
+            <Equipment slot="Head"
+                id="Item.tuareg" />
+            <Equipment slot="Body"
+                id="Item.aserai_civil_b" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_shoes" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="aserai_troop_civilian_template_t2"
+        culture="Culture.aserai">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.broad_falchion_sword_t3" />
+            <Equipment slot="Head"
+                id="Item.open_head_scarf" />
+            <Equipment slot="Body"
+                id="Item.eastern_silk_clothing" />
+            <Equipment slot="Gloves"
+                id="Item.guarded_padded_vambrace" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_shoes" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.short_sword_t3" />
+            <Equipment slot="Body"
+                id="Item.short_padded_robe" />
+            <Equipment slot="Gloves"
+                id="Item.guarded_padded_vambrace" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_shoes" />
+            <Equipment slot="Cape"
+                id="Item.wrapped_scarf" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.broad_falchion_sword_t3" />
+            <Equipment slot="Head"
+                id="Item.tied_head_wrapping" />
+            <Equipment slot="Body"
+                id="Item.desert_padded_cloth" />
+            <Equipment slot="Gloves"
+                id="Item.guarded_padded_vambrace" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_shoes" />
+            <Equipment slot="Cape"
+                id="Item.southern_shawl" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="aserai_troop_civilian_template_t3"
+        culture="Culture.aserai">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.aserai_sword_4_t4" />
+            <Equipment slot="Head"
+                id="Item.woven_turban" />
+            <Equipment slot="Body"
+                id="Item.long_padded_robe" />
+            <Equipment slot="Gloves"
+                id="Item.guarded_padded_vambrace" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_shoes" />
+            <Equipment slot="Cape"
+                id="Item.southern_shawl" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.aserai_sword_4_t4" />
+            <Equipment slot="Head"
+                id="Item.open_head_scarf" />
+            <Equipment slot="Body"
+                id="Item.long_padded_robe" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_shoes" />
+            <Equipment slot="Cape"
+                id="Item.wrapped_scarf" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0"
+                id="Item.aserai_sword_4_t4" />
+            <Equipment slot="Head"
+                id="Item.desert_cap" />
+            <Equipment slot="Body"
+                id="Item.long_padded_robe" />
+            <Equipment slot="Gloves"
+                id="Item.guarded_padded_vambrace" />
+            <Equipment slot="Leg"
+                id="Item.wrapped_shoes" />
+        </EquipmentSet>
+    </EquipmentRoster>
 </EquipmentRosters>
