@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+    <NPCCharacter id="caravan_master_zulizwe"
+            default_group="Infantry"
+            level="26"
+            name="{=TpECDErA}Imperial Caravan Master"
+            occupation="CaravanGuard"
+            culture="Culture.zulizwe">
+        <face>
+            <face_key_template value="BodyProperty.fighter_zulizwe" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="130" />
+            <skill id="Riding" value="130" />
+            <skill id="OneHanded" value="160" />
+            <skill id="TwoHanded" value="80" />
+            <skill id="Polearm" value="60" />
+            <skill id="Bow" value="80" />
+            <skill id="Crossbow" value="20" />
+            <skill id="Throwing" value="50" />
+        </skills>
+        <upgrade_targets></upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.empire_sword_1_t2" />
+                <equipment slot="Head" id="Item.merchants_hat" />
+                <equipment slot="Cape" id="Item.studded_imperial_neckguard" />
+                <equipment slot="Body" id="Item.legionary_mail" />
+                <equipment slot="Gloves" id="Item.highland_gloves" />
+                <equipment slot="Leg" id="Item.leather_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.empire_sword_1_t2" />
+                <equipment slot="Cape" id="Item.scarf" />
+                <equipment slot="Body" id="Item.empire_horseman_armor" />
+                <equipment slot="Gloves" id="Item.highland_gloves" />
+                <equipment slot="Leg" id="Item.leather_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.empire_sword_1_t2" />
+                <equipment slot="Head" id="Item.cervelliere_over_laced_coif" />
+                <equipment slot="Body" id="Item.empire_horseman_armor" />
+                <equipment slot="Gloves" id="Item.highland_gloves" />
+                <equipment slot="Leg" id="Item.leather_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.empire_sword_1_t2" />
+                <equipment slot="Head" id="Item.merchants_hat" />
+                <equipment slot="Cape" id="Item.studded_imperial_neckguard" />
+                <equipment slot="Body" id="Item.legionary_mail" />
+                <equipment slot="Gloves" id="Item.highland_gloves" />
+                <equipment slot="Leg" id="Item.leather_shoes" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

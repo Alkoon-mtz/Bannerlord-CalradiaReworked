@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <!-- Party Civilian -->
+    <MBPartyTemplate id="zulizwe_villager_template">
+        <stacks>
+            <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_zulizwe" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="zulizwe_kingdom_hero_party_template">
+        <stacks>
+            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.zulizwe_recruit" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.zulizwe_kiwango" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.zulizwe_kwato" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.zulizwe_wepesi" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.zulizwe_farasi" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.zulizwe_mzigo" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.zulizwe_elite_mzigo" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.zulizwe_upinde" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.zulizwe_risasi" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.zulizwe_umlwi" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="zulizwe_caravan_template">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_empire" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_empire" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_empire" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="zulizwe_elite_caravan_template">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_empire" />
+            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_empire" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_empire" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_zulizwe" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="zulizwe_militia_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.imperial_militia_spearman" />
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.imperial_militia_archer" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="zulizwe_rebels_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.zulizwe_recruit" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="zulizwe_vassal_reward_troops">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.zulizwe_elite_qhawe" />
+            <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.zulizwe_mdunguaji" />
+        </stacks>
+    </MBPartyTemplate>
+    <!-- Party Civilian end -->
+    <!-- Party Lords -->
+    <!-- Party Lords end -->
+</partyTemplates>

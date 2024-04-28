@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+    <NPCCharacter id="spc_merchant_zulizwe_1"
+        name="{=!}Cautious zulizwa merchant"
+        is_template="true"
+        voice="ironic"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_zulizwe_2"
+        name="{=!}{FIRSTNAME} the Vintner"
+        is_template="true"
+        voice="ironic"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Commander"
+                value="4" />
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_zulizwe_3"
+        name="{=!}Zulizwe merchant 3, ruthless"
+        voice="curt"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Generosity"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_zulizwe_4"
+        name="{=!}Cold zulizwa merchant"
+        voice="curt"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Commander"
+                value="4" />
+            <Trait id="Generosity"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_zulizwe_4f"
+        name="{=!}{FIRSTNAME} the Saltpanner"
+        voice="softspoken"
+        is_template="true"
+        is_femal="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_zulizwe_5"
+        name="{=!}Zulizwe merchant 6, cautious"
+        voice="softspoken"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Commander"
+                value="4" />
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_zulizwe_6"
+        name="{=!}Zulizwe merchant 7, selfmade"
+        voice="ironic"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_zulizwe_6f"
+        name="{=!}Zulizwe merchant 10, devious"
+        voice="ironic"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Commander"
+                value="4" />
+            <Trait id="Manager"
+                value="10" />
+            <Trait id="Honor"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_zulizwe_7"
+        name="{=!}Zulizwe merchant 8, jocular"
+        voice="ironic"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Commander"
+                value="4" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_zulizwe_7f"
+        name="{=!}Zulizwe merchant 9, heiress"
+        voice="curt"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <!-- End Merchants -->
+    <NPCCharacter id="spc_preacher_zulizwe_1"
+        name="{=!}Messianic zulizwa preacher"
+        voice="earnest"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="Preacher">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Honor"
+                value="1" />
+            <Trait id="Generosity"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_preacher_zulizwe_2"
+        name="{=!}Puritan zulizwa preacher"
+        voice="curt"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="Preacher">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Honor"
+                value="1" />
+            <Trait id="Generosity"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_preacher_zulizwe_2f"
+        name="{=!}Female zulizwa mystic"
+        voice="earnest"
+        is_template="true"
+        default_group="Infantry"
+        is_female="true"
+        culture="Culture.zulizwe"
+        occupation="Preacher">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Mercy"
+                value="1" />
+            <Trait id="Generosity"
+                value="0" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_artisan_zulizwe_1"
+        name="{=!}Zulizwa gruff labor leader"
+        voice="curt"
+        is_template="true"
+        default_group="Infantry"
+        is_female="false"
+        culture="Culture.zulizwe"
+        occupation="Artisan">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Generosity"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_artisan_zulizwe_1f"
+        name="{=!}Zulizwa outgoing labor leader"
+        voice="earnest"
+        is_template="true"
+        default_group="Infantry"
+        is_female="true"
+        culture="Culture.zulizwe"
+        occupation="Artisan">
+        <face>
+            <face_key_template value="BodyProperty.fighter_zulizwe" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Generosity"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_gangleader_zulizwe_1"
+        name="{=!}Protective zulizwa male gang leader"
+        voice="softspoken"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="GangLeader">
+        <face>
+            <face_key_template value="BodyProperty.fighter_zulizwe" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Valor"
+                value="1" />
+            <Trait id="Generosity"
+                value="1" />
+            <Trait id="Honor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_gangleader_zulizwe_2"
+        name="{=!}Ironic zulizwa gang leader"
+        voice="ironic"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="GangLeader">
+        <face>
+            <face_key_template value="BodyProperty.fighter_zulizwe" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Valor"
+                value="1" />
+            <Trait id="Calculating"
+                value="1" />
+            <Trait id="Mercy"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_gangleader_zulizwe_2f"
+        name="{=!}Menacing female zulizwa gang leader"
+        voice="softspoken"
+        is_template="true"
+        is_female="true"
+        culture="Culture.zulizwe"
+        occupation="GangLeader"
+        default_group="Infantry">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Calculating"
+                value="1" />
+            <Trait id="Generosity"
+                value="-1" />
+            <Trait id="Mercy"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_gangleader_zulizwe_3"
+        name="{=!}Bestial male zulizwa gang leader"
+        voice="curt"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="GangLeader">
+        <face>
+            <face_key_template value="BodyProperty.fighter_zulizwe" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Honor"
+                value="-1" />
+            <Trait id="Mercy"
+                value="-1" />
+            <Trait id="Calculating"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_gangleader_zulizwe_3f"
+        name="{=!}Female zulizwa gang leader"
+        voice="ironic"
+        is_template="true"
+        is_female="true"
+        culture="Culture.zulizwe"
+        occupation="GangLeader"
+        default_group="Infantry">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Valor"
+                value="1" />
+            <Trait id="Honor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_ruralnotable_zulizwe_1"
+        name="{=!}Zulizwe gruff rural notable"
+        voice="curt"
+        is_template="true"
+        default_group="Infantry"
+        culture="Culture.zulizwe"
+        occupation="RuralNotable">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_ruralnotable_zulizwe_2"
+        name="{=!}Zulizwe rural notable agreeable"
+        voice="softspoken"
+        is_template="true"
+        default_group="Infantry"
+        culture="Culture.zulizwe"
+        occupation="RuralNotable">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Honor"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_ruralnotable_zulizwe_2f"
+        name="{=!}Zulizwe rural notable agreeable"
+        voice="softspoken"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        culture="Culture.zulizwe"
+        occupation="RuralNotable">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Honor"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_headman_zulizwe_1"
+        name="{=!}zulizwe rebellious headman"
+        voice="earnest"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="Headman">
+        <face>
+            <face_key_template value="BodyProperty.fighter_zulizwe" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Valor"
+                value="1" />
+            <Trait id="Calculating"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_headman_zulizwe_2"
+        name="{=!}zulizwe conservative headman"
+        voice="curt"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="Headman">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Generosity"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_headman_zulizwe_2f"
+        name="{=!}zulizwe devious headman"
+        voice="softspoken"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="Headman">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="RomanHair"
+                value="1" />
+            <Trait id="Calculating"
+                value="1" />
+            <Trait id="Honor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+            <EquipmentSet id="npc_wanderer_equipment_template_empire"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

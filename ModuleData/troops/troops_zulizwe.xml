@@ -1,12 +1,53 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
+    <NPCCharacter id="villager_zulizwe"
+        default_group="Infantry"
+        level="1"
+        name="{=villager_zulizwe}Zulizwe Peasant"
+        occupation="Villager"
+        culture="Culture.empire"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe"/>
+        </face>
+        <skills></skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.zulizwe_recruit" />
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body"
+                    id="Item.fine_town_tunic" />
+                <equipment slot="Leg"
+                    id="Item.leather_boots" />
+                <equipment slot="Head"
+                    id="Item.merchants_hat" />
+                <equipment slot="Cape"
+                    id="Item.scarf" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Item1"
+                    id="Item.throwing_stone" />
+                <equipment slot="Body"
+                    id="Item.fine_town_tunic" />
+                <equipment slot="Leg"
+                    id="Item.leather_boots" />
+                <equipment slot="Head"
+                    id="Item.merchants_hat" />
+                <equipment slot="Cape"
+                    id="Item.scarf" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
 <!-- Elitetroop Zulizwe -->
     <NPCCharacter id="zulizwe_impi"
         default_group="Infantry"
         level="16"
         name="{=Zulizwe E3}Zulizwe Impi"
         occupation="Soldier"
-        culture="Culture.aserai"
+        culture="Culture.zulizwe"
         is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe"/>
@@ -49,7 +90,7 @@
         level="21"
         name="{=Zulizwe E4}Zulizwe Umlwi"
         occupation="Soldier"
-        culture="Culture.aserai">
+        culture="Culture.zulizwe">
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
@@ -91,7 +132,7 @@
         level="26"
         name="{=Zulizwe E5}Zulizwe Qhawe"
         occupation="Soldier"
-        culture="Culture.aserai">
+        culture="Culture.zulizwe">
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
@@ -133,7 +174,7 @@
         level="31"
         name="{=Zulizwe E6}Zulizwe Elite Qhawe"
         occupation="Soldier"
-        culture="Culture.aserai">
+        culture="Culture.zulizwe">
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
@@ -173,7 +214,7 @@
         level="6"
         name="{=Zulizwe Recruit}Zulizwe Recruit"
         occupation="Soldier"
-        culture="Culture.aserai"
+        culture="Culture.zulizwe"
         is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe"/>
@@ -236,7 +277,7 @@
         name="{=Zulizwe C2}Zulizwe Kiwango"
         upgrade_requires="ItemCategory.horse"
         occupation="Soldier"
-        culture="Culture.aserai">
+        culture="Culture.zulizwe">
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
@@ -311,7 +352,7 @@
         name="{=Zulizwe CC3}Zulizwe Farasi"
         upgrade_requires="ItemCategory.war_horse"
         occupation="Soldier"
-        culture="Culture.aserai">
+        culture="Culture.zulizwe">
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
@@ -386,7 +427,7 @@
         level="21"
         name="{=Zulizwe CC4}Zulizwe Mzigo"
         occupation="Soldier"
-        culture="Culture.aserai">
+        culture="Culture.zulizwe">
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
@@ -465,7 +506,7 @@
         level="26"
         name="{=Zulizwe CC5}Zulizwe Elite Mzigo"
         occupation="Soldier"
-        culture="Culture.aserai">
+        culture="Culture.zulizwe">
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
@@ -543,7 +584,7 @@
         name="{=Zulizwe CA3}Zulizwe Kwato"
         upgrade_requires="ItemCategory.war_horse"
         occupation="Soldier"
-        culture="Culture.aserai"
+        culture="Culture.zulizwe"
         is_female="true">
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe"/>
@@ -627,7 +668,7 @@
         level="21"
         name="{=Zulizwe CA4}Zulizwe Wepesi"
         occupation="Soldier"
-        culture="Culture.aserai"
+        culture="Culture.zulizwe"
         is_female="true">
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe"/>
@@ -709,7 +750,7 @@
         level="11"
         name="{=Zulizwe A2}Zulizwe Mshale"
         occupation="Soldier"
-        culture="Culture.aserai">
+        culture="Culture.zulizwe">
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
@@ -780,7 +821,7 @@
         level="16"
         name="{=Zulizwe A3}Zulizwe Upinde"
         occupation="Soldier"
-        culture="Culture.aserai">
+        culture="Culture.zulizwe">
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
@@ -855,7 +896,7 @@
         level="21"
         name="{=Zulizwe A4}Zulizwe Risasi"
         occupation="Soldier"
-        culture="Culture.aserai">
+        culture="Culture.zulizwe">
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
@@ -930,7 +971,7 @@
         level="26"
         name="{=Zulizwe A5}Zulizwe Mdunguaji"
         occupation="Soldier"
-        culture="Culture.aserai">
+        culture="Culture.zulizwe">
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe"/>
         </face>
