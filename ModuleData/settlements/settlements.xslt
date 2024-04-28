@@ -432,6 +432,12 @@
 
     <!-- Zulizwe -->
     <!-- Cities -->
+    <xsl:template match="Settlement[@id='town_EW4']/@owner"><xsl:attribute name='owner'>Faction.clan_zulizwe_1</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_EW4']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_EW4_1']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_EW1_2']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_EW4_3']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_EW4_4']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
     <!-- Castles -->
 </xsl:stylesheet>
 

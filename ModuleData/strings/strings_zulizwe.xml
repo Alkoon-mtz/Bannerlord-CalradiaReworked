@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<strings>
+    <string id="str_adjective_for_culture.zulizwe" text="{=E11ZI_adj_cul}Zulizwa" />
+    <string id="str_culture_rich_name.zulizwe" text="{=E11ZI_cul_name}Zulizwo" />
+    <string id="str_faction_ruler_name_with_title.zulizwe" text="{=E11ZI_ruler_title}{?RULER.GENDER}Ubozi{?}Mbozi{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.zulizwe" text="{=E11ZI_noble_title}{?RULER.GENDER}Bwana{?}Bwana{\?} {RULER.NAME}" />
+    <string id="str_faction_official.zulizwe" text="{=E11ZI_noble_m}a bwana" />
+    <string id="str_faction_official.zulizwe_f" text="{=E11ZI_noble_f}a bwana" />
+    <string id="str_faction_ruler.zulizwe" text="{=E11ZI_ruler_m}Mbozi" />
+    <string id="str_faction_ruler.zulizwe_f" text="{=E11ZI_ruler_f}Ubozi" />
+    <string id="str_faction_ruler_term_in_speech.zulizwe" text="{=E11ZI_ruler_sp}{?RULER.GENDER}the Ubozi{?}the Mbozi{\?} {RULER.NAME}" />
+    <string id="str_neutral_term_for_culture.zulizwe" text="{=E11ZI_n_cul}Zulizwo" />
+    <string id="str_adjective_for_faction.zulizwe" text="{=E11ZI_adj_fac}Zulizwa" />
+    <string id="str_short_term_for_faction.zulizwe" text="{=E11ZI_short_term}Zulizwa" />
+    <string id="str_faction_formal_name_for_culture.zulizwe" text="{=E11ZI_formal_name}Zulizwe Nation" />
+    <string id="str_faction_informal_name_for_culture.zulizwe" text="{=E11ZI_informal_name}Zulizwa" />
+    <string id="str_culture_description.zulizwe" text="{=E11ZI_desc}We have broken free" />
+</strings>

@@ -23,7 +23,7 @@
         prosperity_bonus="1"
         encounter_background_mesh="encounter_empire"
         faction_banner_key="11.123.11.1536.1536.764.764.1.0.0.500.11.123.400.700.764.764.0.0.0.510.11.123.100.150.689.914.0.0.0.510.11.123.100.150.689.884.0.0.0.510.11.123.100.150.689.854.0.0.0.510.11.123.100.150.689.794.0.0.0.510.11.123.100.150.689.764.0.0.0.510.11.123.100.150.689.734.0.0.0.510.11.123.100.150.689.674.0.0.0.510.11.123.100.150.689.644.0.0.0.510.11.123.100.150.689.614.0.0.0.510.11.123.100.150.839.914.0.0.0.510.11.123.100.150.839.884.0.0.0.510.11.123.100.150.839.854.0.0.0.510.11.123.100.150.839.794.0.0.0.510.11.123.100.150.839.764.0.0.0.510.11.123.100.150.839.734.0.0.0.510.11.123.100.150.839.674.0.0.0.510.11.123.100.150.839.644.0.0.0.510.11.123.100.150.840.614.0.0.0.506.11.123.100.150.764.974.0.0.90.512.11.123.100.150.599.479.0.1.25.304.11.123.500.100.622.529.0.1.25.512.11.123.100.150.929.479.0.0.335.304.11.123.500.100.906.529.0.0.335.510.11.123.125.100.674.1069.0.1.67.510.11.123.125.100.854.1069.0.1.-67.304.11.123.500.100.764.614.0.1.0.512.11.123.100.150.764.554.0.0.0.510.11.123.550.105.764.799.0.1.90"
-        default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+        default_face_key="003AF40FA5CC30159D73CA6BD4A6D7FFBE7C7CCCD7CAEC4BBDFFFF7F9924D8E800C976030EBCC6CA000000000000000000000000000000000000000017CC3001"
         text="{=text_zulizwe}Ancient slave who fight for freedom, decide to find greener pastures"
         tournament_master="NPCCharacter.tournament_master_empire"
         villager="NPCCharacter.villager_zulizwe"
@@ -217,35 +217,36 @@
             <name name="{=ek1Q2TJz}Polon" />
         </male_names>
         <female_names>
-            <name name="{=h8DsXm7X}Achena" />
-            <name name="{=BNnLbOkN}Adinea" />
-            <name name="{=EGatdCLg}Alena" />
-            <name name="{=UPaP0B2L}Alchyla" />
-            <name name="{=QyXwJXIV}Andrasa" />
-            <name name="{=NM5f1Q6I}Ariada" />
-            <name name="{=3RbayfTG}Ascytala" />
-            <name name="{=bmHAYBwX}Catila" />
-            <name name="{=AdK4Ilzw}Chalia" />
-            <name name="{=xVSOKf0p}Chara" />
-            <name name="{=915frsPd}Corena" />
-            <name name="{=KPQqENbd}Carinila" />
-            <name name="{=BNuZ6nvd}Daniria" />
-            <name name="{=sEgUB3jW}Deasora" />
-            <name name="{=YBGCXSEx}Debana" />
-            <name name="{=93hivVp6}Donysa" />
-            <name name="{=0dHy2430}Echalera" />
-            <name name="{=Oy5dH7gZ}Elea" />
-            <name name="{=2YbgWjTK}Emyna" />
-            <name name="{=rA3KybBX}Ethirea" />
-            <name name="{=qiTtJyHE}Gala" />
-            <name name="{=fGmpS0Dr}Gandarina" />
-            <name name="{=ecJRFHyY}Gisetha" />
-            <name name="{=a6qaFH7L}Herena" />
-            <name name="{=LE9mRhSs}Hespedia" />
-            <name name="{=tGhrpQ0D}Hyradia" />
-            <name name="{=0MJi7mre}Hyscasia" />
-            <name name="{=JQdqGaaB}Isibala" />
-            <name name="{=RHXdqjQY}Ilina" />
+            <name name="{=Aïssata}Aïssata" />
+            <name name="{=Aïssatou}Aïssatou" />
+            <name name="{=Aïssé}Aïssé" />
+            <name name="{=Aminata}Aminata" />
+            <name name="{=Asma}Asma" />
+            <name name="{=Assa}Assa" />
+            <name name="{=Awa}Awa" />
+            <name name="{=Aya}Aya" />
+            <name name="{=Ayana}Ayana" />
+            <name name="{=Bintou}Bintou" />
+            <name name="{=Coumba}Coumba" />
+            <name name="{=Fanta}Fanta" />
+            <name name="{=Fatou}Fatou" />
+            <name name="{=Fatoumata}Fatoumata" />
+            <name name="{=Hatouma}Hatouma" />
+            <name name="{=Imani}Imani" />
+            <name name="{=Ina}Ina" />
+            <name name="{=Inaya}Inaya" />
+            <name name="{=Kadiatou}Kadiatou" />
+            <name name="{=Malaïka}Malaïka" />
+            <name name="{=Malia}Malia" />
+            <name name="{=Malya}Malya" />
+            <name name="{=Mariama}Mariama" />
+            <name name="{=Nabintou}Nabintou" />
+            <name name="{=Oumou}Oumou" />
+            <name name="{=Ramatoulaye}Ramatoulaye" />
+            <name name="{=Rokia}Rokia" />
+            <name name="{=Safiatou}Safiatou" />
+            <name name="{=Salimata}Salimata" />
+
             <name name="{=HSlPLC4m}Ira" />
             <name name="{=PNR2CvvX}Ithicala" />
             <name name="{=eOHeCKxn}Jespara" />

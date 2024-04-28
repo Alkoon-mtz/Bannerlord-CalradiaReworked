@@ -1,0 +1,356 @@
+<NPCCharacters>
+    <NPCCharacter id="lord_zulizwe_1_1"
+        name="{=lord_zulizwe_1_1}Baudouin"
+        age="47"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.zulizwe"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="47"
+                weight="0.479"
+                build="0.805"
+                key="003FF00E4DCC301AEE8E6BCEEDD8EFFFCE7E8FDACAE5CC4BDFFFFFBF992FCCB800EC76030EACCCCA000000000000000000000000000000000000000007CC8144" />
+        </face>
+        <skills>
+            <skill id="OneHanded"
+                value="200" />
+            <skill id="Throwing"
+                value="290" />
+            <skill id="Athletics"
+                value="155" />
+            <skill id="Tactics"
+                value="90" />
+            <skill id="Scouting"
+                value="90" />
+            <skill id="Steward"
+                value="140" />
+            <skill id="Medicine"
+                value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Honor"
+                value="+2" />
+            <Trait id="Valor"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_zulizwe_1_2"
+        name="{=lord_zulizwe_1_1}Sibylle"
+        age="30"
+        voice="ironic"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.zulizwe"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="30"
+                weight="0.383"
+                build="0.711"
+                key="0039F40FC1CC20158D8AEB6EE7B9ECFACE7E8C6BC8C92C599DFFFFCF9925ECD9009B6603099BA8A300000000000000000000000000000000000000003B3C9100" />
+        </face>
+        <skills>
+            <skill id="OneHanded"
+                value="200" />
+            <skill id="Throwing"
+                value="290" />
+            <skill id="Athletics"
+                value="155" />
+            <skill id="Tactics"
+                value="90" />
+            <skill id="Scouting"
+                value="90" />
+            <skill id="Steward"
+                value="140" />
+            <skill id="Medicine"
+                value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Honor"
+                value="+2" />
+            <Trait id="Valor"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_zulizwe_2_1"
+        name="{=lord_zulizwe_2_1}Godefroy"
+        age="40"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.zulizwe"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="40"
+                weight="0.557"
+                build="0.819"
+                key="003CF00F39CC2019ED7B6E9DECD9E9FAEE7D9DACC8E4DC9EDDFFFFBF992DEED800BC86030BBCA9B70000000000000000000000000000000000000000196C9082" />
+        </face>
+        <skills>
+            <skill id="OneHanded"
+                value="200" />
+            <skill id="Throwing"
+                value="290" />
+            <skill id="Athletics"
+                value="155" />
+            <skill id="Tactics"
+                value="90" />
+            <skill id="Scouting"
+                value="90" />
+            <skill id="Steward"
+                value="140" />
+            <skill id="Medicine"
+                value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_zulizwe_3_1"
+        name="{=lord_zulizwe_3_1}Amaury"
+        age="32"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.zulizwe"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="32"
+                weight="0.451"
+                build="0.885"
+                key="003FF40E83CC3015CE8BEBCDD7DBD4FEDE7E9E8BCDE6ECAEDEFFFF8F992EEAF900BD76030BBCB7B400000000000000000000000000000000000000001B7460C5" />
+        </face>
+        <skills>
+            <skill id="OneHanded"
+                value="200" />
+            <skill id="Throwing"
+                value="290" />
+            <skill id="Athletics"
+                value="155" />
+            <skill id="Tactics"
+                value="90" />
+            <skill id="Scouting"
+                value="90" />
+            <skill id="Steward"
+                value="140" />
+            <skill id="Medicine"
+                value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_zulizwe_4_1"
+        name="{=lord_zulizwe_4_1}Mélisende"
+        age="42"
+        voice="ironic"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.zulizwe"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="42"
+                weight="0.451"
+                build="0.885"
+                key="003FF40E42CC3017CE8BEBADD6DBD4FEDE7E9E8BCDE6ECAEDEFFFF7F992DDAF9001D760301BCB7B400000000000000000000000000000000000000001A2C6045" />
+        </face>
+        <skills>
+            <skill id="OneHanded"
+                value="200" />
+            <skill id="Throwing"
+                value="290" />
+            <skill id="Athletics"
+                value="155" />
+            <skill id="Tactics"
+                value="90" />
+            <skill id="Scouting"
+                value="90" />
+            <skill id="Steward"
+                value="140" />
+            <skill id="Medicine"
+                value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_zulizwe_5_1"
+        name="{=lord_zulizwe_5_1}Guy"
+        age="43"
+        voice="earnest"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.zulizwe"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="43"
+                weight="0.535"
+                build="0.805"
+                key="003FF80F4DCC301A7D783EBDD9E9E9FDCE7F8FCCCED9ECDFEFFFFFCF9929EBA8009C860309ACCCC80000000000000000000000000000000000000000172C9045" />
+        </face>
+        <skills>
+            <skill id="OneHanded"
+                value="200" />
+            <skill id="Throwing"
+                value="290" />
+            <skill id="Athletics"
+                value="155" />
+            <skill id="Tactics"
+                value="90" />
+            <skill id="Scouting"
+                value="90" />
+            <skill id="Steward"
+                value="140" />
+            <skill id="Medicine"
+                value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_zulizwe_6_1"
+        name="{=lord_zulizwe_6_1}Amaury"
+        age="28"
+        voice="curt"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.zulizwe"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="28"
+                weight="0.406"
+                build="0.704"
+                key="0036E80E43CC1017CE8C3B4EDCB7EAFECE7E8C6BC7D4ACB79DFFFF5F9928DD9900FB66030FABB7A5000000000000000000000000000000000000000029FC6143" />
+        </face>
+        <skills>
+            <skill id="OneHanded"
+                value="200" />
+            <skill id="Throwing"
+                value="290" />
+            <skill id="Athletics"
+                value="155" />
+            <skill id="Tactics"
+                value="90" />
+            <skill id="Scouting"
+                value="90" />
+            <skill id="Steward"
+                value="140" />
+            <skill id="Medicine"
+                value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_zulizwe_7_1"
+        name="{=lord_zulizwe_7_1}Isabelle"
+        age="25"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.zulizwe"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                age="25"
+                weight="0.406"
+                build="0.704"
+                key="003FF40F00CC1018EE8DCCDEEEE9EFFEEE7E8EBBC8D9ACC7BDFFFFCF9928DEE900AB66030ABCB8AA0000000000000000000000000000000000000000174C8044" />
+        </face>
+        <skills>
+            <skill id="OneHanded"
+                value="200" />
+            <skill id="Throwing"
+                value="290" />
+            <skill id="Athletics"
+                value="155" />
+            <skill id="Tactics"
+                value="90" />
+            <skill id="Scouting"
+                value="90" />
+            <skill id="Steward"
+                value="140" />
+            <skill id="Medicine"
+                value="140" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>
