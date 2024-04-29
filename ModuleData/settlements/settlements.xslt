@@ -438,6 +438,56 @@
     <xsl:template match="Settlement[@id='castle_village_EW1_2']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_EW4_3']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_EW4_4']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_A6']/@owner"><xsl:attribute name='owner'>Faction.clan_zulizwe_2</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_A6']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A6_1']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A6_2']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A6_3']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A6_4']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_A9']/@owner"><xsl:attribute name='owner'>Faction.clan_zulizwe_3</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_A9']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A9_1']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A9_2']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A9_3']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_EW1']/@owner"><xsl:attribute name='owner'>Faction.clan_zulizwe_4</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_EW1']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_EW1_1']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_EW1_2']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='poreale_EW4_3']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_A1']/@owner"><xsl:attribute name='owner'>Faction.clan_zulizwe_5</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_A1']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A1_1']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A1_2']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A1_4']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_A10']/@owner"><xsl:attribute name='owner'>Faction.clan_zulizwe_6</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_A10']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A10_1']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A10_2']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A10_3']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
     <!-- Castles -->
+    <xsl:template match="Settlement[@id='castle_EW1']/@owner"><xsl:attribute name='owner'>Faction.clan_zulizwe_1</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_EW1']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_EW1_1']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_EW1_2']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_A7']/@owner"><xsl:attribute name='owner'>Faction.clan_zulizwe_2</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_A7']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_A7_1']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_A7_2']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_A3']/@owner"><xsl:attribute name='owner'>Faction.clan_zulizwe_3</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_A3']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_A3_1']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_A3_2']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_EW6']/@owner"><xsl:attribute name='owner'>Faction.clan_zulizwe_4</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_EW6']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_EW6_1']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_EW6_2']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_A1']/@owner"><xsl:attribute name='owner'>Faction.clan_zulizwe_5</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_A1']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_A1_1']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_A1_2']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_EW4']/@owner"><xsl:attribute name='owner'>Faction.clan_zulizwe_7</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_EW4']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_EW4_1']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_EW4_2']/@culture"><xsl:attribute name='culture'>Culture.zulizwe</xsl:attribute></xsl:template>
 </xsl:stylesheet>
 
