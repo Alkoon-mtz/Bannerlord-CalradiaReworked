@@ -16,9 +16,9 @@
     <xsl:template match="Kingdom[@id='battania']/@alternative_color"> <xsl:attribute name="alternative_color">FFD08E54</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='battania']/@alternative_color2"> <xsl:attribute name="alternative_color2">FF284E19</xsl:attribute> </xsl:template>
     <!-- Name -->
-    <xsl:template match="Kingdom[@id='battania']/@name"> <xsl:attribute name="name">Union of Cereann</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='battania']/@name"> <xsl:attribute name="name">Cereann Union</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='battania']/@short_name"> <xsl:attribute name="short_name">Cereann</xsl:attribute> </xsl:template>
-    <xsl:template match="Kingdom[@id='battania']/@title"> <xsl:attribute name="title">Union of Cereann</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='battania']/@title"> <xsl:attribute name="title">Cereann Union</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='battania']/@text"> <xsl:attribute name="text">Trying to survive in their woods</xsl:attribute> </xsl:template>
     
     <!-- Kratorios -->
@@ -48,8 +48,8 @@
     <xsl:template match="Kingdom[@id='vlandia']/@alternative_color"> <xsl:attribute name="alternative_color">FF0B0C11</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='vlandia']/@alternative_color2"> <xsl:attribute name="alternative_color2">FF830808</xsl:attribute> </xsl:template>
     <!-- Name -->
-    <xsl:template match="Kingdom[@id='vlandia']/@name"> <xsl:attribute name="name">Chiefdom of Scarhok</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='vlandia']/@name"> <xsl:attribute name="name">Scarhok Chiefdom</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='vlandia']/@short_name"> <xsl:attribute name="short_name">Scarhokar</xsl:attribute> </xsl:template>
-    <xsl:template match="Kingdom[@id='vlandia']/@title"> <xsl:attribute name="title">Chiefdom of Scarhok</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='vlandia']/@title"> <xsl:attribute name="title">Scarhok Chiefdom</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='vlandia']/@text"> <xsl:attribute name="text">Coming from the north west, they wrecked everyone by throwing axes</xsl:attribute> </xsl:template>
 </xsl:stylesheet>

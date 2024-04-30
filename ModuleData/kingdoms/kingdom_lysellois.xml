@@ -12,9 +12,9 @@
         culture="Culture.lysellois"
         settlement_banner_mesh="encounter_flag_a"
         flag_mesh="info_screen_flags_b"
-        name="{=LY_kingdom_name}Kingdom of Lysellois"
+        name="{=LY_kingdom_name}Lysellois Kingdom"
         short_name="{=LY_short_name}Lysellegiens"
-        title="{=LY_kingdom_title}Kingdom of Lysellois"
+        title="{=LY_kingdom_title}Lysellois Kingdom"
         ruler_title="{=hwnp9abW}King"
         text="{=LY_text}These are the french but with an other name to be honest">
         <relationships></relationships>

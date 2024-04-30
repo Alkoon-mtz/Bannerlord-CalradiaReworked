@@ -12,9 +12,9 @@
         culture="Culture.iustrium"
         settlement_banner_mesh="encounter_flag_c"
         flag_mesh="info_screen_flags_a"
-        name="{=IS_kingdom_name}Principality of Iustrium"
+        name="{=IS_kingdom_name}Iustrium Principalities"
         short_name="{=IS_short_name}Iustram"
-        title="{=IS_kingdom_title}Principality of Iustrium"
+        title="{=IS_kingdom_title}Iustrium Principalities"
         ruler_title="{=isnp9abW}Prince"
         text="{=IS_text}Deus lo Vult">
         <relationships></relationships>
