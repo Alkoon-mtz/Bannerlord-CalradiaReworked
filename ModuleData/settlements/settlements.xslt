@@ -5,6 +5,16 @@
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
+    
+    <!-- Settlements fixes -->
+    <xsl:template match="Settlement[@id='village_V7_2']/@posX"><xsl:attribute name='posX'>164.953</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_V7_2']/@posY"><xsl:attribute name='posY'>338.910</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A5_3']/@posX"><xsl:attribute name='posX'>550.766</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A5_3']/@posY"><xsl:attribute name='posY'>135.541</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A7_4']/@posX"><xsl:attribute name='posX'>382.790</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A7_4']/@posY"><xsl:attribute name='posY'>95.161</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_EW6_4']/Components/Village/@bound"> <xsl:attribute name='bound'>Settlement.town_EW6</xsl:attribute> </xsl:template>
+
     <!-- Cereann -->
     <!-- Cities -->
     <xsl:template match="Settlement[@id='town_B1']/@owner"><xsl:attribute name='owner'>Faction.clan_battania_1</xsl:attribute></xsl:template>

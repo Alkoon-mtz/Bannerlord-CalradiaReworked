@@ -13,8 +13,6 @@
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Valor"
                 value="-1" />
             <Trait id="Calculating"
@@ -39,8 +37,6 @@
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Commander"
                 value="4" />
             <Trait id="Valor"
@@ -66,8 +62,6 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Generosity"
                 value="-1" />
             <Trait id="Calculating"
@@ -91,8 +85,6 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Commander"
                 value="4" />
             <Trait id="Generosity"
@@ -119,8 +111,6 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Valor"
                 value="-1" />
             <Trait id="Calculating"
@@ -144,8 +134,6 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Commander"
                 value="4" />
             <Trait id="Valor"
@@ -171,8 +159,6 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Calculating"
                 value="1" />
         </Traits>
@@ -195,8 +181,6 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Commander"
                 value="4" />
             <Trait id="Manager"
@@ -224,8 +208,6 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Commander"
                 value="4" />
             <Trait id="Calculating"
@@ -250,8 +232,6 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Valor"
                 value="-1" />
             <Trait id="Calculating"
@@ -276,8 +256,6 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Honor"
                 value="1" />
             <Trait id="Generosity"
@@ -302,8 +280,6 @@
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Honor"
                 value="1" />
             <Trait id="Generosity"
@@ -327,8 +303,6 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Mercy"
                 value="1" />
             <Trait id="Generosity"
@@ -352,8 +326,6 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Generosity"
                 value="1" />
         </Traits>
@@ -376,8 +348,6 @@
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Generosity"
                 value="1" />
         </Traits>
@@ -400,8 +370,6 @@
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Valor"
                 value="1" />
             <Trait id="Generosity"
@@ -428,8 +396,6 @@
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Valor"
                 value="1" />
             <Trait id="Calculating"
@@ -455,8 +421,6 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Calculating"
                 value="1" />
             <Trait id="Generosity"
@@ -483,8 +447,6 @@
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Honor"
                 value="-1" />
             <Trait id="Mercy"
@@ -510,8 +472,6 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Valor"
                 value="1" />
             <Trait id="Honor"
@@ -534,8 +494,6 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Calculating"
                 value="1" />
         </Traits>
@@ -556,8 +514,6 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Honor"
                 value="1" />
         </Traits>
@@ -579,8 +535,6 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Honor"
                 value="1" />
         </Traits>
@@ -603,8 +557,6 @@
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Valor"
                 value="1" />
             <Trait id="Calculating"
@@ -629,8 +581,7 @@
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
+
             <Trait id="Valor"
                 value="-1" />
             <Trait id="Generosity"
@@ -656,8 +607,6 @@
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="RomanHair"
-                value="1" />
             <Trait id="Calculating"
                 value="1" />
             <Trait id="Honor"

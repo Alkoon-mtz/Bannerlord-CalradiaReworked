@@ -65,7 +65,6 @@ Zulizwe :
 Add/Rework lords and clans
 
 Bugs:
-    Zulizwe notables doesn't match the BodyProperties
 
 NTH:
     Code:
