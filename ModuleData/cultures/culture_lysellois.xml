@@ -17,7 +17,7 @@
         villager_party_template="PartyTemplate.lysellois_villager_template"
         default_party_template="PartyTemplate.lysellois_kingdom_hero_party_template"
         encounter_background_mesh="encounter_vlandia"
-        faction_banner_key="11.12.12.1536.1536.764.764.1.0.0.500.131.12.600.600.764.764.1.0.0.424.131.12.497.497.764.764.1.0.0"
+        faction_banner_key="11.12.12.1536.1536.764.764.1.0.0.500.131.131.350.450.764.799.0.0.0.424.131.131.400.400.764.799.0.0.0.340.131.12.350.300.764.524.0.0.0.125.131.12.250.300.564.779.0.1.0.125.131.12.250.300.964.779.0.0.0"
         elite_caravan_party_template="PartyTemplate.lysellois_elite_caravan_template"
         caravan_party_template="PartyTemplate.lysellois_caravan_template"
         militia_party_template="PartyTemplate.lysellois_militia_template"
