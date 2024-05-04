@@ -55,4 +55,21 @@
     <xsl:template match="string[@id='str_faction_formal_name_for_culture.vlandia']/@text"> <xsl:attribute name="text">Chiefdom of Scarhok</xsl:attribute> </xsl:template>
     <xsl:template match="string[@id='str_faction_informal_name_for_culture.vlandia']/@text"> <xsl:attribute name="text">Scarhokars</xsl:attribute> </xsl:template>
     <xsl:template match="string[@id='str_culture_description.vlandia']/@text"> <xsl:attribute name="text">Coming from the north west, they wrecked everyone by throwing axes</xsl:attribute> </xsl:template>
+
+<!-- Virkaldr -->
+    <xsl:template match="string[@id='str_adjective_for_culture.sturgia']/@text"> <xsl:attribute name="text">Virkaldir</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_culture_rich_name.sturgia']/@text"> <xsl:attribute name="text">Virkaldirs</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_faction_ruler_name_with_title.sturgia']/@text"> <xsl:attribute name="text">{?RULER.GENDER}High Jarl{?}High Jarl{\?} {RULER.NAME}</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_faction_noble_name_with_title.sturgia']/@text"> <xsl:attribute name="text">{?RULER.GENDER}Konur{?}Madur{\?} {RULER.NAME}</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_faction_official.sturgia']/@text"> <xsl:attribute name="text">Madur</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_faction_official.sturgia_f']/@text"> <xsl:attribute name="text">Konur</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_faction_ruler.sturgia']/@text"> <xsl:attribute name="text">High Jarl</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_faction_ruler.sturgia_f']/@text"> <xsl:attribute name="text">High Jarl</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_faction_ruler_term_in_speech.sturgia']/@text"> <xsl:attribute name="text">{?RULER.GENDER}the High Jarl{?}the High Jarl{\?} {RULER.NAME}</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_neutral_term_for_culture.sturgia']/@text"> <xsl:attribute name="text">Virkaldirs</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_adjective_for_faction.sturgia']/@text"> <xsl:attribute name="text">Virkaldirs</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_short_term_for_faction.sturgia']/@text"> <xsl:attribute name="text">Virkaldirs</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_faction_formal_name_for_culture.sturgia']/@text"> <xsl:attribute name="text">Jarland of Virkaldr</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_faction_informal_name_for_culture.sturgia']/@text"> <xsl:attribute name="text">Virkaldirs</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_culture_description.sturgia']/@text"> <xsl:attribute name="text">Living in the hard cold north, seeking for a thing called sun</xsl:attribute> </xsl:template>
 </xsl:stylesheet>

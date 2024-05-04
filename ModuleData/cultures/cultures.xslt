@@ -52,6 +52,23 @@
     <xsl:template match="Culture[@id='vlandia']/@rebels_party_template"><xsl:attribute name="rebels_party_template">PartyTemplate.scarhok_rebels_template</xsl:attribute></xsl:template>
     <xsl:template match="Culture[@id='vlandia']/@villager"><xsl:attribute name="villager">NPCCharacter.villager_scarhok</xsl:attribute></xsl:template>
     <xsl:template match="Culture[@id='vlandia']/@vassal_reward_party_template"><xsl:attribute name="vassal_reward_party_template">PartyTemplate.scarhok_vassal_reward_troops</xsl:attribute></xsl:template>
+    
+    <!-- Virkaldr -->
+    <xsl:template match="Culture[@id='sturgia']/@name"><xsl:attribute name="name">Virkaldr</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='sturgia']/@color"><xsl:attribute name="color">0xff6BD5DC</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='sturgia']/@color2"><xsl:attribute name="color2">0xff00A0BA</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='sturgia']/@faction_banner_key"><xsl:attribute name="faction_banner_key">11.16.72.4922.4922.764.764.1.0.0.514.72.16.300.300.764.834.0.1.180.506.72.16.150.150.914.734.0.1.0.506.72.16.150.150.844.664.0.1.0.506.72.16.150.150.614.734.0.1.0.506.72.16.150.150.684.664.0.1.0.506.72.16.150.150.764.634.0.1.0.504.72.16.25.100.684.564.0.1.0.504.72.16.25.100.614.634.0.1.0.504.72.16.25.100.764.534.0.1.0.504.72.16.25.100.844.564.0.1.0.504.72.16.25.100.914.634.0.1.0.500.72.16.625.625.764.749.0.1.180.434.72.16.300.400.399.754.0.0.0.434.72.16.300.400.1129.754.0.1.0</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='sturgia']/@elite_basic_troop"><xsl:attribute name="elite_basic_troop">NPCCharacter.virkaldr_bjofandi</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='sturgia']/@basic_troop"><xsl:attribute name="basic_troop">NPCCharacter.virkaldr_recruit</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='sturgia']/@villager_party_template"><xsl:attribute name="villager_party_template">PartyTemplate.virkaldr_villager_template</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='sturgia']/@default_party_template"><xsl:attribute name="default_party_template">PartyTemplate.virkaldr_kingdom_hero_party_template</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='sturgia']/@elite_caravan_party_template"><xsl:attribute name="elite_caravan_party_template">PartyTemplate.virkaldr_elite_caravan_template</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='sturgia']/@caravan_party_template"><xsl:attribute name="caravan_party_template">PartyTemplate.virkaldr_caravan_template</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='sturgia']/@militia_party_template"><xsl:attribute name="militia_party_template">PartyTemplate.virkaldr_militia_template</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='sturgia']/@rebels_party_template"><xsl:attribute name="rebels_party_template">PartyTemplate.virkaldr_rebels_template</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='sturgia']/@villager"><xsl:attribute name="villager">NPCCharacter.villager_virkaldr</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='sturgia']/@vassal_reward_party_template"><xsl:attribute name="vassal_reward_party_template">PartyTemplate.virkaldr_vassal_reward_troops</xsl:attribute></xsl:template>
+
     <!-- <xsl:template match="Culture[@id='vlandia']/basic_mercenary_troops"><basic_mercenary_troops><template name="NPCCharacter.western_mercenary_1" /></basic_mercenary_troops></xsl:template> -->
     <!-- <xsl:template match="Culture[@id='vlandia']/cultural_feats">
          <cultural_feats>

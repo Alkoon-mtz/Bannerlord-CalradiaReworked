@@ -52,4 +52,20 @@
     <xsl:template match="Kingdom[@id='vlandia']/@short_name"> <xsl:attribute name="short_name">Scarhokar</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='vlandia']/@title"> <xsl:attribute name="title">Scarhok Chiefdom</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='vlandia']/@text"> <xsl:attribute name="text">Coming from the north west, they wrecked everyone by throwing axes</xsl:attribute> </xsl:template>
+
+    <!-- Virkaldr -->
+    <!-- Colors and Banner -->
+    <xsl:template match="Kingdom[@id='sturgia']/@banner_key"> <xsl:attribute name="banner_key">11.16.72.4922.4922.764.764.1.0.0.514.72.16.300.300.764.834.0.1.180.506.72.16.150.150.914.734.0.1.0.506.72.16.150.150.844.664.0.1.0.506.72.16.150.150.614.734.0.1.0.506.72.16.150.150.684.664.0.1.0.506.72.16.150.150.764.634.0.1.0.504.72.16.25.100.684.564.0.1.0.504.72.16.25.100.614.634.0.1.0.504.72.16.25.100.764.534.0.1.0.504.72.16.25.100.844.564.0.1.0.504.72.16.25.100.914.634.0.1.0.500.72.16.625.625.764.749.0.1.180.434.72.16.300.400.399.754.0.0.0.434.72.16.300.400.1129.754.0.1.0</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='sturgia']/@primary_banner_color"> <xsl:attribute name="primary_banner_color">0xff6BD5DC</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='sturgia']/@secondary_banner_color"> <xsl:attribute name="secondary_banner_color">0xff00A0BA</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='sturgia']/@label_color"> <xsl:attribute name="label_color">FF6BD5DC</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='sturgia']/@color"> <xsl:attribute name="color">FF6BD5DC</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='sturgia']/@color2"> <xsl:attribute name="color2">FF00A0BA</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='sturgia']/@alternative_color"> <xsl:attribute name="alternative_color">FF00A0BA</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='sturgia']/@alternative_color2"> <xsl:attribute name="alternative_color2">FF6BD5DC</xsl:attribute> </xsl:template>
+    <!-- Name -->
+    <xsl:template match="Kingdom[@id='sturgia']/@name"> <xsl:attribute name="name">Virkaldr Jarland</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='sturgia']/@short_name"> <xsl:attribute name="short_name">Virkaldir</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='sturgia']/@title"> <xsl:attribute name="title">Virkaldr Jarland</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='sturgia']/@text"> <xsl:attribute name="text">Living in the hard cold north, seeking for a thing called sun</xsl:attribute> </xsl:template>
 </xsl:stylesheet>

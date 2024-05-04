@@ -266,6 +266,44 @@
             key="0010C80D8F143450EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE007A600307EFEEEF000000000000000000000000000000000000000064F89105" />
     </BodyProperty>
 
+    <!-- Virkaldr -->
+    <BodyProperty id="fighter_virkaldr">
+        <BodyPropertiesMin version="4"
+            age="25"
+            weight="0.200"
+            build="0.400"
+            key="000000000E7004410160000000114151100471100000100021111101800101000055400305111101000000000000000000000000000000000000000000A00000" />
+        <BodyPropertiesMax version="4"
+            age="38"
+            weight="0.500"
+            build="0.700"
+            key="000AC8041E88368AEF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE009A700309EFEEEF00000000000000000000000000000000000000003B289105" />
+    </BodyProperty>
+    <BodyProperty id="villager_virkaldr">
+        <BodyPropertiesMin version="4"
+            age="25"
+            weight="0.100"
+            build="0.300"
+            key="000000000E7004410160000000114151100471100000100021111101800101000055400305111101000000000000000000000000000000000000000000A00000" />
+        <BodyPropertiesMax version="4"
+            age="68"
+            weight="0.350"
+            build="0.500"
+            key="000AC8041E88368AEF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE009A700309EFEEEF00000000000000000000000000000000000000003B289105" />
+    </BodyProperty>
+    <BodyProperty id="villager_virkaldr_f">
+        <BodyPropertiesMin version="4"
+            age="25"
+            weight="0.200"
+            build="0.400"
+            key="00000000157000010160000000114151100471100000100021111101800101000056300305111101000000000000000000000000000000000000000000A00003" />
+        <BodyPropertiesMax version="4"
+            age="68"
+            weight="0.500"
+            build="0.700"
+            key="000AC80421883689EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE009A700309EFEEEF00000000000000000000000000000000000000003B289105" />
+    </BodyProperty>
+
     <!-- Zulizwe -->
     <BodyProperty id="fighter_zulizwe">
         <BodyPropertiesMin version="4"
@@ -307,5 +345,5 @@
 
     <!-- Arabs -->
     <!-- Mongol -->
-    <!-- Vikings -->
+
 </BodyProperties>
