@@ -38,8 +38,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="vla_king_template_bat_m" />
-            <EquipmentSet id="vla_king_template_civ_m"
+            <EquipmentSet id="lys_king_template_bat_m" />
+            <EquipmentSet id="lys_king_template_civ_m"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -82,7 +82,7 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="lys_bat_template_flamboyant" />
             <EquipmentSet id="vla_king_template_civ_m"
                 civilian="true" />
         </Equipments>
@@ -126,7 +126,7 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="lys_bat_template_flamboyant" />
             <EquipmentSet id="vla_king_template_civ_m"
                 civilian="true" />
         </Equipments>
@@ -171,7 +171,7 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="lys_bat_template_flamboyant" />
             <EquipmentSet id="vla_king_template_civ_m"
                 civilian="true" />
         </Equipments>
@@ -215,7 +215,7 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="lys_bat_template_flamboyant" />
             <EquipmentSet id="vla_king_template_civ_m"
                 civilian="true" />
         </Equipments>
@@ -259,7 +259,7 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="lys_bat_template_flamboyant" />
             <EquipmentSet id="vla_king_template_civ_m"
                 civilian="true" />
         </Equipments>
@@ -304,7 +304,7 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="lys_bat_template_flamboyant" />
             <EquipmentSet id="vla_king_template_civ_m"
                 civilian="true" />
         </Equipments>
@@ -348,7 +348,7 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="lys_bat_template_flamboyant" />
             <EquipmentSet id="vla_king_template_civ_m"
                 civilian="true" />
         </Equipments>
