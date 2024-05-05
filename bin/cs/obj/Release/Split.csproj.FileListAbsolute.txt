@@ -1,0 +1,6 @@
+D:\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Split\bin\Win64_Shipping_Client\Split.dll
+D:\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Split\bin\cs\obj\Release\Split.csproj.AssemblyReference.cache
+D:\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Split\bin\cs\obj\Release\Split.csproj.CoreCompileInputs.cache
+D:\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Split\bin\cs\obj\Release\Split.dll
+D:\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Split\bin\cs\obj\Release\Split.pdb
+D:\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Split\bin\Win64_Shipping_Client\Split.pdb

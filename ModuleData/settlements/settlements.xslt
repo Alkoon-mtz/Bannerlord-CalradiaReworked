@@ -320,10 +320,11 @@
     <xsl:template match="Settlement[@id='castle_ES7']/@culture"><xsl:attribute name='culture'>Culture.khuzait</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_ES7_1']/@culture"><xsl:attribute name='culture'>Culture.khuzait</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_ES7_2']/@culture"><xsl:attribute name='culture'>Culture.khuzait</xsl:attribute></xsl:template>
-    <!-- <xsl:template match="Settlement[@id='castle_EN8']/@owner"><xsl:attribute name='owner'>Faction.clan_khuzait_7</xsl:attribute></xsl:template>
+    <!-- TODO -->
+    <xsl:template match="Settlement[@id='castle_EN8']/@owner"><xsl:attribute name='owner'>Faction.clan_khuzait_7</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_EN8']/@culture"><xsl:attribute name='culture'>Culture.khuzait</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_EN8_1']/@culture"><xsl:attribute name='culture'>Culture.khuzait</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='castle_village_EN8_2']/@culture"><xsl:attribute name='culture'>Culture.khuzait</xsl:attribute></xsl:template> -->
+    <xsl:template match="Settlement[@id='castle_village_EN8_2']/@culture"><xsl:attribute name='culture'>Culture.khuzait</xsl:attribute></xsl:template>
 
     <!-- Qinguo -->
     <!-- Cities -->
