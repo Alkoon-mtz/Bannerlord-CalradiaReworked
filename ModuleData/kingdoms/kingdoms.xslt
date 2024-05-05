@@ -5,6 +5,9 @@
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
+    <!-- Cleaning -->
+    <!-- <xsl:template match="Kingdom[@id='empire']"/> -->
+
     <!-- Cereann -->
     <!-- Colors and Banner -->
     <xsl:template match="Kingdom[@id='battania']/@banner_key"> <xsl:attribute name="banner_key">11.2.2.4345.4345.764.764.1.0.0.500.80.2.600.600.764.764.0.0.0.415.80.2.195.195.764.592.0.0.45.415.80.2.195.195.764.936.0.0.45.415.80.2.195.195.592.764.0.0.45.415.80.2.195.195.936.764.0.0.45.527.80.2.75.100.834.694.0.0.45.527.80.2.75.100.694.694.0.1.315.527.80.2.75.100.694.834.0.0.-135.527.80.2.75.100.834.834.0.1.135.510.80.2.150.75.689.594.0.0.90.510.80.2.150.75.839.594.0.0.90.510.80.2.150.75.934.689.0.0.0.510.80.2.150.75.934.839.0.0.0.510.80.2.150.75.839.934.0.0.90.510.80.2.150.75.689.934.0.0.90.510.80.2.150.75.594.839.0.0.0.510.80.2.150.75.594.689.0.0.0.413.80.2.150.150.764.764.0.0.50</xsl:attribute> </xsl:template>
@@ -20,7 +23,7 @@
     <xsl:template match="Kingdom[@id='battania']/@short_name"> <xsl:attribute name="short_name">Cereann</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='battania']/@title"> <xsl:attribute name="title">Cereann Union</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='battania']/@text"> <xsl:attribute name="text">Trying to survive in their woods</xsl:attribute> </xsl:template>
-    
+
     <!-- Kratorios -->
     <!-- Colors and Banner -->
     <xsl:template match="Kingdom[@id='empire_s']/@banner_key"> <xsl:attribute name="banner_key">11.4.4.4345.4345.764.764.1.0.0.423.9.9.600.600.764.764.0.0.0.106.9.9.400.400.764.764.0.0.0</xsl:attribute> </xsl:template>
@@ -35,8 +38,24 @@
     <xsl:template match="Kingdom[@id='empire_s']/@name"> <xsl:attribute name="name">Kratorios Empire</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='empire_s']/@short_name"> <xsl:attribute name="short_name">Kratori</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='empire_s']/@title"> <xsl:attribute name="title">Kratorios Empire</xsl:attribute> </xsl:template>
-    <xsl:template match="Kingdom[@id='empire_s']/@text"> <xsl:attribute name="text">An emerging empire trying to unified the continent</xsl:attribute> </xsl:template>
-    
+    <xsl:template match="Kingdom[@id='empire_s']/@text"> <xsl:attribute name="text">An emerging empire trying to unify the continent</xsl:attribute> </xsl:template>
+
+    <!-- Monghatai -->
+    <!-- Colors and Banner -->
+    <xsl:template match="Kingdom[@id='khuzait']/@banner_key"> <xsl:attribute name="banner_key">23.37.14.4000.4000.764.764.0.0.0.461.48.14.400.400.764.764.1.0.0</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='khuzait']/@primary_banner_color"> <xsl:attribute name="primary_banner_color">0xffF5B365</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='khuzait']/@secondary_banner_color"> <xsl:attribute name="secondary_banner_color">0xff8D291A</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='khuzait']/@label_color"> <xsl:attribute name="label_color">FFF5B365</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='khuzait']/@color"> <xsl:attribute name="color">FFF5B365</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='khuzait']/@color2"> <xsl:attribute name="color2">FF8D291A</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='khuzait']/@alternative_color"> <xsl:attribute name="alternative_color">FF8D291A</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='khuzait']/@alternative_color2"> <xsl:attribute name="alternative_color2">FFF5B365</xsl:attribute> </xsl:template>
+    <!-- Name -->
+    <xsl:template match="Kingdom[@id='khuzait']/@name"> <xsl:attribute name="name">Monghatai Khanate</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='khuzait']/@short_name"> <xsl:attribute name="short_name">Monghatais</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='khuzait']/@title"> <xsl:attribute name="title">Monghatai Khanate</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='khuzait']/@text"> <xsl:attribute name="text">Nomadic tribes that joined together</xsl:attribute> </xsl:template>
+
     <!-- Scarhok -->
     <!-- Colors and Banner -->
     <xsl:template match="Kingdom[@id='vlandia']/@banner_key"> <xsl:attribute name="banner_key">11.142.116.1536.1536.764.764.1.0.0.140.116.116.300.300.939.764.0.1.0.140.116.116.300.300.764.764.0.1.0.140.116.116.300.300.589.764.0.1.0</xsl:attribute> </xsl:template>
