@@ -152,6 +152,44 @@
             key="0013880E40003387EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE00A740030AEFEEEF00000000000000000000000000000000000000007F489105" />
     </BodyProperty>
 
+    <!-- Monghatai -->
+    <BodyProperty id="fighter_monghatai">
+        <BodyPropertiesMin version="4"
+            age="25"
+            weight="0.300"
+            build="0.400"
+            key="000DE00D8000060D507011122CB700080603060883A8010100000000800001000036400303001000000000000000000000000000000000000000000006600000" />
+        <BodyPropertiesMax version="4"
+            age="38"
+            weight="0.500"
+            build="0.600"
+            key="0020FC0FC00038D4FFFBCEFEEFFE9E6FEFFEFFEFFEEFEFFFEFFEEFFF898EFEFA00A970030AFFFFFF000000000000000000000000000000000000000079589100" />
+    </BodyProperty>
+    <BodyProperty id="villager_monghatai">
+        <BodyPropertiesMin version="4"
+            age="25"
+            weight="0.100"
+            build="0.150"
+            key="000DE00D8000060D507011122CB700080603060883A8010100000000800001000036400303001000000000000000000000000000000000000000000006600000" />
+        <BodyPropertiesMax version="4"
+            age="68"
+            weight="0.400"
+            build="0.500"
+            key="0020FC0FC00038D4FFFBCEFEEFFE9E6FEFFEFFEFFEEFEFFFEFFEEFFF898EFEFA00A970030AFFFFFF000000000000000000000000000000000000000079589100" />
+    </BodyProperty>
+    <BodyProperty id="villager_monghatai_f">
+        <BodyPropertiesMin version="4"
+            age="25"
+            weight="0.100"
+            build="0.150"
+            key="000DE00D8000000A507011122CB700080603060883A8010100000000800001000036400303001000000000000000000000000000000000000000000006600003" />
+        <BodyPropertiesMax version="4"
+            age="68"
+            weight="0.400"
+            build="0.500"
+            key="0020FC0FC0000010FFFBCEFEEFFE9E6FEFFEFFEFFEEFEFFFEFFEEFFF898EFEFA00A970030AFFFFFF000000000000000000000000000000000000000079580003" />
+    </BodyProperty>
+
     <!-- Quinguo -->
     <BodyProperty id="fighter_qinguo">
         <BodyPropertiesMin version="4"
@@ -344,6 +382,6 @@
 
 
     <!-- Arabs -->
-    <!-- Mongol -->
+    
 
 </BodyProperties>

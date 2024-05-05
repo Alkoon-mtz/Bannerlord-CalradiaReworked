@@ -11,8 +11,8 @@
     <string id="str_faction_ruler_term_in_speech.qinguo" text="{=E11QG_ruler_sp}{?RULER.GENDER}the Supreme Leader{?}the Supreme Leader{\?} {RULER.NAME}" />
     <string id="str_neutral_term_for_culture.qinguo" text="{=E11QG_n_cul}Qinshis" />
     <string id="str_adjective_for_faction.qinguo" text="{=E11QG_adj_fac}Qinshi" />
-    <string id="str_short_term_for_faction.qinguo" text="{=E11QG_short_term}Qinshi" />
-    <string id="str_faction_formal_name_for_culture.qinguo" text="{=E11QG_formal_name}Qinguo State" />
-    <string id="str_faction_informal_name_for_culture.qinguo" text="{=E11QG_informal_name}Qinshis" />
+    <string id="str_short_term_for_faction.qinguo" text="{=E11QG_short_term}Qinshis" />
+    <string id="str_faction_formal_name_for_culture.qinguo" text="{=E11QG_formal_name}State of Qinguo" />
+    <string id="str_faction_informal_name_for_culture.qinguo" text="{=E11QG_informal_name}the Qinshis" />
     <string id="str_culture_description.qinguo" text="{=E11QG_desc}Only a 2 handed sword can settle an argument" />
 </strings>

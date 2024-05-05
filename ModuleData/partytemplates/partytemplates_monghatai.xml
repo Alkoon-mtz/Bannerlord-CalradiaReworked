@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <!-- Party Civilian -->
+    <MBPartyTemplate id="monghatai_villager_template">
+        <stacks>
+            <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_monghatai" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="monghatai_kingdom_hero_party_template">
+        <stacks>
+            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.monghatai_recruit" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.monghatai_moriton" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.monghatai_chaalal" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.monghatai_urdal" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.monghatai_jadlakh" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.monghatai_tsurakh" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.monghatai_tsoolakh" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.monghatai_khurchin" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.monghatai_daikchin" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.monghatai_mergar" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="monghatai_elite_caravan_template">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_khuzait" />
+            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_khuzait" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_khuzait" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_khuzait" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="monghatai_caravan_template">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_khuzait" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_khuzait" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_khuzait" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="monghatai_militia_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khuzait_militia_spearman" />
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khuzait_militia_archer" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="monghatai_rebels_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.monghatai_recruit" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="monghatai_vassal_reward_troops">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.monghatai_baatgar" />
+            <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.monghatai_daikchin" />
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Party Civilian end -->
+    <!-- Party Lords -->
+    <!-- Party Lords end -->
+</partyTemplates>

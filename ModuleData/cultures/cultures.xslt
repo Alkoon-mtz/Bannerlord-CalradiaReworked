@@ -37,6 +37,22 @@
     <xsl:template match="Culture[@id='empire']/@villager"><xsl:attribute name="villager">NPCCharacter.villager_kratorios</xsl:attribute></xsl:template>
     <xsl:template match="Culture[@id='empire']/@vassal_reward_party_template"><xsl:attribute name="vassal_reward_party_template">PartyTemplate.kratorios_vassal_reward_troops</xsl:attribute></xsl:template>
 
+<!-- Monghatai -->
+    <xsl:template match="Culture[@id='khuzait']/@name"><xsl:attribute name="name">Monghatai</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='khuzait']/@color"><xsl:attribute name="color">0xffF5B365</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='khuzait']/@color2"><xsl:attribute name="color2">0xff8D291A</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='khuzait']/@faction_banner_key"><xsl:attribute name="faction_banner_key">11.37.14.4000.4000.764.764.0.0.0.461.14.14.500.500.764.764.1.0.0.504.14.14.100.100.1019.1099.0.0.0.504.14.14.100.100.934.1099.0.0.0.504.14.14.100.100.849.1099.0.0.0.504.14.14.100.100.764.1099.0.0.0.504.14.14.100.100.509.1099.0.0.0.504.14.14.100.100.594.1099.0.0.0.504.14.14.100.100.679.1099.0.0.0.504.14.14.100.100.1019.429.0.1.180.504.14.14.100.100.934.429.0.1.180.504.14.14.100.100.849.429.0.1.180.504.14.14.100.100.764.429.0.1.180.504.14.14.100.100.509.429.0.1.180.504.14.14.100.100.594.429.0.1.180.504.14.14.100.100.679.429.0.1.180</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='khuzait']/@elite_basic_troop"><xsl:attribute name="elite_basic_troop">NPCCharacter.monghatai_ragar</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='khuzait']/@basic_troop"><xsl:attribute name="basic_troop">NPCCharacter.monghatai_recruit</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='khuzait']/@villager_party_template"><xsl:attribute name="villager_party_template">PartyTemplate.monghatai_villager_template</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='khuzait']/@default_party_template"><xsl:attribute name="default_party_template">PartyTemplate.monghatai_kingdom_hero_party_template</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='khuzait']/@elite_caravan_party_template"><xsl:attribute name="elite_caravan_party_template">PartyTemplate.monghatai_elite_caravan_template</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='khuzait']/@caravan_party_template"><xsl:attribute name="caravan_party_template">PartyTemplate.monghatai_caravan_template</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='khuzait']/@militia_party_template"><xsl:attribute name="militia_party_template">PartyTemplate.monghatai_militia_template</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='khuzait']/@rebels_party_template"><xsl:attribute name="rebels_party_template">PartyTemplate.monghatai_rebels_template</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='khuzait']/@villager"><xsl:attribute name="villager">NPCCharacter.villager_monghatai</xsl:attribute></xsl:template>
+    <xsl:template match="Culture[@id='khuzait']/@vassal_reward_party_template"><xsl:attribute name="vassal_reward_party_template">PartyTemplate.monghatai_vassal_reward_troops</xsl:attribute></xsl:template>
+
     <!-- Scarhok -->
     <xsl:template match="Culture[@id='vlandia']/@name"><xsl:attribute name="name">Scarhok</xsl:attribute></xsl:template>
     <xsl:template match="Culture[@id='vlandia']/@color"><xsl:attribute name="color">0xff830808</xsl:attribute></xsl:template>

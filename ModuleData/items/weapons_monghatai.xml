@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <CraftedItem id="monghatai_2hsword_1_t4"
+        name="{=7LmUe8fQ}Monghatai Heavy Saber"
+        crafting_template="TwoHandedSword"
+        culture="Culture.khuzait"
+        modifier_group="polearm">
+        <Pieces>
+            <Piece id="khuzait_blade_2"
+                Type="Blade"
+                scale_factor="120" />
+            <Piece id="aserai_guard_4"
+                Type="Guard"
+                scale_factor="120" />
+            <Piece id="cleaver_grip_4"
+                Type="Handle"
+                scale_factor="120" />
+            <Piece id="sturgian_pommel_1"
+                Type="Pommel"
+                scale_factor="120" />
+        </Pieces>
+    </CraftedItem>
+</Items>

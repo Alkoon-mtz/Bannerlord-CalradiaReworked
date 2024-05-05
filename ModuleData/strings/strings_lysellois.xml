@@ -2,17 +2,17 @@
 <strings>
     <string id="str_adjective_for_culture.lysellois" text="{=E11FR_adj_cul}Lysellegienne" />
     <string id="str_culture_rich_name.lysellois" text="{=E11FR_cul_name}Lysellegiens" />
-    <string id="str_faction_ruler_name_with_title.lysellois" text="{=E11FR_ruler_title}{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.lysellois" text="{=E11FR_ruler_title}{?RULER.GENDER}Reine{?}Roi{\?} {RULER.NAME}" />
     <string id="str_faction_noble_name_with_title.lysellois" text="{=E11FR_noble_title}{?RULER.GENDER}Dame{?}Sire{\?} {RULER.NAME}" />
     <string id="str_faction_official.lysellois" text="{=E11FR_noble_m}Sire" />
     <string id="str_faction_official.lysellois_f" text="{=E11FR_noble_f}Dame" />
-    <string id="str_faction_ruler.lysellois" text="{=E11FR_ruler_m}King" />
-    <string id="str_faction_ruler.lysellois_f" text="{=E11FR_ruler_f}Queen" />
-    <string id="str_faction_ruler_term_in_speech.lysellois" text="{=E11FR_ruler_sp}{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler.lysellois" text="{=E11FR_ruler_m}Roi" />
+    <string id="str_faction_ruler.lysellois_f" text="{=E11FR_ruler_f}Reine" />
+    <string id="str_faction_ruler_term_in_speech.lysellois" text="{=E11FR_ruler_sp}{?RULER.GENDER}la Reine{?}le Roi{\?} {RULER.NAME}" />
     <string id="str_neutral_term_for_culture.lysellois" text="{=E11FR_n_cul}Lysellegiens" />
-    <string id="str_adjective_for_faction.lysellois" text="{=E11FR_adj_fac}Lysellegiens" />
+    <string id="str_adjective_for_faction.lysellois" text="{=E11FR_adj_fac}Lysellegienne" />
     <string id="str_short_term_for_faction.lysellois" text="{=E11FR_short_term}Lysellegiens" />
     <string id="str_faction_formal_name_for_culture.lysellois" text="{=E11FR_formal_name}Kingdom of Lysellois" />
-    <string id="str_faction_informal_name_for_culture.lysellois" text="{=E11FR_informal_name}Lysellegiens" />
+    <string id="str_faction_informal_name_for_culture.lysellois" text="{=E11FR_informal_name}the Lysellegiens" />
     <string id="str_culture_description.lysellois" text="{=E11FR_desc}Lysellois rules bebe" />
 </strings>

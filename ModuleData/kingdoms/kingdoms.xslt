@@ -42,7 +42,7 @@
 
     <!-- Monghatai -->
     <!-- Colors and Banner -->
-    <xsl:template match="Kingdom[@id='khuzait']/@banner_key"> <xsl:attribute name="banner_key">23.37.14.4000.4000.764.764.0.0.0.461.48.14.400.400.764.764.1.0.0</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='khuzait']/@banner_key"> <xsl:attribute name="banner_key">11.37.14.4000.4000.764.764.0.0.0.461.14.14.500.500.764.764.1.0.0.504.14.14.100.100.1019.1099.0.0.0.504.14.14.100.100.934.1099.0.0.0.504.14.14.100.100.849.1099.0.0.0.504.14.14.100.100.764.1099.0.0.0.504.14.14.100.100.509.1099.0.0.0.504.14.14.100.100.594.1099.0.0.0.504.14.14.100.100.679.1099.0.0.0.504.14.14.100.100.1019.429.0.1.180.504.14.14.100.100.934.429.0.1.180.504.14.14.100.100.849.429.0.1.180.504.14.14.100.100.764.429.0.1.180.504.14.14.100.100.509.429.0.1.180.504.14.14.100.100.594.429.0.1.180.504.14.14.100.100.679.429.0.1.180</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='khuzait']/@primary_banner_color"> <xsl:attribute name="primary_banner_color">0xffF5B365</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='khuzait']/@secondary_banner_color"> <xsl:attribute name="secondary_banner_color">0xff8D291A</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='khuzait']/@label_color"> <xsl:attribute name="label_color">FFF5B365</xsl:attribute> </xsl:template>
@@ -54,7 +54,7 @@
     <xsl:template match="Kingdom[@id='khuzait']/@name"> <xsl:attribute name="name">Monghatai Khanate</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='khuzait']/@short_name"> <xsl:attribute name="short_name">Monghatais</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='khuzait']/@title"> <xsl:attribute name="title">Monghatai Khanate</xsl:attribute> </xsl:template>
-    <xsl:template match="Kingdom[@id='khuzait']/@text"> <xsl:attribute name="text">Nomadic tribes that joined together</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='khuzait']/@text"> <xsl:attribute name="text">Nomadic tribes unified under a single leader</xsl:attribute> </xsl:template>
 
     <!-- Scarhok -->
     <!-- Colors and Banner -->
