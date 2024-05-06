@@ -33,22 +33,22 @@ Rework lords and clans
 Rework banners ?
 
 Iustrium:
-Add/Rework lords and clans
+Add lords
 Tweak Armors ?
 
 Kratorios:
 Rework lords and clans
 
 Lysellois:
-Add/Rework lords and clans
+Add lords
 Rename cities
 
 Qinguo:
-Add/Rework lords and clans
+Add lords
 Make larger glaive blade (guandao)
 
 Rekgeist:
-Add/Rework lords and clans
+Add lords
 Rename cities
 
 Scarhoks:
@@ -61,7 +61,6 @@ Vikings:
 Rework lords and clans
 Rework banners ?
 banner: 
-11.16.72.4922.4922.764.764.1.0.0.514.72.16.300.300.764.834.0.1.180.506.72.16.150.150.914.734.0.1.0.506.72.16.150.150.844.664.0.1.0.506.72.16.150.150.614.734.0.1.0.506.72.16.150.150.684.664.0.1.0.506.72.16.150.150.764.634.0.1.0.504.72.16.25.100.684.564.0.1.0.504.72.16.25.100.614.634.0.1.0.504.72.16.25.100.764.534.0.1.0.504.72.16.25.100.844.564.0.1.0.504.72.16.25.100.914.634.0.1.0.500.72.16.625.625.764.749.0.1.180.434.72.16.300.400.399.754.0.0.0.434.72.16.300.400.1129.754.0.1.0
 11.16.72.4922.4922.764.764.1.0.0.342.72.16.200.200.764.498.0.1.180.445.72.16.300.300.764.764.0.1.180.504.72.16.25.200.734.897.0.0.-44.510.72.16.100.100.734.950.0.0.338.504.72.16.25.200.746.983.0.0.321.504.72.16.25.200.658.1019.0.0.87.510.72.16.100.100.722.1063.0.0.-82.504.72.16.25.100.646.1045.0.0.144.504.72.16.25.200.700.1152.0.0.151.504.72.16.25.100.782.976.0.0.223.504.72.16.25.200.800.993.0.1.43.510.72.16.100.100.800.1045.0.1.22.504.72.16.25.200.788.1079.0.1.39.504.72.16.25.200.875.1115.0.1.272.510.72.16.100.100.812.1159.0.1.81.504.72.16.25.100.887.1141.0.1.215.504.72.16.25.200.834.1248.0.1.208.504.72.16.25.100.752.1071.0.1.136.504.72.16.25.200.793.895.0.0.50.510.72.16.100.100.871.938.0.1.-13.504.72.16.25.200.929.967.0.1.43.504.72.16.25.100.917.917.0.0.333.510.72.16.100.100.964.1045.0.1.81.504.72.16.25.200.985.1131.0.1.208.510.72.16.100.100.906.992.0.1.81.504.72.16.25.100.886.1048.0.0.145.504.72.16.25.278.1039.969.0.1.296.504.72.16.25.100.1063.990.0.0.230.442.72.16.200.300.899.639.0.0.0.442.72.16.200.300.629.639.0.1.0
 
 Zulizwe :
@@ -85,32 +84,6 @@ Debug:
     - Same face troops/face always set to BodyPropertiesMin or BodyPropertiesMax
         Check if BodyPropertiesMin and BodyPropertiesMax are different, carefull about the c/p and the simple "<BodyProperties version="4..."
         BodyPropertiesMin and BodyPropertiesMax must be "wide" enough or else it won't differ a lot
-
-
-Guides
-If you want to use a piece for another weapon "type" and the vanilla game doesn't allow it, you have to add this piece to the weapon description (via xslt)
-for example adding the `axe_craft_26_head` to throwing axe weapon.
-`CraftingTemplate.ThrowingAxe` use 2 `WeaponDescription` and so you have to add your piece in both weapon description, in our case `ThrowingAxe` and `OneHandedAxe`
-Since the `axe_craft_26_head` is already "allowed" in `OneHandedAxe` description+craftingtemplates you don't have to add it
-But you have to add it in `ThrowingAxe` WeaponDescription.AvailablePieces and CraftingTemplate.UsablePieces
-In `weapondescriptions.xslt` 
-```xml
-    <xsl:template match="WeaponDescription[@id='ThrowingAxe']/AvailablePieces">
-        <xsl:copy>
-            <xsl:apply-templates/>
-            <AvailablePiece id="axe_craft_26_head" />
-        </xsl:copy>
-    </xsl:template>
-```
-and in `craftingtemplates.xslt`
-```xml
-    <xsl:template match="CraftingTemplate[@id='ThrowingAxe']/UsablePieces">
-        <xsl:copy>
-            <xsl:apply-templates/>
-            <UsablePiece piece_id="axe_craft_26_head" />
-        </xsl:copy>
-    </xsl:template>
-```
 
 
 Error	CS1705	Assembly '0Harmony' with identity '0Harmony, Version=2.3.1.1, Culture=neutral, PublicKeyToken=null' 

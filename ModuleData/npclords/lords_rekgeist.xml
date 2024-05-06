@@ -1,275 +1,274 @@
 <NPCCharacters>
     <NPCCharacter id="lord_rekgeist_1_1"
-            name="{=lord_rekgeist_1_1}Sigrune"
-            age="24"
-            voice="softspoken"
-            is_female="true"
-            default_group="Infantry"
-            is_hero="true"
-            culture="Culture.rekgeist"
-            occupation="Lord">
+        name="{=lord_rekgeist_1_1}Beringard"
+        age="27"
+        voice="softspoken"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.rekgeist"
+        occupation="Lord"
+        skill_template="SkillSet.lord_2h_pol_1">
         <face>
-            <BodyProperties version="4" 
-                age="22.6"
-                weight="0.2207"
-                build="0.7361"
-                key="00138406C0001001498A5963C744879A7587758C449BAC591C8C8B987A767186004B36030467799C0000000000000000000000000000000000000000588420C3" />
+            <BodyProperties version="4"
+                age="27"
+                weight="0.814"
+                build="0.598"
+                key="00050404C0002401EC998F6EAA364CCCD9EFAF5795D7E4CB95EBCE58ADD59EF100C9C0030CE8CEE9000000000000000000000000000000000000000065805084" />
         </face>
-        <skills>
-            <skill id="OneHanded" value="200" />
-            <skill id="Throwing" value="290" />
-            <skill id="Athletics" value="155" />
-            <skill id="Tactics" value="90" />
-            <skill id="Scouting" value="90" />
-            <skill id="Steward" value="140" />
-            <skill id="Medicine" value="140" />
-        </skills>
         <Traits>
-            <Trait id="Honor" value="+2" />
-            <Trait id="Valor" value="+1" />
-            <Trait id="Mercy" value="-1" />
+            <Trait id="Honor"
+                value="+2" />
+            <Trait id="Valor"
+                value="+1" />
+            <Trait id="Mercy"
+                value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="stu_king_template_bat_m" />
-            <EquipmentSet id="stu_king_template_civ_m" civilian="true" />
+            <EquipmentSet id="rek_king_template_bat_f" />
+            <EquipmentSet id="rek_king_template_civ_f"
+                civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_1_2"
-            name="{=lord_rekgeist_1_2}Erik"
-            age="24"
-            voice="softspoken"
-            default_group="Infantry"
-            is_hero="true"
-            culture="Culture.rekgeist"
-            occupation="Lord">
+        name="{=lord_rekgeist_1_2}Erik"
+        age="27"
+        voice="softspoken"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.rekgeist"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_pol_throw_1">
         <face>
-            <BodyProperties version="4" 
-                age="22.6"
-                weight="0.2207"
-                build="0.7361"
-                key="00138406C0001001498A5963C744879A7587758C449BAC591C8C8B987A767186004B36030467799C0000000000000000000000000000000000000000588420C3" />
+            <BodyProperties version="4"
+                age="27"
+                weight="0.399"
+                build="0.553"
+                key="00043002000036487A7CDFF47A8349D5BF5B89877AD4EAFCE69ACC3CE7DC07A400A860030ACDE8F7000000000000000000000000000000000000000057407004" />
         </face>
-        <skills>
-            <skill id="OneHanded" value="200" />
-            <skill id="Throwing" value="290" />
-            <skill id="Athletics" value="155" />
-            <skill id="Tactics" value="90" />
-            <skill id="Scouting" value="90" />
-            <skill id="Steward" value="140" />
-            <skill id="Medicine" value="140" />
-        </skills>
         <Traits>
-            <Trait id="Honor" value="+2" />
-            <Trait id="Valor" value="+1" />
-            <Trait id="Mercy" value="-1" />
+            <Trait id="Honor"
+                value="+2" />
+            <Trait id="Valor"
+                value="+1" />
+            <Trait id="Mercy"
+                value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="stu_king_template_bat_m" />
-            <EquipmentSet id="stu_king_template_civ_m" civilian="true" />
+            <EquipmentSet id="rek_king_template_bat_m" />
+            <EquipmentSet id="rek_king_template_civ_m"
+                civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_2_1"
-        name="{=lord_rekgeist_2_1}Dietrik"
-        age="24"
-        voice="softspoken"
+        name="{=lord_rekgeist_2_1}Otto"
+        age="58"
+        voice="earnest"
         default_group="Infantry"
         is_hero="true"
         culture="Culture.rekgeist"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_2h_pol_1">
         <face>
-            <BodyProperties version="4" 
-                age="22.6"
-                weight="0.2207"
-                build="0.7361"
-                key="00138406C0001001498A5963C744879A7587758C449BAC591C8C8B987A767186004B36030467799C0000000000000000000000000000000000000000588420C3" />
+            <BodyProperties version="4"
+                age="58"
+                weight="0.399"
+                build="0.553"
+                key="000328000000258678FCDEE4768339D39F4988677AC4D6ECA69EBC3FD5BB07A400B860030B8DE8C5000000000000000000000000000000000000000053705044" />
         </face>
-        <skills>
-            <skill id="OneHanded" value="200" />
-            <skill id="Throwing" value="290" />
-            <skill id="Athletics" value="155" />
-            <skill id="Tactics" value="90" />
-            <skill id="Scouting" value="90" />
-            <skill id="Steward" value="140" />
-            <skill id="Medicine" value="140" />
-        </skills>
         <Traits>
-            <Trait id="Honor" value="+2" />
-            <Trait id="Valor" value="+1" />
-            <Trait id="Mercy" value="-1" />
+            <Trait id="Honor"
+                value="+2" />
+            <Trait id="Valor"
+                value="+1" />
+            <Trait id="Mercy"
+                value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="stu_king_template_bat_m" />
-            <EquipmentSet id="stu_king_template_civ_m" civilian="true" />
+            <EquipmentSet id="rek_bat_template_flamboyant" />
+            <EquipmentSet id="rek_civ_template_flamboyant"
+                civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_3_1"
-        name="{=lord_rekgeist_3_1}Ulfrik"
-        age="30"
-        voice="softspoken"
+        name="{=lord_rekgeist_3_1}Lothar"
+        age="44"
+        voice="curt"
         default_group="Infantry"
         is_hero="true"
         culture="Culture.rekgeist"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_2h_pol_1">
         <face>
-            <BodyProperties version="4" 
-                age="30"
-                weight="0.2207"
-                build="0.7361"
-                key="00138406C0001001498A5963C744879A7587758C449BAC591C8C8B987A767186004B36030467799C0000000000000000000000000000000000000000588420C3" />
+            <BodyProperties version="4"
+                age="44"
+                weight="0.622"
+                build="0.689"
+                key="0000040080002406ECFDD5DEAB89BAE89B86FC559CC6F9BE8A29C9DFCEEE488D00AA90030AEFFCBB00000000000000000000000000000000000000003D485085" />
         </face>
-        <skills>
-            <skill id="OneHanded" value="200" />
-            <skill id="Throwing" value="290" />
-            <skill id="Athletics" value="155" />
-            <skill id="Tactics" value="90" />
-            <skill id="Scouting" value="90" />
-            <skill id="Steward" value="140" />
-            <skill id="Medicine" value="140" />
-        </skills>
         <Traits>
-            <Trait id="Honor" value="+2" />
-            <Trait id="Valor" value="+1" />
-            <Trait id="Mercy" value="-1" />
+            <Trait id="Honor"
+                value="+2" />
+            <Trait id="Valor"
+                value="+1" />
+            <Trait id="Mercy"
+                value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="stu_king_template_bat_m" />
-            <EquipmentSet id="stu_king_template_civ_m" civilian="true" />
+            <EquipmentSet id="rek_bat_template_flamboyant" />
+            <EquipmentSet id="rek_civ_template_flamboyant"
+                civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_4_1"
-        name="{=lord_rekgeist_4_1}Alrik"
+        name="{=lord_rekgeist_4_1}Friedrich"
         age="47"
         voice="softspoken"
         default_group="Infantry"
         is_hero="true"
         culture="Culture.rekgeist"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_2h_pol_1">
         <face>
-            <BodyProperties version="4" 
+            <BodyProperties version="4"
                 age="47"
-                weight="0.2207"
-                build="0.7361"
-                key="00138406C0001001498A5963C744879A7587758C449BAC591C8C8B987A767186004B36030467799C0000000000000000000000000000000000000000588420C3" />
+                weight="0.622"
+                build="0.689"
+                key="00059804C0002388ECFDC5DEAB89BA879B76CC4579C6F9AE8929C9DFCEED458C00BA90030BEFFCBB000000000000000000000000000000000000000073605005" />
         </face>
-        <skills>
-            <skill id="OneHanded" value="200" />
-            <skill id="Throwing" value="290" />
-            <skill id="Athletics" value="155" />
-            <skill id="Tactics" value="90" />
-            <skill id="Scouting" value="90" />
-            <skill id="Steward" value="140" />
-            <skill id="Medicine" value="140" />
-        </skills>
         <Traits>
-            <Trait id="Honor" value="+2" />
-            <Trait id="Valor" value="+1" />
-            <Trait id="Mercy" value="-1" />
+            <Trait id="Honor"
+                value="+2" />
+            <Trait id="Valor"
+                value="+1" />
+            <Trait id="Mercy"
+                value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="stu_king_template_bat_m" />
-            <EquipmentSet id="stu_king_template_civ_m" civilian="true" />
+            <EquipmentSet id="rek_bat_template_heavy" />
+            <EquipmentSet id="rek_civ_template_heavy"
+                civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_5_1"
-        name="{=lord_rekgeist_5_1}Zaffen"
-        age="47"
-        voice="softspoken"
+        name="{=lord_rekgeist_5_1}Engelberga"
+        age="32"
+        voice="curt"
+        is_female="true"
         default_group="Infantry"
         is_hero="true"
         culture="Culture.rekgeist"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_2h_pol_1">
         <face>
-            <BodyProperties version="4" 
-                age="47"
-                weight="0.2207"
-                build="0.7361"
-                key="00138406C0001001498A5963C744879A7587758C449BAC591C8C8B987A767186004B36030467799C0000000000000000000000000000000000000000588420C3" />
+            <BodyProperties version="4"
+                age="32"
+                weight="0.6898"
+                build="0.4707"
+                key="00084C0080002546EC991F6E983649C7C7EB9F3743C7D4B995EBCE569CA69D7300C7A0030CC5CDB9000000000000000000000000000000000000000065904083" />
         </face>
-        <skills>
-            <skill id="OneHanded" value="200" />
-            <skill id="Throwing" value="290" />
-            <skill id="Athletics" value="155" />
-            <skill id="Tactics" value="90" />
-            <skill id="Scouting" value="90" />
-            <skill id="Steward" value="140" />
-            <skill id="Medicine" value="140" />
-        </skills>
         <Traits>
-            <Trait id="Honor" value="+2" />
-            <Trait id="Valor" value="+1" />
-            <Trait id="Mercy" value="-1" />
+            <Trait id="Honor"
+                value="+2" />
+            <Trait id="Valor"
+                value="+1" />
+            <Trait id="Mercy"
+                value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="stu_king_template_bat_m" />
-            <EquipmentSet id="stu_king_template_civ_m" civilian="true" />
+            <EquipmentSet id="rek_bat_template_heavy" />
+            <EquipmentSet id="rek_civ_template_heavy"
+                civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_6_1"
-        name="{=lord_rekgeist_6_1}Unric"
-        age="25"
+        name="{=lord_rekgeist_6_1}Heinrich"
+        age="36"
         voice="softspoken"
         default_group="Infantry"
         is_hero="true"
         culture="Culture.rekgeist"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_pol_1h_1">
         <face>
-            <BodyProperties version="4" 
-                age="25"
-                weight="0.2207"
-                build="0.7361"
-                key="00138406C0001001498A5963C744879A7587758C449BAC591C8C8B987A767186004B36030467799C0000000000000000000000000000000000000000588420C3" />
+            <BodyProperties version="4"
+                age="36"
+                weight="0.622"
+                build="0.689"
+                key="0005680080002549ECFDC5DEAB89BAD89B76FC459CC6F9AE8A29C9DFCEED468C00CA90030CEFFCBB000000000000000000000000000000000000000025985082" />
         </face>
-        <skills>
-            <skill id="OneHanded" value="200" />
-            <skill id="Throwing" value="290" />
-            <skill id="Athletics" value="155" />
-            <skill id="Tactics" value="90" />
-            <skill id="Scouting" value="90" />
-            <skill id="Steward" value="140" />
-            <skill id="Medicine" value="140" />
-        </skills>
         <Traits>
-            <Trait id="Honor" value="+2" />
-            <Trait id="Valor" value="+1" />
-            <Trait id="Mercy" value="-1" />
+            <Trait id="Honor"
+                value="+2" />
+            <Trait id="Valor"
+                value="+1" />
+            <Trait id="Mercy"
+                value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="stu_king_template_bat_m" />
-            <EquipmentSet id="stu_king_template_civ_m" civilian="true" />
+            <EquipmentSet id="rek_bat_template_medium" />
+            <EquipmentSet id="rek_civ_template_default"
+                civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_7_1"
-        name="{=lord_rekgeist_7_1}Unberg"
-        age="25"
-        voice="softspoken"
+        name="{=lord_rekgeist_7_1}Wilhelm"
+        age="28"
+        voice="curt"
         default_group="Infantry"
         is_hero="true"
         culture="Culture.rekgeist"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_pol_1h_1">
         <face>
-            <BodyProperties version="4" 
-                age="25"
-                weight="0.2207"
-                build="0.7361"
-                key="0000300140001384967132012584CCB36EC472158520143875848D198317281906BBB0680B68CB80000000000000000000000000000000000000000073788003" />
+            <BodyProperties version="4"
+                age="22.25"
+                weight="0.519"
+                build="0.262"
+                key="00037C0340002689FAACE98A7BBBBACFE9ED7D976993DEE995EC6AA6B7EC1CBA00C480030C684BFE000000000000000000000000000000000000000071987104" />
         </face>
-        <skills>
-            <skill id="OneHanded" value="200" />
-            <skill id="Throwing" value="290" />
-            <skill id="Athletics" value="155" />
-            <skill id="Tactics" value="90" />
-            <skill id="Scouting" value="90" />
-            <skill id="Steward" value="140" />
-            <skill id="Medicine" value="140" />
-        </skills>
         <Traits>
-            <Trait id="Honor" value="+2" />
-            <Trait id="Valor" value="+1" />
-            <Trait id="Mercy" value="-1" />
+            <Trait id="Honor"
+                value="+2" />
+            <Trait id="Valor"
+                value="+1" />
+            <Trait id="Mercy"
+                value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="stu_king_template_bat_m" />
-            <EquipmentSet id="stu_king_template_civ_m" civilian="true" />
+            <EquipmentSet id="rek_bat_template_medium" />
+            <EquipmentSet id="rek_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_rekgeist_8_1"
+        name="{=lord_rekgeist_8_1}Rudolf"
+        age="25"
+        voice="earnest"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.rekgeist"
+        occupation="Lord"
+        skill_template="SkillSet.lord_xbow_2h_1">
+        <face>
+            <BodyProperties version="4"
+                age="25"
+                weight="0.5664"
+                build="0.4153"
+                key="0007280280001286CE96B8BE24A9E9D38A4C97464CE8F828CEF5A54CDCE8EBCC00D680030D86BA7D000000000000000000000000000000000000000067B08085" />
+        </face>
+        <Traits>
+            <Trait id="Honor"
+                value="+2" />
+            <Trait id="Valor"
+                value="+1" />
+            <Trait id="Mercy"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="rek_bat_template_low" />
+            <EquipmentSet id="rek_civ_template_default"
+                civilian="true" />
         </Equipments>
     </NPCCharacter>
 </NPCCharacters>

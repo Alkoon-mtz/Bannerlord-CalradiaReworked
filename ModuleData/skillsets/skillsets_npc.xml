@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SkillSets>
+    <SkillSet id="militia_archer_t2">
+        <skill id="Athletics" value="60" />
+        <skill id="Riding" value="10" />
+        <skill id="OneHanded" value="40" />
+        <skill id="TwoHanded" value="20" />
+        <skill id="Polearm" value="10" />
+        <skill id="Bow" value="70" />
+        <skill id="Crossbow" value="10" />
+        <skill id="Throwing" value="20" />
+    </SkillSet>
+    <SkillSet id="militia_archer_t3">
+        <skill id="Athletics" value="90" />
+        <skill id="Riding" value="20" />
+        <skill id="OneHanded" value="60" />
+        <skill id="TwoHanded" value="30" />
+        <skill id="Polearm" value="20" />
+        <skill id="Bow" value="120" />
+        <skill id="Crossbow" value="20" />
+        <skill id="Throwing" value="40" />
+    </SkillSet>
+    <SkillSet id="militia_crossbowman_t2">
+        <skill id="Athletics" value="60" />
+        <skill id="Riding" value="10" />
+        <skill id="OneHanded" value="40" />
+        <skill id="TwoHanded" value="20" />
+        <skill id="Polearm" value="10" />
+        <skill id="Bow" value="10" />
+        <skill id="Crossbow" value="70" />
+        <skill id="Throwing" value="20" />
+    </SkillSet>
+    <SkillSet id="militia_crossbowman_t3">
+        <skill id="Athletics" value="90" />
+        <skill id="Riding" value="20" />
+        <skill id="OneHanded" value="60" />
+        <skill id="TwoHanded" value="30" />
+        <skill id="Polearm" value="20" />
+        <skill id="Bow" value="20" />
+        <skill id="Crossbow" value="120" />
+        <skill id="Throwing" value="40" />
+    </SkillSet>
+
+    <SkillSet id="militia_melee_t2">
+        <skill id="Athletics" value="70" />
+        <skill id="Riding" value="10" />
+        <skill id="OneHanded" value="80" />
+        <skill id="TwoHanded" value="20" />
+        <skill id="Polearm" value="20" />
+        <skill id="Bow" value="10" />
+        <skill id="Crossbow" value="10" />
+        <skill id="Throwing" value="20" />
+    </SkillSet>
+    <SkillSet id="militia_melee_t3">
+        <skill id="Athletics" value="110" />
+        <skill id="Riding" value="20" />
+        <skill id="OneHanded" value="120" />
+        <skill id="TwoHanded" value="40" />
+        <skill id="Polearm" value="40" />
+        <skill id="Bow" value="20" />
+        <skill id="Crossbow" value="20" />
+        <skill id="Throwing" value="30" />
+    </SkillSet>
+    <SkillSet id="militia_shock_t2">
+        <skill id="Athletics" value="70" />
+        <skill id="Riding" value="10" />
+        <skill id="OneHanded" value="20" />
+        <skill id="TwoHanded" value="80" />
+        <skill id="Polearm" value="20" />
+        <skill id="Bow" value="10" />
+        <skill id="Crossbow" value="10" />
+        <skill id="Throwing" value="20" />
+    </SkillSet>
+    <SkillSet id="militia_shock_t3">
+        <skill id="Athletics" value="110" />
+        <skill id="Riding" value="20" />
+        <skill id="OneHanded" value="40" />
+        <skill id="TwoHanded" value="120" />
+        <skill id="Polearm" value="40" />
+        <skill id="Bow" value="20" />
+        <skill id="Crossbow" value="20" />
+        <skill id="Throwing" value="30" />
+    </SkillSet>
+</SkillSets>

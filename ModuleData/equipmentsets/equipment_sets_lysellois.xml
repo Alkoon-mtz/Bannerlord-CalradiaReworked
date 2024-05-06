@@ -735,6 +735,18 @@
     </EquipmentRoster>
 
     <!--Lord -->
+    <EquipmentRoster id="lys_bat_template_low" culture="Culture.lysellois">
+        <EquipmentSet>
+            <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+            <equipment slot="Item1" id="Item.wide_heater_shield"/>
+            <equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif"/>
+            <equipment slot="Cape" id="Item.swadian_shoulders"/>
+            <equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+            <equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+            <equipment slot="Leg" id="Item.mail_chausses"/>
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
     <EquipmentRoster id="lys_bat_template_medium" culture="Culture.lysellois">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.crossbow_f"/>
@@ -791,24 +803,16 @@
     </EquipmentRoster>
     <EquipmentRoster id="lys_bat_template_lady" culture="Culture.lysellois">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.vlandia_noble_sword_4_t5" />
-            <Equipment slot="Item2" id="Item.bound_horsemans_kite_shield" />
-            <Equipment slot="Body" id="Item.vlandia_chainmail" />
-            <Equipment slot="Leg" id="Item.mail_cavalier_boots" />
-            <Equipment slot="Gloves" id="Item.leather_gloves" />
-            <Equipment slot="Cape" id="Item.scarf" />
-            <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
-            <Equipment slot="HorseHarness" id="Item.chain_barding" />
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5" />
-            <Equipment slot="Item2" id="Item.bound_horsemans_kite_shield" />
-            <Equipment slot="Body" id="Item.mail_shirt" />
-            <Equipment slot="Cape" id="Item.scarf" />
-            <Equipment slot="Leg" id="Item.mail_cavalier_boots" />
-            <Equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
-            <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
-            <Equipment slot="HorseHarness" id="Item.chain_barding" />
+            <Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+            <Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+            <Equipment slot="Item2" id="Item.vlandia_noble_sword_3_t5"/>
+            <Equipment slot="Head" id="Item.engraved_vlandian_helm_with_visor"/>
+            <Equipment slot="Cape" id="Item.noble_pauldron_with_cape"/>
+            <Equipment slot="Body" id="Item.Sa_tabbartplate"/>
+            <Equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
+            <Equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
+            <Equipment slot="Horse" id="Item.noble_horse_western"/>
+            <Equipment slot="HorseHarness" id="Item.chain_barding"/>
         </EquipmentSet>
         <Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
@@ -832,6 +836,48 @@
             <Equipment slot="HorseHarness" id="Item.light_harness" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="lys_civ_template_heavy" culture="Culture.lysellois">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5" />
+            <Equipment slot="Body" id="Item.padded_leather_shirt" />
+            <Equipment slot="Cape" id="Item.empire_cape_a" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
+            <Equipment slot="Gloves" id="Item.leather_gloves" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.vlandia_noble_sword_1_t5" />
+            <Equipment slot="Body" id="Item.layered_leather_tunic" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
+            <Equipment slot="Cape" id="Item.scarf" />
+            <Equipment slot="Gloves" id="Item.leather_gloves" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.light_harness" />
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="lys_civ_template_flamboyant" culture="Culture.lysellois">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5" />
+            <Equipment slot="Body" id="Item.long_woolen_tunic" />
+            <Equipment slot="Cape" id="Item.scarf" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
+            <Equipment slot="Gloves" id="Item.leather_gloves" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.light_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.vlandia_noble_sword_1_t5" />
+            <Equipment slot="Body" id="Item.white_coat_over_mail" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
+            <Equipment slot="Cape" id="Item.wrapped_scarf" />
+            <Equipment slot="Gloves" id="Item.leather_gloves" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.light_harness" />
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="lys_civ_template_lady_normal" culture="Culture.lysellois">
         <EquipmentSet civilian="true">
@@ -857,48 +903,6 @@
             <Equipment slot="HorseHarness" id="Item.light_harness" />
         </EquipmentSet>
         <Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsNobleTemplate="true" />
-    </EquipmentRoster>
-    <EquipmentRoster id="lys_civ_template_flamboyant" culture="Culture.lysellois">
-        <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5" />
-            <Equipment slot="Body" id="Item.long_woolen_tunic" />
-            <Equipment slot="Cape" id="Item.scarf" />
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
-            <Equipment slot="Gloves" id="Item.leather_gloves" />
-            <Equipment slot="Horse" id="Item.noble_horse_western" />
-            <Equipment slot="HorseHarness" id="Item.light_harness" />
-        </EquipmentSet>
-        <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.vlandia_noble_sword_1_t5" />
-            <Equipment slot="Body" id="Item.white_coat_over_mail" />
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
-            <Equipment slot="Cape" id="Item.wrapped_scarf" />
-            <Equipment slot="Gloves" id="Item.leather_gloves" />
-            <Equipment slot="Horse" id="Item.noble_horse_western" />
-            <Equipment slot="HorseHarness" id="Item.light_harness" />
-        </EquipmentSet>
-        <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" />
-    </EquipmentRoster>
-    <EquipmentRoster id="lys_civ_template_heavy" culture="Culture.lysellois">
-        <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5" />
-            <Equipment slot="Body" id="Item.padded_leather_shirt" />
-            <Equipment slot="Cape" id="Item.empire_cape_a" />
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
-            <Equipment slot="Gloves" id="Item.leather_gloves" />
-            <Equipment slot="Horse" id="Item.noble_horse_western" />
-            <Equipment slot="HorseHarness" id="Item.light_harness" />
-        </EquipmentSet>
-        <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.vlandia_noble_sword_1_t5" />
-            <Equipment slot="Body" id="Item.layered_leather_tunic" />
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
-            <Equipment slot="Cape" id="Item.scarf" />
-            <Equipment slot="Gloves" id="Item.leather_gloves" />
-            <Equipment slot="Horse" id="Item.noble_horse_western" />
-            <Equipment slot="HorseHarness" id="Item.light_harness" />
-        </EquipmentSet>
-        <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="lys_noncom_template_default" culture="Culture.lysellois">
         <EquipmentSet civilian="true">

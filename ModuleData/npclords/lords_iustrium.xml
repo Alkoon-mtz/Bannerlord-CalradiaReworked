@@ -1,277 +1,267 @@
 <NPCCharacters>
     <NPCCharacter id="lord_iustrium_1_1"
         name="{=lord_iustrium_1_1}Baudouin"
-        age="33"
+        age="35"
         voice="ironic"
-        default_group="Cavalry"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.iustrium"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_1h_pol_1">
         <face>
             <BodyProperties version="4"
                 age="33"
-                weight="0.3283"
-                build="0.8553"
-                key="0010240D00580202B379B24D4767849BC78387858587B773A87677498DA05B5D007D560307886597000000000000000000000000000000000000000028E43002" />
+                weight="0.3707"
+                build="0.52"
+                key="001E7C06C00031CE2A9B6FAC9947EFFC39887DC71827EB6D5EC05339887776BA0088600308AD85BD000000000000000000000000000000000000000023188102" />
         </face>
-        <skills>
-            <skill id="OneHanded" value="200" />
-            <skill id="Throwing" value="290" />
-            <skill id="Athletics" value="155" />
-            <skill id="Tactics" value="90" />
-            <skill id="Scouting" value="90" />
-            <skill id="Steward" value="140" />
-            <skill id="Medicine" value="140" />
-        </skills>
         <Traits>
-            <Trait id="Honor" value="+2" />
-            <Trait id="Valor" value="+1" />
+            <Trait id="Honor"
+                value="+2" />
+            <Trait id="Valor"
+                value="+1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="vla_king_template_bat_m" />
-            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+            <EquipmentSet id="ius_king_template_bat_m" />
+            <EquipmentSet id="ius_king_template_civ_m"
+                civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_1_2"
-        name="{=lord_iustrium_1_1}Sibylle"
-        age="31"
+        name="{=lord_iustrium_1_1}Marie"
+        age="34"
         voice="ironic"
         is_female="true"
-        default_group="Cavalry"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.iustrium"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_1h_pol_1">
         <face>
             <BodyProperties version="4"
-                age="31"
-                weight="0.3283"
-                build="0.8553"
-                key="0010240D00580202B379B24D4767849BC78387858587B773A87677498DA05B5D007D560307886597000000000000000000000000000000000000000028E43002" />
+                age="34"
+                weight="0.523"
+                build="0.335"
+                key="00189804000014071D741F9D8A953BA5ED577E755346A00A91F356366D059DC800858003089B9BBC00000000000000000000000000000000000000003B104081" />
         </face>
-        <skills>
-            <skill id="OneHanded" value="200" />
-            <skill id="Throwing" value="290" />
-            <skill id="Athletics" value="155" />
-            <skill id="Tactics" value="90" />
-            <skill id="Scouting" value="90" />
-            <skill id="Steward" value="140" />
-            <skill id="Medicine" value="140" />
-        </skills>
         <Traits>
-            <Trait id="Honor" value="+2" />
-            <Trait id="Valor" value="+1" />
+            <Trait id="Honor"
+                value="+2" />
+            <Trait id="Valor"
+                value="+1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="vla_king_template_bat_m" />
-            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+            <EquipmentSet id="ius_king_template_bat_m" />
+            <EquipmentSet id="ius_king_template_civ_m"
+                civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_2_1"
-        name="{=lord_iustrium_2_1}Godefroy"
+        name="{=lord_iustrium_2_1}Sibylle"
         age="40"
         voice="ironic"
-        default_group="Cavalry"
+        is_female="true"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.iustrium"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_1h_pol_1">
         <face>
             <BodyProperties version="4"
                 age="40"
-                weight="0.6333"
-                build="0.6651"
-                key="00050002C000360D38716B50212852B8845A7E6426849A2395757F277207138603AA90350A848C3400000000000000000000000000000000000000006B400002" />
+                weight="0.457"
+                build="0.564"
+                key="0018B00D000014417C456AEF5384ED2AACE29EBAD68587EEEFB583897DA8CC9A0028700302BA9BE4000000000000000000000000000000000000000062583042" />
         </face>
-        <skills>
-            <skill id="OneHanded" value="200" />
-            <skill id="Throwing" value="290" />
-            <skill id="Athletics" value="155" />
-            <skill id="Tactics" value="90" />
-            <skill id="Scouting" value="90" />
-            <skill id="Steward" value="140" />
-            <skill id="Medicine" value="140" />
-        </skills>
         <Traits>
-            <Trait id="Mercy" value="+1" />
-            <Trait id="Generosity" value="+1" />
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="vla_king_template_bat_m" />
-            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+            <EquipmentSet id="ius_bat_template_flamboyant" />
+            <EquipmentSet id="ius_civ_template_flamboyant"
+                civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_3_1"
-        name="{=lord_iustrium_3_1}Amaury"
+        name="{=lord_iustrium_3_1}Godefroy"
         age="53"
         voice="ironic"
-        default_group="Cavalry"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.iustrium"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_1h_pol_1">
         <face>
             <BodyProperties version="4"
                 age="53"
-                weight="0.6333"
-                build="0.6651"
-                key="0000FC02C000220458C56743D5B5AB56396A8C717B876E66C7B287AB79C2A84B0000000305C96766000000000000000000000000000000000000000000F02000" />
+                weight="0.567"
+                build="0.436"
+                key="0015700D0000194ED68BEBD9456DEFDDBBF78CAEDE66FC4BFEF3ECE45D9CBBCD0097900309A7B99E00000000000000000000000000000000000000005D209105" />
         </face>
-        <skills>
-            <skill id="OneHanded" value="200" />
-            <skill id="Throwing" value="290" />
-            <skill id="Athletics" value="155" />
-            <skill id="Tactics" value="90" />
-            <skill id="Scouting" value="90" />
-            <skill id="Steward" value="140" />
-            <skill id="Medicine" value="140" />
-        </skills>
         <Traits>
-            <Trait id="Mercy" value="+1" />
-            <Trait id="Generosity" value="+1" />
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="vla_king_template_bat_m" />
-            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+            <EquipmentSet id="ius_bat_template_flamboyant" />
+            <EquipmentSet id="ius_civ_template_flamboyant"
+                civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_4_1"
         name="{=lord_iustrium_4_1}Mélisende"
-        age="41"
+        age="36"
         voice="ironic"
         is_female="true"
-        default_group="Cavalry"
+        default_group="Ranged"
         is_hero="true"
         culture="Culture.iustrium"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_xbow_pol_1">
         <face>
             <BodyProperties version="4"
-                age="41"
-                weight="0.300"
-                build="0.6651"
-                key="000044000000000577707780B7C07777C2BB71F7EFF77AA7956746991C7775C70000000505C7966A000000000000000000000000000000000000000000000100" />
+                age="36"
+                weight="0.701"
+                build="0.612"
+                key="0013600D800031C6DC8EDCEFA55998D95BB7875BDC648D8BCFFDFDBD7BDDAEC90079B00307C5DEEF000000000000000000000000000000000000000050F89104" />
         </face>
-        <skills>
-            <skill id="OneHanded" value="200" />
-            <skill id="Throwing" value="290" />
-            <skill id="Athletics" value="155" />
-            <skill id="Tactics" value="90" />
-            <skill id="Scouting" value="90" />
-            <skill id="Steward" value="140" />
-            <skill id="Medicine" value="140" />
-        </skills>
         <Traits>
-            <Trait id="Mercy" value="+1" />
-            <Trait id="Generosity" value="+1" />
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="vla_king_template_bat_m" />
-            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+            <EquipmentSet id="ius_bat_template_heavy" />
+            <EquipmentSet id="ius_civ_template_heavy"
+                civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_5_1"
         name="{=lord_iustrium_5_1}Guy"
         age="41"
         voice="earnest"
-        default_group="Cavalry"
+        default_group="Ranged"
         is_hero="true"
         culture="Culture.iustrium"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_xbow_pol_1">
         <face>
             <BodyProperties version="4"
                 age="41"
-                weight="0.5517"
-                build="0.5949"
-                key="000B60014000234665734C57613665A5354588837351AC1455E8373672131432037980350768BB63000000000000000000000000000000000000000026E01082" />
+                weight="0.567"
+                build="0.436"
+                key="00189008C00013CCC172B9D9333DE2D9A8F15C0ECC24F4392553E53159586973006790030690673C000000000000000000000000000000000000000014D01105" />
         </face>
-        <skills>
-            <skill id="OneHanded" value="200" />
-            <skill id="Throwing" value="290" />
-            <skill id="Athletics" value="155" />
-            <skill id="Tactics" value="90" />
-            <skill id="Scouting" value="90" />
-            <skill id="Steward" value="140" />
-            <skill id="Medicine" value="140" />
-        </skills>
         <Traits>
-            <Trait id="Mercy" value="+1" />
-            <Trait id="Generosity" value="+1" />
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="vla_king_template_bat_m" />
-            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+            <EquipmentSet id="ius_bat_template_heavy" />
+            <EquipmentSet id="ius_civ_template_heavy"
+                civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_6_1"
         name="{=lord_iustrium_6_1}Amaury"
-        age="26"
+        age="28"
         voice="curt"
-        default_group="Cavalry"
+        default_group="HorseArcher"
         is_hero="true"
         culture="Culture.iustrium"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_pol_throw_1">
         <face>
             <BodyProperties version="4"
-                age="26"
-                weight="0.400"
-                build="0.600"
-                key="00006C02C000000977A84702762098CB27AD8D4D54C9895378C97B1E27408574000440040488276B000000000000000000000000000000000000000000780000" />
+                age="28"
+                weight="0.559"
+                build="0.52"
+                key="0013A00B800037CD2A7B6FAC9947EFFC29A88DC51827E96C3EC053398E7D769D00988003099D84AD00000000000000000000000000000000000000002D208104" />
         </face>
-        <skills>
-            <skill id="OneHanded" value="200" />
-            <skill id="Throwing" value="290" />
-            <skill id="Athletics" value="155" />
-            <skill id="Tactics" value="90" />
-            <skill id="Scouting" value="90" />
-            <skill id="Steward" value="140" />
-            <skill id="Medicine" value="140" />
-        </skills>
         <Traits>
-            <Trait id="Mercy" value="+1" />
-            <Trait id="Generosity" value="+1" />
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="vla_king_template_bat_m" />
-            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+            <EquipmentSet id="ius_bat_template_medium" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_7_1"
         name="{=lord_iustrium_7_1}Isabelle"
-        age="41"
+        age="30"
         voice="ironic"
         is_female="true"
-        default_group="Cavalry"
+        default_group="HorseArcher"
         is_hero="true"
         culture="Culture.iustrium"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_xbow_pol_1">
         <face>
             <BodyProperties version="4"
-                age="41"
-                weight="0.300"
-                build="0.6651"
-                key="00006C02C000000977A84702762098CB27AD8D4D54C9895378C97B1E27408574000440040488276B000000000000000000000000000000000000000000780000" />
+                age="30"
+                weight="0.457"
+                build="0.564"
+                key="0020B40A40000190457559EE5114E81088E18A98548485EE5F7380097CA8F39A00587003059A0A33000000000000000000000000000000000000000008B81081" />
         </face>
-        <skills>
-            <skill id="OneHanded" value="200" />
-            <skill id="Throwing" value="290" />
-            <skill id="Athletics" value="155" />
-            <skill id="Tactics" value="90" />
-            <skill id="Scouting" value="90" />
-            <skill id="Steward" value="140" />
-            <skill id="Medicine" value="140" />
-        </skills>
         <Traits>
-            <Trait id="Mercy" value="+1" />
-            <Trait id="Generosity" value="+1" />
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="vla_king_template_bat_m" />
-            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+            <EquipmentSet id="ius_bat_template_medium" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_8_1"
+        name="{=lord_iustrium_8_1}Henry"
+        age="25"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_1h_pol_1">
+        <face>
+            <BodyProperties version="4"
+                age="25"
+                weight="0.567"
+                build="0.436"
+                key="001364014000138CD696EBD9433DEBDABAF46C289B55FC49B8E3E5D35B7C8BCB0087900308A7899C0000000000000000000000000000000000000000690010C5" />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ius_bat_template_low" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
         </Equipments>
     </NPCCharacter>
 </NPCCharacters>

@@ -37,7 +37,7 @@
     <xsl:template match="Culture[@id='empire']/@villager"><xsl:attribute name="villager">NPCCharacter.villager_kratorios</xsl:attribute></xsl:template>
     <xsl:template match="Culture[@id='empire']/@vassal_reward_party_template"><xsl:attribute name="vassal_reward_party_template">PartyTemplate.kratorios_vassal_reward_troops</xsl:attribute></xsl:template>
 
-<!-- Monghatai -->
+    <!-- Monghatai -->
     <xsl:template match="Culture[@id='khuzait']/@name"><xsl:attribute name="name">Monghatai</xsl:attribute></xsl:template>
     <xsl:template match="Culture[@id='khuzait']/@color"><xsl:attribute name="color">0xffF5B365</xsl:attribute></xsl:template>
     <xsl:template match="Culture[@id='khuzait']/@color2"><xsl:attribute name="color2">0xff8D291A</xsl:attribute></xsl:template>

@@ -1,35 +1,20 @@
 <NPCCharacters>
     <NPCCharacter id="lord_lysellois_1_1"
         name="{=lord_lysellois_1_1}Louis"
-        age="33"
+        age="43"
         voice="ironic"
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.lysellois"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_pol_throw_1">
         <face>
             <BodyProperties version="4"
-                age="33"
+                age="43"
                 weight="0.3283"
                 build="0.8553"
                 key="0010240D00580202B379B24D4767849BC78387858587B773A87677498DA05B5D007D560307886597000000000000000000000000000000000000000028E43002" />
         </face>
-        <skills>
-            <skill id="OneHanded"
-                value="200" />
-            <skill id="Throwing"
-                value="290" />
-            <skill id="Athletics"
-                value="155" />
-            <skill id="Tactics"
-                value="90" />
-            <skill id="Scouting"
-                value="90" />
-            <skill id="Steward"
-                value="140" />
-            <skill id="Medicine"
-                value="140" />
-        </skills>
         <Traits>
             <Trait id="Honor"
                 value="+2" />
@@ -45,35 +30,20 @@
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_2_1"
         name="{=lord_lysellois_2_1}François"
-        age="40"
+        age="39"
         voice="ironic"
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.lysellois"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_pol_throw_1">
         <face>
             <BodyProperties version="4"
-                age="40"
+                age="39"
                 weight="0.326"
                 build="0.515"
                 key="0002040A40001241C778F28E389E92A78ABE7B7BA9B1C99CCACEB35988ECF7FB00285003025D8E7D000000000000000000000000000000000000000056578085" />
         </face>
-        <skills>
-            <skill id="OneHanded"
-                value="200" />
-            <skill id="Throwing"
-                value="290" />
-            <skill id="Athletics"
-                value="155" />
-            <skill id="Tactics"
-                value="90" />
-            <skill id="Scouting"
-                value="90" />
-            <skill id="Steward"
-                value="140" />
-            <skill id="Medicine"
-                value="140" />
-        </skills>
         <Traits>
             <Trait id="Mercy"
                 value="+1" />
@@ -83,7 +53,7 @@
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="vla_king_template_civ_m"
+            <EquipmentSet id="lys_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -94,7 +64,8 @@
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.lysellois"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_pol_throw_1">
         <face>
             <BodyProperties version="4"
                 age="53"
@@ -102,22 +73,6 @@
                 build="0.515"
                 key="0010500D80001206C678F17E289E92A789BE7B7B7991B99CBABBB35988EBF6FA00985003094D8E7D0000000000000000000000000000000000000000552E8085" />
         </face>
-        <skills>
-            <skill id="OneHanded"
-                value="200" />
-            <skill id="Throwing"
-                value="290" />
-            <skill id="Athletics"
-                value="155" />
-            <skill id="Tactics"
-                value="90" />
-            <skill id="Scouting"
-                value="90" />
-            <skill id="Steward"
-                value="140" />
-            <skill id="Medicine"
-                value="140" />
-        </skills>
         <Traits>
             <Trait id="Mercy"
                 value="+1" />
@@ -127,7 +82,7 @@
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="vla_king_template_civ_m"
+            <EquipmentSet id="lys_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -139,7 +94,8 @@
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.lysellois"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_1h_pol_1">
         <face>
             <BodyProperties version="4"
                 age="22.16"
@@ -147,22 +103,6 @@
                 build="0.656"
                 key="000D000D00002344966BFF7EEA75B5B77C88864FCB63E7EA676FA3898AD9ECF5008A300308476ECA00000000000000000000000000000000000000005D0C4005" />
         </face>
-        <skills>
-            <skill id="OneHanded"
-                value="200" />
-            <skill id="Throwing"
-                value="290" />
-            <skill id="Athletics"
-                value="155" />
-            <skill id="Tactics"
-                value="90" />
-            <skill id="Scouting"
-                value="90" />
-            <skill id="Steward"
-                value="140" />
-            <skill id="Medicine"
-                value="140" />
-        </skills>
         <Traits>
             <Trait id="Mercy"
                 value="+1" />
@@ -171,42 +111,27 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="vla_king_template_civ_m"
+            <EquipmentSet id="lys_bat_template_heavy" />
+            <EquipmentSet id="lys_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_5_1"
         name="{=lord_lysellois_5_1}Hubert"
-        age="37"
+        age="35"
         voice="earnest"
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.lysellois"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_1h_pol_1">
         <face>
             <BodyProperties version="4"
-                age="37"
+                age="35"
                 weight="0.279"
                 build="0.62"
                 key="0008200E4000210B5B64E6BF5DBA89D3146871B250D61E147BBDCEB68BD5C1890049400304C21C07000000000000000000000000000000000000000030780100" />
         </face>
-        <skills>
-            <skill id="OneHanded"
-                value="200" />
-            <skill id="Throwing"
-                value="290" />
-            <skill id="Athletics"
-                value="155" />
-            <skill id="Tactics"
-                value="90" />
-            <skill id="Scouting"
-                value="90" />
-            <skill id="Steward"
-                value="140" />
-            <skill id="Medicine"
-                value="140" />
-        </skills>
         <Traits>
             <Trait id="Mercy"
                 value="+1" />
@@ -215,8 +140,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="vla_king_template_civ_m"
+            <EquipmentSet id="lys_bat_template_heavy" />
+            <EquipmentSet id="lys_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -227,7 +152,8 @@
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.lysellois"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_xbow_1h_1">
         <face>
             <BodyProperties version="4"
                 age="31"
@@ -235,22 +161,6 @@
                 build="0.62"
                 key="000D680D800032845C7AE9BF5EBBACE3456871B583D62E968DCECECC8BD6C1890099400309C54C2E000000000000000000000000000000000000000037315100" />
         </face>
-        <skills>
-            <skill id="OneHanded"
-                value="200" />
-            <skill id="Throwing"
-                value="290" />
-            <skill id="Athletics"
-                value="155" />
-            <skill id="Tactics"
-                value="90" />
-            <skill id="Scouting"
-                value="90" />
-            <skill id="Steward"
-                value="140" />
-            <skill id="Medicine"
-                value="140" />
-        </skills>
         <Traits>
             <Trait id="Mercy"
                 value="+1" />
@@ -259,8 +169,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="vla_king_template_civ_m"
+            <EquipmentSet id="lys_bat_template_medium" />
+            <EquipmentSet id="lys_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -272,7 +182,8 @@
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.lysellois"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_xbow_1h_1">
         <face>
             <BodyProperties version="4"
                 age="28"
@@ -280,22 +191,6 @@
                 build="0.671"
                 key="0002380D00003115BF83FE44B6CAB875BF4B859786D1C3C2CC9FABB185B9EAB5006A40030638A9DF000000000000000000000000000000000000000062D73004" />
         </face>
-        <skills>
-            <skill id="OneHanded"
-                value="200" />
-            <skill id="Throwing"
-                value="290" />
-            <skill id="Athletics"
-                value="155" />
-            <skill id="Tactics"
-                value="90" />
-            <skill id="Scouting"
-                value="90" />
-            <skill id="Steward"
-                value="140" />
-            <skill id="Medicine"
-                value="140" />
-        </skills>
         <Traits>
             <Trait id="Mercy"
                 value="+1" />
@@ -304,8 +199,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="vla_king_template_civ_m"
+            <EquipmentSet id="lys_bat_template_medium" />
+            <EquipmentSet id="lys_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -316,7 +211,8 @@
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.lysellois"
-        occupation="Lord">
+        occupation="Lord"
+        skill_template="SkillSet.lord_1h_pol_1">
         <face>
             <BodyProperties version="4"
                 age="26"
@@ -324,22 +220,6 @@
                 build="0.62"
                 key="0009080C400033435C7AEACE566BBC73456871B583D62E968DCECECC8BD6C18A0079400307C65C8F000000000000000000000000000000000000000004E15041" />
         </face>
-        <skills>
-            <skill id="OneHanded"
-                value="200" />
-            <skill id="Throwing"
-                value="290" />
-            <skill id="Athletics"
-                value="155" />
-            <skill id="Tactics"
-                value="90" />
-            <skill id="Scouting"
-                value="90" />
-            <skill id="Steward"
-                value="140" />
-            <skill id="Medicine"
-                value="140" />
-        </skills>
         <Traits>
             <Trait id="Mercy"
                 value="+1" />
@@ -348,8 +228,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="vla_king_template_civ_m"
+            <EquipmentSet id="lys_bat_template_low" />
+            <EquipmentSet id="lys_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
