@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Heroes>
+   <Hero id="lord_kratorios_1_1" faction="Faction.clan_kratorios_1" />
+   <Hero id="lord_kratorios_2_1" faction="Faction.clan_kratorios_2" />
+   <Hero id="lord_kratorios_3_1" faction="Faction.clan_kratorios_3" />
+   <Hero id="lord_kratorios_4_1" faction="Faction.clan_kratorios_4" />
+   <Hero id="lord_kratorios_5_1" faction="Faction.clan_kratorios_5" />
+   <Hero id="lord_kratorios_6_1" faction="Faction.clan_kratorios_6" />
+   <Hero id="lord_kratorios_7_1" faction="Faction.clan_kratorios_7" />
+   <Hero id="lord_kratorios_8_1" faction="Faction.clan_kratorios_8" />
+</Heroes>

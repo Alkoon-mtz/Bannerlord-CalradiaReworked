@@ -15,62 +15,64 @@
     <xsl:template match="Settlement[@id='village_A7_4']/@posY"><xsl:attribute name='posY'>95.161</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_EW6_4']/Components/Village/@bound"> <xsl:attribute name='bound'>Settlement.town_EW6</xsl:attribute> </xsl:template>
     
+    <xsl:template match="Settlement[@id='town_TT1']/@owner"><xsl:attribute name='owner'>Faction.clan_empire_west_1</xsl:attribute></xsl:template>
+
     <!-- Cereann -->
     <!-- Cities -->
-    <xsl:template match="Settlement[@id='town_B1']/@owner"><xsl:attribute name='owner'>Faction.clan_battania_1</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_B1']/@owner"><xsl:attribute name='owner'>Faction.clan_cereann_1</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_B1']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_B1_1']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_B1_2']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_B1_3']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_B1_4']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='town_B3']/@owner"><xsl:attribute name='owner'>Faction.clan_battania_2</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_B3']/@owner"><xsl:attribute name='owner'>Faction.clan_cereann_2</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_B3']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_B3_1']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_B3_2']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_B3_3']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_B7_3']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='town_B4']/@owner"><xsl:attribute name='owner'>Faction.clan_battania_3</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_B4']/@owner"><xsl:attribute name='owner'>Faction.clan_cereann_3</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_B4']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_B4_1']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_B4_2']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_B4_3']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_B4_4']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='town_B2']/@owner"><xsl:attribute name='owner'>Faction.clan_battania_4</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_B2']/@owner"><xsl:attribute name='owner'>Faction.clan_cereann_4</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_B2']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_B2_1']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_B2_2']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_B2_3']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='town_B5']/@owner"><xsl:attribute name='owner'>Faction.clan_battania_5</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_B5']/@owner"><xsl:attribute name='owner'>Faction.clan_cereann_5</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_B5']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_B5_1']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_B5_2']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_B5_3']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <!-- Castles -->
-    <xsl:template match="Settlement[@id='castle_B5']/@owner"><xsl:attribute name='owner'>Faction.clan_battania_1</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_B5']/@owner"><xsl:attribute name='owner'>Faction.clan_cereann_1</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_B5']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_B5_1']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_B5_2']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='castle_B3']/@owner"><xsl:attribute name='owner'>Faction.clan_battania_2</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_B3']/@owner"><xsl:attribute name='owner'>Faction.clan_cereann_2</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_B3']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_B3_1']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_B3_2']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='castle_B8']/@owner"><xsl:attribute name='owner'>Faction.clan_battania_3</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_B8']/@owner"><xsl:attribute name='owner'>Faction.clan_cereann_3</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_B8']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_B8_1']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_B8_2']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='castle_B7']/@owner"><xsl:attribute name='owner'>Faction.clan_battania_4</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_B7']/@owner"><xsl:attribute name='owner'>Faction.clan_cereann_4</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_B7']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_B7_1']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_B7_2']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='castle_B2']/@owner"><xsl:attribute name='owner'>Faction.clan_battania_5</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_B2']/@owner"><xsl:attribute name='owner'>Faction.clan_cereann_5</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_B2']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_B2_1']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_B2_2']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='castle_B4']/@owner"><xsl:attribute name='owner'>Faction.clan_battania_6</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_B4']/@owner"><xsl:attribute name='owner'>Faction.clan_cereann_6</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_B4']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_B4_1']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_B4_2']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='castle_EW5']/@owner"><xsl:attribute name='owner'>Faction.clan_battania_7</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_EW5']/@owner"><xsl:attribute name='owner'>Faction.clan_cereann_7</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_EW5']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_EW5_1']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_EW5_2']/@culture"><xsl:attribute name='culture'>Culture.battania</xsl:attribute></xsl:template>
@@ -136,64 +138,64 @@
     
     <!-- Kratorios -->
     <!-- Cities -->
-    <xsl:template match="Settlement[@id='town_ES3']/@owner"><xsl:attribute name='owner'>Faction.clan_empire_south_1</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_ES3']/@owner"><xsl:attribute name='owner'>Faction.clan_kratorios_1</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_ES3']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_ES3_1']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_ES3_2']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_ES3_3']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='town_ES6']/@owner"><xsl:attribute name='owner'>Faction.clan_empire_south_2</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_ES6']/@owner"><xsl:attribute name='owner'>Faction.clan_kratorios_2</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_ES6']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_ES6_1']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_ES6_2']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_ES8_3']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='town_EW3']/@owner"><xsl:attribute name='owner'>Faction.clan_empire_south_3</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_EW3']/@owner"><xsl:attribute name='owner'>Faction.clan_kratorios_3</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_EW3']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_EW3_1']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_EW3_2']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_EW3_3']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='town_EW6']/@owner"><xsl:attribute name='owner'>Faction.clan_empire_south_4</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_EW6']/@owner"><xsl:attribute name='owner'>Faction.clan_kratorios_4</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_EW6']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_EW6_1']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='rhoanne_EW6_2']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_EW6_3']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_EW6_4']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='town_EW5']/@owner"><xsl:attribute name='owner'>Faction.clan_empire_south_5</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_EW5']/@owner"><xsl:attribute name='owner'>Faction.clan_kratorios_5</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_EW5']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_EW5_1']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_EW5_2']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_EW2_3']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='town_ES4']/@owner"><xsl:attribute name='owner'>Faction.clan_empire_south_6</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_ES4']/@owner"><xsl:attribute name='owner'>Faction.clan_kratorios_6</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_ES4']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_ES4_1']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_ES4_2']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_ES4_3']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='town_EW2']/@owner"><xsl:attribute name='owner'>Faction.clan_empire_south_7</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_EW2']/@owner"><xsl:attribute name='owner'>Faction.clan_kratorios_7</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_EW2']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_EW2_2']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_EW2_3']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_EW2_4']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <!-- Castles -->
-    <xsl:template match="Settlement[@id='castle_EW3']/@owner"><xsl:attribute name='owner'>Faction.clan_empire_south_1</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_EW3']/@owner"><xsl:attribute name='owner'>Faction.clan_kratorios_1</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_EW3']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_EW3_1']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_EW3_2']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='castle_ES8']/@owner"><xsl:attribute name='owner'>Faction.clan_empire_south_2</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_ES8']/@owner"><xsl:attribute name='owner'>Faction.clan_kratorios_2</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_ES8']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_ES8_1']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_ES8_2']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='castle_EN6']/@owner"><xsl:attribute name='owner'>Faction.clan_empire_south_4</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_EN6']/@owner"><xsl:attribute name='owner'>Faction.clan_kratorios_4</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_EN6']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_EN6_1']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_EN6_2']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='castle_EW2']/@owner"><xsl:attribute name='owner'>Faction.clan_empire_south_5</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_EW2']/@owner"><xsl:attribute name='owner'>Faction.clan_kratorios_5</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_EW2']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_EW2_1']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_EW2_2']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='castle_ES6']/@owner"><xsl:attribute name='owner'>Faction.clan_empire_south_6</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_ES6']/@owner"><xsl:attribute name='owner'>Faction.clan_kratorios_6</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_ES6']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_ES6_1']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_ES6_2']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
-    <xsl:template match="Settlement[@id='castle_EN4']/@owner"><xsl:attribute name='owner'>Faction.clan_empire_south_6</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_EN4']/@owner"><xsl:attribute name='owner'>Faction.clan_kratorios_6</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_EN4']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_EN4_1']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_EN4_2']/@culture"><xsl:attribute name='culture'>Culture.empire</xsl:attribute></xsl:template>

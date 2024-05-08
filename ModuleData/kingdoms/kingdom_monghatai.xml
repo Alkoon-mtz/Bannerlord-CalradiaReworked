@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Kingdoms>
+    <Kingdom id="khuzait"
+        owner="Hero.lord_6_1"
+        banner_key="11.37.14.4000.4000.764.764.0.0.0.461.14.14.500.500.764.764.1.0.0.504.14.14.100.100.1019.1099.0.0.0.504.14.14.100.100.934.1099.0.0.0.504.14.14.100.100.849.1099.0.0.0.504.14.14.100.100.764.1099.0.0.0.504.14.14.100.100.509.1099.0.0.0.504.14.14.100.100.594.1099.0.0.0.504.14.14.100.100.679.1099.0.0.0.504.14.14.100.100.1019.429.0.1.180.504.14.14.100.100.934.429.0.1.180.504.14.14.100.100.849.429.0.1.180.504.14.14.100.100.764.429.0.1.180.504.14.14.100.100.509.429.0.1.180.504.14.14.100.100.594.429.0.1.180.504.14.14.100.100.679.429.0.1.180"
+        primary_banner_color="0xffF5B365"
+        secondary_banner_color="0xff8D291A"
+        label_color="FFF5B365"
+        color="FFF5B365"
+        color2="FF8D291A"
+        alternative_color="FF8D291A"
+        alternative_color2="FFF5B365"
+        culture="Culture.khuzait"
+        settlement_banner_mesh="encounter_flag_f"
+        flag_mesh="info_screen_flags_b"
+        name="{=sZLd6VHi}Monghatai Khanate"
+        short_name="{=vJOWy1QF}Monghatais"
+        title="{=bF7HmNGQ}Monghatai Khanate"
+        ruler_title="{=hwnp9abW}Khan"
+        text="{=fGNdo1BK}Nomadic tribes unified under a single leader">
+        <relationships>
+            <relationship kingdom="Kingdom.sturgia"
+                value="-1"
+                isAtWar="true" />
+        </relationships>
+    </Kingdom>
+</Kingdoms>

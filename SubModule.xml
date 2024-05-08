@@ -12,6 +12,7 @@
         <DependedModule Id="StoryMode"/>
         <DependedModule Id="swadian armoury"/>
         <DependedModule Id="OpenSourceArmory"/>
+        <DependedModule Id="CalradiaExpanded"/>
     </DependedModules>
     <SubModules>
         <SubModule>

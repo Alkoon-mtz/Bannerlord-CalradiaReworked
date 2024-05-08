@@ -87,10 +87,8 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <!--<Hero id="spc_notable_vlandia_merch4" faction="Kingdom.vlandia" />-->
         <skills></skills>
         <Traits>
-            <!-- Add skill groups -->
             <Trait id="Commander"
                 value="1" />
             <Trait id="Valor"
@@ -116,10 +114,8 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <!--<Hero id="spc_notable_vlandia_merch5" faction="Kingdom.vlandia" />-->
         <skills></skills>
         <Traits>
-            <!-- Add skill groups -->
             <Trait id="Commander"
                 value="2" />
             <Trait id="Valor"
@@ -146,10 +142,8 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <!--<Hero id="spc_notable_vlandia_1" faction="Kingdom.vlandia" />-->
         <skills></skills>
         <Traits>
-            <!-- Add skill groups -->
             <Trait id="Valor"
                 value="-1" />
             <Trait id="Calculating"
@@ -174,10 +168,8 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <!--<Hero id="spc_notable_vlandia_1b" faction="Kingdom.vlandia" />-->
         <skills></skills>
         <Traits>
-            <!-- Add skill groups -->
             <Trait id="Commander"
                 value="2" />
             <Trait id="Valor"
@@ -203,10 +195,8 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <!--<Hero id="spc_notable_vlandia_2" faction="Kingdom.vlandia" />-->
         <skills></skills>
         <Traits>
-            <!-- Add skill groups -->
             <Trait id="Generosity"
                 value="-1" />
             <Trait id="Honor"
@@ -230,10 +220,8 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <!--<Hero id="spc_notable_vlandia_3" faction="Kingdom.vlandia" />-->
         <skills></skills>
         <Traits>
-            <!-- Add skill groups -->
             <Trait id="Generosity"
                 value="1" />
             <Trait id="Honor"
@@ -257,7 +245,6 @@
         <face>
             <face_key_template value="BodyProperty.fighter_vlandia" />
         </face>
-        <!--<Hero id="spc_notable_vlandia_4" faction="Kingdom.vlandia" />-->
         <Traits>
             <Trait id="Valor"
                 value="1" />
@@ -281,7 +268,6 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <!--<Hero id="spc_notable_vlandia_gang_leader_2" faction="Kingdom.vlandia" />-->
         <Traits>
             <Trait id="Valor"
                 value="1" />
@@ -305,7 +291,6 @@
         <face>
             <face_key_template value="BodyProperty.fighter_vlandia" />
         </face>
-        <!--<Hero id="spc_notable_vlandia_gang_leader_2" faction="Kingdom.vlandia" />-->
         <Traits>
             <Trait id="Valor"
                 value="1" />
@@ -333,7 +318,6 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <!--<Hero id="spc_notable_vlandia_artisan_1" faction="Kingdom.vlandia" />-->
         <Traits>
             <Trait id="Generosity"
                 value="1" />
@@ -354,7 +338,6 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <!--<Hero id="spc_notable_vlandia_artisan_2" faction="Kingdom.vlandia" />-->
         <Traits>
             <Trait id="Calculating"
                 value="1" />
@@ -375,7 +358,6 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <!--<Hero id="spc_notable_vlandia_rural_2" faction="Kingdom.vlandia" />-->
         <Traits>
             <Trait id="Generosity"
                 value="1" />
@@ -397,7 +379,6 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <!--<Hero id="spc_notable_vlandia_rural_2" faction="Kingdom.vlandia" />-->
         <Traits>
             <Trait id="Generosity"
                 value="1" />
@@ -418,7 +399,6 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <!--<Hero id="spc_notable_vlandia_rural_2" faction="Kingdom.vlandia" />-->
         <Traits>
             <Trait id="Calculating"
                 value="1" />
@@ -442,7 +422,6 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <!--<Hero id="spc_notable_vlandia_rural_2" faction="Kingdom.vlandia" />-->
         <Traits>
             <Trait id="Calculating"
                 value="1" />
@@ -466,7 +445,6 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <!--<Hero id="spc_notable_vlandia_4" faction="Kingdom.vlandia" />-->
         <skills></skills>
         <Traits>
             <Trait id="FrankishHair"
@@ -494,7 +472,6 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <!--<Hero id="spc_notable_vlandia_4" faction="Kingdom.vlandia" />-->
         <skills></skills>
         <Traits>
             <Trait id="FrankishHair"
@@ -521,7 +498,6 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <!--<Hero id="spc_notable_vlandia_4" faction="Kingdom.vlandia" />-->
         <skills></skills>
         <Traits>
             <Trait id="FrankishHair"

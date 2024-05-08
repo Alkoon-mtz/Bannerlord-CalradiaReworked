@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Kingdoms>
+    <Kingdom id="battania"
+        owner="Hero.lord_cereann_1_1"
+        banner_key="11.2.2.4345.4345.764.764.1.0.0.500.80.2.600.600.764.764.0.0.0.415.80.2.195.195.764.592.0.0.45.415.80.2.195.195.764.936.0.0.45.415.80.2.195.195.592.764.0.0.45.415.80.2.195.195.936.764.0.0.45.527.80.2.75.100.834.694.0.0.45.527.80.2.75.100.694.694.0.1.315.527.80.2.75.100.694.834.0.0.-135.527.80.2.75.100.834.834.0.1.135.510.80.2.150.75.689.594.0.0.90.510.80.2.150.75.839.594.0.0.90.510.80.2.150.75.934.689.0.0.0.510.80.2.150.75.934.839.0.0.0.510.80.2.150.75.839.934.0.0.90.510.80.2.150.75.689.934.0.0.90.510.80.2.150.75.594.839.0.0.0.510.80.2.150.75.594.689.0.0.0.413.80.2.150.150.764.764.0.0.50"
+        primary_banner_color="0xff284E19"
+        secondary_banner_color="0xffD08E54"
+        label_color="FF284E19"
+        color="FF284E19"
+        color2="FFD08E54"
+        alternative_color="FFD08E54"
+        alternative_color2="FF284E19"
+        culture="Culture.battania"
+        settlement_banner_mesh="encounter_flag_e"
+        flag_mesh="info_screen_flags_b"
+        name="{=0B27RrYJ}Cereann Union"
+        short_name="{=bgjiFSHZ}Cereanns"
+        title="{=qaDIU0XC}Cereann Union"
+        ruler_title="{=afvM7XpQ}Chief"
+        text="{=ZjaaAoxd}Trying to survive in their woods">
+        <relationships></relationships>
+    </Kingdom>
+</Kingdoms>

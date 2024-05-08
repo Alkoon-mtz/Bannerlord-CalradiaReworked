@@ -17,7 +17,11 @@
         title="{=QG_kingdom_title}Qinguo State"
         ruler_title="{=isnp9abW}Supreme Leader"
         text="{=QG_text}Once a great empire, they got hard times against cavalry coming from the north">
-        <relationships></relationships>
+        <relationships>
+            <relationship kingdom="Kingdom.kingdom_kratorios"
+                value="-1"
+                isAtWar="true" />
+        </relationships>
         <policies>
             <policy id="policy_royal_guard" />
         </policies>

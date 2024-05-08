@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Kingdoms>
+    <Kingdom id="kingdom_kratorios"
+        owner="Hero.lord_kratorios_1_1"
+        banner_key="11.4.4.4345.4345.764.764.1.0.0.423.9.9.600.600.764.764.0.0.0.106.9.9.400.400.764.764.0.0.0"
+        primary_banner_color="0xff382188"
+        secondary_banner_color="0xffFFAD54"
+        label_color="FF382188"
+        color="FF382188"
+        color2="FFFFAD54"
+        alternative_color="FFFFAD54"
+        alternative_color2="FF382188"
+        culture="Culture.empire"
+        settlement_banner_mesh="encounter_flag_a"
+        flag_mesh="info_screen_flags_b"
+        name="{=frBQ9mbP}Kratorios Empire"
+        short_name="{=GbnlN6na}Kratori"
+        title="{=frBQ9mbP}Kratorios Empire"
+        ruler_title="{=OoHhCa11}Emperor"
+        text="{=Xtyb9Dyr}An emerging empire trying to unify the continent">
+        <relationships>
+            <relationship kingdom="Kingdom.kingdom_qinguo"
+                value="-1"
+                isAtWar="true" />
+        </relationships>
+        <policies>
+            <policy id="policy_royal_privilege" />
+        </policies>
+    </Kingdom>
+</Kingdoms>

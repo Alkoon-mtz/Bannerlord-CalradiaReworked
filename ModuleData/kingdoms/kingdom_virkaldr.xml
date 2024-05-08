@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Kingdoms>
+    <Kingdom id="sturgia"
+        owner="Hero.lord_2_1"
+        banner_key="11.16.72.4922.4922.764.764.1.0.0.514.72.16.300.300.764.834.0.1.180.506.72.16.150.150.914.734.0.1.0.506.72.16.150.150.844.664.0.1.0.506.72.16.150.150.614.734.0.1.0.506.72.16.150.150.684.664.0.1.0.506.72.16.150.150.764.634.0.1.0.504.72.16.25.100.684.564.0.1.0.504.72.16.25.100.614.634.0.1.0.504.72.16.25.100.764.534.0.1.0.504.72.16.25.100.844.564.0.1.0.504.72.16.25.100.914.634.0.1.0.500.72.16.625.625.764.749.0.1.180.434.72.16.300.400.399.754.0.0.0.434.72.16.300.400.1129.754.0.1.0"
+        primary_banner_color="0xff6BD5DC"
+        secondary_banner_color="0xff00A0BA"
+        label_color="FF6BD5DC"
+        color="FF6BD5DC"
+        color2="FF00A0BA"
+        alternative_color="FF00A0BA"
+        alternative_color2="FF6BD5DC"
+        culture="Culture.sturgia"
+        settlement_banner_mesh="encounter_flag_b"
+        flag_mesh="info_screen_flags_c"
+        name="{=PjO7oY16}Virkaldr Jarland"
+        short_name="{=C4qjBqLO}Virkaldir"
+        title="{=iYCR3xuQ}Virkaldr Jarland"
+        ruler_title="{=FmbgPGBL}High Jarl"
+        text="{=bVihnRUu}Living in the hard cold north, seeking for a thing called sun">
+        <relationships>
+            <relationship kingdom="Kingdom.khuzait"
+                value="-1"
+                isAtWar="true" />
+        </relationships>
+    </Kingdom>
+</Kingdoms>

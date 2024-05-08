@@ -17,7 +17,11 @@
         title="{=IS_kingdom_title}Iustrium Principalities"
         ruler_title="{=isnp9abW}Prince"
         text="{=IS_text}Deus lo Vult">
-        <relationships></relationships>
+        <relationships>
+            <relationship kingdom="Kingdom.aserai"
+                value="-1"
+                isAtWar="true" />
+        </relationships>
         <policies>
             <policy id="policy_royal_guard" />
         </policies>

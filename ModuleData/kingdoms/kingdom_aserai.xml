@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Kingdoms>
+    <Kingdom id="aserai"
+        owner="Hero.lord_3_1"
+        banner_key="11.0.0.4345.4345.764.764.1.0.0.463.1.1.466.466.764.764.1.0.0"
+        primary_banner_color="0xffB57A1E"
+        secondary_banner_color="0xff4E1A13"
+        label_color="FFB57A1E"
+        color="FFB57A1E"
+        color2="FF4E1A13"
+        alternative_color="FF4E1A13"
+        alternative_color2="FFB57A1E"
+        culture="Culture.aserai"
+        settlement_banner_mesh="encounter_flag_c"
+        flag_mesh="info_screen_flags_a"
+        name="{=aseraifaction}Aserai Sultanate"
+        short_name="{=aseraimembers}Aserai"
+        title="{=UsbwPmYb}Aserai Sultanate"
+        ruler_title="{=5djtBrHj}Sultan"
+        text="{=qggtvf8Y}The Empire always preferred not to send its legions into the army-devouring wastes of the Nahasa. Instead, it projected its power into this borderland by cultivating client rulers among the clans, who competed in an endless dance of power. Those clans that could secure a hold on the oases won an imperial subsidy to protect passing caravans and grew rich. Those who could not were pushed into the desert, left to raise goats and raid caravans until they could plot a comeback. Today, with the waning of the empire, the Aserai have agreed to form a confederacy under a sultan chosen from richest of the clans, the Banu Hulyan. But everyone knows that the dance has only temporarily been stopped, and at the right moment it will begin again.">
+        <relationships>
+            <relationship kingdom="Kingdom.kingdom_iustrium"
+                value="-1"
+                isAtWar="true" />
+        </relationships>
+    </Kingdom>
+</Kingdoms>

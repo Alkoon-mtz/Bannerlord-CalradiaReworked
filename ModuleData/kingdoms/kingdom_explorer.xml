@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Kingdoms>
+    <!-- <Kingdom id="empire_w"
+        owner="Hero.lord_1_7"
+        banner_key="11.100.0.4345.4345.764.764.0.0.0.342.115.1.358.358.764.764.0.0.0"
+        primary_banner_color="0xff332C4D"
+        secondary_banner_color="0xff8FD1DD"
+        label_color="FF332C4D"
+        color="FF332C4D"
+        color2="FF8FD1DDF"
+        alternative_color="FF8FD1DD"
+        alternative_color2="FF332C4D"
+        culture="Culture.empire"
+        settlement_banner_mesh="encounter_flag_a"
+        flag_mesh="info_screen_flags_b"
+        name="Explorer Guild"
+        short_name="Explorers"
+        title="Explorer Guild"
+        ruler_title="Dean"
+        text="Protecting and exploring.">
+        <relationships></relationships>
+    </Kingdom> -->
+</Kingdoms>

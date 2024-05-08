@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+    <NPCCharacter id="lord_cereann_1_1"
+        name="{=8auuZ79h}Nywin"
+        age="37"
+        voice="ironic"
+        is_hero="true"
+        is_female="true"
+        default_group="Cavalry"
+        culture="Culture.battania"
+        occupation="Lord"
+        face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4"
+                weight="0.7967"
+                build="0.8773"
+                key="00056802C07000108879465A53347C94973C75A5778495489D65EC3275332456029DC62409783641000000000000000000000000000000000000000073342082" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <!-- NONCOMBATANT FEMALE -->
+            <Trait id="Commander"
+                value="12" />
+            <Trait id="Politician"
+                value="10" />
+            <Trait id="Manager"
+                value="10" />
+            <!-- Nywin, Ergeon's younger wife. Should have her own lands. Devious, but kind. -->
+            <Trait id="Honor"
+                value="-1" />
+            <Trait id="Mercy"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="bat_bat_template_lady" />
+            <EquipmentSet id="bat_noncom_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_2_1"
+        name="{=cL1lO5iP}Ergeon"
+        age="43"
+        voice="softspoken"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4"
+                weight="0.7083"
+                build="0.6528"
+                key="00083C070000238696333724947BC936C948765C8A747896ACA8A26C988A18B608CAB4890CA97C65000000000000000000000000000000000000000001985000" />
+        </face>
+        <Traits>
+            <Trait id="BalancedFightingSkills"
+                value="4" />
+            <Trait id="Commander"
+                value="10" />
+            <Trait id="Politician"
+                value="14" />
+            <Trait id="Manager"
+                value="16" />
+            <!-- Ergeon fen Derngil, submits to Caradog because he recognizes his capacity to lead, cautious -->
+            <Trait id="Mercy"
+                value="1" />
+            <Trait id="Honor"
+                value="1" />
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="bat_bat_template_medium" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_3_1"
+        name="{=d8D98oFG}Melidir"
+        voice="softspoken"
+        age="48"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4"
+                weight="0.7017"
+                build="0.6334"
+                key="000268070000244226700A207474A3848C9A751498816EA389779E6A832A155105AAB0560A65B64200000000000000000000000000000000000000005F5870C2" />
+        </face>
+        <Traits>
+            <Trait id="BalancedFightingSkills"
+                value="4" />
+            <Trait id="Commander"
+                value="8" />
+            <Trait id="Politician"
+                value="12" />
+            <Trait id="Manager"
+                value="10" />
+            <!-- Meledir fen Uvain, unctuous  -->
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Honor"
+                value="-1" />
+            <Trait id="Generosity"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="bat_bat_template_flamboyant" />
+            <EquipmentSet id="bat_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_4_1"
+        name="{=bDMmX9YI}Luichan"
+        age="25"
+        voice="earnest"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4"
+                weight="0.7876"
+                build="0.6364"
+                key="000030058000000189620C2443356B748A587DDD9DB1A81478979D548215430103CAC0350C495C1500000000000000000000000000000000000000006B904040" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills"
+                value="8" />
+            <Trait id="Commander"
+                value="12" />
+            <Trait id="Politician"
+                value="6" />
+            <Trait id="Manager"
+                value="10" />
+            <Trait id="Honor"
+                value="1" />
+            <Trait id="Generosity"
+                value="1" />
+            <Trait id="Calculating"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="bat_bat_template_medium" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_5_1"
+        name="{=8LXDxyr2}Liasin"
+        age="35"
+        voice="ironic"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4"
+                weight="0.5"
+                build="0.5"
+                key="0005600A002C2004569443C64645995CDA6B7ABA5BC4357B7C8694BC995E487801A776130A87872B00000000000000000000000000000000000000001B443083" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Politician"
+                value="12" />
+            <Trait id="Manager"
+                value="2" />
+            <Trait id="Mercy"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="bat_bat_template_medium" />
+            <EquipmentSet id="bat_noncom_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_6_1"
+        name="{=kuOs90Uh}Aradwyr"
+        age="24"
+        voice="ironic"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4"
+                weight="0.67"
+                build="0.8069"
+                key="00050005800013481D61091C75439996538775CE780133A738967B5982154B12047CA04607449413000000000000000000000000000000000000000002F05100" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills"
+                value="5" />
+            <Trait id="Commander"
+                value="12" />
+            <Trait id="Politician"
+                value="8" />
+            <Trait id="Manager"
+                value="10" />
+            <Trait id="Calculating"
+                value="1" />
+            <Trait id="Mercy"
+                value="1" />
+            <Trait id="Honor"
+                value="-1" />
+            <Trait id="Valor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="bat_bat_template_medium" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_7_1"
+        name="{=tHtt3HCn}Pryndor"
+        age="48"
+        voice="curt"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4"
+                weight="0.7362"
+                build="0.6653"
+                key="0000600700001383AB62191815359CA8721876941F21B4384969AC5A8215275203AAB0350A57868200000000000000000000000000000000000000006F483042" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills"
+                value="8" />
+            <Trait id="Commander"
+                value="14" />
+            <Trait id="Politician"
+                value="10" />
+            <Trait id="Manager"
+                value="8" />
+            <Trait id="Valor"
+                value="1" />
+            <Trait id="Mercy"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="bat_bat_template_heavy" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_8_1"
+        name="{=ktPP2R1i}Guaran"
+        age="38"
+        voice="earnest"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4"
+                weight="0.5"
+                build="0.5"
+                key="00058C02C03C07C249A67962000F269EE3EFFE7528914639236B99548BFBD5A5010006890F9CA7B60000000000000000000000000000000000000000019C5104" />
+        </face>
+        <Traits>
+            <Trait id="BalancedFightingSkills"
+                value="6" />
+            <Trait id="Commander"
+                value="10" />
+            <Trait id="Politician"
+                value="6" />
+            <Trait id="Manager"
+                value="10" />
+            <!-- Son, wants to do other things with the clan -->
+            <Trait id="Mercy"
+                value="1" />
+            <Trait id="Generosity"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_medium" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

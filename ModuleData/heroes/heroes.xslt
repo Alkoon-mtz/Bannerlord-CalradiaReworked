@@ -62,8 +62,8 @@
     <xsl:template match="NPCCharacter[@id='lord_A9_u']"/> -->
     
     <!-- Battania -->
-    <!-- <xsl:template match="Hero[@id='lord_5_1']"/> -->
-    <!-- <xsl:template match="Hero[@id='lord_5_3_1']"/>
+    <xsl:template match="Hero[@id='lord_5_1']"/>
+    <xsl:template match="Hero[@id='lord_5_3_1']"/>
     <xsl:template match="Hero[@id='lord_5_4']"/>
     <xsl:template match="Hero[@id='lord_5_5']"/>
     <xsl:template match="Hero[@id='lord_5_6']"/>
@@ -102,11 +102,11 @@
     <xsl:template match="Hero[@id='lord_5_21_1']"/>
     <xsl:template match="Hero[@id='lord_5_21_2']"/>
     <xsl:template match="Hero[@id='lord_B8_s']"/>
-    <xsl:template match="Hero[@id='lord_B8_c']"/> -->
+    <xsl:template match="Hero[@id='lord_B8_c']"/>
     
     <!-- Empire North -->
-    <!-- <xsl:template match="Hero[@id='lord_1_1']"/> -->
-    <!-- <xsl:template match="Hero[@id='lord_1_2']"/> -->
+    <xsl:template match="Hero[@id='lord_1_1']"/>
+    <xsl:template match="Hero[@id='lord_1_2']"/>
     <xsl:template match="Hero[@id='lord_1_41']"/>
     <xsl:template match="Hero[@id='lord_1_411']"/>
     <xsl:template match="Hero[@id='lord_1_31']"/>
@@ -158,8 +158,8 @@
     <xsl:template match="Hero[@id='lord_NE9_d']"/>
     
     <!-- Empire South -->
-    <!-- <xsl:template match="Hero[@id='lord_1_14']"/> -->
-    <!-- <xsl:template match="Hero[@id='lord_1_27']"/>
+    <xsl:template match="Hero[@id='lord_1_14']"/>
+    <xsl:template match="Hero[@id='lord_1_27']"/>
     <xsl:template match="Hero[@id='lord_1_27_1']"/>
     <xsl:template match="Hero[@id='lord_1_27_2']"/>
     <xsl:template match="Hero[@id='lord_1_27_3']"/>
@@ -211,12 +211,12 @@
     <xsl:template match="Hero[@id='lord_SE9_l']"/>
     <xsl:template match="Hero[@id='lord_SE9_s']"/>
     <xsl:template match="Hero[@id='lord_SE9_c1']"/>
-    <xsl:template match="Hero[@id='lord_SE9_c2']"/> -->
+    <xsl:template match="Hero[@id='lord_SE9_c2']"/>
     
     <!-- Empire West -->
     <!-- <xsl:template match="Hero[@id='lord_1_7']"/> -->
     <!-- <xsl:template match="Hero[@id='lord_1_8']"/> -->
-    <!-- <xsl:template match="Hero[@id='lord_1_75']"/>
+    <xsl:template match="Hero[@id='lord_1_75']"/>
     <xsl:template match="Hero[@id='lord_1_34']"/>
     <xsl:template match="Hero[@id='lord_1_24']"/>
     <xsl:template match="Hero[@id='lord_1_44']"/>
@@ -254,7 +254,7 @@
     <xsl:template match="Hero[@id='lord_WE8_u']"/>
     <xsl:template match="Hero[@id='lord_WE9_l']"/>
     <xsl:template match="Hero[@id='lord_WE9_u']"/>
-    <xsl:template match="Hero[@id='lord_WE9_u2']"/> -->
+    <xsl:template match="Hero[@id='lord_WE9_u2']"/>
     
     <!-- Khuzait -->
     <!-- <xsl:template match="Hero[@id='lord_6_1']"/> -->
@@ -364,8 +364,8 @@
     <xsl:template match="Hero[@id='lord_S9_u']"/> -->
     
     <!-- Vlandia -->
-    <!-- <xsl:template match="Hero[@id='lord_4_1']"/> -->
-    <!-- <xsl:template match="Hero[@id='lord_4_2']"/> -->
+    <xsl:template match="Hero[@id='lord_4_1']"/>
+    <xsl:template match="Hero[@id='lord_4_2']"/>
     <xsl:template match="Hero[@id='lord_4_7']"/>
     <xsl:template match="Hero[@id='lord_4_10']"/>
     <xsl:template match="Hero[@id='lord_4_13']"/>
