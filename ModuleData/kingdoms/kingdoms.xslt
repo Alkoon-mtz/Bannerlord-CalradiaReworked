@@ -58,13 +58,13 @@
 
     <!-- Scarhok -->
     <!-- Colors and Banner -->
-    <xsl:template match="Kingdom[@id='vlandia']/@banner_key"> <xsl:attribute name="banner_key">11.142.116.1536.1536.764.764.1.0.0.140.116.116.300.300.939.764.0.1.0.140.116.116.300.300.764.764.0.1.0.140.116.116.300.300.589.764.0.1.0</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='vlandia']/@banner_key"> <xsl:attribute name="banner_key">11.142.142.1536.1536.764.764.1.0.0.140.25.25.300.300.944.774.0.1.0.140.25.25.300.300.764.774.0.1.0.140.25.25.300.300.584.774.0.1.0.439.25.25.100.200.844.454.0.1.90.439.25.25.100.200.1009.454.0.0.270.439.25.25.100.200.520.454.0.1.90.439.25.25.100.200.685.454.0.0.270.439.25.25.100.200.414.454.0.0.270.439.25.25.100.200.249.454.0.1.90.439.25.25.100.200.149.454.0.0.270.439.25.25.100.200.1114.454.0.1.90.439.25.25.100.200.1279.454.0.0.270.439.25.25.100.200.1379.454.0.1.90.439.25.25.100.200.844.1076.0.1.90.439.25.25.100.200.1009.1076.0.0.270.439.25.25.100.200.520.1076.0.1.90.439.25.25.100.200.685.1076.0.0.270.439.25.25.100.200.414.1076.0.0.270.439.25.25.100.200.249.1076.0.1.90.439.25.25.100.200.149.1076.0.0.270.439.25.25.100.200.1114.1076.0.1.90.439.25.25.100.200.1279.1076.0.0.270.439.25.25.100.200.1379.1076.0.1.90.405.25.25.100.100.764.1074.0.1.90.405.25.25.100.100.764.454.0.1.90.507.25.25.200.500.1284.764.0.1.90.507.25.25.200.500.244.764.0.0.270</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='vlandia']/@primary_banner_color"> <xsl:attribute name="primary_banner_color">0xff830808</xsl:attribute> </xsl:template>
-    <xsl:template match="Kingdom[@id='vlandia']/@secondary_banner_color"> <xsl:attribute name="secondary_banner_color">0xff0B0C11</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='vlandia']/@secondary_banner_color"> <xsl:attribute name="secondary_banner_color">0xffB6ABA7</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='vlandia']/@label_color"> <xsl:attribute name="label_color">FF830808</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='vlandia']/@color"> <xsl:attribute name="color">FF830808</xsl:attribute> </xsl:template>
-    <xsl:template match="Kingdom[@id='vlandia']/@color2"> <xsl:attribute name="color2">FF0B0C11</xsl:attribute> </xsl:template>
-    <xsl:template match="Kingdom[@id='vlandia']/@alternative_color"> <xsl:attribute name="alternative_color">FF0B0C11</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='vlandia']/@color2"> <xsl:attribute name="color2">FFB6ABA7</xsl:attribute> </xsl:template>
+    <xsl:template match="Kingdom[@id='vlandia']/@alternative_color"> <xsl:attribute name="alternative_color">FFB6ABA7</xsl:attribute> </xsl:template>
     <xsl:template match="Kingdom[@id='vlandia']/@alternative_color2"> <xsl:attribute name="alternative_color2">FF830808</xsl:attribute> </xsl:template>
     <!-- Name -->
     <xsl:template match="Kingdom[@id='vlandia']/@name"> <xsl:attribute name="name">Scarhok Chiefdom</xsl:attribute> </xsl:template>

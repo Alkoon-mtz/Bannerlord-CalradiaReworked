@@ -1,0 +1,10 @@
+<Heroes>
+   <Hero id="lord_scarhok_1_1" faction="Faction.clan_scarhok_1" />
+   <Hero id="lord_scarhok_2_1" faction="Faction.clan_scarhok_2" />
+   <Hero id="lord_scarhok_3_1" faction="Faction.clan_scarhok_3" />
+   <Hero id="lord_scarhok_4_1" faction="Faction.clan_scarhok_4" />
+   <Hero id="lord_scarhok_5_1" faction="Faction.clan_scarhok_5" />
+   <Hero id="lord_scarhok_6_1" faction="Faction.clan_scarhok_6" />
+   <Hero id="lord_scarhok_7_1" faction="Faction.clan_scarhok_7" />
+   <Hero id="lord_scarhok_8_1" faction="Faction.clan_scarhok_8" />
+</Heroes>

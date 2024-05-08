@@ -6,8 +6,8 @@
         </xsl:copy>
     </xsl:template>
     
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_1']"/>
-    <xsl:template match="NPCCharacter[@id='lord_1_2']"/> -->
+    <!-- <xsl:template match="NPCCharacter[@id='lord_1_1']"/> -->
+    <!-- <xsl:template match="NPCCharacter[@id='lord_1_2']"/> -->
     <xsl:template match="NPCCharacter[@id='lord_1_41']"/>
     <xsl:template match="NPCCharacter[@id='lord_1_411']"/>
     <xsl:template match="NPCCharacter[@id='lord_1_31']"/>
@@ -57,5 +57,7 @@
     <xsl:template match="NPCCharacter[@id='lord_NE9_l']"/>
     <xsl:template match="NPCCharacter[@id='lord_NE9_s']"/>
     <xsl:template match="NPCCharacter[@id='lord_NE9_d']"/>
+    
+
     
 </xsl:stylesheet>

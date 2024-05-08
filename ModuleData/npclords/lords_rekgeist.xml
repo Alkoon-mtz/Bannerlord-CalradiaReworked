@@ -1,7 +1,37 @@
 <NPCCharacters>
     <NPCCharacter id="lord_rekgeist_1_1"
-        name="{=lord_rekgeist_1_1}Beringard"
+        name="{=lord_rekgeist_1_1}Erik"
         age="27"
+        voice="softspoken"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.rekgeist"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_pol_throw_1">
+        <face>
+            <BodyProperties version="4"
+                age="27"
+                weight="0.799"
+                build="0.553"
+                key="00043002000036487A7CDFF47A8349D5BF5B89877AD4EAFCE69ACC3CE7DC07A400A860030ACDE8F7000000000000000000000000000000000000000057407004" />
+        </face>
+        <Traits>
+            <Trait id="Honor"
+                value="+2" />
+            <Trait id="Valor"
+                value="+1" />
+            <Trait id="Mercy"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="rek_king_template_bat_m" />
+            <EquipmentSet id="rek_king_template_civ_m"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_rekgeist_1_2"
+        name="{=lord_rekgeist_1_2}Beringard"
+        age="28"
         voice="softspoken"
         is_female="true"
         default_group="Infantry"
@@ -27,36 +57,6 @@
         <Equipments>
             <EquipmentSet id="rek_king_template_bat_f" />
             <EquipmentSet id="rek_king_template_civ_f"
-                civilian="true" />
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="lord_rekgeist_1_2"
-        name="{=lord_rekgeist_1_2}Erik"
-        age="27"
-        voice="softspoken"
-        default_group="Infantry"
-        is_hero="true"
-        culture="Culture.rekgeist"
-        occupation="Lord"
-        skill_template="SkillSet.lord_cav_pol_throw_1">
-        <face>
-            <BodyProperties version="4"
-                age="27"
-                weight="0.399"
-                build="0.553"
-                key="00043002000036487A7CDFF47A8349D5BF5B89877AD4EAFCE69ACC3CE7DC07A400A860030ACDE8F7000000000000000000000000000000000000000057407004" />
-        </face>
-        <Traits>
-            <Trait id="Honor"
-                value="+2" />
-            <Trait id="Valor"
-                value="+1" />
-            <Trait id="Mercy"
-                value="-1" />
-        </Traits>
-        <Equipments>
-            <EquipmentSet id="rek_king_template_bat_m" />
-            <EquipmentSet id="rek_king_template_civ_m"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>

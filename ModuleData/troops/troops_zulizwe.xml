@@ -306,37 +306,6 @@
                 <equipment slot="Horse" id="Item.empire_horse"/>
                 <equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
             </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
-                <equipment slot="Item1" id="Item.oval_shield"/>
-                <equipment slot="Item2" id="Item.iron_spatha_sword_t2"/>
-                <equipment slot="Head" id="Item.closed_head_scarf"/>
-                <equipment slot="Cape" id="Item.eastern_studded_shoulders"/>
-                <equipment slot="Body" id="Item.battanian_savage_armor"/>
-                <equipment slot="Leg" id="Item.simple_shoes"/>
-                <equipment slot="Horse" id="Item.empire_horse"/>
-                <equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
-                <equipment slot="Item1" id="Item.oval_shield"/>
-                <equipment slot="Item2" id="Item.iron_spatha_sword_t2"/>
-                <equipment slot="Cape" id="Item.eastern_studded_shoulders"/>
-                <equipment slot="Body" id="Item.battanian_savage_armor"/>
-                <equipment slot="Leg" id="Item.simple_shoes"/>
-                <equipment slot="Horse" id="Item.empire_horse"/>
-                <equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
-                <equipment slot="Item1" id="Item.oval_shield"/>
-                <equipment slot="Item2" id="Item.iron_spatha_sword_t2"/>
-                <equipment slot="Cape" id="Item.eastern_studded_shoulders"/>
-                <equipment slot="Body" id="Item.battanian_savage_armor"/>
-                <equipment slot="Leg" id="Item.simple_shoes"/>
-                <equipment slot="Horse" id="Item.empire_horse"/>
-                <equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
-            </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
                 <equipment slot="Item2" id="Item.throwing_stone"/>
@@ -370,39 +339,6 @@
             <upgrade_target id="NPCCharacter.zulizwe_mzigo"/>
         </upgrade_targets>
         <Equipments>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.sturgia_lance_1_t4"/>
-                <equipment slot="Item1" id="Item.desert_oval_shield"/>
-                <equipment slot="Item2" id="Item.western_javelin_2_t3"/>
-                <equipment slot="Head" id="Item.AR_roman_helmet_b_fur_b"/>
-                <equipment slot="Cape" id="Item.leopard_pelt"/>
-                <equipment slot="Body" id="Item.TV_empire_armor_l"/>
-                <equipment slot="Leg" id="Item.TV_empire_boots_c"/>
-                <equipment slot="Horse" id="Item.t2_empire_horse"/>
-                <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.sturgia_lance_1_t4"/>
-                <equipment slot="Item1" id="Item.desert_oval_shield"/>
-                <equipment slot="Item2" id="Item.western_javelin_2_t3"/>
-                <equipment slot="Head" id="Item.AR_roman_helmet_b_fur_b"/>
-                <equipment slot="Cape" id="Item.leopard_pelt"/>
-                <equipment slot="Body" id="Item.TV_empire_armor_l"/>
-                <equipment slot="Leg" id="Item.TV_empire_boots_c"/>
-                <equipment slot="Horse" id="Item.t2_empire_horse"/>
-                <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.sturgia_lance_1_t4"/>
-                <equipment slot="Item1" id="Item.desert_oval_shield"/>
-                <equipment slot="Item2" id="Item.western_javelin_2_t3"/>
-                <equipment slot="Head" id="Item.AR_roman_helmet_b_fur_b"/>
-                <equipment slot="Cape" id="Item.leopard_pelt"/>
-                <equipment slot="Body" id="Item.TV_empire_armor_l"/>
-                <equipment slot="Leg" id="Item.TV_empire_boots_c"/>
-                <equipment slot="Horse" id="Item.t2_empire_horse"/>
-                <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
-            </EquipmentRoster>
             <EquipmentRoster>
                 <equipment slot="Item0" id="Item.sturgia_lance_1_t4"/>
                 <equipment slot="Item1" id="Item.desert_oval_shield"/>
@@ -457,42 +393,6 @@
                 <equipment slot="Horse" id="Item.t3_empire_horse"/>
                 <equipment slot="HorseHarness" id="Item.half_scale_barding"/>
             </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
-                <equipment slot="Item1" id="Item.southern_oval_shield"/>
-                <equipment slot="Item2" id="Item.western_javelin_2_t3"/>
-                <equipment slot="Head" id="Item.AR_roman_helmet_b_fur_a"/>
-                <equipment slot="Cape" id="Item.AR_imperial_shoulders_k"/>
-                <equipment slot="Body" id="Item.AR_empire_brass_lamellar_c"/>
-                <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
-                <equipment slot="Leg" id="Item.plated_strip_boots"/>
-                <equipment slot="Horse" id="Item.t3_empire_horse"/>
-                <equipment slot="HorseHarness" id="Item.half_scale_barding"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
-                <equipment slot="Item1" id="Item.southern_oval_shield"/>
-                <equipment slot="Item2" id="Item.western_javelin_2_t3"/>
-                <equipment slot="Head" id="Item.AR_roman_helmet_b_fur_a"/>
-                <equipment slot="Cape" id="Item.AR_imperial_shoulders_k"/>
-                <equipment slot="Body" id="Item.AR_empire_brass_lamellar_c"/>
-                <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
-                <equipment slot="Leg" id="Item.plated_strip_boots"/>
-                <equipment slot="Horse" id="Item.t3_empire_horse"/>
-                <equipment slot="HorseHarness" id="Item.half_scale_barding"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
-                <equipment slot="Item1" id="Item.southern_oval_shield"/>
-                <equipment slot="Item2" id="Item.western_javelin_2_t3"/>
-                <equipment slot="Head" id="Item.AR_roman_helmet_b_fur_a"/>
-                <equipment slot="Cape" id="Item.AR_imperial_shoulders_k"/>
-                <equipment slot="Body" id="Item.AR_empire_brass_lamellar_c"/>
-                <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
-                <equipment slot="Leg" id="Item.plated_strip_boots"/>
-                <equipment slot="Horse" id="Item.t3_empire_horse"/>
-                <equipment slot="HorseHarness" id="Item.half_scale_barding"/>
-            </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
                 <equipment slot="Item2" id="Item.throwing_stone"/>
@@ -533,42 +433,6 @@
                 <equipment slot="Horse" id="Item.noble_horse_imperial"/>
                 <equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
             </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
-                <equipment slot="Item1" id="Item.emirs_oval_shield"/>
-                <equipment slot="Item2" id="Item.western_javelin_2_t3"/>
-                <equipment slot="Head" id="Item.AR_roman_helmet_b_fur_c"/>
-                <equipment slot="Cape" id="Item.AR_imperial_shoulders_f"/>
-                <equipment slot="Body" id="Item.ao_imperial_cataphracts_lamellar"/>
-                <equipment slot="Gloves" id="Item.TV_sturgia_gloves_a"/>
-                <equipment slot="Leg" id="Item.plated_strip_boots"/>
-                <equipment slot="Horse" id="Item.noble_horse_imperial"/>
-                <equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
-                <equipment slot="Item1" id="Item.emirs_oval_shield"/>
-                <equipment slot="Item2" id="Item.western_javelin_2_t3"/>
-                <equipment slot="Head" id="Item.AR_roman_helmet_b_fur_c"/>
-                <equipment slot="Cape" id="Item.AR_imperial_shoulders_f"/>
-                <equipment slot="Body" id="Item.ao_imperial_cataphracts_lamellar"/>
-                <equipment slot="Gloves" id="Item.TV_sturgia_gloves_a"/>
-                <equipment slot="Leg" id="Item.plated_strip_boots"/>
-                <equipment slot="Horse" id="Item.noble_horse_imperial"/>
-                <equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
-                <equipment slot="Item1" id="Item.emirs_oval_shield"/>
-                <equipment slot="Item2" id="Item.western_javelin_2_t3"/>
-                <equipment slot="Head" id="Item.AR_roman_helmet_b_fur_c"/>
-                <equipment slot="Cape" id="Item.AR_imperial_shoulders_f"/>
-                <equipment slot="Body" id="Item.ao_imperial_cataphracts_lamellar"/>
-                <equipment slot="Gloves" id="Item.TV_sturgia_gloves_a"/>
-                <equipment slot="Leg" id="Item.plated_strip_boots"/>
-                <equipment slot="Horse" id="Item.noble_horse_imperial"/>
-                <equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
-            </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
                 <equipment slot="Item2" id="Item.throwing_stone"/>
@@ -587,7 +451,7 @@
         culture="Culture.zulizwe"
         is_female="true">
         <face>
-            <face_key_template value="BodyProperty.fighter_zulizwe"/>
+            <face_key_template value="BodyProperty.villager_zulizwe_f"/>
         </face>
         <skills >
             <skill id="Athletics" value="30"/>
@@ -603,45 +467,6 @@
             <upgrade_target id="NPCCharacter.zulizwe_wepesi"/>
         </upgrade_targets>
         <Equipments>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.composite_bow"/>
-                <equipment slot="Item1" id="Item.default_arrows"/>
-                <equipment slot="Item2" id="Item.default_arrows"/>
-                <equipment slot="Item3" id="Item.empire_sword_1_t2"/>
-                <equipment slot="Head" id="Item.ao_imperial_nasal_spangenhelm_with_leather_strips_alt"/>
-                <equipment slot="Cape" id="Item.TV_battania_shoulders_d"/>
-                <equipment slot="Body" id="Item.baggy_trunks"/>
-                <equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-                <equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
-                <equipment slot="Horse" id="Item.t2_empire_horse"/>
-                <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.composite_bow"/>
-                <equipment slot="Item1" id="Item.default_arrows"/>
-                <equipment slot="Item2" id="Item.default_arrows"/>
-                <equipment slot="Item3" id="Item.empire_sword_1_t2"/>
-                <equipment slot="Head" id="Item.ao_imperial_nasal_spangenhelm_with_leather_strips_alt"/>
-                <equipment slot="Cape" id="Item.TV_battania_shoulders_d"/>
-                <equipment slot="Body" id="Item.baggy_trunks"/>
-                <equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-                <equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
-                <equipment slot="Horse" id="Item.t2_empire_horse"/>
-                <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.composite_bow"/>
-                <equipment slot="Item1" id="Item.default_arrows"/>
-                <equipment slot="Item2" id="Item.default_arrows"/>
-                <equipment slot="Item3" id="Item.empire_sword_1_t2"/>
-                <equipment slot="Head" id="Item.ao_imperial_nasal_spangenhelm_with_leather_strips_alt"/>
-                <equipment slot="Cape" id="Item.TV_battania_shoulders_d"/>
-                <equipment slot="Body" id="Item.baggy_trunks"/>
-                <equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-                <equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
-                <equipment slot="Horse" id="Item.t2_empire_horse"/>
-                <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
-            </EquipmentRoster>
             <EquipmentRoster>
                 <equipment slot="Item0" id="Item.composite_bow"/>
                 <equipment slot="Item1" id="Item.default_arrows"/>
@@ -671,7 +496,7 @@
         culture="Culture.zulizwe"
         is_female="true">
         <face>
-            <face_key_template value="BodyProperty.fighter_zulizwe"/>
+            <face_key_template value="BodyProperty.villager_zulizwe_f"/>
         </face>
         <skills >
             <skill id="Athletics" value="40"/>
@@ -684,45 +509,6 @@
             <skill id="Throwing" value="40"/>
         </skills>
         <Equipments>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.composite_steppe_bow"/>
-                <equipment slot="Item1" id="Item.range_arrows"/>
-                <equipment slot="Item2" id="Item.range_arrows"/>
-                <equipment slot="Item3" id="Item.empire_sword_3_t3"/>
-                <equipment slot="Head" id="Item.ao_imperial_nasal_spangenhelmet_with_mail"/>
-                <equipment slot="Cape" id="Item.TV_battania_shoulders_c"/>
-                <equipment slot="Body" id="Item.armored_baggy_trunks"/>
-                <equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
-                <equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
-                <equipment slot="Horse" id="Item.t3_empire_horse"/>
-                <equipment slot="HorseHarness" id="Item.half_scale_barding"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.composite_steppe_bow"/>
-                <equipment slot="Item1" id="Item.range_arrows"/>
-                <equipment slot="Item2" id="Item.range_arrows"/>
-                <equipment slot="Item3" id="Item.empire_sword_3_t3"/>
-                <equipment slot="Head" id="Item.ao_imperial_nasal_spangenhelmet_with_mail"/>
-                <equipment slot="Cape" id="Item.TV_battania_shoulders_c"/>
-                <equipment slot="Body" id="Item.armored_baggy_trunks"/>
-                <equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
-                <equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
-                <equipment slot="Horse" id="Item.t3_empire_horse"/>
-                <equipment slot="HorseHarness" id="Item.half_scale_barding"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.composite_steppe_bow"/>
-                <equipment slot="Item1" id="Item.range_arrows"/>
-                <equipment slot="Item2" id="Item.range_arrows"/>
-                <equipment slot="Item3" id="Item.empire_sword_3_t3"/>
-                <equipment slot="Head" id="Item.ao_imperial_nasal_spangenhelmet_with_mail"/>
-                <equipment slot="Cape" id="Item.TV_battania_shoulders_c"/>
-                <equipment slot="Body" id="Item.armored_baggy_trunks"/>
-                <equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
-                <equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
-                <equipment slot="Horse" id="Item.t3_empire_horse"/>
-                <equipment slot="HorseHarness" id="Item.half_scale_barding"/>
-            </EquipmentRoster>
             <EquipmentRoster>
                 <equipment slot="Item0" id="Item.composite_steppe_bow"/>
                 <equipment slot="Item1" id="Item.range_arrows"/>
@@ -778,36 +564,6 @@
                 <equipment slot="Body" id="Item.AR_empire_brass_lamellar_d"/>
                 <equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
             </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.highland_ranger_bow"/>
-                <equipment slot="Item1" id="Item.oval_shield"/>
-                <equipment slot="Item2" id="Item.default_arrows"/>
-                <equipment slot="Item3" id="Item.iron_spatha_sword_t2"/>
-                <equipment slot="Head" id="Item.AR_empire_archer_helmet_a"/>
-                <equipment slot="Cape" id="Item.BA_empire_shoulders_d"/>
-                <equipment slot="Body" id="Item.AR_empire_brass_lamellar_d"/>
-                <equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.highland_ranger_bow"/>
-                <equipment slot="Item1" id="Item.oval_shield"/>
-                <equipment slot="Item2" id="Item.default_arrows"/>
-                <equipment slot="Item3" id="Item.iron_spatha_sword_t2"/>
-                <equipment slot="Head" id="Item.AR_empire_archer_helmet_a"/>
-                <equipment slot="Cape" id="Item.BA_empire_shoulders_d"/>
-                <equipment slot="Body" id="Item.AR_empire_brass_lamellar_d"/>
-                <equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.highland_ranger_bow"/>
-                <equipment slot="Item1" id="Item.oval_shield"/>
-                <equipment slot="Item2" id="Item.default_arrows"/>
-                <equipment slot="Item3" id="Item.iron_spatha_sword_t2"/>
-                <equipment slot="Head" id="Item.AR_empire_archer_helmet_a"/>
-                <equipment slot="Cape" id="Item.BA_empire_shoulders_d"/>
-                <equipment slot="Body" id="Item.AR_empire_brass_lamellar_d"/>
-                <equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
-            </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
                 <equipment slot="Item2" id="Item.throwing_stone"/>
@@ -839,39 +595,6 @@
             <upgrade_target id="NPCCharacter.zulizwe_risasi"/>
         </upgrade_targets>
         <Equipments>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.glen_ranger_bow"/>
-                <equipment slot="Item1" id="Item.desert_oval_shield"/>
-                <equipment slot="Item2" id="Item.range_arrows"/>
-                <equipment slot="Item3" id="Item.empire_sword_1_t2"/>
-                <equipment slot="Head" id="Item.AR_empire_archer_helmet_c"/>
-                <equipment slot="Cape" id="Item.BA_empire_shoulders_b"/>
-                <equipment slot="Body" id="Item.ao_imperial_lamellar_vest"/>
-                <equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-                <equipment slot="Leg" id="Item.TV_empire_boots_c"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.glen_ranger_bow"/>
-                <equipment slot="Item1" id="Item.desert_oval_shield"/>
-                <equipment slot="Item2" id="Item.range_arrows"/>
-                <equipment slot="Item3" id="Item.empire_sword_1_t2"/>
-                <equipment slot="Head" id="Item.AR_empire_archer_helmet_c"/>
-                <equipment slot="Cape" id="Item.BA_empire_shoulders_b"/>
-                <equipment slot="Body" id="Item.ao_imperial_lamellar_vest"/>
-                <equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-                <equipment slot="Leg" id="Item.TV_empire_boots_c"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.glen_ranger_bow"/>
-                <equipment slot="Item1" id="Item.desert_oval_shield"/>
-                <equipment slot="Item2" id="Item.range_arrows"/>
-                <equipment slot="Item3" id="Item.empire_sword_1_t2"/>
-                <equipment slot="Head" id="Item.AR_empire_archer_helmet_c"/>
-                <equipment slot="Cape" id="Item.BA_empire_shoulders_b"/>
-                <equipment slot="Body" id="Item.ao_imperial_lamellar_vest"/>
-                <equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-                <equipment slot="Leg" id="Item.TV_empire_boots_c"/>
-            </EquipmentRoster>
             <EquipmentRoster>
                 <equipment slot="Item0" id="Item.glen_ranger_bow"/>
                 <equipment slot="Item1" id="Item.desert_oval_shield"/>
@@ -925,39 +648,6 @@
                 <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers_b"/>
                 <equipment slot="Leg" id="Item.decorated_imperial_boots"/>
             </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.woodland_yew_bow"/>
-                <equipment slot="Item1" id="Item.southern_oval_shield"/>
-                <equipment slot="Item2" id="Item.bodkin_arrows_b"/>
-                <equipment slot="Item3" id="Item.empire_sword_3_t3"/>
-                <equipment slot="Head" id="Item.AR_empire_helmet_g"/>
-                <equipment slot="Cape" id="Item.BA_empire_shoulders_c"/>
-                <equipment slot="Body" id="Item.ao_imperial_lamellar_vest_over_mail_b"/>
-                <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers_b"/>
-                <equipment slot="Leg" id="Item.decorated_imperial_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.woodland_yew_bow"/>
-                <equipment slot="Item1" id="Item.southern_oval_shield"/>
-                <equipment slot="Item2" id="Item.bodkin_arrows_b"/>
-                <equipment slot="Item3" id="Item.empire_sword_3_t3"/>
-                <equipment slot="Head" id="Item.AR_empire_helmet_g"/>
-                <equipment slot="Cape" id="Item.BA_empire_shoulders_c"/>
-                <equipment slot="Body" id="Item.ao_imperial_lamellar_vest_over_mail_b"/>
-                <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers_b"/>
-                <equipment slot="Leg" id="Item.decorated_imperial_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.woodland_yew_bow"/>
-                <equipment slot="Item1" id="Item.southern_oval_shield"/>
-                <equipment slot="Item2" id="Item.bodkin_arrows_b"/>
-                <equipment slot="Item3" id="Item.empire_sword_3_t3"/>
-                <equipment slot="Head" id="Item.AR_empire_helmet_g"/>
-                <equipment slot="Cape" id="Item.BA_empire_shoulders_c"/>
-                <equipment slot="Body" id="Item.ao_imperial_lamellar_vest_over_mail_b"/>
-                <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers_b"/>
-                <equipment slot="Leg" id="Item.decorated_imperial_boots"/>
-            </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
                 <equipment slot="Item2" id="Item.throwing_stone"/>
@@ -986,39 +676,6 @@
             <skill id="Throwing" value="60"/>
         </skills>
         <Equipments>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.woodland_longbow"/>
-                <equipment slot="Item1" id="Item.emirs_oval_shield"/>
-                <equipment slot="Item2" id="Item.piercing_arrows"/>
-                <equipment slot="Item3" id="Item.empire_sword_6_t5"/>
-                <equipment slot="Head" id="Item.AR_empire_helmet_h"/>
-                <equipment slot="Cape" id="Item.BA_empire_shoulders_a"/>
-                <equipment slot="Body" id="Item.ao_imperial_cataphracts_lamellar_b"/>
-                <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
-                <equipment slot="Leg" id="Item.decorated_imperial_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.woodland_longbow"/>
-                <equipment slot="Item1" id="Item.emirs_oval_shield"/>
-                <equipment slot="Item2" id="Item.piercing_arrows"/>
-                <equipment slot="Item3" id="Item.empire_sword_6_t5"/>
-                <equipment slot="Head" id="Item.AR_empire_helmet_h"/>
-                <equipment slot="Cape" id="Item.BA_empire_shoulders_a"/>
-                <equipment slot="Body" id="Item.ao_imperial_cataphracts_lamellar_b"/>
-                <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
-                <equipment slot="Leg" id="Item.decorated_imperial_boots"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.woodland_longbow"/>
-                <equipment slot="Item1" id="Item.emirs_oval_shield"/>
-                <equipment slot="Item2" id="Item.piercing_arrows"/>
-                <equipment slot="Item3" id="Item.empire_sword_6_t5"/>
-                <equipment slot="Head" id="Item.AR_empire_helmet_h"/>
-                <equipment slot="Cape" id="Item.BA_empire_shoulders_a"/>
-                <equipment slot="Body" id="Item.ao_imperial_cataphracts_lamellar_b"/>
-                <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
-                <equipment slot="Leg" id="Item.decorated_imperial_boots"/>
-            </EquipmentRoster>
             <EquipmentRoster>
                 <equipment slot="Item0" id="Item.woodland_longbow"/>
                 <equipment slot="Item1" id="Item.emirs_oval_shield"/>
