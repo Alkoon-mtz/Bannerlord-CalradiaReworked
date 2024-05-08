@@ -5,7 +5,7 @@
         level="1"
         name="{=villager_scarhok}Scarhok Peasant"
         occupation="Villager"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
             <face_key_template value="BodyProperty.villager_scarhok"/>
@@ -331,7 +331,7 @@
         level="16"
         name="{=Scarhok F3}Scarhok Boukhal"
         occupation="Soldier"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
@@ -372,7 +372,7 @@
         level="21"
         name="{=Scarhok F4}Scarhok Kigenn"
         occupation="Soldier"
-        culture="Culture.vlandia">
+        culture="Culture.scarhok">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
@@ -412,7 +412,7 @@
         level="26"
         name="{=Scarhok F5}Scarhok Haveroi"
         occupation="Soldier"
-        culture="Culture.vlandia">
+        culture="Culture.scarhok">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
@@ -452,7 +452,7 @@
         level="31"
         name="{=Scarhok F6}Scarhok Elite Haveroi"
         occupation="Soldier"
-        culture="Culture.vlandia">
+        culture="Culture.scarhok">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
@@ -490,7 +490,7 @@
         level="6"
         name="{=Scarhok Recruit}Scarhok Recruit"
         occupation="Soldier"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
@@ -527,7 +527,7 @@
         level="11"
         name="{=Scarhok CR2}Scarhok Soudard"
         occupation="Soldier"
-        culture="Culture.vlandia">
+        culture="Culture.scarhok">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
@@ -569,7 +569,7 @@
         level="16"
         name="{=Scarhok A3}Scarhok Gareg"
         occupation="Soldier"
-        culture="Culture.vlandia">
+        culture="Culture.scarhok">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
@@ -611,7 +611,7 @@
         level="21"
         name="{=Scarhok A4}Scarhok Gareker"
         occupation="Soldier"
-        culture="Culture.vlandia">
+        culture="Culture.scarhok">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
@@ -653,7 +653,7 @@
         level="26"
         name="{=Scarhok A5}Scarhok Garhaner"
         occupation="Soldier"
-        culture="Culture.vlandia">
+        culture="Culture.scarhok">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
@@ -694,7 +694,7 @@
         name="{=Scarhok CR3}Scarhok Marhig"
         upgrade_requires="ItemCategory.horse"
         occupation="Soldier"
-        culture="Culture.vlandia">
+        culture="Culture.scarhok">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
@@ -737,7 +737,7 @@
         name="{=Scarhok CR4}Scarhok Strellig"
         upgrade_requires="ItemCategory.war_horse"
         occupation="Soldier"
-        culture="Culture.vlandia">
+        culture="Culture.scarhok">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
@@ -778,7 +778,7 @@
         level="11"
         name="{=Scarhok R2}Scarhok Axe Wielder"
         occupation="Soldier"
-        culture="Culture.vlandia">
+        culture="Culture.scarhok">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
@@ -819,7 +819,7 @@
         level="16"
         name="{=Scarhok R3}Scarhok Axe Thrower"
         occupation="Soldier"
-        culture="Culture.vlandia">
+        culture="Culture.scarhok">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
@@ -860,7 +860,7 @@
         level="21"
         name="{=Scarhok R4}Scarhok Throwing Axeman"
         occupation="Soldier"
-        culture="Culture.vlandia">
+        culture="Culture.scarhok">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>
@@ -901,7 +901,7 @@
         level="26"
         name="{=Scarhok_elite_throwing_axeman}Scarhok Elite Throwing Axeman"
         occupation="Soldier"
-        culture="Culture.vlandia">
+        culture="Culture.scarhok">
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok"/>
         </face>

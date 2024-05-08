@@ -5,7 +5,7 @@
         level="1"
         name="{=villager_lysellois}Lysellois Peasant"
         occupation="Villager"
-        culture="Culture.lysellois"
+        culture="Culture.vlandia"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
             <face_key_template value="BodyProperty.villager_lysellois"/>
@@ -332,7 +332,7 @@
         name="{=lysellois_chevalier}Lysellois Chevalier"
         upgrade_requires="ItemCategory.war_horse"
         occupation="Soldier"
-        culture="Culture.lysellois"
+        culture="Culture.vlandia"
         is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.fighter_lysellois"/>
@@ -376,7 +376,7 @@
         level="21"
         name="{=lysellois_baron}Lysellois Baron"
         occupation="Soldier"
-        culture="Culture.lysellois">
+        culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
@@ -451,7 +451,7 @@
         level="26"
         name="{=lysellois_comte}Lysellois Comte"
         occupation="Soldier"
-        culture="Culture.lysellois">
+        culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
@@ -530,7 +530,7 @@
         level="31"
         name="{=lysellois_duc}Lysellois Duc"
         occupation="Soldier"
-        culture="Culture.lysellois">
+        culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
@@ -571,7 +571,7 @@
         level="6"
         name="{=lysellois_recruit}Lysellois Recruit"
         occupation="Soldier"
-        culture="Culture.lysellois"
+        culture="Culture.vlandia"
         is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.fighter_lysellois"/>
@@ -625,7 +625,7 @@
         level="11"
         name="{=lysellois_fantassin}Lysellois Fantassin"
         occupation="Soldier"
-        culture="Culture.lysellois">
+        culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
@@ -668,7 +668,7 @@
         name="{=lysellois_cavalier}Lysellois Cavalier"
         upgrade_requires="ItemCategory.war_horse"
         occupation="Soldier"
-        culture="Culture.lysellois">
+        culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
@@ -710,7 +710,7 @@
         level="21"
         name="{=lysellois_cavalier_lourd}Lysellois Cavalier Lourd"
         occupation="Soldier"
-        culture="Culture.lysellois">
+        culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
@@ -752,7 +752,7 @@
         level="26"
         name="{=lysellois_champion}Lysellois Champion"
         occupation="Soldier"
-        culture="Culture.lysellois">
+        culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
@@ -803,7 +803,7 @@
         level="16"
         name="{=lysellois_epeiste}Lysellois Epeiste"
         occupation="Soldier"
-        culture="Culture.lysellois">
+        culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
@@ -843,7 +843,7 @@
         level="21"
         name="{=lysellois_sergent}Lysellois Sergent"
         occupation="Soldier"
-        culture="Culture.lysellois">
+        culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
@@ -881,7 +881,7 @@
         level="11"
         name="{=lysellois_arbaletrier}Lysellois Arbaletrier"
         occupation="Soldier"
-        culture="Culture.lysellois">
+        culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
@@ -922,7 +922,7 @@
         level="16"
         name="{=lysellois_elite_arbaletrier}Lysellois Elite Arbaletrier"
         occupation="Soldier"
-        culture="Culture.lysellois">
+        culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
@@ -963,7 +963,7 @@
         level="21"
         name="{=lysellois_tireur}Lysellois Tireur"
         occupation="Soldier"
-        culture="Culture.lysellois">
+        culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>
@@ -1005,7 +1005,7 @@
         level="26"
         name="{=lysellois_elite_tireur}Lysellois Elite Tireur"
         occupation="Soldier"
-        culture="Culture.lysellois">
+        culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_lysellois"/>
         </face>

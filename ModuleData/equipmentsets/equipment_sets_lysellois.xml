@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EquipmentRosters>
     <!-- Parents -->
-    <EquipmentRoster id="mother_char_creation_0_lysellois" culture="Culture.empire">
+    <EquipmentRoster id="mother_char_creation_0_vlandia" culture="Culture.empire">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.vlandian_dress" />
             <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="father_char_creation_0_lysellois" culture="Culture.empire">
+    <EquipmentRoster id="father_char_creation_0_vlandia" culture="Culture.empire">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.sleeveless_padded_short_coat" />
             <Equipment slot="Leg" id="Item.strapped_shoes" />
         </EquipmentSet>
     </EquipmentRoster>
     <!--1.Retainer-->
-    <EquipmentRoster id="mother_char_creation_1_lysellois" culture="Culture.lysellois">
+    <EquipmentRoster id="mother_char_creation_1_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Head" id="Item.head_wrapped" />
             <Equipment slot="Body" id="Item.empire_dress_b" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="father_char_creation_1_lysellois" culture="Culture.lysellois">
+    <EquipmentRoster id="father_char_creation_1_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.coat_of_plates_over_mail" />
             <Equipment slot="Head" id="Item.pointed_skullcap_with_mail" />
@@ -29,26 +29,26 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--2.Merchant-->
-    <EquipmentRoster id="mother_char_creation_2_lysellois" culture="Culture.lysellois">
+    <EquipmentRoster id="mother_char_creation_2_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.cut_dress_with_pouch" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="father_char_creation_2_lysellois" culture="Culture.lysellois">
+    <EquipmentRoster id="father_char_creation_2_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.merchants_fur_coat" />
             <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
     </EquipmentRoster>
     <!--3.Farmer-->
-    <EquipmentRoster id="mother_char_creation_3_lysellois" culture="Culture.lysellois">
+    <EquipmentRoster id="mother_char_creation_3_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Head" id="Item.head_scarf" />
             <Equipment slot="Body" id="Item.vlandian_woman_dress" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="father_char_creation_3_lysellois" culture="Culture.lysellois">
+    <EquipmentRoster id="father_char_creation_3_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
             <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
@@ -56,14 +56,14 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--4.Artisan-->
-    <EquipmentRoster id="mother_char_creation_4_lysellois" culture="Culture.lysellois">
+    <EquipmentRoster id="mother_char_creation_4_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Head" id="Item.headscarf" />
             <Equipment slot="Body" id="Item.cloth_apron" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="father_char_creation_4_lysellois" culture="Culture.lysellois">
+    <EquipmentRoster id="father_char_creation_4_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.leather_apron" />
             <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
@@ -71,14 +71,14 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--5.Hunter-->
-    <EquipmentRoster id="mother_char_creation_5_lysellois" culture="Culture.lysellois">
+    <EquipmentRoster id="mother_char_creation_5_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.battania_female_civil_a" />
             <Equipment slot="Cape" id="Item.green_hood" />
             <Equipment slot="Leg" id="Item.ragged_boots" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="father_char_creation_5_lysellois" culture="Culture.lysellois">
+    <EquipmentRoster id="father_char_creation_5_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.layered_leather_tunic" />
             <Equipment slot="Leg" id="Item.battania_woodland_boots" />
@@ -87,14 +87,14 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--6.Mercenary-->
-    <EquipmentRoster id="mother_char_creation_6_lysellois" culture="Culture.lysellois">
+    <EquipmentRoster id="mother_char_creation_6_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Head" id="Item.head_wrapped" />
             <Equipment slot="Body" id="Item.laced_dress" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="father_char_creation_6_lysellois" culture="Culture.lysellois">
+    <EquipmentRoster id="father_char_creation_6_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.padded_short_coat" />
             <Equipment slot="Leg" id="Item.strapped_shoes" />
@@ -103,150 +103,150 @@
 
     <!-- Culture first -->
     <!--Retainer -->
-    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_1_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_childhood_age_vlandia_1_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.tunic_with_rolled_cloth" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_lysellois_1_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_education_age_vlandia_1_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.tunic_with_rolled_cloth" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_1_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_childhood_age_vlandia_1_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.tunic_with_rolled_cloth" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_lysellois_1_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_education_age_vlandia_1_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.tunic_with_rolled_cloth" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
     <!--Merchant -->
-    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_2_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_childhood_age_vlandia_2_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.long_woolen_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_lysellois_2_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_education_age_vlandia_2_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.long_woolen_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_2_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_childhood_age_vlandia_2_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.long_woolen_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_lysellois_2_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_education_age_vlandia_2_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.long_woolen_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
     <!--Yeomen -->
-    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_3_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_childhood_age_vlandia_3_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_lysellois_3_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_education_age_vlandia_3_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_3_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_childhood_age_vlandia_3_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.plain_dress" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_lysellois_3_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_education_age_vlandia_3_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.plain_dress" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
     <!--Blacksmith -->
-    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_4_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_childhood_age_vlandia_4_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.cloth_apron" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_lysellois_4_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_education_age_vlandia_4_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.cloth_apron" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_4_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_childhood_age_vlandia_4_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.cloth_apron" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_lysellois_4_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_education_age_vlandia_4_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.cloth_apron" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
     <!--Hunter -->
-    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_5_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_childhood_age_vlandia_5_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_lysellois_5_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_education_age_vlandia_5_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_5_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_childhood_age_vlandia_5_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_lysellois_5_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_education_age_vlandia_5_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
     <!--Mercenary -->
-    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_6_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_childhood_age_vlandia_6_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.long_hemp_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_lysellois_6_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_education_age_vlandia_6_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.long_hemp_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_childhood_age_lysellois_6_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_childhood_age_vlandia_6_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.long_hemp_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_lysellois_6_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_education_age_vlandia_6_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.long_hemp_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
@@ -255,7 +255,7 @@
 
     <!-- Special Situations -->
     <!--served as a baron's groom=> Vlandia Only, Parents Are Retainers-->
-    <EquipmentRoster id="player_char_creation_lysellois_10_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_vlandia_10_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.small_flat_heater_shield" />
             <Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
@@ -273,7 +273,7 @@
             <Equipment slot="Leg" id="Item.empire_horseman_boots" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_lysellois_10_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_vlandia_10_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.small_flat_heater_shield" />
             <Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
@@ -292,7 +292,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--trained with the cavalry=> Empire Khuzait Aserai Vlandia Only, Parents Are Retainers-->
-    <EquipmentRoster id="player_char_creation_lysellois_9_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_vlandia_9_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.small_flat_heater_shield" />
             <Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
@@ -309,7 +309,7 @@
             <Equipment slot="Leg" id="Item.empire_horseman_boots" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_lysellois_9_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_vlandia_9_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.small_flat_heater_shield" />
             <Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
@@ -329,7 +329,7 @@
 
     <!-- Player Characters -->
     <!--stood guard with the garrisons-->
-    <EquipmentRoster id="player_char_creation_lysellois_1_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_vlandia_1_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
             <Equipment slot="Item1" id="Item.small_flat_heater_shield" />
@@ -347,7 +347,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--stood guard with the garrisons-->
-    <EquipmentRoster id="player_char_creation_lysellois_1_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_vlandia_1_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
             <Equipment slot="Item1" id="Item.small_flat_heater_shield" />
@@ -365,7 +365,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--rode with the scouts-->
-    <EquipmentRoster id="player_char_creation_lysellois_2_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_vlandia_2_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item2" id="Item.vlandia_mace_1_t2" />
             <Equipment slot="Item0" id="Item.mountain_hunting_bow" />
@@ -382,7 +382,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--rode with the scouts-->
-    <EquipmentRoster id="player_char_creation_lysellois_2_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_vlandia_2_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item2" id="Item.vlandia_mace_1_t2" />
             <Equipment slot="Item0" id="Item.mountain_hunting_bow" />
@@ -399,7 +399,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--trained with the infantry-->
-    <EquipmentRoster id="player_char_creation_lysellois_3_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_vlandia_3_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item2" id="Item.western_spear_2_t2" />
             <Equipment slot="Item0" id="Item.vlandia_mace_1_t2" />
@@ -417,7 +417,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--trained with the infantry-->
-    <EquipmentRoster id="player_char_creation_lysellois_3_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_vlandia_3_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item2" id="Item.western_spear_2_t2" />
             <Equipment slot="Item0" id="Item.vlandia_mace_1_t2" />
@@ -435,7 +435,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--joined the skirmishers-->
-    <EquipmentRoster id="player_char_creation_lysellois_4_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_vlandia_4_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
             <Equipment slot="Item3" id="Item.western_javelin_1_t2" />
@@ -452,7 +452,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--joined the skirmishers-->
-    <EquipmentRoster id="player_char_creation_lysellois_4_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_vlandia_4_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
             <Equipment slot="Item3" id="Item.western_javelin_1_t2" />
@@ -469,7 +469,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--marched with the camp followers-->
-    <EquipmentRoster id="player_char_creation_lysellois_5_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_vlandia_5_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item2" id="Item.vlandia_sword_1_t2" />
             <Equipment slot="Item0" id="Item.western_spear_1_t2" />
@@ -486,7 +486,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--marched with the camp followers-->
-    <EquipmentRoster id="player_char_creation_lysellois_5_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_vlandia_5_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item2" id="Item.vlandia_sword_1_t2" />
             <Equipment slot="Item0" id="Item.western_spear_1_t2" />
@@ -503,7 +503,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--Ignore 6th Option-->
-    <EquipmentRoster id="player_char_creation_lysellois_6_m" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_vlandia_6_m" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item2" id="Item.morningstar_mace_t3" />
             <Equipment slot="Item3" id="Item.old_kite_shield" />
@@ -519,7 +519,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!--Ignore 6th Option-->
-    <EquipmentRoster id="player_char_creation_lysellois_6_f" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_vlandia_6_f" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item2" id="Item.morningstar_mace_t3" />
             <Equipment slot="Item3" id="Item.old_kite_shield" />
@@ -535,7 +535,7 @@
         </EquipmentSet>
     </EquipmentRoster>
     <!-- Character creation show armor set -->
-    <EquipmentRoster id="player_char_creation_show_lysellois" culture="Culture.lysellois">
+    <EquipmentRoster id="player_char_creation_show_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.banded_leather_over_mail" />
             <Equipment slot="Gloves" id="Item.leather_gloves" />
@@ -550,7 +550,7 @@
 
     <!-- Child equipment templates -->
     <!--Villager -->
-    <EquipmentRoster id="child_template_lysellois_villager_male" culture="Culture.lysellois">
+    <EquipmentRoster id="child_template_vlandia_villager_male" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Body" id="Item.sackcloth_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
@@ -561,7 +561,7 @@
         </EquipmentSet>
         <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="child_template_lysellois_villager_female" culture="Culture.lysellois">
+    <EquipmentRoster id="child_template_vlandia_villager_female" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Body" id="Item.sackcloth_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
@@ -572,7 +572,7 @@
         </EquipmentSet>
         <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="teenager_template_lysellois_villager_male" culture="Culture.lysellois">
+    <EquipmentRoster id="teenager_template_vlandia_villager_male" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Body" id="Item.cloth_apron" />
             <Equipment slot="Leg" id="Item.strapped_shoes" />
@@ -589,7 +589,7 @@
         </EquipmentSet>
         <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="teenager_template_lysellois_villager_female" culture="Culture.lysellois">
+    <EquipmentRoster id="teenager_template_vlandia_villager_female" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Head" id="Item.headscarf" />
             <Equipment slot="Body" id="Item.vlandian_corset_dress" />
@@ -607,7 +607,7 @@
     </EquipmentRoster>
 
     <!--Townsman -->
-    <EquipmentRoster id="child_template_lysellois_townsman_male" culture="Culture.lysellois">
+    <EquipmentRoster id="child_template_vlandia_townsman_male" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Body" id="Item.leather_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
@@ -622,7 +622,7 @@
         </EquipmentSet>
         <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="child_template_lysellois_townsman_female" culture="Culture.lysellois">
+    <EquipmentRoster id="child_template_vlandia_townsman_female" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Body" id="Item.leather_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
@@ -637,7 +637,7 @@
         </EquipmentSet>
         <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="teenager_template_lysellois_townsman_male" culture="Culture.lysellois">
+    <EquipmentRoster id="teenager_template_vlandia_townsman_male" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Body" id="Item.leather_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
@@ -652,7 +652,7 @@
         </EquipmentSet>
         <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="teenager_template_lysellois_townsman_female" culture="Culture.lysellois">
+    <EquipmentRoster id="teenager_template_vlandia_townsman_female" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Head" id="Item.head_piece" />
             <Equipment slot="Body" id="Item.vlandian_woman_dress" />
@@ -671,7 +671,7 @@
     </EquipmentRoster>
 
     <!--Noble -->
-    <EquipmentRoster id="child_template_lysellois_noble_male" culture="Culture.lysellois">
+    <EquipmentRoster id="child_template_vlandia_noble_male" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Body" id="Item.leather_coat" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
@@ -686,7 +686,7 @@
         </EquipmentSet>
         <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="child_template_lysellois_noble_female" culture="Culture.lysellois">
+    <EquipmentRoster id="child_template_vlandia_noble_female" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Body" id="Item.leather_coat" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
@@ -701,7 +701,7 @@
         </EquipmentSet>
         <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="teenager_template_lysellois_noble_male" culture="Culture.lysellois">
+    <EquipmentRoster id="teenager_template_vlandia_noble_male" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Body" id="Item.cloth_tunic" />
             <Equipment slot="Leg" id="Item.strapped_shoes" />
@@ -716,7 +716,7 @@
         </EquipmentSet>
         <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="teenager_template_lysellois_noble_female" culture="Culture.lysellois">
+    <EquipmentRoster id="teenager_template_vlandia_noble_female" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Head" id="Item.head_piece" />
             <Equipment slot="Body" id="Item.vlandian_woman_dress" />
@@ -735,7 +735,7 @@
     </EquipmentRoster>
 
     <!--Lord -->
-    <EquipmentRoster id="lys_bat_template_low" culture="Culture.lysellois">
+    <EquipmentRoster id="lys_bat_template_low" culture="Culture.vlandia">
         <EquipmentSet>
             <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
             <equipment slot="Item1" id="Item.wide_heater_shield"/>
@@ -747,7 +747,7 @@
         </EquipmentSet>
         <Flags IsNobleTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_bat_template_medium" culture="Culture.lysellois">
+    <EquipmentRoster id="lys_bat_template_medium" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.crossbow_f"/>
             <Equipment slot="Item1" id="Item.bolt_c"/>
@@ -761,7 +761,7 @@
         </EquipmentSet>
         <Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_bat_template_heavy" culture="Culture.lysellois">
+    <EquipmentRoster id="lys_bat_template_heavy" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
             <Equipment slot="Item1" id="Item.wide_heater_shield"/>
@@ -786,7 +786,7 @@
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_bat_template_flamboyant" culture="Culture.lysellois">
+    <EquipmentRoster id="lys_bat_template_flamboyant" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
             <Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
@@ -801,7 +801,7 @@
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_bat_template_lady" culture="Culture.lysellois">
+    <EquipmentRoster id="lys_bat_template_lady" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
             <Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
@@ -816,7 +816,7 @@
         </EquipmentSet>
         <Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_civ_template_default" culture="Culture.lysellois">
+    <EquipmentRoster id="lys_civ_template_default" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5" />
             <Equipment slot="Body" id="Item.padded_leather_shirt" />
@@ -837,7 +837,7 @@
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_civ_template_heavy" culture="Culture.lysellois">
+    <EquipmentRoster id="lys_civ_template_heavy" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5" />
             <Equipment slot="Body" id="Item.padded_leather_shirt" />
@@ -858,7 +858,7 @@
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_civ_template_flamboyant" culture="Culture.lysellois">
+    <EquipmentRoster id="lys_civ_template_flamboyant" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5" />
             <Equipment slot="Body" id="Item.long_woolen_tunic" />
@@ -879,7 +879,7 @@
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_civ_template_lady_normal" culture="Culture.lysellois">
+    <EquipmentRoster id="lys_civ_template_lady_normal" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5" />
             <Equipment slot="Body" id="Item.vlandian_noble_woman_dress" />
@@ -904,7 +904,7 @@
         </EquipmentSet>
         <Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsNobleTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_noncom_template_default" culture="Culture.lysellois">
+    <EquipmentRoster id="lys_noncom_template_default" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Head" id="Item.headscarf_c" />
             <Equipment slot="Body" id="Item.vlandian_dress" />
@@ -935,7 +935,7 @@
         </EquipmentSet>
         <Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_noncom_template_flamboyant" culture="Culture.lysellois">
+    <EquipmentRoster id="lys_noncom_template_flamboyant" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Head" id="Item.headscarf_c" />
             <Equipment slot="Body" id="Item.vlandian_noble_woman_dress" />
@@ -955,7 +955,7 @@
     </EquipmentRoster>
 
     <!-- King -->
-    <EquipmentRoster id="lys_king_template_civ_m" culture="Culture.lysellois">
+    <EquipmentRoster id="lys_king_template_civ_m" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Item0" id="Item.aserai_noble_sword_1_t5" />
             <Equipment slot="Head" id="Item.vlandia_crown" />
@@ -968,7 +968,7 @@
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_king_template_civ_f" culture="Culture.lysellois">
+    <EquipmentRoster id="lys_king_template_civ_f" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Item0" id="Item.aserai_noble_sword_1_t5" />
             <Equipment slot="Head" id="Item.vlandia_crown" />
@@ -981,7 +981,7 @@
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_king_template_bat_m" culture="Culture.lysellois">
+    <EquipmentRoster id="lys_king_template_bat_m" culture="Culture.vlandia">
         <EquipmentSet civilian="false">
             <Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
             <Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
@@ -996,7 +996,7 @@
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="false" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_king_template_bat_f" culture="Culture.lysellois">
+    <EquipmentRoster id="lys_king_template_bat_f" culture="Culture.vlandia">
         <EquipmentSet civilian="false">
             <Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
             <Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
@@ -1013,7 +1013,7 @@
     </EquipmentRoster>
 
     <!-- Duel -->
-    <EquipmentRoster id="lys_duel_preset_template" culture="Culture.lysellois">
+    <EquipmentRoster id="lys_duel_preset_template" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
             <Equipment slot="Item1" id="Item.fortified_kite_shield" />
@@ -1109,13 +1109,13 @@
     </EquipmentRoster>
 
     <!-- Cutscene -->
-    <EquipmentRoster id="marriage_female_lys_cutscene_template" culture="Culture.lysellois">
+    <EquipmentRoster id="marriage_female_lys_cutscene_template" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.vlandian_noble_woman_dress" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="comingofage_kid_lys_cutscene_template" culture="Culture.lysellois">
+    <EquipmentRoster id="comingofage_kid_lys_cutscene_template" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Body" id="Item.leather_coat" />
             <Equipment slot="Leg" id="Item.strapped_shoes" />

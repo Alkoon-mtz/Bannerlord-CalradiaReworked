@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-    <NPCCharacter id="caravan_master_lysellois"
+    <NPCCharacter id="caravan_master_scarhok"
             default_group="Infantry"
-            level="26" name="{=uDseaKcb}Lysellegien Caravan Master"
+            level="26" name="{=caravan_master_scarhok}Scarhokar Caravan Master"
             occupation="CaravanGuard"
-            culture="Culture.vlandia">
+            culture="Culture.scarhok">
         <face>
-            <face_key_template value="BodyProperty.fighter_lysellois" />
+            <face_key_template value="BodyProperty.fighter_scarhok" />
         </face>
         <skills >
             <skill id="Athletics" value="150"/>

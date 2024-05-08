@@ -366,7 +366,7 @@
     <!-- Vlandia -->
     <!-- <xsl:template match="Hero[@id='lord_4_1']"/> -->
     <!-- <xsl:template match="Hero[@id='lord_4_2']"/> -->
-    <!-- <xsl:template match="Hero[@id='lord_4_7']"/>
+    <xsl:template match="Hero[@id='lord_4_7']"/>
     <xsl:template match="Hero[@id='lord_4_10']"/>
     <xsl:template match="Hero[@id='lord_4_13']"/>
     <xsl:template match="Hero[@id='lord_4_14']"/>
@@ -416,5 +416,5 @@
     <xsl:template match="Hero[@id='lord_V11_l']"/>
     <xsl:template match="Hero[@id='lord_V11_u']"/>
     <xsl:template match="Hero[@id='lord_V11_c1']"/>
-    <xsl:template match="Hero[@id='lord_V11_c2']"/> -->
+    <xsl:template match="Hero[@id='lord_V11_c2']"/>
 </xsl:stylesheet>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<strings>
+    <string id="str_adjective_for_culture.scarhok" text="{=E11SH_adj_cul}Scarhokar" />
+    <string id="str_culture_rich_name.scarhok" text="{=E11SH_cul_name}Scarhokars" />
+    <string id="str_faction_ruler_name_with_title.scarhok" text="{=E11SH_ruler_title}{?RULER.GENDER}Chieftess{?}Chief{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.scarhok" text="{=E11SH_noble_title}{?RULER.GENDER}Gwrin{?}Gwrag{\?} {RULER.NAME}" />
+    <string id="str_faction_official.scarhok" text="{=E11SH_noble_m}Gwrag" />
+    <string id="str_faction_official.scarhok_f" text="{=E11SH_noble_f}Gwrin" />
+    <string id="str_faction_ruler.scarhok" text="{=E11SH_ruler_m}Chief" />
+    <string id="str_faction_ruler.scarhok_f" text="{=E11SH_ruler_f}Chieftess" />
+    <string id="str_faction_ruler_term_in_speech.scarhok" text="{=E11SH_ruler_sp}{?RULER.GENDER}the Chieftess{?}the Chief{\?} {RULER.NAME}" />
+    <string id="str_neutral_term_for_culture.scarhok" text="{=E11SH_n_cul}Scarhokars" />
+    <string id="str_adjective_for_faction.scarhok" text="{=E11SH_adj_fac}Scarhokar" />
+    <string id="str_short_term_for_faction.scarhok" text="{=E11SH_short_term}Scarhokars" />
+    <string id="str_faction_formal_name_for_culture.scarhok" text="{=E11SH_formal_name}Chiefdom of Scarhok" />
+    <string id="str_faction_informal_name_for_culture.scarhok" text="{=E11SH_informal_name}the Scarhokars" />
+    <string id="str_culture_description.scarhok" text="{=SH_text}Coming from the north west, they wrecked everyone by throwing axes" />
+</strings>

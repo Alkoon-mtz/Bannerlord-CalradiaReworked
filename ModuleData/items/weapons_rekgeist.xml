@@ -3,7 +3,7 @@
     <CraftedItem id="rekgeist_2hsword_1_t5"
         name="{=rekgeist_2hsword_1_t5}Zweihander Sword"
         crafting_template="TwoHandedSword"
-        culture="Culture.vlandia"
+        culture="Culture.rekgeist"
         modifier_group="sword">
         <Pieces>
             <Piece id="rekgeist_blade_elite_t5"

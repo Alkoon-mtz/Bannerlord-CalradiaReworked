@@ -4,7 +4,7 @@
     <CraftedItem id="scarhok_throwing_axe_t2"
         name="{=scarhok_throwing_axe_t2}Scarhok Throwing Axe T2"
         crafting_template="CTScarhokThrowingAxe"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         modifier_group="axe_throwing">
         <Pieces>
             <Piece id="scarhok_throwing_axe_craft_t2_head"
@@ -18,7 +18,7 @@
     <CraftedItem id="scarhok_throwing_axe_t3"
         name="{=scarhok_throwing_axe_t3}Scarhok Throwing Axe T3"
         crafting_template="CTScarhokThrowingAxe"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         modifier_group="axe_throwing">
         <Pieces>
             <Piece id="scarhok_throwing_axe_craft_t3_head"
@@ -32,7 +32,7 @@
     <CraftedItem id="scarhok_throwing_axe_t4"
         name="{=scarhok_throwing_axe_t4}Scarhok Throwing Axe T4"
         crafting_template="CTScarhokThrowingAxe"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         modifier_group="axe_throwing">
         <Pieces>
             <Piece id="scarhok_throwing_axe_craft_t4_head"
@@ -46,7 +46,7 @@
     <CraftedItem id="scarhok_throwing_axe_t5"
         name="{=scarhok_throwing_axe_t5}Scarhok Throwing Axe T5"
         crafting_template="CTScarhokThrowingAxe"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         modifier_group="axe_throwing">
         <Pieces>
             <Piece id="scarhok_throwing_axe_craft_t5_head"
@@ -61,7 +61,7 @@
     <CraftedItem id="scarhok_axethrower_axe_t2"
         name="{=scarhok_axethrower_axe_t2}Scarhok Francisk T2"
         crafting_template="TwoHandedAxe"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         modifier_group="axe">
         <Pieces>
             <Piece id="scarhok_throwing_axe_craft_t2_head"
@@ -75,7 +75,7 @@
     <CraftedItem id="scarhok_axethrower_axe_t3"
         name="{=scarhok_axethrower_axe_t3}Scarhok Francisk T3"
         crafting_template="TwoHandedAxe"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         modifier_group="axe">
         <Pieces>
             <Piece id="scarhok_throwing_axe_craft_t3_head"
@@ -89,7 +89,7 @@
     <CraftedItem id="scarhok_axethrower_axe_t4"
         name="{=scarhok_axethrower_axe_t4}Scarhok Francisk T4"
         crafting_template="TwoHandedAxe"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         modifier_group="axe">
         <Pieces>
             <Piece id="scarhok_throwing_axe_craft_t4_head"
@@ -103,7 +103,7 @@
     <CraftedItem id="scarhok_axethrower_axe_t5"
         name="{=scarhok_axethrower_axe_t5}Scarhok Francisk T5"
         crafting_template="TwoHandedAxe"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         modifier_group="axe">
         <Pieces>
             <Piece id="scarhok_throwing_axe_craft_t5_head"
@@ -118,7 +118,7 @@
     <CraftedItem id="scarhok_elite_axe_t3"
         name="{=scarhok_elite_axe_t3}Scarhok Elite Axe t3"
         crafting_template="OneHandedAxe"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         modifier_group="axe">
         <Pieces>
             <Piece id="scarhok_axe_craft_t3_head"
@@ -132,7 +132,7 @@
     <CraftedItem id="scarhok_elite_axe_t4"
         name="{=scarhok_elite_axe_t4}Scarhok Elite Axe t4"
         crafting_template="OneHandedAxe"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         modifier_group="axe">
         <Pieces>
             <Piece id="scarhok_axe_craft_t4_head"
@@ -146,7 +146,7 @@
     <CraftedItem id="scarhok_elite_axe_t5"
         name="{=scarhok_elite_axe_t5}Scarhok Elite Axe t5"
         crafting_template="OneHandedAxe"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         modifier_group="axe">
         <Pieces>
             <Piece id="scarhok_axe_craft_t5_head"
@@ -160,7 +160,7 @@
     <CraftedItem id="scarhok_elite_axe_t6"
         name="{=scarhok_elite_axe_t6}Scarhok Elite Axe t6"
         crafting_template="OneHandedAxe"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         modifier_group="axe">
         <Pieces>
             <Piece id="scarhok_axe_craft_t6_head"

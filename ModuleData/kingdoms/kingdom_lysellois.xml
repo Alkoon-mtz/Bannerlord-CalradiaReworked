@@ -1,5 +1,5 @@
 <Kingdoms>
-    <Kingdom id="kingdom_lysellois"
+    <Kingdom id="vlandia"
         owner="Hero.lord_lysellois_1_1"
         banner_key="11.12.12.1536.1536.764.764.1.0.0.500.131.131.350.450.764.799.0.0.0.424.131.131.400.400.764.799.0.0.0.340.131.12.350.300.764.524.0.0.0.125.131.12.250.300.564.779.0.1.0.125.131.12.250.300.964.779.0.0.0"
         primary_banner_color="0xff224277"
@@ -9,7 +9,7 @@
         color2="FFF1C232"
         alternative_color="FFF1C232"
         alternative_color2="FF3A6298"
-        culture="Culture.lysellois"
+        culture="Culture.vlandia"
         settlement_banner_mesh="encounter_flag_a"
         flag_mesh="info_screen_flags_b"
         name="{=LY_kingdom_name}Lysellois Kingdom"

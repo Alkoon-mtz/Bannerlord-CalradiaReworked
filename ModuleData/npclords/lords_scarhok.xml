@@ -1,19 +1,19 @@
 <NPCCharacters>
     <NPCCharacter id="lord_scarhok_1_1"
-        name="{=lord_scarhok_1_1}Louis"
-        age="43"
+        name="{=lord_scarhok_1_1}Hardouin"
+        age="39"
         voice="ironic"
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.scarhok"
         occupation="Lord"
-        skill_template="SkillSet.lord_cav_pol_throw_1">
+        skill_template="SkillSet.lord_1h_throw_1">
         <face>
             <BodyProperties version="4"
-                age="43"
-                weight="0.3283"
-                build="0.8553"
-                key="0010240D00580202B379B24D4767849BC78387858587B773A87677498DA05B5D007D560307886597000000000000000000000000000000000000000028E43002" />
+                age="39"
+                weight="0.559"
+                build="0.647"
+                key="0008840D0000144677828E41B1DBEDA83A8A8E7C96C36D0B7289EAE889A7BBBB009A800309B99A220000000000000000000000000000000000000000313040C5" />
         </face>
         <Traits>
             <Trait id="Honor"
@@ -23,26 +23,26 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_king_template_bat_m" />
-            <EquipmentSet id="lys_king_template_civ_m"
+            <EquipmentSet id="sca_king_template_bat_m" />
+            <EquipmentSet id="sca_king_template_civ_m"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_scarhok_2_1"
-        name="{=lord_scarhok_2_1}François"
-        age="39"
+        name="{=lord_scarhok_2_1}Cardin"
+        age="42"
         voice="ironic"
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.scarhok"
         occupation="Lord"
-        skill_template="SkillSet.lord_cav_pol_throw_1">
+        skill_template="SkillSet.lord_1h_throw_1">
         <face>
             <BodyProperties version="4"
-                age="39"
-                weight="0.326"
-                build="0.515"
-                key="0002040A40001241C778F28E389E92A78ABE7B7BA9B1C99CCACEB35988ECF7FB00285003025D8E7D000000000000000000000000000000000000000056578085" />
+                age="42"
+                weight="0.559"
+                build="0.647"
+                key="000DC408C00013C48A829E4DB4DBFEA83F8B8E8DB7C3866A72D9EAEA8AE8EEFB007A800307B99B53000000000000000000000000000000000000000030E84105" />
         </face>
         <Traits>
             <Trait id="Mercy"
@@ -52,26 +52,26 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="lys_civ_template_flamboyant"
+            <EquipmentSet id="sca_bat_template_flamboyant" />
+            <EquipmentSet id="sca_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_scarhok_3_1"
-        name="{=lord_scarhok_3_1}Foulques"
-        age="53"
+        name="{=lord_scarhok_3_1}Macieu"
+        age="36"
         voice="ironic"
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.scarhok"
         occupation="Lord"
-        skill_template="SkillSet.lord_cav_pol_throw_1">
+        skill_template="SkillSet.lord_1h_throw_1">
         <face>
             <BodyProperties version="4"
-                age="53"
-                weight="0.326"
-                build="0.515"
-                key="0010500D80001206C678F17E289E92A789BE7B7B7991B99CBABBB35988EBF6FA00985003094D8E7D0000000000000000000000000000000000000000552E8085" />
+                age="36"
+                weight="0.402"
+                build="0.873"
+                key="00002008000033C43F6EA3DAAE8DF8FDEFAE87AFC446A7CCDDFFDADD8EEC99EE008D600308EFABBE000000000000000000000000000000000000000011189105" />
         </face>
         <Traits>
             <Trait id="Mercy"
@@ -81,27 +81,27 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="lys_civ_template_flamboyant"
+            <EquipmentSet id="sca_bat_template_flamboyant" />
+            <EquipmentSet id="sca_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_scarhok_4_1"
-        name="{=lord_scarhok_4_1}Elenor"
-        age="41"
+        name="{=lord_scarhok_4_1}Aregonde"
+        age="34"
         voice="ironic"
         is_female="true"
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.scarhok"
         occupation="Lord"
-        skill_template="SkillSet.lord_cav_1h_pol_1">
+        skill_template="SkillSet.lord_archer_1h_1">
         <face>
             <BodyProperties version="4"
-                age="22.16"
-                weight="0.217"
-                build="0.656"
-                key="000D000D00002344966BFF7EEA75B5B77C88864FCB63E7EA676FA3898AD9ECF5008A300308476ECA00000000000000000000000000000000000000005D0C4005" />
+                age="34"
+                weight="0.58"
+                build="0.874"
+                key="000D780C4B1433C2C876CC6BD3BDC7ECD4B47B99DAD5E9E5CAFE5DE88E17CDE9007D9003078DC8EE000000000000000000000000000000000000000040E07002" />
         </face>
         <Traits>
             <Trait id="Valor"
@@ -109,26 +109,26 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_heavy" />
-            <EquipmentSet id="lys_civ_template_heavy"
+            <EquipmentSet id="sca_bat_template_heavy" />
+            <EquipmentSet id="sca_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_scarhok_5_1"
-        name="{=lord_scarhok_5_1}Hubert"
-        age="35"
+        name="{=lord_scarhok_5_1}Osmund"
+        age="34"
         voice="earnest"
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.scarhok"
         occupation="Lord"
-        skill_template="SkillSet.lord_cav_1h_pol_1">
+        skill_template="SkillSet.lord_archer_1h_1">
         <face>
             <BodyProperties version="4"
-                age="35"
-                weight="0.279"
-                build="0.62"
-                key="0008200E4000210B5B64E6BF5DBA89D3146871B250D61E147BBDCEB68BD5C1890049400304C21C07000000000000000000000000000000000000000030780100" />
+                age="34"
+                weight="0.559"
+                build="0.647"
+                key="0000340AC000340246849F8FB4DBFEA83FAB8E9FE7C48D7692F9EAEC8BEDEEFC004A800304B99C5600000000000000000000000000000000000000003A9040C5" />
         </face>
         <Traits>
             <Trait id="Calculating"
@@ -136,83 +136,83 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_heavy" />
-            <EquipmentSet id="lys_civ_template_heavy"
+            <EquipmentSet id="sca_bat_template_heavy" />
+            <EquipmentSet id="sca_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_scarhok_6_1"
-        name="{=lord_scarhok_6_1}Gaston"
-        age="31"
-        voice="curt"
-        default_group="Cavalry"
-        is_hero="true"
-        culture="Culture.scarhok"
-        occupation="Lord"
-        skill_template="SkillSet.lord_xbow_1h_1">
-        <face>
-            <BodyProperties version="4"
-                age="31"
-                weight="0.279"
-                build="0.62"
-                key="000D680D800032845C7AE9BF5EBBACE3456871B583D62E968DCECECC8BD6C1890099400309C54C2E000000000000000000000000000000000000000037315100" />
-        </face>
-        <Traits>
-            <Trait id="Mercy"
-                value="-1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
-        <Equipments>
-            <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_medium" />
-            <EquipmentSet id="lys_civ_template_default"
-                civilian="true" />
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="lord_scarhok_7_1"
-        name="{=lord_scarhok_7_1}Melisandre"
-        age="28"
-        voice="curt"
-        is_female="true"
-        default_group="Cavalry"
-        is_hero="true"
-        culture="Culture.scarhok"
-        occupation="Lord"
-        skill_template="SkillSet.lord_xbow_1h_1">
-        <face>
-            <BodyProperties version="4"
-                age="28"
-                weight="0.262"
-                build="0.671"
-                key="0002380D00003115BF83FE44B6CAB875BF4B859786D1C3C2CC9FABB185B9EAB5006A40030638A9DF000000000000000000000000000000000000000062D73004" />
-        </face>
-        <Traits>
-            <Trait id="Valor"
-                value="+1" />
-        </Traits>
-        <Equipments>
-            <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_medium" />
-            <EquipmentSet id="lys_civ_template_default"
-                civilian="true" />
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="lord_scarhok_8_1"
-        name="{=lord_scarhok_8_1}Raymond"
+        name="{=lord_scarhok_6_1}Roscelin"
         age="26"
         voice="curt"
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.scarhok"
         occupation="Lord"
-        skill_template="SkillSet.lord_1h_pol_1">
+        skill_template="SkillSet.lord_throw_2h_1">
         <face>
             <BodyProperties version="4"
                 age="26"
-                weight="0.279"
-                build="0.62"
-                key="0009080C400033435C7AEACE566BBC73456871B583D62E968DCECECC8BD6C18A0079400307C65C8F000000000000000000000000000000000000000004E15041" />
+                weight="0.559"
+                build="0.647"
+                key="000554098000140142822431B0DAED743F8A8C2892B36D415279BAB889CB9EE7005A800305B89A1200000000000000000000000000000000000000003AA82105" />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="-1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="sca_bat_template_medium" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_7_1"
+        name="{=lord_scarhok_7_1}Chardine"
+        age="38"
+        voice="curt"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_throw_2h_1">
+        <face>
+            <BodyProperties version="4"
+                age="38"
+                weight="0.578"
+                build="0.857"
+                key="0008140B8D1424056F67D7B369546553626478145AE4964285B437A4832977F8008D900308A8165A0000000000000000000000000000000000000000430040C4" />
+        </face>
+        <Traits>
+            <Trait id="Valor"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="sca_bat_template_medium" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_8_1"
+        name="{=lord_scarhok_8_1}Ansgot"
+        age="26"
+        voice="curt"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_throw_1h_1">
+        <face>
+            <BodyProperties version="4"
+                age="26"
+                weight="0.371"
+                build="0.721"
+                key="0002880B800003865F603A66E9D9CCDCD4577ADD93847D56A5E7AD7687D4FE76004B600304DC492C000000000000000000000000000000000000000008806044" />
         </face>
         <Traits>
             <Trait id="Honor"
@@ -222,8 +222,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_low" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="sca_bat_template_low" />
+            <EquipmentSet id="sca_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>

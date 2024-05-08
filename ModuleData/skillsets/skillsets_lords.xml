@@ -115,7 +115,7 @@
         <skill id="Medicine" value="50" />
         <skill id="Engineering" value="50" />
     </SkillSet>
-    <SkillSet id="lord_throw_2h_1">
+    <SkillSet id="lord_throw_pol_1">
         <skill id="Athletics" value="200"/>
         <skill id="Riding" value="100"/>
 
@@ -461,7 +461,7 @@
         <skill id="Medicine" value="50" />
         <skill id="Engineering" value="50" />
     </SkillSet>
-    <SkillSet id="lord_cav_throw_2h_1">
+    <SkillSet id="lord_cav_throw_pol_1">
         <skill id="Athletics" value="100"/>
         <skill id="Riding" value="200"/>
 

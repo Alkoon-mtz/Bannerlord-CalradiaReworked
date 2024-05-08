@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-    <NPCCharacter id="spc_merchant_lysellois_1"
-        name="{=!}Ironic lysellois merchant"
+    <NPCCharacter id="spc_merchant_scarhok_1"
+        name="{=!}Ironic scarhok merchant"
         voice="ironic"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="Merchant">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_scarhok" />
         </face>
         <Traits>
             <Trait id="Valor"
@@ -24,16 +24,16 @@
             <EquipmentSet id="spc_notable_vlandia_merch1" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_merchant_lysellois_2"
-        name="{=!}Curt lysellois merchant"
+    <NPCCharacter id="spc_merchant_scarhok_2"
+        name="{=!}Curt scarhok merchant"
         voice="curt"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="Merchant">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_scarhok" />
         </face>
         <Traits>
             <Trait id="Commander"
@@ -51,16 +51,16 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_merchant_lysellois_3"
-        name="{=!}Daring lysellois merchant"
+    <NPCCharacter id="spc_merchant_scarhok_3"
+        name="{=!}Daring scarhok merchant"
         voice="earnest"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="Merchant">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_scarhok" />
         </face>
         <Traits>
             <Trait id="Commander"
@@ -76,16 +76,16 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_merchant_lysellois_4"
-        name="{=!}Softspoken lysellois merchant"
+    <NPCCharacter id="spc_merchant_scarhok_4"
+        name="{=!}Softspoken scarhok merchant"
         voice="softspoken"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="Merchant">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_scarhok" />
         </face>
         <!--<Hero id="spc_notable_vlandia_merch4" faction="Kingdom.vlandia" />-->
         <skills></skills>
@@ -105,16 +105,16 @@
             <EquipmentSet id="spc_notable_vlandia_merch4" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_merchant_lysellois_5"
+    <NPCCharacter id="spc_merchant_scarhok_5"
         name="{=!}{FIRSTNAME} the Manciple"
         voice="softspoken"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="Merchant">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_scarhok" />
         </face>
         <!--<Hero id="spc_notable_vlandia_merch5" faction="Kingdom.vlandia" />-->
         <skills></skills>
@@ -134,17 +134,17 @@
             <EquipmentSet id="spc_notable_vlandia_merch5" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_merchant_lysellois_6"
+    <NPCCharacter id="spc_merchant_scarhok_6"
         name="{=!}{FIRSTNAME} the Warehouser"
         voice="ironic"
         is_template="true"
         is_female="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="Merchant">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_scarhok_f" />
         </face>
         <!--<Hero id="spc_notable_vlandia_1" faction="Kingdom.vlandia" />-->
         <skills></skills>
@@ -162,17 +162,17 @@
             <EquipmentSet id="spc_notable_vlandia_1" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_merchant_lysellois_6f"
+    <NPCCharacter id="spc_merchant_scarhok_6f"
         name="{=!}{FIRSTNAME} the Heiress"
         voice="ironic"
         is_template="true"
         is_female="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="Merchant">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_scarhok_f" />
         </face>
         <!--<Hero id="spc_notable_vlandia_1b" faction="Kingdom.vlandia" />-->
         <skills></skills>
@@ -192,16 +192,16 @@
             <EquipmentSet id="spc_notable_vlandia_1b" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_preacher_lysellois_1"
-        name="{=!}Puritan lysellois preacher"
+    <NPCCharacter id="spc_preacher_scarhok_1"
+        name="{=!}Puritan scarhok preacher"
         voice="earnest"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="Preacher">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_scarhok" />
         </face>
         <!--<Hero id="spc_notable_vlandia_2" faction="Kingdom.vlandia" />-->
         <skills></skills>
@@ -219,16 +219,16 @@
             <EquipmentSet id="spc_notable_vlandia_2" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_preacher_lysellois_1f"
-        name="{=!}Rebellious lysellois preacher"
+    <NPCCharacter id="spc_preacher_scarhok_1f"
+        name="{=!}Rebellious scarhok preacher"
         voice="earnest"
         is_template="true"
         default_group="Infantry"
         is_female="true"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="Preacher">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_scarhok_f" />
         </face>
         <!--<Hero id="spc_notable_vlandia_3" faction="Kingdom.vlandia" />-->
         <skills></skills>
@@ -246,13 +246,13 @@
             <EquipmentSet id="spc_notable_vlandia_3" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_gangleader_lysellois_1"
-        name="{=!}Standard lysellois gang leader"
+    <NPCCharacter id="spc_gangleader_scarhok_1"
+        name="{=!}Standard scarhok gang leader"
         voice="curt"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="GangLeader">
         <face>
             <face_key_template value="BodyProperty.fighter_vlandia" />
@@ -270,16 +270,16 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_gangleader_lysellois_1f"
-        name="{=!}Standard lysellois gang leader"
+    <NPCCharacter id="spc_gangleader_scarhok_1f"
+        name="{=!}Standard scarhok gang leader"
         voice="ironic"
         is_template="true"
         default_group="Infantry"
         is_female="true"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="GangLeader">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_scarhok_f" />
         </face>
         <!--<Hero id="spc_notable_vlandia_gang_leader_2" faction="Kingdom.vlandia" />-->
         <Traits>
@@ -294,16 +294,16 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_gangleader_lysellois_2f"
-        name="{=!}Ironic lysellois gang leader"
+    <NPCCharacter id="spc_gangleader_scarhok_2f"
+        name="{=!}Ironic scarhok gang leader"
         voice="ironic"
         is_template="true"
         default_group="Infantry"
         is_female="true"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="GangLeader">
         <face>
-            <face_key_template value="BodyProperty.fighter_vlandia" />
+            <face_key_template value="BodyProperty.villager_scarhok_f" />
         </face>
         <!--<Hero id="spc_notable_vlandia_gang_leader_2" faction="Kingdom.vlandia" />-->
         <Traits>
@@ -323,15 +323,15 @@
             <EquipmentSet id="npc_wanderer_equipment_template_vlandia" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_artisan_lysellois_1"
+    <NPCCharacter id="spc_artisan_scarhok_1"
         name="{=!}Lysellegien artisan 1"
         voice="earnest"
         is_template="true"
         default_group="Infantry"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="Artisan">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_scarhok" />
         </face>
         <!--<Hero id="spc_notable_vlandia_artisan_1" faction="Kingdom.vlandia" />-->
         <Traits>
@@ -344,15 +344,15 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_artisan_lysellois_2"
+    <NPCCharacter id="spc_artisan_scarhok_2"
         name="{=!}Lysellegien artisan 2"
         voice="curt"
         is_template="true"
         default_group="Infantry"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="Artisan">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_scarhok" />
         </face>
         <!--<Hero id="spc_notable_vlandia_artisan_2" faction="Kingdom.vlandia" />-->
         <Traits>
@@ -365,15 +365,15 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_ruralnotable_lysellois_1"
+    <NPCCharacter id="spc_ruralnotable_scarhok_1"
         name="{=!}Lysellegien yeoman"
         voice="curt"
         is_template="true"
         default_group="Infantry"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="RuralNotable">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_scarhok" />
         </face>
         <!--<Hero id="spc_notable_vlandia_rural_2" faction="Kingdom.vlandia" />-->
         <Traits>
@@ -386,16 +386,16 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_ruralnotable_lysellois_1f"
+    <NPCCharacter id="spc_ruralnotable_scarhok_1f"
         name="{=!}Lysellegien yeowoman"
         voice="curt"
         is_template="true"
         default_group="Infantry"
         is_female="true"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="RuralNotable">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_scarhok_f" />
         </face>
         <!--<Hero id="spc_notable_vlandia_rural_2" faction="Kingdom.vlandia" />-->
         <Traits>
@@ -408,15 +408,15 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_ruralnotable_lysellois_2"
+    <NPCCharacter id="spc_ruralnotable_scarhok_2"
         name="{=!}Lysellegien yeoman"
         voice="softspoken"
         is_template="true"
         default_group="Infantry"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="RuralNotable">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_scarhok" />
         </face>
         <!--<Hero id="spc_notable_vlandia_rural_2" faction="Kingdom.vlandia" />-->
         <Traits>
@@ -431,16 +431,16 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_ruralnotable_lysellois_2f"
+    <NPCCharacter id="spc_ruralnotable_scarhok_2f"
         name="{=!}Lysellegien yeowoman"
         voice="softspoken"
         is_template="true"
         default_group="Infantry"
         is_female="true"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="RuralNotable">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_scarhok_f" />
         </face>
         <!--<Hero id="spc_notable_vlandia_rural_2" faction="Kingdom.vlandia" />-->
         <Traits>
@@ -455,16 +455,16 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_headman_lysellois_1"
-        name="{=!}Lysellois rebellious headman"
+    <NPCCharacter id="spc_headman_scarhok_1"
+        name="{=!}Scarhok rebellious headman"
         voice="earnest"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="Headman">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_scarhok" />
         </face>
         <!--<Hero id="spc_notable_vlandia_4" faction="Kingdom.vlandia" />-->
         <skills></skills>
@@ -482,17 +482,17 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_headman_lysellois_1f"
-        name="{=!}Lysellois conservative headwoman"
+    <NPCCharacter id="spc_headman_scarhok_1f"
+        name="{=!}Scarhok conservative headwoman"
         voice="curt"
         is_template="true"
         default_group="Infantry"
         is_female="true"
         is_hero="false"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="Headman">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_scarhok_f" />
         </face>
         <!--<Hero id="spc_notable_vlandia_4" faction="Kingdom.vlandia" />-->
         <skills></skills>
@@ -510,16 +510,16 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_headman_lysellois_2"
-        name="{=!}Lysellois devious headman"
+    <NPCCharacter id="spc_headman_scarhok_2"
+        name="{=!}Scarhok devious headman"
         voice="softspoken"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.vlandia"
+        culture="Culture.scarhok"
         occupation="Headman">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_scarhok" />
         </face>
         <!--<Hero id="spc_notable_vlandia_4" faction="Kingdom.vlandia" />-->
         <skills></skills>
