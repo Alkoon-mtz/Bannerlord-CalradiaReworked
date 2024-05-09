@@ -54,7 +54,7 @@
     
     <!-- Empire West -->
     <!-- <xsl:template match="Faction[@id='clan_empire_west_1']"/> -->
-    <!-- <xsl:template match="Faction[@id='clan_empire_west_1']/@super_faction"><xsl:attribute name="super_faction">Kingdom.empire_w</xsl:attribute> </xsl:template> -->
+    <!-- <xsl:template match="Faction[@id='clan_empire_west_1']/@super_faction"><xsl:attribute name="super_faction">Kingdom.kingdom_explorer</xsl:attribute> </xsl:template> -->
     <xsl:template match="Faction[@id='clan_empire_west_2']"/>
     <xsl:template match="Faction[@id='clan_empire_west_3']"/>
     <xsl:template match="Faction[@id='clan_empire_west_4']"/>
@@ -76,15 +76,15 @@
          <xsl:template match="Faction[@id='clan_khuzait_9']"/> -->
     
     <!-- Sturgia -->
-    <!-- <xsl:template match="Faction[@id='clan_sturgia_1']"/> -->
-    <!-- <xsl:template match="Faction[@id='clan_sturgia_2']"/>
-         <xsl:template match="Faction[@id='clan_sturgia_3']"/>
-         <xsl:template match="Faction[@id='clan_sturgia_4']"/>
-         <xsl:template match="Faction[@id='clan_sturgia_5']"/>
-         <xsl:template match="Faction[@id='clan_sturgia_6']"/>
-         <xsl:template match="Faction[@id='clan_sturgia_7']"/>
-         <xsl:template match="Faction[@id='clan_sturgia_8']"/>
-         <xsl:template match="Faction[@id='clan_sturgia_9']"/> -->
+    <xsl:template match="Faction[@id='clan_sturgia_1']"/>
+    <xsl:template match="Faction[@id='clan_sturgia_2']"/>
+    <xsl:template match="Faction[@id='clan_sturgia_3']"/>
+    <xsl:template match="Faction[@id='clan_sturgia_4']"/>
+    <xsl:template match="Faction[@id='clan_sturgia_5']"/>
+    <xsl:template match="Faction[@id='clan_sturgia_6']"/>
+    <xsl:template match="Faction[@id='clan_sturgia_7']"/>
+    <xsl:template match="Faction[@id='clan_sturgia_8']"/>
+    <xsl:template match="Faction[@id='clan_sturgia_9']"/>
     
     <!-- Vlandia -->
     <xsl:template match="Faction[@id='clan_vlandia_1']"/>

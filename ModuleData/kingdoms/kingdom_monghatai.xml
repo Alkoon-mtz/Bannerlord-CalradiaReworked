@@ -19,7 +19,7 @@
         ruler_title="{=hwnp9abW}Khan"
         text="{=fGNdo1BK}Nomadic tribes unified under a single leader">
         <relationships>
-            <relationship kingdom="Kingdom.sturgia"
+            <relationship kingdom="Kingdom.kingdom_virkaldr"
                 value="-1"
                 isAtWar="true" />
         </relationships>

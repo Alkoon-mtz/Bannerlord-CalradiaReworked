@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Heroes>
+   <Hero id="lord_virkaldr_1_1" faction="Faction.clan_virkaldr_1" />
+   <Hero id="lord_virkaldr_2_1" faction="Faction.clan_virkaldr_2" />
+   <Hero id="lord_virkaldr_3_1" faction="Faction.clan_virkaldr_3" />
+   <Hero id="lord_virkaldr_4_1" faction="Faction.clan_virkaldr_4" />
+   <Hero id="lord_virkaldr_5_1" faction="Faction.clan_virkaldr_5" />
+   <Hero id="lord_virkaldr_6_1" faction="Faction.clan_virkaldr_6" />
+   <Hero id="lord_virkaldr_7_1" faction="Faction.clan_virkaldr_7" />
+   <Hero id="lord_virkaldr_8_1" faction="Faction.clan_virkaldr_8" />
+</Heroes>

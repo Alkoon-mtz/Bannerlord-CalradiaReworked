@@ -12,9 +12,10 @@
         face_mesh_cache="true">
         <face>
             <BodyProperties version="4"
-                weight="0.7967"
-                build="0.8773"
-                key="00056802C07000108879465A53347C94973C75A5778495489D65EC3275332456029DC62409783641000000000000000000000000000000000000000073342082" />
+                age="37"
+                weight="0.387"
+                build="0.5648"
+                key="00026C06045803C3D87795AE854EEDDAA8CF8DDEDEC6DEEFFA8F55A597AAD9CD0088600308AC8B8C000000000000000000000000000000000000000021000044" />
         </face>
         <skills></skills>
         <Traits>
@@ -49,9 +50,10 @@
         face_mesh_cache="true">
         <face>
             <BodyProperties version="4"
-                weight="0.7083"
-                build="0.6528"
-                key="00083C070000238696333724947BC936C948765C8A747896ACA8A26C988A18B608CAB4890CA97C65000000000000000000000000000000000000000001985000" />
+                age="43"
+                weight="0.385"
+                build="0.453"
+                key="0008140A40003549D996DDC4B3ACCC9837CF8A679A75BABDC6AFBF4790A668CB00D760030D56CDEE000000000000000000000000000000000000000001B06100" />
         </face>
         <Traits>
             <Trait id="BalancedFightingSkills"
@@ -82,7 +84,7 @@
     <NPCCharacter id="lord_cereann_3_1"
         name="{=d8D98oFG}Melidir"
         voice="softspoken"
-        age="48"
+        age="33"
         default_group="HorseArcher"
         is_hero="true"
         culture="Culture.battania"
@@ -90,9 +92,10 @@
         face_mesh_cache="true">
         <face>
             <BodyProperties version="4"
-                weight="0.7017"
-                build="0.6334"
-                key="000268070000244226700A207474A3848C9A751498816EA389779E6A832A155105AAB0560A65B64200000000000000000000000000000000000000005F5870C2" />
+                age="33"
+                weight="0.322"
+                build="0.674"
+                key="00030403400003121C66A91944A867FCE74F81155B91AD3021E2E5618069339A009A500309B41E8E000000000000000000000000000000000000000001382005" />
         </face>
         <Traits>
             <Trait id="BalancedFightingSkills"
@@ -120,7 +123,7 @@
     </NPCCharacter>
     <NPCCharacter id="lord_cereann_4_1"
         name="{=bDMmX9YI}Luichan"
-        age="25"
+        age="39"
         voice="earnest"
         default_group="Ranged"
         is_hero="true"
@@ -129,9 +132,10 @@
         face_mesh_cache="true">
         <face>
             <BodyProperties version="4"
-                weight="0.7876"
-                build="0.6364"
-                key="000030058000000189620C2443356B748A587DDD9DB1A81478979D548215430103CAC0350C495C1500000000000000000000000000000000000000006B904040" />
+                age="39"
+                weight="0.338"
+                build="0.5015"
+                key="00015C09800012C1649A46DE272ECDAC818F823688808AA99ACA666A85787AC90088500308889A43000000000000000000000000000000000000000001087005" />
         </face>
         <skills></skills>
         <Traits>
@@ -159,7 +163,7 @@
     </NPCCharacter>
     <NPCCharacter id="lord_cereann_5_1"
         name="{=8LXDxyr2}Liasin"
-        age="35"
+        age="42"
         voice="ironic"
         is_female="true"
         default_group="Cavalry"
@@ -169,9 +173,10 @@
         face_mesh_cache="true">
         <face>
             <BodyProperties version="4"
-                weight="0.5"
-                build="0.5"
-                key="0005600A002C2004569443C64645995CDA6B7ABA5BC4357B7C8694BC995E487801A776130A87872B00000000000000000000000000000000000000001B443083" />
+                age="42"
+                weight="0.516"
+                build="0.4892"
+                key="00023C08052C140FBC9DDE7EBA68CAF9F7FC8DC5EBC7EDCBEBE9E6CE94F83FDD0097800309ED6B9D0000000000000000000000000000000000000000752840C5" />
         </face>
         <skills></skills>
         <Traits>
@@ -193,7 +198,7 @@
     </NPCCharacter>
     <NPCCharacter id="lord_cereann_6_1"
         name="{=kuOs90Uh}Aradwyr"
-        age="24"
+        age="44"
         voice="ironic"
         default_group="Ranged"
         is_hero="true"
@@ -202,9 +207,10 @@
         face_mesh_cache="true">
         <face>
             <BodyProperties version="4"
-                weight="0.67"
-                build="0.8069"
-                key="00050005800013481D61091C75439996538775CE780133A738967B5982154B12047CA04607449413000000000000000000000000000000000000000002F05100" />
+                age="44"
+                weight="0.2948"
+                build="0.387"
+                key="00004008C00024C9849AD6DF398ECEDDE88F84FFDFD2EFFFDACF8B8D959E8EEA0096400309BBDF45000000000000000000000000000000000000000001287005" />
         </face>
         <skills></skills>
         <Traits>
@@ -234,7 +240,7 @@
     </NPCCharacter>
     <NPCCharacter id="lord_cereann_7_1"
         name="{=tHtt3HCn}Pryndor"
-        age="48"
+        age="35"
         voice="curt"
         default_group="Cavalry"
         is_hero="true"
@@ -243,9 +249,10 @@
         face_mesh_cache="true">
         <face>
             <BodyProperties version="4"
-                weight="0.7362"
-                build="0.6653"
-                key="0000600700001383AB62191815359CA8721876941F21B4384969AC5A8215275203AAB0350A57868200000000000000000000000000000000000000006F483042" />
+                age="35"
+                weight="0.259"
+                build="0.584"
+                key="00023408C00015147B8787BC8879B3E3B4BA8D76BA86C7AD9AAB94AD93C97A3200B940030BB49DB40000000000000000000000000000000000000000017830C4" />
         </face>
         <skills></skills>
         <Traits>
@@ -271,7 +278,7 @@
     </NPCCharacter>
     <NPCCharacter id="lord_cereann_8_1"
         name="{=ktPP2R1i}Guaran"
-        age="38"
+        age="28"
         voice="earnest"
         default_group="Cavalry"
         is_hero="true"
@@ -280,9 +287,10 @@
         face_mesh_cache="true">
         <face>
             <BodyProperties version="4"
-                weight="0.5"
-                build="0.5"
-                key="00058C02C03C07C249A67962000F269EE3EFFE7528914639236B99548BFBD5A5010006890F9CA7B60000000000000000000000000000000000000000019C5104" />
+                age="28"
+                weight="0.385"
+                build="0.453"
+                key="0000600780003487E986DD13B2ABAA8837CF8A25AD25E85DB6AFBF44908452BB007760030756CDED000000000000000000000000000000000000000000E850C0" />
         </face>
         <Traits>
             <Trait id="BalancedFightingSkills"
