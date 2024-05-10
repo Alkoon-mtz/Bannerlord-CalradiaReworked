@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+    <!--Lord -->
+    <EquipmentRoster id="bat_bat_template_low" culture="Culture.battania">
+        <EquipmentSet>
+            <equipment slot="Item0" id="Item.northern_javelin_2_t3"/>
+            <equipment slot="Item1" id="Item.northern_javelin_2_t3"/>
+            <equipment slot="Item2" id="Item.battania_axe_2_t4"/>
+            <equipment slot="Item3" id="Item.battania_large_shield_b"/>
+            <equipment slot="Head" id="Item.ao_battanian_noblemans_ridge_helmet"/>
+            <equipment slot="Cape" id="Item.AR_battanian_shoulder_c"/>
+            <equipment slot="Body" id="Item.AR_battania_armor_q2"/>
+            <equipment slot="Gloves" id="Item.AR_pict_glove_b"/>
+            <equipment slot="Leg" id="Item.TV_battania_boots_h"/>
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_bat_template_medium" culture="Culture.battania">
+        <EquipmentSet>
+            <equipment slot="Item0" id="Item.noble_bow"/>
+            <equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+            <equipment slot="Item2" id="Item.vlandia_sword_4_t4"/>
+            <equipment slot="Item3" id="Item.battania_large_shield_b"/>
+            <equipment slot="Head" id="Item.AR_battania_lord_helmet_d"/>
+            <equipment slot="Cape" id="Item.AR_battanian_shoulder_h"/>
+            <equipment slot="Body" id="Item.AR_battania_armor_a2"/>
+            <equipment slot="Gloves" id="Item.battania_noble_bracers"/>
+            <equipment slot="Leg" id="Item.TV_battania_boots_j"/>
+            <equipment slot="Horse" id="Item.t3_battania_horse"/>
+            <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_bat_template_heavy" culture="Culture.battania">
+        <EquipmentSet>
+            <equipment slot="Item0" id="Item.avalanche_2haxe"/>
+            <equipment slot="Item1" id="Item.battania_large_shield_b"/>
+            <equipment slot="Head" id="Item.wolfhelmet"/>
+            <equipment slot="Cape" id="Item.AR_wolf_shoulder_h"/>
+            <equipment slot="Body" id="Item.ao_battanian_decorated_scale_armor_b"/>
+            <equipment slot="Gloves" id="Item.TV_battania_gloves_c"/>
+            <equipment slot="Leg" id="Item.TV_battania_boots_q"/>
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true" IsHeavyTemplate="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_bat_template_flamboyant" culture="Culture.battania">
+        <EquipmentSet>
+            <equipment slot="Item0" id="Item.woodland_longbow"/>
+            <equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+            <equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+            <equipment slot="Item3" id="Item.battania_2hsword_5_t4"/>
+            <equipment slot="Head" id="Item.TV_pict_helmet_n"/>
+            <equipment slot="Cape" id="Item.AR_wolf_shoulder_h"/>
+            <equipment slot="Body" id="Item.tv_battania_warlord_armor_c2"/>
+            <equipment slot="Gloves" id="Item.TV_battania_warlord_bracers_c"/>
+            <equipment slot="Leg" id="Item.tv_battania_warlord_boots_c"/>
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_bat_template_lady" culture="Culture.battania">
+        <EquipmentSet>
+            <equipment slot="Item0" id="Item.woodland_longbow"/>
+            <equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+            <equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+            <equipment slot="Item3" id="Item.battania_2hsword_5_t4"/>
+            <equipment slot="Head" id="Item.TV_pict_helmet_n"/>
+            <equipment slot="Cape" id="Item.AR_wolf_shoulder_h"/>
+            <equipment slot="Body" id="Item.tv_battania_warlord_armor_c2"/>
+            <equipment slot="Gloves" id="Item.TV_battania_warlord_bracers_c"/>
+            <equipment slot="Leg" id="Item.tv_battania_warlord_boots_c"/>
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true" IsFemaleTemplate="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+
+    <!-- King -->
+    <EquipmentRoster id="bat_king_template_bat_m" culture="Culture.battania">
+        <EquipmentSet civilian="false">
+            <equipment slot="Item0" id="Item.woodland_longbow"/>
+            <equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+            <equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+            <equipment slot="Item3" id="Item.battania_2hsword_5_t4"/>
+            <equipment slot="Head" id="Item.TV_pict_helmet_n"/>
+            <equipment slot="Cape" id="Item.AR_wolf_shoulder_h"/>
+            <equipment slot="Body" id="Item.tv_battania_warlord_armor_c2"/>
+            <equipment slot="Gloves" id="Item.TV_battania_warlord_bracers_c"/>
+            <equipment slot="Leg" id="Item.tv_battania_warlord_boots_c"/>
+        </EquipmentSet>
+        <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="false" />
+    </EquipmentRoster>
+    <EquipmentRoster id="bat_king_template_bat_f" culture="Culture.battania">
+        <EquipmentSet civilian="false">
+            <equipment slot="Item0" id="Item.woodland_longbow"/>
+            <equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+            <equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+            <equipment slot="Item3" id="Item.battania_2hsword_5_t4"/>
+            <equipment slot="Head" id="Item.TV_pict_helmet_n"/>
+            <equipment slot="Cape" id="Item.AR_wolf_shoulder_h"/>
+            <equipment slot="Body" id="Item.tv_battania_warlord_armor_c2"/>
+            <equipment slot="Gloves" id="Item.TV_battania_warlord_bracers_c"/>
+            <equipment slot="Leg" id="Item.tv_battania_warlord_boots_c"/>
+        </EquipmentSet>
+        <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="false" />
+    </EquipmentRoster>
+</EquipmentRosters>

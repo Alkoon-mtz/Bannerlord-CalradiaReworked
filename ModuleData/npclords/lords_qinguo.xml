@@ -32,7 +32,7 @@
         age="31"
         voice="ironic"
         is_female="true"
-        default_group="Cavalry"
+        default_group="Ranged"
         is_hero="true"
         culture="Culture.qinguo"
         occupation="Lord"

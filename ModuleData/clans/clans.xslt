@@ -65,15 +65,15 @@
     <xsl:template match="Faction[@id='clan_empire_west_9']"/>
     
     <!-- Khuzait -->
-    <!-- <xsl:template match="Faction[@id='clan_khuzait_1']"/> -->
-    <!-- <xsl:template match="Faction[@id='clan_khuzait_2']"/>
-         <xsl:template match="Faction[@id='clan_khuzait_3']"/>
-         <xsl:template match="Faction[@id='clan_khuzait_4']"/>
-         <xsl:template match="Faction[@id='clan_khuzait_5']"/>
-         <xsl:template match="Faction[@id='clan_khuzait_6']"/>
-         <xsl:template match="Faction[@id='clan_khuzait_7']"/>
-         <xsl:template match="Faction[@id='clan_khuzait_8']"/>
-         <xsl:template match="Faction[@id='clan_khuzait_9']"/> -->
+    <xsl:template match="Faction[@id='clan_khuzait_1']"/>
+    <xsl:template match="Faction[@id='clan_khuzait_2']"/>
+    <xsl:template match="Faction[@id='clan_khuzait_3']"/>
+    <xsl:template match="Faction[@id='clan_khuzait_4']"/>
+    <xsl:template match="Faction[@id='clan_khuzait_5']"/>
+    <xsl:template match="Faction[@id='clan_khuzait_6']"/>
+    <xsl:template match="Faction[@id='clan_khuzait_7']"/>
+    <xsl:template match="Faction[@id='clan_khuzait_8']"/>
+    <xsl:template match="Faction[@id='clan_khuzait_9']"/>
     
     <!-- Sturgia -->
     <xsl:template match="Faction[@id='clan_sturgia_1']"/>

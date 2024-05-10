@@ -202,7 +202,55 @@
     <xsl:template match="NPCCharacter[@id='lord_WE9_l']"/>
     <xsl:template match="NPCCharacter[@id='lord_WE9_u']"/>
     <xsl:template match="NPCCharacter[@id='lord_WE9_u2']"/>
+
     <!-- Khuzait -->
+    <xsl:template match="NPCCharacter[@id='lord_6_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_2']"/>
+    <xsl:template match="NPCCharacter[@id='dead_lord_6_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_7']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_10']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_101']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_13']"/>
+    <xsl:template match="NPCCharacter[@id='dead_lord_6_2']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_3']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_4']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_8']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_81']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_11']"/>
+    <xsl:template match="NPCCharacter[@id='dead_lord_6_4']"/>    
+    <xsl:template match="NPCCharacter[@id='lord_6_5']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_51']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_9']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_12']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_15']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_15_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_15_2']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_6']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_16']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_16_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_16_2']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_24']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_17']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_17_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_17_2']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_21']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_21_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_18']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_18_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_18_2']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_22']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_22_1']"/>    
+    <xsl:template match="NPCCharacter[@id='lord_6_19']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_19_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_19_2']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_23']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_20']"/>
+    <xsl:template match="NPCCharacter[@id='lord_6_20_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_K8_u']"/>
+    <xsl:template match="NPCCharacter[@id='lord_K9_l']"/>
+    <xsl:template match="NPCCharacter[@id='lord_K9_s']"/>
+    <xsl:template match="NPCCharacter[@id='lord_K9_c1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_K9_c2']"/> 
     
     <!-- Stugia -->
     <xsl:template match="NPCCharacter[@id='lord_2_1']"/>

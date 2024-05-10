@@ -2,31 +2,24 @@
 <NPCCharacters>
     <NPCCharacter id="lord_cereann_1_1"
         name="{=8auuZ79h}Nywin"
-        age="37"
+        age="35"
         voice="ironic"
         is_hero="true"
         is_female="true"
-        default_group="Cavalry"
+        default_group="Ranged"
         culture="Culture.battania"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_archer_2h_1">
         <face>
             <BodyProperties version="4"
-                age="37"
-                weight="0.387"
-                build="0.5648"
-                key="00026C06045803C3D87795AE854EEDDAA8CF8DDEDEC6DEEFFA8F55A597AAD9CD0088600308AC8B8C000000000000000000000000000000000000000021000044" />
+                age="35"
+                weight="0.4799"
+                build="0.7623"
+                key="00026C06D21410032682285A6677599759D275551787590470551577819F6D07001B7603018899B800000000000000000000000000000000000000005A140004" />
         </face>
         <skills></skills>
         <Traits>
-            <!-- NONCOMBATANT FEMALE -->
-            <Trait id="Commander"
-                value="12" />
-            <Trait id="Politician"
-                value="10" />
-            <Trait id="Manager"
-                value="10" />
-            <!-- Nywin, Ergeon's younger wife. Should have her own lands. Devious, but kind. -->
             <Trait id="Honor"
                 value="-1" />
             <Trait id="Mercy"
@@ -34,8 +27,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="bat_bat_template_lady" />
-            <EquipmentSet id="bat_noncom_template_default"
+            <EquipmentSet id="bat_king_template_bat_f" />
+            <EquipmentSet id="bat_king_template_civ_f"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -43,11 +36,12 @@
         name="{=cL1lO5iP}Ergeon"
         age="43"
         voice="softspoken"
-        default_group="HorseArcher"
+        default_group="Ranged"
         is_hero="true"
         culture="Culture.battania"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_archer_2h_1">
         <face>
             <BodyProperties version="4"
                 age="43"
@@ -56,15 +50,6 @@
                 key="0008140A40003549D996DDC4B3ACCC9837CF8A679A75BABDC6AFBF4790A668CB00D760030D56CDEE000000000000000000000000000000000000000001B06100" />
         </face>
         <Traits>
-            <Trait id="BalancedFightingSkills"
-                value="4" />
-            <Trait id="Commander"
-                value="10" />
-            <Trait id="Politician"
-                value="14" />
-            <Trait id="Manager"
-                value="16" />
-            <!-- Ergeon fen Derngil, submits to Caradog because he recognizes his capacity to lead, cautious -->
             <Trait id="Mercy"
                 value="1" />
             <Trait id="Honor"
@@ -76,8 +61,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="bat_bat_template_medium" />
-            <EquipmentSet id="bat_civ_template_default"
+            <EquipmentSet id="bat_bat_template_flamboyant" />
+            <EquipmentSet id="bat_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -85,28 +70,20 @@
         name="{=d8D98oFG}Melidir"
         voice="softspoken"
         age="33"
-        default_group="HorseArcher"
+        default_group="Ranged"
         is_hero="true"
         culture="Culture.battania"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_archer_2h_1">
         <face>
             <BodyProperties version="4"
                 age="33"
-                weight="0.322"
-                build="0.674"
-                key="00030403400003121C66A91944A867FCE74F81155B91AD3021E2E5618069339A009A500309B41E8E000000000000000000000000000000000000000001382005" />
+                weight="0.5"
+                build="0.6235"
+                key="00028C0600001914888888888888888888888888888888888888888888888888007976030788888800000000000000000000000000000000000000003EFC3082" />
         </face>
         <Traits>
-            <Trait id="BalancedFightingSkills"
-                value="4" />
-            <Trait id="Commander"
-                value="8" />
-            <Trait id="Politician"
-                value="12" />
-            <Trait id="Manager"
-                value="10" />
-            <!-- Meledir fen Uvain, unctuous  -->
             <Trait id="Valor"
                 value="-1" />
             <Trait id="Honor"
@@ -125,11 +102,12 @@
         name="{=bDMmX9YI}Luichan"
         age="39"
         voice="earnest"
-        default_group="Ranged"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.battania"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_2h_throw_1">
         <face>
             <BodyProperties version="4"
                 age="39"
@@ -139,14 +117,6 @@
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="BalancedFightingSkills"
-                value="8" />
-            <Trait id="Commander"
-                value="12" />
-            <Trait id="Politician"
-                value="6" />
-            <Trait id="Manager"
-                value="10" />
             <Trait id="Honor"
                 value="1" />
             <Trait id="Generosity"
@@ -156,8 +126,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="bat_bat_template_medium" />
-            <EquipmentSet id="bat_civ_template_default"
+            <EquipmentSet id="bat_bat_template_heavy" />
+            <EquipmentSet id="bat_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -166,11 +136,12 @@
         age="42"
         voice="ironic"
         is_female="true"
-        default_group="Cavalry"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.battania"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_2h_throw_1">
         <face>
             <BodyProperties version="4"
                 age="42"
@@ -180,10 +151,6 @@
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="Politician"
-                value="12" />
-            <Trait id="Manager"
-                value="2" />
             <Trait id="Mercy"
                 value="-1" />
             <Trait id="Calculating"
@@ -191,8 +158,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="bat_bat_template_medium" />
-            <EquipmentSet id="bat_noncom_template_default"
+            <EquipmentSet id="bat_bat_template_heavy" />
+            <EquipmentSet id="bat_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -200,11 +167,12 @@
         name="{=kuOs90Uh}Aradwyr"
         age="44"
         voice="ironic"
-        default_group="Ranged"
+        default_group="HorseArcher"
         is_hero="true"
         culture="Culture.battania"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_archer_1h_1">
         <face>
             <BodyProperties version="4"
                 age="44"
@@ -214,16 +182,6 @@
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="BalancedFightingSkills"
-                value="5" />
-            <Trait id="Commander"
-                value="12" />
-            <Trait id="Politician"
-                value="8" />
-            <Trait id="Manager"
-                value="10" />
-            <Trait id="Calculating"
-                value="1" />
             <Trait id="Mercy"
                 value="1" />
             <Trait id="Honor"
@@ -242,11 +200,12 @@
         name="{=tHtt3HCn}Pryndor"
         age="35"
         voice="curt"
-        default_group="Cavalry"
+        default_group="HorseArcher"
         is_hero="true"
         culture="Culture.battania"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_archer_1h_1">
         <face>
             <BodyProperties version="4"
                 age="35"
@@ -256,14 +215,6 @@
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="BalancedFightingSkills"
-                value="8" />
-            <Trait id="Commander"
-                value="14" />
-            <Trait id="Politician"
-                value="10" />
-            <Trait id="Manager"
-                value="8" />
             <Trait id="Valor"
                 value="1" />
             <Trait id="Mercy"
@@ -271,7 +222,7 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="bat_bat_template_heavy" />
+            <EquipmentSet id="bat_bat_template_medium" />
             <EquipmentSet id="bat_civ_template_default"
                 civilian="true" />
         </Equipments>
@@ -280,11 +231,12 @@
         name="{=ktPP2R1i}Guaran"
         age="28"
         voice="earnest"
-        default_group="Cavalry"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.battania"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_throw_1h_1">
         <face>
             <BodyProperties version="4"
                 age="28"
@@ -293,22 +245,13 @@
                 key="0000600780003487E986DD13B2ABAA8837CF8A25AD25E85DB6AFBF44908452BB007760030756CDED000000000000000000000000000000000000000000E850C0" />
         </face>
         <Traits>
-            <Trait id="BalancedFightingSkills"
-                value="6" />
-            <Trait id="Commander"
-                value="10" />
-            <Trait id="Politician"
-                value="6" />
-            <Trait id="Manager"
-                value="10" />
-            <!-- Son, wants to do other things with the clan -->
             <Trait id="Mercy"
                 value="1" />
             <Trait id="Generosity"
                 value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="bat_bat_template_medium" />
+            <EquipmentSet id="bat_bat_template_low" />
             <EquipmentSet id="bat_civ_template_default"
                 civilian="true" />
         </Equipments>

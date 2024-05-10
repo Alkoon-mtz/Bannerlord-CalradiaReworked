@@ -1,30 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
     <NPCCharacter id="lord_virkaldr_1_1"
-        name="{=f6urGGlU}Godun"
-        default_group="Cavalry"
+        name="{=lord_virkaldr_1_1}Joknar"
+        default_group="Infantry"
         age="50"
         voice="softspoken"
         is_hero="true"
         culture="Culture.sturgia"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_throw_1h_1">
         <face>
             <BodyProperties version="4"
-                weight="0.7289"
-                build="0.7611"
-                key="0000300140001384967132012584CCB36EC472158520143875848D198317281906BBB0680B68CB80000000000000000000000000000000000000000073788003" />
+                age="22.22"
+                weight="0.464"
+                build="0.679"
+                key="000210021288154A8772D5D759E587586CA98B3A59B58B19A69ECBD98A99DEAA009A700309B78987000000000000000000000000000000000000000055281082" />
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="HopliteFightingSkills"
-                value="5" />
-            <Trait id="Commander"
-                value="14" />
-            <Trait id="Politician"
-                value="10" />
-            <Trait id="Manager"
-                value="16" />
             <Trait id="Valor"
                 value="1" />
             <Trait id="Calculating"
@@ -32,36 +26,30 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="stu_bat_template_medium" />
-            <EquipmentSet id="stu_civ_template_default"
+            <EquipmentSet id="stu_king_template_bat_m" />
+            <EquipmentSet id="stu_king_template_civ_m"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_2_1"
-        name="{=ZkaaXxeB}Isvan"
+        name="{=lord_virkaldr_2_1}Isvan"
         voice="earnest"
         age="39"
-        default_group="Cavalry"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.sturgia"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_throw_1h_1">
         <face>
             <BodyProperties version="4"
-                weight="0.7"
-                build="0.7"
-                key="000B0005807015843C72310F67D8F06E801C853C01B5813CE9923E7C7F70530C009AA602096E8FE00000000000000000000000000000000000000000012C4042" />
+                age="22.22"
+                weight="0.419"
+                build="0.491"
+                key="000AC8015A880483EC620FB2DD71F9E7D60A7B2F60D244E327C2411B842525A100976003093E72EB000000000000000000000000000000000000000005301045" />
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="BalancedFightingSkills"
-                value="8" />
-            <Trait id="Commander"
-                value="8" />
-            <Trait id="Politician"
-                value="6" />
-            <Trait id="Manager"
-                value="6" />
             <Trait id="Valor"
                 value="1" />
             <Trait id="Mercy"
@@ -71,21 +59,22 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="stu_bat_template_heavy" />
-            <EquipmentSet id="stu_civ_template_default"
+            <EquipmentSet id="stu_bat_template_flamboyant" />
+            <EquipmentSet id="stu_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_3_1"
-        name="{=up2Pbi6u}Dracha"
+        name="{=lord_virkaldr_3_1}Dracha"
         age="31"
         voice="curt"
         is_female="true"
-        default_group="Cavalry"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.sturgia"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_throw_1h_1">
         <face>
             <BodyProperties version="4"
                 weight="0.5"
@@ -94,10 +83,6 @@
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="Politician"
-                value="12" />
-            <Trait id="Manager"
-                value="8" />
             <Trait id="Mercy"
                 value="-1" />
             <Trait id="Generosity"
@@ -105,21 +90,22 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="stu_bat_template_heavy" />
-            <EquipmentSet id="stu_civ_template_default"
+            <EquipmentSet id="stu_bat_template_flamboyant" />
+            <EquipmentSet id="stu_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_4_1"
-        name="{=2Bh8DS8S}Siga"
+        name="{=lord_virkaldr_4_1}Siga"
         age="41"
         voice="curt"
-        default_group="Cavalry"
+        default_group="Infantry"
         is_hero="true"
         is_female="true"
         culture="Culture.sturgia"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_throw_pol_1">
         <face>
             <BodyProperties version="4"
                 weight="0.5"
@@ -128,14 +114,6 @@
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="PeltastFightingSkills"
-                value="9" />
-            <Trait id="Commander"
-                value="12" />
-            <Trait id="Politician"
-                value="4" />
-            <Trait id="Manager"
-                value="6" />
             <Trait id="Mercy"
                 value="-1" />
             <Trait id="Honor"
@@ -149,36 +127,30 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="stu_bat_template_medium" />
-            <EquipmentSet id="stu_civ_template_woodsman"
+            <EquipmentSet id="stu_bat_template_heavy" />
+            <EquipmentSet id="stu_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_5_1"
-        name="{=agn93v7y}Yorig"
+        name="{=lord_virkaldr_5_1}Yorig"
         voice="earnest"
-        default_group="Cavalry"
+        default_group="Infantry"
         age="31"
         is_hero="true"
         culture="Culture.sturgia"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_throw_pol_1">
         <face>
             <BodyProperties version="4"
-                weight="0.1836"
-                build="0.2176"
-                key="00000C040070009B6983CFFB7C433FF1971470640061701F776777774F60841F00D862030D840A74000000000000000000000000000000000000000067B08102" />
+                age="22.22"
+                weight="0.419"
+                build="0.491"
+                key="00028801568835C8EE8DAFF5EDA7FAECE68B8D7FA1E258E7BDE6999E8E2E86DC00876003087FB7EF000000000000000000000000000000000000000023008102" />
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="BalancedFightingSkills"
-                value="6" />
-            <Trait id="Commander"
-                value="10" />
-            <Trait id="Politician"
-                value="8" />
-            <Trait id="Manager"
-                value="4" />
             <Trait id="Valor"
                 value="1" />
             <Trait id="Calculating"
@@ -188,36 +160,30 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="stu_bat_template_medium" />
-            <EquipmentSet id="stu_civ_template_default"
+            <EquipmentSet id="stu_bat_template_heavy" />
+            <EquipmentSet id="stu_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_6_1"
-        name="{=N7qb7ae6}Fafen"
+        name="{=lord_virkaldr_6_1}Fafen"
         age="26"
         voice="curt"
-        default_group="Cavalry"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.sturgia"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_2h_pol_1">
         <face>
             <BodyProperties version="4"
-                weight="0.5077"
-                build="0.5417"
-                key="00004401400033CD997241105582FE8CE00F7751A4E7A12886CB5915805F235100C880030C578112000000000000000000000000000000000000000033882042" />
+                age="22.22"
+                weight="0.3573"
+                build="0.491"
+                key="0002880097702485EC635FF5ED86FAEBE65B8D4FA0E257E74BE2699C8B2786B800775003077EA7EE000000000000000000000000000000000000000026F87105" />
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="BalancedFightingSkills"
-                value="6" />
-            <Trait id="Commander"
-                value="10" />
-            <Trait id="Politician"
-                value="8" />
-            <Trait id="Manager"
-                value="6" />
             <Trait id="Mercy"
                 value="-1" />
             <Trait id="Valor"
@@ -233,30 +199,24 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_7_1"
-        name="{=ja22un5W}Svedorn"
+        name="{=lord_virkaldr_7_1}Svedorn"
         age="37"
         voice="ironic"
-        default_group="Cavalry"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.sturgia"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_2h_pol_1">
         <face>
             <BodyProperties version="4"
-                weight="0"
-                build="0.6725"
-                key="00001C0B4B0004D4C9BC38753878986C9767762692703328AB5977498679886A00CA00030C5A99D9000000000000000000000000000000000000000039982082" />
+                age="22.22"
+                weight="0.214"
+                build="0.6173"
+                key="000A04021D703583D975D6D75BE5AC586EA98B3B99E58BCBA89FCBD98BC9EEAA0099300309D7A9A7000000000000000000000000000000000000000055301105" />
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="BalancedFightingSkills"
-                value="6" />
-            <Trait id="Commander"
-                value="12" />
-            <Trait id="Politician"
-                value="8" />
-            <Trait id="Manager"
-                value="10" />
             <Trait id="Honor"
                 value="1" />
             <Trait id="Generosity"
@@ -272,30 +232,24 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_8_1"
-        name="{=KBq7aQRa}Lek"
-        default_group="Cavalry"
+        name="{=lord_virkaldr_8_1}Lek"
+        default_group="Ranged"
         age="25"
         voice="ironic"
         is_hero="true"
         culture="Culture.sturgia"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_archer_1h_1">
         <face>
             <BodyProperties version="4"
-                weight="0.7176"
-                build="0.8336"
-                key="0000180000000344BC7048192589DD69784A747472708A0097A86A068116A60B00EDB0030E7AC393000000000000000000000000000000000000000053E02002" />
+                age="22.22"
+                weight="0.255"
+                build="0.5787"
+                key="00043C02977024C89F679F307ACEF46B491C7A2B6851833AC943546687C326C90089400308D65A570000000000000000000000000000000000000000270830C4" />
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="PeltastFightingSkills"
-                value="5" />
-            <Trait id="Commander"
-                value="14" />
-            <Trait id="Politician"
-                value="12" />
-            <Trait id="Manager"
-                value="16" />
             <Trait id="Valor"
                 value="1" />
             <Trait id="Generosity"
@@ -305,7 +259,7 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="stu_bat_template_medium" />
+            <EquipmentSet id="stu_bat_template_low" />
             <EquipmentSet id="stu_civ_template_default"
                 civilian="true" />
         </Equipments>

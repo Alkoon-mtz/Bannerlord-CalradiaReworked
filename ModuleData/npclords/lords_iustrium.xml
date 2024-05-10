@@ -184,7 +184,7 @@
         is_hero="true"
         culture="Culture.iustrium"
         occupation="Lord"
-        skill_template="SkillSet.lord_cav_pol_throw_1">
+        skill_template="SkillSet.lord_cav_xbow_pol_1">
         <face>
             <BodyProperties version="4"
                 age="28"

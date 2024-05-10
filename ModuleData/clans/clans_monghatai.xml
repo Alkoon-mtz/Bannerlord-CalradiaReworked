@@ -1,0 +1,58 @@
+<Factions>
+    <Faction id="clan_monghatai_1"
+        name="{=clan_monghatai_1}Urkhunit"
+        tier="6"
+        owner="Hero.lord_monghatai_1_1"
+        culture="Culture.khuzait"
+        super_faction="Kingdom.kingdom_monghatai"
+        banner_key="11.37.37.4000.4000.764.764.0.0.0.461.14.14.500.500.764.764.1.0.0.504.14.14.100.100.1019.1099.0.0.0.504.14.14.100.100.934.1099.0.0.0.504.14.14.100.100.849.1099.0.0.0.504.14.14.100.100.764.1099.0.0.0.504.14.14.100.100.509.1099.0.0.0.504.14.14.100.100.594.1099.0.0.0.504.14.14.100.100.679.1099.0.0.0.504.14.14.100.100.1019.429.0.1.180.504.14.14.100.100.934.429.0.1.180.504.14.14.100.100.849.429.0.1.180.504.14.14.100.100.764.429.0.1.180.504.14.14.100.100.509.429.0.1.180.504.14.14.100.100.594.429.0.1.180.504.14.14.100.100.679.429.0.1.180" />
+    <Faction id="clan_monghatai_2"
+        name="{=clan_monghatai_2}Khergit"
+        tier="5"
+        owner="Hero.lord_monghatai_2_1"
+        culture="Culture.khuzait"
+        super_faction="Kingdom.kingdom_monghatai"
+        banner_key="11.37.37.4345.4345.764.764.1.0.0.150.14.14.300.300.964.764.0.0.-90.150.14.14.300.300.564.764.0.1.90.213.14.14.200.200.764.664.0.1.0.321.14.14.200.200.764.804.0.1.0" />
+    <Faction id="clan_monghatai_3"
+        name="{=clan_monghatai_3}Arkit"
+        tier="4"
+        owner="Hero.lord_monghatai_3_1"
+        culture="Culture.khuzait"
+        super_faction="Kingdom.kingdom_monghatai"
+        banner_key="11.37.37.4345.4345.764.764.1.0.0.115.14.14.300.300.779.894.0.0.115.115.14.14.300.300.629.684.0.0.0.115.14.14.300.300.889.664.0.0.235.503.14.14.100.100.764.764.0.0.115" />
+    <Faction id="clan_monghatai_4"
+        name="{=clan_monghatai_4}Tigrit"
+        tier="4"
+        owner="Hero.lord_monghatai_4_1"
+        culture="Culture.khuzait"
+        super_faction="Kingdom.kingdom_monghatai"
+        banner_key="11.37.37.4345.4345.764.764.1.0.0.427.14.14.206.176.764.667.0.0.0.503.14.14.92.87.764.642.0.0.0.218.14.14.109.90.764.572.0.0.0.510.14.14.250.300.641.862.0.0.90.504.14.14.155.92.764.769.0.0.180.510.14.14.249.300.887.862.0.0.90.504.14.14.155.92.764.957.0.0.180.503.14.14.92.87.764.859.0.0.0.510.14.14.136.131.764.814.0.0.0.510.14.14.136.131.764.907.0.0.0" />
+    <Faction id="clan_monghatai_5"
+        name="{=clan_monghatai_5}Harfit"
+        tier="3"
+        owner="Hero.lord_monghatai_5_1"
+        culture="Culture.khuzait"
+        super_faction="Kingdom.kingdom_monghatai"
+        banner_key="11.37.37.4345.4345.764.764.1.0.0.446.14.14.500.500.764.764.0.0.90.503.14.14.125.125.979.764.0.0.0.503.14.14.125.125.549.764.0.0.0.427.14.14.125.125.764.764.0.0.0.428.14.14.200.200.764.564.0.0.0.428.14.14.200.200.764.964.0.1.180" />
+    <Faction id="clan_monghatai_6"
+        name="{=clan_monghatai_6}Koltit"
+        tier="3"
+        owner="Hero.lord_monghatai_6_1"
+        culture="Culture.khuzait"
+        super_faction="Kingdom.kingdom_monghatai"
+        banner_key="11.37.37.4345.4345.764.764.1.0.0.524.14.14.1500.2000.814.904.0.1.0.116.14.14.300.300.609.579.0.0.90.116.14.14.300.300.919.974.0.1.270" />
+    <Faction id="clan_monghatai_7"
+        name="{=clan_monghatai_7}Yanserit"
+        tier="2"
+        owner="Hero.lord_monghatai_7_1"
+        culture="Culture.khuzait"
+        super_faction="Kingdom.kingdom_monghatai"
+        banner_key="11.37.37.4345.4345.764.764.1.0.0.128.14.14.300.300.644.774.0.0.0.128.14.14.300.300.811.612.0.0.0.128.14.14.300.300.909.851.0.0.0" />
+    <Faction id="clan_monghatai_8"
+        name="{=clan_monghatai_8}Oburit"
+        tier="1"
+        owner="Hero.lord_monghatai_8_1"
+        culture="Culture.khuzait"
+        super_faction="Kingdom.kingdom_monghatai"
+        banner_key="11.37.37.4345.4345.780.802.1.0.0.314.14.14.400.400.764.904.0.0.0.521.14.14.300.300.764.569.0.0.0.503.14.14.200.200.764.569.0.0.0" />
+</Factions>

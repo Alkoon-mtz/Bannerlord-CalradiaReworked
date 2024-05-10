@@ -19,7 +19,7 @@
         ruler_title="{=FmbgPGBL}High Jarl"
         text="{=bVihnRUu}Living in the hard cold north, seeking for a thing called sun">
         <relationships>
-            <relationship kingdom="Kingdom.khuzait"
+            <relationship kingdom="Kingdom.kingdom_monghatai"
                 value="-1"
                 isAtWar="true" />
         </relationships>

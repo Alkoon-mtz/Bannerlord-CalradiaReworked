@@ -39,6 +39,7 @@ Rework banners
 
 Iustrium:
 Add lords
+Rename cities
 Tweak Armors ?
 
 Kratorios:
@@ -49,9 +50,7 @@ Add lords
 Rename cities
 
 Monghatai:
-Rework lords and clans
-kingdom + clean
-Rework banners
+Add lords
 
 Qinguo:
 Add lords
@@ -63,15 +62,17 @@ Rename cities
 
 Scarhoks:
 Add lords
+Rename cities
 Change value for AR_vlandia_armor_a2 => Scarhok elite T4 ?
 Change value for AR_vlandia_armor_a => Scarhok elite T5 (downgrad a little)
 
 Virkaldr:
-Rework lords and clans
+Add lords
 banner: 
 
 Zulizwe :
 Add lords
+Rename cities
 
 Bugs:
 

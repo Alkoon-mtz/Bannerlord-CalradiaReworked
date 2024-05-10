@@ -1,37 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
     <NPCCharacter id="lord_kratorios_1_1"
-        name="{=I72U5ttG}Garios"
-        age="43"
+        name="{=I72U5ttG}Stratos"
+        age="37"
         voice="ironic"
         is_hero="true"
         culture="Culture.empire"
         occupation="Lord"
         default_group="HorseArcher"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_xbow_1h_1">
         <face>
-            <!--face_key value="0011714fc0fc028f96938148227287b6674886898a943687452b87978a787594000f26550f889888000000000000000000000000000000000000000001fc8040" /-->
             <BodyProperties version="4"
-                weight="0.7"
-                build="0.9"
-                key="0011700FC0FC028F96938148227587B6674886898A943687452B87978A7875940007565A0F889888000000000000000000000000000000000000000000F48040" />
-            <!-- Garios should be middle-aged, with a soldier's face - short hair, preferably no beard. -->
-            <hair_tags>
-                <hair_tag name="Short" />
-            </hair_tags>
+                age="37"
+                weight="0.327"
+                build="0.84"
+                key="001E9C0D0000168E8862664C555442CA6685884776577B0394964BB78BC97056007D560207B6797600000000000000000000000000000000000000005AF43002" />
         </face>
         <skills></skills>
         <Traits>
-            <!-- USED TO DERIVE SKILLS-->
-            <Trait id="KnightFightingSkills"
-                value="6" />
-            <Trait id="Commander"
-                value="20" />
-            <Trait id="Politician"
-                value="16" />
-            <Trait id="Manager"
-                value="14" />
-            <!-- PERSONALITY/REPUTATION-->
             <Trait id="Valor"
                 value="1" />
             <Trait id="Generosity"
@@ -42,12 +29,10 @@
                 value="-1" />
             <Trait id="Calculating"
                 value="1" />
-            <Trait id="Egalitarian"
-                value="1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="w_emp_king_template_bat_m" />
+            <EquipmentSet id="emp_king_template_bat_m" />
             <EquipmentSet id="w_emp_king_template_civ_m"
                 civilian="true" />
         </Equipments>
@@ -60,25 +45,17 @@
         is_hero="true"
         culture="Culture.empire"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_xbow_1h_1">
         <face>
-            <!--face_key value="0000f52640000005a65878789bb045948b55d5787db57345a7eb59688555658400000004088779a60000000000000ffe00000000000000000000000000000000" /-->
             <BodyProperties version="4"
-                weight="0.5"
-                build="0.5"
-                key="0000F40580000005A65878789BB045948B55D5787DB57345A7EB59688555658400000003088779A60000000000000FFE00000000000000000000000000000000" />
+                age="28"
+                weight="0.488"
+                build="0.485"
+                key="0013B80F0000368FCA8C9C755CA01C6739A75A839DC0CD21689892C48825445A00777003070AA6A3000000000000000000000000000000000000000056E01002" />
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="BalancedFightingSkills"
-                value="5" />
-            <Trait id="Commander"
-                value="8" />
-            <Trait id="Politician"
-                value="14" />
-            <Trait id="Manager"
-                value="8" />
-            <!-- Leader of Impestores. Ruthless aristocrat -->
             <Trait id="Mercy"
                 value="-1" />
             <Trait id="Calculating"
@@ -89,7 +66,7 @@
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="emp_bat_template_flamboyant" />
-            <EquipmentSet id="emp_civ_template_default"
+            <EquipmentSet id="emp_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -97,40 +74,30 @@
         name="{=jQjouVRk}Gyphor"
         age="33"
         voice="softspoken"
-        default_group="Cavalry"
+        default_group="HorseArcher"
         is_hero="true"
         culture="Culture.empire"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_xbow_1h_1">
         <face>
-            <!--face_key value="00001922c07c300d85b59a65aa3c9b459c37c864689775ac5549d695b8aade8e0006c9a4014627c300001105000030a30000001f000000000000000000002000" /-->
             <BodyProperties version="4"
-                weight="0.5"
-                build="0.5"
-                key="00001802C07C300D85B59A65AA3C9B459C37C864689775AC5549D695B8AADE8E000009A3014627C300001105000030A30000001F000000000000000000002000" />
+                age="33"
+                weight="0.4263"
+                build="0.485"
+                key="001BDC0D8000360DDA8FDCBD5CCE4F6C0BC79D94CDC0CD52DDAFF7DB8C966A9C00876003085FEDD6000000000000000000000000000000000000000061183044" />
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="BalancedFightingSkills"
-                value="3" />
-            <Trait id="Commander"
-                value="14" />
-            <Trait id="Politician"
-                value="14" />
-            <!-- Gyphor. Calm, lucon's faction -->
-            <Trait id="Manager"
-                value="10" />
             <Trait id="Valor"
                 value="-1" />
             <Trait id="Calculating"
                 value="1" />
-            <Trait id="Oligarchic"
-                value="1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="emp_bat_template_stoic" />
-            <EquipmentSet id="emp_civ_template_default"
+            <EquipmentSet id="emp_bat_template_flamboyant" />
+            <EquipmentSet id="emp_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -139,24 +106,21 @@
         voice="earnest"
         is_female="true"
         age="34"
-        default_group="Cavalry"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.empire"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_pol_1h_1">
         <face>
-            <!--face_key value="0000d52e0000228bed6277444258c875446a17b9ed8932923b61997568a479eb000b8474c3395e480000000000000ffe00000000000000000000000000004000" /-->
             <BodyProperties version="4"
-                weight="0.4"
-                build="0.4"
-                key="0000D40E4000228BED6277444258C875446A17B9ED8932923B61997568A479EB0000047303395E480000000000000FFE00000000000000000000000000004000" />
+                age="34"
+                weight="0.3957"
+                build="0.3117"
+                key="0010F40A40003006DE993DDFABC78E0A4196789CBBD656DDFDFB6EEE8EB8DCAF0095600309B99CC9000000000000000000000000000000000000000049301083" />
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="Politician"
-                value="12" />
-            <Trait id="Manager"
-                value="14" />
             <Trait id="Honor"
                 value="1" />
             <Trait id="Generosity"
@@ -164,8 +128,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="emp_bat_template_lady" />
-            <EquipmentSet id="emp_noncom_template_default"
+            <EquipmentSet id="emp_bat_template_heavy" />
+            <EquipmentSet id="emp_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -173,70 +137,54 @@
         name="{=3qr3bhL6}Nicasor"
         age="36"
         voice="curt"
-        default_group="Cavalry"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.empire"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_pol_1h_1">
         <face>
-            <!--face_key value="00056921507c1404c37b6d89a64664b96727852b496b67a19757a65adaa79924000368a40945845600001105000030a30000001f000000000000000000006000" /-->
             <BodyProperties version="4"
-                weight="0.5"
-                build="0.7"
-                key="00056801507C1404C37B6D89A64664B96727852B496B67A19757A65ADAA79924000008A20945845600001105000030A30000001F000000000000000000006000" />
+                age="36"
+                weight="0.435"
+                build="0.281"
+                key="0013F00D8000168DE88D13B330BE791A5A89589C54209E61DEBDBC4C912D98CF0084700308D3FB59000000000000000000000000000000000000000013087045" />
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="BalancedFightingSkills"
-                value="9" />
-            <Trait id="Commander"
-                value="18" />
-            <Trait id="Politician"
-                value="6" />
-            <Trait id="Manager"
-                value="12" />
             <Trait id="Valor"
                 value="1" />
             <Trait id="Honor"
                 value="1" />
             <Trait id="Generosity"
                 value="-1" />
-            <Trait id="Oligarchic"
-                value="1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="emp_bat_template_stoic" />
-            <EquipmentSet id="emp_civ_template_default"
+            <EquipmentSet id="emp_bat_template_heavy" />
+            <EquipmentSet id="emp_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_6_1"
         name="{=kfNW01y5}Tynops"
         voice="softspoken"
-        default_group="Cavalry"
+        default_group="Infantry"
         age="38"
         is_hero="true"
         culture="Culture.empire"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_throw_1h_1">
         <face>
-            <!--face_key value="000e812b4000234d875c989a8860996a1879956888677896699a8679a86723690000000407a6889600001105000030a30000001f000000000000000000000000" /-->
             <BodyProperties version="4"
-                weight="0.5"
-                build="0.5"
-                key="000B800B4000000D875C989A8860996A1879956888677896699A8679A86723690000000307A6889600001105000030A30000001F000000000000000000000000" />
+                age="38"
+                weight="0.435"
+                build="0.3427"
+                key="0018700D0000160FE88E55C7A0BEAB2E7DBA59BC7890CEC4DFBFBD9D992EDCCF0085700308D9FB5C000000000000000000000000000000000000000013187005" />
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="BalancedFightingSkills"
-                value="6" />
-            <Trait id="Commander"
-                value="12" />
-            <Trait id="Politician"
-                value="10" />
-            <Trait id="Manager"
-                value="8" />
             <Trait id="Mercy"
                 value="1" />
             <Trait id="Generosity"
@@ -248,37 +196,30 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="emp_bat_template_heavy" />
+            <EquipmentSet id="emp_bat_template_medium" />
             <EquipmentSet id="emp_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_7_1"
         name="{=QGIAbglw}Obron"
-        default_group="Cavalry"
+        default_group="Infantry"
         age="51"
         voice="softspoken"
         is_hero="true"
         culture="Culture.empire"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_throw_1h_1">
         <face>
             <BodyProperties version="4"
-                age="25.84"
-                weight="0.5"
-                build="0.5"
-                key="0011BC0CCE000102A5508899487841954B4F9A57D5C7D811C889B5068C4A7666012776130268769500000000000000000000000000000000000000003C4480C2" />
+                age="51"
+                weight="0.334"
+                build="0.474"
+                key="00157C0F0000164E72985FAE11B5BA7453FB7DBC225438C9C0AEA6079C4CAB9800A750030A455A0D000000000000000000000000000000000000000061404104" />
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="KnightFightingSkills"
-                value="2" />
-            <Trait id="Commander"
-                value="6" />
-            <Trait id="Politician"
-                value="6" />
-            <Trait id="Manager"
-                value="8" />
             <Trait id="Valor"
                 value="-1" />
             <Trait id="Honor"
@@ -299,26 +240,25 @@
         is_hero="true"
         culture="Culture.empire"
         occupation="Lord"
-        default_group="Cavalry"
-        face_mesh_cache="true">
+        default_group="Infantry"
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_pol_1h_1">
         <face>
-            <!--face_key value="0011b45b402410088733440e80468f1fff4f9274c862b448941b5637963e5d3e000a68810b7247a6000000000000000000000000000000000000000000003101" /-->
             <BodyProperties version="4"
-                weight="0.5"
-                build="0.5"
-                key="0022CC0580CC100B5867B786DC6B9968B4367A58547AB48D79EAB69452B75745016776130655B895000000000000000000000000000000000000000030C40083" />
+                age="27"
+                weight="0.4614"
+                build="0.5664"
+                key="001BC00B80003004DE993DCFABC78E084196789CBAD656DCACCB6BAB8CA8DCAF0078700307B99CB9000000000000000000000000000000000000000046E01044" />
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="Manager"
-                value="8" />
             <Trait id="Generosity"
                 value="1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="emp_bat_template_lady" />
-            <EquipmentSet id="emp_noncom_template_default"
+            <EquipmentSet id="emp_bat_template_low" />
+            <EquipmentSet id="emp_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>

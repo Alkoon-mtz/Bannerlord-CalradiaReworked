@@ -1,6 +1,6 @@
 <Factions>
     <Faction id="clan_kratorios_1"
-        name="{=clan_kratorios_1}Argoros"
+        name="{=clan_kratorios_1}Gladios"
         tier="6"
         owner="Hero.lord_kratorios_1_1"
         culture="Culture.empire"

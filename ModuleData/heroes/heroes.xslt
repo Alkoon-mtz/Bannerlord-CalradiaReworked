@@ -257,9 +257,9 @@
     <xsl:template match="Hero[@id='lord_WE9_u2']"/>
     
     <!-- Khuzait -->
-    <!-- <xsl:template match="Hero[@id='lord_6_1']"/> -->
-    <!-- <xsl:template match="Hero[@id='lord_6_2']"/> -->
-    <!-- <xsl:template match="Hero[@id='dead_lord_6_1']"/>
+    <xsl:template match="Hero[@id='lord_6_1']"/>
+    <xsl:template match="Hero[@id='lord_6_2']"/>
+    <xsl:template match="Hero[@id='dead_lord_6_1']"/>
     <xsl:template match="Hero[@id='lord_6_7']"/>
     <xsl:template match="Hero[@id='lord_6_10']"/>
     <xsl:template match="Hero[@id='lord_6_101']"/>
@@ -304,7 +304,7 @@
     <xsl:template match="Hero[@id='lord_K9_l']"/>
     <xsl:template match="Hero[@id='lord_K9_s']"/>
     <xsl:template match="Hero[@id='lord_K9_c1']"/>
-    <xsl:template match="Hero[@id='lord_K9_c2']"/> -->
+    <xsl:template match="Hero[@id='lord_K9_c2']"/>
     
     <!-- Stugia -->
     <xsl:template match="Hero[@id='lord_2_1']"/>

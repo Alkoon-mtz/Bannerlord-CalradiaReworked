@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Heroes>
+   <Hero id="lord_monghatai_1_1" faction="Faction.clan_monghatai_1" />
+   <Hero id="lord_monghatai_2_1" faction="Faction.clan_monghatai_2" />
+   <Hero id="lord_monghatai_3_1" faction="Faction.clan_monghatai_3" />
+   <Hero id="lord_monghatai_4_1" faction="Faction.clan_monghatai_4" />
+   <Hero id="lord_monghatai_5_1" faction="Faction.clan_monghatai_5" />
+   <Hero id="lord_monghatai_6_1" faction="Faction.clan_monghatai_6" />
+   <Hero id="lord_monghatai_7_1" faction="Faction.clan_monghatai_7" />
+   <Hero id="lord_monghatai_8_1" faction="Faction.clan_monghatai_8" />
+</Heroes>

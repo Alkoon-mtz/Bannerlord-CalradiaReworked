@@ -1,0 +1,275 @@
+<NPCCharacters>
+    <NPCCharacter id="lord_monghatai_1_1"
+        name="{=lord_monghatai_1_1}Monchug"
+        age="38"
+        voice="curt"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_archer_1h_1">
+        <face>
+            <BodyProperties version="4"
+                age="38"
+                weight="0.3997"
+                build="0.6219"
+                key="0018FC0FC00017438B9B2CC9EDFE6C3C9ECBA61F8DDE6AC5756C9E5D97293E8400A960030ACE2DBD0000000000000000000000000000000000000000374070C3" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Mercy"
+                value="-1" />
+            <Trait id="Honor"
+                value="-1" />
+            <Trait id="Calculating"
+                value="1" />
+            <Trait id="Generosity"
+                value="1" />
+            <Trait id="Authoritarian"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="khu_king_template_bat_m" />
+            <EquipmentSet id="khu_king_template_civ_m"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_2_1"
+        name="{=QJq4VAU7}Mesui"
+        voice="curt"
+        age="41"
+        is_female="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        default_group="HorseArcher"
+        is_hero="true"
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_archer_1h_1">
+        <face>
+            <BodyProperties version="4"
+                age="22.25"
+                weight="0.4313"
+                build="0.5849"
+                key="0020EC0FC000100BAC97A9F8DFEC894C899E7DE9DABFBAEBDE3BCFDD872649880089600308B0E77A000000000000000000000000000000000000000037000003" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Valor"
+                value="1" />
+            <Trait id="Honor"
+                value="1" />
+            <Trait id="Mercy"
+                value="-1" />
+            <Trait id="Egalitarian"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="khu_bat_template_flamboyant" />
+            <EquipmentSet id="khu_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_3_1"
+        name="{=lord_monghatai_3_1}Tulag"
+        age="42"
+        voice="curt"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_archer_1h_1">
+        <face>
+            <BodyProperties version="4"
+                age="42"
+                weight="0.338"
+                build="0.477"
+                key="001CEC0D80003710678B1CC6ECEE0B2B7EBB961F8CDB3AB330581C5D86260E240077500307551CBD000000000000000000000000000000000000000058E85103" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Valor"
+                value="-1" />
+            <Trait id="Generosity"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="khu_bat_template_flamboyant" />
+            <EquipmentSet id="khu_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_4_1"
+        name="{=lord_monghatai_4_1}Oragur"
+        age="36"
+        is_female="true"
+        voice="curt"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_2h_pol_1">
+        <face>
+            <BodyProperties version="4"
+                age="36"
+                weight="0.456"
+                build="0.402"
+                key="0015E40D80002010A68845B38ECA701C7EB5AF9EAEADBBA96958ECDE703BE29500667003067CF2B3000000000000000000000000000000000000000038C03004" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Mercy"
+                value="-1" />
+            <Trait id="Generosity"
+                value="-1" />
+            <Trait id="Honor"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="khu_bat_template_heavy" />
+            <EquipmentSet id="khu_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_5_1"
+        name="{=cdmrCQfC}Hurunag"
+        age="31"
+        voice="curt"
+        is_hero="true"
+        culture="Culture.khuzait"
+        default_group="Cavalry"
+        occupation="Lord"
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_2h_pol_1">
+        <face>
+            <BodyProperties version="4"
+                age="31"
+                weight="0.384"
+                build="0.463"
+                key="001EEC0E400036D2CEA49AE6BCFE4C3B2CFCAFEDCBEC778CDE9666F8A6396A850077600307CA5AF8000000000000000000000000000000000000000076E890C4" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Valor"
+                value="1" />
+            <Trait id="Mercy"
+                value="-1" />
+            <Trait id="Calculating"
+                value="-1" />
+            <Trait id="Generosity"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="khu_bat_template_heavy" />
+            <EquipmentSet id="khu_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_6_1"
+        name="{=JZvihMbB}Ergene"
+        age="28"
+        voice="ironic"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_1h_archer_1">
+        <face>
+            <BodyProperties version="4"
+                age="28"
+                weight="0.436"
+                build="0.507"
+                key="0020F00D8000000C6977A6F6BCEB084B586E5DE9DAAF6ACA3A3ACFBC81240837004870030470E71A0000000000000000000000000000000000000000388000C3" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Calculating"
+                value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="khu_bat_template_medium" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_7_1"
+        name="{=lord_monghatai_7_1}Taslur"
+        age="30"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_1h_archer_1">
+        <face>
+            <BodyProperties version="4"
+                age="30"
+                weight="0.493"
+                build="0.464"
+                key="0013F40E4000170DA3A12C32ADF8550F785B6F3BCACA7B912E236084A646C5A50097700309A52FD2000000000000000000000000000000000000000067204042" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Calculating"
+                value="1" />
+            <Trait id="Mercy"
+                value="-1" />
+            <Trait id="Generosity"
+                value="1" />
+            <Trait id="Honor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="khu_bat_template_medium" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_8_1"
+        name="{=uducgNbf}Chaghan"
+        age="23"
+        voice="earnest"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_pol_1h_1">
+        <face>
+            <BodyProperties version="4"
+                age="18"
+                weight="0.472"
+                build="0.481"
+                key="001BF00E4000270D8697B7593CF9245B9C98A91CEEA8DAE35C04D675912EF7F9009770030950D60A000000000000000000000000000000000000000079204083" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Generosity"
+                value="1" />
+            <Trait id="Honor"
+                value="1" />
+            <Trait id="Mercy"
+                value="-1" />
+            <Trait id="Calculating"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="khu_bat_template_low" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

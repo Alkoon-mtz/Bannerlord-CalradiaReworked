@@ -7,7 +7,7 @@
         is_hero="true"
         culture="Culture.rekgeist"
         occupation="Lord"
-        skill_template="SkillSet.lord_cav_pol_throw_1">
+        skill_template="SkillSet.lord_2h_pol_1">
         <face>
             <BodyProperties version="4"
                 age="27"
@@ -124,7 +124,7 @@
         name="{=lord_rekgeist_4_1}Friedrich"
         age="47"
         voice="softspoken"
-        default_group="Infantry"
+        default_group="Cavalry"
         is_hero="true"
         culture="Culture.rekgeist"
         occupation="Lord"
@@ -155,7 +155,7 @@
         age="32"
         voice="curt"
         is_female="true"
-        default_group="Infantry"
+        default_group="Cavalry"
         is_hero="true"
         culture="Culture.rekgeist"
         occupation="Lord"
@@ -245,7 +245,7 @@
         name="{=lord_rekgeist_8_1}Rudolf"
         age="25"
         voice="earnest"
-        default_group="Infantry"
+        default_group="Ranged"
         is_hero="true"
         culture="Culture.rekgeist"
         occupation="Lord"
