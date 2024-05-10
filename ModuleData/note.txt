@@ -32,6 +32,7 @@ Aserai:
 find name
 Rework lords and clans
 kingdom + clean
+Settlements
 
 Cereann:
 Add lords

@@ -17,7 +17,11 @@
         title="{=RG_kingdom_title}The Rekgeist Federation"
         ruler_title="{=RG_ruler_title}Chancellor"
         text="{=RG_text}yup">
-        <relationships></relationships>
+        <relationships>
+            <relationship kingdom="Kingdom.kingdom_scarhok"
+                value="-1"
+                isAtWar="true" />
+        </relationships>
         <policies>
             <policy id="policy_noble_retinues" />
             <policy id="policy_castle_charters" />

@@ -14,5 +14,5 @@
     <string id="str_short_term_for_faction.zulizwe" text="{=E11ZI_short_term}Zulizwo" />
     <string id="str_faction_formal_name_for_culture.zulizwe" text="{=E11ZI_formal_name}Nation of Zulizwe" />
     <string id="str_faction_informal_name_for_culture.zulizwe" text="{=E11ZI_informal_name}the Zulizwo" />
-    <string id="str_culture_description.zulizwe" text="{=E11ZI_desc}We have broken free" />
+    <string id="str_culture_description.zulizwe" text="{=E11ZI_desc}Living in hot areas, they decided to go north for greener pastures" />
 </strings>
