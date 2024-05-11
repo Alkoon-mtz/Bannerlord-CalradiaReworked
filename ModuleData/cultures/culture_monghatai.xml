@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SPCultures>
-    <Culture id="qinguo"
-        name="{=qinguo}Qinguo"
+    <Culture id="khuzait"
+        name="{=monghatai}Monghatai"
         is_main_culture="true"
-        color="0xffF4CA14"
-        color2="0xff019678"
+        color="0xffF5B365"
+        color2="0xff8D291A"
         can_have_settlement="true"
         town_edge_number="16"
-        faction_banner_key="11.143.143.1536.1536.764.764.1.0.0.122.89.89.200.200.642.893.0.0.326.122.89.89.300.300.712.811.0.0.326.122.89.89.400.400.801.702.0.0.321.510.89.89.1250.800.1169.939.0.0.50.510.89.89.1250.800.359.589.0.0.50.516.89.89.100.100.624.549.0.0.0.516.89.89.100.100.704.464.0.0.0.516.89.89.100.100.544.634.0.0.0.516.89.89.100.100.906.981.0.0.0.516.89.89.100.100.986.896.0.0.0.516.89.89.100.100.826.1066.0.0.0"
-        elite_basic_troop="NPCCharacter.qinguo_wushi"
-        basic_troop="NPCCharacter.qinguo_recruit"
+        faction_banner_key="11.37.14.4000.4000.764.764.0.0.0.461.14.14.500.500.764.764.1.0.0.504.14.14.100.100.1019.1099.0.0.0.504.14.14.100.100.934.1099.0.0.0.504.14.14.100.100.849.1099.0.0.0.504.14.14.100.100.764.1099.0.0.0.504.14.14.100.100.509.1099.0.0.0.504.14.14.100.100.594.1099.0.0.0.504.14.14.100.100.679.1099.0.0.0.504.14.14.100.100.1019.429.0.1.180.504.14.14.100.100.934.429.0.1.180.504.14.14.100.100.849.429.0.1.180.504.14.14.100.100.764.429.0.1.180.504.14.14.100.100.509.429.0.1.180.504.14.14.100.100.594.429.0.1.180.504.14.14.100.100.679.429.0.1.180"
+        elite_basic_troop="NPCCharacter.monghatai_ragar"
+        basic_troop="NPCCharacter.monghatai_recruit"
         melee_militia_troop="NPCCharacter.khuzait_militia_spearman"
         ranged_militia_troop="NPCCharacter.khuzait_militia_archer"
         melee_elite_militia_troop="NPCCharacter.khuzait_militia_veteran_spearman"
         ranged_elite_militia_troop="NPCCharacter.khuzait_militia_veteran_archer"
         encounter_background_mesh="encounter_khuzait"
-        villager_party_template="PartyTemplate.qinguo_villager_template"
-        default_party_template="PartyTemplate.qinguo_kingdom_hero_party_template"
-        elite_caravan_party_template="PartyTemplate.qinguo_elite_caravan_template"
-        caravan_party_template="PartyTemplate.qinguo_caravan_template"
-        militia_party_template="PartyTemplate.qinguo_militia_template"
-        rebels_party_template="PartyTemplate.qinguo_rebels_template"
-        vassal_reward_party_template="PartyTemplate.qinguo_vassal_reward_troops"
+        villager_party_template="PartyTemplate.monghatai_villager_template"
+        default_party_template="PartyTemplate.monghatai_kingdom_hero_party_template"
+        elite_caravan_party_template="PartyTemplate.monghatai_elite_caravan_template"
+        caravan_party_template="PartyTemplate.monghatai_caravan_template"
+        militia_party_template="PartyTemplate.monghatai_militia_template"
+        rebels_party_template="PartyTemplate.monghatai_rebels_template"
+        vassal_reward_party_template="PartyTemplate.monghatai_vassal_reward_troops"
         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
-        text="{=qinguo_text}That's China but i don't have the patience to make chinese armors"
-        villager="NPCCharacter.villager_qinguo"
+        text="{=monghatai_text}Nomadic tribes unified under a single leader"
+        villager="NPCCharacter.villager_monghatai"
         tournament_master="NPCCharacter.tournament_master_khuzait"
-        caravan_master="NPCCharacter.caravan_master_qinguo"
+        caravan_master="NPCCharacter.caravan_master_khuzait"
         armed_trader="NPCCharacter.armed_trader_khuzait"
         caravan_guard="NPCCharacter.caravan_guard_khuzait"
         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_khuzait"
@@ -257,26 +257,26 @@
             <template name="NPCCharacter.spc_wanderer_khuzait_8" />
             <template name="NPCCharacter.spc_wanderer_khuzait_9" />
             <template name="NPCCharacter.spc_wanderer_khuzait_10" />
-            <template name="NPCCharacter.spc_merchant_qinguo_1" />
-            <template name="NPCCharacter.spc_merchant_qinguo_2" />
-            <template name="NPCCharacter.spc_merchant_qinguo_3" />
-            <template name="NPCCharacter.spc_merchant_qinguo_4" />
-            <template name="NPCCharacter.spc_merchant_qinguo_4f" />
-            <template name="NPCCharacter.spc_merchant_qinguo_5" />
-            <template name="NPCCharacter.spc_merchant_qinguo_5f" />
-            <template name="NPCCharacter.spc_preacher_qinguo_1" />
-            <template name="NPCCharacter.spc_preacher_qinguo_1f" />
-            <template name="NPCCharacter.spc_gangleader_qinguo_1f" />
-            <template name="NPCCharacter.spc_gangleader_qinguo_1" />
-            <template name="NPCCharacter.spc_gangleader_qinguo_2" />
-            <template name="NPCCharacter.spc_artisan_qinguo_1" />
-            <template name="NPCCharacter.spc_artisan_qinguo_2" />
-            <template name="NPCCharacter.spc_artisan_qinguo_3" />
-            <template name="NPCCharacter.spc_ruralnotable_qinguo_1" />
-            <template name="NPCCharacter.spc_ruralnotable_qinguo_2" />
-            <template name="NPCCharacter.spc_headman_qinguo_1" />
-            <template name="NPCCharacter.spc_headman_qinguo_2" />
-            <template name="NPCCharacter.spc_headman_qinguo_3" />
+            <template name="NPCCharacter.spc_notable_khuzait_merchant_1" />
+            <template name="NPCCharacter.spc_notable_khuzait_0b" />
+            <template name="NPCCharacter.spc_notable_khuzait_1" />
+            <template name="NPCCharacter.spc_notable_khuzait_1b" />
+            <template name="NPCCharacter.spc_notable_khuzait_1c" />
+            <template name="NPCCharacter.spc_notable_khuzait_2" />
+            <template name="NPCCharacter.spc_notable_khuzait_2b" />
+            <template name="NPCCharacter.spc_notable_khuzait_3" />
+            <template name="NPCCharacter.spc_notable_khuzait_4" />
+            <template name="NPCCharacter.spc_khuzait_gangleader_1" />
+            <template name="NPCCharacter.spc_khuzait_gangleader_2" />
+            <template name="NPCCharacter.spc_khuzait_gangleader_3" />
+            <template name="NPCCharacter.spc_khuzait_artisan_1" />
+            <template name="NPCCharacter.spc_khuzait_artisan_2" />
+            <template name="NPCCharacter.spc_khuzait_artisan_3" />
+            <template name="NPCCharacter.spc_khuzait_rural_notable_1" />
+            <template name="NPCCharacter.spc_khuzait_rural_notable_2" />
+            <template name="NPCCharacter.spc_khuzait_headman_1" />
+            <template name="NPCCharacter.spc_khuzait_headman_2" />
+            <template name="NPCCharacter.spc_khuzait_headman_3" />
         </notable_and_wanderer_templates>
         <lord_templates>
             <template name="NPCCharacter.spc_karakhuzaits_leader_0" />

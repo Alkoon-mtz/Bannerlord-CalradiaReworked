@@ -18,11 +18,9 @@
         ruler_title="{=SH_ruler_title}Chief"
         text="{=SH_text}Coming from the north west, they wrecked everyone by throwing axes">
         <relationships>
-            <relationships>
-                <relationship kingdom="Kingdom.kingdom_rekgeist"
-                    value="-1"
-                    isAtWar="true" />
-            </relationships>
+            <relationship kingdom="Kingdom.kingdom_rekgeist"
+                value="-1"
+                isAtWar="true" />
         </relationships>
         <policies>
             <policy id="policy_royal_guard" />

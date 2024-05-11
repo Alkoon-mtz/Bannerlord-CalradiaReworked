@@ -17,7 +17,7 @@
         short_name="{=GbnlN6na}Kratori"
         title="{=frBQ9mbP}Kratorios Empire"
         ruler_title="{=OoHhCa11}Emperor"
-        text="{=Xtyb9Dyr}An emerging empire trying to unify the continent">
+        text="{=kratorios_text}An emerging empire trying to unify the continent">
         <relationships>
             <relationship kingdom="Kingdom.kingdom_qinguo"
                 value="-1"

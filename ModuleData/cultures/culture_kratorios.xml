@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SPCultures>
-    <Culture id="zulizwe"
-        name="{=zulizwe}Zulizwe"
+    <Culture id="empire"
+        name="{=kratorios}Kratorios"
         is_main_culture="true"
-        color="0xff41281B"
-        color2="0xffEFC990"
+        color="0xff382188"
+        color2="0xffFFAD54"
         can_have_settlement="true"
         town_edge_number="16"
         prosperity_bonus="1"
-        faction_banner_key="11.123.11.1536.1536.764.764.1.0.0.500.11.123.400.700.764.764.0.0.0.510.11.123.100.150.689.914.0.0.0.510.11.123.100.150.689.884.0.0.0.510.11.123.100.150.689.854.0.0.0.510.11.123.100.150.689.794.0.0.0.510.11.123.100.150.689.764.0.0.0.510.11.123.100.150.689.734.0.0.0.510.11.123.100.150.689.674.0.0.0.510.11.123.100.150.689.644.0.0.0.510.11.123.100.150.689.614.0.0.0.510.11.123.100.150.839.914.0.0.0.510.11.123.100.150.839.884.0.0.0.510.11.123.100.150.839.854.0.0.0.510.11.123.100.150.839.794.0.0.0.510.11.123.100.150.839.764.0.0.0.510.11.123.100.150.839.734.0.0.0.510.11.123.100.150.839.674.0.0.0.510.11.123.100.150.839.644.0.0.0.510.11.123.100.150.840.614.0.0.0.506.11.123.100.150.764.974.0.0.90.512.11.123.100.150.599.479.0.1.25.304.11.123.500.100.622.529.0.1.25.512.11.123.100.150.929.479.0.0.335.304.11.123.500.100.906.529.0.0.335.510.11.123.125.100.674.1069.0.1.67.510.11.123.125.100.854.1069.0.1.-67.304.11.123.500.100.764.614.0.1.0.512.11.123.100.150.764.554.0.0.0.510.11.123.550.105.764.799.0.1.90"
-        elite_basic_troop="NPCCharacter.imperial_vigla_recruit"
-        basic_troop="NPCCharacter.imperial_recruit"
+        faction_banner_key="11.6.6.4345.4345.764.764.1.0.0.423.9.9.600.600.764.764.0.0.0.106.9.9.400.400.764.764.0.0.0"
+        elite_basic_troop="NPCCharacter.kratorios_vallistras"
+        basic_troop="NPCCharacter.kratorios_recruit"
         melee_militia_troop="NPCCharacter.imperial_militia_spearman"
         ranged_militia_troop="NPCCharacter.imperial_militia_archer"
         melee_elite_militia_troop="NPCCharacter.imperial_militia_veteran_spearman"
         ranged_elite_militia_troop="NPCCharacter.imperial_militia_veteran_archer"
         encounter_background_mesh="encounter_empire"
-        villager_party_template="PartyTemplate.zulizwe_villager_template"
-        default_party_template="PartyTemplate.zulizwe_kingdom_hero_party_template"
-        elite_caravan_party_template="PartyTemplate.zulizwe_elite_caravan_template"
-        caravan_party_template="PartyTemplate.zulizwe_caravan_template"
-        militia_party_template="PartyTemplate.zulizwe_militia_template"
-        rebels_party_template="PartyTemplate.zulizwe_rebels_template"
-        vassal_reward_party_template="PartyTemplate.zulizwe_vassal_reward_troops"
-        default_face_key="003AF40FA5CC30159D73CA6BD4A6D7FFBE7C7CCCD7CAEC4BBDFFFF7F9924D8E800C976030EBCC6CA000000000000000000000000000000000000000017CC3001"
-        text="{=zulizwe_text}Living in hot areas, they decided to go north for greener pastures"
-        villager="NPCCharacter.villager_zulizwe"
+        villager_party_template="PartyTemplate.kratorios_villager_template"
+        default_party_template="PartyTemplate.kratorios_kingdom_hero_party_template"
+        elite_caravan_party_template="PartyTemplate.kratorios_elite_caravan_template"
+        caravan_party_template="PartyTemplate.kratorios_caravan_template"
+        militia_party_template="PartyTemplate.kratorios_militia_template"
+        rebels_party_template="PartyTemplate.kratorios_rebels_template"
+        vassal_reward_party_template="PartyTemplate.kratorios_vassal_reward_troops"
+        default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+        text="{=kratorios_text}An emerging empire trying to unify the continent"
+        villager="NPCCharacter.villager_kratorios"
         tournament_master="NPCCharacter.tournament_master_empire"
-        caravan_master="NPCCharacter.caravan_master_zulizwe"
+        caravan_master="NPCCharacter.caravan_master_empire"
         armed_trader="NPCCharacter.armed_trader_empire"
         caravan_guard="NPCCharacter.caravan_guard_empire"
         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_empire"
@@ -217,36 +217,35 @@
             <name name="{=ek1Q2TJz}Polon" />
         </male_names>
         <female_names>
-            <name name="{=Aïssata}Aïssata" />
-            <name name="{=Aïssatou}Aïssatou" />
-            <name name="{=Aïssé}Aïssé" />
-            <name name="{=Aminata}Aminata" />
-            <name name="{=Asma}Asma" />
-            <name name="{=Assa}Assa" />
-            <name name="{=Awa}Awa" />
-            <name name="{=Aya}Aya" />
-            <name name="{=Ayana}Ayana" />
-            <name name="{=Bintou}Bintou" />
-            <name name="{=Coumba}Coumba" />
-            <name name="{=Fanta}Fanta" />
-            <name name="{=Fatou}Fatou" />
-            <name name="{=Fatoumata}Fatoumata" />
-            <name name="{=Hatouma}Hatouma" />
-            <name name="{=Imani}Imani" />
-            <name name="{=Ina}Ina" />
-            <name name="{=Inaya}Inaya" />
-            <name name="{=Kadiatou}Kadiatou" />
-            <name name="{=Malaïka}Malaïka" />
-            <name name="{=Malia}Malia" />
-            <name name="{=Malya}Malya" />
-            <name name="{=Mariama}Mariama" />
-            <name name="{=Nabintou}Nabintou" />
-            <name name="{=Oumou}Oumou" />
-            <name name="{=Ramatoulaye}Ramatoulaye" />
-            <name name="{=Rokia}Rokia" />
-            <name name="{=Safiatou}Safiatou" />
-            <name name="{=Salimata}Salimata" />
-
+            <name name="{=h8DsXm7X}Achena" />
+            <name name="{=BNnLbOkN}Adinea" />
+            <name name="{=EGatdCLg}Alena" />
+            <name name="{=UPaP0B2L}Alchyla" />
+            <name name="{=QyXwJXIV}Andrasa" />
+            <name name="{=NM5f1Q6I}Ariada" />
+            <name name="{=3RbayfTG}Ascytala" />
+            <name name="{=bmHAYBwX}Catila" />
+            <name name="{=AdK4Ilzw}Chalia" />
+            <name name="{=xVSOKf0p}Chara" />
+            <name name="{=915frsPd}Corena" />
+            <name name="{=KPQqENbd}Carinila" />
+            <name name="{=BNuZ6nvd}Daniria" />
+            <name name="{=sEgUB3jW}Deasora" />
+            <name name="{=YBGCXSEx}Debana" />
+            <name name="{=93hivVp6}Donysa" />
+            <name name="{=0dHy2430}Echalera" />
+            <name name="{=Oy5dH7gZ}Elea" />
+            <name name="{=2YbgWjTK}Emyna" />
+            <name name="{=rA3KybBX}Ethirea" />
+            <name name="{=qiTtJyHE}Gala" />
+            <name name="{=fGmpS0Dr}Gandarina" />
+            <name name="{=ecJRFHyY}Gisetha" />
+            <name name="{=a6qaFH7L}Herena" />
+            <name name="{=LE9mRhSs}Hespedia" />
+            <name name="{=tGhrpQ0D}Hyradia" />
+            <name name="{=0MJi7mre}Hyscasia" />
+            <name name="{=JQdqGaaB}Isibala" />
+            <name name="{=RHXdqjQY}Ilina" />
             <name name="{=HSlPLC4m}Ira" />
             <name name="{=PNR2CvvX}Ithicala" />
             <name name="{=eOHeCKxn}Jespara" />
@@ -403,32 +402,32 @@
             <template name="NPCCharacter.spc_wanderer_empire_9" />
             <template name="NPCCharacter.spc_wanderer_empire_10" />
             <template name="NPCCharacter.spc_wanderer_empire_11" />
-            <template name="NPCCharacter.spc_merchant_zulizwe_1" />
-            <template name="NPCCharacter.spc_merchant_zulizwe_2" />
-            <template name="NPCCharacter.spc_merchant_zulizwe_3" />
-            <template name="NPCCharacter.spc_merchant_zulizwe_4" />
-            <template name="NPCCharacter.spc_merchant_zulizwe_4f" />
-            <template name="NPCCharacter.spc_merchant_zulizwe_5" />
-            <template name="NPCCharacter.spc_merchant_zulizwe_6" />
-            <template name="NPCCharacter.spc_merchant_zulizwe_6f" />
-            <template name="NPCCharacter.spc_merchant_zulizwe_7" />
-            <template name="NPCCharacter.spc_merchant_zulizwe_7f" />
-            <template name="NPCCharacter.spc_preacher_zulizwe_1" />
-            <template name="NPCCharacter.spc_preacher_zulizwe_2" />
-            <template name="NPCCharacter.spc_preacher_zulizwe_2f" />
-            <template name="NPCCharacter.spc_artisan_zulizwe_1" />
-            <template name="NPCCharacter.spc_artisan_zulizwe_1f" />
-            <template name="NPCCharacter.spc_gangleader_zulizwe_1" />
-            <template name="NPCCharacter.spc_gangleader_zulizwe_2" />
-            <template name="NPCCharacter.spc_gangleader_zulizwe_2f" />
-            <template name="NPCCharacter.spc_gangleader_zulizwe_3" />
-            <template name="NPCCharacter.spc_gangleader_zulizwe_3f" />
-            <template name="NPCCharacter.spc_ruralnotable_zulizwe_1" />
-            <template name="NPCCharacter.spc_ruralnotable_zulizwe_2" />
-            <template name="NPCCharacter.spc_ruralnotable_zulizwe_2f" />
-            <template name="NPCCharacter.spc_headman_zulizwe_1" />
-            <template name="NPCCharacter.spc_headman_zulizwe_2" />
-            <template name="NPCCharacter.spc_headman_zulizwe_2f" />
+            <template name="NPCCharacter.spc_notable_empire_0" />
+            <template name="NPCCharacter.spc_notable_empire_0b" />
+            <template name="NPCCharacter.spc_notable_empire_1" />
+            <template name="NPCCharacter.spc_notable_empire_1b" />
+            <template name="NPCCharacter.spc_notable_empire_2" />
+            <template name="NPCCharacter.spc_notable_empire_2b" />
+            <template name="NPCCharacter.spc_notable_empire_3" />
+            <template name="NPCCharacter.spc_notable_empire_3b" />
+            <template name="NPCCharacter.spc_notable_empire_4" />
+            <template name="NPCCharacter.spc_notable_empire_4b" />
+            <template name="NPCCharacter.spc_notable_empire_5" />
+            <template name="NPCCharacter.spc_notable_empire_6" />
+            <template name="NPCCharacter.spc_notable_empire_7" />
+            <template name="NPCCharacter.spc_notable_empire_8" />
+            <template name="NPCCharacter.spc_notable_empire_9" />
+            <template name="NPCCharacter.spc_notable_empire_10" />
+            <template name="NPCCharacter.spc_notable_empire_11" />
+            <template name="NPCCharacter.spc_notable_empire_12" />
+            <template name="NPCCharacter.spc_notable_empire_13" />
+            <template name="NPCCharacter.spc_notable_empire_21" />
+            <template name="NPCCharacter.spc_notable_empire_22" />
+            <template name="NPCCharacter.spc_notable_empire_gl1" />
+            <template name="NPCCharacter.spc_notable_empire_gl4" />
+            <template name="NPCCharacter.spc_empire_headman_1" />
+            <template name="NPCCharacter.spc_empire_headman_2" />
+            <template name="NPCCharacter.spc_empire_headman_3" />
         </notable_and_wanderer_templates>
         <lord_templates>
             <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
