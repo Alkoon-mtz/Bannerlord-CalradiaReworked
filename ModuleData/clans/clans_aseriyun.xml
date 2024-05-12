@@ -1,0 +1,58 @@
+<Factions>
+    <Faction id="clan_aseriyun_1"
+        name="{=clan_aseriyun_1}Banu Hulyan"
+        tier="6"
+        owner="Hero.lord_aseriyun_1_1"
+        culture="Culture.aserai"
+        super_faction="Kingdom.kingdom_aseriyun"
+        banner_key="11.156.75.4345.4345.764.764.1.0.0.212.1.0.454.454.764.764.0.0.359" />
+    <Faction id="clan_aseriyun_2"
+        name="{=clan_aseriyun_2}Banu Sarran"
+        tier="5"
+        owner="Hero.lord_aseriyun_2_1"
+        culture="Culture.aserai"
+        super_faction="Kingdom.kingdom_aseriyun"
+        banner_key="11.156.75.4345.4345.764.764.1.0.0.223.1.0.454.454.764.764.0.0.359.515.1.0.177.177.764.764.0.0.0.500.1.0.358.358.764.764.0.0.0" />
+    <Faction id="clan_aseriyun_3"
+        name="{=clan_aseriyun_3}Banu Qild"
+        tier="4"
+        owner="Hero.lord_aseriyun_3_1"
+        culture="Culture.aserai"
+        super_faction="Kingdom.kingdom_aseriyun"
+        banner_key="11.156.75.4345.4345.764.764.1.0.0.446.1.0.381.381.764.764.0.0.359.309.1.0.325.325.627.764.0.0.320.309.1.0.323.323.901.764.0.0.146" />
+    <Faction id="clan_aseriyun_4"
+        name="{=clan_aseriyun_4}Banu Qaraz"
+        tier="4"
+        owner="Hero.lord_aseriyun_4_1"
+        culture="Culture.aserai"
+        super_faction="Kingdom.kingdom_aseriyun"
+        banner_key="11.156.75.4345.4345.764.764.1.0.0.427.1.0.415.388.695.764.0.0.270.521.1.0.293.298.822.764.0.0.324" />
+    <Faction id="clan_aseriyun_5"
+        name="{=clan_aseriyun_5}Banu Arbas"
+        tier="3"
+        owner="Hero.lord_aseriyun_5_1"
+        culture="Culture.aserai"
+        super_faction="Kingdom.kingdom_aseriyun"
+        banner_key="11.156.75.4345.4345.764.764.1.0.0.425.1.0.416.416.764.782.0.0.359.400.1.0.120.120.764.937.0.0.0.411.1.0.120.120.764.614.0.0.0" />
+    <Faction id="clan_aseriyun_6"
+        name="{=clan_aseriyun_6}Banu Atij"
+        tier="3"
+        owner="Hero.lord_aseriyun_6_1"
+        culture="Culture.aserai"
+        super_faction="Kingdom.kingdom_aseriyun"
+        banner_key="11.156.75.4345.4345.764.764.1.0.0.222.1.0.454.454.764.764.0.0.359.411.1.0.220.220.764.764.0.0.0" />
+    <Faction id="clan_aseriyun_7"
+        name="{=clan_aseriyun_7}Banu Sarmal"
+        tier="2"
+        owner="Hero.lord_aseriyun_7_1"
+        culture="Culture.aserai"
+        super_faction="Kingdom.kingdom_aseriyun"
+        banner_key="11.156.75.4345.4345.764.764.1.0.0.426.1.0.397.397.764.688.0.0.270.208.1.0.332.332.764.873.0.0.0" />
+    <Faction id="clan_aseriyun_8"
+        name="{=clan_aseriyun_8}Banu Habbab"
+        tier="1"
+        owner="Hero.lord_aseriyun_8_1"
+        culture="Culture.aserai"
+        super_faction="Kingdom.kingdom_aseriyun"
+        banner_key="11.156.75.4345.4345.764.764.1.0.0.428.1.0.454.454.764.764.0.0.359.321.1.0.354.354.764.721.0.0.359" />
+</Factions>

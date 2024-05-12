@@ -6,6 +6,17 @@
         </xsl:copy>
     </xsl:template>
     
+    <xsl:template match="EquipmentRoster[@id='ase_bat_template_medium']"/>
+    <xsl:template match="EquipmentRoster[@id='ase_bat_template_heavy']"/>
+    <xsl:template match="EquipmentRoster[@id='ase_bat_template_flamboyant']"/>
+    <xsl:template match="EquipmentRoster[@id='ase_bat_template_bedouin']"/>
+    <xsl:template match="EquipmentRoster[@id='ase_bat_template_lady']"/>
+    <!-- <xsl:template match="EquipmentRoster[@id='ase_noncom_template_default']"/> -->
+    <!-- <xsl:template match="EquipmentRoster[@id='ase_noncom_template_bedouin']"/> -->
+    <!-- <xsl:template match="EquipmentRoster[@id='ase_noncom_template_flamboyant']"/> -->
+    <xsl:template match="EquipmentRoster[@id='ase_king_template_bat_m']"/>
+    <xsl:template match="EquipmentRoster[@id='ase_king_template_bat_f']"/>
+    
     <xsl:template match="EquipmentRoster[@id='bat_bat_template_medium']"/>
     <xsl:template match="EquipmentRoster[@id='bat_bat_template_heavy']"/>
     <xsl:template match="EquipmentRoster[@id='bat_bat_template_flamboyant']"/>
@@ -41,7 +52,7 @@
     <xsl:template match="EquipmentRoster[@id='bat_noncom_template_flamboyant']"/>
     <xsl:template match="EquipmentRoster[@id='khu_king_template_bat_m']"/>
     <xsl:template match="EquipmentRoster[@id='khu_king_template_bat_f']"/>
-
+    
     <xsl:template match="EquipmentRoster[@id='stu_bat_template_medium']"/>
     <xsl:template match="EquipmentRoster[@id='stu_bat_template_heavy']"/>
     <xsl:template match="EquipmentRoster[@id='stu_bat_template_flamboyant']"/>

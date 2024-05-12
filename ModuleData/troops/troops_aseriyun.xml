@@ -1,29 +1,160 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-    <NPCCharacter id="villager_qinguo"
+    <NPCCharacter id="villager_aseriyun"
         default_group="Infantry"
         level="1"
-        name="{=villager_qinguo}Qinguo Peasant"
+        age="30"
+        name="{=aseraipeasantman}Aserai Peasant"
         occupation="Villager"
-        culture="Culture.qinguo"
+        culture="Culture.aserai"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_qinguo"/>
+            <face_key_template value="BodyProperty.villager_aseriyun"/>
         </face>
         <skills></skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.qinguo_recruit" />
+            <upgrade_target id="NPCCharacter.aseriyun_recruit" />
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster civilian="true">
-                <equipment slot="Body"
-                    id="Item.khuzait_civil_coat" />
-                <equipment slot="Cape"
-                    id="Item.scarf" />
-                <equipment slot="Leg"
-                    id="Item.leather_shoes" />
                 <equipment slot="Head"
-                    id="Item.fur_hood" />
+                    id="Item.aserai_civil_d_hscarf" />
+                <equipment slot="Body"
+                    id="Item.aserai_civil_d" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0"
+                    id="Item.peasant_sickle_1_t1" />
+                <equipment slot="Head"
+                    id="Item.aserai_civil_c_head" />
+                <equipment slot="Cape"
+                    id="Item.wrapped_scarf" />
+                <equipment slot="Body"
+                    id="Item.aserai_civil_c" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body"
+                    id="Item.aserai_civil_b" />
+                <equipment slot="Head"
+                    id="Item.aserai_civil_hscarf_b" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body"
+                    id="Item.aserai_civil_a" />
+                <equipment slot="Head"
+                    id="Item.aserai_civil_e_hscarf" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body"
+                    id="Item.aserai_civil_f" />
+                <equipment slot="Head"
+                    id="Item.aserai_civil_e_hscarf" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body"
+                    id="Item.aserai_civil_e" />
+                <equipment slot="Head"
+                    id="Item.desert_cap" />
+                <equipment slot="Cape"
+                    id="Item.wrapped_scarf" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Head"
+                    id="Item.aserai_civil_hscarf_b" />
+                <equipment slot="Body"
+                    id="Item.layered_robe" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body"
+                    id="Item.layered_robe" />
+                <equipment slot="Head"
+                    id="Item.tied_head_wrapping" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Head"
+                    id="Item.turban" />
+                <equipment slot="Cape"
+                    id="Item.wrapped_scarf" />
+                <equipment slot="Body"
+                    id="Item.tassled_southern_robes" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment slot="Item1"
+                    id="Item.peasant_2haxe_1_t1" />
+                <equipment slot="Head"
+                    id="Item.aserai_civil_d_hscarf" />
+                <equipment slot="Body"
+                    id="Item.aserai_civil_d" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1" />
+                <equipment slot="Head"
+                    id="Item.aserai_civil_c_head" />
+                <equipment slot="Cape"
+                    id="Item.wrapped_scarf" />
+                <equipment slot="Body"
+                    id="Item.aserai_civil_c" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment slot="Item1"
+                    id="Item.peasant_2haxe_1_t1" />
+                <equipment slot="Body"
+                    id="Item.aserai_civil_b" />
+                <equipment slot="Head"
+                    id="Item.aserai_civil_hscarf_b" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment slot="Item1"
+                    id="Item.peasant_pitchfork_2_t1" />
+                <equipment slot="Body"
+                    id="Item.aserai_civil_a" />
+                <equipment slot="Head"
+                    id="Item.aserai_civil_e_hscarf" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment slot="Item1"
+                    id="Item.peasant_pitchfork_2_t1" />
+                <equipment slot="Body"
+                    id="Item.aserai_civil_f" />
+                <equipment slot="Head"
+                    id="Item.aserai_civil_e_hscarf" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
             </EquipmentRoster>
             <EquipmentRoster>
                 <equipment slot="Item0"
@@ -31,27 +162,65 @@
                 <equipment slot="Item1"
                     id="Item.peasant_polearm_1_t1" />
                 <equipment slot="Body"
-                    id="Item.steppe_robe" />
-                <equipment slot="Leg"
-                    id="Item.strapped_leather_boots" />
-                <equipment slot="Cape"
-                    id="Item.scarf" />
+                    id="Item.aserai_civil_e" />
                 <equipment slot="Head"
-                    id="Item.fur_hat" />
+                    id="Item.desert_cap" />
+                <equipment slot="Cape"
+                    id="Item.wrapped_scarf" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment slot="Item1"
+                    id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Head"
+                    id="Item.aserai_civil_hscarf_b" />
+                <equipment slot="Body"
+                    id="Item.tassled_southern_robes" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment slot="Item1"
+                    id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Body"
+                    id="Item.layered_robe" />
+                <equipment slot="Head"
+                    id="Item.tied_head_wrapping" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment slot="Item1"
+                    id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Head"
+                    id="Item.turban" />
+                <equipment slot="Cape"
+                    id="Item.wrapped_scarf" />
+                <equipment slot="Body"
+                    id="Item.tassled_southern_robes" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <!-- Elitetroop Qinguo -->
-    <NPCCharacter id="qinguo_xibai"
+    <!-- Elitetroop Aseriyun -->
+    <NPCCharacter id="aseriyun_quatal"
         default_group="Cavalry"
         level="16"
-        name="{=qinguo_xibai}Qinguo Xibai"
+        name="{=aseriyun_quatal}Aseriyun Quatal"
         upgrade_requires="ItemCategory.war_horse"
         occupation="Soldier"
-        culture="Culture.qinguo"
+        culture="Culture.aserai"
         is_basic_troop="true">
         <face>
-            <face_key_template value="BodyProperty.fighter_qinguo"/>
+            <face_key_template value="BodyProperty.fighter_aseriyun"/>
         </face>
         <skills >
             <skill id="Athletics"
@@ -61,92 +230,41 @@
             <skill id="OneHanded"
                 value="15"/>
             <skill id="TwoHanded"
+                value="10"/>
+            <skill id="Polearm"
                 value="65"/>
-            <skill id="Polearm"
-                value="115"/>
             <skill id="Bow"
-                value="10"/>
-            <skill id="Crossbow"
                 value="15"/>
-            <skill id="Throwing"
-                value="10"/>
-        </skills>
-        <upgrade_targets>
-            <upgrade_target id="NPCCharacter.qinguo_erbai"/>
-        </upgrade_targets>
-        <Equipments>
-            <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.khuzait_polearm_1_t4"/>
-                <equipment slot="Head"
-                    id="Item.AR_khuzait_helmet_q"/>
-                <equipment slot="Body"
-                    id="Item.southern_lamellar_armor"/>
-                <equipment slot="Gloves"
-                    id="Item.TV_aserai_gloves_d"/>
-                <equipment slot="Leg"
-                    id="Item.TV_aserai_boots_e2"/>
-                <equipment slot="Horse"
-                    id="Item.t2_khuzait_horse"/>
-                <equipment slot="HorseHarness"
-                    id="Item.desert_cloth_harness"/>
-            </EquipmentRoster>
-            <EquipmentRoster civilian="true">
-                <equipment slot="Item0"
-                    id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2"
-                    id="Item.throwing_stone"/>
-                <equipment slot="Body"
-                    id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg"
-                    id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="qinguo_erbai"
-        default_group="Cavalry"
-        level="21"
-        name="{=Qinguo Erbai}Qinguo Erbai"
-        occupation="Soldier"
-        culture="Culture.qinguo">
-        <face>
-            <face_key_template value="BodyProperty.fighter_qinguo"/>
-        </face>
-        <skills >
-            <skill id="Athletics"
-                value="50"/>
-            <skill id="Riding"
-                value="140"/>
-            <skill id="OneHanded"
-                value="20"/>
-            <skill id="TwoHanded"
-                value="90"/>
-            <skill id="Polearm"
-                value="160"/>
-            <skill id="Bow"
-                value="10"/>
             <skill id="Crossbow"
-                value="20"/>
-            <skill id="Throwing"
                 value="10"/>
+            <skill id="Throwing"
+                value="115"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.qinguo_wubai"/>
+            <upgrade_target id="NPCCharacter.aseriyun_muqital"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.khuzait_polearm_1_t4"/>
+                    id="Item.northern_javelin_2_t3"/>
+                <equipment slot="Item1"
+                    id="Item.northern_javelin_2_t3"/>
+                <equipment slot="Item2"
+                    id="Item.aseriyun_polearm_1_t5"/>
+                <equipment slot="Item3"
+                    id="Item.highland_scouts_shield"/>
                 <equipment slot="Head"
-                    id="Item.AR_khuzait_helmet_r"/>
+                    id="Item.brass_aserai_helmet_open"/>
+                <equipment slot="Cape"
+                    id="Item.aserai_scale_shoulder_a"/>
                 <equipment slot="Body"
-                    id="Item.AR_aserai_armor_d2"/>
+                    id="Item.aserai_scale_armor_on_cloth"/>
                 <equipment slot="Gloves"
-                    id="Item.TV_aserai_gloves_d"/>
+                    id="Item.TV_vlandia_gloves_a"/>
                 <equipment slot="Leg"
-                    id="Item.TV_aserai_boots_e2"/>
+                    id="Item.AR_vlandia_boots_a"/>
                 <equipment slot="Horse"
-                    id="Item.steppe_war_horse"/>
+                    id="Item.t2_aserai_horse"/>
                 <equipment slot="HorseHarness"
                     id="Item.half_mail_and_plate_barding"/>
             </EquipmentRoster>
@@ -162,14 +280,81 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="qinguo_wubai"
+    <NPCCharacter id="aseriyun_muqital"
+        default_group="Cavalry"
+        level="21"
+        name="{=aseriyun_muqital}Aseriyun Muqital"
+        occupation="Soldier"
+        culture="Culture.aserai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_aseriyun"/>
+        </face>
+        <skills >
+            <skill id="Athletics"
+                value="50"/>
+            <skill id="Riding"
+                value="140"/>
+            <skill id="OneHanded"
+                value="20"/>
+            <skill id="TwoHanded"
+                value="10"/>
+            <skill id="Polearm"
+                value="90"/>
+            <skill id="Bow"
+                value="20"/>
+            <skill id="Crossbow"
+                value="10"/>
+            <skill id="Throwing"
+                value="160"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.aseriyun_alfital"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.northern_javelin_2_t3"/>
+                <equipment slot="Item1"
+                    id="Item.northern_javelin_2_t3"/>
+                <equipment slot="Item2"
+                    id="Item.aseriyun_polearm_1_t5"/>
+                <equipment slot="Item3"
+                    id="Item.highland_scouts_shield"/>
+                <equipment slot="Head"
+                    id="Item.brass_aserai_helmet_b_open"/>
+                <equipment slot="Cape"
+                    id="Item.aserai_scale_shoulder_b"/>
+                <equipment slot="Body"
+                    id="Item.aserai_scale_armor_on_cloth"/>
+                <equipment slot="Gloves"
+                    id="Item.TV_vlandia_gloves_a"/>
+                <equipment slot="Leg"
+                    id="Item.AR_vlandia_boots_a"/>
+                <equipment slot="Horse"
+                    id="Item.t3_aserai_horse"/>
+                <equipment slot="HorseHarness"
+                    id="Item.half_mail_and_plate_barding"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="aseriyun_alfital"
         default_group="Cavalry"
         level="26"
-        name="{=Qinguo Wubai}Qinguo Wubai"
+        name="{=aseriyun_alfital}Aseriyun Alfital"
         occupation="Soldier"
-        culture="Culture.qinguo">
+        culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_qinguo"/>
+            <face_key_template value="BodyProperty.fighter_aseriyun"/>
         </face>
         <skills >
             <skill id="Athletics"
@@ -179,35 +364,41 @@
             <skill id="OneHanded"
                 value="30"/>
             <skill id="TwoHanded"
-                value="120"/>
+                value="20"/>
             <skill id="Polearm"
-                value="220"/>
+                value="120"/>
             <skill id="Bow"
-                value="20"/>
-            <skill id="Crossbow"
                 value="30"/>
-            <skill id="Throwing"
+            <skill id="Crossbow"
                 value="20"/>
+            <skill id="Throwing"
+                value="220"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.qinguo_yibai"/>
+            <upgrade_target id="NPCCharacter.aseriyun_baqtal"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.khuzait_polearm_1_t4"/>
+                    id="Item.eastern_javelin_3_t4"/>
+                <equipment slot="Item1"
+                    id="Item.eastern_javelin_3_t4"/>
+                <equipment slot="Item2"
+                    id="Item.aseriyun_polearm_1_t5"/>
+                <equipment slot="Item3"
+                    id="Item.highland_riders_shield"/>
                 <equipment slot="Head"
-                    id="Item.AR_khuzait_helmet_s"/>
+                    id="Item.brass_aserai_helmet_closed"/>
                 <equipment slot="Cape"
-                    id="Item.AR_imperial_lamellar_shoulders_a"/>
+                    id="Item.aserai_scale_shoulder_b"/>
                 <equipment slot="Body"
-                    id="Item.TV_empire_armor_e2"/>
+                    id="Item.aserai_scale_armor_on_chain"/>
                 <equipment slot="Gloves"
-                    id="Item.AR_empire_gloves_d"/>
+                    id="Item.TV_battania_warlord_bracers_b"/>
                 <equipment slot="Leg"
-                    id="Item.AR_empire_boots_c"/>
+                    id="Item.TV_empire_boots_a"/>
                 <equipment slot="Horse"
-                    id="Item.noble_horse_eastern"/>
+                    id="Item.noble_horse_southern"/>
                 <equipment slot="HorseHarness"
                     id="Item.mail_and_plate_barding"/>
             </EquipmentRoster>
@@ -223,14 +414,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="qinguo_yibai"
+    <NPCCharacter id="aseriyun_baqtal"
         default_group="Cavalry"
         level="31"
-        name="{=qinguo_yibai}Qinguo Yibai"
+        name="{=Aseriyun CR6}Aseriyun Baqtal"
         occupation="Soldier"
-        culture="Culture.qinguo">
+        culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_qinguo"/>
+            <face_key_template value="BodyProperty.fighter_aseriyun"/>
         </face>
         <skills >
             <skill id="Athletics"
@@ -240,32 +431,38 @@
             <skill id="OneHanded"
                 value="40"/>
             <skill id="TwoHanded"
-                value="180"/>
+                value="20"/>
             <skill id="Polearm"
-                value="300"/>
+                value="180"/>
             <skill id="Bow"
-                value="20"/>
-            <skill id="Crossbow"
                 value="40"/>
-            <skill id="Throwing"
+            <skill id="Crossbow"
                 value="20"/>
+            <skill id="Throwing"
+                value="300"/>
         </skills>
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.khuzait_polearm_1_t4"/>
+                    id="Item.eastern_javelin_3_t4"/>
+                <equipment slot="Item1"
+                    id="Item.eastern_javelin_3_t4"/>
+                <equipment slot="Item2"
+                    id="Item.aseriyun_polearm_1_t5"/>
+                <equipment slot="Item3"
+                    id="Item.highland_riders_shield"/>
                 <equipment slot="Head"
-                    id="Item.khuzait_noble_helmet_with_feathers"/>
+                    id="Item.brass_aserai_helmet_b_closed"/>
                 <equipment slot="Cape"
-                    id="Item.AR_imperial_lamellar_cape_a2"/>
+                    id="Item.AR_aserai_scale_cape_b"/>
                 <equipment slot="Body"
-                    id="Item.AR_aserai_armor_c"/>
+                    id="Item.aserai_full_scale_armor_on_chain"/>
                 <equipment slot="Gloves"
-                    id="Item.AR_empire_gloves_d"/>
+                    id="Item.tv_battania_warlord_bracers"/>
                 <equipment slot="Leg"
-                    id="Item.AR_empire_boots_c"/>
+                    id="Item.tv_battania_warlord_boots_b"/>
                 <equipment slot="Horse"
-                    id="Item.noble_horse_eastern"/>
+                    id="Item.noble_horse_southern"/>
                 <equipment slot="HorseHarness"
                     id="Item.mail_and_plate_barding"/>
             </EquipmentRoster>
@@ -281,79 +478,49 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <!-- Regulartroop Qinguo -->
-    <NPCCharacter id="qinguo_recruit"
+    <!-- Regulartroop Aseriyun -->
+    <NPCCharacter id="aseriyun_recruit"
         default_group="Infantry"
         level="6"
-        name="{=Qinguo Recruit}Qinguo Recruit"
+        name="{=aseriyun_recruit}Aseriyun Recruit"
         occupation="Soldier"
-        culture="Culture.qinguo"
+        culture="Culture.aserai"
         is_basic_troop="true">
         <face>
-            <face_key_template value="BodyProperty.fighter_qinguo"/>
+            <face_key_template value="BodyProperty.fighter_aseriyun"/>
         </face>
         <skills >
             <skill id="Athletics"
                 value="25"/>
             <skill id="Riding"
-                value="10"/>
+                value="5"/>
             <skill id="OneHanded"
                 value="30"/>
             <skill id="TwoHanded"
-                value="5"/>
-            <skill id="Polearm"
                 value="10"/>
+            <skill id="Polearm"
+                value="5"/>
             <skill id="Bow"
                 value="5"/>
             <skill id="Crossbow"
                 value="5"/>
             <skill id="Throwing"
-                value="5"/>
+                value="10"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.qinguo_heitao"/>
-            <upgrade_target id="NPCCharacter.qinguo_xunluo"/>
+            <upgrade_target id="NPCCharacter.aseriyun_albariz"/>
+            <upgrade_target id="NPCCharacter.aseriyun_sahmhir"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.khuzait_mace_1_t2"/>
+                    id="Item.aserai_sword_2_t2"/>
                 <equipment slot="Head"
-                    id="Item.nomad_cap"/>
+                    id="Item.aserai_civil_e_hscarf"/>
                 <equipment slot="Body"
-                    id="Item.DZ_khuzait_armor_a"/>
+                    id="Item.aserai_civil_e"/>
                 <equipment slot="Leg"
-                    id="Item.TV_aserai_boots_f"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.peasant_pitchfork_1_t1"/>
-                <equipment slot="Head"
-                    id="Item.nomad_cap"/>
-                <equipment slot="Body"
-                    id="Item.DZ_khuzait_armor_a"/>
-                <equipment slot="Leg"
-                    id="Item.TV_aserai_boots_f"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.peasant_polearm_1_t1"/>
-                <equipment slot="Head"
-                    id="Item.nomad_cap"/>
-                <equipment slot="Body"
-                    id="Item.DZ_khuzait_armor_a"/>
-                <equipment slot="Leg"
-                    id="Item.TV_aserai_boots_f"/>
-            </EquipmentRoster>
-            <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.peasant_sickle_1_t1"/>
-                <equipment slot="Head"
-                    id="Item.nomad_cap"/>
-                <equipment slot="Body"
-                    id="Item.DZ_khuzait_armor_a"/>
-                <equipment slot="Leg"
-                    id="Item.TV_aserai_boots_f"/>
+                    id="Item.eastern_leather_boots"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -367,51 +534,49 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="qinguo_heitao"
+    <NPCCharacter id="aseriyun_albariz"
         default_group="Infantry"
         level="11"
-        name="{=Qinguo Heitao}Qinguo Heitao"
+        name="{=aseriyun_albariz}Aseriyun Albariz"
         occupation="Soldier"
-        culture="Culture.qinguo">
+        culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_qinguo"/>
+            <face_key_template value="BodyProperty.fighter_aseriyun"/>
         </face>
         <skills >
             <skill id="Athletics"
                 value="50"/>
             <skill id="Riding"
-                value="15"/>
+                value="10"/>
             <skill id="OneHanded"
-                value="15"/>
+                value="60"/>
             <skill id="TwoHanded"
                 value="20"/>
             <skill id="Polearm"
-                value="60"/>
+                value="15"/>
             <skill id="Bow"
-                value="10"/>
+                value="15"/>
             <skill id="Crossbow"
-                value="20"/>
-            <skill id="Throwing"
                 value="10"/>
+            <skill id="Throwing"
+                value="20"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.qinguo_nushou"/>
-            <upgrade_target id="NPCCharacter.qinguo_qiangqi"/>
+            <upgrade_target id="NPCCharacter.aseriyun_yahris"/>
+            <upgrade_target id="NPCCharacter.aseriyun_sharib"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.eastern_spear_3_t3"/>
+                    id="Item.aserai_sword_2_t2"/>
                 <equipment slot="Item1"
-                    id="Item.decorated_steppe_shield"/>
-                <equipment slot="Item2"
-                    id="Item.peasant_sickle_1_t1"/>
+                    id="Item.battania_targe_b"/>
                 <equipment slot="Head"
-                    id="Item.TV_aserai_guard_helmet_d"/>
+                    id="Item.TV_aserai_helmet_d"/>
                 <equipment slot="Body"
-                    id="Item.ao_durkhan_sleeveless_leather_lamellar"/>
+                    id="Item.desert_padded_cloth"/>
                 <equipment slot="Leg"
-                    id="Item.TV_khuzait_boots_a"/>
+                    id="Item.TV_aserai_boots_a"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -425,15 +590,15 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <!-- Left Qinguo -->
-    <NPCCharacter id="qinguo_nushou"
-        default_group="Ranged"
+    <!-- Left Aseriyun -->
+    <NPCCharacter id="aseriyun_yahris"
+        default_group="Infantry"
         level="16"
-        name="{=Qinguo Nushou}Qinguo Nushou"
+        name="{=aseriyun_yahris}Aseriyun Yahris"
         occupation="Soldier"
-        culture="Culture.qinguo">
+        culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_qinguo"/>
+            <face_key_template value="BodyProperty.fighter_aseriyun"/>
         </face>
         <skills >
             <skill id="Athletics"
@@ -441,39 +606,37 @@
             <skill id="Riding"
                 value="15"/>
             <skill id="OneHanded"
-                value="40"/>
+                value="100"/>
             <skill id="TwoHanded"
-                value="15"/>
-            <skill id="Polearm"
                 value="40"/>
+            <skill id="Polearm"
+                value="30"/>
             <skill id="Bow"
                 value="30"/>
             <skill id="Crossbow"
-                value="100"/>
+                value="15"/>
             <skill id="Throwing"
-                value="30"/>
+                value="40"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.qinguo_jinshou"/>
+            <upgrade_target id="NPCCharacter.aseriyun_haris"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.crossbow_a"/>
+                    id="Item.aserai_sword_4_t4"/>
                 <equipment slot="Item1"
-                    id="Item.bolt_d"/>
-                <equipment slot="Item2"
-                    id="Item.bolt_d"/>
-                <equipment slot="Item3"
-                    id="Item.khuzait_sword_1_t2"/>
+                    id="Item.highland_scouts_shield"/>
                 <equipment slot="Head"
-                    id="Item.TV_aserai_helmet_v"/>
+                    id="Item.aserai_nasalhelm_mailcoif"/>
+                <equipment slot="Cape"
+                    id="Item.a_aserai_scale_b_shoulder_a"/>
                 <equipment slot="Body"
-                    id="Item.nordic_lamellar_vest"/>
+                    id="Item.AR_aserai_armor_e"/>
                 <equipment slot="Gloves"
-                    id="Item.TV_aserai_gloves_d"/>
+                    id="Item.TV_aserai_gloves_c"/>
                 <equipment slot="Leg"
-                    id="Item.TV_aserai_boots_e2"/>
+                    id="Item.TV_aserai_boots_e"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -487,14 +650,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="qinguo_jinshou"
-        default_group="Ranged"
+    <NPCCharacter id="aseriyun_haris"
+        default_group="Infantry"
         level="21"
-        name="{=qinguo_jinshou}Qinguo Jinshou"
+        name="{=aseriyun_haris}Aseriyun Haris"
         occupation="Soldier"
-        culture="Culture.qinguo">
+        culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_qinguo"/>
+            <face_key_template value="BodyProperty.fighter_aseriyun"/>
         </face>
         <skills >
             <skill id="Athletics"
@@ -502,41 +665,37 @@
             <skill id="Riding"
                 value="20"/>
             <skill id="OneHanded"
-                value="60"/>
+                value="140"/>
             <skill id="TwoHanded"
-                value="20"/>
-            <skill id="Polearm"
                 value="60"/>
+            <skill id="Polearm"
+                value="40"/>
             <skill id="Bow"
                 value="40"/>
             <skill id="Crossbow"
-                value="140"/>
+                value="20"/>
             <skill id="Throwing"
-                value="40"/>
+                value="60"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.qinguo_jujishou"/>
+            <upgrade_target id="NPCCharacter.aseriyun_alqasharis"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.crossbow_e"/>
+                    id="Item.aserai_sword_5_t4"/>
                 <equipment slot="Item1"
-                    id="Item.bolt_b"/>
-                <equipment slot="Item2"
-                    id="Item.bolt_b"/>
-                <equipment slot="Item3"
-                    id="Item.khuzait_sword_2_t3"/>
+                    id="Item.highland_scouts_shield"/>
                 <equipment slot="Head"
-                    id="Item.TV_aserai_helmet_w"/>
+                    id="Item.tv_aserai_lord_helmet_e"/>
                 <equipment slot="Cape"
-                    id="Item.a_aserai_scale_b_shoulder_c"/>
+                    id="Item.desert_scale_shoulders"/>
                 <equipment slot="Body"
-                    id="Item.AR_aserai_armor_e2"/>
+                    id="Item.AR_aserai_armor_b"/>
                 <equipment slot="Gloves"
-                    id="Item.TV_aserai_gloves_d"/>
+                    id="Item.TV_aserai_gloves_b"/>
                 <equipment slot="Leg"
-                    id="Item.TV_aserai_boots_e2"/>
+                    id="Item.TV_aserai_boots_e"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -550,14 +709,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="qinguo_jujishou"
-        default_group="Ranged"
+    <NPCCharacter id="aseriyun_alqasharis"
+        default_group="Infantry"
         level="26"
-        name="{=Qinguo Jujishou}Qinguo Jujishou"
+        name="{=aseriyun_alqasharis}Aseriyun Alqasharis"
         occupation="Soldier"
-        culture="Culture.qinguo">
+        culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_qinguo"/>
+            <face_key_template value="BodyProperty.fighter_aseriyun"/>
         </face>
         <skills >
             <skill id="Athletics"
@@ -565,38 +724,34 @@
             <skill id="Riding"
                 value="30"/>
             <skill id="OneHanded"
-                value="80"/>
+                value="200"/>
             <skill id="TwoHanded"
-                value="30"/>
-            <skill id="Polearm"
                 value="80"/>
+            <skill id="Polearm"
+                value="60"/>
             <skill id="Bow"
                 value="60"/>
             <skill id="Crossbow"
-                value="200"/>
+                value="30"/>
             <skill id="Throwing"
-                value="60"/>
+                value="80"/>
         </skills>
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.crossbow_g"/>
+                    id="Item.aserai_noble_sword_2_t5"/>
                 <equipment slot="Item1"
-                    id="Item.bolt_c"/>
-                <equipment slot="Item2"
-                    id="Item.bolt_c"/>
-                <equipment slot="Item3"
-                    id="Item.khuzait_noble_sword_1_t5"/>
+                    id="Item.highland_riders_shield"/>
                 <equipment slot="Head"
-                    id="Item.TV_aserai_helmet_y2"/>
+                    id="Item.AR_aserai_cataphract_helmet_b"/>
                 <equipment slot="Cape"
-                    id="Item.AR_aserai_shoulder_c"/>
+                    id="Item.AR_aserai_shoulder_c2"/>
                 <equipment slot="Body"
-                    id="Item.AR_aserai_armor_f2"/>
+                    id="Item.AR_aserai_armor_f"/>
                 <equipment slot="Gloves"
-                    id="Item.AR_empire_gloves_c"/>
+                    id="Item.TV_aserai_gloves_b"/>
                 <equipment slot="Leg"
-                    id="Item.AR_empire_boots_c"/>
+                    id="Item.TV_aserai_boots_d"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -610,15 +765,15 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <!-- Middle Qinguo -->
-    <NPCCharacter id="qinguo_qiangqi"
+    <!-- Midle Aseriyun -->
+    <NPCCharacter id="aseriyun_sharib"
         default_group="Infantry"
         level="16"
-        name="{=Qinguo Qiangqi}Qinguo Qiangqi"
+        name="{=aseriyun_sharib}Aseriyun Sharib"
         occupation="Soldier"
-        culture="Culture.qinguo">
+        culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_qinguo"/>
+            <face_key_template value="BodyProperty.fighter_aseriyun"/>
         </face>
         <skills >
             <skill id="Athletics"
@@ -626,39 +781,39 @@
             <skill id="Riding"
                 value="30"/>
             <skill id="OneHanded"
-                value="30"/>
+                value="15"/>
             <skill id="TwoHanded"
-                value="40"/>
-            <skill id="Polearm"
                 value="100"/>
-            <skill id="Bow"
-                value="15"/>
-            <skill id="Crossbow"
+            <skill id="Polearm"
                 value="40"/>
-            <skill id="Throwing"
+            <skill id="Bow"
+                value="30"/>
+            <skill id="Crossbow"
                 value="15"/>
+            <skill id="Throwing"
+                value="40"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.qinguo_cichuqi"/>
+            <upgrade_target id="NPCCharacter.aseriyun_muharib"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.khuzait_lance_2_t4"/>
+                    id="Item.aserai_2haxe_1_t3"/>
                 <equipment slot="Item1"
-                    id="Item.studded_round_shield"/>
+                    id="Item.highland_scouts_shield"/>
                 <equipment slot="Item2"
-                    id="Item.simple_back_sword_t2"/>
+                    id="Item.vlandia_pike_1_t5"/>
                 <equipment slot="Head"
-                    id="Item.TV_aserai_guard_helmet_d2"/>
+                    id="Item.AR_aserai_helmet_k"/>
                 <equipment slot="Cape"
-                    id="Item.TV_khuzait_shoulder_q"/>
+                    id="Item.AR_aserai_scale_shoulder_a"/>
                 <equipment slot="Body"
-                    id="Item.TV_khuzait_armor_h"/>
+                    id="Item.aserai_robe_c_chain"/>
                 <equipment slot="Gloves"
-                    id="Item.TV_khuzait_gloves_b"/>
+                    id="Item.TV_aserai_gloves_c"/>
                 <equipment slot="Leg"
-                    id="Item.AO_durkhan_boots_b"/>
+                    id="Item.TV_aserai_boots_e"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -672,14 +827,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="qinguo_cichuqi"
+    <NPCCharacter id="aseriyun_muharib"
         default_group="Infantry"
         level="21"
-        name="{=qinguo_cichuqi}Qinguo Cichuqi"
+        name="{=aseriyun_muharib}Aseriyun Muharib"
         occupation="Soldier"
-        culture="Culture.qinguo">
+        culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_qinguo"/>
+            <face_key_template value="BodyProperty.fighter_aseriyun"/>
         </face>
         <skills >
             <skill id="Athletics"
@@ -687,36 +842,36 @@
             <skill id="Riding"
                 value="40"/>
             <skill id="OneHanded"
-                value="40"/>
+                value="20"/>
             <skill id="TwoHanded"
-                value="60"/>
-            <skill id="Polearm"
                 value="140"/>
-            <skill id="Bow"
-                value="20"/>
-            <skill id="Crossbow"
+            <skill id="Polearm"
                 value="60"/>
-            <skill id="Throwing"
+            <skill id="Bow"
+                value="40"/>
+            <skill id="Crossbow"
                 value="20"/>
+            <skill id="Throwing"
+                value="60"/>
         </skills>
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.eastern_throwing_spear_1_t3"/>
+                    id="Item.aserai_2haxe_3_t5"/>
                 <equipment slot="Item1"
-                    id="Item.steel_round_shield"/>
+                    id="Item.highland_riders_shield"/>
                 <equipment slot="Item2"
-                    id="Item.khuzait_sword_2_t3"/>
+                    id="Item.vlandia_pike_1_t5"/>
                 <equipment slot="Head"
-                    id="Item.TV_aserai_guard_helmet_c4"/>
+                    id="Item.AR_aserai_helmet_l"/>
                 <equipment slot="Cape"
-                    id="Item.TV_khuzait_shoulder_q"/>
+                    id="Item.AR_aserai_scale_cape_b2"/>
                 <equipment slot="Body"
-                    id="Item.TV_khuzait_armor_t"/>
+                    id="Item.TV_aserai_robe_a"/>
                 <equipment slot="Gloves"
-                    id="Item.TV_khuzait_gloves_a"/>
+                    id="Item.TV_aserai_gloves_b"/>
                 <equipment slot="Leg"
-                    id="Item.AO_durkhan_boots_c"/>
+                    id="Item.TV_aserai_boots_d"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -730,16 +885,16 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <!-- Right Qinguo -->
-    <NPCCharacter id="qinguo_xunluo"
+    <!-- Right Aseriyun -->
+    <NPCCharacter id="aseriyun_sahmhir"
         default_group="HorseArcher"
         level="11"
-        name="{=Qinguo Xunluo}Qinguo Xunluo"
+        name="{=aseriyun_sahmhir}Aseriyun Sahmhir"
         upgrade_requires="ItemCategory.horse"
         occupation="Soldier"
-        culture="Culture.qinguo">
+        culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_qinguo"/>
+            <face_key_template value="BodyProperty.fighter_aseriyun"/>
         </face>
         <skills >
             <skill id="Athletics"
@@ -749,39 +904,43 @@
             <skill id="OneHanded"
                 value="10"/>
             <skill id="TwoHanded"
-                value="30"/>
+                value="15"/>
             <skill id="Polearm"
-                value="15"/>
+                value="30"/>
             <skill id="Bow"
-                value="15"/>
-            <skill id="Crossbow"
                 value="50"/>
-            <skill id="Throwing"
+            <skill id="Crossbow"
                 value="10"/>
+            <skill id="Throwing"
+                value="15"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.qinguo_jinluo"/>
+            <upgrade_target id="NPCCharacter.aseriyun_qawshir"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.crossbow_a"/>
+                    id="Item.composite_bow"/>
                 <equipment slot="Item1"
-                    id="Item.bolt_e"/>
+                    id="Item.bodkin_arrows_c"/>
                 <equipment slot="Item2"
-                    id="Item.bolt_e"/>
+                    id="Item.eastern_spear_1_t2"/>
                 <equipment slot="Item3"
-                    id="Item.peasant_2haxe_1_t1"/>
+                    id="Item.battania_shield_targe_a"/>
                 <equipment slot="Head"
-                    id="Item.AR_battania_helmet_a"/>
+                    id="Item.aserai_light_helmet"/>
+                <equipment slot="Cape"
+                    id="Item.aserai_scale_shoulder_d"/>
                 <equipment slot="Body"
-                    id="Item.ao_durkhan_light_lamellar"/>
+                    id="Item.AR_aserai_armor_za"/>
+                <equipment slot="Gloves"
+                    id="Item.TV_aserai_gloves_c"/>
                 <equipment slot="Leg"
-                    id="Item.TV_khuzait_boots_a"/>
+                    id="Item.TV_aserai_boots_e"/>
                 <equipment slot="Horse"
-                    id="Item.khuzait_horse"/>
+                    id="Item.aserai_horse"/>
                 <equipment slot="HorseHarness"
-                    id="Item.steppe_harness"/>
+                    id="Item.bandit_saddle_desert"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -795,14 +954,15 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="qinguo_jinluo"
+    <NPCCharacter id="aseriyun_qawshir"
         default_group="HorseArcher"
         level="16"
-        name="{=qinguo_jinluo}Qinguo Jinluo"
+        name="{=aseriyun_qawshir}Aseriyun Qawshir"
+        upgrade_requires="ItemCategory.war_horse"
         occupation="Soldier"
-        culture="Culture.qinguo">
+        culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_qinguo"/>
+            <face_key_template value="BodyProperty.fighter_aseriyun"/>
         </face>
         <skills >
             <skill id="Athletics"
@@ -812,41 +972,43 @@
             <skill id="OneHanded"
                 value="15"/>
             <skill id="TwoHanded"
-                value="70"/>
+                value="30"/>
             <skill id="Polearm"
-                value="30"/>
+                value="70"/>
             <skill id="Bow"
-                value="30"/>
-            <skill id="Crossbow"
                 value="80"/>
-            <skill id="Throwing"
+            <skill id="Crossbow"
                 value="15"/>
+            <skill id="Throwing"
+                value="30"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.qinguo_manuluo"/>
+            <upgrade_target id="NPCCharacter.aseriyun_artahir"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.crossbow_b"/>
+                    id="Item.composite_steppe_bow"/>
                 <equipment slot="Item1"
-                    id="Item.bolt_a"/>
+                    id="Item.bodkin_arrows_c"/>
                 <equipment slot="Item2"
-                    id="Item.bolt_a"/>
+                    id="Item.southern_spear_4_t3"/>
                 <equipment slot="Item3"
-                    id="Item.justicier_2hsword"/>
+                    id="Item.highland_scouts_shield"/>
                 <equipment slot="Head"
-                    id="Item.AR_battania_helmet_b"/>
+                    id="Item.aserai_mail_helmet"/>
                 <equipment slot="Cape"
-                    id="Item.a_leather_lamellar_armor_shoulder_a"/>
+                    id="Item.aserai_scale_shoulder_c"/>
                 <equipment slot="Body"
-                    id="Item.ao_durkhan_lamellar"/>
+                    id="Item.AR_aserai_armor_zb"/>
+                <equipment slot="Gloves"
+                    id="Item.TV_aserai_gloves_c"/>
                 <equipment slot="Leg"
-                    id="Item.AO_durkhan_boots_c"/>
+                    id="Item.TV_aserai_boots_e"/>
                 <equipment slot="Horse"
-                    id="Item.khuzait_horse"/>
+                    id="Item.t2_aserai_horse"/>
                 <equipment slot="HorseHarness"
-                    id="Item.steppe_fur_harness"/>
+                    id="Item.desert_cloth_harness"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -860,15 +1022,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="qinguo_manuluo"
+    <NPCCharacter id="aseriyun_artahir"
         default_group="HorseArcher"
         level="21"
-        name="{=qinguo_manuluo}Qinguo Manuluo"
-        upgrade_requires="ItemCategory.war_horse"
+        name="{=aseriyun_artahir}Aseriyun Artahir"
         occupation="Soldier"
-        culture="Culture.qinguo">
+        culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_qinguo"/>
+            <face_key_template value="BodyProperty.fighter_aseriyun"/>
         </face>
         <skills >
             <skill id="Athletics"
@@ -878,43 +1039,43 @@
             <skill id="OneHanded"
                 value="20"/>
             <skill id="TwoHanded"
-                value="100"/>
+                value="40"/>
             <skill id="Polearm"
-                value="40"/>
+                value="100"/>
             <skill id="Bow"
-                value="40"/>
-            <skill id="Crossbow"
                 value="110"/>
-            <skill id="Throwing"
+            <skill id="Crossbow"
                 value="20"/>
+            <skill id="Throwing"
+                value="40"/>
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.qinguo_xinjiluo"/>
+            <upgrade_target id="NPCCharacter.aseriyun_yahdhir"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.crossbow_d"/>
+                    id="Item.composite_steppe_bow"/>
                 <equipment slot="Item1"
-                    id="Item.bolt_d"/>
+                    id="Item.bodkin_arrows_b"/>
                 <equipment slot="Item2"
-                    id="Item.bolt_d"/>
+                    id="Item.aserai_lance_1_t5"/>
                 <equipment slot="Item3"
-                    id="Item.cleaver_2hsword_t3"/>
+                    id="Item.highland_scouts_shield"/>
                 <equipment slot="Head"
-                    id="Item.AR_battania_helmet_b2"/>
+                    id="Item.pointed_skullcap_over_cloth_headwrap"/>
                 <equipment slot="Cape"
-                    id="Item.a_metal_lamellar_armor_shoulder_a"/>
+                    id="Item.aserai_scale_shoulder_c"/>
                 <equipment slot="Body"
-                    id="Item.TV_khuzait_armor_g"/>
+                    id="Item.AR_aserai_armor_i"/>
                 <equipment slot="Gloves"
-                    id="Item.TV_khuzait_gloves_b"/>
+                    id="Item.TV_sturgia_gloves_b"/>
                 <equipment slot="Leg"
-                    id="Item.AR_empire_boots_c"/>
+                    id="Item.TV_aserai_boots_e"/>
                 <equipment slot="Horse"
-                    id="Item.t2_khuzait_horse"/>
+                    id="Item.t3_aserai_horse"/>
                 <equipment slot="HorseHarness"
-                    id="Item.steppe_half_barding"/>
+                    id="Item.half_mail_and_plate_barding"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -928,14 +1089,14 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="qinguo_xinjiluo"
+    <NPCCharacter id="aseriyun_yahdhir"
         default_group="HorseArcher"
         level="26"
-        name="{=qinguo_xinjiluo}Qinguo Xinjiluo"
+        name="{=aseriyun_yahdhir}Aseriyun Yahdhir"
         occupation="Soldier"
-        culture="Culture.qinguo">
+        culture="Culture.aserai">
         <face>
-            <face_key_template value="BodyProperty.fighter_qinguo"/>
+            <face_key_template value="BodyProperty.fighter_aseriyun"/>
         </face>
         <skills >
             <skill id="Athletics"
@@ -945,40 +1106,40 @@
             <skill id="OneHanded"
                 value="30"/>
             <skill id="TwoHanded"
-                value="140"/>
+                value="60"/>
             <skill id="Polearm"
-                value="60"/>
+                value="140"/>
             <skill id="Bow"
-                value="60"/>
-            <skill id="Crossbow"
                 value="160"/>
-            <skill id="Throwing"
+            <skill id="Crossbow"
                 value="30"/>
+            <skill id="Throwing"
+                value="60"/>
         </skills>
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.crossbow_f"/>
+                    id="Item.steppe_war_bow"/>
                 <equipment slot="Item1"
-                    id="Item.bolt_c"/>
+                    id="Item.bodkin_arrows_a"/>
                 <equipment slot="Item2"
-                    id="Item.bolt_c"/>
+                    id="Item.eastern_spear_4_t4"/>
                 <equipment slot="Item3"
-                    id="Item.cleaver_2hsword_t3"/>
+                    id="Item.highland_riders_shield"/>
                 <equipment slot="Head"
-                    id="Item.AR_battania_lord_helmet_j"/>
+                    id="Item.pointed_skullcap_with_mail"/>
                 <equipment slot="Cape"
-                    id="Item.a_aserai_scale_b_shoulder_c"/>
+                    id="Item.aserai_scale_shoulder_e"/>
                 <equipment slot="Body"
-                    id="Item.TV_vlandia_armor_d2"/>
+                    id="Item.AR_aserai_armor_j"/>
                 <equipment slot="Gloves"
-                    id="Item.AR_empire_gloves_d"/>
+                    id="Item.TV_sturgia_gloves_b"/>
                 <equipment slot="Leg"
-                    id="Item.AR_empire_boots_c"/>
+                    id="Item.TV_sturgia_boots_b"/>
                 <equipment slot="Horse"
-                    id="Item.t3_khuzait_horse"/>
+                    id="Item.noble_horse_southern"/>
                 <equipment slot="HorseHarness"
-                    id="Item.studded_steppe_barding"/>
+                    id="Item.mail_and_plate_barding"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"

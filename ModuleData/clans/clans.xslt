@@ -7,19 +7,18 @@
     </xsl:template>
     
     <!-- Aserai -->
-    <!-- <xsl:template match="Faction[@id='clan_aserai_1']"/> -->
-    <!-- <xsl:template match="Faction[@id='clan_aserai_2']"/>
-         <xsl:template match="Faction[@id='clan_aserai_3']"/>
-         <xsl:template match="Faction[@id='clan_aserai_4']"/>
-         <xsl:template match="Faction[@id='clan_aserai_5']"/>
-         <xsl:template match="Faction[@id='clan_aserai_6']"/>
-         <xsl:template match="Faction[@id='clan_aserai_7']"/>
-         <xsl:template match="Faction[@id='clan_aserai_8']"/>
-         <xsl:template match="Faction[@id='clan_aserai_9']"/> -->
+    <xsl:template match="Faction[@id='clan_aserai_1']"/>
+    <xsl:template match="Faction[@id='clan_aserai_2']"/>
+    <xsl:template match="Faction[@id='clan_aserai_3']"/>
+    <xsl:template match="Faction[@id='clan_aserai_4']"/>
+    <xsl:template match="Faction[@id='clan_aserai_5']"/>
+    <xsl:template match="Faction[@id='clan_aserai_6']"/>
+    <xsl:template match="Faction[@id='clan_aserai_7']"/>
+    <xsl:template match="Faction[@id='clan_aserai_8']"/>
+    <xsl:template match="Faction[@id='clan_aserai_9']"/>
     
     <!-- Battania -->
     <xsl:template match="Faction[@id='clan_battania_1']"/>
-    <!-- <xsl:template match="Faction[@id='clan_battania_1']/@super_faction"><xsl:attribute name="super_faction">Kingdom.empire_w</xsl:attribute> </xsl:template> -->
     <xsl:template match="Faction[@id='clan_battania_2']"/>
     <xsl:template match="Faction[@id='clan_battania_3']"/>
     <xsl:template match="Faction[@id='clan_battania_4']"/>
@@ -30,7 +29,6 @@
     
     <!-- Empire North -->
     <xsl:template match="Faction[@id='clan_empire_north_1']"/>
-    <!-- <xsl:template match="Faction[@id='clan_empire_north_1']/@super_faction"><xsl:attribute name="super_faction">Kingdom.empire_w</xsl:attribute> </xsl:template> -->
     <xsl:template match="Faction[@id='clan_empire_north_2']"/>
     <xsl:template match="Faction[@id='clan_empire_north_3']"/>
     <xsl:template match="Faction[@id='clan_empire_north_4']"/>
@@ -42,7 +40,6 @@
     
     <!-- Empire South -->
     <xsl:template match="Faction[@id='clan_empire_south_1']"/>
-    <!-- <xsl:template match="Faction[@id='clan_empire_south_1']/@super_faction"><xsl:attribute name="super_faction">Kingdom.empire_w</xsl:attribute> </xsl:template> -->
     <xsl:template match="Faction[@id='clan_empire_south_2']"/>
     <xsl:template match="Faction[@id='clan_empire_south_3']"/>
     <xsl:template match="Faction[@id='clan_empire_south_4']"/>
@@ -54,7 +51,6 @@
     
     <!-- Empire West -->
     <!-- <xsl:template match="Faction[@id='clan_empire_west_1']"/> -->
-    <!-- <xsl:template match="Faction[@id='clan_empire_west_1']/@super_faction"><xsl:attribute name="super_faction">Kingdom.kingdom_explorer</xsl:attribute> </xsl:template> -->
     <xsl:template match="Faction[@id='clan_empire_west_2']"/>
     <xsl:template match="Faction[@id='clan_empire_west_3']"/>
     <xsl:template match="Faction[@id='clan_empire_west_4']"/>
@@ -88,7 +84,6 @@
     
     <!-- Vlandia -->
     <xsl:template match="Faction[@id='clan_vlandia_1']"/>
-    <!-- <xsl:template match="Faction[@id='clan_vlandia_1']/@super_faction"><xsl:attribute name="super_faction">Kingdom.empire_w</xsl:attribute> </xsl:template> -->
     <xsl:template match="Faction[@id='clan_vlandia_2']"/>
     <xsl:template match="Faction[@id='clan_vlandia_3']"/>
     <xsl:template match="Faction[@id='clan_vlandia_4']"/>

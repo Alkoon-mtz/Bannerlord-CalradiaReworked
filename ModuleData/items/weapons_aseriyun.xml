@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <CraftedItem id="aseriyun_polearm_1_t5"
+        name="{=aseriyun_polearm_1_t5}Aseriyun Razor"
+        crafting_template="TwoHandedPolearm"
+        culture="Culture.aserai"
+        modifier_group="polearm">
+        <Pieces>
+            <Piece id="spear_blade_44"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="spear_guard_15"
+                Type="Guard"
+                scale_factor="100" />
+            <Piece id="spear_handle_14"
+                Type="Handle"
+                scale_factor="100" />
+            <Piece id="spear_pommel_7"
+                Type="Pommel"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+</Items>

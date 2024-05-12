@@ -11,12 +11,12 @@
             <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.qinguo_recruit" />
             <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.qinguo_heitao" />
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.qinguo_qiangqi" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.qinguo_cichuan" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.qinguo_cichuqi" />
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.qinguo_nushou" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.qinguo_jingrui_nushou" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.qinguo_jinshou" />
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.qinguo_jujishou" />
-            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.qinguo_jingying_xunluo" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.qinguo_manu" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.qinguo_jinluo" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.qinguo_manuluo" />
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.qinguo_erbai" />
         </stacks>
     </MBPartyTemplate>
@@ -48,8 +48,8 @@
     </MBPartyTemplate>
     <MBPartyTemplate id="qinguo_vassal_reward_troops">
         <stacks>
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.qinguo_yiqian" />
-            <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.qinguo_jingying_manu" />
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.qinguo_yibai" />
+            <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.qinguo_xinjiluo" />
         </stacks>
     </MBPartyTemplate>
     <!-- Party Civilian end -->

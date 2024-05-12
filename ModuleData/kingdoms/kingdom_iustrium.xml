@@ -18,7 +18,7 @@
         ruler_title="{=isnp9abW}Prince"
         text="{=IS_text}Deus lo Vult">
         <relationships>
-            <relationship kingdom="Kingdom.aserai"
+            <relationship kingdom="Kingdom.kingdom_aseriyun"
                 value="-1"
                 isAtWar="true" />
         </relationships>

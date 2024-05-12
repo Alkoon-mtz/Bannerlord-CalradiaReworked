@@ -7,9 +7,62 @@
     </xsl:template>
     
     <!-- Aserai -->
+    <xsl:template match="NPCCharacter[@id='lord_3_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_2']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_3']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_5']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_16']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_17']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_18']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_19']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_22']"/>
+    <xsl:template match="NPCCharacter[@id='lord_A9_l']"/>
+    <xsl:template match="NPCCharacter[@id='dead_lord_3_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_3_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_4']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_51']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_6']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_7']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_8']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_9']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_10']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_11']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_12']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_13']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_13_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_13_2']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_14']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_14_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_15']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_15_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_15_2']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_16_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_17_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_17_2']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_18_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_18_2']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_18_3']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_18_4']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_19_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_19_2']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_19_3']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_20']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_20_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_20_2']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_21']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_21_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_22_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_22_2']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_22_3']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_22_4']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_23']"/>
+    <xsl:template match="NPCCharacter[@id='lord_3_23_1']"/>
+    <xsl:template match="NPCCharacter[@id='lord_A9_s']"/>
+    <xsl:template match="NPCCharacter[@id='lord_A9_c']"/>
+    <xsl:template match="NPCCharacter[@id='lord_A9_u']"/>
     
     <!-- Battania -->
-    <xsl:template match="NPCCharacter[@id='lord_5_1 ']"/>
+    <xsl:template match="NPCCharacter[@id='lord_5_1']"/>
     <xsl:template match="NPCCharacter[@id='lord_5_3_1']"/>
     <xsl:template match="NPCCharacter[@id='lord_5_4']"/>
     <xsl:template match="NPCCharacter[@id='lord_5_5']"/>
@@ -202,7 +255,7 @@
     <xsl:template match="NPCCharacter[@id='lord_WE9_l']"/>
     <xsl:template match="NPCCharacter[@id='lord_WE9_u']"/>
     <xsl:template match="NPCCharacter[@id='lord_WE9_u2']"/>
-
+    
     <!-- Khuzait -->
     <xsl:template match="NPCCharacter[@id='lord_6_1']"/>
     <xsl:template match="NPCCharacter[@id='lord_6_2']"/>

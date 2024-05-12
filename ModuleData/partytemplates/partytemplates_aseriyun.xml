@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <!-- Party Civilian -->
+    <MBPartyTemplate id="aseriyun_villager_template">
+        <stacks>
+            <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_aseriyun" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="aseriyun_kingdom_hero_party_template">
+        <stacks>
+            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.aseriyun_recruit" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.aseriyun_albariz" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.aseriyun_sharib" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.aseriyun_muharib" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.aseriyun_yahris" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.aseriyun_haris" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.aseriyun_alqasharis" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.aseriyun_qawshir" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.aseriyun_artahir" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.aseriyun_muqital" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="aseriyun_elite_caravan_template">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_aserai" />
+            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_aserai" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_aserai" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_aserai" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="aseriyun_caravan_template">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_aserai" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_aserai" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_aserai" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="aseriyun_militia_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aserai_militia_spearman" />
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aserai_militia_archer" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="aseriyun_rebels_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aseriyun_recruit" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="aseriyun_vassal_reward_troops">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aseriyun_baqtal" />
+            <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.aseriyun_yahdhir" />
+        </stacks>
+    </MBPartyTemplate>
+    <!-- Party Civilian end -->
+    <!-- Party Lords -->
+    <!-- Party Lords end -->
+</partyTemplates>

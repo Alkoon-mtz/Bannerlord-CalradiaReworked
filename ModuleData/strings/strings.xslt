@@ -6,8 +6,8 @@
         </xsl:copy>
     </xsl:template>
 <!-- Aserai -->
-    <xsl:template match="string[@id='str_adjective_for_culture.aserai']/@text"> <xsl:attribute name="text">Aserai</xsl:attribute> </xsl:template>
-    <xsl:template match="string[@id='str_culture_rich_name.aserai']/@text"> <xsl:attribute name="text">Aserai</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_adjective_for_culture.aserai']/@text"> <xsl:attribute name="text">Aseriyun</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_culture_rich_name.aserai']/@text"> <xsl:attribute name="text">Aseriyun</xsl:attribute> </xsl:template>
     <xsl:template match="string[@id='str_faction_ruler_name_with_title.aserai']/@text"> <xsl:attribute name="text">{?RULER.GENDER}Sultana{?}Sultan{\?} {RULER.NAME}</xsl:attribute> </xsl:template>
     <xsl:template match="string[@id='str_faction_noble_name_with_title.aserai']/@text"> <xsl:attribute name="text">{?RULER.GENDER}Emira{?}Emir{\?} {RULER.NAME}</xsl:attribute> </xsl:template>
     <xsl:template match="string[@id='str_faction_official.aserai']/@text"> <xsl:attribute name="text">an emir</xsl:attribute> </xsl:template>
@@ -15,11 +15,11 @@
     <xsl:template match="string[@id='str_faction_ruler.aserai']/@text"> <xsl:attribute name="text">Sultan</xsl:attribute> </xsl:template>
     <xsl:template match="string[@id='str_faction_ruler.aserai_f']/@text"> <xsl:attribute name="text">Sultana</xsl:attribute> </xsl:template>
     <xsl:template match="string[@id='str_faction_ruler_term_in_speech.aserai']/@text"> <xsl:attribute name="text">{?RULER.GENDER}the Sultana{?}the Sultan{\?} {RULER.NAME}</xsl:attribute> </xsl:template>
-    <xsl:template match="string[@id='str_neutral_term_for_culture.aserai']/@text"> <xsl:attribute name="text">Aserai</xsl:attribute> </xsl:template>
-    <xsl:template match="string[@id='str_adjective_for_faction.aserai']/@text"> <xsl:attribute name="text">Aserai</xsl:attribute> </xsl:template>
-    <xsl:template match="string[@id='str_short_term_for_faction.aserai']/@text"> <xsl:attribute name="text">Aserai</xsl:attribute> </xsl:template>
-    <xsl:template match="string[@id='str_faction_formal_name_for_culture.aserai']/@text"> <xsl:attribute name="text">Aserai Sultanate</xsl:attribute> </xsl:template>
-    <xsl:template match="string[@id='str_faction_informal_name_for_culture.aserai']/@text"> <xsl:attribute name="text">the Aserai</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_neutral_term_for_culture.aserai']/@text"> <xsl:attribute name="text">Aseriyun</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_adjective_for_faction.aserai']/@text"> <xsl:attribute name="text">Aseriyun</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_short_term_for_faction.aserai']/@text"> <xsl:attribute name="text">Aseriyun</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_faction_formal_name_for_culture.aserai']/@text"> <xsl:attribute name="text">Aseriyun Sultanate</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_faction_informal_name_for_culture.aserai']/@text"> <xsl:attribute name="text">the Aseriyun</xsl:attribute> </xsl:template>
     <xsl:template match="string[@id='str_culture_description.aserai']/@text"> <xsl:attribute name="text">Inhabitant of the desert, they lost parts of their sultanate after the wars with Iustrium</xsl:attribute> </xsl:template>
 
 <!-- Cereann -->
