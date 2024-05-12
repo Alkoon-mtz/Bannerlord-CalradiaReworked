@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EquipmentRosters>
+    <!-- Notables and Wanderers -->
+    <EquipmentRoster id="npc_wanderer_equipment_template_kratorios" culture="Culture.empire">
+        <EquipmentSet civilian="true">
+            <equipment slot="Body" id="Item.fine_town_tunic" />
+            <equipment slot="Leg" id="Item.leather_boots" />
+            <equipment slot="Head" id="Item.merchants_hat" />
+            <equipment slot="Cape" id="Item.scarf" />
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="npc_armed_wanderer_equipment_template_kratorios" culture="Culture.empire">
+        <EquipmentSet>
+            <equipment slot="Item0" id="Item.western_spear_4_t4"/>
+            <equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+            <equipment slot="Item2" id="Item.iron_spatha_sword_t2"/>
+            <equipment slot="Head" id="Item.AR_intercisa_helmet_b"/>
+            <equipment slot="Cape" id="Item.a_empire_plated_shoulder_a"/>
+            <equipment slot="Body" id="Item.empire_warrior_padded_armor_g"/>
+            <equipment slot="Gloves" id="Item.padded_mitten"/>
+            <equipment slot="Leg" id="Item.empire_horseman_boots"/>
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+
     <!--Lord -->
-    <EquipmentRoster id="emp_bat_template_low" culture="Culture.empire">
+    <EquipmentRoster id="emp_bat_template_stoic" culture="Culture.empire">
         <EquipmentSet>
             <equipment slot="Item0" id="Item.western_spear_5_t4"/>
             <equipment slot="Item1" id="Item.reinforced_kite_shield"/>
@@ -14,7 +38,7 @@
             <equipment slot="Horse" id="Item.t3_empire_horse"/>
             <equipment slot="HorseHarness" id="Item.half_scale_barding"/>
         </EquipmentSet>
-        <Flags IsNobleTemplate="true" IsCombatantTemplate="true" />
+        <Flags IsNobleTemplate="true" IsStoicTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="emp_bat_template_medium" culture="Culture.empire">
         <EquipmentSet>

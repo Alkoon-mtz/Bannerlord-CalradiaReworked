@@ -734,6 +734,29 @@
         <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
     </EquipmentRoster>
 
+
+    <!-- Notables and Wanderers -->
+    <EquipmentRoster id="npc_wanderer_equipment_template_scarhok" culture="Culture.scarhok">
+        <EquipmentSet civilian="true">
+            <equipment slot="Body" id="Item.cloth_tunic" />
+            <equipment slot="Cape" id="Item.scarf" />
+            <equipment slot="Leg" id="Item.strapped_shoes" />
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="npc_armed_wanderer_equipment_template_scarhok" culture="Culture.scarhok">
+        <EquipmentSet>
+            <equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
+            <equipment slot="Item1" id="Item.western_kite_shield"/>
+            <equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
+            <equipment slot="Head" id="Item.nasalhelm_over_leather"/>
+            <equipment slot="Body" id="Item.TV_vlandia_armor_e"/>
+            <equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+            <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+
     <!--Lord -->
     <EquipmentRoster id="sca_bat_template_low" culture="Culture.scarhok">
         <EquipmentSet>

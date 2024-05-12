@@ -18,7 +18,6 @@ To look:
 ALL Cultures:
 Female bodytemplate
 Customize:
-    wanderer + notables (PRIORITY since notables culture affect troops recruit in cities/villages)
     militia_spearman + veteran
     militia_archer + veteran
     townsman + variant + City NPC (ransom_broker etc)
@@ -26,23 +25,26 @@ Customize:
     tournament_team_templates
     basic_mercenary_troops
 Change culture feats
-Set diplomate status between factions
+Bandits (cultures + troops + settlements hideout + clans) ex sea_raiders
 
 Aserai:
 Add lords
+Rename wanderer
 Rework banners
 
 Cereann:
 Add lords
+Rename wanderer
 Rework banners
 
 Iustrium:
 Add lords
+Rename wanderer
 Rename cities
-Tweak Armors ?
 
 Kratorios:
 Add lords
+Rename wanderer
 
 Lysellois:
 Add lords
@@ -50,27 +52,31 @@ Rename cities
 
 Monghatai:
 Add lords
+Rename wanderer
 
 Qinguo:
 Add lords
+Rename wanderer
 Make larger glaive blade (guandao)
 
 Rekgeist:
 Add lords
+Rename wanderer
 Rename cities
 
 Scarhoks:
 Add lords
+Rename wanderer
 Rename cities
-Change value for AR_vlandia_armor_a2 => Scarhok elite T4 ?
-Change value for AR_vlandia_armor_a => Scarhok elite T5 (downgrad a little)
 
 Virkaldr:
 Add lords
+Rename wanderer
 banner: 
 
 Zulizwe :
 Add lords
+Rename wanderer
 Rename cities
 
 Bugs:

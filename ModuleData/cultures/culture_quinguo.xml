@@ -246,37 +246,32 @@
             <icon id="314" />
         </possible_clan_banner_icon_ids>
         <notable_and_wanderer_templates>
-            <template name="NPCCharacter.spc_wanderer_khuzait_0" />
-            <template name="NPCCharacter.spc_wanderer_khuzait_1" />
-            <template name="NPCCharacter.spc_wanderer_khuzait_2" />
-            <template name="NPCCharacter.spc_wanderer_khuzait_3" />
-            <template name="NPCCharacter.spc_wanderer_khuzait_4" />
-            <template name="NPCCharacter.spc_wanderer_khuzait_5" />
-            <template name="NPCCharacter.spc_wanderer_khuzait_6" />
-            <template name="NPCCharacter.spc_wanderer_khuzait_7" />
-            <template name="NPCCharacter.spc_wanderer_khuzait_8" />
-            <template name="NPCCharacter.spc_wanderer_khuzait_9" />
-            <template name="NPCCharacter.spc_wanderer_khuzait_10" />
+            <template name="NPCCharacter.spc_wanderer_qinguo_0" />
+            <template name="NPCCharacter.spc_wanderer_qinguo_1" />
+            <template name="NPCCharacter.spc_wanderer_qinguo_2" />
+            <template name="NPCCharacter.spc_wanderer_qinguo_3" />
+            <template name="NPCCharacter.spc_wanderer_qinguo_0f" />
+            <template name="NPCCharacter.spc_wanderer_qinguo_1f" />
+            <template name="NPCCharacter.spc_wanderer_qinguo_2f" />
+            <template name="NPCCharacter.spc_wanderer_qinguo_3f" />
             <template name="NPCCharacter.spc_merchant_qinguo_1" />
             <template name="NPCCharacter.spc_merchant_qinguo_2" />
             <template name="NPCCharacter.spc_merchant_qinguo_3" />
             <template name="NPCCharacter.spc_merchant_qinguo_4" />
-            <template name="NPCCharacter.spc_merchant_qinguo_4f" />
-            <template name="NPCCharacter.spc_merchant_qinguo_5" />
-            <template name="NPCCharacter.spc_merchant_qinguo_5f" />
+            <template name="NPCCharacter.spc_merchant_qinguo_1f" />
+            <template name="NPCCharacter.spc_merchant_qinguo_2f" />
             <template name="NPCCharacter.spc_preacher_qinguo_1" />
             <template name="NPCCharacter.spc_preacher_qinguo_1f" />
-            <template name="NPCCharacter.spc_gangleader_qinguo_1f" />
             <template name="NPCCharacter.spc_gangleader_qinguo_1" />
-            <template name="NPCCharacter.spc_gangleader_qinguo_2" />
+            <template name="NPCCharacter.spc_gangleader_qinguo_1f" />
             <template name="NPCCharacter.spc_artisan_qinguo_1" />
             <template name="NPCCharacter.spc_artisan_qinguo_2" />
-            <template name="NPCCharacter.spc_artisan_qinguo_3" />
             <template name="NPCCharacter.spc_ruralnotable_qinguo_1" />
             <template name="NPCCharacter.spc_ruralnotable_qinguo_2" />
+            <template name="NPCCharacter.spc_ruralnotable_qinguo_1f" />
             <template name="NPCCharacter.spc_headman_qinguo_1" />
             <template name="NPCCharacter.spc_headman_qinguo_2" />
-            <template name="NPCCharacter.spc_headman_qinguo_3" />
+            <template name="NPCCharacter.spc_headman_qinguo_1f" />
         </notable_and_wanderer_templates>
         <lord_templates>
             <template name="NPCCharacter.spc_karakhuzaits_leader_0" />

@@ -763,6 +763,28 @@
         <Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
 
+    <!-- Notables and Wanderers -->
+    <EquipmentRoster id="npc_wanderer_equipment_template_rekgeist" culture="Culture.rekgeist">
+        <EquipmentSet civilian="true">
+            <equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+            <equipment slot="Body" id="Item.long_woolen_tunic" />
+            <equipment slot="Leg" id="Item.strapped_shoes" />
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="npc_armed_wanderer_equipment_template_rekgeist" culture="Culture.rekgeist">
+        <EquipmentSet>
+            <equipment slot="Item0" id="Item.crossbow_a"/>
+            <equipment slot="Item1" id="Item.bolt_e"/>
+            <equipment slot="Item2" id="Item.simple_sparth_axe_t2"/>
+            <equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+            <equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+            <equipment slot="Body" id="Item.ao_mail_shirt_sleeveless"/>
+            <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+
     <!--Lord -->
     <EquipmentRoster id="rek_bat_template_low" culture="Culture.rekgeist">
         <EquipmentSet>

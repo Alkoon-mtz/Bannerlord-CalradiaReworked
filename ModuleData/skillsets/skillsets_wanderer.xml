@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SkillSets>
+    <!-- Aseriyun -->
+    <SkillSet id="spc_wanderer_aseriyun_0_skills">
+        <skill id="Athletics" value="50"/>
+        <skill id="Riding" value="140"/>
+        <skill id="OneHanded" value="20"/>
+        <skill id="TwoHanded" value="10"/>
+        <skill id="Polearm" value="90"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="10"/>
+        <skill id="Throwing" value="160"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="100" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_aseriyun_1_skills">
+        <skill id="Athletics" value="120"/>
+        <skill id="Riding" value="20"/>
+        <skill id="OneHanded" value="140"/>
+        <skill id="TwoHanded" value="60"/>
+        <skill id="Polearm" value="40"/>
+        <skill id="Bow" value="40"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="60"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="100" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_aseriyun_2_skills">
+        <skill id="Athletics" value="120"/>
+        <skill id="Riding" value="40"/>
+        <skill id="OneHanded" value="20"/>
+        <skill id="TwoHanded" value="140"/>
+        <skill id="Polearm" value="60"/>
+        <skill id="Bow" value="40"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="60"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="100" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_aseriyun_3_skills">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="110"/>
+        <skill id="OneHanded" value="20"/>
+        <skill id="TwoHanded" value="40"/>
+        <skill id="Polearm" value="100"/>
+        <skill id="Bow" value="110"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="40"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="100" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+
+    <!-- Cereann -->
+    <SkillSet id="spc_wanderer_cereann_0_skills">
+        <skill id="Athletics" value="140"/>
+        <skill id="Riding" value="20"/>
+        <skill id="OneHanded" value="20"/>
+        <skill id="TwoHanded" value="90"/>
+        <skill id="Polearm" value="10"/>
+        <skill id="Bow" value="160"/>
+        <skill id="Crossbow" value="10"/>
+        <skill id="Throwing" value="50"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="100" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_cereann_1_skills">
+        <skill id="Athletics" value="120"/>
+        <skill id="Riding" value="40"/>
+        <skill id="OneHanded" value="60"/>
+        <skill id="TwoHanded" value="140"/>
+        <skill id="Polearm" value="20"/>
+        <skill id="Bow" value="60"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="40"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="100" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_cereann_2_skills">
+        <skill id="Athletics" value="120"/>
+        <skill id="Riding" value="40"/>
+        <skill id="OneHanded" value="60"/>
+        <skill id="TwoHanded" value="40"/>
+        <skill id="Polearm" value="20"/>
+        <skill id="Bow" value="60"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="140"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="100" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_cereann_3_skills">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="100"/>
+        <skill id="OneHanded" value="110"/>
+        <skill id="TwoHanded" value="40"/>
+        <skill id="Polearm" value="20"/>
+        <skill id="Bow" value="110"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="40"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="100" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+
+    <!-- Iustrium -->
+    <SkillSet id="spc_wanderer_iustrium_0_skills">
+        <skill id="Athletics" value="140"/>
+        <skill id="Riding" value="20"/>
+        <skill id="OneHanded" value="50"/>
+        <skill id="TwoHanded" value="20"/>
+        <skill id="Polearm" value="90"/>
+        <skill id="Bow" value="10"/>
+        <skill id="Crossbow" value="160"/>
+        <skill id="Throwing" value="10"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="55" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="55" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_iustrium_1_skills">
+        <skill id="Athletics" value="120"/>
+        <skill id="Riding" value="40"/>
+        <skill id="OneHanded" value="140"/>
+        <skill id="TwoHanded" value="40"/>
+        <skill id="Polearm" value="60"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="60"/>
+        <skill id="Throwing" value="20"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="55" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="55" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_iustrium_2_skills">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="120"/>
+        <skill id="OneHanded" value="140"/>
+        <skill id="TwoHanded" value="40"/>
+        <skill id="Polearm" value="40"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="60"/>
+        <skill id="Throwing" value="20"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="55" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="55" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_iustrium_3_skills">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="110"/>
+        <skill id="OneHanded" value="40"/>
+        <skill id="TwoHanded" value="40"/>
+        <skill id="Polearm" value="100"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="110"/>
+        <skill id="Throwing" value="20"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="55" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="55" />
+    </SkillSet>
+
+    <!-- Kratorios -->
+    <SkillSet id="spc_wanderer_kratorios_0_skills">
+        <skill id="Athletics" value="50"/>
+        <skill id="Riding" value="140"/>
+        <skill id="OneHanded" value="90"/>
+        <skill id="TwoHanded" value="20"/>
+        <skill id="Polearm" value="20"/>
+        <skill id="Bow" value="10"/>
+        <skill id="Crossbow" value="160"/>
+        <skill id="Throwing" value="10"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="100" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_kratorios_1_skills">
+        <skill id="Athletics" value="160"/>
+        <skill id="Riding" value="60"/>
+        <skill id="OneHanded" value="80"/>
+        <skill id="TwoHanded" value="60"/>
+        <skill id="Polearm" value="200"/>
+        <skill id="Bow" value="30"/>
+        <skill id="Crossbow" value="80"/>
+        <skill id="Throwing" value="30"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="100" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_kratorios_2_skills">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="140"/>
+        <skill id="OneHanded" value="60"/>
+        <skill id="TwoHanded" value="40"/>
+        <skill id="Polearm" value="120"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="40"/>
+        <skill id="Throwing" value="20"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="100" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_kratorios_3_skills">
+        <skill id="Athletics" value="100"/>
+        <skill id="Riding" value="40"/>
+        <skill id="OneHanded" value="110"/>
+        <skill id="TwoHanded" value="20"/>
+        <skill id="Polearm" value="60"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="40"/>
+        <skill id="Throwing" value="110"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="100" />
+    </SkillSet>
+
+    <!-- Lysellois -->
+    <SkillSet id="spc_wanderer_lysellois_0_skills">
+        <skill id="Athletics" value="50"/>
+        <skill id="Riding" value="160"/>
+        <skill id="OneHanded" value="90"/>
+        <skill id="TwoHanded" value="20"/>
+        <skill id="Polearm" value="140"/>
+        <skill id="Bow" value="10"/>
+        <skill id="Crossbow" value="10"/>
+        <skill id="Throwing" value="20"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="55" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="55" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_lysellois_1_skills">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="120"/>
+        <skill id="OneHanded" value="140"/>
+        <skill id="TwoHanded" value="40"/>
+        <skill id="Polearm" value="60"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="40"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="55" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="55" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_lysellois_2_skills">
+        <skill id="Athletics" value="120"/>
+        <skill id="Riding" value="20"/>
+        <skill id="OneHanded" value="140"/>
+        <skill id="TwoHanded" value="40"/>
+        <skill id="Polearm" value="60"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="40"/>
+        <skill id="Throwing" value="60"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="55" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="55" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_lysellois_3_skills">
+        <skill id="Athletics" value="110"/>
+        <skill id="Riding" value="20"/>
+        <skill id="OneHanded" value="100"/>
+        <skill id="TwoHanded" value="20"/>
+        <skill id="Polearm" value="40"/>
+        <skill id="Bow" value="40"/>
+        <skill id="Crossbow" value="110"/>
+        <skill id="Throwing" value="60"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="55" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="55" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+
+    <!-- Monghatai -->
+    <SkillSet id="spc_wanderer_monghatai_0_skills">
+        <skill id="Athletics" value="50"/>
+        <skill id="Riding" value="140"/>
+        <skill id="OneHanded" value="90"/>
+        <skill id="TwoHanded" value="20"/>
+        <skill id="Polearm" value="20"/>
+        <skill id="Bow" value="160"/>
+        <skill id="Crossbow" value="10"/>
+        <skill id="Throwing" value="10"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="100" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_monghatai_1_skills">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="120"/>
+        <skill id="OneHanded" value="40"/>
+        <skill id="TwoHanded" value="140"/>
+        <skill id="Polearm" value="60"/>
+        <skill id="Bow" value="40"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="20"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="100" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_monghatai_2_skills">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="140"/>
+        <skill id="OneHanded" value="60"/>
+        <skill id="TwoHanded" value="40"/>
+        <skill id="Polearm" value="120"/>
+        <skill id="Bow" value="40"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="20"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="100" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_monghatai_3_skills">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="110"/>
+        <skill id="OneHanded" value="110"/>
+        <skill id="TwoHanded" value="40"/>
+        <skill id="Polearm" value="40"/>
+        <skill id="Bow" value="100"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="20"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="100" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+
+    <!-- Qinguo -->
+    <SkillSet id="spc_wanderer_qinguo_0_skills">
+        <skill id="Athletics" value="50"/>
+        <skill id="Riding" value="140"/>
+        <skill id="OneHanded" value="20"/>
+        <skill id="TwoHanded" value="90"/>
+        <skill id="Polearm" value="160"/>
+        <skill id="Bow" value="10"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="10"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="55" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="55" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_qinguo_1_skills">
+        <skill id="Athletics" value="120"/>
+        <skill id="Riding" value="20"/>
+        <skill id="OneHanded" value="60"/>
+        <skill id="TwoHanded" value="20"/>
+        <skill id="Polearm" value="60"/>
+        <skill id="Bow" value="40"/>
+        <skill id="Crossbow" value="140"/>
+        <skill id="Throwing" value="40"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="100" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="55" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="55" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_qinguo_2_skills">
+        <skill id="Athletics" value="120"/>
+        <skill id="Riding" value="40"/>
+        <skill id="OneHanded" value="40"/>
+        <skill id="TwoHanded" value="60"/>
+        <skill id="Polearm" value="140"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="60"/>
+        <skill id="Throwing" value="20"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="100" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="55" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="55" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_qinguo_3_skills">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="110"/>
+        <skill id="OneHanded" value="20"/>
+        <skill id="TwoHanded" value="100"/>
+        <skill id="Polearm" value="40"/>
+        <skill id="Bow" value="40"/>
+        <skill id="Crossbow" value="110"/>
+        <skill id="Throwing" value="20"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="100" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="55" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="55" />
+    </SkillSet>
+
+    <!-- Rekgeist -->
+    <SkillSet id="spc_wanderer_rekgeist_0_skills">
+        <skill id="Athletics" value="140"/>
+        <skill id="Riding" value="50"/>
+        <skill id="OneHanded" value="90"/>
+        <skill id="TwoHanded" value="160"/>
+        <skill id="Polearm" value="20"/>
+        <skill id="Bow" value="10"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="10"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="100" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_rekgeist_1_skills">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="120"/>
+        <skill id="OneHanded" value="40"/>
+        <skill id="TwoHanded" value="140"/>
+        <skill id="Polearm" value="60"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="40"/>
+        <skill id="Throwing" value="20"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="100" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_rekgeist_2_skills">
+        <skill id="Athletics" value="120"/>
+        <skill id="Riding" value="40"/>
+        <skill id="OneHanded" value="60"/>
+        <skill id="TwoHanded" value="60"/>
+        <skill id="Polearm" value="40"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="140"/>
+        <skill id="Throwing" value="20"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="100" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_rekgeist_3_skills">
+        <skill id="Athletics" value="110"/>
+        <skill id="Riding" value="40"/>
+        <skill id="OneHanded" value="100"/>
+        <skill id="TwoHanded" value="40"/>
+        <skill id="Polearm" value="110"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="60"/>
+        <skill id="Throwing" value="20"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="100" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+
+    <!-- Scarhok -->
+    <SkillSet id="spc_wanderer_scarhok_0_skills">
+        <skill id="Athletics" value="140"/>
+        <skill id="Riding" value="20"/>
+        <skill id="OneHanded" value="160"/>
+        <skill id="TwoHanded" value="50"/>
+        <skill id="Polearm" value="10"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="10"/>
+        <skill id="Throwing" value="90"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="55" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="55" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_scarhok_1_skills">
+        <skill id="Athletics" value="160"/>
+        <skill id="Riding" value="60"/>
+        <skill id="OneHanded" value="80"/>
+        <skill id="TwoHanded" value="60"/>
+        <skill id="Polearm" value="30"/>
+        <skill id="Bow" value="200"/>
+        <skill id="Crossbow" value="30"/>
+        <skill id="Throwing" value="80"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="55" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="55" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_scarhok_2_skills">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="120"/>
+        <skill id="OneHanded" value="60"/>
+        <skill id="TwoHanded" value="40"/>
+        <skill id="Polearm" value="20"/>
+        <skill id="Bow" value="40"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="140"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="55" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="55" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_scarhok_3_skills">
+        <skill id="Athletics" value="100"/>
+        <skill id="Riding" value="40"/>
+        <skill id="OneHanded" value="60"/>
+        <skill id="TwoHanded" value="110"/>
+        <skill id="Polearm" value="20"/>
+        <skill id="Bow" value="40"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="110"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="55" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="55" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+
+    <!-- Virkaldr -->
+    <SkillSet id="spc_wanderer_virkaldr_0_skills">
+        <skill id="Athletics" value="140"/>
+        <skill id="Riding" value="10"/>
+        <skill id="OneHanded" value="90"/>
+        <skill id="TwoHanded" value="50"/>
+        <skill id="Polearm" value="20"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="10"/>
+        <skill id="Throwing" value="160"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="100" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_virkaldr_1_skills">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="120"/>
+        <skill id="OneHanded" value="40"/>
+        <skill id="TwoHanded" value="40"/>
+        <skill id="Polearm" value="60"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="140"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="100" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_virkaldr_2_skills">
+        <skill id="Athletics" value="120"/>
+        <skill id="Riding" value="20"/>
+        <skill id="OneHanded" value="60"/>
+        <skill id="TwoHanded" value="60"/>
+        <skill id="Polearm" value="40"/>
+        <skill id="Bow" value="140"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="40"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="100" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_virkaldr_3_skills">
+        <skill id="Athletics" value="110"/>
+        <skill id="Riding" value="40"/>
+        <skill id="OneHanded" value="40"/>
+        <skill id="TwoHanded" value="110"/>
+        <skill id="Polearm" value="100"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="60"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="10" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="100" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+
+    <!-- Zulizwe -->
+    <SkillSet id="spc_wanderer_zulizwe_0_skills">
+        <skill id="Athletics" value="140"/>
+        <skill id="Riding" value="20"/>
+        <skill id="OneHanded" value="50"/>
+        <skill id="TwoHanded" value="10"/>
+        <skill id="Polearm" value="160"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="10"/>
+        <skill id="Throwing" value="90"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="100" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_zulizwe_1_skills">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="120"/>
+        <skill id="OneHanded" value="40"/>
+        <skill id="TwoHanded" value="20"/>
+        <skill id="Polearm" value="140"/>
+        <skill id="Bow" value="40"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="60"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="100" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_zulizwe_2_skills">
+        <skill id="Athletics" value="40"/>
+        <skill id="Riding" value="120"/>
+        <skill id="OneHanded" value="60"/>
+        <skill id="TwoHanded" value="20"/>
+        <skill id="Polearm" value="60"/>
+        <skill id="Bow" value="140"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="40"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="100" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+    <SkillSet id="spc_wanderer_zulizwe_3_skills">
+        <skill id="Athletics" value="110"/>
+        <skill id="Riding" value="40"/>
+        <skill id="OneHanded" value="100"/>
+        <skill id="TwoHanded" value="20"/>
+        <skill id="Polearm" value="60"/>
+        <skill id="Bow" value="110"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="40"/>
+        <skill id="Tactics" value="50" />
+        <skill id="Leadership" value="50" />
+        <skill id="Steward" value="50" />
+        <skill id="Charm" value="100" />
+        <skill id="Crafting" value="10" />
+        <skill id="Scouting" value="10" />
+        <skill id="Roguery" value="10" />
+        <skill id="Trade" value="10" />
+        <skill id="Medicine" value="10" />
+        <skill id="Engineering" value="10" />
+    </SkillSet>
+</SkillSets>

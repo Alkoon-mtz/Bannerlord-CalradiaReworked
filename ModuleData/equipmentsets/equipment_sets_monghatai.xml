@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EquipmentRosters>
+    <!-- Notables and Wanderers -->
+    <EquipmentRoster id="npc_wanderer_equipment_template_monghatai" culture="Culture.khuzait">
+        <EquipmentSet civilian="true">
+            <equipment slot="Body" id="Item.khuzait_civil_coat" />
+            <equipment slot="Cape" id="Item.scarf" />
+            <equipment slot="Leg" id="Item.leather_shoes" />
+            <equipment slot="Head" id="Item.fur_hood" />
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="npc_armed_wanderer_equipment_template_monghatai" culture="Culture.khuzait">
+        <EquipmentSet>
+            <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+            <equipment slot="Item1" id="Item.eastern_wicker_sparring_shield"/>
+            <equipment slot="Item2" id="Item.simple_back_sword_t2"/>
+            <equipment slot="Head" id="Item.AR_khuzait_helmet_d2"/>
+            <equipment slot="Body" id="Item.khuzait_fortified_armor"/>
+            <equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+            <equipment slot="Leg" id="Item.ao_durkhan_tassled_boots"/>
+            <equipment slot="Horse" id="Item.khuzait_horse"/>
+            <equipment slot="HorseHarness" id="Item.steppe_harness"/>
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+
     <!--Lord -->
-    <EquipmentRoster id="khu_bat_template_low" culture="Culture.khuzait">
+    <EquipmentRoster id="khu_bat_template_nomad" culture="Culture.khuzait">
         <EquipmentSet>
             <equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
             <equipment slot="Item1" id="Item.tribal_steppe_shield"/>
@@ -14,7 +39,7 @@
             <equipment slot="Horse" id="Item.t3_khuzait_horse"/>
             <equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
         </EquipmentSet>
-        <Flags IsNobleTemplate="true" IsCombatantTemplate="true" />
+        <Flags IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="khu_bat_template_medium" culture="Culture.khuzait">
         <EquipmentSet>

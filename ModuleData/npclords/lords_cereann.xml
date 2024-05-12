@@ -251,7 +251,7 @@
                 value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="bat_bat_template_low" />
+            <EquipmentSet id="bat_bat_template_wild" />
             <EquipmentSet id="bat_civ_template_default"
                 civilian="true" />
         </Equipments>

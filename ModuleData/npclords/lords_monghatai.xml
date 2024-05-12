@@ -267,7 +267,7 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="khu_bat_template_low" />
+            <EquipmentSet id="khu_bat_template_nomad" />
             <EquipmentSet id="khu_civ_template_default"
                 civilian="true" />
         </Equipments>

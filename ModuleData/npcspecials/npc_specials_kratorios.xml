@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
     <!-- Wanderers -->
-    <NPCCharacter id="spc_wanderer_scarhok_0"
-        name="{=spc_wanderer_scarhok_0}{FIRSTNAME} the Knight"
+    <NPCCharacter id="spc_wanderer_kratorios_0"
+        name="{=spc_wanderer_kratorios_0}{FIRSTNAME} the Knight"
         voice="earnest"
         age="25"
         default_group="Infantry"
         is_template="true"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Wanderer"
-        skill_template="SkillSet.spc_wanderer_scarhok_0_skills">
+        skill_template="SkillSet.spc_wanderer_kratorios_0_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_scarhok" />
+            <face_key_template value="BodyProperty.fighter_kratorios" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />
@@ -20,22 +20,22 @@
             <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_wanderer_scarhok_1"
-        name="{=spc_wanderer_scarhok_1}{FIRSTNAME} the Fierce"
+    <NPCCharacter id="spc_wanderer_kratorios_1"
+        name="{=spc_wanderer_kratorios_1}{FIRSTNAME} the Fierce"
         voice="earnest"
         age="25"
         default_group="Infantry"
         is_template="true"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Wanderer"
-        skill_template="SkillSet.spc_wanderer_scarhok_1_skills">
+        skill_template="SkillSet.spc_wanderer_kratorios_1_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_scarhok" />
+            <face_key_template value="BodyProperty.fighter_kratorios" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />
@@ -43,22 +43,22 @@
             <Trait id="Mercy" value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_wanderer_scarhok_2"
-        name="{=spc_wanderer_scarhok_2}{FIRSTNAME} the Acute"
+    <NPCCharacter id="spc_wanderer_kratorios_2"
+        name="{=spc_wanderer_kratorios_2}{FIRSTNAME} the Acute"
         voice="earnest"
         age="25"
         default_group="Infantry"
         is_template="true"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Wanderer"
-        skill_template="SkillSet.spc_wanderer_scarhok_2_skills">
+        skill_template="SkillSet.spc_wanderer_kratorios_2_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_scarhok" />
+            <face_key_template value="BodyProperty.fighter_kratorios" />
         </face>
         <Traits>
             <Trait id="Mercy" value="1" />
@@ -66,44 +66,44 @@
             <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_wanderer_scarhok_3"
-        name="{=spc_wanderer_scarhok_3}{FIRSTNAME} the Simpleton"
+    <NPCCharacter id="spc_wanderer_kratorios_3"
+        name="{=spc_wanderer_kratorios_3}{FIRSTNAME} the Simpleton"
         voice="earnest"
         age="25"
         default_group="Infantry"
         is_template="true"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Wanderer"
-        skill_template="SkillSet.spc_wanderer_scarhok_3_skills">
+        skill_template="SkillSet.spc_wanderer_kratorios_3_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_scarhok" />
+            <face_key_template value="BodyProperty.fighter_kratorios" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_wanderer_scarhok_0f"
-        name="{=spc_wanderer_scarhok_0f}{FIRSTNAME} the Banner Bearer"
+    <NPCCharacter id="spc_wanderer_kratorios_0f"
+        name="{=spc_wanderer_kratorios_0f}{FIRSTNAME} the Banner Bearer"
         voice="earnest"
         age="25"
         default_group="Infantry"
         is_template="true"
         is_female="true"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Wanderer"
-        skill_template="SkillSet.spc_wanderer_scarhok_0_skills">
+        skill_template="SkillSet.spc_wanderer_kratorios_0_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_scarhok" />
+            <face_key_template value="BodyProperty.fighter_kratorios" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />
@@ -111,23 +111,23 @@
             <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_wanderer_scarhok_1f"
-        name="{=spc_wanderer_scarhok_1f}{FIRSTNAME} the Fearless"
+    <NPCCharacter id="spc_wanderer_kratorios_1f"
+        name="{=spc_wanderer_kratorios_1f}{FIRSTNAME} the Fearless"
         voice="earnest"
         age="25"
         default_group="Infantry"
         is_template="true"
         is_female="true"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Wanderer"
-        skill_template="SkillSet.spc_wanderer_scarhok_1_skills">
+        skill_template="SkillSet.spc_wanderer_kratorios_1_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_scarhok" />
+            <face_key_template value="BodyProperty.fighter_kratorios" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />
@@ -135,23 +135,23 @@
             <Trait id="Mercy" value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_wanderer_scarhok_2f"
-        name="{=spc_wanderer_scarhok_2f}{FIRSTNAME} the Kind"
+    <NPCCharacter id="spc_wanderer_kratorios_2f"
+        name="{=spc_wanderer_kratorios_2f}{FIRSTNAME} the Kind"
         voice="earnest"
         age="25"
         default_group="Infantry"
         is_template="true"
         is_female="true"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Wanderer"
-        skill_template="SkillSet.spc_wanderer_scarhok_2_skills">
+        skill_template="SkillSet.spc_wanderer_kratorios_2_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_scarhok" />
+            <face_key_template value="BodyProperty.fighter_kratorios" />
         </face>
         <Traits>
             <Trait id="Mercy" value="1" />
@@ -159,64 +159,64 @@
             <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_wanderer_scarhok_3f"
-        name="{=spc_wanderer_scarhok_3f}{FIRSTNAME} the Fallen"
+    <NPCCharacter id="spc_wanderer_kratorios_3f"
+        name="{=spc_wanderer_kratorios_3f}{FIRSTNAME} the Fallen"
         voice="earnest"
         age="25"
         default_group="Infantry"
         is_template="true"
         is_female="true"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Wanderer"
-        skill_template="SkillSet.spc_wanderer_scarhok_3_skills">
+        skill_template="SkillSet.spc_wanderer_kratorios_3_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_scarhok" />
+            <face_key_template value="BodyProperty.fighter_kratorios" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
     <!-- Notables -->
-    <NPCCharacter id="spc_merchant_scarhok_1"
-        name="{=!}Ironic scarhok merchant"
+    <NPCCharacter id="spc_merchant_kratorios_1"
+        name="{=!}Ironic kratorios merchant"
         voice="ironic"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Merchant">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_kratorios" />
         </face>
         <Traits>
             <Trait id="Valor" value="-1" />
             <Trait id="Calculating" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_merchant_scarhok_2"
-        name="{=!}Curt scarhok merchant"
+    <NPCCharacter id="spc_merchant_kratorios_2"
+        name="{=!}Curt kratorios merchant"
         voice="curt"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Merchant">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_kratorios" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />
@@ -224,82 +224,82 @@
             <Trait id="Calculating" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_merchant_scarhok_3"
-        name="{=!}Earnest scarhok merchant"
+    <NPCCharacter id="spc_merchant_kratorios_3"
+        name="{=!}Earnest kratorios merchant"
         voice="earnest"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Merchant">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_kratorios" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />
             <Trait id="Honor" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_merchant_scarhok_4"
-        name="{=!}Softspoken scarhok merchant"
+    <NPCCharacter id="spc_merchant_kratorios_4"
+        name="{=!}Softspoken kratorios merchant"
         voice="softspoken"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Merchant">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_kratorios" />
         </face>
         <Traits>
             <Trait id="Generosity" value="-1" />
             <Trait id="Valor" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_merchant_scarhok_1f"
+    <NPCCharacter id="spc_merchant_kratorios_1f"
         name="{=!}{FIRSTNAME} the Heiress"
         voice="ironic"
         is_template="true"
         is_female="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Merchant">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok_f" />
+            <face_key_template value="BodyProperty.villager_kratorios_f" />
         </face>
         <Traits>
             <Trait id="Valor" value="-1" />
             <Trait id="Calculating" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_merchant_scarhok_2f"
+    <NPCCharacter id="spc_merchant_kratorios_2f"
         name="{=!}{FIRSTNAME} the Merchant"
         voice="curt"
         is_template="true"
         is_female="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Merchant">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok_f" />
+            <face_key_template value="BodyProperty.villager_kratorios_f" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />
@@ -307,248 +307,248 @@
             <Trait id="Calculating" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_preacher_scarhok_1"
-        name="{=!}Puritan scarhok preacher"
+    <NPCCharacter id="spc_preacher_kratorios_1"
+        name="{=!}Puritan kratorios preacher"
         voice="earnest"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Preacher">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_kratorios" />
         </face>
         <Traits>
             <Trait id="Generosity" value="-1" />
             <Trait id="Honor" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_preacher_scarhok_1f"
-        name="{=!}Rebellious scarhok preacher"
+    <NPCCharacter id="spc_preacher_kratorios_1f"
+        name="{=!}Rebellious kratorios preacher"
         voice="earnest"
         is_template="true"
         is_female="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Preacher">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok_f" />
+            <face_key_template value="BodyProperty.villager_kratorios_f" />
         </face>
         <Traits>
             <Trait id="Generosity" value="1" />
             <Trait id="Honor" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_gangleader_scarhok_1"
-        name="{=!}Male scarhok gang leader"
+    <NPCCharacter id="spc_gangleader_kratorios_1"
+        name="{=!}Male kratorios gang leader"
         voice="curt"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="GangLeader">
         <face>
-            <face_key_template value="BodyProperty.fighter_scarhok" />
+            <face_key_template value="BodyProperty.fighter_kratorios" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />
             <Trait id="Mercy" value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_gangleader_scarhok_1f"
-        name="{=!}Female scarhok gang leader"
+    <NPCCharacter id="spc_gangleader_kratorios_1f"
+        name="{=!}Female kratorios gang leader"
         voice="ironic"
         is_template="true"
         is_female="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="GangLeader">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok_f" />
+            <face_key_template value="BodyProperty.villager_kratorios_f" />
         </face>
         <Traits>
             <Trait id="Honor" value="1" />
             <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_artisan_scarhok_1"
+    <NPCCharacter id="spc_artisan_kratorios_1"
         name="{=!}Lysellegien artisan 1"
         voice="earnest"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Artisan">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_kratorios" />
         </face>
         <Traits>
             <Trait id="Generosity" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_artisan_scarhok_2"
+    <NPCCharacter id="spc_artisan_kratorios_2"
         name="{=!}Lysellegien artisan 2"
         voice="curt"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Artisan">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_kratorios" />
         </face>
         <Traits>
             <Trait id="Calculating" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_ruralnotable_scarhok_1"
+    <NPCCharacter id="spc_ruralnotable_kratorios_1"
         name="{=!}Lysellegien rural notable"
         voice="curt"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="RuralNotable">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_kratorios" />
         </face>
         <Traits>
             <Trait id="Generosity" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_ruralnotable_scarhok_2"
+    <NPCCharacter id="spc_ruralnotable_kratorios_2"
         name="{=!}Lysellegien rural notable"
         voice="softspoken"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="RuralNotable">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_kratorios" />
         </face>
         <Traits>
             <Trait id="Calculating" value="1" />
             <Trait id="Generosity" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_ruralnotable_scarhok_1f"
+    <NPCCharacter id="spc_ruralnotable_kratorios_1f"
         name="{=!}Lysellegien rural notable"
         voice="ironic"
         is_template="true"
         is_female="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="RuralNotable">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok_f" />
+            <face_key_template value="BodyProperty.villager_kratorios_f" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_headman_scarhok_1"
-        name="{=!}Scarhok rebellious headman"
+    <NPCCharacter id="spc_headman_kratorios_1"
+        name="{=!}Kratorios rebellious headman"
         voice="earnest"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Headman">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_kratorios" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />
             <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_headman_scarhok_2"
-        name="{=!}Scarhok devious headman"
+    <NPCCharacter id="spc_headman_kratorios_2"
+        name="{=!}Kratorios devious headman"
         voice="softspoken"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Headman">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_kratorios" />
         </face>
         <Traits>
             <Trait id="Calculating" value="1" />
             <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_headman_scarhok_1f"
-        name="{=!}Scarhok conservative headwoman"
+    <NPCCharacter id="spc_headman_kratorios_1f"
+        name="{=!}Kratorios conservative headwoman"
         voice="curt"
         is_template="true"
         is_female="true"
         default_group="Infantry"
         is_hero="false"
-        culture="Culture.scarhok"
+        culture="Culture.empire"
         occupation="Headman">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok_f" />
+            <face_key_template value="BodyProperty.villager_kratorios_f" />
         </face>
         <Traits>
             <Trait id="Valor" value="-1" />
             <Trait id="Generosity" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_scarhok" />
-            <EquipmentSet id="npc_wanderer_equipment_template_scarhok" civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
         </Equipments>
     </NPCCharacter>
 </NPCCharacters>

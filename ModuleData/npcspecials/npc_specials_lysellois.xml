@@ -1,5 +1,192 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
+    <!-- Wanderers -->
+    <NPCCharacter id="spc_wanderer_lysellois_0"
+        name="{=spc_wanderer_lysellois_0}{FIRSTNAME} the Knight"
+        voice="earnest"
+        age="25"
+        default_group="Infantry"
+        is_template="true"
+        is_hero="false"
+        culture="Culture.vlandia"
+        occupation="Wanderer"
+        skill_template="SkillSet.spc_wanderer_lysellois_0_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_lysellois" />
+        </face>
+        <Traits>
+            <Trait id="Valor" value="1" />
+            <Trait id="Honor" value="1" />
+            <Trait id="Calculating" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_wanderer_lysellois_1"
+        name="{=spc_wanderer_lysellois_1}{FIRSTNAME} the Fierce"
+        voice="earnest"
+        age="25"
+        default_group="Infantry"
+        is_template="true"
+        is_hero="false"
+        culture="Culture.vlandia"
+        occupation="Wanderer"
+        skill_template="SkillSet.spc_wanderer_lysellois_1_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_lysellois" />
+        </face>
+        <Traits>
+            <Trait id="Valor" value="1" />
+            <Trait id="Generosity" value="1" />
+            <Trait id="Mercy" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_wanderer_lysellois_2"
+        name="{=spc_wanderer_lysellois_2}{FIRSTNAME} the Acute"
+        voice="earnest"
+        age="25"
+        default_group="Infantry"
+        is_template="true"
+        is_hero="false"
+        culture="Culture.vlandia"
+        occupation="Wanderer"
+        skill_template="SkillSet.spc_wanderer_lysellois_2_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_lysellois" />
+        </face>
+        <Traits>
+            <Trait id="Mercy" value="1" />
+            <Trait id="Calculating" value="1" />
+            <Trait id="Honor" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_wanderer_lysellois_3"
+        name="{=spc_wanderer_lysellois_3}{FIRSTNAME} the Simpleton"
+        voice="earnest"
+        age="25"
+        default_group="Infantry"
+        is_template="true"
+        is_hero="false"
+        culture="Culture.vlandia"
+        occupation="Wanderer"
+        skill_template="SkillSet.spc_wanderer_lysellois_3_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_lysellois" />
+        </face>
+        <Traits>
+            <Trait id="Valor" value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_wanderer_lysellois_0f"
+        name="{=spc_wanderer_lysellois_0f}{FIRSTNAME} the Banner Bearer"
+        voice="earnest"
+        age="25"
+        default_group="Infantry"
+        is_template="true"
+        is_female="true"
+        is_hero="false"
+        culture="Culture.vlandia"
+        occupation="Wanderer"
+        skill_template="SkillSet.spc_wanderer_lysellois_0_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_lysellois" />
+        </face>
+        <Traits>
+            <Trait id="Valor" value="1" />
+            <Trait id="Honor" value="1" />
+            <Trait id="Calculating" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_wanderer_lysellois_1f"
+        name="{=spc_wanderer_lysellois_1f}{FIRSTNAME} the Fearless"
+        voice="earnest"
+        age="25"
+        default_group="Infantry"
+        is_template="true"
+        is_female="true"
+        is_hero="false"
+        culture="Culture.vlandia"
+        occupation="Wanderer"
+        skill_template="SkillSet.spc_wanderer_lysellois_1_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_lysellois" />
+        </face>
+        <Traits>
+            <Trait id="Valor" value="1" />
+            <Trait id="Generosity" value="1" />
+            <Trait id="Mercy" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_wanderer_lysellois_2f"
+        name="{=spc_wanderer_lysellois_2f}{FIRSTNAME} the Kind"
+        voice="earnest"
+        age="25"
+        default_group="Infantry"
+        is_template="true"
+        is_female="true"
+        is_hero="false"
+        culture="Culture.vlandia"
+        occupation="Wanderer"
+        skill_template="SkillSet.spc_wanderer_lysellois_2_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_lysellois" />
+        </face>
+        <Traits>
+            <Trait id="Mercy" value="1" />
+            <Trait id="Calculating" value="1" />
+            <Trait id="Honor" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_wanderer_lysellois_3f"
+        name="{=spc_wanderer_lysellois_3f}{FIRSTNAME} the Fallen"
+        voice="earnest"
+        age="25"
+        default_group="Infantry"
+        is_template="true"
+        is_female="true"
+        is_hero="false"
+        culture="Culture.vlandia"
+        occupation="Wanderer"
+        skill_template="SkillSet.spc_wanderer_lysellois_3_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_lysellois" />
+        </face>
+        <Traits>
+            <Trait id="Valor" value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Notables -->
     <NPCCharacter id="spc_merchant_lysellois_1"
         name="{=!}Ironic lysellois merchant"
         voice="ironic"
@@ -12,16 +199,12 @@
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="-1" />
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Valor" value="-1" />
+            <Trait id="Calculating" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
-            <EquipmentSet id="spc_notable_vlandia_merch1" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_merchant_lysellois_2"
@@ -36,23 +219,17 @@
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
         <Traits>
-            <Trait id="Commander"
-                value="2" />
-            <Trait id="Valor"
-                value="-1" />
-            <Trait id="Generosity"
-                value="-1" />
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Valor" value="1" />
+            <Trait id="Generosity" value="-1" />
+            <Trait id="Calculating" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_merchant_lysellois_3"
-        name="{=!}Daring lysellois merchant"
+        name="{=!}Earnest lysellois merchant"
         voice="earnest"
         is_template="true"
         default_group="Infantry"
@@ -63,17 +240,12 @@
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
         <Traits>
-            <Trait id="Commander"
-                value="3" />
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Valor" value="1" />
+            <Trait id="Honor" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_merchant_lysellois_4"
@@ -87,76 +259,16 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <skills></skills>
         <Traits>
-            <Trait id="Commander"
-                value="1" />
-            <Trait id="Valor"
-                value="-1" />
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Generosity" value="-1" />
+            <Trait id="Valor" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
-            <EquipmentSet id="spc_notable_vlandia_merch4" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_merchant_lysellois_5"
-        name="{=!}{FIRSTNAME} the Manciple"
-        voice="softspoken"
-        is_template="true"
-        default_group="Infantry"
-        is_hero="false"
-        culture="Culture.vlandia"
-        occupation="Merchant">
-        <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
-        </face>
-        <skills></skills>
-        <Traits>
-            <Trait id="Commander"
-                value="2" />
-            <Trait id="Valor"
-                value="-1" />
-            <Trait id="Calculating"
-                value="1" />
-        </Traits>
-        <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
-            <EquipmentSet id="spc_notable_vlandia_merch5" />
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="spc_merchant_lysellois_6"
-        name="{=!}{FIRSTNAME} the Warehouser"
-        voice="ironic"
-        is_template="true"
-        is_female="true"
-        default_group="Infantry"
-        is_hero="false"
-        culture="Culture.vlandia"
-        occupation="Merchant">
-        <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
-        </face>
-        <skills></skills>
-        <Traits>
-            <Trait id="Valor"
-                value="-1" />
-            <Trait id="Calculating"
-                value="1" />
-        </Traits>
-        <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
-            <EquipmentSet id="spc_notable_vlandia_1" />
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="spc_merchant_lysellois_6f"
+    <NPCCharacter id="spc_merchant_lysellois_1f"
         name="{=!}{FIRSTNAME} the Heiress"
         voice="ironic"
         is_template="true"
@@ -166,22 +278,37 @@
         culture="Culture.vlandia"
         occupation="Merchant">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
         </face>
-        <skills></skills>
         <Traits>
-            <Trait id="Commander"
-                value="2" />
-            <Trait id="Valor"
-                value="-1" />
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Valor" value="-1" />
+            <Trait id="Calculating" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
-            <EquipmentSet id="spc_notable_vlandia_1b" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_lysellois_2f"
+        name="{=!}{FIRSTNAME} the Merchant"
+        voice="curt"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.vlandia"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
+        </face>
+        <Traits>
+            <Trait id="Valor" value="1" />
+            <Trait id="Generosity" value="-1" />
+            <Trait id="Calculating" value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_preacher_lysellois_1"
@@ -195,47 +322,38 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <skills></skills>
         <Traits>
-            <Trait id="Generosity"
-                value="-1" />
-            <Trait id="Honor"
-                value="1" />
+            <Trait id="Generosity" value="-1" />
+            <Trait id="Honor" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
-            <EquipmentSet id="spc_notable_vlandia_2" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_preacher_lysellois_1f"
         name="{=!}Rebellious lysellois preacher"
         voice="earnest"
         is_template="true"
-        default_group="Infantry"
         is_female="true"
+        default_group="Infantry"
+        is_hero="false"
         culture="Culture.vlandia"
         occupation="Preacher">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
         </face>
-        <skills></skills>
         <Traits>
-            <Trait id="Generosity"
-                value="1" />
-            <Trait id="Honor"
-                value="1" />
+            <Trait id="Generosity" value="1" />
+            <Trait id="Honor" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
-            <EquipmentSet id="spc_notable_vlandia_3" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_gangleader_lysellois_1"
-        name="{=!}Standard lysellois gang leader"
+        name="{=!}Male lysellois gang leader"
         voice="curt"
         is_template="true"
         default_group="Infantry"
@@ -243,69 +361,36 @@
         culture="Culture.vlandia"
         occupation="GangLeader">
         <face>
-            <face_key_template value="BodyProperty.fighter_vlandia" />
+            <face_key_template value="BodyProperty.fighter_lysellois" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Valor" value="1" />
+            <Trait id="Mercy" value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_gangleader_lysellois_1f"
-        name="{=!}Standard lysellois gang leader"
+        name="{=!}Female lysellois gang leader"
         voice="ironic"
         is_template="true"
-        default_group="Infantry"
         is_female="true"
+        default_group="Infantry"
+        is_hero="false"
         culture="Culture.vlandia"
         occupation="GangLeader">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Honor" value="1" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="spc_gangleader_lysellois_2f"
-        name="{=!}Ironic lysellois gang leader"
-        voice="ironic"
-        is_template="true"
-        default_group="Infantry"
-        is_female="true"
-        culture="Culture.vlandia"
-        occupation="GangLeader">
-        <face>
-            <face_key_template value="BodyProperty.fighter_vlandia" />
-        </face>
-        <Traits>
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Calculating"
-                value="1" />
-            <Trait id="Mercy"
-                value="-1" />
-            <Trait id="Honor"
-                value="-1" />
-        </Traits>
-        <Equipments>
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
-            <EquipmentSet id="spc_vlandia_gangleader_3" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_artisan_lysellois_1"
@@ -313,19 +398,18 @@
         voice="earnest"
         is_template="true"
         default_group="Infantry"
+        is_hero="false"
         culture="Culture.vlandia"
         occupation="Artisan">
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
         <Traits>
-            <Trait id="Generosity"
-                value="1" />
+            <Trait id="Generosity" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_artisan_lysellois_2"
@@ -333,105 +417,77 @@
         voice="curt"
         is_template="true"
         default_group="Infantry"
+        is_hero="false"
         culture="Culture.vlandia"
         occupation="Artisan">
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
         <Traits>
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Calculating" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_ruralnotable_lysellois_1"
-        name="{=!}Lysellegien yeoman"
+        name="{=!}Lysellegien rural notable"
         voice="curt"
         is_template="true"
         default_group="Infantry"
+        is_hero="false"
         culture="Culture.vlandia"
         occupation="RuralNotable">
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
         <Traits>
-            <Trait id="Generosity"
-                value="1" />
+            <Trait id="Generosity" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="spc_ruralnotable_lysellois_1f"
-        name="{=!}Lysellegien yeowoman"
-        voice="curt"
-        is_template="true"
-        default_group="Infantry"
-        is_female="true"
-        culture="Culture.vlandia"
-        occupation="RuralNotable">
-        <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
-        </face>
-        <Traits>
-            <Trait id="Generosity"
-                value="1" />
-        </Traits>
-        <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_ruralnotable_lysellois_2"
-        name="{=!}Lysellegien yeoman"
+        name="{=!}Lysellegien rural notable"
         voice="softspoken"
         is_template="true"
         default_group="Infantry"
+        is_hero="false"
         culture="Culture.vlandia"
         occupation="RuralNotable">
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
         <Traits>
-            <Trait id="Calculating"
-                value="1" />
-            <Trait id="Generosity"
-                value="1" />
+            <Trait id="Calculating" value="1" />
+            <Trait id="Generosity" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_ruralnotable_lysellois_2f"
-        name="{=!}Lysellegien yeowoman"
-        voice="softspoken"
+    <NPCCharacter id="spc_ruralnotable_lysellois_1f"
+        name="{=!}Lysellegien rural notable"
+        voice="ironic"
         is_template="true"
-        default_group="Infantry"
         is_female="true"
+        default_group="Infantry"
+        is_hero="false"
         culture="Culture.vlandia"
         occupation="RuralNotable">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
         </face>
         <Traits>
-            <Trait id="Calculating"
-                value="1" />
-            <Trait id="Generosity"
-                value="1" />
+            <Trait id="Valor" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_headman_lysellois_1"
@@ -445,46 +501,13 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <skills></skills>
         <Traits>
-            <Trait id="FrankishHair"
-                value="1" />
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Calculating"
-                value="-1" />
+            <Trait id="Valor" value="1" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="spc_headman_lysellois_1f"
-        name="{=!}Lysellois conservative headwoman"
-        voice="curt"
-        is_template="true"
-        default_group="Infantry"
-        is_female="true"
-        is_hero="false"
-        culture="Culture.vlandia"
-        occupation="Headman">
-        <face>
-            <face_key_template value="BodyProperty.villager_lysellois" />
-        </face>
-        <skills></skills>
-        <Traits>
-            <Trait id="FrankishHair"
-                value="1" />
-            <Trait id="Valor"
-                value="-1" />
-            <Trait id="Generosity"
-                value="1" />
-        </Traits>
-        <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_headman_lysellois_2"
@@ -498,19 +521,34 @@
         <face>
             <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
-        <skills></skills>
         <Traits>
-            <Trait id="FrankishHair"
-                value="1" />
-            <Trait id="Calculating"
-                value="1" />
-            <Trait id="Honor"
-                value="-1" />
+            <Trait id="Calculating" value="1" />
+            <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
-            <EquipmentSet id="npc_wanderer_equipment_template_vlandia"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_headman_lysellois_1f"
+        name="{=!}Lysellois conservative headwoman"
+        voice="curt"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.vlandia"
+        occupation="Headman">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
+        </face>
+        <Traits>
+            <Trait id="Valor" value="-1" />
+            <Trait id="Generosity" value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_lysellois" />
+            <EquipmentSet id="npc_wanderer_equipment_template_lysellois" civilian="true" />
         </Equipments>
     </NPCCharacter>
 </NPCCharacters>

@@ -257,7 +257,7 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="emp_bat_template_low" />
+            <EquipmentSet id="emp_bat_template_stoic" />
             <EquipmentSet id="emp_civ_template_default"
                 civilian="true" />
         </Equipments>

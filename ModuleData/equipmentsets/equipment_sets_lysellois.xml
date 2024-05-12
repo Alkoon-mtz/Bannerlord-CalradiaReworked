@@ -734,6 +734,29 @@
         <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
     </EquipmentRoster>
 
+    <!-- Notables and Wanderers -->
+    <EquipmentRoster id="npc_wanderer_equipment_template_lysellois" culture="Culture.vlandia">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.long_woolen_tunic" />
+            <Equipment slot="Item0" id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Cape" id="Item.hood" />
+            <Equipment slot="Leg" id="Item.strapped_shoes" />
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="npc_armed_wanderer_equipment_template_lysellois" culture="Culture.vlandia">
+        <EquipmentSet>
+            <equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+            <equipment slot="Item1" id="Item.flat_heater_shield"/>
+            <equipment slot="Head" id="Item.spangenhelm_with_leather"/>
+            <equipment slot="Cape" id="Item.hood"/>
+            <equipment slot="Body" id="Item.nordic_sloven"/>
+            <equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+            <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+
     <!--Lord -->
     <EquipmentRoster id="lys_bat_template_low" culture="Culture.vlandia">
         <EquipmentSet>

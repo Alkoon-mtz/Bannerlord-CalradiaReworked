@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EquipmentRosters>
+    <!-- Notables and Wanderers -->
+    <EquipmentRoster id="npc_wanderer_equipment_template_aseriyun" culture="Culture.aserai">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.long_woolen_tunic" />
+            <Equipment slot="Item0" id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Cape" id="Item.hood" />
+            <Equipment slot="Leg" id="Item.strapped_shoes" />
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="npc_armed_wanderer_equipment_template_aseriyun" culture="Culture.aserai">
+        <EquipmentSet>
+            <equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+            <equipment slot="Item1" id="Item.battania_targe_b"/>
+            <equipment slot="Head" id="Item.TV_aserai_helmet_d"/>
+            <equipment slot="Body" id="Item.desert_padded_cloth"/>
+            <equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+
     <!--Lord -->
     <EquipmentRoster id="ase_bat_template_bedouin" culture="Culture.aserai">
         <EquipmentSet>
@@ -103,7 +124,7 @@
             <Equipment slot="Horse" id="Item.noble_horse_southern" />
             <Equipment slot="HorseHarness" id="Item.light_harness" />
         </EquipmentSet>
-        <Flags IsCombatantTemplate="true" IsHeavyTemplate="true" IsNobleTemplate="true" />
+        <Flags IsCombatantTemplate="true" IsMediumTemplate="true" IsNobleTemplate="true" />
     </EquipmentRoster>
 
     <!-- King -->

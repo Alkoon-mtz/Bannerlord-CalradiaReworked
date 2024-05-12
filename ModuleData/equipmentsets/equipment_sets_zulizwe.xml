@@ -727,6 +727,30 @@
         <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true" />
     </EquipmentRoster>
 
+    <!-- Notables and Wanderers -->
+    <EquipmentRoster id="npc_wanderer_equipment_template_zulizwe" culture="Culture.zulizwe">
+        <EquipmentSet civilian="true">
+            <equipment slot="Body" id="Item.fine_town_tunic" />
+            <equipment slot="Leg" id="Item.leather_boots" />
+            <equipment slot="Head" id="Item.merchants_hat" />
+            <equipment slot="Cape" id="Item.scarf" />
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="npc_armed_wanderer_equipment_template_zulizwe" culture="Culture.zulizwe">
+        <EquipmentSet>
+            <equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
+            <equipment slot="Item1" id="Item.oval_shield"/>
+            <equipment slot="Item2" id="Item.iron_spatha_sword_t2"/>
+            <equipment slot="Cape" id="Item.eastern_studded_shoulders"/>
+            <equipment slot="Body" id="Item.battanian_savage_armor"/>
+            <equipment slot="Leg" id="Item.simple_shoes"/>
+            <equipment slot="Horse" id="Item.empire_horse"/>
+            <equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+
     <!--Lord -->
     <EquipmentRoster id="zul_bat_template_low" culture="Culture.zulizwe">
         <EquipmentSet>

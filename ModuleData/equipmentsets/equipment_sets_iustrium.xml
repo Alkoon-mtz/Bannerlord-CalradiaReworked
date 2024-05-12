@@ -731,6 +731,27 @@
         <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
     </EquipmentRoster>
 
+    <!-- Notables and Wanderers -->
+    <EquipmentRoster id="npc_wanderer_equipment_template_iustrium" culture="Culture.iustrium">
+        <EquipmentSet civilian="true">
+            <equipment slot="Body" id="Item.cloth_tunic" />
+            <equipment slot="Leg" id="Item.strapped_shoes" />
+            <equipment slot="Cape" id="Item.scarf" />
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="npc_armed_wanderer_equipment_template_iustrium" culture="Culture.iustrium">
+        <EquipmentSet>
+            <equipment slot="Item0" id="Item.empire_mace_3_t4"/>
+            <equipment slot="Item1" id="Item.small_flat_heater_shield"/>
+            <equipment slot="Head" id="Item.open_mail_coif"/>
+            <equipment slot="Cape" id="Item.scarf"/>
+            <equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
+            <equipment slot="Leg" id="Item.empire_horseman_boots"/>
+        </EquipmentSet>
+        <Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
+    </EquipmentRoster>
+
     <!--Lord -->
     <EquipmentRoster id="ius_bat_template_low" culture="Culture.iustrium">
         <EquipmentSet>

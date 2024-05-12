@@ -1,7 +1,194 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
+    <!-- Wanderers -->
+    <NPCCharacter id="spc_wanderer_iustrium_0"
+        name="{=spc_wanderer_iustrium_0}{FIRSTNAME} the Knight"
+        voice="earnest"
+        age="25"
+        default_group="Infantry"
+        is_template="true"
+        is_hero="false"
+        culture="Culture.iustrium"
+        occupation="Wanderer"
+        skill_template="SkillSet.spc_wanderer_iustrium_0_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_iustrium" />
+        </face>
+        <Traits>
+            <Trait id="Valor" value="1" />
+            <Trait id="Honor" value="1" />
+            <Trait id="Calculating" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_wanderer_iustrium_1"
+        name="{=spc_wanderer_iustrium_1}{FIRSTNAME} the Fierce"
+        voice="earnest"
+        age="25"
+        default_group="Infantry"
+        is_template="true"
+        is_hero="false"
+        culture="Culture.iustrium"
+        occupation="Wanderer"
+        skill_template="SkillSet.spc_wanderer_iustrium_1_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_iustrium" />
+        </face>
+        <Traits>
+            <Trait id="Valor" value="1" />
+            <Trait id="Generosity" value="1" />
+            <Trait id="Mercy" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_wanderer_iustrium_2"
+        name="{=spc_wanderer_iustrium_2}{FIRSTNAME} the Acute"
+        voice="earnest"
+        age="25"
+        default_group="Infantry"
+        is_template="true"
+        is_hero="false"
+        culture="Culture.iustrium"
+        occupation="Wanderer"
+        skill_template="SkillSet.spc_wanderer_iustrium_2_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_iustrium" />
+        </face>
+        <Traits>
+            <Trait id="Mercy" value="1" />
+            <Trait id="Calculating" value="1" />
+            <Trait id="Honor" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_wanderer_iustrium_3"
+        name="{=spc_wanderer_iustrium_3}{FIRSTNAME} the Simpleton"
+        voice="earnest"
+        age="25"
+        default_group="Infantry"
+        is_template="true"
+        is_hero="false"
+        culture="Culture.iustrium"
+        occupation="Wanderer"
+        skill_template="SkillSet.spc_wanderer_iustrium_3_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_iustrium" />
+        </face>
+        <Traits>
+            <Trait id="Valor" value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_wanderer_iustrium_0f"
+        name="{=spc_wanderer_iustrium_0f}{FIRSTNAME} the Banner Bearer"
+        voice="earnest"
+        age="25"
+        default_group="Infantry"
+        is_template="true"
+        is_female="true"
+        is_hero="false"
+        culture="Culture.iustrium"
+        occupation="Wanderer"
+        skill_template="SkillSet.spc_wanderer_iustrium_0_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_iustrium" />
+        </face>
+        <Traits>
+            <Trait id="Valor" value="1" />
+            <Trait id="Honor" value="1" />
+            <Trait id="Calculating" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_wanderer_iustrium_1f"
+        name="{=spc_wanderer_iustrium_1f}{FIRSTNAME} the Fearless"
+        voice="earnest"
+        age="25"
+        default_group="Infantry"
+        is_template="true"
+        is_female="true"
+        is_hero="false"
+        culture="Culture.iustrium"
+        occupation="Wanderer"
+        skill_template="SkillSet.spc_wanderer_iustrium_1_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_iustrium" />
+        </face>
+        <Traits>
+            <Trait id="Valor" value="1" />
+            <Trait id="Generosity" value="1" />
+            <Trait id="Mercy" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_wanderer_iustrium_2f"
+        name="{=spc_wanderer_iustrium_2f}{FIRSTNAME} the Kind"
+        voice="earnest"
+        age="25"
+        default_group="Infantry"
+        is_template="true"
+        is_female="true"
+        is_hero="false"
+        culture="Culture.iustrium"
+        occupation="Wanderer"
+        skill_template="SkillSet.spc_wanderer_iustrium_2_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_iustrium" />
+        </face>
+        <Traits>
+            <Trait id="Mercy" value="1" />
+            <Trait id="Calculating" value="1" />
+            <Trait id="Honor" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_wanderer_iustrium_3f"
+        name="{=spc_wanderer_iustrium_3f}{FIRSTNAME} the Fallen"
+        voice="earnest"
+        age="25"
+        default_group="Infantry"
+        is_template="true"
+        is_female="true"
+        is_hero="false"
+        culture="Culture.iustrium"
+        occupation="Wanderer"
+        skill_template="SkillSet.spc_wanderer_iustrium_3_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_iustrium" />
+        </face>
+        <Traits>
+            <Trait id="Valor" value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Notables -->
     <NPCCharacter id="spc_merchant_iustrium_1"
-        name="{=!}{FIRSTNAME} the Dateseller"
+        name="{=!}Ironic iustrium merchant"
         voice="ironic"
         is_template="true"
         default_group="Infantry"
@@ -11,24 +198,18 @@
         <face>
             <face_key_template value="BodyProperty.villager_iustrium" />
         </face>
-        <skills></skills>
         <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Valor"
-                value="-1" />
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Valor" value="-1" />
+            <Trait id="Calculating" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_merchant_iustrium_2"
-        name="{=!}{FIRSTNAME} the Minter"
-        voice="ironic"
+        name="{=!}Curt iustrium merchant"
+        voice="curt"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
@@ -37,26 +218,19 @@
         <face>
             <face_key_template value="BodyProperty.villager_iustrium" />
         </face>
-        <skills></skills>
         <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Commander"
-                value="4" />
-            <Trait id="Valor"
-                value="-1" />
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Valor" value="1" />
+            <Trait id="Generosity" value="-1" />
+            <Trait id="Calculating" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_merchant_iustrium_3"
-        name="{=!}{FIRSTNAME} the Coppermonger"
-        voice="curt"
+        name="{=!}Earnest iustrium merchant"
+        voice="earnest"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
@@ -65,55 +239,17 @@
         <face>
             <face_key_template value="BodyProperty.villager_iustrium" />
         </face>
-        <skills></skills>
         <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Generosity"
-                value="-1" />
-            <Trait id="Valor"
-                value="-1" />
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Valor" value="1" />
+            <Trait id="Honor" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="spc_merchant_iustrium_3f"
-        name="{=!}{FIRSTNAME} the Incensemonger"
-        voice="curt"
-        is_template="true"
-        is_female="true"
-        default_group="Infantry"
-        is_hero="false"
-        culture="Culture.iustrium"
-        occupation="Merchant">
-        <face>
-            <face_key_template value="BodyProperty.villager_iustrium" />
-        </face>
-        <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Commander"
-                value="4" />
-            <Trait id="Generosity"
-                value="-1" />
-            <Trait id="Valor"
-                value="-1" />
-            <Trait id="Calculating"
-                value="1" />
-        </Traits>
-        <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_merchant_iustrium_4"
-        name="{=!}{FIRSTNAME} the Woolseller"
+        name="{=!}Softspoken iustrium merchant"
         voice="softspoken"
         is_template="true"
         default_group="Infantry"
@@ -124,77 +260,16 @@
             <face_key_template value="BodyProperty.villager_iustrium" />
         </face>
         <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Valor"
-                value="-1" />
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Generosity" value="-1" />
+            <Trait id="Valor" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_merchant_iustrium_4f"
-        name="{=!}{FIRSTNAME} the Benefactor"
-        voice="curt"
-        is_template="true"
-        is_female="true"
-        default_group="Infantry"
-        is_hero="false"
-        culture="Culture.iustrium"
-        occupation="Merchant">
-        <face>
-            <face_key_template value="BodyProperty.villager_iustrium" />
-        </face>
-        <skills></skills>
-        <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Commander"
-                value="2" />
-            <Trait id="Honor"
-                value="1" />
-            <Trait id="Calculating"
-                value="1" />
-        </Traits>
-        <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="spc_merchant_iustrium_5"
-        name="{=!}{FIRSTNAME} the Appraiser"
-        voice="softspoken"
-        is_template="true"
-        default_group="Infantry"
-        is_hero="false"
-        culture="Culture.iustrium"
-        occupation="Merchant">
-        <face>
-            <face_key_template value="BodyProperty.villager_iustrium" />
-        </face>
-        <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Commander"
-                value="2" />
-            <Trait id="Valor"
-                value="-1" />
-            <Trait id="Calculating"
-                value="1" />
-        </Traits>
-        <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="spc_merchant_iustrium_5f"
-        name="{=!}{FIRSTNAME} the Caravanser"
+    <NPCCharacter id="spc_merchant_iustrium_1f"
+        name="{=!}{FIRSTNAME} the Heiress"
         voice="ironic"
         is_template="true"
         is_female="true"
@@ -203,25 +278,41 @@
         culture="Culture.iustrium"
         occupation="Merchant">
         <face>
-            <face_key_template value="BodyProperty.villager_iustrium" />
+            <face_key_template value="BodyProperty.villager_iustrium_f" />
         </face>
-        <skills></skills>
         <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Valor"
-                value="-1" />
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Valor" value="-1" />
+            <Trait id="Calculating" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_merchant_iustrium_2f"
+        name="{=!}{FIRSTNAME} the Merchant"
+        voice="curt"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.iustrium"
+        occupation="Merchant">
+        <face>
+            <face_key_template value="BodyProperty.villager_iustrium_f" />
+        </face>
+        <Traits>
+            <Trait id="Valor" value="1" />
+            <Trait id="Generosity" value="-1" />
+            <Trait id="Calculating" value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_preacher_iustrium_1"
-        name="{=!}Iustrium rebellious preacher"
+        name="{=!}Puritan iustrium preacher"
         voice="earnest"
         is_template="true"
         default_group="Infantry"
@@ -231,158 +322,98 @@
         <face>
             <face_key_template value="BodyProperty.villager_iustrium" />
         </face>
-        <skills></skills>
         <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Generosity"
-                value="1" />
-            <Trait id="Honor"
-                value="1" />
+            <Trait id="Generosity" value="-1" />
+            <Trait id="Honor" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_preacher_iustrium_2"
-        name="{=!}Iustrium fire-and-brimstone preacher"
-        voice="curt"
-        is_template="true"
-        default_group="Infantry"
-        is_hero="false"
-        culture="Culture.iustrium"
-        occupation="Preacher">
-        <face>
-            <face_key_template value="BodyProperty.villager_iustrium" />
-        </face>
-        <skills></skills>
-        <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Generosity"
-                value="-1" />
-            <Trait id="Honor"
-                value="1" />
-        </Traits>
-        <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="spc_preacher_iustrium_2f"
-        name="{=!}Iustrium female preacher"
+    <NPCCharacter id="spc_preacher_iustrium_1f"
+        name="{=!}Rebellious iustrium preacher"
         voice="earnest"
         is_template="true"
-        default_group="Infantry"
         is_female="true"
+        default_group="Infantry"
+        is_hero="false"
         culture="Culture.iustrium"
         occupation="Preacher">
         <face>
-            <face_key_template value="BodyProperty.villager_iustrium" />
+            <face_key_template value="BodyProperty.villager_iustrium_f" />
         </face>
-        <skills></skills>
         <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Generosity"
-                value="0" />
-            <Trait id="Honor"
-                value="1" />
+            <Trait id="Generosity" value="1" />
+            <Trait id="Honor" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_gangleader_iustrium_1"
-        name="{=!}Iustrium fitiwi"
+        name="{=!}Male iustrium gang leader"
+        voice="curt"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.iustrium"
+        occupation="GangLeader">
+        <face>
+            <face_key_template value="BodyProperty.fighter_iustrium" />
+        </face>
+        <Traits>
+            <Trait id="Valor" value="1" />
+            <Trait id="Mercy" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_gangleader_iustrium_1f"
+        name="{=!}Female iustrium gang leader"
+        voice="ironic"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.iustrium"
+        occupation="GangLeader">
+        <face>
+            <face_key_template value="BodyProperty.villager_iustrium_f" />
+        </face>
+        <Traits>
+            <Trait id="Honor" value="1" />
+            <Trait id="Calculating" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_artisan_iustrium_1"
+        name="{=!}Lysellegien artisan 1"
         voice="earnest"
         is_template="true"
         default_group="Infantry"
         is_hero="false"
         culture="Culture.iustrium"
-        occupation="GangLeader">
-        <face>
-            <face_key_template value="BodyProperty.villager_iustrium" />
-        </face>
-        <skills></skills>
-        <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Politician"
-                value="5" />
-            <Trait id="Generosity"
-                value="1" />
-            <Trait id="Mercy"
-                value="-1" />
-        </Traits>
-        <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="spc_gangleader_iustrium_2"
-        name="{=!}Iustrium fitiwi"
-        voice="ironic"
-        is_template="true"
-        default_group="Infantry"
-        is_hero="false"
-        culture="Culture.iustrium"
-        occupation="GangLeader">
+        occupation="Artisan">
         <face>
             <face_key_template value="BodyProperty.villager_iustrium" />
         </face>
         <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Generosity" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="spc_gangleader_iustrium_2f"
-        name="{=!}Fearsome female Iustrium gang leader"
-        voice="curt"
-        is_template="true"
-        default_group="Infantry"
-        is_female="true"
-        culture="Culture.iustrium"
-        occupation="GangLeader">
-        <face>
-            <face_key_template value="BodyProperty.villager_iustrium" />
-        </face>
-        <skills></skills>
-        <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Generosity"
-                value="-1" />
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Mercy"
-                value="-1" />
-        </Traits>
-        <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="spc_artisan_iustrium_1"
-        name="{=!}Iustrium artisan leader"
+    <NPCCharacter id="spc_artisan_iustrium_2"
+        name="{=!}Lysellegien artisan 2"
         voice="curt"
         is_template="true"
         default_group="Infantry"
@@ -393,59 +424,70 @@
             <face_key_template value="BodyProperty.villager_iustrium" />
         </face>
         <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Generosity"
-                value="1" />
+            <Trait id="Calculating" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_ruralnotable_iustrium_1"
-        name="{=!}Iustrium earnest umda rural notable"
-        voice="earnest"
+        name="{=!}Lysellegien rural notable"
+        voice="curt"
         is_template="true"
         default_group="Infantry"
+        is_hero="false"
         culture="Culture.iustrium"
         occupation="RuralNotable">
         <face>
             <face_key_template value="BodyProperty.villager_iustrium" />
         </face>
         <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Generosity" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_ruralnotable_iustrium_2"
-        name="{=!}Iustrium quiet umda rural notable"
+        name="{=!}Lysellegien rural notable"
         voice="softspoken"
         is_template="true"
         default_group="Infantry"
+        is_hero="false"
         culture="Culture.iustrium"
         occupation="RuralNotable">
         <face>
             <face_key_template value="BodyProperty.villager_iustrium" />
         </face>
         <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Honor"
-                value="1" />
+            <Trait id="Calculating" value="1" />
+            <Trait id="Generosity" value="1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_ruralnotable_iustrium_1f"
+        name="{=!}Lysellegien rural notable"
+        voice="ironic"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.iustrium"
+        occupation="RuralNotable">
+        <face>
+            <face_key_template value="BodyProperty.villager_iustrium_f" />
+        </face>
+        <Traits>
+            <Trait id="Valor" value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_headman_iustrium_1"
@@ -459,48 +501,16 @@
         <face>
             <face_key_template value="BodyProperty.villager_iustrium" />
         </face>
-        <skills></skills>
         <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Calculating"
-                value="-1" />
+            <Trait id="Valor" value="1" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_headman_iustrium_2"
-        name="{=!}Iustrium conservative headman"
-        voice="curt"
-        is_template="true"
-        default_group="Infantry"
-        is_hero="false"
-        culture="Culture.iustrium"
-        occupation="Headman">
-        <face>
-            <face_key_template value="BodyProperty.villager_iustrium" />
-        </face>
-        <skills></skills>
-        <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Valor"
-                value="-1" />
-            <Trait id="Generosity"
-                value="1" />
-        </Traits>
-        <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="spc_headman_iustrium_3"
         name="{=!}Iustrium devious headman"
         voice="softspoken"
         is_template="true"
@@ -511,19 +521,34 @@
         <face>
             <face_key_template value="BodyProperty.villager_iustrium" />
         </face>
-        <skills></skills>
         <Traits>
-            <Trait id="ArabianHair"
-                value="1" />
-            <Trait id="Calculating"
-                value="1" />
-            <Trait id="Honor"
-                value="-1" />
+            <Trait id="Calculating" value="1" />
+            <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_aserai"
-                civilian="true" />
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_headman_iustrium_1f"
+        name="{=!}Iustrium conservative headwoman"
+        voice="curt"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.iustrium"
+        occupation="Headman">
+        <face>
+            <face_key_template value="BodyProperty.villager_iustrium_f" />
+        </face>
+        <Traits>
+            <Trait id="Valor" value="-1" />
+            <Trait id="Generosity" value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
         </Equipments>
     </NPCCharacter>
 </NPCCharacters>

@@ -259,7 +259,7 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="stu_bat_template_low" />
+            <EquipmentSet id="stu_bat_template_woodsman" />
             <EquipmentSet id="stu_civ_template_default"
                 civilian="true" />
         </Equipments>
