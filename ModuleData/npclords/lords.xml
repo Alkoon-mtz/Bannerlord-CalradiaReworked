@@ -1,4 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-
+    <NPCCharacter id="lord_explorer_1_1"
+        name="{=I72U5ttG}Claros"
+        age="37"
+        voice="ironic"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        default_group="HorseArcher"
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_xbow_1h_1">
+        <face>
+            <BodyProperties version="4"
+                age="37"
+                weight="0.327"
+                build="0.84"
+                key="001E9C0D0000168E8862664C555442CA6685884776577B0394964BB78BC97056007D560207B6797600000000000000000000000000000000000000005AF43002" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Valor"
+                value="2" />
+            <Trait id="Generosity"
+                value="2" />
+            <Trait id="Mercy"
+                value="2" />
+            <Trait id="Honor"
+                value="2" />
+            <Trait id="Calculating"
+                value="2" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_king_template_bat_m" />
+            <EquipmentSet id="w_emp_king_template_civ_m"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <!-- <NPCCharacter id="lord_explorer_1_2" name="{=lord_explorer_1_2}Nartyl" age="45" voice="ironic" is_female="true" default_group="Infantry" is_hero="true" culture="Culture.empire" occupation="Lord" skill_template="SkillSet.lord_pol_throw_1">
+        <face>
+            <BodyProperties version="4" age="45" weight="0.383" build="0.711" key="0039F40FC1CC20158D8AEB6EE7B9ECFACE7E8C6BC8C92C599DFFFFCF9925ECD9009B6603099BA8A300000000000000000000000000000000000000003B3C9100" />
+        </face>
+        <Traits>
+            <Trait id="Honor" value="+2" />
+            <Trait id="Valor" value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_king_template_bat_f" />
+            <EquipmentSet id="emp_king_template_civ_f" civilian="true" />
+        </Equipments>
+    </NPCCharacter> -->
 </NPCCharacters>

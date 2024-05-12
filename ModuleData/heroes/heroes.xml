@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Heroes>
-
+    <Hero id="lord_explorer_1_1" faction="Faction.clan_explorer_1" />
+    <!-- <Hero id="lord_explorer_1_2" spouse="Hero.lord_explorer_1_1" faction="Faction.clan_explorer_1" /> -->
 </Heroes>

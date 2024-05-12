@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Factions>
-
+    <Faction id="clan_explorer_1"
+        name="{=clan_explorer_1}South Guild"
+        tier="6"
+        owner="Hero.lord_explorer_1_1"
+        culture="Culture.empire"
+        super_faction="Kingdom.kingdom_explorer"
+        banner_key="11.100.0.4345.4345.764.764.0.0.0.342.115.1.358.358.764.764.0.0.0" />
 </Factions>

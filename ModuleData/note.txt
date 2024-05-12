@@ -29,10 +29,8 @@ Change culture feats
 Set diplomate status between factions
 
 Aserai:
-find name
-Rework lords and clans
-kingdom + clean
-Settlements
+Add lords
+Rework banners
 
 Cereann:
 Add lords

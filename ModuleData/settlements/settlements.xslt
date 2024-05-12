@@ -15,8 +15,8 @@
     <xsl:template match="Settlement[@id='village_A7_4']/@posY"><xsl:attribute name='posY'>95.161</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_EW6_4']/Components/Village/@bound"> <xsl:attribute name='bound'>Settlement.town_EW6</xsl:attribute> </xsl:template>
     
-    <xsl:template match="Settlement[@id='town_TT1']/@owner"><xsl:attribute name='owner'>Faction.clan_empire_west_1</xsl:attribute></xsl:template>
-    
+    <xsl:template match="Settlement[@id='town_TT1']/@owner"><xsl:attribute name='owner'>Faction.clan_explorer_1</xsl:attribute></xsl:template>
+
     <!-- Aseriyun -->
     <!-- Cities -->
     <xsl:template match="Settlement[@id='town_A8']/@owner"><xsl:attribute name='owner'>Faction.clan_aseriyun_1</xsl:attribute></xsl:template>

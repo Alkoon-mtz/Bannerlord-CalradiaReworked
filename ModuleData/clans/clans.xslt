@@ -50,7 +50,8 @@
     <xsl:template match="Faction[@id='clan_empire_south_9']"/>
     
     <!-- Empire West -->
-    <!-- <xsl:template match="Faction[@id='clan_empire_west_1']"/> -->
+    <!-- <xsl:template match="Faction[@id='clan_empire_west_1']/@super_faction"><xsl:attribute name='super_faction'>Kingdom.kingdom_explorer</xsl:attribute></xsl:template> -->
+    <xsl:template match="Faction[@id='clan_empire_west_1']"/>
     <xsl:template match="Faction[@id='clan_empire_west_2']"/>
     <xsl:template match="Faction[@id='clan_empire_west_3']"/>
     <xsl:template match="Faction[@id='clan_empire_west_4']"/>

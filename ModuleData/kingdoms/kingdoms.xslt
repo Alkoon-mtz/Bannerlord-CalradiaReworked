@@ -10,7 +10,7 @@
     <xsl:template match="Kingdom[@id='battania']"/>
     <xsl:template match="Kingdom[@id='empire']"/>
     <xsl:template match="Kingdom[@id='empire_s']"/>
-    <!-- <xsl:template match="Kingdom[@id='empire_w']"/> -->
+    <xsl:template match="Kingdom[@id='empire_w']"/>
     <xsl:template match="Kingdom[@id='khuzait']"/>
     <xsl:template match="Kingdom[@id='sturgia']"/>
     <xsl:template match="Kingdom[@id='vlandia']"/>

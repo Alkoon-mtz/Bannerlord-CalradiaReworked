@@ -214,8 +214,8 @@
     <xsl:template match="NPCCharacter[@id='lord_SE9_c2']"/>
     
     <!-- Empire West -->
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_7']"/> -->
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_8']"/> -->
+    <xsl:template match="NPCCharacter[@id='lord_1_7']"/>
+    <xsl:template match="NPCCharacter[@id='lord_1_8']"/>
     <xsl:template match="NPCCharacter[@id='lord_1_75']"/>
     <xsl:template match="NPCCharacter[@id='lord_1_34']"/>
     <xsl:template match="NPCCharacter[@id='lord_1_24']"/>
