@@ -256,8 +256,8 @@
         </clan_names>
         <cultural_feats>
             <feat id="sturgian_cheaper_recruits_infantry" />
-            <feat id="sturgian_decreased_cohesion_rate" />
-            <feat id="sturgian_increased_decision_penalty" />
+            <feat id="empire_decreased_garrison_wage" />
+            <feat id="vlandian_increased_army_influence_cost" />
         </cultural_feats>
         <possible_clan_banner_icon_ids>
             <icon id="140" />

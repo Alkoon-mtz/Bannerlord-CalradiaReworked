@@ -22,7 +22,6 @@ Customize:
     weapon_practice_stage_1 ?
     tournament_team_templates
     basic_mercenary_troops
-Change culture feats
 
 Aserai:
 Add lords

@@ -227,7 +227,7 @@
         <cultural_feats>
             <feat id="khuzait_cheaper_recruits_mounted" />
             <feat id="khuzait_increased_animal_production" />
-            <feat id="khuzait_decreased_town_tax" />
+            <feat id="vlandian_increased_army_influence_cost" />
         </cultural_feats>
         <possible_clan_banner_icon_ids>
             <icon id="121" />

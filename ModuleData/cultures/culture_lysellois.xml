@@ -256,7 +256,7 @@
         </clan_names>
         <cultural_feats>
             <feat id="vlandian_renown_mercenary_income" />
-            <feat id="vlandian_villages_production_bonus" />
+            <feat id="khuzait_cheaper_recruits_mounted" />
             <feat id="vlandian_increased_army_influence_cost" />
         </cultural_feats>
         <possible_clan_banner_icon_ids>

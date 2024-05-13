@@ -256,8 +256,8 @@
         </clan_names>
         <cultural_feats>
             <feat id="vlandian_renown_mercenary_income" />
-            <feat id="vlandian_villages_production_bonus" />
-            <feat id="vlandian_increased_army_influence_cost" />
+            <feat id="sturgian_cheaper_recruits_infantry" />
+            <feat id="empire_slower_hearth_production" />
         </cultural_feats>
         <possible_clan_banner_icon_ids>
             <icon id="140" />

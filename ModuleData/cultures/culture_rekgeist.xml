@@ -256,7 +256,7 @@
         </clan_names>
         <cultural_feats>
             <feat id="sturgian_cheaper_recruits_infantry" />
-            <feat id="sturgian_decreased_cohesion_rate" />
+            <feat id="vlandian_renown_mercenary_income" />
             <feat id="sturgian_increased_decision_penalty" />
         </cultural_feats>
         <possible_clan_banner_icon_ids>
