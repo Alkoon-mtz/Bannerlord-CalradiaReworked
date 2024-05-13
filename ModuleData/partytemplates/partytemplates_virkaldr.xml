@@ -37,8 +37,8 @@
     </MBPartyTemplate>
     <MBPartyTemplate id="virkaldr_militia_template">
         <stacks>
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sturgian_militia_spearman" />
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sturgian_militia_archer" />
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.virkaldr_militia_footmen" />
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.virkaldr_militia_archer" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="virkaldr_rebels_template">

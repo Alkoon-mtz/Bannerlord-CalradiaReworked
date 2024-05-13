@@ -28,8 +28,8 @@
     </MBPartyTemplate>
     <MBPartyTemplate id="scarhok_militia_template">
         <stacks>
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.vlandian_militia_spearman" />
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.vlandian_militia_archer" />
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.scarhok_militia_footmen" />
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.scarhok_militia_archer" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="scarhok_kingdom_hero_party_template">

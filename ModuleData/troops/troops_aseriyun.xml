@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
+    <!-- Villager -->
     <NPCCharacter id="villager_aseriyun"
         default_group="Infantry"
         level="1"
@@ -210,6 +211,153 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
+
+    <!-- Militia -->
+    <NPCCharacter id="aseriyun_militia_archer"
+        default_group="Ranged"
+        level="11"
+        name="{=aseriyun_militia_archer}Aseriyun Militia Archer"
+        occupation="Soldier"
+        culture="Culture.aserai"
+        skill_template="SkillSet.militia_archer_t2">
+        <face>
+            <face_key_template value="BodyProperty.fighter_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.aserai_sword_2_t2"/>
+                <equipment slot="Item1"
+                    id="Item.battania_targe_b"/>
+                <equipment slot="Item2"
+                    id="Item.highland_ranger_bow"/>
+                <equipment slot="Item3"
+                    id="Item.default_arrows"/>
+                <equipment slot="Head"
+                    id="Item.TV_aserai_helmet_d"/>
+                <equipment slot="Body"
+                    id="Item.desert_padded_cloth"/>
+                <equipment slot="Leg"
+                    id="Item.TV_aserai_boots_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="aseriyun_militia_veteran_archer"
+        default_group="Ranged"
+        level="16"
+        name="{=aseriyun_militia_veteran_archer}Aseriyun Militia Veteran Archer"
+        occupation="Soldier"
+        culture="Culture.aserai"
+        skill_template="SkillSet.militia_archer_t3">
+        <face>
+            <face_key_template value="BodyProperty.fighter_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.aserai_sword_2_t2"/>
+                <equipment slot="Item1"
+                    id="Item.battania_targe_b"/>
+                <equipment slot="Item2"
+                    id="Item.glen_ranger_bow"/>
+                <equipment slot="Item3"
+                    id="Item.default_arrows"/>
+                <equipment slot="Head"
+                    id="Item.TV_aserai_helmet_d"/>
+                <equipment slot="Body"
+                    id="Item.desert_padded_cloth"/>
+                <equipment slot="Leg"
+                    id="Item.TV_aserai_boots_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="aseriyun_militia_footmen"
+        default_group="Infantry"
+        level="11"
+        name="{=aseriyun_militia_footmen}Aseriyun Militia Footmen"
+        occupation="Soldier"
+        culture="Culture.aserai"
+        skill_template="SkillSet.militia_shock_t2">
+        <face>
+            <face_key_template value="BodyProperty.fighter_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.battania_2haxe_1_t2"/>
+                <equipment slot="Head"
+                    id="Item.TV_aserai_helmet_d"/>
+                <equipment slot="Body"
+                    id="Item.desert_padded_cloth"/>
+                <equipment slot="Leg"
+                    id="Item.TV_aserai_boots_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="aseriyun_militia_veteran_footman"
+        default_group="Infantry"
+        level="16"
+        name="{=aseriyun_militia_veteran_footman}Aseriyun Militia Veteran Footmen"
+        occupation="Soldier"
+        culture="Culture.aserai"
+        skill_template="SkillSet.militia_shock_t3">
+        <face>
+            <face_key_template value="BodyProperty.fighter_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.battania_2hsword_1_t2"/>
+                <equipment slot="Head"
+                    id="Item.TV_aserai_helmet_d"/>
+                <equipment slot="Body"
+                    id="Item.desert_padded_cloth"/>
+                <equipment slot="Leg"
+                    id="Item.TV_aserai_boots_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
     <!-- Elitetroop Aseriyun -->
     <NPCCharacter id="aseriyun_quatal"
         default_group="Cavalry"

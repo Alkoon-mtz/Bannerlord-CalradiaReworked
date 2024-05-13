@@ -41,6 +41,157 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
+
+    <!-- Militia -->
+    <NPCCharacter id="kratorios_militia_archer"
+        default_group="Ranged"
+        level="11"
+        name="{=kratorios_militia_archer}Kratorios Militia Archer"
+        occupation="Soldier"
+        culture="Culture.empire"
+        skill_template="SkillSet.militia_crossbowman_t2">
+        <face>
+            <face_key_template value="BodyProperty.fighter_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.iron_spatha_sword_t2"/>
+                <equipment slot="Item1"
+                    id="Item.reinforced_kite_shield"/>
+                <equipment slot="Item2"
+                    id="Item.crossbow_a"/>
+                <equipment slot="Item3"
+                    id="Item.bolt_e"/>
+                <equipment slot="Head"
+                    id="Item.AR_intercisa_helmet_b"/>
+                <equipment slot="Body"
+                    id="Item.empire_warrior_padded_armor_g"/>
+                <equipment slot="Leg"
+                    id="Item.empire_horseman_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="kratorios_militia_veteran_archer"
+        default_group="Ranged"
+        level="16"
+        name="{=kratorios_militia_veteran_archer}Kratorios Militia Veteran Archer"
+        occupation="Soldier"
+        culture="Culture.empire"
+        skill_template="SkillSet.militia_crossbowman_t3">
+        <face>
+            <face_key_template value="BodyProperty.fighter_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.iron_spatha_sword_t2"/>
+                <equipment slot="Item1"
+                    id="Item.reinforced_kite_shield"/>
+                <equipment slot="Item2"
+                    id="Item.crossbow_a"/>
+                <equipment slot="Item3"
+                    id="Item.bolt_e"/>
+                <equipment slot="Head"
+                    id="Item.AR_intercisa_helmet_b"/>
+                <equipment slot="Body"
+                    id="Item.empire_warrior_padded_armor_g"/>
+                <equipment slot="Leg"
+                    id="Item.empire_horseman_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="kratorios_militia_footmen"
+        default_group="Infantry"
+        level="11"
+        name="{=kratorios_militia_footmen}Kratorios Militia Footmen"
+        occupation="Soldier"
+        culture="Culture.empire"
+        skill_template="SkillSet.militia_melee_t2">
+        <face>
+            <face_key_template value="BodyProperty.fighter_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.empire_sword_1_t2"/>
+                <equipment slot="Item1"
+                    id="Item.reinforced_kite_shield"/>
+                <equipment slot="Head"
+                    id="Item.AR_intercisa_helmet_b"/>
+                <equipment slot="Body"
+                    id="Item.empire_warrior_padded_armor_g"/>
+                <equipment slot="Leg"
+                    id="Item.empire_horseman_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="kratorios_militia_veteran_footman"
+        default_group="Infantry"
+        level="16"
+        name="{=kratorios_militia_veteran_footman}Kratorios Militia Veteran Footmen"
+        occupation="Soldier"
+        culture="Culture.empire"
+        skill_template="SkillSet.militia_melee_t3">
+        <face>
+            <face_key_template value="BodyProperty.fighter_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.empire_sword_4_t4"/>
+                <equipment slot="Item1"
+                    id="Item.fortified_kite_shield"/>
+                <equipment slot="Head"
+                    id="Item.AR_intercisa_helmet_b"/>
+                <equipment slot="Body"
+                    id="Item.empire_warrior_padded_armor_g"/>
+                <equipment slot="Leg"
+                    id="Item.empire_horseman_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
     <!-- Elitetroop Kratorios -->
     <NPCCharacter id="kratorios_vallistras"
         default_group="HorseArcher"

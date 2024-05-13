@@ -41,6 +41,161 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
+
+    <!-- Militia -->
+    <NPCCharacter id="monghatai_militia_archer"
+        default_group="Ranged"
+        level="11"
+        name="{=monghatai_militia_archer}Monghatai Militia Archer"
+        occupation="Soldier"
+        culture="Culture.khuzait"
+        skill_template="SkillSet.militia_archer_t2">
+        <face>
+            <face_key_template value="BodyProperty.fighter_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.simple_back_sword_t2"/>
+                <equipment slot="Item1"
+                    id="Item.eastern_wicker_sparring_shield"/>
+                <equipment slot="Item2"
+                    id="Item.highland_ranger_bow"/>
+                <equipment slot="Item3"
+                    id="Item.default_arrows"/>
+                <equipment slot="Head"
+                    id="Item.AR_khuzait_helmet_d2"/>
+                <equipment slot="Body"
+                    id="Item.khuzait_fortified_armor"/>
+                <equipment slot="Gloves"
+                    id="Item.buttoned_leather_bracers"/>
+                <equipment slot="Leg"
+                    id="Item.ao_durkhan_tassled_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="monghatai_militia_veteran_archer"
+        default_group="Ranged"
+        level="16"
+        name="{=monghatai_militia_veteran_archer}Monghatai Militia Veteran Archer"
+        occupation="Soldier"
+        culture="Culture.khuzait"
+        skill_template="SkillSet.militia_archer_t3">
+        <face>
+            <face_key_template value="BodyProperty.fighter_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.simple_back_sword_t2"/>
+                <equipment slot="Item1"
+                    id="Item.eastern_wicker_sparring_shield"/>
+                <equipment slot="Item2"
+                    id="Item.glen_ranger_bow"/>
+                <equipment slot="Item3"
+                    id="Item.default_arrows"/>
+                <equipment slot="Head"
+                    id="Item.AR_khuzait_helmet_d2"/>
+                <equipment slot="Body"
+                    id="Item.khuzait_fortified_armor"/>
+                <equipment slot="Gloves"
+                    id="Item.buttoned_leather_bracers"/>
+                <equipment slot="Leg"
+                    id="Item.ao_durkhan_tassled_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="monghatai_militia_footmen"
+        default_group="Infantry"
+        level="11"
+        name="{=monghatai_militia_footmen}Monghatai Militia Footmen"
+        occupation="Soldier"
+        culture="Culture.khuzait"
+        skill_template="SkillSet.militia_shock_t2">
+        <face>
+            <face_key_template value="BodyProperty.fighter_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.battania_2haxe_1_t2"/>
+                <equipment slot="Head"
+                    id="Item.AR_khuzait_helmet_d2"/>
+                <equipment slot="Body"
+                    id="Item.khuzait_fortified_armor"/>
+                <equipment slot="Gloves"
+                    id="Item.buttoned_leather_bracers"/>
+                <equipment slot="Leg"
+                    id="Item.ao_durkhan_tassled_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="monghatai_militia_veteran_footman"
+        default_group="Infantry"
+        level="16"
+        name="{=monghatai_militia_veteran_footman}Monghatai Militia Veteran Footmen"
+        occupation="Soldier"
+        culture="Culture.khuzait"
+        skill_template="SkillSet.militia_shock_t3">
+        <face>
+            <face_key_template value="BodyProperty.fighter_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.battania_2hsword_1_t2"/>
+                <equipment slot="Head"
+                    id="Item.AR_khuzait_helmet_d2"/>
+                <equipment slot="Body"
+                    id="Item.khuzait_fortified_armor"/>
+                <equipment slot="Gloves"
+                    id="Item.buttoned_leather_bracers"/>
+                <equipment slot="Leg"
+                    id="Item.ao_durkhan_tassled_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2"
+                    id="Item.throwing_stone"/>
+                <equipment slot="Body"
+                    id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg"
+                    id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
 <!-- Elitetroop Monghatai -->
     <NPCCharacter id="monghatai_ragar"
         default_group="HorseArcher"

@@ -325,6 +325,121 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
+
+    <!-- Militia -->
+    <NPCCharacter id="lysellois_militia_archer"
+        default_group="Ranged"
+        level="11"
+        name="{=lysellois_militia_archer}Lysellois Militia Archer"
+        occupation="Soldier"
+        culture="Culture.vlandia"
+        skill_template="SkillSet.militia_crossbowman_t2">
+        <face>
+            <face_key_template value="BodyProperty.fighter_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+                <equipment slot="Item1" id="Item.flat_heater_shield"/>
+                <equipment slot="Item2" id="Item.crossbow_a"/>
+                <equipment slot="Item3" id="Item.bolt_e"/>
+                <equipment slot="Head" id="Item.spangenhelm_with_leather"/>
+                <equipment slot="Cape" id="Item.hood"/>
+                <equipment slot="Body" id="Item.nordic_sloven"/>
+                <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lysellois_militia_veteran_archer"
+        default_group="Ranged"
+        level="16"
+        name="{=lysellois_militia_veteran_archer}Lysellois Militia Veteran Archer"
+        occupation="Soldier"
+        culture="Culture.vlandia"
+        skill_template="SkillSet.militia_crossbowman_t3">
+        <face>
+            <face_key_template value="BodyProperty.fighter_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+                <equipment slot="Item1" id="Item.flat_heater_shield"/>
+                <equipment slot="Item2" id="Item.crossbow_a"/>
+                <equipment slot="Item3" id="Item.bolt_e"/>
+                <equipment slot="Head" id="Item.spangenhelm_with_leather"/>
+                <equipment slot="Cape" id="Item.hood"/>
+                <equipment slot="Body" id="Item.nordic_sloven"/>
+                <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lysellois_militia_footmen"
+        default_group="Infantry"
+        level="11"
+        name="{=lysellois_militia_footmen}Lysellois Militia Footmen"
+        occupation="Soldier"
+        culture="Culture.vlandia"
+        skill_template="SkillSet.militia_melee_t2">
+        <face>
+            <face_key_template value="BodyProperty.fighter_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+                <equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+                <equipment slot="Head" id="Item.spangenhelm_with_leather"/>
+                <equipment slot="Cape" id="Item.hood"/>
+                <equipment slot="Body" id="Item.nordic_sloven"/>
+                <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lysellois_militia_veteran_footman"
+        default_group="Infantry"
+        level="16"
+        name="{=lysellois_militia_veteran_footman}Lysellois Militia Veteran Footmen"
+        occupation="Soldier"
+        culture="Culture.vlandia"
+        skill_template="SkillSet.militia_melee_t3">
+        <face>
+            <face_key_template value="BodyProperty.fighter_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+                <equipment slot="Item1" id="Item.wide_heater_shield"/>
+                <equipment slot="Head" id="Item.spangenhelm_with_leather"/>
+                <equipment slot="Cape" id="Item.hood"/>
+                <equipment slot="Body" id="Item.nordic_sloven"/>
+                <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
 <!-- Elitetroop Lysellois -->
     <NPCCharacter id="lysellois_chevalier"
         default_group="Cavalry"

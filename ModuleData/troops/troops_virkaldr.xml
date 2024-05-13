@@ -325,7 +325,118 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-<!-- Elitetroop Scarhok -->
+
+    <!-- Militia -->
+    <NPCCharacter id="virkaldr_militia_archer"
+        default_group="Ranged"
+        level="11"
+        name="{=virkaldr_militia_archer}Virkaldr Militia Archer"
+        occupation="Soldier"
+        culture="Culture.sturgia"
+        skill_template="SkillSet.militia_archer_t2">
+        <face>
+            <face_key_template value="BodyProperty.fighter_virkaldr" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+                <equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+                <equipment slot="Item2" id="Item.highland_ranger_bow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.AR_sturgia_helmet_a"/>
+                <equipment slot="Body" id="Item.northern_lamellar_armor"/>
+                <equipment slot="Leg" id="Item.rough_tied_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="virkaldr_militia_veteran_archer"
+        default_group="Ranged"
+        level="16"
+        name="{=virkaldr_militia_veteran_archer}Virkaldr Militia Veteran Archer"
+        occupation="Soldier"
+        culture="Culture.sturgia"
+        skill_template="SkillSet.militia_archer_t3">
+        <face>
+            <face_key_template value="BodyProperty.fighter_virkaldr" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+                <equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+                <equipment slot="Item2" id="Item.glen_ranger_bow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.AR_sturgia_helmet_a"/>
+                <equipment slot="Body" id="Item.northern_lamellar_armor"/>
+                <equipment slot="Leg" id="Item.rough_tied_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="virkaldr_militia_footmen"
+        default_group="Infantry"
+        level="11"
+        name="{=virkaldr_militia_footmen}Virkaldr Militia Footmen"
+        occupation="Soldier"
+        culture="Culture.sturgia"
+        skill_template="SkillSet.militia_melee_t2">
+        <face>
+            <face_key_template value="BodyProperty.fighter_virkaldr" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+                <equipment slot="Item1" id="Item.sturgia_old_shield_a"/>
+                <equipment slot="Head" id="Item.AR_sturgia_helmet_a"/>
+                <equipment slot="Body" id="Item.northern_lamellar_armor"/>
+                <equipment slot="Leg" id="Item.rough_tied_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="virkaldr_militia_veteran_footman"
+        default_group="Infantry"
+        level="16"
+        name="{=virkaldr_militia_veteran_footman}Virkaldr Militia Veteran Footmen"
+        occupation="Soldier"
+        culture="Culture.sturgia"
+        skill_template="SkillSet.militia_melee_t3">
+        <face>
+            <face_key_template value="BodyProperty.fighter_virkaldr" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+                <equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+                <equipment slot="Head" id="Item.AR_sturgia_helmet_a"/>
+                <equipment slot="Body" id="Item.northern_lamellar_armor"/>
+                <equipment slot="Leg" id="Item.rough_tied_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
+<!-- Elitetroop Virkaldr -->
     <NPCCharacter id="virkaldr_bjofandi"
         default_group="Infantry"
         level="16"
@@ -576,7 +687,7 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-<!-- Regulartroop Scarhok -->
+<!-- Regulartroop Virkaldr -->
     <NPCCharacter id="virkaldr_recruit"
         default_group="Infantry"
         level="6"
@@ -692,7 +803,7 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <!-- Left Scarhok -->
+    <!-- Left Virkaldr -->
     <NPCCharacter id="virkaldr_hestrinn"
         default_group="Infantry"
         level="16"
@@ -888,7 +999,7 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <!-- Midle Scarhok -->
+    <!-- Midle Virkaldr -->
     <NPCCharacter id="virkaldr_bogdi"
         default_group="Ranged"
         level="16"
@@ -1012,7 +1123,7 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <!-- Right Scarhok -->
+    <!-- Right Virkaldr -->
     <NPCCharacter id="virkaldr_rungiker"
         default_group="Infantry"
         level="11"

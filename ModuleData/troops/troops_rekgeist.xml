@@ -325,6 +325,117 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
+
+    <!-- Militia -->
+    <NPCCharacter id="rekgeist_militia_archer"
+        default_group="Ranged"
+        level="11"
+        name="{=rekgeist_militia_archer}Rekgeist Militia Archer"
+        occupation="Soldier"
+        culture="Culture.rekgeist"
+        skill_template="SkillSet.militia_crossbowman_t2">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rekgeist" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item2" id="Item.simple_sparth_axe_t2"/>
+                <equipment slot="Item2" id="Item.crossbow_a"/>
+                <equipment slot="Item3" id="Item.bolt_e"/>
+                <equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+                <equipment slot="Body" id="Item.ao_mail_shirt_sleeveless"/>
+                <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rekgeist_militia_veteran_archer"
+        default_group="Ranged"
+        level="16"
+        name="{=rekgeist_militia_veteran_archer}Rekgeist Militia Veteran Archer"
+        occupation="Soldier"
+        culture="Culture.rekgeist"
+        skill_template="SkillSet.militia_crossbowman_t3">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rekgeist" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item2" id="Item.simple_sparth_axe_t2"/>
+                <equipment slot="Item2" id="Item.crossbow_a"/>
+                <equipment slot="Item3" id="Item.bolt_e"/>
+                <equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+                <equipment slot="Body" id="Item.ao_mail_shirt_sleeveless"/>
+                <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rekgeist_militia_footmen"
+        default_group="Infantry"
+        level="11"
+        name="{=rekgeist_militia_footmen}Rekgeist Militia Footmen"
+        occupation="Soldier"
+        culture="Culture.rekgeist"
+        skill_template="SkillSet.militia_shock_t2">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rekgeist" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.battania_2hsword_1_t2"/>
+                <equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+                <equipment slot="Body" id="Item.ao_mail_shirt_sleeveless"/>
+                <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rekgeist_militia_veteran_footman"
+        default_group="Infantry"
+        level="16"
+        name="{=rekgeist_militia_veteran_footman}Rekgeist Militia Veteran Footmen"
+        occupation="Soldier"
+        culture="Culture.rekgeist"
+        skill_template="SkillSet.militia_shock_t3">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rekgeist" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.justicier_2hsword"/>
+                <equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+                <equipment slot="Body" id="Item.ao_mail_shirt_sleeveless"/>
+                <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
 <!-- Elitetroop Rekgeist -->
     <NPCCharacter id="rekgeist_bidenhänder"
         default_group="Infantry"

@@ -28,8 +28,8 @@
     </MBPartyTemplate>
     <MBPartyTemplate id="kratorios_militia_template">
         <stacks>
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.imperial_militia_spearman" />
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.imperial_militia_archer" />
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.kratorios_militia_footmen" />
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.kratorios_militia_archer" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="kratorios_kingdom_hero_party_template">

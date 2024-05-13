@@ -3,7 +3,7 @@
     <NPCCharacter id="caravan_master_zulizwe"
             default_group="Infantry"
             level="26"
-            name="{=TpECDErA}Imperial Caravan Master"
+            name="{=TpECDErA}Zulizwo Caravan Master"
             occupation="CaravanGuard"
             culture="Culture.zulizwe">
         <face>

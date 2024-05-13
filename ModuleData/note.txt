@@ -18,8 +18,6 @@ To look:
 ALL Cultures:
 Female bodytemplate
 Customize:
-    militia_spearman + veteran
-    militia_archer + veteran
     townsman + variant + City NPC (ransom_broker etc)
     weapon_practice_stage_1 ?
     tournament_team_templates
