@@ -2,7 +2,7 @@
 <NPCCharacters>
     <!-- Wanderers -->
     <NPCCharacter id="spc_wanderer_aseriyun_0"
-        name="{=spc_wanderer_aseriyun_0}{FIRSTNAME} the Knight"
+        name="{=spc_wanderer_aseriyun_0}{FIRSTNAME} the Lucky"
         voice="earnest"
         age="25"
         default_group="Infantry"
@@ -25,7 +25,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_aseriyun_1"
-        name="{=spc_wanderer_aseriyun_1}{FIRSTNAME} the Fierce"
+        name="{=spc_wanderer_aseriyun_1}{FIRSTNAME} the Longknife"
         voice="earnest"
         age="25"
         default_group="Infantry"
@@ -48,7 +48,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_aseriyun_2"
-        name="{=spc_wanderer_aseriyun_2}{FIRSTNAME} the Acute"
+        name="{=spc_wanderer_aseriyun_2}{FIRSTNAME} the Scorpio"
         voice="earnest"
         age="25"
         default_group="Infantry"
@@ -71,7 +71,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_aseriyun_3"
-        name="{=spc_wanderer_aseriyun_3}{FIRSTNAME} the Simpleton"
+        name="{=spc_wanderer_aseriyun_3}{FIRSTNAME} the Runner"
         voice="earnest"
         age="25"
         default_group="Infantry"
@@ -92,7 +92,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_aseriyun_0f"
-        name="{=spc_wanderer_aseriyun_0f}{FIRSTNAME} the Banner Bearer"
+        name="{=spc_wanderer_aseriyun_0f}{FIRSTNAME} the Golden"
         voice="earnest"
         age="25"
         default_group="Infantry"
@@ -103,7 +103,7 @@
         occupation="Wanderer"
         skill_template="SkillSet.spc_wanderer_aseriyun_0_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_aseriyun" />
+            <face_key_template value="BodyProperty.villager_aseriyun_f" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />
@@ -116,7 +116,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_aseriyun_1f"
-        name="{=spc_wanderer_aseriyun_1f}{FIRSTNAME} the Fearless"
+        name="{=spc_wanderer_aseriyun_1f}{FIRSTNAME} the Guard"
         voice="earnest"
         age="25"
         default_group="Infantry"
@@ -127,7 +127,7 @@
         occupation="Wanderer"
         skill_template="SkillSet.spc_wanderer_aseriyun_1_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_aseriyun" />
+            <face_key_template value="BodyProperty.villager_aseriyun_f" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />
@@ -140,7 +140,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_aseriyun_2f"
-        name="{=spc_wanderer_aseriyun_2f}{FIRSTNAME} the Kind"
+        name="{=spc_wanderer_aseriyun_2f}{FIRSTNAME} the Patroler"
         voice="earnest"
         age="25"
         default_group="Infantry"
@@ -151,7 +151,7 @@
         occupation="Wanderer"
         skill_template="SkillSet.spc_wanderer_aseriyun_2_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_aseriyun" />
+            <face_key_template value="BodyProperty.villager_aseriyun_f" />
         </face>
         <Traits>
             <Trait id="Mercy" value="1" />
@@ -164,7 +164,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_aseriyun_3f"
-        name="{=spc_wanderer_aseriyun_3f}{FIRSTNAME} the Fallen"
+        name="{=spc_wanderer_aseriyun_3f}{FIRSTNAME} the Slicer"
         voice="earnest"
         age="25"
         default_group="Infantry"
@@ -175,7 +175,7 @@
         occupation="Wanderer"
         skill_template="SkillSet.spc_wanderer_aseriyun_3_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_aseriyun" />
+            <face_key_template value="BodyProperty.villager_aseriyun_f" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />

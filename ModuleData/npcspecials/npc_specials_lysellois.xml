@@ -103,7 +103,7 @@
         occupation="Wanderer"
         skill_template="SkillSet.spc_wanderer_lysellois_0_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_lysellois" />
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />
@@ -127,7 +127,7 @@
         occupation="Wanderer"
         skill_template="SkillSet.spc_wanderer_lysellois_1_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_lysellois" />
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />
@@ -151,7 +151,7 @@
         occupation="Wanderer"
         skill_template="SkillSet.spc_wanderer_lysellois_2_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_lysellois" />
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
         </face>
         <Traits>
             <Trait id="Mercy" value="1" />
@@ -175,7 +175,7 @@
         occupation="Wanderer"
         skill_template="SkillSet.spc_wanderer_lysellois_3_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_lysellois" />
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />

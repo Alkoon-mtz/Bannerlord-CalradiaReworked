@@ -2,7 +2,7 @@
 <NPCCharacters>
     <!-- Wanderers -->
     <NPCCharacter id="spc_wanderer_qinguo_0"
-        name="{=spc_wanderer_qinguo_0}{FIRSTNAME} the Knight"
+        name="{=spc_wanderer_qinguo_0}{FIRSTNAME} the Great"
         voice="earnest"
         age="25"
         default_group="Infantry"
@@ -25,7 +25,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_qinguo_1"
-        name="{=spc_wanderer_qinguo_1}{FIRSTNAME} the Fierce"
+        name="{=spc_wanderer_qinguo_1}{FIRSTNAME} the Smart"
         voice="earnest"
         age="25"
         default_group="Infantry"
@@ -48,7 +48,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_qinguo_2"
-        name="{=spc_wanderer_qinguo_2}{FIRSTNAME} the Acute"
+        name="{=spc_wanderer_qinguo_2}{FIRSTNAME} the Fish"
         voice="earnest"
         age="25"
         default_group="Infantry"
@@ -71,7 +71,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_qinguo_3"
-        name="{=spc_wanderer_qinguo_3}{FIRSTNAME} the Simpleton"
+        name="{=spc_wanderer_qinguo_3}{FIRSTNAME} the Spicevendor"
         voice="earnest"
         age="25"
         default_group="Infantry"
@@ -92,7 +92,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_qinguo_0f"
-        name="{=spc_wanderer_qinguo_0f}{FIRSTNAME} the Banner Bearer"
+        name="{=spc_wanderer_qinguo_0f}{FIRSTNAME} the Duelist"
         voice="earnest"
         age="25"
         default_group="Infantry"
@@ -103,7 +103,7 @@
         occupation="Wanderer"
         skill_template="SkillSet.spc_wanderer_qinguo_0_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_qinguo" />
+            <face_key_template value="BodyProperty.villager_qinguo_f" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />
@@ -116,7 +116,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_qinguo_1f"
-        name="{=spc_wanderer_qinguo_1f}{FIRSTNAME} the Fearless"
+        name="{=spc_wanderer_qinguo_1f}{FIRSTNAME} the Alone"
         voice="earnest"
         age="25"
         default_group="Infantry"
@@ -127,7 +127,7 @@
         occupation="Wanderer"
         skill_template="SkillSet.spc_wanderer_qinguo_1_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_qinguo" />
+            <face_key_template value="BodyProperty.villager_qinguo_f" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />
@@ -140,7 +140,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_qinguo_2f"
-        name="{=spc_wanderer_qinguo_2f}{FIRSTNAME} the Kind"
+        name="{=spc_wanderer_qinguo_2f}{FIRSTNAME} the Tactical"
         voice="earnest"
         age="25"
         default_group="Infantry"
@@ -151,7 +151,7 @@
         occupation="Wanderer"
         skill_template="SkillSet.spc_wanderer_qinguo_2_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_qinguo" />
+            <face_key_template value="BodyProperty.villager_qinguo_f" />
         </face>
         <Traits>
             <Trait id="Mercy" value="1" />
@@ -164,7 +164,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_qinguo_3f"
-        name="{=spc_wanderer_qinguo_3f}{FIRSTNAME} the Fallen"
+        name="{=spc_wanderer_qinguo_3f}{FIRSTNAME} the Tiger"
         voice="earnest"
         age="25"
         default_group="Infantry"
@@ -175,7 +175,7 @@
         occupation="Wanderer"
         skill_template="SkillSet.spc_wanderer_qinguo_3_skills">
         <face>
-            <face_key_template value="BodyProperty.fighter_qinguo" />
+            <face_key_template value="BodyProperty.villager_qinguo_f" />
         </face>
         <Traits>
             <Trait id="Valor" value="1" />
