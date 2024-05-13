@@ -73,14 +73,14 @@
         default_battle_equipment_roster="EquipmentRoster.stu_civ_template_default"
         default_civilian_equipment_roster="EquipmentRoster.stu_civ_template_default"
         duel_preset_equipment_roster="EquipmentRoster.stu_duel_preset_template"
-        board_game_type="Konane">
+        board_game_type="MuTorere">
         <vassal_reward_items>
             <item id="Item.rekgeist_2hsword_1_t5" />
         </vassal_reward_items>
         <banner_bearer_replacement_weapons>
             <item id="Item.sturgia_sword_1_t2" />
             <item id="Item.sturgia_sword_2_t3" />
-            <item id="Item.sturgia_sword_3_t4" />
+            <item id="Item.sturgia_sword_4_t4" />
             <item id="Item.sturgia_sword_5_t5" />
         </banner_bearer_replacement_weapons>
         <default_policies>
@@ -309,32 +309,16 @@
             <template name="NPCCharacter.spc_headman_rekgeist_1f" />
         </notable_and_wanderer_templates>
         <lord_templates>
-            <template name="NPCCharacter.spc_skolderbrotva_leader_0" />
-            <template name="NPCCharacter.spc_skolderbrotva_leader_1" />
-            <template name="NPCCharacter.spc_skolderbrotva_leader_2" />
-            <template name="NPCCharacter.spc_skolderbrotva_leader_3" />
             <template name="NPCCharacter.spc_lakepike_leader_0" />
             <template name="NPCCharacter.spc_lakepike_leader_1" />
             <template name="NPCCharacter.spc_lakepike_leader_2" />
             <template name="NPCCharacter.spc_lakepike_leader_3" />
-            <template name="NPCCharacter.spc_forest_people_leader_0" />
-            <template name="NPCCharacter.spc_forest_people_leader_1" />
-            <template name="NPCCharacter.spc_forest_people_leader_2" />
-            <template name="NPCCharacter.spc_forest_people_leader_3" />
         </lord_templates>
         <rebellion_hero_templates>
-            <template name="NPCCharacter.spc_skolderbrotva_leader_0" />
-            <template name="NPCCharacter.spc_skolderbrotva_leader_1" />
-            <template name="NPCCharacter.spc_skolderbrotva_leader_2" />
-            <template name="NPCCharacter.spc_skolderbrotva_leader_3" />
             <template name="NPCCharacter.spc_lakepike_leader_0" />
             <template name="NPCCharacter.spc_lakepike_leader_1" />
             <template name="NPCCharacter.spc_lakepike_leader_2" />
             <template name="NPCCharacter.spc_lakepike_leader_3" />
-            <template name="NPCCharacter.spc_forest_people_leader_0" />
-            <template name="NPCCharacter.spc_forest_people_leader_1" />
-            <template name="NPCCharacter.spc_forest_people_leader_2" />
-            <template name="NPCCharacter.spc_forest_people_leader_3" />
         </rebellion_hero_templates>
         <tournament_team_templates_one_participant>
             <template name="NPCCharacter.tournament_template_sturgia_one_participant_set_v1" />

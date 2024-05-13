@@ -52,8 +52,4 @@
             <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.monghatai_daikchin" />
         </stacks>
     </MBPartyTemplate>
-
-    <!-- Party Civilian end -->
-    <!-- Party Lords -->
-    <!-- Party Lords end -->
 </partyTemplates>

@@ -73,14 +73,14 @@
         default_battle_equipment_roster="EquipmentRoster.ase_civ_template_default"
         default_civilian_equipment_roster="EquipmentRoster.ase_civ_template_default"
         duel_preset_equipment_roster="EquipmentRoster.ase_duel_preset_template"
-        board_game_type="Seega">
+        board_game_type="Tablut">
         <vassal_reward_items>
             <item id="Item.rekgeist_2hsword_1_t5" />
         </vassal_reward_items>
         <banner_bearer_replacement_weapons>
             <item id="Item.sturgia_sword_1_t2" />
             <item id="Item.sturgia_sword_2_t3" />
-            <item id="Item.sturgia_sword_3_t4" />
+            <item id="Item.sturgia_sword_4_t4" />
             <item id="Item.sturgia_sword_5_t5" />
         </banner_bearer_replacement_weapons>
         <default_policies>

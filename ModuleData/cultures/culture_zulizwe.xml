@@ -74,7 +74,7 @@
         default_battle_equipment_roster="EquipmentRoster.emp_civ_template_default"
         default_civilian_equipment_roster="EquipmentRoster.emp_civ_template_default"
         duel_preset_equipment_roster="EquipmentRoster.emp_duel_preset_template"
-        board_game_type="Tablut">
+        board_game_type="Seega">
         <vassal_reward_items>
             <item id="Item.justicier_2hsword" />
         </vassal_reward_items>

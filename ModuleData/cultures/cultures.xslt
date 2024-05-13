@@ -12,5 +12,9 @@
     <xsl:template match="Culture[@id='khuzait']"/>
     <xsl:template match="Culture[@id='sturgia']"/>
     <xsl:template match="Culture[@id='vlandia']"/>
+
+    <xsl:template match="Culture[@id='darshi']"/>
+    <xsl:template match="Culture[@id='nord']"/>
+    <xsl:template match="Culture[@id='vakken']"/>
     
 </xsl:stylesheet>

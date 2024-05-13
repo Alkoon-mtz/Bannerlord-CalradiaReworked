@@ -73,7 +73,7 @@
         default_battle_equipment_roster="EquipmentRoster.vla_civ_template_default"
         default_civilian_equipment_roster="EquipmentRoster.vla_civ_template_default"
         duel_preset_equipment_roster="EquipmentRoster.vla_duel_preset_template"
-        board_game_type="MuTorere">
+        board_game_type="Konane">
         <vassal_reward_items>
             <item id="Item.sentinel_2hsword" />
         </vassal_reward_items>

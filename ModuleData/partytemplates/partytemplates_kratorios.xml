@@ -6,32 +6,6 @@
             <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_kratorios" />
         </stacks>
     </MBPartyTemplate>
-    <MBPartyTemplate id="kratorios_rebels_template">
-        <stacks>
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.kratorios_recruit" />
-        </stacks>
-    </MBPartyTemplate>
-    <MBPartyTemplate id="kratorios_caravan_template">
-        <stacks>
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_empire" />
-            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_empire" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_empire" />
-        </stacks>
-    </MBPartyTemplate>
-    <MBPartyTemplate id="kratorios_elite_caravan_template">
-        <stacks>
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_empire" />
-            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_empire" />
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_empire" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_empire" />
-        </stacks>
-    </MBPartyTemplate>
-    <MBPartyTemplate id="kratorios_militia_template">
-        <stacks>
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.kratorios_militia_footmen" />
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.kratorios_militia_archer" />
-        </stacks>
-    </MBPartyTemplate>
     <MBPartyTemplate id="kratorios_kingdom_hero_party_template">
         <stacks>
             <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.kratorios_recruit" />
@@ -46,13 +20,36 @@
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.kratorios_skopeftas" />
         </stacks>
     </MBPartyTemplate>
+    <MBPartyTemplate id="kratorios_elite_caravan_template">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_empire" />
+            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_empire" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_empire" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_empire" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="kratorios_caravan_template">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_empire" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_empire" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_empire" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="kratorios_militia_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.kratorios_militia_footmen" />
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.kratorios_militia_archer" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="kratorios_rebels_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.kratorios_recruit" />
+        </stacks>
+    </MBPartyTemplate>
     <MBPartyTemplate id="kratorios_vassal_reward_troops">
         <stacks>
             <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.kratorios_elite_toxotas" />
             <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.kratorios_elite_akontisti" />
         </stacks>
     </MBPartyTemplate>
-    <!-- Party Civilian end -->
-    <!-- Party Lords -->
-    <!-- Party Lords end -->
 </partyTemplates>

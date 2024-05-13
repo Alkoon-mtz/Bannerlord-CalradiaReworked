@@ -280,10 +280,6 @@
             <template name="NPCCharacter.spc_headman_aseriyun_1f" />
         </notable_and_wanderer_templates>
         <lord_templates>
-            <template name="NPCCharacter.spc_ghilman_leader_0" />
-            <template name="NPCCharacter.spc_ghilman_leader_1" />
-            <template name="NPCCharacter.spc_ghilman_leader_2" />
-            <template name="NPCCharacter.spc_ghilman_leader_3" />
             <template name="NPCCharacter.spc_beni_zilal_leader_0" />
             <template name="NPCCharacter.spc_beni_zilal_leader_1" />
             <template name="NPCCharacter.spc_beni_zilal_leader_2" />
@@ -294,10 +290,6 @@
             <template name="NPCCharacter.spc_jawwal_leader_3" />
         </lord_templates>
         <rebellion_hero_templates>
-            <template name="NPCCharacter.spc_ghilman_leader_0" />
-            <template name="NPCCharacter.spc_ghilman_leader_1" />
-            <template name="NPCCharacter.spc_ghilman_leader_2" />
-            <template name="NPCCharacter.spc_ghilman_leader_3" />
             <template name="NPCCharacter.spc_beni_zilal_leader_0" />
             <template name="NPCCharacter.spc_beni_zilal_leader_1" />
             <template name="NPCCharacter.spc_beni_zilal_leader_2" />

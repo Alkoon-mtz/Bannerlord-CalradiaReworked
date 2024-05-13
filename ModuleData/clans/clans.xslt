@@ -94,4 +94,10 @@
     <xsl:template match="Faction[@id='clan_vlandia_9']"/>
     <xsl:template match="Faction[@id='clan_vlandia_10']"/>
     <xsl:template match="Faction[@id='clan_vlandia_11']"/>
+
+    <!-- Subclans -->
+    <xsl:template match="Faction[@id='ghilman']"/>
+    <xsl:template match="Faction[@id='skolderbrotva']"/>
+    <xsl:template match="Faction[@id='forest_people']"/>
+
 </xsl:stylesheet>
