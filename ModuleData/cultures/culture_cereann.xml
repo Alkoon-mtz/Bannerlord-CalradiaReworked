@@ -86,7 +86,7 @@
         </banner_bearer_replacement_weapons>
         <default_policies>
             <policy id="policy_cantons" />
-            <policy id="policy_lawspeakers" />
+            <policy id="policy_forgiveness_of_debts" />
         </default_policies>
         <male_names>
             <name name="{=VP9hqkxO}Aedid" />

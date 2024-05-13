@@ -84,8 +84,8 @@
             <item id="Item.khuzait_sword_4_t4" />
         </banner_bearer_replacement_weapons>
         <default_policies>
-            <policy id="policy_grazing_rights" />
             <policy id="policy_sacred_majesty" />
+            <policy id="policy_royal_privilege" />
         </default_policies>
         <male_names>
             <name name="{=AWM3jbaZ}Ajin" />

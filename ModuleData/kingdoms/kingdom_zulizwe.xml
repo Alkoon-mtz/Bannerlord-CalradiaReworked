@@ -18,8 +18,5 @@
         ruler_title="{=ZI_np9abW}Mbozi"
         text="{=ZI_text}We have broken freet">
         <relationships></relationships>
-        <policies>
-            <policy id="policy_royal_guard" />
-        </policies>
     </Kingdom>
 </Kingdoms>

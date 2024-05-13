@@ -23,8 +23,5 @@
                 value="-1"
                 isAtWar="true" />
         </relationships>
-        <policies>
-            <policy id="policy_royal_privilege" />
-        </policies>
     </Kingdom>
 </Kingdoms>

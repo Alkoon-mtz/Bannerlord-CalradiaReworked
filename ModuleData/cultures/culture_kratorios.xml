@@ -86,6 +86,7 @@
         </banner_bearer_replacement_weapons>
         <default_policies>
             <policy id="policy_senate" />
+            <policy id="policy_magistrates" />
         </default_policies>
         <male_names>
             <name name="{=v9B50R0Q}Acarion" />

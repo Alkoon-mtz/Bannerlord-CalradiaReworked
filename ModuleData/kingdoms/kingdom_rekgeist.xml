@@ -22,11 +22,5 @@
                 value="-1"
                 isAtWar="true" />
         </relationships>
-        <policies>
-            <policy id="policy_noble_retinues" />
-            <policy id="policy_castle_charters" />
-            <policy id="policy_kings_mercenaries" />
-            <policy id="policy_royal_guard" />
-        </policies>
     </Kingdom>
 </Kingdoms>

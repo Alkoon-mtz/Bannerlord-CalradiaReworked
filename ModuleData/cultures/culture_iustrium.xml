@@ -84,8 +84,8 @@
             <item id="Item.sturgia_sword_5_t5" />
         </banner_bearer_replacement_weapons>
         <default_policies>
-            <policy id="policy_feudal_inheritance" />
-            <policy id="policy_castle_charters" />
+            <policy id="policy_tribunes_of_the_people" />
+            <policy id="policy_noble_retinues" />
         </default_policies>
         <male_names>
             <name name="{=fUQlCkCQ}Anbard" />

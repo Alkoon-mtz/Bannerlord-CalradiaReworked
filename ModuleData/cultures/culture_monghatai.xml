@@ -85,7 +85,7 @@
         </banner_bearer_replacement_weapons>
         <default_policies>
             <policy id="policy_grazing_rights" />
-            <policy id="policy_sacred_majesty" />
+            <policy id="policy_hunting_rights" />
         </default_policies>
         <male_names>
             <name name="{=AWM3jbaZ}Ajin" />

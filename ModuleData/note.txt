@@ -23,26 +23,21 @@ Customize:
     tournament_team_templates
     basic_mercenary_troops
 Change culture feats
-Bandits (cultures + troops + settlements hideout + clans) ex sea_raiders
 
 Aserai:
 Add lords
-Rename wanderer
 Rework banners
 
 Cereann:
 Add lords
-Rename wanderer
 Rework banners
 
 Iustrium:
 Add lords
-Rename wanderer
 Rename cities
 
 Kratorios:
 Add lords
-Rename wanderer
 
 Lysellois:
 Add lords
@@ -50,31 +45,25 @@ Rename cities
 
 Monghatai:
 Add lords
-Rename wanderer
 
 Qinguo:
 Add lords
-Rename wanderer
 Make larger glaive blade (guandao)
 
 Rekgeist:
 Add lords
-Rename wanderer
 Rename cities
 
 Scarhoks:
 Add lords
-Rename wanderer
 Rename cities
 
 Virkaldr:
 Add lords
-Rename wanderer
 banner: 
 
 Zulizwe :
 Add lords
-Rename wanderer
 Rename cities
 
 Bugs:

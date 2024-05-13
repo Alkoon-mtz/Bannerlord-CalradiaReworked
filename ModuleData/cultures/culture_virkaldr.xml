@@ -84,7 +84,7 @@
             <item id="Item.sturgia_sword_5_t5" />
         </banner_bearer_replacement_weapons>
         <default_policies>
-            <policy id="policy_lawspeakers" />
+            <policy id="policy_military_coronae" />
             <policy id="policy_precarial_land_tenure" />
         </default_policies>
         <male_names>

@@ -31,5 +31,8 @@
             <relationship kingdom="Kingdom.kingdom_virkaldr" value="1" />
             <relationship kingdom="Kingdom.kingdom_zulizwe" value="1" />
         </relationships>
+        <policies>
+            <policy id="policy_debasement_of_the_currency" />
+        </policies>
     </Kingdom>
 </Kingdoms>

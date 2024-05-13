@@ -22,8 +22,5 @@
                 value="-1"
                 isAtWar="true" />
         </relationships>
-        <policies>
-            <policy id="policy_royal_guard" />
-        </policies>
     </Kingdom>
 </Kingdoms>

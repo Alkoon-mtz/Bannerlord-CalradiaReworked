@@ -85,7 +85,8 @@
             <item id="Item.empire_sword_6_t5" />
         </banner_bearer_replacement_weapons>
         <default_policies>
-            <policy id="policy_senate" />
+            <policy id="policy_lawspeakers" />
+            <policy id="policy_state_monopolies" />
         </default_policies>
         <male_names>
             <name name="{=v9B50R0Q}Acarion" />

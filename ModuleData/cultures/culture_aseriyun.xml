@@ -84,7 +84,7 @@
             <item id="Item.aserai_sword_5_t4" />
         </banner_bearer_replacement_weapons>
         <default_policies>
-            <policy id="policy_council_of_the_commons" />
+            <policy id="policy_crown_duty" />
             <policy id="policy_senate" />
         </default_policies>
         <male_names>
