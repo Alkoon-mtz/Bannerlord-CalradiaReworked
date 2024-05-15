@@ -22,8 +22,9 @@ Customize:
     weapon_practice_stage_1 ?
     tournament_team_templates
     basic_mercenary_troops
+Independant clans
 
-Aserai:
+Aseriyun:
 Add lords
 Rework banners
 
@@ -34,27 +35,31 @@ Rework banners
 Iustrium:
 Add lords
 Rename cities
+male / female names
 
 Kratorios:
 Add lords
 
 Lysellois:
-Add lords
 Rename cities
+male / female names
 
 Monghatai:
 Add lords
 
 Qinguo:
 Add lords
+male / female names
 Make larger glaive blade (guandao)
 
 Rekgeist:
 Add lords
+male / female names
 Rename cities
 
 Scarhoks:
 Add lords
+male / female names
 Rename cities
 
 Virkaldr:
@@ -63,6 +68,7 @@ banner:
 
 Zulizwe :
 Add lords
+male / female names
 Rename cities
 
 Bugs:

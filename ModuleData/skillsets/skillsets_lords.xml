@@ -693,11 +693,11 @@
     </SkillSet>
     <SkillSet id="lord_cav_pol_throw_1">
         <skill id="Athletics" value="100"/>
-        <skill id="Riding" value="200"/>
+        <skill id="Riding" value="250"/>
 
         <skill id="OneHanded" value="150"/>
         <skill id="TwoHanded" value="20"/>
-        <skill id="Polearm" value="250"/>
+        <skill id="Polearm" value="200"/>
         <skill id="Bow" value="20"/>
         <skill id="Crossbow" value="20"/>
         <skill id="Throwing" value="200"/>
@@ -713,5 +713,875 @@
         <skill id="Trade" value="50" />
         <skill id="Medicine" value="50" />
         <skill id="Engineering" value="100" />
+    </SkillSet>
+
+    <SkillSet id="lord_archer_1h_2">
+        <skill id="Athletics" value="160"/>
+        <skill id="Riding" value="80"/>
+
+        <skill id="OneHanded" value="160"/>
+        <skill id="TwoHanded" value="120"/>
+        <skill id="Polearm" value="15"/>
+        <skill id="Bow" value="200"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="15"/>
+
+        <skill id="Tactics" value="160" />
+        <skill id="Leadership" value="80" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="80" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_archer_2h_2">
+        <skill id="Athletics" value="160"/>
+        <skill id="Riding" value="80"/>
+
+        <skill id="OneHanded" value="120"/>
+        <skill id="TwoHanded" value="160"/>
+        <skill id="Polearm" value="15"/>
+        <skill id="Bow" value="200"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="15"/>
+
+        <skill id="Tactics" value="160" />
+        <skill id="Leadership" value="80" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="80" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_archer_pol_2">
+        <skill id="Athletics" value="160"/>
+        <skill id="Riding" value="80"/>
+
+        <skill id="OneHanded" value="120"/>
+        <skill id="TwoHanded" value="15"/>
+        <skill id="Polearm" value="160"/>
+        <skill id="Bow" value="200"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="15"/>
+
+        <skill id="Tactics" value="160" />
+        <skill id="Leadership" value="80" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="80" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_throw_1h_2">
+        <skill id="Athletics" value="160"/>
+        <skill id="Riding" value="80"/>
+
+        <skill id="OneHanded" value="160"/>
+        <skill id="TwoHanded" value="120"/>
+        <skill id="Polearm" value="15"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="200"/>
+
+        <skill id="Tactics" value="160" />
+        <skill id="Leadership" value="80" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="80" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_throw_2h_2">
+        <skill id="Athletics" value="160"/>
+        <skill id="Riding" value="80"/>
+
+        <skill id="OneHanded" value="120"/>
+        <skill id="TwoHanded" value="160"/>
+        <skill id="Polearm" value="15"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="200"/>
+
+        <skill id="Tactics" value="160" />
+        <skill id="Leadership" value="80" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="80" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_throw_pol_2">
+        <skill id="Athletics" value="160"/>
+        <skill id="Riding" value="80"/>
+
+        <skill id="OneHanded" value="120"/>
+        <skill id="TwoHanded" value="15"/>
+        <skill id="Polearm" value="160"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="200"/>
+
+        <skill id="Tactics" value="160" />
+        <skill id="Leadership" value="80" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="80" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_xbow_1h_2">
+        <skill id="Athletics" value="160"/>
+        <skill id="Riding" value="80"/>
+
+        <skill id="OneHanded" value="160"/>
+        <skill id="TwoHanded" value="15"/>
+        <skill id="Polearm" value="120"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="200"/>
+        <skill id="Throwing" value="15"/>
+
+        <skill id="Tactics" value="160" />
+        <skill id="Leadership" value="80" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="80" />
+    </SkillSet>
+    <SkillSet id="lord_xbow_2h_2">
+        <skill id="Athletics" value="160"/>
+        <skill id="Riding" value="80"/>
+
+        <skill id="OneHanded" value="15"/>
+        <skill id="TwoHanded" value="160"/>
+        <skill id="Polearm" value="120"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="200"/>
+        <skill id="Throwing" value="15"/>
+
+        <skill id="Tactics" value="160" />
+        <skill id="Leadership" value="80" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="80" />
+    </SkillSet>
+    <SkillSet id="lord_xbow_pol_2">
+        <skill id="Athletics" value="160"/>
+        <skill id="Riding" value="80"/>
+
+        <skill id="OneHanded" value="120"/>
+        <skill id="TwoHanded" value="15"/>
+        <skill id="Polearm" value="160"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="200"/>
+        <skill id="Throwing" value="15"/>
+
+        <skill id="Tactics" value="160" />
+        <skill id="Leadership" value="80" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="80" />
+    </SkillSet>
+    <SkillSet id="lord_1h_pol_2">
+        <skill id="Athletics" value="160"/>
+        <skill id="Riding" value="80"/>
+
+        <skill id="OneHanded" value="200"/>
+        <skill id="TwoHanded" value="15"/>
+        <skill id="Polearm" value="160"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="120"/>
+
+        <skill id="Tactics" value="160" />
+        <skill id="Leadership" value="80" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="80" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_1h_throw_2">
+        <skill id="Athletics" value="160"/>
+        <skill id="Riding" value="80"/>
+
+        <skill id="OneHanded" value="200"/>
+        <skill id="TwoHanded" value="15"/>
+        <skill id="Polearm" value="120"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="160"/>
+
+        <skill id="Tactics" value="160" />
+        <skill id="Leadership" value="80" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="80" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_2h_pol_2">
+        <skill id="Athletics" value="160"/>
+        <skill id="Riding" value="80"/>
+
+        <skill id="OneHanded" value="15"/>
+        <skill id="TwoHanded" value="200"/>
+        <skill id="Polearm" value="160"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="80"/>
+
+        <skill id="Tactics" value="160" />
+        <skill id="Leadership" value="80" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="80" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_2h_throw_2">
+        <skill id="Athletics" value="160"/>
+        <skill id="Riding" value="80"/>
+
+        <skill id="OneHanded" value="15"/>
+        <skill id="TwoHanded" value="200"/>
+        <skill id="Polearm" value="80"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="160"/>
+
+        <skill id="Tactics" value="160" />
+        <skill id="Leadership" value="80" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="80" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_pol_1h_2">
+        <skill id="Athletics" value="160"/>
+        <skill id="Riding" value="80"/>
+
+        <skill id="OneHanded" value="160"/>
+        <skill id="TwoHanded" value="15"/>
+        <skill id="Polearm" value="200"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="120"/>
+
+        <skill id="Tactics" value="160" />
+        <skill id="Leadership" value="80" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="80" />
+    </SkillSet>
+    <SkillSet id="lord_pol_throw_2">
+        <skill id="Athletics" value="160"/>
+        <skill id="Riding" value="80"/>
+
+        <skill id="OneHanded" value="120"/>
+        <skill id="TwoHanded" value="15"/>
+        <skill id="Polearm" value="200"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="160"/>
+
+        <skill id="Tactics" value="160" />
+        <skill id="Leadership" value="80" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="80" />
+    </SkillSet>
+
+    <SkillSet id="lord_cav_archer_1h_2">
+        <skill id="Athletics" value="80"/>
+        <skill id="Riding" value="160"/>
+
+        <skill id="OneHanded" value="160"/>
+        <skill id="TwoHanded" value="120"/>
+        <skill id="Polearm" value="15"/>
+        <skill id="Bow" value="200"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="15"/>
+
+        <skill id="Tactics" value="80" />
+        <skill id="Leadership" value="160" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="80" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_cav_archer_2h_2">
+        <skill id="Athletics" value="80"/>
+        <skill id="Riding" value="160"/>
+
+        <skill id="OneHanded" value="120"/>
+        <skill id="TwoHanded" value="160"/>
+        <skill id="Polearm" value="15"/>
+        <skill id="Bow" value="200"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="15"/>
+
+        <skill id="Tactics" value="80" />
+        <skill id="Leadership" value="160" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="80" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_cav_archer_pol_2">
+        <skill id="Athletics" value="80"/>
+        <skill id="Riding" value="160"/>
+
+        <skill id="OneHanded" value="120"/>
+        <skill id="TwoHanded" value="15"/>
+        <skill id="Polearm" value="160"/>
+        <skill id="Bow" value="200"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="15"/>
+
+        <skill id="Tactics" value="80" />
+        <skill id="Leadership" value="160" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="80" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_cav_throw_1h_2">
+        <skill id="Athletics" value="80"/>
+        <skill id="Riding" value="160"/>
+
+        <skill id="OneHanded" value="160"/>
+        <skill id="TwoHanded" value="120"/>
+        <skill id="Polearm" value="15"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="200"/>
+
+        <skill id="Tactics" value="80" />
+        <skill id="Leadership" value="160" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="80" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_cav_throw_2h_2">
+        <skill id="Athletics" value="80"/>
+        <skill id="Riding" value="160"/>
+
+        <skill id="OneHanded" value="120"/>
+        <skill id="TwoHanded" value="160"/>
+        <skill id="Polearm" value="15"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="200"/>
+
+        <skill id="Tactics" value="80" />
+        <skill id="Leadership" value="160" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="80" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_cav_throw_pol_2">
+        <skill id="Athletics" value="80"/>
+        <skill id="Riding" value="160"/>
+
+        <skill id="OneHanded" value="120"/>
+        <skill id="TwoHanded" value="15"/>
+        <skill id="Polearm" value="160"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="200"/>
+
+        <skill id="Tactics" value="80" />
+        <skill id="Leadership" value="160" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="80" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_cav_xbow_1h_2">
+        <skill id="Athletics" value="80"/>
+        <skill id="Riding" value="160"/>
+
+        <skill id="OneHanded" value="160"/>
+        <skill id="TwoHanded" value="15"/>
+        <skill id="Polearm" value="120"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="200"/>
+        <skill id="Throwing" value="15"/>
+
+        <skill id="Tactics" value="80" />
+        <skill id="Leadership" value="160" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="80" />
+    </SkillSet>
+    <SkillSet id="lord_cav_xbow_2h_2">
+        <skill id="Athletics" value="80"/>
+        <skill id="Riding" value="160"/>
+
+        <skill id="OneHanded" value="15"/>
+        <skill id="TwoHanded" value="160"/>
+        <skill id="Polearm" value="120"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="200"/>
+        <skill id="Throwing" value="15"/>
+
+        <skill id="Tactics" value="80" />
+        <skill id="Leadership" value="160" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="80" />
+    </SkillSet>
+    <SkillSet id="lord_cav_xbow_pol_2">
+        <skill id="Athletics" value="80"/>
+        <skill id="Riding" value="160"/>
+
+        <skill id="OneHanded" value="120"/>
+        <skill id="TwoHanded" value="15"/>
+        <skill id="Polearm" value="160"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="200"/>
+        <skill id="Throwing" value="15"/>
+
+        <skill id="Tactics" value="80" />
+        <skill id="Leadership" value="160" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="80" />
+    </SkillSet>
+    <SkillSet id="lord_cav_1h_pol_2">
+        <skill id="Athletics" value="80"/>
+        <skill id="Riding" value="160"/>
+
+        <skill id="OneHanded" value="200"/>
+        <skill id="TwoHanded" value="15"/>
+        <skill id="Polearm" value="160"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="120"/>
+
+        <skill id="Tactics" value="80" />
+        <skill id="Leadership" value="160" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="80" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_cav_1h_throw_2">
+        <skill id="Athletics" value="80"/>
+        <skill id="Riding" value="160"/>
+
+        <skill id="OneHanded" value="200"/>
+        <skill id="TwoHanded" value="15"/>
+        <skill id="Polearm" value="120"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="160"/>
+
+        <skill id="Tactics" value="80" />
+        <skill id="Leadership" value="160" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="80" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_cav_1h_archer_2">
+        <skill id="Athletics" value="80"/>
+        <skill id="Riding" value="160"/>
+
+        <skill id="OneHanded" value="200"/>
+        <skill id="TwoHanded" value="15"/>
+        <skill id="Polearm" value="120"/>
+        <skill id="Bow" value="160"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="15"/>
+
+        <skill id="Tactics" value="80" />
+        <skill id="Leadership" value="160" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="80" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_cav_2h_pol_2">
+        <skill id="Athletics" value="80"/>
+        <skill id="Riding" value="160"/>
+
+        <skill id="OneHanded" value="15"/>
+        <skill id="TwoHanded" value="200"/>
+        <skill id="Polearm" value="160"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="80"/>
+
+        <skill id="Tactics" value="80" />
+        <skill id="Leadership" value="160" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="80" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_cav_2h_throw_2">
+        <skill id="Athletics" value="80"/>
+        <skill id="Riding" value="160"/>
+
+        <skill id="OneHanded" value="15"/>
+        <skill id="TwoHanded" value="200"/>
+        <skill id="Polearm" value="80"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="160"/>
+
+        <skill id="Tactics" value="80" />
+        <skill id="Leadership" value="160" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="80" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="40" />
+    </SkillSet>
+    <SkillSet id="lord_cav_pol_1h_2">
+        <skill id="Athletics" value="80"/>
+        <skill id="Riding" value="200"/>
+
+        <skill id="OneHanded" value="160"/>
+        <skill id="TwoHanded" value="15"/>
+        <skill id="Polearm" value="160"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="120"/>
+
+        <skill id="Tactics" value="80" />
+        <skill id="Leadership" value="160" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="80" />
+    </SkillSet>
+    <SkillSet id="lord_cav_pol_throw_2">
+        <skill id="Athletics" value="80"/>
+        <skill id="Riding" value="160"/>
+
+        <skill id="OneHanded" value="120"/>
+        <skill id="TwoHanded" value="15"/>
+        <skill id="Polearm" value="200"/>
+        <skill id="Bow" value="15"/>
+        <skill id="Crossbow" value="15"/>
+        <skill id="Throwing" value="160"/>
+
+        <skill id="Tactics" value="80" />
+        <skill id="Leadership" value="160" />
+        <skill id="Steward" value="120" />
+        <skill id="Charm" value="80" />
+
+        <skill id="Crafting" value="40" />
+        <skill id="Scouting" value="40" />
+        <skill id="Roguery" value="40" />
+        <skill id="Trade" value="40" />
+        <skill id="Medicine" value="40" />
+        <skill id="Engineering" value="80" />
+    </SkillSet>
+
+    <SkillSet id="lord_noncom_charmer">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="20"/>
+        <skill id="OneHanded" value="40"/>
+        <skill id="TwoHanded" value="20"/>
+        <skill id="Polearm" value="20"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="20"/>
+
+        <skill id="Tactics" value="20" />
+        <skill id="Leadership" value="20" />
+        <skill id="Steward" value="100" />
+
+        <skill id="Charm" value="120" />
+        <skill id="Crafting" value="60" />
+        <skill id="Scouting" value="60" />
+        <skill id="Roguery" value="60" />
+        <skill id="Trade" value="60" />
+        <skill id="Medicine" value="60" />
+        <skill id="Engineering" value="60" />
+    </SkillSet>
+    <SkillSet id="lord_noncom_crafter">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="20"/>
+        <skill id="OneHanded" value="40"/>
+        <skill id="TwoHanded" value="20"/>
+        <skill id="Polearm" value="20"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="20"/>
+
+        <skill id="Tactics" value="20" />
+        <skill id="Leadership" value="20" />
+        <skill id="Steward" value="100" />
+
+        <skill id="Charm" value="60" />
+        <skill id="Crafting" value="120" />
+        <skill id="Scouting" value="60" />
+        <skill id="Roguery" value="60" />
+        <skill id="Trade" value="60" />
+        <skill id="Medicine" value="60" />
+        <skill id="Engineering" value="60" />
+    </SkillSet>
+    <SkillSet id="lord_noncom_scout">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="20"/>
+        <skill id="OneHanded" value="40"/>
+        <skill id="TwoHanded" value="20"/>
+        <skill id="Polearm" value="20"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="20"/>
+
+        <skill id="Tactics" value="20" />
+        <skill id="Leadership" value="20" />
+        <skill id="Steward" value="100" />
+
+        <skill id="Charm" value="60" />
+        <skill id="Crafting" value="60" />
+        <skill id="Scouting" value="120" />
+        <skill id="Roguery" value="60" />
+        <skill id="Trade" value="60" />
+        <skill id="Medicine" value="60" />
+        <skill id="Engineering" value="60" />
+    </SkillSet>
+    <SkillSet id="lord_noncom_rogue">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="20"/>
+        <skill id="OneHanded" value="40"/>
+        <skill id="TwoHanded" value="20"/>
+        <skill id="Polearm" value="20"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="20"/>
+
+        <skill id="Tactics" value="20" />
+        <skill id="Leadership" value="20" />
+        <skill id="Steward" value="100" />
+
+        <skill id="Charm" value="60" />
+        <skill id="Crafting" value="60" />
+        <skill id="Scouting" value="60" />
+        <skill id="Roguery" value="120" />
+        <skill id="Trade" value="60" />
+        <skill id="Medicine" value="60" />
+        <skill id="Engineering" value="60" />
+    </SkillSet>
+    <SkillSet id="lord_noncom_merchant">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="20"/>
+        <skill id="OneHanded" value="40"/>
+        <skill id="TwoHanded" value="20"/>
+        <skill id="Polearm" value="20"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="20"/>
+
+        <skill id="Tactics" value="20" />
+        <skill id="Leadership" value="20" />
+        <skill id="Steward" value="100" />
+
+        <skill id="Charm" value="60" />
+        <skill id="Crafting" value="60" />
+        <skill id="Scouting" value="60" />
+        <skill id="Roguery" value="60" />
+        <skill id="Trade" value="120" />
+        <skill id="Medicine" value="60" />
+        <skill id="Engineering" value="60" />
+    </SkillSet>
+    <SkillSet id="lord_noncom_doctor">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="20"/>
+        <skill id="OneHanded" value="40"/>
+        <skill id="TwoHanded" value="20"/>
+        <skill id="Polearm" value="20"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="20"/>
+
+        <skill id="Tactics" value="20" />
+        <skill id="Leadership" value="20" />
+        <skill id="Steward" value="100" />
+
+        <skill id="Charm" value="60" />
+        <skill id="Crafting" value="60" />
+        <skill id="Scouting" value="60" />
+        <skill id="Roguery" value="60" />
+        <skill id="Trade" value="60" />
+        <skill id="Medicine" value="120" />
+        <skill id="Engineering" value="60" />
+    </SkillSet>
+    <SkillSet id="lord_noncom_engineer">
+        <skill id="Athletics" value="60"/>
+        <skill id="Riding" value="20"/>
+        <skill id="OneHanded" value="40"/>
+        <skill id="TwoHanded" value="20"/>
+        <skill id="Polearm" value="20"/>
+        <skill id="Bow" value="20"/>
+        <skill id="Crossbow" value="20"/>
+        <skill id="Throwing" value="20"/>
+
+        <skill id="Tactics" value="20" />
+        <skill id="Leadership" value="20" />
+        <skill id="Steward" value="100" />
+
+        <skill id="Charm" value="60" />
+        <skill id="Crafting" value="60" />
+        <skill id="Scouting" value="60" />
+        <skill id="Roguery" value="60" />
+        <skill id="Trade" value="60" />
+        <skill id="Medicine" value="60" />
+        <skill id="Engineering" value="120" />
     </SkillSet>
 </SkillSets>

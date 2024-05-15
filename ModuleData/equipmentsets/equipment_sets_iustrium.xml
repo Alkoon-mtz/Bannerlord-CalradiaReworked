@@ -545,7 +545,7 @@
         </EquipmentSet>
     </EquipmentRoster>
 
-    <!-- Child equipment templates -->
+    <!-- Child Equipment templates -->
     <!--Villager -->
     <EquipmentRoster id="child_template_iustrium_villager_male" culture="Culture.iustrium">
         <EquipmentSet civilian="true">
@@ -734,20 +734,20 @@
     <!-- Notables and Wanderers -->
     <EquipmentRoster id="npc_wanderer_equipment_template_iustrium" culture="Culture.iustrium">
         <EquipmentSet civilian="true">
-            <equipment slot="Body" id="Item.cloth_tunic" />
-            <equipment slot="Leg" id="Item.strapped_shoes" />
-            <equipment slot="Cape" id="Item.scarf" />
+            <Equipment slot="Body" id="Item.cloth_tunic" />
+            <Equipment slot="Leg" id="Item.strapped_shoes" />
+            <Equipment slot="Cape" id="Item.scarf" />
         </EquipmentSet>
         <Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="npc_armed_wanderer_equipment_template_iustrium" culture="Culture.iustrium">
         <EquipmentSet>
-            <equipment slot="Item0" id="Item.empire_mace_3_t4"/>
-            <equipment slot="Item1" id="Item.small_flat_heater_shield"/>
-            <equipment slot="Head" id="Item.open_mail_coif"/>
-            <equipment slot="Cape" id="Item.scarf"/>
-            <equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
-            <equipment slot="Leg" id="Item.empire_horseman_boots"/>
+            <Equipment slot="Item0" id="Item.empire_mace_3_t4"/>
+            <Equipment slot="Item1" id="Item.small_flat_heater_shield"/>
+            <Equipment slot="Head" id="Item.open_mail_coif"/>
+            <Equipment slot="Cape" id="Item.scarf"/>
+            <Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
+            <Equipment slot="Leg" id="Item.empire_horseman_boots"/>
         </EquipmentSet>
         <Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
@@ -755,69 +755,69 @@
     <!--Lord -->
     <EquipmentRoster id="ius_bat_template_low" culture="Culture.iustrium">
         <EquipmentSet>
-            <equipment slot="Item0" id="Item.battania_axe_3_t5"/>
-            <equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
-            <equipment slot="Head" id="Item.TV_vlandia_helmet_g"/>
-            <equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
-            <equipment slot="Body" id="Item.AR_aserai_armor_f"/>
-            <equipment slot="Gloves" id="Item.mail_mitten"/>
-            <equipment slot="Leg" id="Item.mail_chausses"/>
-            <equipment slot="Horse" id="Item.t2_aserai_horse"/>
-            <equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+            <Equipment slot="Item0" id="Item.battania_axe_3_t5"/>
+            <Equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+            <Equipment slot="Head" id="Item.TV_vlandia_helmet_g"/>
+            <Equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
+            <Equipment slot="Body" id="Item.AR_aserai_armor_f"/>
+            <Equipment slot="Gloves" id="Item.mail_mitten"/>
+            <Equipment slot="Leg" id="Item.mail_chausses"/>
+            <Equipment slot="Horse" id="Item.t2_aserai_horse"/>
+            <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
         </EquipmentSet>
         <Flags IsNobleTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="ius_bat_template_medium" culture="Culture.iustrium">
         <EquipmentSet>
-            <equipment slot="Item0" id="Item.crossbow_g"/>
-            <equipment slot="Item1" id="Item.bolt_c"/>
-            <equipment slot="Item2" id="Item.vlandia_lance_3_t5"/>
-            <equipment slot="Item3" id="Item.heavy_horsemans_kite_shield"/>
-            <equipment slot="Head" id="Item.tv_vlandia_helmet_k6"/>
-            <equipment slot="Cape" id="Item.TV_vlandia_shoulders_j"/>
-            <equipment slot="Body" id="Item.AR_aserai_armor_g"/>
-            <equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
-            <equipment slot="Leg" id="Item.DZ_battania_boots_a"/>
-            <equipment slot="Horse" id="Item.t3_aserai_horse"/>
-            <equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+            <Equipment slot="Item0" id="Item.crossbow_g"/>
+            <Equipment slot="Item1" id="Item.bolt_c"/>
+            <Equipment slot="Item2" id="Item.vlandia_lance_3_t5"/>
+            <Equipment slot="Item3" id="Item.heavy_horsemans_kite_shield"/>
+            <Equipment slot="Head" id="Item.tv_vlandia_helmet_k6"/>
+            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_j"/>
+            <Equipment slot="Body" id="Item.AR_aserai_armor_g"/>
+            <Equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+            <Equipment slot="Leg" id="Item.DZ_battania_boots_a"/>
+            <Equipment slot="Horse" id="Item.t3_aserai_horse"/>
+            <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
         </EquipmentSet>
         <Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="ius_bat_template_heavy" culture="Culture.iustrium">
         <EquipmentSet>
-            <equipment slot="Item0" id="Item.crossbow_f"/>
-            <equipment slot="Item1" id="Item.bolt_c"/>
-            <equipment slot="Item2" id="Item.bolt_c"/>
-            <equipment slot="Item3" id="Item.vlandia_polearm_1_t5"/>
-            <equipment slot="Head" id="Item.tv_vlandia_helmet_o4"/>
-            <equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
-            <equipment slot="Body" id="Item.TV_monk_robe_d"/>
-            <equipment slot="Gloves" id="Item.TV_vlandia_gloves_g"/>
-            <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+            <Equipment slot="Item0" id="Item.crossbow_f"/>
+            <Equipment slot="Item1" id="Item.bolt_c"/>
+            <Equipment slot="Item2" id="Item.bolt_c"/>
+            <Equipment slot="Item3" id="Item.vlandia_polearm_1_t5"/>
+            <Equipment slot="Head" id="Item.tv_vlandia_helmet_o4"/>
+            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
+            <Equipment slot="Body" id="Item.TV_monk_robe_d"/>
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_g"/>
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses"/>
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="ius_bat_template_flamboyant" culture="Culture.iustrium">
         <EquipmentSet>
-            <equipment slot="Item0" id="Item.empire_mace_5_t5"/>
-            <equipment slot="Item1" id="Item.wide_heater_shield"/>
-            <equipment slot="Head" id="Item.Sugarloaf_helm"/>
-            <equipment slot="Cape" id="Item.empire_cape_a"/>
-            <equipment slot="Body" id="Item.coat_of_plates_over_mail"/>
-            <equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-            <equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
+            <Equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+            <Equipment slot="Item1" id="Item.wide_heater_shield"/>
+            <Equipment slot="Head" id="Item.Sugarloaf_helm"/>
+            <Equipment slot="Cape" id="Item.empire_cape_a"/>
+            <Equipment slot="Body" id="Item.coat_of_plates_over_mail"/>
+            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+            <Equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="ius_bat_template_lady" culture="Culture.iustrium">
         <EquipmentSet>
-            <equipment slot="Item0" id="Item.empire_mace_5_t5"/>
-            <equipment slot="Item1" id="Item.wide_heater_shield"/>
-            <equipment slot="Head" id="Item.Sugarloaf_helm"/>
-            <equipment slot="Cape" id="Item.empire_cape_a"/>
-            <equipment slot="Body" id="Item.coat_of_plates_over_mail"/>
-            <equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-            <equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
+            <Equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+            <Equipment slot="Item1" id="Item.wide_heater_shield"/>
+            <Equipment slot="Head" id="Item.Sugarloaf_helm"/>
+            <Equipment slot="Cape" id="Item.empire_cape_a"/>
+            <Equipment slot="Body" id="Item.coat_of_plates_over_mail"/>
+            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+            <Equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
         </EquipmentSet>
         <Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
@@ -988,25 +988,25 @@
     </EquipmentRoster>
     <EquipmentRoster id="ius_king_template_bat_m" culture="Culture.iustrium">
         <EquipmentSet civilian="false">
-            <equipment slot="Item0" id="Item.empire_mace_5_t5"/>
-            <equipment slot="Item1" id="Item.wide_heater_shield"/>
-            <equipment slot="Head" id="Item.full_helm_over_mail_coif_z"/>
-            <equipment slot="Cape" id="Item.empire_cape_a"/>
-            <equipment slot="Body" id="Item.coat_of_plates_over_mail"/>
-            <equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-            <equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
+            <Equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+            <Equipment slot="Item1" id="Item.wide_heater_shield"/>
+            <Equipment slot="Head" id="Item.full_helm_over_mail_coif_z"/>
+            <Equipment slot="Cape" id="Item.empire_cape_a"/>
+            <Equipment slot="Body" id="Item.coat_of_plates_over_mail"/>
+            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+            <Equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="false" />
     </EquipmentRoster>
     <EquipmentRoster id="ius_king_template_bat_f" culture="Culture.iustrium">
         <EquipmentSet civilian="false">
-            <equipment slot="Item0" id="Item.empire_mace_5_t5"/>
-            <equipment slot="Item1" id="Item.wide_heater_shield"/>
-            <equipment slot="Head" id="Item.full_helm_over_mail_coif_z"/>
-            <equipment slot="Cape" id="Item.empire_cape_a"/>
-            <equipment slot="Body" id="Item.coat_of_plates_over_mail"/>
-            <equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-            <equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
+            <Equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+            <Equipment slot="Item1" id="Item.wide_heater_shield"/>
+            <Equipment slot="Head" id="Item.full_helm_over_mail_coif_z"/>
+            <Equipment slot="Cape" id="Item.empire_cape_a"/>
+            <Equipment slot="Body" id="Item.coat_of_plates_over_mail"/>
+            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+            <Equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="false" />
     </EquipmentRoster>

@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Heroes>
+    <!-- 
+        4:  3A1C    =>  0T1:2T2:1N  =>  HFC + H
+        5:  3A1Y1C  =>  1T1:1T2:1N  =>  HFC + F + Y
+        6:  4A1Y1C  =>  1T1:2T2:1N  =>  HFY + HFC   || HFHYC + F
+        7:  4A2Y1C  =>  2T1:1T2:1N  =>  HFHY + FYC  || HFYC + HFY
+        8:  5A2Y1C  =>  2T1:2T2:1N  =>  HFFHYC + HY
+        9:  5A3Y1C  =>  3T1:1T2:1N  =>  
+        10: 6A3Y1C  =>  3T1:2T2:1N  =>  HFHYY + HFYC + H
+        C < 12 ; Y < 17 ; M = 7 (9?)
+     -->
     <Hero id="lord_explorer_1_1" faction="Faction.clan_explorer_1" />
     <!-- <Hero id="lord_explorer_1_2" spouse="Hero.lord_explorer_1_1" faction="Faction.clan_explorer_1" /> -->
 </Heroes>
