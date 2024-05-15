@@ -1,4 +1,11 @@
 <NPCCharacters>
+    <!-- 
+        vla_bat_template_flamboyant lord_cav_pol_1h_1
+        vla_bat_template_heavy      lord_cav_1h_pol_1
+        vla_bat_template_medium     lord_xbow_1h_1
+        vla_bat_template_low        lord_1h_pol_1
+     -->
+
     <!-- Clan 1 -->
     <NPCCharacter id="lord_lysellois_1_1"
         name="{=lord_lysellois_1_1}Louis"
@@ -679,7 +686,7 @@
         </Equipments>
     </NPCCharacter>
 
-    <!-- Clan 4 F -->
+    <!-- Clan 4 -->
     <NPCCharacter id="lord_lysellois_4_1"
         name="{=lord_lysellois_4_1}Eleanor"
         age="37"
@@ -1196,7 +1203,7 @@
         </Equipments>
     </NPCCharacter>
 
-    <!-- Clan 7 F -->
+    <!-- Clan 7 -->
     <NPCCharacter id="lord_lysellois_7_1"
         name="{=lord_lysellois_7_1}Melisandre"
         age="28"
@@ -1421,7 +1428,7 @@
         is_hero="true"
         culture="Culture.vlandia"
         occupation="Lord"
-        skill_template="SkillSet.lord_xbow_1h_1">
+        skill_template="SkillSet.lord_xbow_1h_2">
         <face>
             <BodyProperties version="4"
                 age="26"

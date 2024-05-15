@@ -53,7 +53,7 @@ male / female names
 Make larger glaive blade (guandao)
 
 Rekgeist:
-Add lords
+Rework lords faces
 male / female names
 Rename cities
 
