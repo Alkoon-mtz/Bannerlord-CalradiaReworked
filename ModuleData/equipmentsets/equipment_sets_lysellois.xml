@@ -758,7 +758,7 @@
     </EquipmentRoster>
 
     <!--Lord -->
-    <EquipmentRoster id="lys_bat_template_low" culture="Culture.vlandia">
+    <EquipmentRoster id="vla_bat_template_low" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
             <Equipment slot="Item1" id="Item.wide_heater_shield"/>
@@ -770,7 +770,7 @@
         </EquipmentSet>
         <Flags IsNobleTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_bat_template_medium" culture="Culture.vlandia">
+    <EquipmentRoster id="vla_bat_template_medium" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.crossbow_f"/>
             <Equipment slot="Item1" id="Item.bolt_c"/>
@@ -784,7 +784,7 @@
         </EquipmentSet>
         <Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_bat_template_heavy" culture="Culture.vlandia">
+    <EquipmentRoster id="vla_bat_template_heavy" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
             <Equipment slot="Item1" id="Item.wide_heater_shield"/>
@@ -809,7 +809,7 @@
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_bat_template_flamboyant" culture="Culture.vlandia">
+    <EquipmentRoster id="vla_bat_template_flamboyant" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
             <Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
@@ -824,7 +824,7 @@
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_bat_template_lady" culture="Culture.vlandia">
+    <EquipmentRoster id="vla_bat_template_lady" culture="Culture.vlandia">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
             <Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
@@ -839,7 +839,7 @@
         </EquipmentSet>
         <Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_civ_template_default" culture="Culture.vlandia">
+    <EquipmentRoster id="vla_civ_template_default" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5" />
             <Equipment slot="Body" id="Item.padded_leather_shirt" />
@@ -860,7 +860,7 @@
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_civ_template_heavy" culture="Culture.vlandia">
+    <EquipmentRoster id="vla_civ_template_heavy" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5" />
             <Equipment slot="Body" id="Item.padded_leather_shirt" />
@@ -881,7 +881,7 @@
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_civ_template_flamboyant" culture="Culture.vlandia">
+    <EquipmentRoster id="vla_civ_template_flamboyant" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5" />
             <Equipment slot="Body" id="Item.long_woolen_tunic" />
@@ -902,7 +902,7 @@
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_civ_template_lady_normal" culture="Culture.vlandia">
+    <EquipmentRoster id="vla_civ_template_lady_normal" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5" />
             <Equipment slot="Body" id="Item.vlandian_noble_woman_dress" />
@@ -927,7 +927,7 @@
         </EquipmentSet>
         <Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsNobleTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_noncom_template_default" culture="Culture.vlandia">
+    <EquipmentRoster id="vla_noncom_template_default" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Head" id="Item.headscarf_c" />
             <Equipment slot="Body" id="Item.vlandian_dress" />
@@ -958,7 +958,7 @@
         </EquipmentSet>
         <Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_noncom_template_flamboyant" culture="Culture.vlandia">
+    <EquipmentRoster id="vla_noncom_template_flamboyant" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Head" id="Item.headscarf_c" />
             <Equipment slot="Body" id="Item.vlandian_noble_woman_dress" />
@@ -978,7 +978,7 @@
     </EquipmentRoster>
 
     <!-- King -->
-    <EquipmentRoster id="lys_king_template_civ_m" culture="Culture.vlandia">
+    <EquipmentRoster id="vla_king_template_civ_m" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Item0" id="Item.aserai_noble_sword_1_t5" />
             <Equipment slot="Head" id="Item.vlandia_crown" />
@@ -991,7 +991,7 @@
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_king_template_civ_f" culture="Culture.vlandia">
+    <EquipmentRoster id="vla_king_template_civ_f" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
             <Equipment slot="Item0" id="Item.aserai_noble_sword_1_t5" />
             <Equipment slot="Head" id="Item.vlandia_crown" />
@@ -1004,7 +1004,7 @@
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="true" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_king_template_bat_m" culture="Culture.vlandia">
+    <EquipmentRoster id="vla_king_template_bat_m" culture="Culture.vlandia">
         <EquipmentSet civilian="false">
             <Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
             <Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
@@ -1019,7 +1019,7 @@
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="false" />
     </EquipmentRoster>
-    <EquipmentRoster id="lys_king_template_bat_f" culture="Culture.vlandia">
+    <EquipmentRoster id="vla_king_template_bat_f" culture="Culture.vlandia">
         <EquipmentSet civilian="false">
             <Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
             <Equipment slot="Item1" id="Item.chivalric_kite_shield"/>

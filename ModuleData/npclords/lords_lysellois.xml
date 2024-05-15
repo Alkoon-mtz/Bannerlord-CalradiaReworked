@@ -25,8 +25,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_king_template_bat_m" />
-            <EquipmentSet id="lys_king_template_civ_m"
+            <EquipmentSet id="vla_king_template_bat_m" />
+            <EquipmentSet id="vla_king_template_civ_m"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -56,8 +56,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_king_template_civ_f" />
-            <EquipmentSet id="lys_king_template_civ_f"
+            <EquipmentSet id="vla_king_template_civ_f" />
+            <EquipmentSet id="vla_king_template_civ_f"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -85,8 +85,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_low" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_low" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -109,8 +109,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_medium" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_medium" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -134,8 +134,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_heavy" />
-            <EquipmentSet id="lys_civ_template_heavy"
+            <EquipmentSet id="vla_bat_template_heavy" />
+            <EquipmentSet id="vla_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -163,8 +163,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_medium" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_medium" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -193,8 +193,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="lys_civ_template_flamboyant"
+            <EquipmentSet id="vla_bat_template_flamboyant" />
+            <EquipmentSet id="vla_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -218,8 +218,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_heavy" />
-            <EquipmentSet id="lys_civ_template_heavy"
+            <EquipmentSet id="vla_bat_template_heavy" />
+            <EquipmentSet id="vla_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -242,8 +242,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_low" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_low" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -271,8 +271,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_heavy" />
-            <EquipmentSet id="lys_civ_template_heavy"
+            <EquipmentSet id="vla_bat_template_heavy" />
+            <EquipmentSet id="vla_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -280,7 +280,7 @@
     <!-- Clan 2 -->
     <NPCCharacter id="lord_lysellois_2_1"
         name="{=lord_lysellois_2_1}François"
-        age="55"
+        age="48"
         voice="ironic"
         default_group="Cavalry"
         is_hero="true"
@@ -301,14 +301,14 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="lys_civ_template_flamboyant"
+            <EquipmentSet id="vla_bat_template_flamboyant" />
+            <EquipmentSet id="vla_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_2_2"
         name="{=lord_lysellois_2_2}Claude"
-        age="53"
+        age="49"
         voice="curt"
         is_female="true"
         default_group="Cavalry"
@@ -330,14 +330,14 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_medium" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_medium" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_2_3"
         name="{=lord_lysellois_2_3}Louise"
-        age="34"
+        age="32"
         voice="earnest"
         is_female="true"
         default_group="Cavalry"
@@ -359,14 +359,14 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_heavy" />
-            <EquipmentSet id="lys_civ_template_heavy"
+            <EquipmentSet id="vla_bat_template_heavy" />
+            <EquipmentSet id="vla_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_2_4"
         name="{=lord_lysellois_2_4}Henri"
-        age="30"
+        age="29"
         voice="ironic"
         default_group="Cavalry"
         is_hero="true"
@@ -387,14 +387,14 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_low" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_low" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_2_5"
         name="{=lord_lysellois_2_5}Nicolas"
-        age="16"
+        age="17"
         voice="softspoken"
         default_group="Cavalry"
         is_hero="true"
@@ -410,14 +410,14 @@
         <Traits>
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="lys_civ_template_flamboyant"
+            <EquipmentSet id="vla_bat_template_flamboyant" />
+            <EquipmentSet id="vla_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_2_6"
         name="{=lord_lysellois_2_6}Charlotte"
-        age="10"
+        age="11"
         voice="curt"
         is_female="true"
         default_group="Cavalry"
@@ -434,14 +434,14 @@
         <Traits>
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_low" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_low" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_2_7"
         name="{=lord_lysellois_2_7}Rene"
-        age="47"
+        age="42"
         voice="softspoken"
         default_group="Cavalry"
         is_hero="true"
@@ -462,8 +462,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_low" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_low" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -486,8 +486,8 @@
         <Traits>
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_low" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_low" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -516,8 +516,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="lys_civ_template_flamboyant"
+            <EquipmentSet id="vla_bat_template_flamboyant" />
+            <EquipmentSet id="vla_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -545,8 +545,8 @@
                 value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_low" />
-            <EquipmentSet id="lys_civ_template_flamboyant"
+            <EquipmentSet id="vla_bat_template_low" />
+            <EquipmentSet id="vla_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -573,8 +573,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_heavy" />
-            <EquipmentSet id="lys_civ_template_heavy"
+            <EquipmentSet id="vla_bat_template_heavy" />
+            <EquipmentSet id="vla_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -597,8 +597,8 @@
         <Traits>
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_medium" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_medium" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -626,8 +626,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_medium" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_medium" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -649,8 +649,8 @@
         <Traits>
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="lys_civ_template_flamboyant"
+            <EquipmentSet id="vla_bat_template_flamboyant" />
+            <EquipmentSet id="vla_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -673,8 +673,8 @@
         <Traits>
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_low" />
-            <EquipmentSet id="lys_civ_template_flamboyant"
+            <EquipmentSet id="vla_bat_template_low" />
+            <EquipmentSet id="vla_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -704,8 +704,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_heavy" />
-            <EquipmentSet id="lys_civ_template_heavy"
+            <EquipmentSet id="vla_bat_template_heavy" />
+            <EquipmentSet id="vla_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -732,8 +732,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_low" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_low" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -760,8 +760,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="lys_civ_template_flamboyant"
+            <EquipmentSet id="vla_bat_template_flamboyant" />
+            <EquipmentSet id="vla_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -783,8 +783,8 @@
         <Traits>
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_medium" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_medium" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -811,8 +811,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="lys_civ_template_flamboyant"
+            <EquipmentSet id="vla_bat_template_flamboyant" />
+            <EquipmentSet id="vla_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -840,8 +840,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_medium" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_medium" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -864,8 +864,8 @@
         <Traits>
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_heavy" />
-            <EquipmentSet id="lys_civ_template_heavy"
+            <EquipmentSet id="vla_bat_template_heavy" />
+            <EquipmentSet id="vla_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -894,8 +894,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_heavy" />
-            <EquipmentSet id="lys_civ_template_heavy"
+            <EquipmentSet id="vla_bat_template_heavy" />
+            <EquipmentSet id="vla_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -923,8 +923,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_medium" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_medium" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -946,8 +946,8 @@
         <Traits>
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_low" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_low" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -974,8 +974,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="lys_civ_template_flamboyant"
+            <EquipmentSet id="vla_bat_template_flamboyant" />
+            <EquipmentSet id="vla_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -1003,8 +1003,8 @@
                 value="-1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_low" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_low" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -1027,8 +1027,8 @@
         <Traits>
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_medium" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_medium" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -1057,8 +1057,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_medium" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_medium" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -1086,8 +1086,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_heavy" />
-            <EquipmentSet id="lys_civ_template_heavy"
+            <EquipmentSet id="vla_bat_template_heavy" />
+            <EquipmentSet id="vla_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -1114,8 +1114,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_low" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_low" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -1138,8 +1138,8 @@
         <Traits>
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="lys_civ_template_flamboyant"
+            <EquipmentSet id="vla_bat_template_flamboyant" />
+            <EquipmentSet id="vla_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -1161,8 +1161,8 @@
         <Traits>
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_medium" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_medium" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -1190,8 +1190,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_low" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_low" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -1221,8 +1221,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_medium" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_medium" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -1249,8 +1249,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_heavy" />
-            <EquipmentSet id="lys_civ_template_heavy"
+            <EquipmentSet id="vla_bat_template_heavy" />
+            <EquipmentSet id="vla_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -1272,8 +1272,8 @@
         <Traits>
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="lys_civ_template_flamboyant"
+            <EquipmentSet id="vla_bat_template_flamboyant" />
+            <EquipmentSet id="vla_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -1300,8 +1300,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_heavy" />
-            <EquipmentSet id="lys_civ_template_heavy"
+            <EquipmentSet id="vla_bat_template_heavy" />
+            <EquipmentSet id="vla_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -1325,8 +1325,8 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="lys_bat_template_medium" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_medium" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -1355,8 +1355,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_low" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_low" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -1384,8 +1384,8 @@
                 value="+1" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_flamboyant" />
-            <EquipmentSet id="lys_civ_template_flamboyant"
+            <EquipmentSet id="vla_bat_template_flamboyant" />
+            <EquipmentSet id="vla_civ_template_flamboyant"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -1407,8 +1407,8 @@
         <Traits>
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_heavy" />
-            <EquipmentSet id="lys_civ_template_heavy"
+            <EquipmentSet id="vla_bat_template_heavy" />
+            <EquipmentSet id="vla_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
@@ -1436,8 +1436,8 @@
                 value="-2" />
         </Traits>
         <Equipments>
-            <EquipmentSet id="lys_bat_template_medium" />
-            <EquipmentSet id="lys_civ_template_default"
+            <EquipmentSet id="vla_bat_template_medium" />
+            <EquipmentSet id="vla_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>

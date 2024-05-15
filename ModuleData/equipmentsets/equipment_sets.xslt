@@ -63,4 +63,14 @@
     <xsl:template match="EquipmentRoster[@id='stu_king_template_bat_m']"/>
     <xsl:template match="EquipmentRoster[@id='stu_king_template_bat_f']"/>
     
+    <xsl:template match="EquipmentRoster[@id='vla_bat_template_medium']"/>
+    <xsl:template match="EquipmentRoster[@id='vla_bat_template_heavy']"/>
+    <xsl:template match="EquipmentRoster[@id='vla_bat_template_flamboyant']"/>
+    <xsl:template match="EquipmentRoster[@id='vla_bat_template_lady']"/>
+    <xsl:template match="EquipmentRoster[@id='vla_noncom_template_default']"/>
+    <xsl:template match="EquipmentRoster[@id='vla_noncom_template_flamboyant']"/>
+    <xsl:template match="EquipmentRoster[@id='vla_king_template_bat_m']"/>
+    <xsl:template match="EquipmentRoster[@id='vla_king_template_civ_m']"/>
+    <xsl:template match="EquipmentRoster[@id='vla_king_template_bat_f']"/>
+    <xsl:template match="EquipmentRoster[@id='vla_king_template_civ_f']"/>
 </xsl:stylesheet>
