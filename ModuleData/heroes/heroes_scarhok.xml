@@ -1,10 +1,72 @@
 <Heroes>
-   <Hero id="lord_scarhok_1_1" faction="Faction.clan_scarhok_1" />
-   <Hero id="lord_scarhok_2_1" faction="Faction.clan_scarhok_2" />
-   <Hero id="lord_scarhok_3_1" faction="Faction.clan_scarhok_3" />
-   <Hero id="lord_scarhok_4_1" faction="Faction.clan_scarhok_4" />
-   <Hero id="lord_scarhok_5_1" faction="Faction.clan_scarhok_5" />
-   <Hero id="lord_scarhok_6_1" faction="Faction.clan_scarhok_6" />
-   <Hero id="lord_scarhok_7_1" faction="Faction.clan_scarhok_7" />
-   <Hero id="lord_scarhok_8_1" faction="Faction.clan_scarhok_8" />
+    <!-- Clan 1 -->
+    <Hero id="lord_scarhok_1_1" faction="Faction.clan_scarhok_1" spouse="Hero.lord_scarhok_1_2"/>
+    <Hero id="lord_scarhok_1_2" faction="Faction.clan_scarhok_1" spouse="Hero.lord_scarhok_1_1"/>
+    <Hero id="lord_scarhok_1_3" faction="Faction.clan_scarhok_1" father="Hero.lord_scarhok_1_1" mother="Hero.lord_scarhok_1_2"/>
+    <Hero id="lord_scarhok_1_4" faction="Faction.clan_scarhok_1" father="Hero.lord_scarhok_1_1" mother="Hero.lord_scarhok_1_2"/>
+    <Hero id="lord_scarhok_1_5" faction="Faction.clan_scarhok_1" father="Hero.lord_scarhok_1_1" mother="Hero.lord_scarhok_1_2"/>
+    <Hero id="lord_scarhok_1_6" faction="Faction.clan_scarhok_1" spouse="Hero.lord_scarhok_1_7"/>
+    <Hero id="lord_scarhok_1_7" faction="Faction.clan_scarhok_1" spouse="Hero.lord_scarhok_1_6"/>
+    <Hero id="lord_scarhok_1_8" faction="Faction.clan_scarhok_1" father="Hero.lord_scarhok_1_6" mother="Hero.lord_scarhok_1_7"/>
+    <Hero id="lord_scarhok_1_9" faction="Faction.clan_scarhok_1" father="Hero.lord_scarhok_1_6" mother="Hero.lord_scarhok_1_7"/>
+    <Hero id="lord_scarhok_1_10" faction="Faction.clan_scarhok_1" />
+
+    <!-- Clan 2 -->
+    <Hero id="lord_scarhok_2_1" faction="Faction.clan_scarhok_2" spouse="Hero.lord_scarhok_2_2"/>
+    <Hero id="lord_scarhok_2_2" faction="Faction.clan_scarhok_2" spouse="Hero.lord_scarhok_2_1"/>
+    <Hero id="lord_scarhok_2_3" faction="Faction.clan_scarhok_2" father="Hero.lord_scarhok_2_1" mother="Hero.lord_scarhok_2_2"/>
+    <Hero id="lord_scarhok_2_4" faction="Faction.clan_scarhok_2" father="Hero.lord_scarhok_2_1" mother="Hero.lord_scarhok_2_2"/>
+    <Hero id="lord_scarhok_2_5" faction="Faction.clan_scarhok_2" father="Hero.lord_scarhok_2_1" mother="Hero.lord_scarhok_2_2"/>
+    <Hero id="lord_scarhok_2_6" faction="Faction.clan_scarhok_2" father="Hero.lord_scarhok_2_1" mother="Hero.lord_scarhok_2_2"/>
+    <Hero id="lord_scarhok_2_7" faction="Faction.clan_scarhok_2" />
+    <!-- Add dead mother ? -->
+    <Hero id="lord_scarhok_2_8" faction="Faction.clan_scarhok_2" father="Hero.lord_scarhok_2_7"/>
+
+    <!-- Clan 3 -->
+    <Hero id="lord_scarhok_3_1" faction="Faction.clan_scarhok_3" spouse="Hero.lord_scarhok_3_2"/>
+    <Hero id="lord_scarhok_3_2" faction="Faction.clan_scarhok_3" spouse="Hero.lord_scarhok_3_1"/>
+    <Hero id="lord_scarhok_3_3" faction="Faction.clan_scarhok_3" father="Hero.lord_scarhok_3_1" mother="Hero.lord_scarhok_3_2"/>
+    <Hero id="lord_scarhok_3_4" faction="Faction.clan_scarhok_3" father="Hero.lord_scarhok_3_1" mother="Hero.lord_scarhok_3_2"/>
+    <Hero id="lord_scarhok_3_5" faction="Faction.clan_scarhok_3" />
+    <!-- Add dead father ? -->
+    <Hero id="lord_scarhok_3_6" faction="Faction.clan_scarhok_3" mother="Hero.lord_scarhok_3_5"/>
+    <Hero id="lord_scarhok_3_7" faction="Faction.clan_scarhok_3" mother="Hero.lord_scarhok_3_5"/>
+
+    <!-- Clan 4 -->
+    <Hero id="lord_scarhok_4_1" faction="Faction.clan_scarhok_4" spouse="Hero.lord_scarhok_4_2"/>
+    <Hero id="lord_scarhok_4_2" faction="Faction.clan_scarhok_4" spouse="Hero.lord_scarhok_4_1"/>
+    <Hero id="lord_scarhok_4_3" faction="Faction.clan_scarhok_4" father="Hero.lord_scarhok_4_2" mother="Hero.lord_scarhok_4_1"/>
+    <Hero id="lord_scarhok_4_4" faction="Faction.clan_scarhok_4" father="Hero.lord_scarhok_4_2" mother="Hero.lord_scarhok_4_1"/>
+    <Hero id="lord_scarhok_4_5" faction="Faction.clan_scarhok_4" spouse="Hero.lord_scarhok_4_6"/>
+    <Hero id="lord_scarhok_4_6" faction="Faction.clan_scarhok_4" spouse="Hero.lord_scarhok_4_5"/>
+    <Hero id="lord_scarhok_4_7" faction="Faction.clan_scarhok_4" father="Hero.lord_scarhok_4_5" mother="Hero.lord_scarhok_4_6"/>
+
+    <!-- Clan 5 -->
+    <Hero id="lord_scarhok_5_1" faction="Faction.clan_scarhok_5" spouse="Hero.lord_scarhok_5_2"/>
+    <Hero id="lord_scarhok_5_2" faction="Faction.clan_scarhok_5" spouse="Hero.lord_scarhok_5_1"/>
+    <Hero id="lord_scarhok_5_3" faction="Faction.clan_scarhok_5" father="Hero.lord_scarhok_5_2" mother="Hero.lord_scarhok_5_1"/>
+    <Hero id="lord_scarhok_5_4" faction="Faction.clan_scarhok_5" spouse="Hero.lord_scarhok_5_5"/>
+    <Hero id="lord_scarhok_5_5" faction="Faction.clan_scarhok_5" spouse="Hero.lord_scarhok_5_4"/>
+    <Hero id="lord_scarhok_5_6" faction="Faction.clan_scarhok_5" father="Hero.lord_scarhok_5_4" mother="Hero.lord_scarhok_5_5"/>
+
+    <!-- Clan 6 -->
+    <Hero id="lord_scarhok_6_1" faction="Faction.clan_scarhok_6" spouse="Hero.lord_scarhok_6_2"/>
+    <Hero id="lord_scarhok_6_2" faction="Faction.clan_scarhok_6" spouse="Hero.lord_scarhok_6_1"/>
+    <Hero id="lord_scarhok_6_3" faction="Faction.clan_scarhok_6" father="Hero.lord_scarhok_6_1" mother="Hero.lord_scarhok_6_2"/>
+    <Hero id="lord_scarhok_6_4" faction="Faction.clan_scarhok_6" father="Hero.lord_scarhok_6_1" mother="Hero.lord_scarhok_6_2"/>
+    <Hero id="lord_scarhok_6_5" faction="Faction.clan_scarhok_6" father="Hero.lord_scarhok_6_1" mother="Hero.lord_scarhok_6_2"/>
+    <Hero id="lord_scarhok_6_6" faction="Faction.clan_scarhok_6" />
+
+    <!-- Clan 7 -->
+    <Hero id="lord_scarhok_7_1" faction="Faction.clan_scarhok_7" spouse="Hero.lord_scarhok_7_2"/>
+    <Hero id="lord_scarhok_7_2" faction="Faction.clan_scarhok_7" spouse="Hero.lord_scarhok_7_1"/>
+    <Hero id="lord_scarhok_7_3" faction="Faction.clan_scarhok_7" father="Hero.lord_scarhok_7_2" mother="Hero.lord_scarhok_7_1"/>
+    <Hero id="lord_scarhok_7_4" faction="Faction.clan_scarhok_7" />
+    <Hero id="lord_scarhok_7_5" faction="Faction.clan_scarhok_7" />
+
+    <!-- Clan 8 -->
+    <Hero id="lord_scarhok_8_1" faction="Faction.clan_scarhok_8" spouse="Hero.lord_scarhok_8_2"/>
+    <Hero id="lord_scarhok_8_2" faction="Faction.clan_scarhok_8" spouse="Hero.lord_scarhok_8_1"/>
+    <Hero id="lord_scarhok_8_3" faction="Faction.clan_scarhok_8" father="Hero.lord_scarhok_8_1" mother="Hero.lord_scarhok_8_2"/>
+    <Hero id="lord_scarhok_8_4" faction="Faction.clan_scarhok_8" />
 </Heroes>

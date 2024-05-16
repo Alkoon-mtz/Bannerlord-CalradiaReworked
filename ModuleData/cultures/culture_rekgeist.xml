@@ -252,7 +252,26 @@
             <name name="{=9I9ziX31}Vilatrud" />
         </female_names>
         <clan_names>
-            <name name="{=p1dFvTAc}von {ORIGIN_SETTLEMENT}" />
+            <name name="{=von Isenberg}von Isenberg" />
+            <name name="{=von Diest}von Diest" />
+            <name name="{=von Waldeck}von Waldeck" />
+            <name name="{=von Kerpen}von Kerpen" />
+            <name name="{=von Malberg}von Malberg" />
+            <name name="{=von Hohenlohe}von Hohenlohe" />
+            <name name="{=von Ostern}von Ostern" />
+            <name name="{=von Heldrungen}von Heldrungen" />
+            <name name="{=von Feuchtwangen}von Feuchtwangen" />
+            <name name="{=von Nauen}von Nauen" />
+            <name name="{=von Pernstein}von Pernstein" />
+            <name name="{=von Vyshusen}von Vyshusen" />
+            <name name="{=von Ziegenhain}von Ziegenhain" />
+            <name name="{=von Gudensberg}von Gudensberg" />
+            <name name="{=von Mainz}von Mainz" />
+            <name name="{=von Karenwall}von Karenwall" />
+            <name name="{=von Geroldseck}von Geroldseck" />
+            <name name="{=von Urslingen}von Urslingen" />
+            <name name="{=von Neukatel}von Neukatel" />
+            <name name="{=von Schwyz}von Schwyz" />
         </clan_names>
         <cultural_feats>
             <feat id="sturgian_cheaper_recruits_infantry" />

@@ -252,7 +252,23 @@
             <name name="{=9I9ziX31}Vilatrud" />
         </female_names>
         <clan_names>
-            <name name="{=p1dFvTAc}dey {ORIGIN_SETTLEMENT}" />
+            <name name="{=dey Urgel}dey Urgel" />
+            <name name="{=dey Brezze}dey Brezze" />
+            <name name="{=dey Bigod}dey Bigod" />
+            <name name="{=dey Warn}dey Warn" />
+            <name name="{=dey Braose}dey Braose" />
+            <name name="{=dey Blunden}dey Blunden" />
+            <name name="{=dey Glouc}dey Glouc" />
+            <name name="{=dey Voclain}dey Voclain" />
+            <name name="{=dey Fredelor}dey Fredelor" />
+            <name name="{=dey Scrope}dey Scrope" />
+            <name name="{=dey Talbot}dey Talbot" />
+            <name name="{=dey Leyburk}dey Leyburk" />
+            <name name="{=dey Lisk}dey Lisk" />
+            <name name="{=dey Vranche}dey Vranche" />
+            <name name="{=dey Cosnak}dey Cosnak" />
+            <name name="{=dey Forzk}dey Forzk" />
+            <name name="{=dey Dreux}dey Dreux" />
         </clan_names>
         <cultural_feats>
             <feat id="vlandian_renown_mercenary_income" />

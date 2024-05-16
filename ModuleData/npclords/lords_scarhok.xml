@@ -1,7 +1,14 @@
 <NPCCharacters>
+    <!--
+        sca_bat_template_flamboyant lord_1h_throw_1
+        sca_bat_template_heavy      lord_archer_1h_1
+        sca_bat_template_medium     lord_throw_2h_1
+        sca_bat_template_low        lord_cav_throw_1h_1
+    -->
+    <!-- Clan 1 -->
     <NPCCharacter id="lord_scarhok_1_1"
         name="{=lord_scarhok_1_1}Hardouin"
-        age="39"
+        age="38"
         voice="ironic"
         default_group="Infantry"
         is_hero="true"
@@ -28,9 +35,219 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_1_2"
+        name="{=lord_scarhok_1_2}Gunhild"
+        age="39"
+        voice="softspoken"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_crafter"
+        face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="39" weight="0.373" build="0.719"  key="000A78080D14240D6460DBA9047275E7316D7648A536B1B032C814A88146BA50001B600301587479000000000000000000000000000000000000000034286005"  />
+        </face>
+        <Traits>
+            <Trait id="Generosity"
+                value="+2" />
+            <Trait id="Calculating"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="sca_king_template_civ_f" />
+            <EquipmentSet id="sca_king_template_civ_f" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_1_3"
+        name="{=lord_scarhok_1_3}Arnketil"
+        age="22"
+        voice="curt"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_throw_1h_2">
+        <face>
+            <BodyProperties version="4" age="22" weight="0.554" build="0.839"  key="000D740D0000038273645F1379D39AD58F6B7216C0B4AE82B57EAB3C8D631E88008D800308AF77E2000000000000000000000000000000000000000028F85040"  />
+        </face>
+        <Traits>
+            <Trait id="Honor"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="sca_bat_template_low" />
+            <EquipmentSet id="sca_civ_template_default" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_1_4"
+        name="{=lord_scarhok_1_4}Wandrille"
+        age="15"
+        voice="ironic"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.554" build="0.839"  key="000E880AC00033C1AF8A7F3B9EE5CDE5DFBB761FE4B5CEB3D7AEBEBE8D991E9D007D800307DF8CE7000000000000000000000000000000000000000020E070C3"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="sca_bat_template_medium" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_1_5"
+        name="{=lord_scarhok_1_5}Jeuffine"
+        age="13"
+        voice="softspoken"
+        is_female="true"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="13" weight="0.373" build="0.719"  key="00029008CB1434459986FCBC6E9E88FC6F8D86ACE7C6E7BB7BE82DAD8CD9FBA9005B6003055DD87D000000000000000000000000000000000000000026B09104"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="sca_bat_template_heavy" />
+            <EquipmentSet id="sca_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_1_6"
+        name="{=lord_scarhok_1_6}Hagen"
+        age="36"
+        voice="curt"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_throw_2h_2">
+        <face>
+            <BodyProperties version="4" age="36" weight="0.5383" build="0.7608"  key="00028C09800023C279747F167EE5CDD5AF6B7418E1B4BE83C5AEADBE8D781E8B006B800306CF79E3000000000000000000000000000000000000000028D860C0"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Valor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="sca_bat_template_medium" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_1_7"
+        name="{=lord_scarhok_1_7}Markvart"
+        age="37"
+        voice="earnest"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_1h_throw_1">
+        <face>
+            <BodyProperties version="4" age="37" weight="0.346" build="0.691"  key="000A04098F1430083B6464090DAE9AC51E4D74A3D1C1EE5135D96E9787666CA5006A500306481BC6000000000000000000000000000000000000000030B83083"  />
+        </face>
+        <Traits>
+            <Trait id="Valor"
+                value="+2" />
+            <Trait id="Mercy"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="sca_bat_template_flamboyant" />
+            <EquipmentSet id="sca_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_1_8"
+        name="{=lord_scarhok_1_8}Lesceline"
+        age="13"
+        voice="earnest"
+        is_female="true"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="13" weight="0.346" build="0.691"  key="000D440D0E14300C3D759CBF3EAEFACD9E4D84AFE7C1EEE5DAEF7EAE8C78BFD6003A500303BA3DCA000000000000000000000000000000000000000030704083"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="sca_bat_template_heavy" />
+            <EquipmentSet id="sca_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_1_9"
+        name="{=lord_scarhok_1_9}Charles"
+        age="10"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="10" weight="0.554" build="0.839"  key="000D3408C00023C47D877F197EE5CDD5CFBB741BE2B4CE83D5AEAEBE8D781E9C006D800306DF7BE7000000000000000000000000000000000000000022C87000"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="sca_bat_template_low" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_1_10"
+        name="{=lord_scarhok_1_10}Robert"
+        age="33"
+        voice="curt"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_archer_1h_1">
+        <face>
+            <BodyProperties version="4" age="33" weight="0.6343" build="0.839"  key="000A9808C00024047C747F187EE5CDD5AF9B7418E2B4BE83C5AEAEBE8D781E9C007DA00307CF79E5000000000000000000000000000000000000000022E87000"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Valor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="sca_bat_template_heavy" />
+            <EquipmentSet id="sca_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 2 -->
     <NPCCharacter id="lord_scarhok_2_1"
         name="{=lord_scarhok_2_1}Cardin"
-        age="42"
+        age="46"
         voice="ironic"
         default_group="Infantry"
         is_hero="true"
@@ -57,9 +274,168 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_2_2"
+        name="{=lord_scarhok_2_2}Berthilde"
+        age="45"
+        voice="curt"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_throw_2h_2">
+        <face>
+            <BodyProperties version="4" age="45" weight="0.409" build="0.691"  key="0010C0098D1430063D64767B3DAEAACC3E4D74AED3C1EE92B7DB7E998A787EC6000A6003007A1DC9000000000000000000000000000000000000000040084103"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_medium" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_2_3"
+        name="{=lord_scarhok_2_3}Elma"
+        age="30"
+        voice="earnest"
+        is_female="true"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_archer_1h_1">
+        <face>
+            <BodyProperties version="4" age="30" weight="0.2843" build="0.691"  key="000A8408CF1430043D7477AE3DAEDACC4E4D74AFE5C1EEB2B7DE7EA98C78AEC6004A400304AA2DC9000000000000000000000000000000000000000032904084"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_heavy" />
+            <EquipmentSet id="sca_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_2_4"
+        name="{=lord_scarhok_2_4}Baldwin"
+        age="27"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_throw_1h_2">
+        <face>
+            <BodyProperties version="4" age="27" weight="0.399" build="0.742"  key="000D000AC00003C38A63ADE3CDD8FBA2DF7E7121A2838D7D99FB53968D7D051E005B600305153528000000000000000000000000000000000000000022A810C3"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_low" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_2_5"
+        name="{=lord_scarhok_2_5}Darelle"
+        age="16"
+        voice="softspoken"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.399" build="0.742"  key="000A240980000404DA84ADE3EEDCFDF4DFFE768EA7E58DED9DFD5BAB8EBE1B7E004B6003045A4BA8000000000000000000000000000000000000000032788103"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_flamboyant" />
+            <EquipmentSet id="sca_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_2_6"
+        name="{=lord_scarhok_2_6}Fanchon"
+        age="12"
+        voice="curt"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="12" weight="0.4077" build="0.691"  key="000548080F14300F3D6476AB3DAEDACC4E4D74AFE5C1EEA2B7DD7EA98B789EC6007A600307AA1DC900000000000000000000000000000000000000005CE04004"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_low" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_2_7"
+        name="{=lord_scarhok_2_7}Tancrede"
+        age="29"
+        voice="softspoken"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_scout">
+        <face>
+            <BodyProperties version="4" age="42" weight="0.4607" build="0.742"  key="000A5C0AC00003828A73ADE3CDD8FBD2DFDE7389A5D38D9D9CFD55A98E9D065E003B700303194BA8000000000000000000000000000000000000000022681043"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_low" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_2_8"
+        name="{=lord_scarhok_2_8}Norine"
+        age="11"
+        voice="curt"
+        is_female="true"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="11" weight="0.481" build="0.705"  key="000AA4080C140010BE6F41163D44C3BB2CAA7AE824212BACDCDBCE4B811D89A9003B700303C1BED40000000000000000000000000000000000000000105030C3"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_low" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 3 -->
     <NPCCharacter id="lord_scarhok_3_1"
         name="{=lord_scarhok_3_1}Macieu"
-        age="36"
+        age="35"
         voice="ironic"
         default_group="Infantry"
         is_hero="true"
@@ -86,6 +462,141 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_3_2"
+        name="{=lord_scarhok_3_2}Ottilie"
+        age="36"
+        voice="ironic"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_doctor">
+        <face>
+            <BodyProperties version="4" age="36" weight="0.481" build="0.7639"  key="0002840B8E140003BF6FFDD6BD6BE5FC8EEE7CEF88C6CEEDDDDCEE9B857DEFBD004B700304C7DEEF0000000000000000000000000000000000000000267830C3"  />
+        </face>
+        <Traits>
+            <Trait id="Calculating"
+                value="+2" />
+            <Trait id="Generosity"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_low" />
+            <EquipmentSet id="sca_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_3_3"
+        name="{=lord_scarhok_3_3}Ketil"
+        age="20"
+        voice="softspoken"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_archer_1h_1">
+        <face>
+            <BodyProperties version="4" age="20" weight="0.399" build="0.742"  key="000A5408000003C0CA74ADE3EDD8FCD2DFEE768CA7E58DBD9DFD57AA8EAD1A6E006B600306194BA8000000000000000000000000000000000000000026C01043"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_heavy" />
+            <EquipmentSet id="sca_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_3_4"
+        name="{=lord_scarhok_3_4}Undine"
+        age="15"
+        voice="earnest"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.4193" build="0.705"  key="00025C0D0F14000FBF6FF486BD68C4BB7DCE7CEF8756CDDDDDDCEE9B854DEEBD005B600305C6BEDE000000000000000000000000000000000000000056903084"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_medium" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_3_5"
+        name="{=lord_scarhok_3_5}Dagmar"
+        age="30"
+        voice="curt"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_throw_2h_2">
+        <face>
+            <BodyProperties version="4" age="30" weight="0.481" build="0.705"  key="000A780ACF140009BF6FE446BD66C4BB6DBE7CEE7645CDDDDCDBDE9B854DEBAD006B700306C4BEDE000000000000000000000000000000000000000006B830C4"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_medium" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_3_6"
+        name="{=lord_scarhok_3_6}Ceneric"
+        age="16"
+        voice="softspoken"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.399" build="0.8037"  key="00002808C00003C3AA73ADE3EDD8FBD2DFDE7589A5D38DBD9CFD57A98EAD195E003C600303194BA8000000000000000000000000000000000000000062601105"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_flamboyant" />
+            <EquipmentSet id="sca_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_3_7"
+        name="{=lord_scarhok_3_7}Vilma"
+        age="9"
+        voice="earnest"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="9" weight="0.315" build="0.654"  key="000A4C0ACF143003ED8FDBEEBE86CECBE2F979DFCBC66EB78C7EBE7E8BC49FEE005A500305ABEECA00000000000000000000000000000000000000003EA84083"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_low" />
+            <EquipmentSet id="sca_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 4 -->
     <NPCCharacter id="lord_scarhok_4_1"
         name="{=lord_scarhok_4_1}Aregonde"
         age="34"
@@ -114,6 +625,144 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_4_2"
+        name="{=lord_scarhok_4_2}Mederic"
+        age="34"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_throw_1h_2">
+        <face>
+            <BodyProperties version="4" age="34" weight="0.475" build="0.834"  key="0002A80D800033C06F8C46946192DA94465B89E7BBB6D5973CDF47D781DCCF88005D7003052D77DB000000000000000000000000000000000000000014A88000"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_low" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_4_3"
+        name="{=lord_scarhok_4_1}Agnes"
+        age="14"
+        voice="curt"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="14" weight="0.3781" build="0.654"  key="00023C0B8E143007AC8FD79BBE75AC9272E977AF8B435E27477DBE658BC29DD6003A6003039B9DAA0000000000000000000000000000000000000000627030C4"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_flamboyant" />
+            <EquipmentSet id="sca_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_4_4"
+        name="{=lord_scarhok_4_1}Gontran"
+        age="6"
+        voice="softspoken"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="6" weight="0.475" build="0.834"  key="00040408000033C0CF8DE6FB8EC5ECA9665D89EACDB6DD979CEFCDD784FEEF8A003D700303BEBEDD000000000000000000000000000000000000000058689106"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_medium" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_4_5"
+        name="{=lord_scarhok_4_1}Batistin"
+        age="35"
+        voice="softspoken"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_1h_throw_2">
+        <face>
+            <BodyProperties version="4" age="35" weight="0.2867" build="0.742"  key="0005840AC0003384BF8C969577B3DB99465C89E7BBB6D8979CDFADD783DEEF88002B4003029D98DB0000000000000000000000000000000000000000384090C0"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_flamboyant" />
+            <EquipmentSet id="sca_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_4_6"
+        name="{=lord_scarhok_4_1}Maheline"
+        age="33"
+        voice="earnest"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_engineer">
+        <face>
+            <BodyProperties version="4" age="33" weight="0.315" build="0.654"  key="000D6C0B8D141004AB7F129A3E62AC8271A9746E53433D1737799E6588923CD2007A500307739D9A000000000000000000000000000000000000000060E83043"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_medium" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_4_7"
+        name="{=lord_scarhok_4_1}Osanna"
+        age="15"
+        voice="ironic"
+        is_female="true"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.2533" build="0.7145"  key="00080C08CC143002DD8FD9ADBE85ACB2D2F977BF9B935E37587EBE678BC29EDA004B400304ABAEAA0000000000000000000000000000000000000000387830C3"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_heavy" />
+            <EquipmentSet id="sca_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 5 -->
     <NPCCharacter id="lord_scarhok_5_1"
         name="{=lord_scarhok_5_1}Osmund"
         age="34"
@@ -141,9 +790,123 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_5_2"
+        name="{=lord_scarhok_5_2}Mektild"
+        age="34"
+        voice="ironic"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_throw_2h_2">
+        <face>
+            <BodyProperties version="4" age="34" weight="0.4133" build="0.834"  key="00024C0980003445CF8CB6CB87C4DCA9465D89E7CBB6D9979CDFADD783FEEF8A005D600305BD9EDB000000000000000000000000000000000000000016989046"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_medium" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_5_3"
+        name="{=lord_scarhok_5_3}Luderik"
+        age="13"
+        voice="curt"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="13" weight="0.4133" build="0.7701"  key="00032C09800033C6BF8CB69977C3DC99465C89E7CBB6D9979CDFADD783DEEF8A002C6003029D98DB00000000000000000000000000000000000000005A409104"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_low" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_5_4"
+        name="{=lord_scarhok_5_4}Hilbert"
+        age="27"
+        voice="earnest"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_1h_throw_2">
+        <face>
+            <BodyProperties version="4" age="27" weight="0.593" build="0.752"  key="0005A40A400033C1A47592B9166DE9D2B0C48A192D26EE9A3948E37C87D5E2CA006B90030669D922000000000000000000000000000000000000000028C86105"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_flamboyant" />
+            <EquipmentSet id="sca_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_5_5"
+        name="{=lord_scarhok_5_5}Daghild"
+        age="28"
+        voice="softspoken"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_charmer">
+        <face>
+            <BodyProperties version="4" age="28" weight="0.3767" build="0.7157"  key="0002000D0D14300ACC8FD8ADBE75AC92C2F977BF9B535E37487EBE658BC29DD6007B6003079B9DAA000000000000000000000000000000000000000002E83043"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Honor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_low" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_5_6"
+        name="{=lord_scarhok_5_6}Clothilde"
+        age="5"
+        voice="ironic"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="5" weight="0.253" build="0.587"  key="000AB80B8D143003C77D1B9F416CE5661F658A6C33847E11D5B2222683659C9100194003012A5403000000000000000000000000000000000000000032282003"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_medium" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 6 -->
     <NPCCharacter id="lord_scarhok_6_1"
         name="{=lord_scarhok_6_1}Roscelin"
-        age="26"
+        age="35"
         voice="curt"
         default_group="Infantry"
         is_hero="true"
@@ -170,6 +933,122 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_6_2"
+        name="{=lord_scarhok_6_2}Alberta"
+        age="36"
+        voice="ironic"
+        is_female="true"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_archer_1h_2">
+        <face>
+            <BodyProperties version="4" age="36" weight="0.253" build="0.6549"  key="0005400D0B143004E77DEE9FB59CE5FCBF978A6DE3A67E93D6EF485883ADBCDB007A400307CBEC7F000000000000000000000000000000000000000042E84084"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_heavy" />
+            <EquipmentSet id="sca_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_6_3"
+        name="{=lord_scarhok_6_3}Hildegonde"
+        age="21"
+        voice="softspoken"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_throw_1h_2">
+        <face>
+            <BodyProperties version="4" age="21" weight="0.3147" build="0.587"  key="0005740C4B143003E77D9B9F649CE5E78F678A6D83867E23D5C84436836B9C9600395003036A9B64000000000000000000000000000000000000000032703043"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_low" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_6_4"
+        name="{=lord_scarhok_6_4}Bernhard"
+        age="16"
+        voice="earnest"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.253" build="0.587"  key="000D20098B143009E77D9D9F649CE5E88F778A6D83867E23D5C84637838BAC9700694003067ABB6D000000000000000000000000000000000000000034C83004"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_flamboyant" />
+            <EquipmentSet id="sca_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_6_5"
+        name="{=lord_scarhok_6_5}Gerwald"
+        age="8"
+        voice="curt"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="8" weight="0.5324" build="0.752"  key="0010B80AC0003389AA7DCFCB68ADF9E5B2DB8AEDCDB6EECDED8CE77D8BE7E3CA002B800302EFDD7A000000000000000000000000000000000000000032386044"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_medium" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_6_6"
+        name="{=lord_scarhok_6_6}Krimhigonde"
+        age="31"
+        voice="softspoken"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_scout">
+        <face>
+            <BodyProperties version="4" age="31" weight="0.3133" build="0.5262"  key="00056C0B8E14300BE77DCD9F759CE5F98F878A6D83867E83D5CF473783ABAC9B00685003067BBB6E000000000000000000000000000000000000000032D84103"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_low" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 7 -->
     <NPCCharacter id="lord_scarhok_7_1"
         name="{=lord_scarhok_7_1}Chardine"
         age="38"
@@ -198,6 +1077,97 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_7_2"
+        name="{=lord_scarhok_7_2}Hugaut"
+        age="30"
+        voice="earnest"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_merchant">
+        <face>
+            <BodyProperties version="4" age="30" weight="0.2793" build="0.752"  key="0002500C40003443AA759EBA179DF9D5B1CA8AECAD96EE9D4A89E77D87D7E2CA006B400306DADC62000000000000000000000000000000000000000022C06045"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_heavy" />
+            <EquipmentSet id="sca_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_7_3"
+        name="{=lord_scarhok_7_3}Gislinde"
+        age="7"
+        voice="softspoken"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="7" weight="0.593" build="0.752"  key="000D740D00003409AA79AEBB58ADF9D5B2CB8AECCDA6EECDDB8CE77D8AD7E3CA007B900307EADC72000000000000000000000000000000000000000028F86085"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_flamboyant" />
+            <EquipmentSet id="sca_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_7_4"
+        name="{=lord_scarhok_7_4}Fride"
+        age="25"
+        voice="curt"
+        is_female="true"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_archer_1h_2">
+        <face>
+            <BodyProperties version="4" age="25" weight="0.47" build="0.633"  key="000A400B8B1430015A8982DE13D563F72CCA87A2A5B677D186B4A6E383DABCF10049700304278E09000000000000000000000000000000000000000032781083"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_heavy" />
+            <EquipmentSet id="sca_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_7_5"
+        name="{=lord_scarhok_7_5}Dita"
+        age="15"
+        voice="curt"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.47" build="0.6867"  key="00022008CC14300E7E8DEDDE26D597FD3FFA8BA9B5B6C7D9ACDBADEB84FAFFF3007A700307E7AE3B000000000000000000000000000000000000000034E01084"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="sca_bat_template_medium" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 8 -->
     <NPCCharacter id="lord_scarhok_8_1"
         name="{=lord_scarhok_8_1}Ansgot"
         age="26"
@@ -223,6 +1193,75 @@
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="sca_bat_template_low" />
+            <EquipmentSet id="sca_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_8_2"
+        name="{=lord_scarhok_8_2}Valborg"
+        age="23"
+        voice="earnest"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_rogue">
+        <face>
+            <BodyProperties version="4" age="23" weight="0.4083" build="0.7515"  key="000D480B8D1430055A89D7DE25D574FA3CEA8BA6A5B687D18AB6A6E483FADCF2006B60030637AE0900000000000000000000000000000000000000005AD01083"  />
+        </face>
+        <Traits>
+            <Trait id="Generosity"
+                value="+1" />
+            <Trait id="Mercy"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_flamboyant" />
+            <EquipmentSet id="sca_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_8_3"
+        name="{=lord_scarhok_8_3}Norbert"
+        age="3"
+        voice="ironic"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="3" weight="0.593" build="0.7083"  key="000DBC0B80003441AA789EBB18ADF9D5B1CA8AECBDA6EE9DDA89E77D8AD7E2CA005B900305EADC62000000000000000000000000000000000000000030986046"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_heavy" />
+            <EquipmentSet id="sca_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_scarhok_8_4"
+        name="{=lord_scarhok_8_4}Geertje"
+        age="26"
+        voice="softspoken"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.scarhok"
+        occupation="Lord"
+        skill_template="SkillSet.lord_throw_2h_2">
+        <face>
+            <BodyProperties version="4" age="26" weight="0.4083" build="0.7565"  key="0010B8080F1430025B8DD9DE25D586FB3EFA8BA8A5B6B7D19BC9ADE684FAFFF3004B60030447AE090000000000000000000000000000000000000000187810C4"  />
+        </face>
+        <Traits>
+            <Trait id="Valor"
+                value="+2" />
+            <Trait id="Honor"
+                value="-2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_medium" />
             <EquipmentSet id="sca_civ_template_default"
                 civilian="true" />
         </Equipments>
