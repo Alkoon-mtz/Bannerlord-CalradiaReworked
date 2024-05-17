@@ -1,4 +1,11 @@
 <NPCCharacters>
+    <!--
+        ius_bat_template_flamboyant  lord_1h_pol_1
+        ius_bat_template_heavy       lord_xbow_pol_1
+        ius_bat_template_medium      lord_cav_xbow_pol_1
+        ius_bat_template_low         lord_cav_1h_pol_1
+    -->
+    <!-- Clan 1 -->
     <NPCCharacter id="lord_iustrium_1_1"
         name="{=lord_iustrium_1_1}Baudouin"
         age="35"
@@ -37,7 +44,7 @@
         is_hero="true"
         culture="Culture.iustrium"
         occupation="Lord"
-        skill_template="SkillSet.lord_1h_pol_1">
+        skill_template="SkillSet.lord_noncom_engineer">
         <face>
             <BodyProperties version="4"
                 age="34"
@@ -58,9 +65,193 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_1_3"
+        name="{=lord_iustrium_1_3}Arnketil"
+        age="22"
+        voice="curt"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_1h_pol_2">
+        <face>
+            <BodyProperties version="4" age="22" weight="0.57" build="0.317"  key="0018A4008000138CD58644D452BCB521E7877E5CB431F2C630AEE0426EADADB30085900308CC2425000000000000000000000000000000000000000045109001"  />
+        </face>
+        <Traits>
+            <Trait id="Honor"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ius_bat_template_low" />
+            <EquipmentSet id="ius_civ_template_default" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_1_4"
+        name="{=lord_iustrium_1_4}Wandrille"
+        age="15"
+        voice="ironic"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.57" build="0.317"  key="0018780E400018CDD998D6E784BDD886EEB77EDEF443F9FE6ECFFE8F8EBDCFDA00C590030CDD4F3900000000000000000000000000000000000000005D889041"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ius_bat_template_medium" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_1_5"
+        name="{=lord_iustrium_1_5}Jeuffine"
+        age="13"
+        voice="softspoken"
+        is_female="true"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="13" weight="0.362" build="0.49"  key="0015A003400010039290582C4A6CE9957C88884BF4649D7699EB87626962B4C40067500306500D1C000000000000000000000000000000000000000066D01043"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ius_bat_template_heavy" />
+            <EquipmentSet id="ius_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_1_6"
+        name="{=lord_iustrium_1_6}Hagen"
+        age="36"
+        voice="curt"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_xbow_pol_2">
+        <face>
+            <BodyProperties version="4" age="36" weight="0.74" build="0.307"  key="001B880B8000320C687B1D7BA67E28D269828595F123975F789ED09A69BAE5350065B00306A68B0F00000000000000000000000000000000000000000EC050C3"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Valor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ius_bat_template_medium" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_1_7"
+        name="{=lord_iustrium_1_7}Markvart"
+        age="37"
+        voice="earnest"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_1h_pol_1">
+        <face>
+            <BodyProperties version="4" age="37" weight="0.453" build="0.26"  key="0013C40E40001014AB9D687F6A6CFE9FBDC88E8BF778ED9DDAFCFFE76D76F5EB00B470030BBB9E5C000000000000000000000000000000000000000043601084"  />
+        </face>
+        <Traits>
+            <Trait id="Valor"
+                value="+2" />
+            <Trait id="Mercy"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ius_bat_template_flamboyant" />
+            <EquipmentSet id="ius_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_1_8"
+        name="{=lord_iustrium_1_8}Lesceline"
+        age="13"
+        voice="earnest"
+        is_female="true"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="13" weight="0.512" build="0.445"  key="0018A00800001010A793583F5A6CFB9DACC88A5BF766BD79D9FCDDA76B72C5C50087800308975D3C00000000000000000000000000000000000000001B1810C3"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ius_bat_template_heavy" />
+            <EquipmentSet id="ius_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_1_9"
+        name="{=lord_iustrium_1_9}Charles"
+        age="10"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="10" weight="0.724" build="0.629"  key="001878060000320C889CADDBA97EBCF8AC878B96F774A8FF7CFFEFAD7AEEFD8A0079B00307DD8B2F000000000000000000000000000000000000000016E090C3"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ius_bat_template_low" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_1_10"
+        name="{=lord_iustrium_1_10}Robert"
+        age="32"
+        voice="curt"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_xbow_pol_1">
+        <face>
+            <BodyProperties version="4" age="32" weight="0.697" build="0.482"  key="001E600FC00038CE689B2D9BA77E7BF86C868895F163A86F7BFEEB9A69CAFA7800A7A0030AB98B2F00000000000000000000000000000000000000001F487105"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Valor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ius_bat_template_heavy" />
+            <EquipmentSet id="ius_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 2 -->
     <NPCCharacter id="lord_iustrium_2_1"
         name="{=lord_iustrium_2_1}Sibylle"
-        age="40"
+        age="33"
         voice="ironic"
         is_female="true"
         default_group="Infantry"
@@ -88,9 +279,167 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_2_2"
+        name="{=lord_iustrium_2_2}Norine"
+        age="15"
+        voice="curt"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.505" build="0.498"  key="0018840B800034CC889C2DABA77EBCF86C868895F163A8AF7BFEEB9B7AEEFA790077800307D98B2F00000000000000000000000000000000000000000AF09005"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_flamboyant" />
+            <EquipmentSet id="ius_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_2_3"
+        name="{=lord_iustrium_2_3}Tancrede"
+        age="42"
+        voice="softspoken"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_merchant">
+        <face>
+            <BodyProperties version="4" age="42" weight="0.736" build="0.314"  key="001E840E400039CC689C2DABA77E8BF86C868895F163A8AF7BFEEB9B79DCFA790075B00307D98B2F00000000000000000000000000000000000000005AD87106"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_low" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_2_4"
+        name="{=lord_iustrium_2_4}Berthilde"
+        age="43"
+        voice="curt"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_xbow_pol_2">
+        <face>
+            <BodyProperties version="4" age="43" weight="0.471" build="0.417"  key="0020A808C0001005AB93685F6A6CFC9DACC88B6B1776BC8CD9FCFDE76D72F5E60066700306B98E4C000000000000000000000000000000000000000040C010C1"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_medium" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_2_5"
+        name="{=lord_iustrium_2_5}Elma"
+        age="27"
+        voice="earnest"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_xbow_pol_1">
+        <face>
+            <BodyProperties version="4" age="27" weight="0.713" build="0.388"  key="001E600A400024CE52972984869D2EAB6A457ADACC750AFF31F176E88DFD33FC0076B003077C69B9000000000000000000000000000000000000000014E86081"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_heavy" />
+            <EquipmentSet id="ius_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_2_6"
+        name="{=lord_iustrium_2_6}Baldwin"
+        age="25"
+        voice="ironic"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_1h_pol_2">
+        <face>
+            <BodyProperties version="4" age="25" weight="0.481" build="0.257"  key="001BB00400001015A993684F5A6CFB9DACC88A5BF766CD79D9FCDDC76D72C5D60074700307A78D3C000000000000000000000000000000000000000052E01083"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_low" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_2_7"
+        name="{=lord_iustrium_2_7}Darelle"
+        age="15"
+        voice="softspoken"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.496" build="0.227"  key="00189C08C000100CBE88EC2481BC6598AB728089EF25D9690CCCD9928EF76DCD00537003057558EA000000000000000000000000000000000000000048980083"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_flamboyant" />
+            <EquipmentSet id="ius_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_2_8"
+        name="{=lord_iustrium_2_8}Fanchon"
+        age="13"
+        voice="curt"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="13" weight="0.62" build="0.524"  key="00159C0E4000328F859C7D8AA9ADBECB8B778CEDDC873FFF6EFDBCEE8DFD7CFD0098900309EDDCCA0000000000000000000000000000000000000000613080C0"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_low" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 3 -->
     <NPCCharacter id="lord_iustrium_3_1"
         name="{=lord_iustrium_3_1}Godefroy"
-        age="53"
+        age="43"
         voice="ironic"
         default_group="Infantry"
         is_hero="true"
@@ -117,6 +466,141 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_3_2"
+        name="{=lord_iustrium_3_2}Ottilie"
+        age="42"
+        voice="ironic"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_crafter">
+        <face>
+            <BodyProperties version="4" age="36" weight="0.481" build="0.308"  key="001894040000200ACE9AEC7496BCB5AAAFD6809DFF45FFDEBFDEEFB68EF9ADED00A570030ACC6AFC00000000000000000000000000000000000000003F403003"  />
+        </face>
+        <Traits>
+            <Trait id="Calculating"
+                value="+2" />
+            <Trait id="Generosity"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_low" />
+            <EquipmentSet id="ius_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_3_3"
+        name="{=lord_iustrium_3_3}Ketil"
+        age="26"
+        voice="softspoken"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_xbow_pol_1">
+        <face>
+            <BodyProperties version="4" age="20" weight="0.581" build="0.632"  key="001E740AC000220B8399698986AD7EAB7B778BEBDC861DFF5EFCA6EC8DFD5BFD00799003077C6CB9000000000000000000000000000000000000000032E080C0"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_heavy" />
+            <EquipmentSet id="ius_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_3_4"
+        name="{=lord_iustrium_3_4}Undine"
+        age="15"
+        voice="earnest"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.483" build="0.457"  key="0013A40D80001005BE8AEC2492BCB598AB82808AEF25FCDBBCCCDC968EF77DCD0077700307A858EA00000000000000000000000000000000000000005CE02043"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_medium" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_3_5"
+        name="{=lord_iustrium_3_5}Dagmar"
+        age="30"
+        voice="curt"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_xbow_pol_2">
+        <face>
+            <BodyProperties version="4" age="30" weight="0.38" build="0.379"  key="001E940C40002004BE8AEC6494BCB5A9AEB3809CEF35FCDEBECCDCB68EF87DCD0076600307B959FB00000000000000000000000000000000000000002EE830C3"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_medium" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_3_6"
+        name="{=lord_iustrium_3_6}Ceneric"
+        age="16"
+        voice="softspoken"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.505" build="0.397"  key="001DA806C000288D83997B8986AD8ECB8B778CEBDC862FFF5EFDBCEC8DFD7CFD00968003098C8CCA00000000000000000000000000000000000000005D388005"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_flamboyant" />
+            <EquipmentSet id="ius_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_3_7"
+        name="{=lord_iustrium_3_7}Vilma"
+        age="9"
+        voice="earnest"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="9" weight="0.434" build="0.37"  key="002098014000100DBE8AEC2494BCB598AC82808CEF35FCDEBECCDCB68EF87DCD0076700307B958EB00000000000000000000000000000000000000004CF82084"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_low" />
+            <EquipmentSet id="ius_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 4 -->
     <NPCCharacter id="lord_iustrium_4_1"
         name="{=lord_iustrium_4_1}Mélisende"
         age="36"
@@ -147,6 +631,144 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_4_2"
+        name="{=lord_iustrium_4_2}Mederic"
+        age="34"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_1h_pol_2">
+        <face>
+            <BodyProperties version="4" age="34" weight="0.544" build="0.458"  key="0018880B8000234B83997B8986AD8EAB8B778BEBDC862EFF5EFCA8EC8DFD7BFD00678003068C6CC9000000000000000000000000000000000000000030D880C2"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_low" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_4_3"
+        name="{=lord_iustrium_4_1}Agnes"
+        age="14"
+        voice="curt"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="14" weight="0.57" build="0.3"  key="0018B800000000042B773BBF9635C8C786A16FD454387738B6E17A716D75FC9700B490030BE9A891000000000000000000000000000000000000000029601040"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_flamboyant" />
+            <EquipmentSet id="ius_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_4_4"
+        name="{=lord_iustrium_4_1}Gontran"
+        age="6"
+        voice="softspoken"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="6" weight="0.721" build="0.33"  key="001370034000024D1B922B5EA154D9712E406388A666C455A47F5FE86A28477A0095B0030997CB8D000000000000000000000000000000000000000053301083"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_medium" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_4_5"
+        name="{=lord_iustrium_4_1}Batistin"
+        age="35"
+        voice="softspoken"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_1h_pol_2">
+        <face>
+            <BodyProperties version="4" age="35" weight="0.723" build="0.43"  key="0015C40780003A0F3C9A7B9EA8B9DA9EDF736F8BBC68C667C5FFDFEB8C5DEAAB0086B00308CADFAD000000000000000000000000000000000000000061002080"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_flamboyant" />
+            <EquipmentSet id="ius_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_4_6"
+        name="{=lord_iustrium_4_1}Maheline"
+        age="33"
+        voice="earnest"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_doctor">
+        <face>
+            <BodyProperties version="4" age="33" weight="0.373" build="0.478"  key="001B60034000200A2B7ECDDF9768FEDEDAD47FE8EB68AA6FCCE7FC9E7DBAFEAD0077600307E9DBFC00000000000000000000000000000000000000002EE81100"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_medium" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_4_7"
+        name="{=lord_iustrium_4_1}Osanna"
+        age="15"
+        voice="ironic"
+        is_female="true"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.496" build="0.44"  key="00188408C00000072B7DACDF9657C9C79AC26FD6DA38776EBAE5FC777D86FCAA0097700309E9DBF6000000000000000000000000000000000000000031381044"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_heavy" />
+            <EquipmentSet id="ius_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 5 -->
     <NPCCharacter id="lord_iustrium_5_1"
         name="{=lord_iustrium_5_1}Guy"
         age="41"
@@ -176,9 +798,124 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_5_2"
+        name="{=lord_iustrium_5_2}Mektild"
+        age="34"
+        voice="ironic"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_xbow_pol_2">
+        <face>
+            <BodyProperties version="4" age="34" weight="0.382" build="0.383" key="001C9D0980003009BC9E3DC793794C896994887BD661C798F3F6C7AF7DBEDBFB007560030759CFB100000000000000000000000000000000000000003DB01004" />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_medium" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_5_3"
+        name="{=lord_iustrium_5_3}Luderik"
+        age="13"
+        voice="curt"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="13" weight="0.686" build="0.553"  key="001EB80FC000328C3C9A6B7EA5A8DA99DE63658AA667C567C5DFBFEB8B4DA7AB0058A00305C8DDAD00000000000000000000000000000000000000006EB02103"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_low" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_5_4"
+        name="{=lord_iustrium_5_4}Hilbert"
+        age="27"
+        voice="earnest"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_1h_pol_2">
+        <face>
+            <BodyProperties version="4" age="27" weight="0.502" build="0.503"  key="001E6C0D0000318E3C9A6B7EA4A7DA86DE63648AA667C567C5CF7FEB8A3DA7AB0098800309C8DDAD000000000000000000000000000000000000000063202040"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_flamboyant" />
+            <EquipmentSet id="ius_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_5_5"
+        name="{=lord_iustrium_5_5}Daghild"
+        age="28"
+        voice="softspoken"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_scout">
+        <face>
+            <BodyProperties version="4" age="28" weight="0.554" build="0.49"  key="001EC003400010022B7DBDDF9767CECBDAD27FE8DB48776FCBE6FC897D89FEAD0067800306E9DBF8000000000000000000000000000000000000000034C010C3"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Honor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_low" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_5_6"
+        name="{=lord_iustrium_5_6}Clothilde"
+        age="5"
+        voice="ironic"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="5" weight="0.455" build="0.497"  key="0018B40AC00010082B7DACDF9657CAC9BAC26FE6DB48776EBBE5FC787D86FDAB00A770030AE9DBF800000000000000000000000000000000000000000B401103"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_medium" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 6 -->
     <NPCCharacter id="lord_iustrium_6_1"
         name="{=lord_iustrium_6_1}Amaury"
-        age="28"
+        age="38"
         voice="curt"
         default_group="HorseArcher"
         is_hero="true"
@@ -205,11 +942,125 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="lord_iustrium_7_1"
-        name="{=lord_iustrium_7_1}Isabelle"
-        age="30"
+    <NPCCharacter id="lord_iustrium_6_2"
+        name="{=lord_iustrium_6_2}Alberta"
+        age="37"
         voice="ironic"
         is_female="true"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_xbow_pol_2">
+        <face>
+            <BodyProperties version="4" age="37" weight="0.487" build="0.27"  key="001E700E4000200D259014BA25934541CAC573D62D68ACDB32982A056813498A00A470030A4ADF7B000000000000000000000000000000000000000043401003"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_heavy" />
+            <EquipmentSet id="ius_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_6_3"
+        name="{=lord_iustrium_6_3}Hildegonde"
+        age="22"
+        voice="softspoken"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_1h_pol_2">
+        <face>
+            <BodyProperties version="4" age="22" weight="0.391" build="0.453"  key="0018C80340002011669A97CB65BBADB7CCE886DAAE88FFFB97AB7FBC8CCA5EDB0087600308AADF7D000000000000000000000000000000000000000047002040"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_low" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_6_4"
+        name="{=lord_iustrium_6_4}Bernhard"
+        age="16"
+        voice="earnest"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.748" build="0.597"  key="001BC40FC00028CD4C9A9829A4B689E52C73770D1652F150665419EB7AC6D5E80069B00306C4EC14000000000000000000000000000000000000000050C030C1"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_flamboyant" />
+            <EquipmentSet id="ius_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_6_5"
+        name="{=lord_iustrium_6_5}Gerwald"
+        age="8"
+        voice="curt"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="8" weight="0.681" build="0.446"  key="0018A40FC000380BDE9DEEABA5BDFBFFDDA689CEA876F959BBB41DEF7BCDEFEB0077A00307E9EC4900000000000000000000000000000000000000007CF89104"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_medium" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_6_6"
+        name="{=lord_iustrium_6_6}Krimhigonde"
+        age="31"
+        voice="softspoken"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_charmer">
+        <face>
+            <BodyProperties version="4" age="31" weight="0.409" build="0.33"  key="0015C0078000200F359076BA25B36B56CBE675D66E68BFFB54A86D5B6C4949AA00656003068ADF7B000000000000000000000000000000000000000046C02101"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_low" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 7 -->
+    <NPCCharacter id="lord_iustrium_7_1"
+        name="{=lord_iustrium_7_1}Henry"
+        age="30"
+        voice="ironic"
         default_group="HorseArcher"
         is_hero="true"
         culture="Culture.iustrium"
@@ -235,18 +1086,110 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="lord_iustrium_8_1"
-        name="{=lord_iustrium_8_1}Henry"
-        age="25"
+    <NPCCharacter id="lord_iustrium_7_2"
+        name="{=lord_iustrium_7_2}Hugaut"
+        age="29"
         voice="earnest"
+        is_female="true"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_rogue">
+        <face>
+            <BodyProperties version="4" age="29" weight="0.46" build="0.474"  key="001E840980002001669596BB45BB7B87CCE776D6AE78FFFB97A87D6B6C4A4BBB00A770030AAADF7B00000000000000000000000000000000000000001F502084"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_heavy" />
+            <EquipmentSet id="ius_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_7_3"
+        name="{=lord_iustrium_7_3}Gislinde"
+        age="9"
+        voice="softspoken"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="9" weight="0.556" build="0.367"  key="00196C0800003842AD9DA8ABA5BCE9E53C95784D2773F456B8A419EC7BCDDDEA0066800306D6EC26000000000000000000000000000000000000000052C04081"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_flamboyant" />
+            <EquipmentSet id="ius_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_7_4"
+        name="{=lord_iustrium_7_4}Fride"
+        age="26"
+        voice="curt"
+        is_female="true"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_xbow_pol_2">
+        <face>
+            <BodyProperties version="4" age="26" weight="0.5201" build="0.477"  key="001E840D0000200A669486BA35BA7B86CCE776D67E68CFFB94A86D5B6C4949AA00A780030A8ADF7B000000000000000000000000000000000000000065402083"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_heavy" />
+            <EquipmentSet id="ius_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_7_5"
+        name="{=lord_iustrium_7_5}Dita"
+        age="15"
+        voice="curt"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.464" build="0.535"  key="0013AC0080003A0ECD9DAEABA5BCFAE5CCA6796E4775F959BBA41CEC7BCDDDEA0088700308E7EC39000000000000000000000000000000000000000013007086"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ius_bat_template_medium" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 8 -->
+    <NPCCharacter id="lord_iustrium_8_1"
+        name="{=lord_iustrium_8_1}Isabelle"
+        age="26"
+        voice="earnest"
+        is_female="true"
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.iustrium"
         occupation="Lord"
-        skill_template="SkillSet.lord_cav_1h_pol_1">
+        skill_template="SkillSet.lord_cav_1h_pol_2">
         <face>
             <BodyProperties version="4"
-                age="25"
+                age="26"
                 weight="0.567"
                 build="0.436"
                 key="001364014000138CD696EBD9433DEBDABAF46C289B55FC49B8E3E5D35B7C8BCB0087900308A7899C0000000000000000000000000000000000000000690010C5" />
@@ -261,6 +1204,74 @@
             <EquipmentRoster />
             <EquipmentSet id="ius_bat_template_low" />
             <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_8_2"
+        name="{=lord_iustrium_8_2}Geertje"
+        age="24"
+        voice="softspoken"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_xbow_pol_2">
+        <face>
+            <BodyProperties version="4" age="24" weight="0.574" build="0.44"  key="00187C08000031CFBD9DAEABA5BCFAE59CA5785D3775F758BAA419EC7BCDDDEA00A790030AE7EC2800000000000000000000000000000000000000003B486105"  />
+        </face>
+        <Traits>
+            <Trait id="Valor"
+                value="+2" />
+            <Trait id="Honor"
+                value="-2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_medium" />
+            <EquipmentSet id="ius_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_8_3"
+        name="{=lord_iustrium_8_3}Valborg"
+        age="23"
+        voice="earnest"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_engineer">
+        <face>
+            <BodyProperties version="4" age="23" weight="0.564" build="0.266"  key="0014B00E40003004BC8D1CB563573B890884876BC661C673F3F491AF7DBEDAFB00A480030A59AF80000000000000000000000000000000000000000025401001"  />
+        </face>
+        <Traits>
+            <Trait id="Generosity"
+                value="+1" />
+            <Trait id="Mercy"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_flamboyant" />
+            <EquipmentSet id="ius_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_iustrium_8_4"
+        name="{=lord_iustrium_8_4}Norbert"
+        age="6"
+        voice="ironic"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.iustrium"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="6" weight="0.484" build="0.562"  key="0018BC0A4000238E399E76EF969CFE7CAEF376D4CF88E789DCFDF55E688DDDD800A870030A338BFE0000000000000000000000000000000000000000255090C3"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ius_bat_template_heavy" />
+            <EquipmentSet id="ius_civ_template_heavy"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>

@@ -33,7 +33,6 @@ Add lords
 Rework banners
 
 Iustrium:
-Add lords
 Rename cities
 male / female names
 
@@ -65,7 +64,6 @@ Add lords
 banner: 
 
 Zulizwe :
-Add lords
 male / female names
 Rename cities
 
