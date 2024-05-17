@@ -1176,7 +1176,7 @@
         is_hero="true"
         culture="Culture.scarhok"
         occupation="Lord"
-        skill_template="SkillSet.lord_cav_throw_1h_1">
+        skill_template="SkillSet.lord_cav_throw_1h_2">
         <face>
             <BodyProperties version="4"
                 age="26"
