@@ -5,6 +5,7 @@
         zul_bat_template_medium     lord_archer_1h_1
         zul_bat_template_low        lord_cav_archer_1h_1
     -->
+
     <!-- Clan 1 -->
     <NPCCharacter id="lord_zulizwe_1_1"
         name="{=lord_zulizwe_1_1}Boubacar"
@@ -66,7 +67,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_1_3"
-        name="{=lord_zulizwe_1_3}Arnketil"
+        name="{=lord_zulizwe_1_3}Adja"
         age="22"
         voice="curt"
         default_group="HorseArcher"
@@ -89,7 +90,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_1_4"
-        name="{=lord_zulizwe_1_4}Wandrille"
+        name="{=lord_zulizwe_1_4}Zakoi"
         age="15"
         voice="ironic"
         default_group="Ranged"
@@ -109,7 +110,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_1_5"
-        name="{=lord_zulizwe_1_5}Jeuffine"
+        name="{=lord_zulizwe_1_5}Djenly"
         age="13"
         voice="softspoken"
         is_female="true"
@@ -130,7 +131,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_1_6"
-        name="{=lord_zulizwe_1_6}Hagen"
+        name="{=lord_zulizwe_1_6}Mamoudou"
         age="36"
         voice="curt"
         default_group="Ranged"
@@ -155,7 +156,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_1_7"
-        name="{=lord_zulizwe_1_7}Markvart"
+        name="{=lord_zulizwe_1_7}Hawa"
         age="37"
         voice="earnest"
         is_female="true"
@@ -181,7 +182,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_1_8"
-        name="{=lord_zulizwe_1_8}Lesceline"
+        name="{=lord_zulizwe_1_8}Biyu"
         age="13"
         voice="earnest"
         default_group="Cavalry"
@@ -201,7 +202,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_1_9"
-        name="{=lord_zulizwe_1_9}Charles"
+        name="{=lord_zulizwe_1_9}Aoua"
         age="10"
         voice="ironic"
         is_female="true"
@@ -222,7 +223,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_1_10"
-        name="{=lord_zulizwe_1_10}Robert"
+        name="{=lord_zulizwe_1_10}Bonga"
         age="33"
         voice="curt"
         default_group="Ranged"
@@ -278,7 +279,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_2_2"
-        name="{=lord_zulizwe_2_2}Berthilde"
+        name="{=lord_zulizwe_2_2}Halima"
         age="42"
         voice="curt"
         is_female="true"
@@ -303,7 +304,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_2_3"
-        name="{=lord_zulizwe_2_3}Elma"
+        name="{=lord_zulizwe_2_3}Sassouma"
         age="27"
         voice="earnest"
         is_female="true"
@@ -328,7 +329,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_2_4"
-        name="{=lord_zulizwe_2_4}Baldwin"
+        name="{=lord_zulizwe_2_4}Soundiata"
         age="26"
         voice="ironic"
         default_group="HorseArcher"
@@ -352,7 +353,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_2_5"
-        name="{=lord_zulizwe_2_5}Darelle"
+        name="{=lord_zulizwe_2_5}Kolonkan"
         age="15"
         voice="softspoken"
         default_group="Infantry"
@@ -371,7 +372,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_2_6"
-        name="{=lord_zulizwe_2_6}Fanchon"
+        name="{=lord_zulizwe_2_6}Barakissa"
         age="11"
         voice="curt"
         is_female="true"
@@ -391,7 +392,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_2_7"
-        name="{=lord_zulizwe_2_7}Tancrede"
+        name="{=lord_zulizwe_2_7}Igoumou"
         age="29"
         voice="softspoken"
         default_group="HorseArcher"
@@ -415,7 +416,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_2_8"
-        name="{=lord_zulizwe_2_8}Norine"
+        name="{=lord_zulizwe_2_8}Djeneba"
         age="14"
         voice="curt"
         is_female="true"
@@ -467,7 +468,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_3_2"
-        name="{=lord_zulizwe_3_2}Ottilie"
+        name="{=lord_zulizwe_3_2}Sandaki"
         age="36"
         voice="ironic"
         default_group="HorseArcher"
@@ -491,7 +492,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_3_3"
-        name="{=lord_zulizwe_3_3}Ketil"
+        name="{=lord_zulizwe_3_3}Kusoy"
         age="20"
         voice="softspoken"
         default_group="Cavalry"
@@ -515,7 +516,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_3_4"
-        name="{=lord_zulizwe_3_4}Undine"
+        name="{=lord_zulizwe_3_4}Kilia"
         age="15"
         voice="earnest"
         is_female="true"
@@ -535,7 +536,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_3_5"
-        name="{=lord_zulizwe_3_5}Dagmar"
+        name="{=lord_zulizwe_3_5}Djire"
         age="30"
         voice="curt"
         is_female="true"
@@ -560,7 +561,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_3_6"
-        name="{=lord_zulizwe_3_6}Ceneric"
+        name="{=lord_zulizwe_3_6}Yatabe"
         age="16"
         voice="softspoken"
         default_group="Infantry"
@@ -579,7 +580,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_3_7"
-        name="{=lord_zulizwe_3_7}Vilma"
+        name="{=lord_zulizwe_3_7}Kondolon"
         age="9"
         voice="earnest"
         is_female="true"
@@ -629,7 +630,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_4_2"
-        name="{=lord_zulizwe_4_2}Mederic"
+        name="{=lord_zulizwe_4_2}Sikam"
         age="38"
         voice="ironic"
         default_group="HorseArcher"
@@ -653,7 +654,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_4_3"
-        name="{=lord_zulizwe_4_1}Agnes"
+        name="{=lord_zulizwe_4_1}Bintou"
         age="17"
         voice="curt"
         is_female="true"
@@ -677,7 +678,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_4_4"
-        name="{=lord_zulizwe_4_1}Gontran"
+        name="{=lord_zulizwe_4_1}Gao"
         age="10"
         voice="softspoken"
         default_group="Ranged"
@@ -696,7 +697,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_4_5"
-        name="{=lord_zulizwe_4_1}Batistin"
+        name="{=lord_zulizwe_4_1}Bomou"
         age="34"
         voice="softspoken"
         default_group="Infantry"
@@ -720,7 +721,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_4_6"
-        name="{=lord_zulizwe_4_1}Maheline"
+        name="{=lord_zulizwe_4_1}Namandje"
         age="32"
         voice="earnest"
         is_female="true"
@@ -745,7 +746,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_4_7"
-        name="{=lord_zulizwe_4_1}Osanna"
+        name="{=lord_zulizwe_4_1}Namiss"
         age="15"
         voice="ironic"
         is_female="true"
@@ -794,7 +795,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_5_2"
-        name="{=lord_zulizwe_5_2}Mektild"
+        name="{=lord_zulizwe_5_2}Soumaoro"
         age="34"
         voice="ironic"
         default_group="Ranged"
@@ -818,7 +819,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_5_3"
-        name="{=lord_zulizwe_5_3}Luderik"
+        name="{=lord_zulizwe_5_3}Mbali"
         age="16"
         voice="curt"
         default_group="HorseArcher"
@@ -837,7 +838,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_5_4"
-        name="{=lord_zulizwe_5_4}Hilbert"
+        name="{=lord_zulizwe_5_4}Konsa"
         age="25"
         voice="earnest"
         default_group="Infantry"
@@ -861,7 +862,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_5_5"
-        name="{=lord_zulizwe_5_5}Daghild"
+        name="{=lord_zulizwe_5_5}Dimbi"
         age="26"
         voice="softspoken"
         is_female="true"
@@ -886,7 +887,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_5_6"
-        name="{=lord_zulizwe_5_6}Clothilde"
+        name="{=lord_zulizwe_5_6}Sisabge"
         age="6"
         voice="ironic"
         is_female="true"
@@ -937,7 +938,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_6_2"
-        name="{=lord_zulizwe_6_2}Alberta"
+        name="{=lord_zulizwe_6_2}Youma"
         age="44"
         voice="ironic"
         is_female="true"
@@ -962,7 +963,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_6_3"
-        name="{=lord_zulizwe_6_3}Hildegonde"
+        name="{=lord_zulizwe_6_3}Lorane"
         age="25"
         voice="softspoken"
         is_female="true"
@@ -987,7 +988,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_6_4"
-        name="{=lord_zulizwe_6_4}Bernhard"
+        name="{=lord_zulizwe_6_4}Fissourou"
         age="17"
         voice="earnest"
         default_group="Infantry"
@@ -1006,7 +1007,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_6_5"
-        name="{=lord_zulizwe_6_5}Gerwald"
+        name="{=lord_zulizwe_6_5}Diakhaba"
         age="10"
         voice="curt"
         is_female="true"
@@ -1026,7 +1027,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_6_6"
-        name="{=lord_zulizwe_6_6}Krimhigonde"
+        name="{=lord_zulizwe_6_6}Ciata"
         age="41"
         voice="softspoken"
         is_female="true"
@@ -1053,7 +1054,7 @@
 
     <!-- Clan 7 -->
     <NPCCharacter id="lord_zulizwe_7_1"
-        name="{=lord_zulizwe_7_1}Mahdi"
+        name="{=lord_zulizwe_7_1}Nyahn"
         age="27"
         voice="ironic"
         default_group="Ranged"
@@ -1082,7 +1083,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_7_2"
-        name="{=lord_zulizwe_7_2}Hugaut"
+        name="{=lord_zulizwe_7_2}Jebbeh"
         age="27"
         voice="earnest"
         is_female="true"
@@ -1107,7 +1108,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_7_3"
-        name="{=lord_zulizwe_7_3}Gislinde"
+        name="{=lord_zulizwe_7_3}Akoi"
         age="8"
         voice="softspoken"
         default_group="Infantry"
@@ -1126,7 +1127,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_7_4"
-        name="{=lord_zulizwe_7_4}Fride"
+        name="{=lord_zulizwe_7_4}Zeinab"
         age="24"
         voice="curt"
         is_female="true"
@@ -1151,7 +1152,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_7_5"
-        name="{=lord_zulizwe_7_5}Dita"
+        name="{=lord_zulizwe_7_5}Kumba"
         age="15"
         voice="curt"
         is_female="true"
@@ -1201,7 +1202,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_8_2"
-        name="{=lord_zulizwe_8_2}Valborg"
+        name="{=lord_zulizwe_8_2}Mabasi"
         age="23"
         voice="earnest"
         is_female="true"
@@ -1226,7 +1227,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_8_3"
-        name="{=lord_zulizwe_8_3}Norbert"
+        name="{=lord_zulizwe_8_3}Wonbin"
         age="6"
         voice="ironic"
         default_group="Cavalry"
@@ -1245,7 +1246,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_8_4"
-        name="{=lord_zulizwe_8_4}Geertje"
+        name="{=lord_zulizwe_8_4}Weyatta"
         age="22"
         voice="softspoken"
         is_female="true"

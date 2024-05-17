@@ -47,7 +47,6 @@ Monghatai:
 Add lords
 
 Qinguo:
-Add lords
 male / female names
 Make larger glaive blade (guandao)
 
@@ -72,6 +71,7 @@ Bugs:
 NTH:
     Code:
         Cultural choice at char creation
+        Make Liberartis unattackable
         Cultural feats
 
     New World Map ?

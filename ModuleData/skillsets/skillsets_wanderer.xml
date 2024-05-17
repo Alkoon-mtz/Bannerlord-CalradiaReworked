@@ -510,8 +510,8 @@
         <skill id="Scouting" value="10" />
         <skill id="Roguery" value="10" />
         <skill id="Trade" value="55" />
-        <skill id="Medicine" value="10" />
-        <skill id="Engineering" value="55" />
+        <skill id="Medicine" value="55" />
+        <skill id="Engineering" value="10" />
     </SkillSet>
     <SkillSet id="spc_wanderer_qinguo_1_skills">
         <skill id="Athletics" value="120"/>
@@ -527,11 +527,11 @@
         <skill id="Steward" value="50" />
         <skill id="Charm" value="10" />
         <skill id="Crafting" value="10" />
-        <skill id="Scouting" value="100" />
+        <skill id="Scouting" value="10" />
         <skill id="Roguery" value="10" />
         <skill id="Trade" value="55" />
-        <skill id="Medicine" value="10" />
-        <skill id="Engineering" value="55" />
+        <skill id="Medicine" value="55" />
+        <skill id="Engineering" value="10" />
     </SkillSet>
     <SkillSet id="spc_wanderer_qinguo_2_skills">
         <skill id="Athletics" value="120"/>
@@ -547,11 +547,11 @@
         <skill id="Steward" value="50" />
         <skill id="Charm" value="10" />
         <skill id="Crafting" value="10" />
-        <skill id="Scouting" value="100" />
+        <skill id="Scouting" value="10" />
         <skill id="Roguery" value="10" />
         <skill id="Trade" value="55" />
-        <skill id="Medicine" value="10" />
-        <skill id="Engineering" value="55" />
+        <skill id="Medicine" value="55" />
+        <skill id="Engineering" value="10" />
     </SkillSet>
     <SkillSet id="spc_wanderer_qinguo_3_skills">
         <skill id="Athletics" value="60"/>
@@ -567,11 +567,11 @@
         <skill id="Steward" value="50" />
         <skill id="Charm" value="10" />
         <skill id="Crafting" value="10" />
-        <skill id="Scouting" value="100" />
+        <skill id="Scouting" value="10" />
         <skill id="Roguery" value="10" />
         <skill id="Trade" value="55" />
-        <skill id="Medicine" value="10" />
-        <skill id="Engineering" value="55" />
+        <skill id="Medicine" value="55" />
+        <skill id="Engineering" value="10" />
     </SkillSet>
 
     <!-- Rekgeist -->

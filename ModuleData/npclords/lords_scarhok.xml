@@ -5,6 +5,7 @@
         sca_bat_template_medium     lord_throw_2h_1
         sca_bat_template_low        lord_cav_throw_1h_1
     -->
+
     <!-- Clan 1 -->
     <NPCCharacter id="lord_scarhok_1_1"
         name="{=lord_scarhok_1_1}Hardouin"

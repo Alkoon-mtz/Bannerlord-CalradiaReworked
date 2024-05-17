@@ -66,7 +66,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_1_3"
-        name="{=lord_iustrium_1_3}Arnketil"
+        name="{=lord_iustrium_1_3}Renault"
         age="22"
         voice="curt"
         default_group="Cavalry"
@@ -90,7 +90,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_1_4"
-        name="{=lord_iustrium_1_4}Wandrille"
+        name="{=lord_iustrium_1_4}Eberhard"
         age="15"
         voice="ironic"
         default_group="HorseArcher"
@@ -110,7 +110,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_1_5"
-        name="{=lord_iustrium_1_5}Jeuffine"
+        name="{=lord_iustrium_1_5}Agathe"
         age="13"
         voice="softspoken"
         is_female="true"
@@ -131,7 +131,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_1_6"
-        name="{=lord_iustrium_1_6}Hagen"
+        name="{=lord_iustrium_1_6}Walter"
         age="36"
         voice="curt"
         default_group="HorseArcher"
@@ -156,7 +156,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_1_7"
-        name="{=lord_iustrium_1_7}Markvart"
+        name="{=lord_iustrium_1_7}Irmeltrud"
         age="37"
         voice="earnest"
         is_female="true"
@@ -182,7 +182,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_1_8"
-        name="{=lord_iustrium_1_8}Lesceline"
+        name="{=lord_iustrium_1_8}Irmele"
         age="13"
         voice="earnest"
         is_female="true"
@@ -203,7 +203,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_1_9"
-        name="{=lord_iustrium_1_9}Charles"
+        name="{=lord_iustrium_1_9}Thankulf"
         age="10"
         voice="ironic"
         default_group="Cavalry"
@@ -223,7 +223,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_1_10"
-        name="{=lord_iustrium_1_10}Robert"
+        name="{=lord_iustrium_1_10}Udalrich"
         age="32"
         voice="curt"
         default_group="Ranged"
@@ -280,7 +280,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_2_2"
-        name="{=lord_iustrium_2_2}Norine"
+        name="{=lord_iustrium_2_2}Wolfram"
         age="15"
         voice="curt"
         default_group="Infantry"
@@ -299,7 +299,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_2_3"
-        name="{=lord_iustrium_2_3}Tancrede"
+        name="{=lord_iustrium_2_3}Wenzel"
         age="42"
         voice="softspoken"
         default_group="Cavalry"
@@ -323,7 +323,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_2_4"
-        name="{=lord_iustrium_2_4}Berthilde"
+        name="{=lord_iustrium_2_4}Romilda"
         age="43"
         voice="curt"
         is_female="true"
@@ -348,7 +348,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_2_5"
-        name="{=lord_iustrium_2_5}Elma"
+        name="{=lord_iustrium_2_5}Sofie"
         age="27"
         voice="earnest"
         default_group="Ranged"
@@ -372,7 +372,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_2_6"
-        name="{=lord_iustrium_2_6}Baldwin"
+        name="{=lord_iustrium_2_6}Manfred"
         age="25"
         voice="ironic"
         is_female="true"
@@ -397,7 +397,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_2_7"
-        name="{=lord_iustrium_2_7}Darelle"
+        name="{=lord_iustrium_2_7}Dorothea"
         age="15"
         voice="softspoken"
         is_female="true"
@@ -417,7 +417,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_2_8"
-        name="{=lord_iustrium_2_8}Fanchon"
+        name="{=lord_iustrium_2_8}Klara"
         age="13"
         voice="curt"
         default_group="Cavalry"
@@ -467,7 +467,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_3_2"
-        name="{=lord_iustrium_3_2}Ottilie"
+        name="{=lord_iustrium_3_2}Eufemia"
         age="42"
         voice="ironic"
         is_female="true"
@@ -492,7 +492,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_3_3"
-        name="{=lord_iustrium_3_3}Ketil"
+        name="{=lord_iustrium_3_3}Kaspar"
         age="26"
         voice="softspoken"
         default_group="Ranged"
@@ -516,7 +516,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_3_4"
-        name="{=lord_iustrium_3_4}Undine"
+        name="{=lord_iustrium_3_4}Ute"
         age="15"
         voice="earnest"
         is_female="true"
@@ -536,7 +536,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_3_5"
-        name="{=lord_iustrium_3_5}Dagmar"
+        name="{=lord_iustrium_3_5}Elisabeth"
         age="30"
         voice="curt"
         is_female="true"
@@ -561,7 +561,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_3_6"
-        name="{=lord_iustrium_3_6}Ceneric"
+        name="{=lord_iustrium_3_6}Christopher"
         age="16"
         voice="softspoken"
         default_group="Infantry"
@@ -580,7 +580,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_3_7"
-        name="{=lord_iustrium_3_7}Vilma"
+        name="{=lord_iustrium_3_7}Hedwig"
         age="9"
         voice="earnest"
         is_female="true"
@@ -632,7 +632,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_4_2"
-        name="{=lord_iustrium_4_2}Mederic"
+        name="{=lord_iustrium_4_2}Magnus"
         age="34"
         voice="ironic"
         default_group="Cavalry"
@@ -656,7 +656,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_4_3"
-        name="{=lord_iustrium_4_1}Agnes"
+        name="{=lord_iustrium_4_1}Benedicta"
         age="14"
         voice="curt"
         is_female="true"
@@ -680,7 +680,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_4_4"
-        name="{=lord_iustrium_4_1}Gontran"
+        name="{=lord_iustrium_4_1}Hupold"
         age="6"
         voice="softspoken"
         default_group="HorseArcher"
@@ -699,7 +699,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_4_5"
-        name="{=lord_iustrium_4_1}Batistin"
+        name="{=lord_iustrium_4_1}Emund"
         age="35"
         voice="softspoken"
         default_group="Infantry"
@@ -723,7 +723,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_4_6"
-        name="{=lord_iustrium_4_1}Maheline"
+        name="{=lord_iustrium_4_1}Adelheid"
         age="33"
         voice="earnest"
         is_female="true"
@@ -748,7 +748,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_4_7"
-        name="{=lord_iustrium_4_1}Osanna"
+        name="{=lord_iustrium_4_1}Helene"
         age="15"
         voice="ironic"
         is_female="true"
@@ -799,7 +799,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_5_2"
-        name="{=lord_iustrium_5_2}Mektild"
+        name="{=lord_iustrium_5_2}Richara"
         age="34"
         voice="ironic"
         is_female="true"
@@ -824,7 +824,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_5_3"
-        name="{=lord_iustrium_5_3}Luderik"
+        name="{=lord_iustrium_5_3}Lambert"
         age="13"
         voice="curt"
         default_group="Cavalry"
@@ -843,7 +843,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_5_4"
-        name="{=lord_iustrium_5_4}Hilbert"
+        name="{=lord_iustrium_5_4}Folmar"
         age="27"
         voice="earnest"
         default_group="Infantry"
@@ -867,7 +867,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_5_5"
-        name="{=lord_iustrium_5_5}Daghild"
+        name="{=lord_iustrium_5_5}Frederuna"
         age="28"
         voice="softspoken"
         is_female="true"
@@ -892,7 +892,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_5_6"
-        name="{=lord_iustrium_5_6}Clothilde"
+        name="{=lord_iustrium_5_6}Aveline"
         age="5"
         voice="ironic"
         is_female="true"
@@ -943,7 +943,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_6_2"
-        name="{=lord_iustrium_6_2}Alberta"
+        name="{=lord_iustrium_6_2}Joanna"
         age="37"
         voice="ironic"
         is_female="true"
@@ -968,7 +968,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_6_3"
-        name="{=lord_iustrium_6_3}Hildegonde"
+        name="{=lord_iustrium_6_3}Edith"
         age="22"
         voice="softspoken"
         is_female="true"
@@ -993,7 +993,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_6_4"
-        name="{=lord_iustrium_6_4}Bernhard"
+        name="{=lord_iustrium_6_4}William"
         age="16"
         voice="earnest"
         default_group="Infantry"
@@ -1012,7 +1012,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_6_5"
-        name="{=lord_iustrium_6_5}Gerwald"
+        name="{=lord_iustrium_6_5}John"
         age="8"
         voice="curt"
         default_group="HorseArcher"
@@ -1031,7 +1031,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_6_6"
-        name="{=lord_iustrium_6_6}Krimhigonde"
+        name="{=lord_iustrium_6_6}Sybilla"
         age="31"
         voice="softspoken"
         is_female="true"
@@ -1058,7 +1058,7 @@
 
     <!-- Clan 7 -->
     <NPCCharacter id="lord_iustrium_7_1"
-        name="{=lord_iustrium_7_1}Henry"
+        name="{=lord_iustrium_7_1}Matthew"
         age="30"
         voice="ironic"
         default_group="HorseArcher"
@@ -1087,7 +1087,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_7_2"
-        name="{=lord_iustrium_7_2}Hugaut"
+        name="{=lord_iustrium_7_2}Hawise"
         age="29"
         voice="earnest"
         is_female="true"
@@ -1112,7 +1112,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_7_3"
-        name="{=lord_iustrium_7_3}Gislinde"
+        name="{=lord_iustrium_7_3}Michael"
         age="9"
         voice="softspoken"
         default_group="Infantry"
@@ -1131,7 +1131,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_7_4"
-        name="{=lord_iustrium_7_4}Fride"
+        name="{=lord_iustrium_7_4}Ealhswith"
         age="26"
         voice="curt"
         is_female="true"
@@ -1156,7 +1156,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_7_5"
-        name="{=lord_iustrium_7_5}Dita"
+        name="{=lord_iustrium_7_5}Maccus"
         age="15"
         voice="curt"
         default_group="HorseArcher"
@@ -1208,7 +1208,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_8_2"
-        name="{=lord_iustrium_8_2}Geertje"
+        name="{=lord_iustrium_8_2}Margaret"
         age="24"
         voice="softspoken"
         default_group="HorseArcher"
@@ -1232,7 +1232,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_8_3"
-        name="{=lord_iustrium_8_3}Valborg"
+        name="{=lord_iustrium_8_3}Cyneburg"
         age="23"
         voice="earnest"
         is_female="true"
@@ -1257,7 +1257,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_iustrium_8_4"
-        name="{=lord_iustrium_8_4}Norbert"
+        name="{=lord_iustrium_8_4}Godwine"
         age="6"
         voice="ironic"
         default_group="Ranged"
