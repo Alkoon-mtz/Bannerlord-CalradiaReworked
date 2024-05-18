@@ -417,7 +417,7 @@
         age="11"
         voice="curt"
         is_female="true"
-        default_group="Ranged"
+        default_group="Cavalry"
         is_hero="true"
         culture="Culture.scarhok"
         occupation="Lord">

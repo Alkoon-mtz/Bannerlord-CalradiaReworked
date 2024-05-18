@@ -23,7 +23,7 @@
         militia_party_template="PartyTemplate.kratorios_militia_template"
         rebels_party_template="PartyTemplate.kratorios_rebels_template"
         vassal_reward_party_template="PartyTemplate.kratorios_vassal_reward_troops"
-        default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+        default_face_key="0013D40B800035CFFE8BCE8CBA65FD79DED85CCCCA67EB7CD8EFEB4C9EEFDBDE00965003096A8F9A000000000000000000000000000000000000000021289142"
         text="{=kratorios_text}An emerging empire trying to unify the continent"
         villager="NPCCharacter.villager_kratorios"
         tournament_master="NPCCharacter.tournament_master_empire"

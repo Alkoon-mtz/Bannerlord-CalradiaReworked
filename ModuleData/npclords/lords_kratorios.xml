@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
+    <!--
+        emp_bat_template_flamboyant lord_cav_xbow_1h_1
+        emp_bat_template_heavy      lord_pol_1h_1
+        emp_bat_template_medium     lord_throw_1h_1
+        emp_bat_template_stoic      lord_cav_pol_1h_1
+    -->
+
+    <!-- Clan 1 -->
     <NPCCharacter id="lord_kratorios_1_1"
-        name="{=I72U5ttG}Stratos"
+        name="{=lord_kratorios_1_1}Stratos"
         age="37"
         voice="ironic"
         is_hero="true"
@@ -33,13 +41,223 @@
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="emp_king_template_bat_m" />
-            <EquipmentSet id="w_emp_king_template_civ_m"
+            <EquipmentSet id="s_emp_king_template_civ_m"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_1_2"
+        name="{=lord_kratorios_1_2}Gunhild"
+        age="39"
+        voice="softspoken"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_engineer"
+        face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="39" weight="0.481" build="0.347"  key="0015800A40002002B29E94B97C346B3A726C6F2278873AD8293C41BD64866DF30085700308675C380000000000000000000000000000000000000000570010C3"  />
+        </face>
+        <Traits>
+            <Trait id="Generosity"
+                value="+2" />
+            <Trait id="Calculating"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_king_template_bat_f" />
+            <EquipmentSet id="s_emp_king_template_civ_f" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_1_3"
+        name="{=lord_kratorios_1_3}Arnketil"
+        age="22"
+        voice="curt"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_pol_1h_2">
+        <face>
+            <BodyProperties version="4" age="22" weight="0.463" build="0.272"  key="000ADC0B8000368D468547E55B843D23866779223A828D6754A6A9729D8A86740074700307AA9B3100000000000000000000000000000000000000006AE81100"  />
+        </face>
+        <Traits>
+            <Trait id="Honor"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_bat_template_stoic" />
+            <EquipmentSet id="emp_civ_template_default" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_1_4"
+        name="{=lord_kratorios_1_4}Wandrille"
+        age="15"
+        voice="ironic"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.372" build="0.285"  key="001ECC0C4000360E7E9B5BEFAC89DE7EC68F9E757CC5AFAB7EB7AABC9EDEB8EB0074600307FEFEB1000000000000000000000000000000000000000072F86002"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_bat_template_medium" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_1_5"
+        name="{=lord_kratorios_1_5}Jeuffine"
+        age="13"
+        voice="softspoken"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="13" weight="0.377" build="0.339"  key="000AB408C0003004FE9ECFBF9C358F3ADD9C9F977B97DCFCDE3D87DE9ACCDEFA00A560030AA99C5D0000000000000000000000000000000000000000715010C4"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_bat_template_heavy" />
+            <EquipmentSet id="emp_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_1_6"
+        name="{=lord_kratorios_1_6}Hagen"
+        age="36"
+        voice="curt"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_throw_1h_2">
+        <face>
+            <BodyProperties version="4" age="36" weight="0.389" build="0.481"  key="000DE40D000035CEFE7BCC273995F66856985CCA8912495BD5B932158D5F53DB0067600306296F95000000000000000000000000000000000000000000C89082"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Valor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_bat_template_medium" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_1_7"
+        name="{=lord_kratorios_1_7}Markvart"
+        age="37"
+        voice="earnest"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_xbow_1h_1">
+        <face>
+            <BodyProperties version="4" age="37" weight="0.446" build="0.245"  key="0013700C40003002BB9EC9BA8C346B3A938C9F6579974BDBCE3C41DD89CCBEF500A470030A679C5B00000000000000000000000000000000000000004D601104"  />
+        </face>
+        <Traits>
+            <Trait id="Valor"
+                value="+2" />
+            <Trait id="Mercy"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_bat_template_flamboyant" />
+            <EquipmentSet id="emp_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_1_8"
+        name="{=lord_kratorios_1_8}Lesceline"
+        age="13"
+        voice="earnest"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="13" weight="0.265" build="0.251"  key="0015800AC0003005EB9ECDBA9C356C3AA98C9F967A974CECDE3D55DD89CCCEF80054400305799C5C000000000000000000000000000000000000000078B01104"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_bat_template_heavy" />
+            <EquipmentSet id="emp_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_1_9"
+        name="{=lord_kratorios_1_9}Charles"
+        age="10"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="10" weight="0.361" build="0.421"  key="0013D40A400035CFFE8BCE8DDCC5FD79DED85CCCCA67EB7CD8EFEB4C9EEFDBDE00965003096A8F9A000000000000000000000000000000000000000021289142"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_bat_template_stoic" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_1_10"
+        name="{=lord_kratorios_1_10}Robert"
+        age="33"
+        voice="curt"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_pol_1h_1">
+        <face>
+            <BodyProperties version="4" age="33" weight="0.324" build="0.335"  key="00106C0AC000364FFE8BCC3C5AA5F979BDC85CCBBA12596CD7B9EA2B8D5FD3DC0085500308296F96000000000000000000000000000000000000000031089102"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Valor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_bat_template_heavy" />
+            <EquipmentSet id="emp_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 2 -->
     <NPCCharacter id="lord_kratorios_2_1"
-        name="{=rUvnbDi2}Encurion"
-        age="28"
+        name="{=lord_kratorios_2_1}Encurion"
+        age="44"
         voice="softspoken"
         default_group="HorseArcher"
         is_hero="true"
@@ -70,9 +288,168 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_2_2"
+        name="{=lord_kratorios_2_2}Berthilde"
+        age="45"
+        voice="curt"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_throw_1h_2">
+        <face>
+            <BodyProperties version="4" age="45" weight="0.414" build="0.191"  key="0017E00F0000300ABB9ECABA8C356B3A968C9F767A974BEBCE3D43DD89CCBEF70053600305779C5C00000000000000000000000000000000000000007CA01044"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_medium" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_2_3"
+        name="{=lord_kratorios_2_3}Elma"
+        age="30"
+        voice="earnest"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_pol_1h_1">
+        <face>
+            <BodyProperties version="4" age="30" weight="0.462" build="0.39"  key="000A940F0000200B56782CEEC46A7A6E9CFD7DA3644687BC1D1654AD838E3DFD0056700305FB292B00000000000000000000000000000000000000002AB820C3"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_heavy" />
+            <EquipmentSet id="emp_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_2_4"
+        name="{=lord_kratorios_2_4}Baldwin"
+        age="27"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_pol_1h_2">
+        <face>
+            <BodyProperties version="4" age="27" weight="0.571" build="0.268"  key="00158008C00035CDFE8BCE5DABA5F979BED85CCCCA35B96CD8EEEB4B9E7FD9DD0084900308498F96000000000000000000000000000000000000000069089040"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_stoic" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_2_5"
+        name="{=lord_kratorios_2_5}Darelle"
+        age="16"
+        voice="softspoken"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.398" build="0.479"  key="001EEC0D800035CEFE8BCE4D7BA5F979BED85CCBCA14996CD7CAEB2B9E7FD5DC0087600308396F96000000000000000000000000000000000000000019089005"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_flamboyant" />
+            <EquipmentSet id="emp_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_2_6"
+        name="{=lord_kratorios_2_6}Fanchon"
+        age="12"
+        voice="curt"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="12" weight="0.376" build="0.321"  key="0015F40F00003007CF9A8DEFD6AEBC7ECCFD7DB996D6D7BC1D6FCCFE9EBF3EFF00A560030AFE5E9B000000000000000000000000000000000000000065582083"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_stoic" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_2_7"
+        name="{=lord_kratorios_2_7}Tancrede"
+        age="29"
+        voice="softspoken"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_merchant">
+        <face>
+            <BodyProperties version="4" age="29" weight="0.431" build="0.376"  key="0013E80D8000068F0487BB1E41C91B7C6D4E561868747C5AD76F6A7F8EDBD72F0086600308DB44AD000000000000000000000000000000000000000055105040"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_stoic" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_2_8"
+        name="{=lord_kratorios_2_8}Norine"
+        age="11"
+        voice="curt"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="11" weight="0.438" build="0.22"  key="0010C80C400020037C8A2DEED47C7B6EBCFD7DB69656C7BC1D29CACE99BF3EFD0083700308FD4B9B000000000000000000000000000000000000000037002083"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_stoic" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 3 -->
     <NPCCharacter id="lord_kratorios_3_1"
-        name="{=jQjouVRk}Gyphor"
-        age="33"
+        name="{=lord_kratorios_3_1}Gyphor"
+        age="37"
         voice="softspoken"
         default_group="HorseArcher"
         is_hero="true"
@@ -101,8 +478,143 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_3_2"
+        name="{=lord_kratorios_3_2}Ottilie"
+        age="36"
+        voice="ironic"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_doctor">
+        <face>
+            <BodyProperties version="4" age="36" weight="0.405" build="0.175"  key="0013880D8000200D9D8A5DEED68CBC7ECCFD7DB79696D7BC1D4ACAEE9DBF3EFF0083600308FD5D9B000000000000000000000000000000000000000039002004"  />
+        </face>
+        <Traits>
+            <Trait id="Calculating"
+                value="+2" />
+            <Trait id="Generosity"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_stoic" />
+            <EquipmentSet id="emp_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_3_3"
+        name="{=lord_kratorios_3_3}Ketil"
+        age="20"
+        voice="softspoken"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_pol_1h_1">
+        <face>
+            <BodyProperties version="4" age="20" weight="0.307" build="0.336"  key="0015F00C4000160FAB9FEF6FB9CE6B7E7D7F9FABCC86DCACEBAF6D8F9EFBED3F0055500305EB7ABD000000000000000000000000000000000000000066B89042"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_heavy" />
+            <EquipmentSet id="emp_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_3_4"
+        name="{=lord_kratorios_3_4}Undine"
+        age="15"
+        voice="earnest"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.469" build="0.231"  key="0018CC0B800020069D8A5DEED68CAB7ECCFD7DB79656C7BC1D3ACAEE99BF3EFF00A370030AFD4B9B00000000000000000000000000000000000000003B482004"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_medium" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_3_5"
+        name="{=lord_kratorios_3_5}Dagmar"
+        age="30"
+        voice="curt"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_throw_1h_2">
+        <face>
+            <BodyProperties version="4" age="30" weight="0.378" build="0.347"  key="0013F40E400030066384368B59A4D774C8A47A353C803B8B4411487C8B66FA75009560030936332B000000000000000000000000000000000000000035381043"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_medium" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_3_6"
+        name="{=lord_kratorios_3_6}Ceneric"
+        age="16"
+        voice="softspoken"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.419" build="0.352"  key="0013E009800015CE6798DF1F56CB1B7E6D5E995ACC74CC6BDB7F6D7F9EEBDD2F0055600305DB7ABD000000000000000000000000000000000000000056B09143"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_flamboyant" />
+            <EquipmentSet id="emp_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_3_7"
+        name="{=lord_kratorios_3_7}Vilma"
+        age="9"
+        voice="earnest"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="9" weight="0.436" build="0.24"  key="0018C40C400030037997EAEEABA6DE78EDB69A4BCCD78E9DA67EDD7F9B79FCA900547003054F6E8F000000000000000000000000000000000000000050A810C4"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_stoic" />
+            <EquipmentSet id="emp_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 4 -->
     <NPCCharacter id="lord_kratorios_4_1"
-        name="{=cjuYkvlX}Panalea"
+        name="{=lord_kratorios_4_1}Panalea"
         voice="earnest"
         is_female="true"
         age="34"
@@ -133,8 +645,146 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_4_2"
+        name="{=lord_kratorios_4_2}Mederic"
+        age="34"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_pol_1h_2">
+        <face>
+            <BodyProperties version="4" age="34" weight="0.483" build="0.432"  key="000DD00AC000164D699BDF3F66CC5B7E7D5F9C7BCC74DC9CEB9F6D7F9EEBED2F0096700309EB7ABD000000000000000000000000000000000000000053209043"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_stoic" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_4_3"
+        name="{=lord_kratorios_4_1}Agnes"
+        age="14"
+        voice="curt"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="14" weight="0.482" build="0.314"  key="001B740AC00030037995BADBABA4DE78ECB69A3A9CD46C9B8525C87C8B67FA7800957003094E452F000000000000000000000000000000000000000019281103"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_flamboyant" />
+            <EquipmentSet id="emp_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_4_4"
+        name="{=lord_kratorios_4_1}Gontran"
+        age="6"
+        voice="softspoken"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="6" weight="0.578" build="0.271"  key="001ECC0AC000168FA79FACB045BFAA3455DA7F9A9745C2F8459BDE6876C86DDD00C490030CEBBDCC00000000000000000000000000000000000000000B8860C3"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_medium" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_4_5"
+        name="{=lord_kratorios_4_1}Batistin"
+        age="35"
+        voice="softspoken"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_xbow_1h_2">
+        <face>
+            <BodyProperties version="4" age="35" weight="0.346" build="0.31"  key="001B8C0D800015CF689BDF2F56CC5B7E7D5E995ACC74DC9BEB8F6D7F9EEBDD2F0095500309DB7ABD000000000000000000000000000000000000000047209043"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_flamboyant" />
+            <EquipmentSet id="emp_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_4_6"
+        name="{=lord_kratorios_4_1}Maheline"
+        age="33"
+        voice="earnest"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_scout">
+        <face>
+            <BodyProperties version="4" age="33" weight="0.399" build="0.27"  key="0015880D8000300A7997DAECABA5DE78EDB69A4ABCD46E9D8537C97D8B77FBA800846003084E475F00000000000000000000000000000000000000003F101083"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_medium" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_4_7"
+        name="{=lord_kratorios_4_1}Osanna"
+        age="15"
+        voice="ironic"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.301" build="0.284"  key="000DD0098000300C7995CAEBABA5DE78ECB69A4ABCD46D9D8537C97D8B77FB9800645003064E462F000000000000000000000000000000000000000078D81104"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_heavy" />
+            <EquipmentSet id="emp_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 5 -->
     <NPCCharacter id="lord_kratorios_5_1"
-        name="{=3qr3bhL6}Nicasor"
+        name="{=lord_kratorios_5_1}Nicasor"
         age="36"
         voice="curt"
         default_group="Infantry"
@@ -166,8 +816,122 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_5_2"
+        name="{=lord_kratorios_5_2}Mektild"
+        age="34"
+        voice="ironic"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_throw_1h_2">
+        <face>
+            <BodyProperties version="4" age="34" weight="0.459" build="0.366"  key="001EB80AC000160D879EACB0406E4A3453C56F39074582D0134ADD4876A139BD00A570030AD76AC2000000000000000000000000000000000000000005485003"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_medium" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_5_3"
+        name="{=lord_kratorios_5_3}Luderik"
+        age="13"
+        voice="curt"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="13" weight="0.422" build="0.333"  key="0018E008C00035CFC89FADC048BFBA4455DB7F9BA755E2F945ABFF9A76EA8DDD00A560030AFBCECD000000000000000000000000000000000000000039406040"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_stoic" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_5_4"
+        name="{=lord_kratorios_5_4}Hilbert"
+        age="27"
+        voice="earnest"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_xbow_1h_2">
+        <face>
+            <BodyProperties version="4" age="27" weight="0.374" build="0.289"  key="0013D00B8000364EDA9FBED048BFBA5455DC7F9BAA65E2FA55ACFF9A78EDCDED00B460030BFBCECD000000000000000000000000000000000000000031686044"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_flamboyant" />
+            <EquipmentSet id="emp_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_5_5"
+        name="{=lord_kratorios_5_5}Daghild"
+        age="28"
+        voice="softspoken"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_rogue">
+        <face>
+            <BodyProperties version="4" age="28" weight="0.271" build="0.195"  key="000EB80E40001001E39C0A364B37391DEEAF62B155C141836EA2FB499110C9C800A340030AEE695B000000000000000000000000000000000000000049584044"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Honor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_stoic" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_5_6"
+        name="{=lord_kratorios_5_6}Clothilde"
+        age="5"
+        voice="ironic"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="5" weight="0.481" build="0.373"  key="0015C00D00003005F99FBEABDBA8FB3EEEEF95C5ABC5568C9EAFFD7E928DCCCA0096700309FFF97D000000000000000000000000000000000000000041204083"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_medium" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 6 -->
     <NPCCharacter id="lord_kratorios_6_1"
-        name="{=kfNW01y5}Tynops"
+        name="{=lord_kratorios_6_1}Tynops"
         voice="softspoken"
         default_group="Infantry"
         age="38"
@@ -201,11 +965,127 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="lord_kratorios_7_1"
-        name="{=QGIAbglw}Obron"
+    <NPCCharacter id="lord_kratorios_6_2"
+        name="{=lord_kratorios_6_2}Alberta"
+        age="36"
+        voice="ironic"
+        is_female="true"
         default_group="Infantry"
-        age="51"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_pol_1h_2">
+        <face>
+            <BodyProperties version="4" age="36" weight="0.422" build="0.233"  key="001EC40A400030020E9E0D5ED96A9E6CB8CC8A3C97636F720352670F6C0248DA00A360030AAEC368000000000000000000000000000000000000000009484044"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_heavy" />
+            <EquipmentSet id="emp_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_6_3"
+        name="{=lord_kratorios_6_3}Hildegonde"
+        age="21"
         voice="softspoken"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_pol_1h_2">
+        <face>
+            <BodyProperties version="4" age="21" weight="0.258" build="0.363"  key="0018C008C00030055F9EAFBEDCADDE7CDBFF8BAC99C79FECFDF9697F9C9FA9EC0065400306AEC3EA000000000000000000000000000000000000000006C840C3"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_stoic" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_6_4"
+        name="{=lord_kratorios_6_4}Bernhard"
+        age="16"
+        voice="earnest"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.236" build="0.294"  key="0013F00AC00030024E9E7E8ED99BCE6CDBFE8B7C98646F887A87674F8C6C99DC0094400309AEC37800000000000000000000000000000000000000001F284003"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_flamboyant" />
+            <EquipmentSet id="emp_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_6_5"
+        name="{=lord_kratorios_6_5}Gerwald"
+        age="8"
+        voice="curt"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="8" weight="0.496" build="0.361"  key="0013C408C000360EB89FACC047BFAA4455DA7F9A9755E2F945ABFE7976D86DDD0085700308EBBECC000000000000000000000000000000000000000019186143"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_medium" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_6_6"
+        name="{=lord_kratorios_6_6}Krimhigonde"
+        age="31"
+        voice="softspoken"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_charmer">
+        <face>
+            <BodyProperties version="4" age="31" weight="0.452" build="0.279"  key="0014B00C400030034F9EAF9EDAABDE6CDBFE8B8C98676FDCFAF7696F8C9F99EC0054700305AEC3B800000000000000000000000000000000000000002C984083"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_stoic" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 7 -->
+    <NPCCharacter id="lord_kratorios_7_1"
+        name="{=lord_kratorios_7_1}Obron"
+        age="32"
+        voice="softspoken"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.empire"
         occupation="Lord"
@@ -232,17 +1112,109 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="lord_kratorios_8_1"
-        name="{=fepOjbsV}Popilia"
-        voice="softspoken"
+    <NPCCharacter id="lord_kratorios_7_2"
+        name="{=lord_kratorios_7_2}Hugaut"
+        age="30"
+        voice="earnest"
         is_female="true"
-        age="27"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.empire"
         occupation="Lord"
+        skill_template="SkillSet.lord_noncom_crafter">
+        <face>
+            <BodyProperties version="4" age="30" weight="0.362" build="0.191"  key="0015940A400030074F9E7E9EDA9BDE6CDBFE8B8C98646FDCCAA7676F8C9D99EC0093500309AEC398000000000000000000000000000000000000000003284083"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_heavy" />
+            <EquipmentSet id="emp_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_7_3"
+        name="{=lord_kratorios_7_3}Gislinde"
+        age="7"
+        voice="softspoken"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="7" weight="0.507" build="0.463"  key="0010E8098000160DA08A3537B3932D538D665F795386A141B1BA14DA841676C40057800305A579CD000000000000000000000000000000000000000016B04040"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_flamboyant" />
+            <EquipmentSet id="emp_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_7_4"
+        name="{=lord_kratorios_7_4}Fride"
+        age="25"
+        voice="curt"
+        is_female="true"
         default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_pol_1h_2">
+        <face>
+            <BodyProperties version="4" age="25" weight="0.312" build="0.218"  key="0010A00980002002047D4E1954A84B2D66DA68167380DC006D86A9BC9C24AEDA0063500306A5250B00000000000000000000000000000000000000000AB80083"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_heavy" />
+            <EquipmentSet id="emp_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_7_5"
+        name="{=lord_kratorios_7_5}Dita"
+        age="15"
+        voice="curt"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.396" build="0.266"  key="001EA80B80002004178D5F3A9CA97E5EA6EE69487B87ECD7EF8CAABF9DB5CFEF00A460030ADB45AF000000000000000000000000000000000000000067402104"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_bat_template_medium" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 8 -->
+    <NPCCharacter id="lord_kratorios_8_1"
+        name="{=lord_kratorios_8_1}Popilia"
+        age="27"
+        voice="softspoken"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
         face_mesh_cache="true"
-        skill_template="SkillSet.lord_cav_pol_1h_1">
+        skill_template="SkillSet.lord_cav_pol_1h_2">
         <face>
             <BodyProperties version="4"
                 age="27"
@@ -258,6 +1230,74 @@
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="emp_bat_template_stoic" />
+            <EquipmentSet id="emp_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_8_2"
+        name="{=lord_kratorios_8_2}Valborg"
+        age="28"
+        voice="earnest"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_engineer">
+        <face>
+            <BodyProperties version="4" age="28" weight="0.467" build="0.2701"  key="0010E80A4000360D6772771D92874C2CCDA36038C851B203D0DF97399A5AB58F0174701407E075E500000000000000000000000000000000000000001AF02043"  />
+        </face>
+        <Traits>
+            <Trait id="Generosity"
+                value="+1" />
+            <Trait id="Mercy"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_flamboyant" />
+            <EquipmentSet id="emp_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_8_3"
+        name="{=lord_kratorios_8_3}Norbert"
+        age="3"
+        voice="ironic"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="3" weight="0.496" build="0.4"  key="00189C08C000368DB89E6698B9B4AD53BE765F7B6496A195CACCB6DB8426F8C80086700308A88ACF000000000000000000000000000000000000000022F850C6"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_heavy" />
+            <EquipmentSet id="emp_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_kratorios_8_4"
+        name="{=lord_kratorios_8_4}Geertje"
+        age="26"
+        voice="softspoken"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.empire"
+        occupation="Lord"
+        skill_template="SkillSet.lord_throw_1h_2">
+        <face>
+            <BodyProperties version="4" age="26" weight="0.471" build="0.387"  key="0015740AC000200B178D4E2A9AA97D4EA6EE69287A86EC67DF8AAABD9DA5BFDE0086700308D9359E000000000000000000000000000000000000000069002104"  />
+        </face>
+        <Traits>
+            <Trait id="Valor"
+                value="+2" />
+            <Trait id="Honor"
+                value="-2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_medium" />
             <EquipmentSet id="emp_civ_template_default"
                 civilian="true" />
         </Equipments>
