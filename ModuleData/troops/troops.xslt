@@ -180,26 +180,25 @@
     <xsl:template match="NPCCharacter[@id='battanian_fian_champion']"/>
     
     <xsl:template match="NPCCharacter[@id='villager_empire']"/>
-    <!-- COULDN'T REMOVE THEM OTHERWISE IT CRASH, DON'T KNOW WHY -->
-    <!-- <xsl:template match="NPCCharacter[@id='imperial_recruit']"/>
-         <xsl:template match="NPCCharacter[@id='imperial_infantryman']"/>
-         <xsl:template match="NPCCharacter[@id='imperial_trained_infantryman']"/>
-         <xsl:template match="NPCCharacter[@id='imperial_veteran_infantryman']"/>
-         <xsl:template match="NPCCharacter[@id='imperial_legionary']"/>
-         <xsl:template match="NPCCharacter[@id='imperial_menavliaton']"/>
-         <xsl:template match="NPCCharacter[@id='imperial_elite_menavliaton']"/>
-         <xsl:template match="NPCCharacter[@id='imperial_archer']"/>
-         <xsl:template match="NPCCharacter[@id='imperial_trained_archer']"/> -->
-    <!-- <xsl:template match="NPCCharacter[@id='imperial_veteran_archer']"/> -->
-    <!-- <xsl:template match="NPCCharacter[@id='imperial_palatine_guard']"/> -->
-    <!-- <xsl:template match="NPCCharacter[@id='bucellarii']"/> -->
-    <!-- <xsl:template match="NPCCharacter[@id='imperial_crossbowman']"/> -->
-    <!-- <xsl:template match="NPCCharacter[@id='imperial_sergeant_crossbowman']"/> -->
-    <!-- <xsl:template match="NPCCharacter[@id='imperial_vigla_recruit']"/>
-         <xsl:template match="NPCCharacter[@id='imperial_equite']"/>
-         <xsl:template match="NPCCharacter[@id='imperial_heavy_horseman']"/>
-         <xsl:template match="NPCCharacter[@id='imperial_cataphract']"/>
-         <xsl:template match="NPCCharacter[@id='imperial_elite_cataphract']"/> -->
+    <xsl:template match="NPCCharacter[@id='imperial_recruit']"/>
+    <xsl:template match="NPCCharacter[@id='imperial_infantryman']"/>
+    <xsl:template match="NPCCharacter[@id='imperial_trained_infantryman']"/>
+    <xsl:template match="NPCCharacter[@id='imperial_veteran_infantryman']"/>
+    <xsl:template match="NPCCharacter[@id='imperial_legionary']"/>
+    <xsl:template match="NPCCharacter[@id='imperial_menavliaton']"/>
+    <xsl:template match="NPCCharacter[@id='imperial_elite_menavliaton']"/>
+    <xsl:template match="NPCCharacter[@id='imperial_archer']"/>
+    <xsl:template match="NPCCharacter[@id='imperial_trained_archer']"/>
+    <xsl:template match="NPCCharacter[@id='imperial_veteran_archer']"/>
+    <xsl:template match="NPCCharacter[@id='imperial_palatine_guard']"/>
+    <xsl:template match="NPCCharacter[@id='bucellarii']"/>
+    <xsl:template match="NPCCharacter[@id='imperial_crossbowman']"/>
+    <xsl:template match="NPCCharacter[@id='imperial_sergeant_crossbowman']"/>
+    <xsl:template match="NPCCharacter[@id='imperial_vigla_recruit']"/>
+    <xsl:template match="NPCCharacter[@id='imperial_equite']"/>
+    <xsl:template match="NPCCharacter[@id='imperial_heavy_horseman']"/>
+    <xsl:template match="NPCCharacter[@id='imperial_cataphract']"/>
+    <xsl:template match="NPCCharacter[@id='imperial_elite_cataphract']"/>
     
     <xsl:template match="NPCCharacter[@id='villager_khuzait']"/>
     <xsl:template match="NPCCharacter[@id='khuzait_nomad']"/>

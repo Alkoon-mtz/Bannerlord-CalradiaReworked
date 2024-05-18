@@ -37,7 +37,6 @@ Rename cities
 male / female names
 
 Kratorios:
-Add lords
 
 Lysellois:
 Rename cities
@@ -60,7 +59,6 @@ Rename cities
 
 Virkaldr:
 Add lords
-banner: 
 
 Zulizwe :
 male / female names

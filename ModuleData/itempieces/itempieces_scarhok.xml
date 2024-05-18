@@ -10,7 +10,7 @@
         distance_to_previous_piece="3.5"
         weight="0.500">
         <BuildData piece_offset="-7" />
-        <BladeData stack_amount="15"
+        <BladeData stack_amount="10"
             blade_length="20"
             blade_width="25"
             physics_material="metal_weapon"
@@ -38,7 +38,7 @@
         distance_to_previous_piece="3.5"
         weight="0.500">
         <BuildData piece_offset="-7" />
-        <BladeData stack_amount="15"
+        <BladeData stack_amount="10"
             blade_length="20"
             blade_width="25"
             physics_material="metal_weapon"
@@ -66,7 +66,7 @@
         distance_to_previous_piece="3.5"
         weight="0.500">
         <BuildData piece_offset="-7" />
-        <BladeData stack_amount="15"
+        <BladeData stack_amount="10"
             blade_length="20"
             blade_width="25"
             physics_material="metal_weapon"
@@ -94,7 +94,7 @@
         distance_to_previous_piece="3.5"
         weight="0.500">
         <BuildData piece_offset="-7" />
-        <BladeData stack_amount="15"
+        <BladeData stack_amount="10"
             blade_length="20"
             blade_width="25"
             physics_material="metal_weapon"
