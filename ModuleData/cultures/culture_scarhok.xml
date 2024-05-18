@@ -22,7 +22,7 @@
         militia_party_template="PartyTemplate.scarhok_militia_template"
         rebels_party_template="PartyTemplate.scarhok_rebels_template"
         vassal_reward_party_template="PartyTemplate.scarhok_vassal_reward_troops"
-        default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+        default_face_key="000D3408C00023C47D877F197EE5CDD5CFBB741BE2B4CE83D5AEAEBE8D781E9C006D800306DF7BE7000000000000000000000000000000000000000022C87000"
         text="{=scarhok_text}Coming from the north west, they wrecked everyone by throwing axes"
         villager="NPCCharacter.villager_scarhok"
         tournament_master="NPCCharacter.tournament_master_vlandia"

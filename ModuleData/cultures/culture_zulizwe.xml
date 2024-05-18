@@ -23,7 +23,7 @@
         militia_party_template="PartyTemplate.zulizwe_militia_template"
         rebels_party_template="PartyTemplate.zulizwe_rebels_template"
         vassal_reward_party_template="PartyTemplate.zulizwe_vassal_reward_troops"
-        default_face_key="003AF40FA5CC30159D73CA6BD4A6D7FFBE7C7CCCD7CAEC4BBDFFFF7F9924D8E800C976030EBCC6CA000000000000000000000000000000000000000017CC3001"
+        default_face_key="003FF40C49CC30177E75ADDEE6CBDAFFCE7F8EBBDCD96C6BECFFFFBF792DDCB900BD16030B9CC8B600000000000000000000000000000000000000001F6C7104"
         text="{=zulizwe_text}Living in hot areas, they decided to go north for greener pastures"
         villager="NPCCharacter.villager_zulizwe"
         tournament_master="NPCCharacter.tournament_master_empire"

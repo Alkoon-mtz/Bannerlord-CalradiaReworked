@@ -16,8 +16,8 @@ To look:
     formation_position_preference in NPCchar
 
 ALL Cultures:
-Female bodytemplate
 Customize:
+    civ outfit
     townsman + variant + City NPC (ransom_broker etc)
     weapon_practice_stage_1 ?
     tournament_team_templates
