@@ -44,7 +44,7 @@
     <!-- Clan 5 -->
     <Hero id="lord_zulizwe_5_1" faction="Faction.clan_zulizwe_5" spouse="Hero.lord_zulizwe_5_2"/>
     <Hero id="lord_zulizwe_5_2" faction="Faction.clan_zulizwe_5" spouse="Hero.lord_zulizwe_5_1"/>
-    <Hero id="lord_zulizwe_5_3" faction="Faction.clan_zulizwe_5" father="Hero.lord_zulizwe_5_2" mother="Hero.lord_zulizwe_5_1"/>
+    <Hero id="lord_zulizwe_5_3" faction="Faction.clan_zulizwe_5" father="Hero.lord_zulizwe_5_1" mother="Hero.lord_zulizwe_5_2"/>
     <Hero id="lord_zulizwe_5_4" faction="Faction.clan_zulizwe_5" spouse="Hero.lord_zulizwe_5_5"/>
     <Hero id="lord_zulizwe_5_5" faction="Faction.clan_zulizwe_5" spouse="Hero.lord_zulizwe_5_4"/>
     <Hero id="lord_zulizwe_5_6" faction="Faction.clan_zulizwe_5" father="Hero.lord_zulizwe_5_4" mother="Hero.lord_zulizwe_5_5"/>
@@ -60,7 +60,7 @@
     <!-- Clan 7 -->
     <Hero id="lord_zulizwe_7_1" faction="Faction.clan_zulizwe_7" spouse="Hero.lord_zulizwe_7_2"/>
     <Hero id="lord_zulizwe_7_2" faction="Faction.clan_zulizwe_7" spouse="Hero.lord_zulizwe_7_1"/>
-    <Hero id="lord_zulizwe_7_3" faction="Faction.clan_zulizwe_7" father="Hero.lord_zulizwe_7_2" mother="Hero.lord_zulizwe_7_1"/>
+    <Hero id="lord_zulizwe_7_3" faction="Faction.clan_zulizwe_7" father="Hero.lord_zulizwe_7_1" mother="Hero.lord_zulizwe_7_2"/>
     <Hero id="lord_zulizwe_7_4" faction="Faction.clan_zulizwe_7" />
     <Hero id="lord_zulizwe_7_5" faction="Faction.clan_zulizwe_7" />
 

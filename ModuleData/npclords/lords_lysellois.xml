@@ -745,7 +745,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_4_3"
-        name="{=lord_lysellois_4_1}Agnes"
+        name="{=lord_lysellois_4_3}Agnes"
         age="14"
         voice="curt"
         is_female="true"
@@ -773,7 +773,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_4_4"
-        name="{=lord_lysellois_4_1}Gontran"
+        name="{=lord_lysellois_4_4}Gontran"
         age="6"
         voice="softspoken"
         default_group="Ranged"
@@ -796,7 +796,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_4_5"
-        name="{=lord_lysellois_4_1}Thierry"
+        name="{=lord_lysellois_4_5}Thierry"
         age="35"
         voice="softspoken"
         default_group="Cavalry"
@@ -824,7 +824,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_4_6"
-        name="{=lord_lysellois_4_1}Berthe"
+        name="{=lord_lysellois_4_6}Berthe"
         age="33"
         voice="earnest"
         is_female="true"
@@ -853,7 +853,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_4_7"
-        name="{=lord_lysellois_4_1}Anne"
+        name="{=lord_lysellois_4_7}Anne"
         age="15"
         voice="ironic"
         is_female="true"

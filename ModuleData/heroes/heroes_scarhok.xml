@@ -44,7 +44,7 @@
     <!-- Clan 5 -->
     <Hero id="lord_scarhok_5_1" faction="Faction.clan_scarhok_5" spouse="Hero.lord_scarhok_5_2"/>
     <Hero id="lord_scarhok_5_2" faction="Faction.clan_scarhok_5" spouse="Hero.lord_scarhok_5_1"/>
-    <Hero id="lord_scarhok_5_3" faction="Faction.clan_scarhok_5" father="Hero.lord_scarhok_5_2" mother="Hero.lord_scarhok_5_1"/>
+    <Hero id="lord_scarhok_5_3" faction="Faction.clan_scarhok_5" father="Hero.lord_scarhok_5_1" mother="Hero.lord_scarhok_5_2"/>
     <Hero id="lord_scarhok_5_4" faction="Faction.clan_scarhok_5" spouse="Hero.lord_scarhok_5_5"/>
     <Hero id="lord_scarhok_5_5" faction="Faction.clan_scarhok_5" spouse="Hero.lord_scarhok_5_4"/>
     <Hero id="lord_scarhok_5_6" faction="Faction.clan_scarhok_5" father="Hero.lord_scarhok_5_4" mother="Hero.lord_scarhok_5_5"/>

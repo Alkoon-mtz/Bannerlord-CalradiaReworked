@@ -23,7 +23,7 @@
         militia_party_template="PartyTemplate.cereann_militia_template"
         rebels_party_template="PartyTemplate.cereann_rebels_template"
         vassal_reward_party_template="PartyTemplate.cereann_vassal_reward_troops"
-        default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+        default_face_key="0003300780002509CF99AA79795DAEECC8DE8ED6DD739DBCDEB8ECEE978EEC4C0285402408DCC785000000000000000000000000000000000000000041107005"
         text="{=cereann_text}Trying to survive in their woods"
         villager="NPCCharacter.villager_cereann"
         tournament_master="NPCCharacter.tournament_master_battania"

@@ -654,7 +654,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_4_3"
-        name="{=lord_zulizwe_4_1}Bintou"
+        name="{=lord_zulizwe_4_3}Bintou"
         age="17"
         voice="curt"
         is_female="true"
@@ -678,7 +678,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_4_4"
-        name="{=lord_zulizwe_4_1}Gao"
+        name="{=lord_zulizwe_4_4}Gao"
         age="10"
         voice="softspoken"
         default_group="Ranged"
@@ -697,7 +697,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_4_5"
-        name="{=lord_zulizwe_4_1}Bomou"
+        name="{=lord_zulizwe_4_5}Bomou"
         age="34"
         voice="softspoken"
         default_group="Infantry"
@@ -721,7 +721,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_4_6"
-        name="{=lord_zulizwe_4_1}Namandje"
+        name="{=lord_zulizwe_4_6}Namandje"
         age="32"
         voice="earnest"
         is_female="true"
@@ -746,7 +746,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_4_7"
-        name="{=lord_zulizwe_4_1}Namiss"
+        name="{=lord_zulizwe_4_7}Namiss"
         age="15"
         voice="ironic"
         is_female="true"
@@ -795,9 +795,10 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_5_2"
-        name="{=lord_zulizwe_5_2}Soumaoro"
+        name="{=lord_zulizwe_5_2}Soumaori"
         age="34"
         voice="ironic"
+        is_female="true"
         default_group="Ranged"
         is_hero="true"
         culture="Culture.zulizwe"

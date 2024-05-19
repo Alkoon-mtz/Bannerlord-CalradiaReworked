@@ -46,7 +46,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_1_2"
-        name="{=lord_kratorios_1_2}Gunhild"
+        name="{=lord_kratorios_1_2}Demetra"
         age="39"
         voice="softspoken"
         is_female="true"
@@ -72,7 +72,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_1_3"
-        name="{=lord_kratorios_1_3}Arnketil"
+        name="{=lord_kratorios_1_3}Basileios"
         age="22"
         voice="curt"
         default_group="Cavalry"
@@ -96,7 +96,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_1_4"
-        name="{=lord_kratorios_1_4}Wandrille"
+        name="{=lord_kratorios_1_4}Euphemios"
         age="15"
         voice="ironic"
         default_group="Infantry"
@@ -116,7 +116,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_1_5"
-        name="{=lord_kratorios_1_5}Jeuffine"
+        name="{=lord_kratorios_1_5}Eupraxia"
         age="13"
         voice="softspoken"
         is_female="true"
@@ -137,7 +137,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_1_6"
-        name="{=lord_kratorios_1_6}Hagen"
+        name="{=lord_kratorios_1_6}Hypatios"
         age="36"
         voice="curt"
         default_group="Infantry"
@@ -162,7 +162,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_1_7"
-        name="{=lord_kratorios_1_7}Markvart"
+        name="{=lord_kratorios_1_7}Nikarete"
         age="37"
         voice="earnest"
         is_female="true"
@@ -188,7 +188,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_1_8"
-        name="{=lord_kratorios_1_8}Lesceline"
+        name="{=lord_kratorios_1_8}Garyphallia"
         age="13"
         voice="earnest"
         is_female="true"
@@ -209,7 +209,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_1_9"
-        name="{=lord_kratorios_1_9}Charles"
+        name="{=lord_kratorios_1_9}Polykarpos"
         age="10"
         voice="ironic"
         default_group="Cavalry"
@@ -229,7 +229,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_1_10"
-        name="{=lord_kratorios_1_10}Robert"
+        name="{=lord_kratorios_1_10}Serapion"
         age="33"
         voice="curt"
         default_group="Infantry"
@@ -289,7 +289,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_2_2"
-        name="{=lord_kratorios_2_2}Berthilde"
+        name="{=lord_kratorios_2_2}Simonis"
         age="45"
         voice="curt"
         is_female="true"
@@ -314,7 +314,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_2_3"
-        name="{=lord_kratorios_2_3}Elma"
+        name="{=lord_kratorios_2_3}Xene"
         age="30"
         voice="earnest"
         is_female="true"
@@ -339,7 +339,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_2_4"
-        name="{=lord_kratorios_2_4}Baldwin"
+        name="{=lord_kratorios_2_4}Laurentios"
         age="27"
         voice="ironic"
         default_group="Cavalry"
@@ -363,7 +363,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_2_5"
-        name="{=lord_kratorios_2_5}Darelle"
+        name="{=lord_kratorios_2_5}Loukas"
         age="16"
         voice="softspoken"
         default_group="HorseArcher"
@@ -382,7 +382,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_2_6"
-        name="{=lord_kratorios_2_6}Fanchon"
+        name="{=lord_kratorios_2_6}Eirene"
         age="12"
         voice="curt"
         is_female="true"
@@ -402,7 +402,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_2_7"
-        name="{=lord_kratorios_2_7}Tancrede"
+        name="{=lord_kratorios_2_7}Tiberios"
         age="29"
         voice="softspoken"
         default_group="Cavalry"
@@ -426,7 +426,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_2_8"
-        name="{=lord_kratorios_2_8}Norine"
+        name="{=lord_kratorios_2_8}Dionysia"
         age="11"
         voice="curt"
         is_female="true"
@@ -479,7 +479,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_3_2"
-        name="{=lord_kratorios_3_2}Ottilie"
+        name="{=lord_kratorios_3_2}Chrysogone"
         age="36"
         voice="ironic"
         is_female="true"
@@ -504,7 +504,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_3_3"
-        name="{=lord_kratorios_3_3}Ketil"
+        name="{=lord_kratorios_3_3}Iakobos"
         age="20"
         voice="softspoken"
         default_group="Infantry"
@@ -528,7 +528,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_3_4"
-        name="{=lord_kratorios_3_4}Undine"
+        name="{=lord_kratorios_3_4}Pulcheria"
         age="15"
         voice="earnest"
         is_female="true"
@@ -548,7 +548,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_3_5"
-        name="{=lord_kratorios_3_5}Dagmar"
+        name="{=lord_kratorios_3_5}Konstantine"
         age="30"
         voice="curt"
         is_female="true"
@@ -573,7 +573,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_3_6"
-        name="{=lord_kratorios_3_6}Ceneric"
+        name="{=lord_kratorios_3_6}Innokentios"
         age="16"
         voice="softspoken"
         default_group="HorseArcher"
@@ -592,7 +592,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_3_7"
-        name="{=lord_kratorios_3_7}Vilma"
+        name="{=lord_kratorios_3_7}Alexeia"
         age="9"
         voice="earnest"
         is_female="true"
@@ -646,7 +646,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_4_2"
-        name="{=lord_kratorios_4_2}Mederic"
+        name="{=lord_kratorios_4_2}Gerasimos"
         age="34"
         voice="ironic"
         default_group="Cavalry"
@@ -670,7 +670,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_4_3"
-        name="{=lord_kratorios_4_1}Agnes"
+        name="{=lord_kratorios_4_3}Kyriake"
         age="14"
         voice="curt"
         is_female="true"
@@ -694,7 +694,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_4_4"
-        name="{=lord_kratorios_4_1}Gontran"
+        name="{=lord_kratorios_4_4}Zenon"
         age="6"
         voice="softspoken"
         default_group="Infantry"
@@ -713,7 +713,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_4_5"
-        name="{=lord_kratorios_4_1}Batistin"
+        name="{=lord_kratorios_4_5}Kallinikos"
         age="35"
         voice="softspoken"
         default_group="HorseArcher"
@@ -737,7 +737,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_4_6"
-        name="{=lord_kratorios_4_1}Maheline"
+        name="{=lord_kratorios_4_6}Eudokia"
         age="33"
         voice="earnest"
         is_female="true"
@@ -762,7 +762,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_4_7"
-        name="{=lord_kratorios_4_1}Osanna"
+        name="{=lord_kratorios_4_7}Anthe"
         age="15"
         voice="ironic"
         is_female="true"
@@ -784,7 +784,7 @@
 
     <!-- Clan 5 -->
     <NPCCharacter id="lord_kratorios_5_1"
-        name="{=lord_kratorios_5_1}Nicasor"
+        name="{=lord_kratorios_5_1}Belisarios"
         age="36"
         voice="curt"
         default_group="Infantry"
@@ -817,9 +817,10 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_5_2"
-        name="{=lord_kratorios_5_2}Mektild"
+        name="{=lord_kratorios_5_2}Markia"
         age="34"
         voice="ironic"
+        is_female="true"
         default_group="Infantry"
         is_hero="true"
         culture="Culture.empire"
@@ -841,7 +842,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_5_3"
-        name="{=lord_kratorios_5_3}Luderik"
+        name="{=lord_kratorios_5_3}Pyrros"
         age="13"
         voice="curt"
         default_group="Cavalry"
@@ -860,7 +861,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_5_4"
-        name="{=lord_kratorios_5_4}Hilbert"
+        name="{=lord_kratorios_5_4}Apollonios"
         age="27"
         voice="earnest"
         default_group="HorseArcher"
@@ -884,7 +885,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_5_5"
-        name="{=lord_kratorios_5_5}Daghild"
+        name="{=lord_kratorios_5_5}Aigidia"
         age="28"
         voice="softspoken"
         is_female="true"
@@ -909,7 +910,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_5_6"
-        name="{=lord_kratorios_5_6}Clothilde"
+        name="{=lord_kratorios_5_6}Hypatia"
         age="5"
         voice="ironic"
         is_female="true"
@@ -966,7 +967,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_6_2"
-        name="{=lord_kratorios_6_2}Alberta"
+        name="{=lord_kratorios_6_2}Evanthia"
         age="36"
         voice="ironic"
         is_female="true"
@@ -991,7 +992,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_6_3"
-        name="{=lord_kratorios_6_3}Hildegonde"
+        name="{=lord_kratorios_6_3}Eulalia"
         age="21"
         voice="softspoken"
         is_female="true"
@@ -1016,7 +1017,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_6_4"
-        name="{=lord_kratorios_6_4}Bernhard"
+        name="{=lord_kratorios_6_4}Euphrosyne"
         age="16"
         voice="earnest"
         is_female="true"
@@ -1036,7 +1037,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_6_5"
-        name="{=lord_kratorios_6_5}Gerwald"
+        name="{=lord_kratorios_6_5}Narses"
         age="8"
         voice="curt"
         default_group="Infantry"
@@ -1055,7 +1056,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_6_6"
-        name="{=lord_kratorios_6_6}Krimhigonde"
+        name="{=lord_kratorios_6_6}Ioustina"
         age="31"
         voice="softspoken"
         is_female="true"
@@ -1082,7 +1083,7 @@
 
     <!-- Clan 7 -->
     <NPCCharacter id="lord_kratorios_7_1"
-        name="{=lord_kratorios_7_1}Obron"
+        name="{=lord_kratorios_7_1}Pelagios"
         age="32"
         voice="softspoken"
         default_group="Infantry"
@@ -1113,7 +1114,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_7_2"
-        name="{=lord_kratorios_7_2}Hugaut"
+        name="{=lord_kratorios_7_2}Theochariste"
         age="30"
         voice="earnest"
         is_female="true"
@@ -1138,7 +1139,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_7_3"
-        name="{=lord_kratorios_7_3}Gislinde"
+        name="{=lord_kratorios_7_3}Christophoros"
         age="7"
         voice="softspoken"
         default_group="HorseArcher"
@@ -1157,7 +1158,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_7_4"
-        name="{=lord_kratorios_7_4}Fride"
+        name="{=lord_kratorios_7_4}Georgia"
         age="25"
         voice="curt"
         is_female="true"
@@ -1182,7 +1183,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_7_5"
-        name="{=lord_kratorios_7_5}Dita"
+        name="{=lord_kratorios_7_5}Barbara"
         age="15"
         voice="curt"
         is_female="true"
@@ -1235,7 +1236,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_8_2"
-        name="{=lord_kratorios_8_2}Valborg"
+        name="{=lord_kratorios_8_2}Bardas"
         age="28"
         voice="earnest"
         default_group="HorseArcher"
@@ -1259,7 +1260,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_8_3"
-        name="{=lord_kratorios_8_3}Norbert"
+        name="{=lord_kratorios_8_3}Bosporios"
         age="3"
         voice="ironic"
         default_group="Infantry"
@@ -1278,7 +1279,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_kratorios_8_4"
-        name="{=lord_kratorios_8_4}Geertje"
+        name="{=lord_kratorios_8_4}Ioulia"
         age="26"
         voice="softspoken"
         is_female="true"

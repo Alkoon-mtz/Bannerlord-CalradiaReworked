@@ -649,7 +649,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_4_3"
-        name="{=lord_qinguo_4_1}Jieyu"
+        name="{=lord_qinguo_4_3}Jieyu"
         age="14"
         voice="curt"
         is_female="true"
@@ -673,7 +673,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_4_4"
-        name="{=lord_qinguo_4_1}Yuanji"
+        name="{=lord_qinguo_4_4}Yuanji"
         age="6"
         voice="softspoken"
         default_group="HorseArcher"
@@ -692,7 +692,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_4_5"
-        name="{=lord_qinguo_4_1}Qiao"
+        name="{=lord_qinguo_4_5}Qiao"
         age="35"
         voice="softspoken"
         default_group="Cavalry"
@@ -716,7 +716,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_4_6"
-        name="{=lord_qinguo_4_1}Zhaopei"
+        name="{=lord_qinguo_4_6}Zhaopei"
         age="33"
         voice="earnest"
         is_female="true"
@@ -741,7 +741,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_4_7"
-        name="{=lord_qinguo_4_1}Zhirong"
+        name="{=lord_qinguo_4_7}Zhirong"
         age="15"
         voice="ironic"
         is_female="true"

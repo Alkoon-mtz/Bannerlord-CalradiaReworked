@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
+    <!--
+        bat_bat_template_flamboyant lord_archer_2h_1
+        bat_bat_template_heavy      lord_2h_throw_1
+        bat_bat_template_medium     lord_cav_archer_1h_1
+        bat_bat_template_wild       lord_throw_1h_1
+    -->
+
+    <!-- Clan 1 -->
     <NPCCharacter id="lord_cereann_1_1"
-        name="{=8auuZ79h}Nywin"
-        age="35"
+        name="{=lord_cereann_1_1}Suaibsech"
+        age="36"
         voice="ironic"
-        is_hero="true"
         is_female="true"
         default_group="Ranged"
+        is_hero="true"
         culture="Culture.battania"
         occupation="Lord"
         face_mesh_cache="true"
         skill_template="SkillSet.lord_archer_2h_1">
         <face>
             <BodyProperties version="4"
-                age="35"
+                age="36"
                 weight="0.4799"
                 build="0.7623"
                 key="00026C06D21410032682285A6677599759D275551787590470551577819F6D07001B7603018899B800000000000000000000000000000000000000005A140004" />
@@ -32,9 +40,218 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_cereann_1_2"
+        name="{=lord_cereann_1_2}Cuircthe"
+        age="37"
+        voice="softspoken"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_doctor"
+        face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="37" weight="0.443" build="0.652"  key="0005740600003342649E557A4982ADDC968B89A6965141785238543997637838008A700308D25A1B000000000000000000000000000000000000000037003043"  />
+        </face>
+        <Traits>
+            <Trait id="Generosity"
+                value="+2" />
+            <Trait id="Calculating"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="bat_king_template_bat_m" />
+            <EquipmentSet id="bat_king_template_civ_m" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_1_3"
+        name="{=lord_cereann_1_3}Faelcar"
+        age="21"
+        voice="curt"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_throw_1h_2">
+        <face>
+            <BodyProperties version="4" age="21" weight="0.331" build="0.694"  key="0008400600003509F49EC98B3AB3BDEDB6BB8AB7D692B87D624A84499765DD6B00AA50030AD59A6B000000000000000000000000000000000000000037408045"  />
+        </face>
+        <Traits>
+            <Trait id="Honor"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="bat_bat_template_wild" />
+            <EquipmentSet id="bat_civ_template_default" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_1_4"
+        name="{=lord_cereann_1_4}Conamail"
+        age="16"
+        voice="ironic"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.456" build="0.699"  key="0008400600003381F49FC9BB4AB3BDEEB7BB8BD8E6C4BD7E624BC48E9765EE6C006A700306D5CB6C00000000000000000000000000000000000000002EC88080"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="bat_bat_template_medium" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_1_5"
+        name="{=lord_cereann_1_5}Cellach"
+        age="15"
+        voice="softspoken"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.478" build="0.472"  key="000230060458100AFB6E200E0A1B87DB175B7BB36D55C7D06716C1A7866AE42B00D770030D3CDA96000000000000000000000000000000000000000025B82083"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="bat_bat_template_heavy" />
+            <EquipmentSet id="bat_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_1_6"
+        name="{=lord_cereann_1_6}Fiachnae"
+        age="36"
+        voice="curt"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_archer_1h_2">
+        <face>
+            <BodyProperties version="4" age="36" weight="0.451" build="0.478"  key="0005000340003383F49EC9BB4AB3BDEDB7BB8BD7E692BA7E624A947D9765DE6B0087700308D5BA6B00000000000000000000000000000000000000004F008080"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Valor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="bat_bat_template_medium" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_1_7"
+        name="{=lord_cereann_1_7}Sadb"
+        age="37"
+        voice="earnest"
+        is_female="true"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_archer_2h_1">
+        <face>
+            <BodyProperties version="4" age="37" weight="0.25" build="0.369"  key="00033C06C344300AFC7F67BE8AABDBDD787C8EEE8EE5CADECA39C3A8867AEA4D00864003089DECB70000000000000000000000000000000000000000771820C4"  />
+        </face>
+        <Traits>
+            <Trait id="Valor"
+                value="+2" />
+            <Trait id="Mercy"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="bat_bat_template_flamboyant" />
+            <EquipmentSet id="bat_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_1_8"
+        name="{=lord_cereann_1_8}Gnathnad"
+        age="13"
+        voice="earnest"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="13" weight="0.448" build="0.594"  key="00001C03462C100FFC7E604E0A9BD7DD275B7CED6EC5C9D76819C3A7867AE92D00597003053DEC97000000000000000000000000000000000000000058A820C4"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="bat_bat_template_heavy" />
+            <EquipmentSet id="bat_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_1_9"
+        name="{=lord_cereann_1_9}Lochlann"
+        age="10"
+        voice="ironic"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="10" weight="0.505" build="0.472"  key="00084803400013C67387626A2A78C483946C8238E987B939E57F6E4C873542740057800305838B1100000000000000000000000000000000000000005AA02006"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="bat_bat_template_wild" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_1_10"
+        name="{=lord_cereann_1_10}Orthanach"
+        age="32"
+        voice="curt"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_2h_throw_1">
+        <face>
+            <BodyProperties version="4" age="32" weight="0.505" build="0.467"  key="00024C0800002347A99D8D9B2BBBC7CEB4ED88CDEB97E95EEEBFAFAC87ED6FAD00A780030A889C3C000000000000000000000000000000000000000071405002"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Valor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="bat_bat_template_heavy" />
+            <EquipmentSet id="bat_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 2 -->
     <NPCCharacter id="lord_cereann_2_1"
-        name="{=cL1lO5iP}Ergeon"
-        age="43"
+        name="{=lord_cereann_2_1}Gwerthefyr"
+        age="48"
         voice="softspoken"
         default_group="Ranged"
         is_hero="true"
@@ -43,11 +260,7 @@
         face_mesh_cache="true"
         skill_template="SkillSet.lord_archer_2h_1">
         <face>
-            <BodyProperties version="4"
-                age="43"
-                weight="0.385"
-                build="0.453"
-                key="0008140A40003549D996DDC4B3ACCC9837CF8A679A75BABDC6AFBF4790A668CB00D760030D56CDEE000000000000000000000000000000000000000001B06100" />
+            <BodyProperties version="4" age="48" weight="0.385" build="0.453"  key="00081407800034C9D996DDC4B3ACCC9837CF8A679A75BABDC6AFBF4790A668CB00A760030A56CDEE000000000000000000000000000000000000000001586102"  />
         </face>
         <Traits>
             <Trait id="Mercy"
@@ -66,10 +279,170 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="lord_cereann_3_1"
-        name="{=d8D98oFG}Melidir"
+    <NPCCharacter id="lord_cereann_2_2"
+        name="{=lord_cereann_2_2}Euronwy"
+        age="47"
+        voice="curt"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_archer_1h_2">
+        <face>
+            <BodyProperties version="4" age="47" weight="0.404" build="0.562"  key="000550034358100CFC7F605E7AABD9DD686C8EED6EC5CADE6829C3A7867AE93D00586003055DEC9700000000000000000000000000000000000000007AA820C3"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_medium" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_2_3"
+        name="{=lord_cereann_2_3}Morganna"
+        age="30"
+        voice="earnest"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_2h_throw_1">
+        <face>
+            <BodyProperties version="4" age="30" weight="0.324" build="0.462"  key="00002806C6581009FC7E604E7AABD7DD676C8CED6EC5C9DD6829C3A7867AE93D00675003064DEC9700000000000000000000000000000000000000002AC02044"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_heavy" />
+            <EquipmentSet id="bat_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_2_4"
+        name="{=lord_cereann_2_4}Morfarch"
+        age="27"
+        voice="ironic"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_throw_1h_2">
+        <face>
+            <BodyProperties version="4" age="27" weight="0.457" build="0.584"  key="00043808000015808798656A2A89C7CCA47D82B8E987E95AEC8F9F7C8765587B0089700308859C340000000000000000000000000000000000000000031020C1"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_wild" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_2_5"
+        name="{=lord_cereann_2_5}Garmon"
+        age="16"
         voice="softspoken"
-        age="33"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.229" build="0.603"  key="0000480600002506A89B8D6A2A89C7CDA49D83CDEB87E95CEDBFAF7C879A59AD0089300308869C3800000000000000000000000000000000000000005F1020C2"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_flamboyant" />
+            <EquipmentSet id="bat_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_2_6"
+        name="{=lord_cereann_2_6}Danhadlwen"
+        age="12"
+        voice="curt"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="12" weight="0.254" build="0.636"  key="00085805434400089C6778B8B779A567B7077B559A12B4A248D4BED190BC7A09005A4003059EE2EB00000000000000000000000000000000000000004AA82103"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_wild" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_2_7"
+        name="{=lord_cereann_2_7}Tegwyd"
+        age="29"
+        voice="softspoken"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_scout">
+        <face>
+            <BodyProperties version="4" age="29" weight="0.485" build="0.667"  key="0005200780002384889A656A2A89C7CDA49D82CBEB87E95AECBFAF7C8788587C007A700307869C37000000000000000000000000000000000000000028F82005"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_wild" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_2_8"
+        name="{=lord_cereann_2_8}Essyllt"
+        age="11"
+        voice="curt"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="11" weight="0.291" build="0.385"  key="000224034358200CAD6A8CBCB98AAACAD8987BCFEFE5D5BB5EE9EED994BC9F2E00A640030ADEEEEE000000000000000000000000000000000000000057402084"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_wild" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 3 -->
+    <NPCCharacter id="lord_cereann_3_1"
+        name="{=lord_cereann_3_1}Creirwy"
+        voice="softspoken"
+        age="36"
+        is_female="true"
         default_group="Ranged"
         is_hero="true"
         culture="Culture.battania"
@@ -77,11 +450,7 @@
         face_mesh_cache="true"
         skill_template="SkillSet.lord_archer_2h_1">
         <face>
-            <BodyProperties version="4"
-                age="33"
-                weight="0.5"
-                build="0.6235"
-                key="00028C0600001914888888888888888888888888888888888888888888888888007976030788888800000000000000000000000000000000000000003EFC3082" />
+            <BodyProperties version="4" age="36" weight="0.488" build="0.371"  key="00000C05472C2003AD687AB8B78AA8CAC7277BA9DA44B5A34ED4EED690BC8D0B0056700305DEEAEB00000000000000000000000000000000000000002C982003"  />
         </face>
         <Traits>
             <Trait id="Valor"
@@ -98,9 +467,147 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_cereann_3_2"
+        name="{=lord_cereann_3_2}Riaged"
+        age="36"
+        voice="ironic"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_rogue">
+        <face>
+            <BodyProperties version="4"
+                age="35"
+                weight="0.5"
+                build="0.6235"
+                key="00028C0600001914888888888888888888888888888888888888888888888888007976030788888800000000000000000000000000000000000000003EFC3082" />
+        </face>
+        <Traits>
+            <Trait id="Calculating"
+                value="+2" />
+            <Trait id="Generosity"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_wild" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_3_3"
+        name="{=lord_cereann_3_3}Dumnagual"
+        age="20"
+        voice="softspoken"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_2h_throw_1">
+        <face>
+            <BodyProperties version="4" age="20" weight="0.318" build="0.593"  key="00024807800014C56D97B4792B9582E6E51774C18BD618D1428736D8927A5FA0006950030628A6C5000000000000000000000000000000000000000002C02101"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_heavy" />
+            <EquipmentSet id="bat_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_3_4"
+        name="{=lord_cereann_3_4}Delyth"
+        age="15"
+        voice="earnest"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.23" build="0.562"  key="0008180345582008AD688ABAB98AA8CAC8377BBDDCE4D5B74ED9EED790BC8E0B0078300307DEEBEC000000000000000000000000000000000000000058E02004"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_medium" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_3_5"
+        name="{=lord_cereann_3_5}Elinor"
+        age="30"
+        voice="curt"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_archer_1h_2">
+        <face>
+            <BodyProperties version="4" age="30" weight="0.535" build="0.61"  key="00003404C4582002AD687ABAB88AA8CAC7277BBCDCB4D5B44ED6EED790BC8D0B0079800307DEEAEC000000000000000000000000000000000000000034F82084"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_medium" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_3_6"
+        name="{=lord_cereann_3_6}Aldwr"
+        age="16"
+        voice="softspoken"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.271" build="0.566"  key="0004240340003441DD9BD7E99BAED2ECF6C875E6ECE7AFEAAB877DDB97DB9FA90078400307AAB6CE00000000000000000000000000000000000000004CE08083"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_flamboyant" />
+            <EquipmentSet id="bat_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_3_7"
+        name="{=lord_cereann_3_7}Maelmurie"
+        age="9"
+        voice="earnest"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="9" weight="0.502" build="0.688"  key="00084806C3443004218EB5DB6867C9ABC9FB7E6F81D720AD7D8E7A75948BCE3D005A8003055C5FC6000000000000000000000000000000000000000040A82043"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_wild" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 4 -->
     <NPCCharacter id="lord_cereann_4_1"
-        name="{=bDMmX9YI}Luichan"
-        age="39"
+        name="{=lord_cereann_4_1}Uthoil"
+        age="37"
         voice="earnest"
         default_group="Infantry"
         is_hero="true"
@@ -131,9 +638,148 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_cereann_4_2"
+        name="{=lord_cereann_4_2}Addiena"
+        age="36"
+        voice="ironic"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_throw_1h_2">
+        <face>
+            <BodyProperties version="4" age="36" weight="0.458" build="0.418"  key="00023C06C644000B118EA4D51544C96BC6FB7E6D31D720AC5D7E5A74911B0E3D00567003054C5F14000000000000000000000000000000000000000036A81104"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_wild" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_4_3"
+        name="{=lord_cereann_4_3}Neulina"
+        age="14"
+        voice="curt"
+        is_female="true"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="14" weight="0.547" build="0.364"  key="00080404C62C3004258EB6DB6867D9BEC9FB7E6F81F761AD8D8E7B7694ACCE3D00858003085D6FC700000000000000000000000000000000000000007F102103"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_flamboyant" />
+            <EquipmentSet id="bat_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_4_4"
+        name="{=lord_cereann_4_4}Uuochu"
+        age="6"
+        voice="softspoken"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="6" weight="0.542" build="0.644"  key="00006003400035037D9AB7D93B95C2E7E61774C3CCD7ABDA7B8736D895CA7FA7005A80030579B6CB000000000000000000000000000000000000000022988043"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_medium" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_4_5"
+        name="{=lord_cereann_4_5}Telurg"
+        age="35"
+        voice="softspoken"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_archer_2h_2">
+        <face>
+            <BodyProperties version="4" age="35" weight="0.528" build="0.425"  key="00023404C00034808D9BB7D94BABD2EBE6B775D3CCE7ABEA7B875ADB95CB7FA9006680030689B6CB000000000000000000000000000000000000000014D080C6"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_flamboyant" />
+            <EquipmentSet id="bat_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_4_6"
+        name="{=lord_cereann_4_6}Margrud"
+        age="33"
+        voice="earnest"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_crafter">
+        <face>
+            <BodyProperties version="4" age="33" weight="0.406" build="0.585"  key="00085404C458300A2B9EB7DC6898DBDEE9FB7E6FCBF796BD9E9E8D9B96BCFE9D00796003077E6FDA00000000000000000000000000000000000000003AF83003"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_medium" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_4_7"
+        name="{=lord_cereann_4_7}Eua"
+        age="15"
+        voice="ironic"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.405" build="0.379"  key="00071C078544300C2590E8A78B459E55E4AC7C645FC5791BF781A6E281F2B90A00466003042E979800000000000000000000000000000000000000005A883003"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_heavy" />
+            <EquipmentSet id="bat_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 5 -->
     <NPCCharacter id="lord_cereann_5_1"
-        name="{=8LXDxyr2}Liasin"
-        age="42"
+        name="{=lord_cereann_5_1}Bryvyth"
+        age="35"
         voice="ironic"
         is_female="true"
         default_group="Infantry"
@@ -163,9 +809,123 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_cereann_5_2"
+        name="{=lord_cereann_5_2}Fragan"
+        age="34"
+        voice="ironic"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_archer_1h_2">
+        <face>
+            <BodyProperties version="4" age="34" weight="0.238" build="0.411"  key="00030003400032C87D9BB7D93BA9D2EBE6A774C3CCE7ABDA7B8758D895CB7FA9007640030789B6CB000000000000000000000000000000000000000046D88085"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_medium" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_5_3"
+        name="{=lord_cereann_5_3}Cynog"
+        age="15"
+        voice="curt"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.495" build="0.418"  key="0008040800003547D987C77AB77A7C8EC2FC8E98EEB7C87FCCC9E7EE95C75EEE0096700309ECC63B000000000000000000000000000000000000000057388000"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_wild" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_5_4"
+        name="{=lord_cereann_5_4}Donyarth"
+        age="27"
+        voice="earnest"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_archer_2h_2">
+        <face>
+            <BodyProperties version="4" age="27" weight="0.413" build="0.683"  key="00042407800033039477C479B324647EC2DB8E33C756401EC3C464EE95C65AAC00BA60030BD4431900000000000000000000000000000000000000002F704082"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_flamboyant" />
+            <EquipmentSet id="bat_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_5_5"
+        name="{=lord_cereann_5_5}Ceinwen"
+        age="28"
+        voice="softspoken"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_merchant">
+        <face>
+            <BodyProperties version="4" age="28" weight="0.527" build="0.671"  key="00051005452C300B298EB6DB6867D9DED9FB7E6FC1F782AD8D8E7C8694ACDE9D004A8003046E6FC900000000000000000000000000000000000000003E783103"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Honor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_wild" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_5_6"
+        name="{=lord_cereann_5_6}Ordguydel"
+        age="5"
+        voice="ironic"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="5" weight="0.182" build="0.594"  key="00081806035830084698E8A9AB56AE65E4BE7D7C7FC7B91FF784A8EB82F6BB9C00893003084EC9B8000000000000000000000000000000000000000067184004"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_medium" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 6 -->
     <NPCCharacter id="lord_cereann_6_1"
-        name="{=kuOs90Uh}Aradwyr"
-        age="44"
+        name="{=lord_cereann_6_1}Vortegyn"
+        age="35"
         voice="ironic"
         default_group="HorseArcher"
         is_hero="true"
@@ -175,7 +935,7 @@
         skill_template="SkillSet.lord_cav_archer_1h_1">
         <face>
             <BodyProperties version="4"
-                age="44"
+                age="35"
                 weight="0.2948"
                 build="0.387"
                 key="00004008C00024C9849AD6DF398ECEDDE88F84FFDFD2EFFFDACF8B8D959E8EEA0096400309BBDF45000000000000000000000000000000000000000001287005" />
@@ -196,10 +956,127 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_cereann_6_2"
+        name="{=lord_cereann_6_2}Endellienta"
+        age="36"
+        voice="ironic"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_2h_throw_2">
+        <face>
+            <BodyProperties version="4" age="36" weight="0.373" build="0.67"  key="00025403442C300B569CE9CAAB8EAEB7E4BE8DCF9FE7B91FFBD7AAEB92FECCCC006A6003067EE9E8000000000000000000000000000000000000000020D04083"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_heavy" />
+            <EquipmentSet id="bat_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_6_3"
+        name="{=lord_cereann_6_3}Guenguerthlon"
+        age="21"
+        voice="softspoken"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_throw_1h_2">
+        <face>
+            <BodyProperties version="4" age="21" weight="0.477" build="0.628"  key="00023008072C3001469AE9AAAB57AE97E4BE7D7D8FD7B91FFBA7AAEB82FACCCC00B970030B4EC9E800000000000000000000000000000000000000002D704004"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_wild" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_6_4"
+        name="{=lord_cereann_6_4}Morhaetho"
+        age="16"
+        voice="earnest"
+        is_female="true"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.183" build="0.469"  key="00085C0405443003469AE8AAAB57AE66E4BE7D7C8FC7B91FF995A8EB82F8CC9C00873003084EC9C8000000000000000000000000000000000000000037004103"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_flamboyant" />
+            <EquipmentSet id="bat_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_6_5"
+        name="{=lord_cereann_6_5}Haeloc"
+        age="8"
+        voice="curt"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="8" weight="0.533" build="0.355"  key="00010405400035C6A587C679B734667EC2FB8E68EB97733FC8C564EE95C75AEC00B580030BE7C3190000000000000000000000000000000000000000376870C2"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_medium" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_6_6"
+        name="{=lord_cereann_6_6}Arganteilin"
+        age="31"
+        voice="softspoken"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_engineer">
+        <face>
+            <BodyProperties version="4" age="31" weight="0.226" build="0.593"  key="000048054644300A1C65EDBB6285AA57E68B823251901478C227286C861479A900593003053E4E05000000000000000000000000000000000000000028983084"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_wild" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 7 -->
     <NPCCharacter id="lord_cereann_7_1"
-        name="{=tHtt3HCn}Pryndor"
+        name="{=lord_cereann_7_1}Leuhemel"
         age="35"
         voice="curt"
+        is_female="true"
         default_group="HorseArcher"
         is_hero="true"
         culture="Culture.battania"
@@ -207,11 +1084,7 @@
         face_mesh_cache="true"
         skill_template="SkillSet.lord_cav_archer_1h_1">
         <face>
-            <BodyProperties version="4"
-                age="35"
-                weight="0.259"
-                build="0.584"
-                key="00023408C00015147B8787BC8879B3E3B4BA8D76BA86C7AD9AAB94AD93C97A3200B940030BB49DB40000000000000000000000000000000000000000017830C4" />
+            <BodyProperties version="4" age="35" weight="0.545" build="0.591"  key="000558080558300E1E8BEDDE67A5AB97E6BB836484D18579D42978AE86D68DCB00698003063EBE4C000000000000000000000000000000000000000058C830C3"  />
         </face>
         <skills></skills>
         <Traits>
@@ -227,8 +1100,103 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_cereann_7_2"
+        name="{=lord_cereann_7_2}Primarhoc"
+        age="30"
+        voice="earnest"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_charmer">
+        <face>
+            <BodyProperties version="4"
+                age="35"
+                weight="0.259"
+                build="0.584"
+                key="00023408C00015147B8787BC8879B3E3B4BA8D76BA86C7AD9AAB94AD93C97A3200B940030BB49DB40000000000000000000000000000000000000000017830C4" />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_heavy" />
+            <EquipmentSet id="bat_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_7_3"
+        name="{=lord_cereann_7_3}Huiarnbili"
+        age="7"
+        voice="softspoken"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="7" weight="0.45" build="0.655"  key="000520040000334AD587C779B765667EC2FB8E68EBA7766FC8C874EE95C75BEC006A700306E9C319000000000000000000000000000000000000000010C08146"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_flamboyant" />
+            <EquipmentSet id="bat_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_7_4"
+        name="{=lord_cereann_7_4}Artaca"
+        age="25"
+        voice="curt"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_2h_throw_2">
+        <face>
+            <BodyProperties version="4" age="25" weight="0.419" build="0.357"  key="00020804C45830012F8BEEFE7AA6AED8E7DB87BB87E3F58ADA29C9AE86F68FCE00756003073EEFAE000000000000000000000000000000000000000078F03103"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_heavy" />
+            <EquipmentSet id="bat_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_7_5"
+        name="{=lord_cereann_7_5}Gaela"
+        age="15"
+        voice="curt"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.285" build="0.479"  key="00082408052C300B1E8BEDEE68A6ABC7E6BB869684D2E57AD429B9AE86E68ECE00674003063EEF5E000000000000000000000000000000000000000024D03003"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="bat_bat_template_medium" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 8 -->
     <NPCCharacter id="lord_cereann_8_1"
-        name="{=ktPP2R1i}Guaran"
+        name="{=lord_cereann_8_1}Cinhoedl"
         age="28"
         voice="earnest"
         default_group="Infantry"
@@ -236,7 +1204,7 @@
         culture="Culture.battania"
         occupation="Lord"
         face_mesh_cache="true"
-        skill_template="SkillSet.lord_throw_1h_1">
+        skill_template="SkillSet.lord_throw_1h_2">
         <face>
             <BodyProperties version="4"
                 age="28"
@@ -252,6 +1220,75 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="bat_bat_template_wild" />
+            <EquipmentSet id="bat_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_8_2"
+        name="{=lord_cereann_8_2}Anaudrec"
+        age="23"
+        voice="earnest"
+        is_female="true"
+        default_group="Ranged"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_doctor">
+        <face>
+            <BodyProperties version="4" age="23" weight="0.44" build="0.413"  key="00021406C34430041E8BEDEE67A5ABA7E6BB858584D2D579D42999AE86E68ECB00567003053EEF4C000000000000000000000000000000000000000034983044"  />
+        </face>
+        <Traits>
+            <Trait id="Generosity"
+                value="+1" />
+            <Trait id="Mercy"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_flamboyant" />
+            <EquipmentSet id="bat_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_8_3"
+        name="{=lord_cereann_8_3}Anauguethen"
+        age="3"
+        voice="ironic"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="3" weight="0.386" build="0.376"  key="00022C04C0000413CF8FB5ECA17CB9AE6669885EEFF6FDFFCE7D6DE687FADFBC00766003079DCEA700000000000000000000000000000000000000002EF83083"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_heavy" />
+            <EquipmentSet id="bat_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_cereann_8_4"
+        name="{=lord_cereann_8_4}Guennguar"
+        age="26"
+        voice="softspoken"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.battania"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_archer_1h_2">
+        <face>
+            <BodyProperties version="4" age="26" weight="0.293" build="0.372"  key="00060804C6442010EB8F787CA6BCA79B692F8EEC7AA7DA59AA85B757958BFACB00664003069D9C47000000000000000000000000000000000000000040B84043"  />
+        </face>
+        <Traits>
+            <Trait id="Valor"
+                value="+2" />
+            <Trait id="Honor"
+                value="-2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="bat_bat_template_medium" />
             <EquipmentSet id="bat_civ_template_default"
                 civilian="true" />
         </Equipments>

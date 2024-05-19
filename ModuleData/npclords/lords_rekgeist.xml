@@ -657,7 +657,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_4_3"
-        name="{=lord_rekgeist_4_1}Birgit"
+        name="{=lord_rekgeist_4_3}Birgit"
         age="14"
         voice="curt"
         is_female="true"
@@ -681,7 +681,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_4_4"
-        name="{=lord_rekgeist_4_1}Sigismund"
+        name="{=lord_rekgeist_4_4}Sigismund"
         age="6"
         voice="softspoken"
         default_group="Infantry"
@@ -700,7 +700,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_4_5"
-        name="{=lord_rekgeist_4_1}Matthias"
+        name="{=lord_rekgeist_4_5}Matthias"
         age="35"
         voice="softspoken"
         default_group="Infantry"
@@ -724,7 +724,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_4_6"
-        name="{=lord_rekgeist_4_1}Claudia"
+        name="{=lord_rekgeist_4_6}Claudia"
         age="33"
         voice="earnest"
         is_female="true"
@@ -749,7 +749,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_4_7"
-        name="{=lord_rekgeist_4_1}Theophanu"
+        name="{=lord_rekgeist_4_7}Theophanu"
         age="15"
         voice="ironic"
         is_female="true"

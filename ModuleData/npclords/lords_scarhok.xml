@@ -651,7 +651,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_scarhok_4_3"
-        name="{=lord_scarhok_4_1}Agnes"
+        name="{=lord_scarhok_4_3}Agnes"
         age="14"
         voice="curt"
         is_female="true"
@@ -675,7 +675,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_scarhok_4_4"
-        name="{=lord_scarhok_4_1}Gontran"
+        name="{=lord_scarhok_4_4}Gontran"
         age="6"
         voice="softspoken"
         default_group="Infantry"
@@ -694,7 +694,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_scarhok_4_5"
-        name="{=lord_scarhok_4_1}Batistin"
+        name="{=lord_scarhok_4_5}Batistin"
         age="35"
         voice="softspoken"
         default_group="Infantry"
@@ -718,7 +718,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_scarhok_4_6"
-        name="{=lord_scarhok_4_1}Maheline"
+        name="{=lord_scarhok_4_6}Maheline"
         age="33"
         voice="earnest"
         is_female="true"
@@ -743,7 +743,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_scarhok_4_7"
-        name="{=lord_scarhok_4_1}Osanna"
+        name="{=lord_scarhok_4_7}Osanna"
         age="15"
         voice="ironic"
         is_female="true"
@@ -795,6 +795,7 @@
         name="{=lord_scarhok_5_2}Mektild"
         age="34"
         voice="ironic"
+        is_female="true"
         default_group="Infantry"
         is_hero="true"
         culture="Culture.scarhok"
