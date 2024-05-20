@@ -384,7 +384,7 @@
         age="12"
         voice="curt"
         is_female="true"
-        default_group="Cavalry"
+        default_group="HorseArcher"
         is_hero="true"
         culture="Culture.khuzait"
         occupation="Lord">
@@ -394,7 +394,7 @@
         <Traits>
         </Traits>
         <Equipments>
-            <EquipmentSet id="khu_bat_template_nomad" />
+            <EquipmentSet id="khu_bat_template_medium" />
             <EquipmentSet id="khu_civ_template_default"
                 civilian="true" />
         </Equipments>
@@ -604,7 +604,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="khu_bat_template_nomad" />
-            <EquipmentSet id="khu_civ_template_flamboyant"
+            <EquipmentSet id="khu_civ_template_default"
                 civilian="true" />
         </Equipments>
     </NPCCharacter>

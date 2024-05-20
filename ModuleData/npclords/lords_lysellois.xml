@@ -101,7 +101,7 @@
         name="{=lord_lysellois_1_4}Jean"
         age="16"
         voice="ironic"
-        default_group="Infantry"
+        default_group="Ranged"
         is_hero="true"
         culture="Culture.vlandia"
         occupation="Lord">

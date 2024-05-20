@@ -105,7 +105,7 @@
             </IncludedGameTypes>
         </XmlNode>
         <XmlNode>
-            <XmlName id="Heroes" path="heroes"/>
+            <XmlName id="Heroes" path="npcheroes"/>
             <IncludedGameTypes>
                 <GameType value = "Campaign"/>
                 <GameType value = "CampaignStoryMode"/>

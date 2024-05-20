@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Heroes>
+    <!-- Clan 1 -->
+    <Hero id="lord_virkaldr_1_1" faction="Faction.clan_virkaldr_1" spouse="Hero.lord_virkaldr_1_2"/>
+    <Hero id="lord_virkaldr_1_2" faction="Faction.clan_virkaldr_1" spouse="Hero.lord_virkaldr_1_1"/>
+    <Hero id="lord_virkaldr_1_3" faction="Faction.clan_virkaldr_1" father="Hero.lord_virkaldr_1_1" mother="Hero.lord_virkaldr_1_2"/>
+    <Hero id="lord_virkaldr_1_4" faction="Faction.clan_virkaldr_1" father="Hero.lord_virkaldr_1_1" mother="Hero.lord_virkaldr_1_2"/>
+    <Hero id="lord_virkaldr_1_5" faction="Faction.clan_virkaldr_1" father="Hero.lord_virkaldr_1_1" mother="Hero.lord_virkaldr_1_2"/>
+    <Hero id="lord_virkaldr_1_6" faction="Faction.clan_virkaldr_1" spouse="Hero.lord_virkaldr_1_7"/>
+    <Hero id="lord_virkaldr_1_7" faction="Faction.clan_virkaldr_1" spouse="Hero.lord_virkaldr_1_6"/>
+    <Hero id="lord_virkaldr_1_8" faction="Faction.clan_virkaldr_1" father="Hero.lord_virkaldr_1_6" mother="Hero.lord_virkaldr_1_7"/>
+    <Hero id="lord_virkaldr_1_9" faction="Faction.clan_virkaldr_1" father="Hero.lord_virkaldr_1_6" mother="Hero.lord_virkaldr_1_7"/>
+    <Hero id="lord_virkaldr_1_10" faction="Faction.clan_virkaldr_1" />
+
+    <!-- Clan 2 -->
+    <Hero id="lord_virkaldr_2_1" faction="Faction.clan_virkaldr_2" spouse="Hero.lord_virkaldr_2_2"/>
+    <Hero id="lord_virkaldr_2_2" faction="Faction.clan_virkaldr_2" spouse="Hero.lord_virkaldr_2_1"/>
+    <Hero id="lord_virkaldr_2_3" faction="Faction.clan_virkaldr_2" father="Hero.lord_virkaldr_2_2" mother="Hero.lord_virkaldr_2_1"/>
+    <Hero id="lord_virkaldr_2_4" faction="Faction.clan_virkaldr_2" father="Hero.lord_virkaldr_2_2" mother="Hero.lord_virkaldr_2_1"/>
+    <Hero id="lord_virkaldr_2_5" faction="Faction.clan_virkaldr_2" father="Hero.lord_virkaldr_2_2" mother="Hero.lord_virkaldr_2_1"/>
+    <Hero id="lord_virkaldr_2_6" faction="Faction.clan_virkaldr_2" father="Hero.lord_virkaldr_2_2" mother="Hero.lord_virkaldr_2_1"/>
+    <Hero id="lord_virkaldr_2_7" faction="Faction.clan_virkaldr_2" />
+    <!-- Add dead mother ? -->
+    <Hero id="lord_virkaldr_2_8" faction="Faction.clan_virkaldr_2" father="Hero.lord_virkaldr_2_7"/>
+
+    <!-- Clan 3 -->
+    <Hero id="lord_virkaldr_3_1" faction="Faction.clan_virkaldr_3" spouse="Hero.lord_virkaldr_3_2"/>
+    <Hero id="lord_virkaldr_3_2" faction="Faction.clan_virkaldr_3" spouse="Hero.lord_virkaldr_3_1"/>
+    <Hero id="lord_virkaldr_3_3" faction="Faction.clan_virkaldr_3" father="Hero.lord_virkaldr_3_1" mother="Hero.lord_virkaldr_3_2"/>
+    <Hero id="lord_virkaldr_3_4" faction="Faction.clan_virkaldr_3" father="Hero.lord_virkaldr_3_1" mother="Hero.lord_virkaldr_3_2"/>
+    <Hero id="lord_virkaldr_3_5" faction="Faction.clan_virkaldr_3" />
+    <!-- Add dead father ? -->
+    <Hero id="lord_virkaldr_3_6" faction="Faction.clan_virkaldr_3" mother="Hero.lord_virkaldr_3_5"/>
+    <Hero id="lord_virkaldr_3_7" faction="Faction.clan_virkaldr_3" mother="Hero.lord_virkaldr_3_5"/>
+
+    <!-- Clan 4 -->
+    <Hero id="lord_virkaldr_4_1" faction="Faction.clan_virkaldr_4" spouse="Hero.lord_virkaldr_4_2"/>
+    <Hero id="lord_virkaldr_4_2" faction="Faction.clan_virkaldr_4" spouse="Hero.lord_virkaldr_4_1"/>
+    <Hero id="lord_virkaldr_4_3" faction="Faction.clan_virkaldr_4" father="Hero.lord_virkaldr_4_2" mother="Hero.lord_virkaldr_4_1"/>
+    <Hero id="lord_virkaldr_4_4" faction="Faction.clan_virkaldr_4" father="Hero.lord_virkaldr_4_2" mother="Hero.lord_virkaldr_4_1"/>
+    <Hero id="lord_virkaldr_4_5" faction="Faction.clan_virkaldr_4" spouse="Hero.lord_virkaldr_4_6"/>
+    <Hero id="lord_virkaldr_4_6" faction="Faction.clan_virkaldr_4" spouse="Hero.lord_virkaldr_4_5"/>
+    <Hero id="lord_virkaldr_4_7" faction="Faction.clan_virkaldr_4" father="Hero.lord_virkaldr_4_5" mother="Hero.lord_virkaldr_4_6"/>
+
+    <!-- Clan 5 -->
+    <Hero id="lord_virkaldr_5_1" faction="Faction.clan_virkaldr_5" spouse="Hero.lord_virkaldr_5_2"/>
+    <Hero id="lord_virkaldr_5_2" faction="Faction.clan_virkaldr_5" spouse="Hero.lord_virkaldr_5_1"/>
+    <Hero id="lord_virkaldr_5_3" faction="Faction.clan_virkaldr_5" father="Hero.lord_virkaldr_5_1" mother="Hero.lord_virkaldr_5_2"/>
+    <Hero id="lord_virkaldr_5_4" faction="Faction.clan_virkaldr_5" spouse="Hero.lord_virkaldr_5_5"/>
+    <Hero id="lord_virkaldr_5_5" faction="Faction.clan_virkaldr_5" spouse="Hero.lord_virkaldr_5_4"/>
+    <Hero id="lord_virkaldr_5_6" faction="Faction.clan_virkaldr_5" father="Hero.lord_virkaldr_5_4" mother="Hero.lord_virkaldr_5_5"/>
+
+    <!-- Clan 6 -->
+    <Hero id="lord_virkaldr_6_1" faction="Faction.clan_virkaldr_6" spouse="Hero.lord_virkaldr_6_2"/>
+    <Hero id="lord_virkaldr_6_2" faction="Faction.clan_virkaldr_6" spouse="Hero.lord_virkaldr_6_1"/>
+    <Hero id="lord_virkaldr_6_3" faction="Faction.clan_virkaldr_6" father="Hero.lord_virkaldr_6_2" mother="Hero.lord_virkaldr_6_1"/>
+    <Hero id="lord_virkaldr_6_4" faction="Faction.clan_virkaldr_6" father="Hero.lord_virkaldr_6_2" mother="Hero.lord_virkaldr_6_1"/>
+    <Hero id="lord_virkaldr_6_5" faction="Faction.clan_virkaldr_6" father="Hero.lord_virkaldr_6_2" mother="Hero.lord_virkaldr_6_1"/>
+    <Hero id="lord_virkaldr_6_6" faction="Faction.clan_virkaldr_6" />
+
+    <!-- Clan 7 -->
+    <Hero id="lord_virkaldr_7_1" faction="Faction.clan_virkaldr_7" spouse="Hero.lord_virkaldr_7_2"/>
+    <Hero id="lord_virkaldr_7_2" faction="Faction.clan_virkaldr_7" spouse="Hero.lord_virkaldr_7_1"/>
+    <Hero id="lord_virkaldr_7_3" faction="Faction.clan_virkaldr_7" father="Hero.lord_virkaldr_7_2" mother="Hero.lord_virkaldr_7_1"/>
+    <Hero id="lord_virkaldr_7_4" faction="Faction.clan_virkaldr_7" />
+    <Hero id="lord_virkaldr_7_5" faction="Faction.clan_virkaldr_7" />
+
+    <!-- Clan 8 -->
+    <Hero id="lord_virkaldr_8_1" faction="Faction.clan_virkaldr_8" spouse="Hero.lord_virkaldr_8_2"/>
+    <Hero id="lord_virkaldr_8_2" faction="Faction.clan_virkaldr_8" spouse="Hero.lord_virkaldr_8_1"/>
+    <Hero id="lord_virkaldr_8_3" faction="Faction.clan_virkaldr_8" father="Hero.lord_virkaldr_8_1" mother="Hero.lord_virkaldr_8_2"/>
+    <Hero id="lord_virkaldr_8_4" faction="Faction.clan_virkaldr_8" />
+</Heroes>
