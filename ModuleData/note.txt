@@ -29,7 +29,6 @@ Add lords
 Rework banners
 
 Cereann:
-Add lords
 Rework banners
 
 Iustrium:
@@ -43,7 +42,6 @@ Rename cities
 male / female names
 
 Monghatai:
-Add lords
 
 Qinguo:
 male / female names

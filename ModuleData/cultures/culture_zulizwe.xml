@@ -89,6 +89,37 @@
             <policy id="policy_state_monopolies" />
         </default_policies>
         <male_names>
+            <name name="{=Abdoulaye}Abdoulaye" />
+            <name name="{=Adama}Adama" />
+            <name name="{=Adnan}Adnan" />
+            <name name="{=Aksil}Aksil" />
+            <name name="{=Alioune}Alioune" />
+            <name name="{=Amadou}Amadou" />
+            <name name="{=Assane}Assane" />
+            <name name="{=Babacar}Babacar" />
+            <name name="{=Boubacar}Boubacar" />
+            <name name="{=Demba}Demba" />
+            <name name="{=Djibril}Djibril" />
+            <name name="{=Habib}Habib" />
+            <name name="{=Harun}Harun" />
+            <name name="{=Hisham}Hisham" />
+            <name name="{=Issa}Issa" />
+            <name name="{=Jalil}Jalil" />
+            <name name="{=Jelani}Jelani" />
+            <name name="{=Lassana}Lassana" />
+            <name name="{=Mahdi}Mahdi" />
+            <name name="{=Mamadou}Mamadou" />
+            <name name="{=Moussa}Moussa" />
+            <name name="{=Oumar}Oumar" />
+            <name name="{=Ousmane}Ousmane" />
+            <name name="{=Pape}Pape" />
+            <name name="{=Sekou}Sekou" />
+            <name name="{=Seydou}Seydou" />
+            <name name="{=Soulayman}Soulayman" />
+            <name name="{=Souleymane}Souleymane" />
+            <name name="{=Taha}Taha" />
+            <name name="{=Tidiane}Tidiane" />
+
             <name name="{=v9B50R0Q}Acarion" />
             <name name="{=aeLgc0cU}Acthon" />
             <name name="{=tWDyWroN}Amnon" />

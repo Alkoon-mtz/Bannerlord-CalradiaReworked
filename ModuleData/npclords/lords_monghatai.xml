@@ -1,9 +1,17 @@
 <NPCCharacters>
+    <!--
+        khu_bat_template_flamboyant lord_cav_archer_1h_1
+        khu_bat_template_heavy      lord_cav_2h_pol_1
+        khu_bat_template_medium     lord_cav_1h_archer_1
+        khu_bat_template_nomad      lord_cav_pol_1h_1
+    -->
+
+    <!-- Clan 1 -->
     <NPCCharacter id="lord_monghatai_1_1"
         name="{=lord_monghatai_1_1}Monchug"
-        age="38"
+        age="43"
         voice="curt"
-        default_group="Cavalry"
+        default_group="HorseArcher"
         is_hero="true"
         culture="Culture.khuzait"
         occupation="Lord"
@@ -36,10 +44,217 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_1_2"
+        name="{=lord_monghatai_1_2}Temujin"
+        age="25"
+        voice="curt"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_pol_1h_2">
+        <face>
+            <BodyProperties version="4" age="25" weight="0.462" build="0.598"  key="0013E00FC0001752E493A4237FBA841DD70D777BC5DFEC3F99F9768083275A7500897003081BA55C0000000000000000000000000000000000000000771810C6"  />
+        </face>
+        <Traits>
+            <Trait id="Honor"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="khu_bat_template_nomad" />
+            <EquipmentSet id="khu_civ_template_default" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_1_3"
+        name="{=lord_monghatai_1_3}Khachigun"
+        age="16"
+        voice="ironic"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.426" build="0.594"  key="0018E00F000038CFFC96C578DFFE993DE8DE7FDCCCDFEDFF9EFCA899836E9BAA00896003088EDEBE00000000000000000000000000000000000000002EF810C0"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="khu_bat_template_medium" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_1_4"
+        name="{=lord_monghatai_1_4}Yesugun"
+        age="14"
+        voice="softspoken"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="14" weight="0.28" build="0.489"  key="0018F00FC000100ADE70A5D86CEE3B2F8F3C7DACACCCA78465CA2FDD793E671400374003032BDF7F000000000000000000000000000000000000000018603103"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="khu_bat_template_heavy" />
+            <EquipmentSet id="khu_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_1_5"
+        name="{=lord_monghatai_1_5}Ogodei"
+        age="36"
+        voice="curt"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_1h_archer_2">
+        <face>
+            <BodyProperties version="4" age="36" weight="0.405" build="0.577"  key="001BE40D8000264DF596B454CFBE951DE89D7A9CC7DFEDDF9CFB979583688B7500696003063DCA9C00000000000000000000000000000000000000003CC010C0"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Valor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="khu_bat_template_medium" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_1_6"
+        name="{=lord_monghatai_1_6}Kokachin"
+        age="37"
+        voice="earnest"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_archer_1h_1">
+        <face>
+            <BodyProperties version="4" age="37" weight="0.42" build="0.462"  key="001BEC0FC000200FEE89A9F8EDFE6B6F9F6C9DDFBCDEDDC5EFCE6FEE798ED9A600776003075CDF7F00000000000000000000000000000000000000005EF83103"  />
+        </face>
+        <Traits>
+            <Trait id="Valor"
+                value="+2" />
+            <Trait id="Mercy"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_flamboyant" />
+            <EquipmentSet id="khu_civ_template_flamboyant" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_1_7"
+        name="{=lord_monghatai_1_7}Mandukhai"
+        age="13"
+        voice="earnest"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="13" weight="0.331" build="0.453"  key="001EF80D8000100CEE88A7D86DFE5B4F8F3C9DBFACCCDC85ECCC6FDE796ED94500775003075BDF7F000000000000000000000000000000000000000016E83003"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="khu_bat_template_heavy" />
+            <EquipmentSet id="khu_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_1_8"
+        name="{=lord_monghatai_1_8}Toghtoga"
+        age="10"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="10" weight="0.412" build="0.542"  key="001EF40F00003811F796B465DFBE972DE8CE7CACCCDFEDEF9CFC9795836B9BA800586003057DDE9D00000000000000000000000000000000000000001EA01140"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="khu_bat_template_nomad" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_1_9"
+        name="{=lord_monghatai_1_9}Ajai"
+        age="33"
+        voice="curt"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_2h_pol_1">
+        <face>
+            <BodyProperties version="4" age="33" weight="0.38" build="0.513"  key="0020F40F00003713F796B454CFBE962DE8CD7CACCADFEDEF9CFC9795836B9B7600786003076DDB9C000000000000000000000000000000000000000042F81045"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Valor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="khu_bat_template_heavy" />
+            <EquipmentSet id="khu_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_1_10"
+        name="{=lord_monghatai_1_10}Ibakha"
+        age="39"
+        voice="softspoken"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_scout"
+        face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="39" weight="0.45" build="0.39"  key="001BE40D80001010EE89A9D8DDFE6B4F9F3C9DBFACDEDD95EFCC6FEE798ED99600867003085CDF7F000000000000000000000000000000000000000039083003"  />
+        </face>
+        <Traits>
+            <Trait id="Generosity"
+                value="+2" />
+            <Trait id="Calculating"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_flamboyant" />
+            <EquipmentSet id="khu_civ_template_flamboyant" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 2 -->
     <NPCCharacter id="lord_monghatai_2_1"
         name="{=QJq4VAU7}Mesui"
         voice="curt"
-        age="41"
+        age="43"
         is_female="true"
         culture="Culture.khuzait"
         occupation="Lord"
@@ -49,7 +264,7 @@
         skill_template="SkillSet.lord_cav_archer_1h_1">
         <face>
             <BodyProperties version="4"
-                age="22.25"
+                age="43"
                 weight="0.4313"
                 build="0.5849"
                 key="0020EC0FC000100BAC97A9F8DFEC894C899E7DE9DABFBAEBDE3BCFDD872649880089600308B0E77A000000000000000000000000000000000000000037000003" />
@@ -72,9 +287,166 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_2_2"
+        name="{=lord_monghatai_2_2}Belgutei"
+        age="44"
+        voice="curt"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_1h_archer_2">
+        <face>
+            <BodyProperties version="4" age="44" weight="0.468" build="0.406"  key="0015F00FC00038D37F8853697DFB732E1C2768B8F7D82ABE66134D447636F2FA0066700306C56589000000000000000000000000000000000000000008D82146"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_medium" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_2_3"
+        name="{=lord_monghatai_2_3}Dodai"
+        age="27"
+        voice="earnest"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_2h_pol_1">
+        <face>
+            <BodyProperties version="4" age="27" weight="0.311" build="0.414"  key="0020F00E40003891CF9874DEBDFE832E7FF98CDDF7EADCCF977D7FF69638FBFA0056500305CC69BD000000000000000000000000000000000000000052B02043"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_heavy" />
+            <EquipmentSet id="khu_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_2_4"
+        name="{=lord_monghatai_2_4}Chagur"
+        age="27"
+        voice="ironic"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_pol_1h_2">
+        <face>
+            <BodyProperties version="4" age="27" weight="0.257" build="0.341"  key="0015EC0FC000100AEE89A8D8ADFE5B4F8F3C9DBFACCEDD95EECC6FDE797ED99500754003075CDF7F000000000000000000000000000000000000000018E03004"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_nomad" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_2_5"
+        name="{=lord_monghatai_2_5}Shiraghul"
+        age="16"
+        voice="softspoken"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.383" build="0.417"  key="001EF80F00003713BF9874C98DFE732E6D987CB9F7E8BACE97185E967638FAFA0036600303C565AB000000000000000000000000000000000000000006702001"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_flamboyant" />
+            <EquipmentSet id="khu_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_2_6"
+        name="{=lord_monghatai_2_6}Holuikhan"
+        age="12"
+        voice="curt"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="12" weight="0.265" build="0.379"  key="0018F80D8000200BDE80A9F3CEFC742FAEFC9B7DECDEAEDEDD7CECEC74699DC90066400306EFCCF2000000000000000000000000000000000000000048D04043"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_nomad" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_2_7"
+        name="{=lord_monghatai_2_7}Yokhunan"
+        age="29"
+        voice="softspoken"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_rogue">
+        <face>
+            <BodyProperties version="4" age="29" weight="0.421" build="0.525"  key="001BE80D80003714BF9874CB9DFE832E7DE98CBAF7E8BACF973D5E968638FAFA0088600308CA68BD000000000000000000000000000000000000000047002104"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_nomad" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_2_8"
+        name="{=lord_monghatai_2_8}Checheyigen"
+        age="11"
+        voice="curt"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="11" weight="0.402" build="0.483"  key="0018E40F000036CDBF9874CB8DFE832E7DD87CB9F7E8BACE972B5E967638FAFA0047600304CA65AC00000000000000000000000000000000000000002A882146"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_nomad" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 3 -->
     <NPCCharacter id="lord_monghatai_3_1"
         name="{=lord_monghatai_3_1}Tulag"
-        age="42"
+        age="37"
         voice="curt"
         default_group="HorseArcher"
         is_hero="true"
@@ -103,6 +475,141 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_3_2"
+        name="{=lord_monghatai_3_2}Yesunge"
+        age="36"
+        voice="ironic"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_doctor">
+        <face>
+            <BodyProperties version="4" age="36" weight="0.369" build="0.526"  key="0013E80FC0002010DA7012F29EFC612AACF7890CEBDE0AC8720AD9C773558C090068600306E5A8C1000000000000000000000000000000000000000048D04084"  />
+        </face>
+        <Traits>
+            <Trait id="Calculating"
+                value="+2" />
+            <Trait id="Generosity"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_nomad" />
+            <EquipmentSet id="khu_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_3_3"
+        name="{=lord_monghatai_3_3}Munkhag"
+        age="22"
+        voice="softspoken"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_2h_pol_1">
+        <face>
+            <BodyProperties version="4" age="22" weight="0.479" build="0.521"  key="0015EC0F000026D2C6899BAA7FF8941BAEBC77CFACE9D5ACE10930099418BAD100887003088A1F2800000000000000000000000000000000000000002B1070C2"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_heavy" />
+            <EquipmentSet id="khu_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_3_4"
+        name="{=lord_monghatai_3_4}Hoelun"
+        age="16"
+        voice="earnest"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.381" build="0.435"  key="001BE80E4000200ADE8045F2CEFC642BAEFB897DEBDE9CCCDB1CEBDB74598DA90057600305E5A8D2000000000000000000000000000000000000000036B840C3"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_medium" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_3_5"
+        name="{=lord_monghatai_3_5}Borte"
+        age="32"
+        voice="curt"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_1h_archer_2">
+        <face>
+            <BodyProperties version="4" age="32" weight="0.431" build="0.35"  key="0018F00E4000200CDE8067F3CEFC742EAEFC997DECDEAECCDD3CEBEC74598DA90055600305EEA8E2000000000000000000000000000000000000000048B04003"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_medium" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_3_6"
+        name="{=lord_monghatai_3_6}Daritai"
+        age="16"
+        voice="softspoken"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.327" build="0.437"  key="001BF40D80003710F78ABCBBEFFE956DBEEC8CCFECEEE8CCEB8C73AB983DFCD900B750030B9DCF2C000000000000000000000000000000000000000077707002"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_flamboyant" />
+            <EquipmentSet id="khu_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_3_7"
+        name="{=lord_monghatai_3_7}Dokez"
+        age="11"
+        voice="earnest"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="11" weight="0.259" build="0.544"  key="001AE40F00002010DE8056F2CEFC742BAEFC997DECDEACCCDC1CEBEC74598DA90088400308EDA8D2000000000000000000000000000000000000000041004003"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_nomad" />
+            <EquipmentSet id="khu_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 4 -->
     <NPCCharacter id="lord_monghatai_4_1"
         name="{=lord_monghatai_4_1}Oragur"
         age="36"
@@ -137,6 +644,144 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_4_2"
+        name="{=lord_monghatai_4_2}Uighurtai"
+        age="36"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_pol_1h_2">
+        <face>
+            <BodyProperties version="4" age="36" weight="0.365" build="0.53"  key="0013F00D8000270DF7899CBBDFFA941BAEBC78CFECECE7ACE50942099818BAD400885003088B2F2C0000000000000000000000000000000000000000151870C5"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_nomad" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_4_3"
+        name="{=lord_monghatai_4_3}Tekine"
+        age="16"
+        voice="curt"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.252" build="0.419"  key="001EE80D8000000BC77A54E87ED8002CB7A59B3FC9C9DF299E954D59894BF47800864003081B48EA0000000000000000000000000000000000000000370840C4"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_flamboyant" />
+            <EquipmentSet id="khu_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_4_4"
+        name="{=lord_monghatai_4_4}Khorchi"
+        age="11"
+        voice="softspoken"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="11" weight="0.3" build="0.528"  key="0018E80D800036D1F7899CBBEFFD942DAECC89CFECECE8ACE70A4389981CBBD900984003099D4F2C00000000000000000000000000000000000000001F287041"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_medium" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_4_5"
+        name="{=lord_monghatai_4_5}Khuyildar"
+        age="33"
+        voice="softspoken"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_archer_1h_2">
+        <face>
+            <BodyProperties version="4" age="22.24" weight="0.352" build="0.495"  key="0015E80D8000360FF7899CBBEFFD941DAEBC78CFECECE7ACE7094219981CBAD800475003048D2F2C000000000000000000000000000000000000000018887005"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_flamboyant" />
+            <EquipmentSet id="khu_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_4_6"
+        name="{=lord_monghatai_4_6}Alalta"
+        age="32"
+        voice="earnest"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_merchant">
+        <face>
+            <BodyProperties version="4" age="32" weight="0.39" build="0.392"  key="0015EC0F0000200DCC8A7CFADFFB9B6FCAA99F9FC9DADFECDEC74EFC894BF9AA0086600308ACDBFF0000000000000000000000000000000000000000270040C3"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_medium" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_4_7"
+        name="{=lord_monghatai_4_7}Aigiarn"
+        age="16"
+        voice="ironic"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.234" build="0.391"  key="0013E40F0000200FC88A6AE9CFFB776EB8A79D6FC9CADF6BDEB74EEA894BF7AA00364003033B5AFB000000000000000000000000000000000000000032684104"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_heavy" />
+            <EquipmentSet id="khu_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 5 -->
     <NPCCharacter id="lord_monghatai_5_1"
         name="{=cdmrCQfC}Hurunag"
         age="31"
@@ -172,12 +817,127 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="lord_monghatai_6_1"
-        name="{=JZvihMbB}Ergene"
-        age="28"
+    <NPCCharacter id="lord_monghatai_5_2"
+        name="{=lord_monghatai_5_2}Nomolun"
+        age="32"
         voice="ironic"
         is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_1h_archer_2">
+        <face>
+            <BodyProperties version="4" age="32" weight="0.292" build="0.39"  key="0015E00FC000200AC88A7AEACFFB7A6EC9A99F6FC9CADF6BDEC74EEB894BF8AA00764003075BDBFB000000000000000000000000000000000000000010D84004"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_medium" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_5_3"
+        name="{=lord_monghatai_5_3}Baaridai"
+        age="15"
+        voice="curt"
         default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.466" build="0.53"  key="001EE40E4000374FD27914D58DD9846D690E8AEB8DAA78C9E424542C792591D80068700306B0E356000000000000000000000000000000000000000038C06041"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_nomad" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_5_4"
+        name="{=lord_monghatai_5_4}Megujin"
+        age="27"
+        voice="earnest"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_archer_1h_2">
+        <face>
+            <BodyProperties version="4" age="27" weight="0.404" build="0.524"  key="0015F00FC000370FD48A48E6ADDC946FADCE8CEE9DCBE8DFE5556E6E993AB4D90078600307C0E55B00000000000000000000000000000000000000002EE07043"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_flamboyant" />
+            <EquipmentSet id="khu_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_5_5"
+        name="{=lord_monghatai_5_5}Temulun"
+        age="28"
+        voice="softspoken"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_charmer">
+        <face>
+            <BodyProperties version="4" age="28" weight="0.352" build="0.497"  key="0013FC0E4000200CC88A6AEACFFB7A6EC9A99D6FC9CADF6BDEC74EEA894BF7AA00575003054BCAFB000000000000000000000000000000000000000036904043"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Honor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_nomad" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_5_6"
+        name="{=lord_monghatai_5_6}Chabi"
+        age="9"
+        voice="ironic"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="9" weight="0.312" build="0.511"  key="0018F40E4000100CF1708B5D3CBB964DA9787D18B3BE092A14E7EAA589176C70004850030452599C000000000000000000000000000000000000000048783044"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_medium" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 6 -->
+    <NPCCharacter id="lord_monghatai_6_1"
+        name="{=JZvihMbB}Khutulun"
+        age="39"
+        voice="ironic"
+        is_female="true"
+        default_group="HorseArcher"
         is_hero="true"
         culture="Culture.khuzait"
         occupation="Lord"
@@ -185,7 +945,7 @@
         skill_template="SkillSet.lord_cav_1h_archer_1">
         <face>
             <BodyProperties version="4"
-                age="28"
+                age="39"
                 weight="0.436"
                 build="0.507"
                 key="0020F00D8000000C6977A6F6BCEB084B586E5DE9DAAF6ACA3A3ACFBC81240837004870030470E71A0000000000000000000000000000000000000000388000C3" />
@@ -202,11 +962,124 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_6_2"
+        name="{=lord_monghatai_6_2}Alagh"
+        age="38"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_2h_pol_2">
+        <face>
+            <BodyProperties version="4" age="38" weight="0.356" build="0.549"  key="001BF40F00003694D28915D68DDB846F694E8BEC8DAB88CAE535645D792591D90088500308B0E45700000000000000000000000000000000000000003B107045"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_heavy" />
+            <EquipmentSet id="khu_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_6_3"
+        name="{=lord_monghatai_6_3}Gurbesu"
+        age="21"
+        voice="softspoken"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_pol_1h_2">
+        <face>
+            <BodyProperties version="4" age="21" weight="0.291" build="0.454"  key="0019F00E40003010F9768E9D8FCE995DDEFB7F49DDBF2DDFBDEDEADA893BDEA600474003046759DD000000000000000000000000000000000000000028884043"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_nomad" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_6_4"
+        name="{=lord_monghatai_6_4}Bugunutei"
+        age="16"
+        voice="earnest"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.4" build="0.58"  key="001EF80E400038D3D28938E6ADDC946F6C4E8BEE9DCB98CFE5356B6D8935A1D90099600309C0E45B000000000000000000000000000000000000000025207100"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_flamboyant" />
+            <EquipmentSet id="khu_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_6_5"
+        name="{=lord_monghatai_6_5}Gughlug"
+        age="11"
+        voice="curt"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="11" weight="0.405" build="0.543"  key="0018F40E40003810D28925E6ADDC846F6A4E8BEE8DAB98CCE535665D8935A1D90048600304C0E4580000000000000000000000000000000000000000588070C6"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_medium" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_6_6"
+        name="{=lord_monghatai_6_6}Akhutai"
+        age="31"
+        voice="softspoken"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_crafter">
+        <face>
+            <BodyProperties version="4" age="31" weight="0.434" build="0.594"  key="0015FC0E4000188E5F7AA9873DEA750E3C56963988AB8F6D7F44D1687400336100697003062918F5000000000000000000000000000000000000000026C080C2"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_nomad" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 7 -->
     <NPCCharacter id="lord_monghatai_7_1"
         name="{=lord_monghatai_7_1}Taslur"
         age="30"
         voice="ironic"
-        default_group="Cavalry"
+        default_group="HorseArcher"
         is_hero="true"
         culture="Culture.khuzait"
         occupation="Lord"
@@ -237,19 +1110,111 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_7_2"
+        name="{=lord_monghatai_7_2}Khorijin"
+        age="30"
+        voice="earnest"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_engineer">
+        <face>
+            <BodyProperties version="4" age="30" weight="0.403" build="0.343"  key="001EE00E4000100FF6758C5D4CBB995DACDB7F28B3BE1CAE88ECEAD589276E8500556003056659BC000000000000000000000000000000000000000030A03044"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_heavy" />
+            <EquipmentSet id="khu_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_7_3"
+        name="{=lord_monghatai_7_3}Jajiradai"
+        age="10"
+        voice="softspoken"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="10" weight="0.478" build="0.527"  key="001EE80F00001712FF9ABDD98EEB8E6ECEF69CDBCCBFEF9EEFF8ECB899733CA90088700308EE6FF6000000000000000000000000000000000000000026F880C6"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_flamboyant" />
+            <EquipmentSet id="khu_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_7_4"
+        name="{=lord_monghatai_7_4}Khugurchin"
+        age="25"
+        voice="curt"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_2h_pol_2">
+        <face>
+            <BodyProperties version="4" age="25" weight="0.281" build="0.538"  key="001BE00D8000100DF6768D5D5CBC995DDDDB7F38B5BE2CDE88ECEAD68928AE9500684003066659BD000000000000000000000000000000000000000040D83043"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_heavy" />
+            <EquipmentSet id="khu_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_7_5"
+        name="{=lord_monghatai_7_5}Orqina"
+        age="15"
+        voice="curt"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.37" build="0.376"  key="0015E80E4000000FBB734CCB2EFB360C89A88FBEC5BBDDC8861C2E37875466E800566003058F2B8F000000000000000000000000000000000000000038982043"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="khu_bat_template_medium" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 8 -->
     <NPCCharacter id="lord_monghatai_8_1"
-        name="{=uducgNbf}Chaghan"
+        name="{=uducgNbf}Khubilai"
         age="23"
         voice="earnest"
-        default_group="HorseArcher"
+        default_group="Cavalry"
         is_hero="true"
         culture="Culture.khuzait"
         occupation="Lord"
         face_mesh_cache="true"
-        skill_template="SkillSet.lord_cav_pol_1h_1">
+        skill_template="SkillSet.lord_cav_pol_1h_2">
         <face>
             <BodyProperties version="4"
-                age="18"
+                age="23"
                 weight="0.472"
                 build="0.481"
                 key="001BF00E4000270D8697B7593CF9245B9C98A91CEEA8DAE35C04D675912EF7F9009770030950D60A000000000000000000000000000000000000000079204083" />
@@ -268,6 +1233,75 @@
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="khu_bat_template_nomad" />
+            <EquipmentSet id="khu_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_8_2"
+        name="{=lord_monghatai_8_2}Sorkhaghatani"
+        age="23"
+        voice="earnest"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_scout">
+        <face>
+            <BodyProperties version="4" age="23" weight="0.225" build="0.335"  key="001BFC0E4000100BBF79ADCD8EFB3B1EABBD9FBED5DCDDCFA6AD3E68896D6AE90075300307EFEECF000000000000000000000000000000000000000040E03104"  />
+        </face>
+        <Traits>
+            <Trait id="Generosity"
+                value="+1" />
+            <Trait id="Mercy"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_flamboyant" />
+            <EquipmentSet id="khu_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_8_3"
+        name="{=lord_monghatai_8_3}Eljigedei"
+        age="5"
+        voice="ironic"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="5" weight="0.405" build="0.443"  key="0018EC0E400018D3CF8AB9895DEA8E3E8CB6999BB8BFBF9D9F95DA88770138A10077600307295FF6000000000000000000000000000000000000000028F88101"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_heavy" />
+            <EquipmentSet id="khu_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_monghatai_8_4"
+        name="{=lord_monghatai_8_4}Altani"
+        age="21"
+        voice="softspoken"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.khuzait"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_1h_archer_2">
+        <face>
+            <BodyProperties version="4" age="21" weight="0.413" build="0.467"  key="0018EC0E4000100FBF759CCD5EFB3B1C8ABC9FBED5DCDDCDA68C2E68896C67E90047600304CFDDCF000000000000000000000000000000000000000014803003"  />
+        </face>
+        <Traits>
+            <Trait id="Valor"
+                value="+2" />
+            <Trait id="Honor"
+                value="-2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="khu_bat_template_medium" />
             <EquipmentSet id="khu_civ_template_default"
                 civilian="true" />
         </Equipments>
