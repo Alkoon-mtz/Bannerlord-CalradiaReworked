@@ -22,7 +22,7 @@
         militia_party_template="PartyTemplate.lysellois_militia_template"
         rebels_party_template="PartyTemplate.lysellois_rebels_template"
         vassal_reward_party_template="PartyTemplate.lysellois_vassal_reward_troops"
-        default_face_key="0002280B80003245EA88FFD7DBCAC3CBEDFB8EBA99968BCDA73D7C0C8ECDFDCB0077500307B49B9F000000000000000000000000000000000000000066F89105"
+        default_face_key="0002280B800011829A888CD7AA8A9369EDDB8EBA99968B78973B780A8ACC9BA70077700307A4999A000000000000000000000000000000000000000066F84102"
         text="{=lysellois_text}The first Vlandians arrived from overseas, mercenaries and adventurers, speaking the tongues of many lands, taking the empire's silver to guard the frontiers against the unsubdued tribes of the interior. They took their name from one of their first warlords, Wilund the Bold - Valandion, in Calradic - and became known as the Vlandians. Their heavy cavalry, second to none, ran down the Emperor's foes from the Aserai wastes to the distant steppes. But cash-strapped officials soon began to pay them with land grants and titles instead of silver, perhaps not the most far-sighted of policies. The Vlandians settled, married, planted farms, and seized nearby imperial fortresses as their own. Now they are an independent kingdom, their traditions drawing from both Calradia and their distant homelands."
         villager="NPCCharacter.villager_lysellois"
         tournament_master="NPCCharacter.tournament_master_vlandia"
