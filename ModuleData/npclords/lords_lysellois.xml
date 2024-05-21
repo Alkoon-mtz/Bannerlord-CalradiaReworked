@@ -63,7 +63,7 @@
         </Traits>
         <Equipments>
             <EquipmentRoster />
-            <EquipmentSet id="vla_king_template_civ_f" />
+            <EquipmentSet id="vla_king_template_bat_f" />
             <EquipmentSet id="vla_king_template_civ_f"
                 civilian="true" />
         </Equipments>
@@ -318,7 +318,7 @@
         age="49"
         voice="curt"
         is_female="true"
-        default_group="Cavalry"
+        default_group="Ranged"
         is_hero="true"
         culture="Culture.vlandia"
         occupation="Lord"
@@ -375,7 +375,7 @@
         name="{=lord_lysellois_2_4}Henri"
         age="29"
         voice="ironic"
-        default_group="Cavalry"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.vlandia"
         occupation="Lord"
@@ -427,7 +427,7 @@
         age="11"
         voice="curt"
         is_female="true"
-        default_group="Cavalry"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.vlandia"
         occupation="Lord">
@@ -450,7 +450,7 @@
         name="{=lord_lysellois_2_7}Rene"
         age="42"
         voice="softspoken"
-        default_group="Cavalry"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.vlandia"
         occupation="Lord"
@@ -479,7 +479,7 @@
         age="11"
         voice="curt"
         is_female="true"
-        default_group="Cavalry"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.vlandia"
         occupation="Lord">
@@ -590,7 +590,7 @@
         age="15"
         voice="earnest"
         is_female="true"
-        default_group="Cavalry"
+        default_group="Ranged"
         is_hero="true"
         culture="Culture.vlandia"
         occupation="Lord">
@@ -1237,7 +1237,7 @@
         name="{=lord_lysellois_7_2}Eustache"
         age="30"
         voice="earnest"
-        default_group="Ranged"
+        default_group="Cavalry"
         is_hero="true"
         culture="Culture.vlandia"
         occupation="Lord"
@@ -1265,7 +1265,7 @@
         name="{=lord_lysellois_7_3}Fleury"
         age="7"
         voice="softspoken"
-        default_group="Ranged"
+        default_group="Cavalry"
         is_hero="true"
         culture="Culture.vlandia"
         occupation="Lord">
@@ -1288,7 +1288,7 @@
         name="{=lord_lysellois_7_4}Pierre"
         age="25"
         voice="curt"
-        default_group="Ranged"
+        default_group="Cavalry"
         is_hero="true"
         culture="Culture.vlandia"
         occupation="Lord"
@@ -1372,7 +1372,7 @@
         age="23"
         voice="earnest"
         is_female="true"
-        default_group="Infantry"
+        default_group="Cavalry"
         is_hero="true"
         culture="Culture.vlandia"
         occupation="Lord"
@@ -1400,7 +1400,7 @@
         name="{=lord_lysellois_8_3}Prudent"
         age="3"
         voice="ironic"
-        default_group="Infantry"
+        default_group="Cavalry"
         is_hero="true"
         culture="Culture.vlandia"
         occupation="Lord">
@@ -1424,7 +1424,7 @@
         age="26"
         voice="softspoken"
         is_female="true"
-        default_group="Infantry"
+        default_group="Ranged"
         is_hero="true"
         culture="Culture.vlandia"
         occupation="Lord"

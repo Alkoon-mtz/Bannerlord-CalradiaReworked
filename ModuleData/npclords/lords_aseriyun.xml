@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
+    <!--
+        ase_bat_template_flamboyant lord_cav_throw_pol_1
+        ase_bat_template_heavy      lord_1h_throw_1
+        ase_bat_template_medium     lord_cav_archer_pol_1
+        ase_bat_template_bedouin    lord_2h_pol_1
+    -->
+
+    <!-- Clan 1 -->
     <NPCCharacter id="lord_aseriyun_1_1"
-        name="{=lord_aseriyun_1_1}Unqid"
-        age="44"
+        name="{=lord_aseriyun_1_1}Unaldiyn"
+        age="43"
         voice="ironic"
         culture="Culture.aserai"
         occupation="Lord"
         is_hero="true"
         default_group="Cavalry"
         face_mesh_cache="true"
-        skill_template="SkillSet.lord_archer_2h_1">
+        skill_template="SkillSet.lord_cav_throw_pol_1">
         <face>
-            <BodyProperties version="4"
-                weight="0.5519"
-                build="0.7167"
-                key="0028280FD7FC23C299C2761C4AC1A5954778548899A66659788878746A9D9629000F16530FA7699C000000000000000000000000000000000000000000F47140" />
+            <BodyProperties version="4" age="45" weight="0.3935" build="0.52"  key="0023C40D000014C3A77A87428AAD5DEC8B7283583D759757CAAA6F898CDE88B900B860030BEEEF3D00000000000000000000000000000000000000003B782004"  />
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="Valor"
-                value="-1" />
-            <Trait id="Generosity"
-                value="1" />
+            <Trait id="Mercy"
+                value="2" />
             <Trait id="Calculating"
-                value="1" />
-            <Trait id="Oligarchic"
                 value="1" />
         </Traits>
         <Equipments>
@@ -34,20 +35,230 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="lord_aseriyun_2_1"
-        name="{=lord_aseriyun_2_1}Nuqar"
-        age="38"
+    <NPCCharacter id="lord_aseriyun_1_2"
+        name="{=lord_aseriyun_1_2}Saaman"
+        age="44"
+        voice="softspoken"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_merchant"
+        face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="44" weight="0.482" build="0.225"  key="001EF00D00002002B280933357ADEB866BE283914F79F6FA0B7B468D7D9E45C600837003089ABCA1000000000000000000000000000000000000000054F83103"  />
+        </face>
+        <Traits>
+            <Trait id="Generosity"
+                value="+2" />
+            <Trait id="Calculating"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ase_king_template_bat_f" />
+            <EquipmentSet id="ase_king_template_civ_f"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_1_3"
+        name="{=lord_aseriyun_1_3}Mukhtar"
+        age="25"
+        voice="curt"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_2h_pol_2">
+        <face>
+            <BodyProperties version="4" age="25" weight="0.468" build="0.575"  key="0029C40F000011480E738331799D4D868A718FEE2B72CF3DC78A6A358B0C746700C970030CDEEC2A000000000000000000000000000000000000000003987102"  />
+        </face>
+        <Traits>
+            <Trait id="Honor"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ase_bat_template_bedouin" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_1_4"
+        name="{=lord_aseriyun_1_4}Husam"
+        age="16"
+        voice="ironic"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.566" build="0.409"  key="0026F00C40001687BF7B8A938BAD8FED8B739FEE5E78FF7ECAAA7DA98DFFB8CA0096800309EEEF4E000000000000000000000000000000000000000035389084"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ase_bat_template_medium" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_1_5"
+        name="{=lord_aseriyun_1_5}Tanaz"
+        age="14"
+        voice="softspoken"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="14" weight="0.253" build="0.436"  key="002BE40F0000200DBC80C49377AEEDB86BE49BAD4F79F7FE5B7B5E8F8DFF57C60077400307BBCCA700000000000000000000000000000000000000005CF83044"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ase_bat_template_heavy" />
+            <EquipmentSet id="ase_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_1_6"
+        name="{=lord_aseriyun_1_6}Aarif"
+        age="39"
+        voice="curt"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_archer_pol_2">
+        <face>
+            <BodyProperties version="4" age="39" weight="0.361" build="0.552"  key="0023AC0FC00014C05E788441899D5DDB8A728FEE4C74FF4DCAAA6C798BCC88A800A850030AEEEF3D00000000000000000000000000000000000000002D487102"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Valor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ase_bat_template_medium" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_1_7"
+        name="{=lord_aseriyun_1_7}Sajida"
+        age="40"
+        voice="earnest"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_throw_pol_1">
+        <face>
+            <BodyProperties version="4" age="40" weight="0.363" build="0.35"  key="0023D00F00002007B480B34377AEED876BE283914F79F6FB0B7B578D7D9E47C60055500305AABCA1000000000000000000000000000000000000000054B03004"  />
+        </face>
+        <Traits>
+            <Trait id="Valor"
+                value="+2" />
+            <Trait id="Mercy"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ase_bat_template_flamboyant" />
+            <EquipmentSet id="ase_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_1_8"
+        name="{=lord_aseriyun_1_8}Zaynab"
+        age="13"
+        voice="earnest"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="13" weight="0.425" build="0.466"  key="002EF00D00001007AE81B108261E29A53E979B9B6446585A00076A0F8D2B119400976003093C50F9000000000000000000000000000000000000000029301103"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ase_bat_template_heavy" />
+            <EquipmentSet id="ase_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_1_9"
+        name="{=lord_aseriyun_1_9}Yahya"
+        age="10"
+        voice="ironic"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="10" weight="0.353" build="0.464"  key="0020E00FC00015099F7A88528BAD6DED8B729FEE5C77FF6ECAAA6C898CFF98BA0087500308EEEF4E000000000000000000000000000000000000000035088044"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ase_bat_template_bedouin" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_1_10"
+        name="{=lord_aseriyun_1_10}Sadiq"
+        age="35"
         voice="curt"
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.aserai"
         occupation="Lord"
-        face_mesh_cache="true">
+        skill_template="SkillSet.lord_1h_throw_1">
         <face>
-            <BodyProperties version="4"
-                weight="0.5519"
-                build="0.7167"
-                key="0022F80880002794C782350B3B71AFB7098A8017A2755525A9B9AD468B0C5D68055B80570564A704000000000000000000000000000000000000000060A87042" />
+            <BodyProperties version="4" age="35" weight="0.58" build="0.52"  key="002EC40D000011485E7A87428AAD5DEC8B728FEE4C74FF6DCAAA6C898CDE88B90078900307EEEF3D00000000000000000000000000000000000000003AF87002"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Valor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ase_bat_template_heavy" />
+            <EquipmentSet id="ase_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 2 -->
+    <NPCCharacter id="lord_aseriyun_2_1"
+        name="{=lord_aseriyun_2_1}Nuqar"
+        age="48"
+        voice="curt"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_throw_pol_1">
+        <face>
+            <BodyProperties version="4" age="48" weight="0.448" build="0.519"  key="0020E80FC0002309AC607229913D3BC33F619837485377FC3048ACAB8D9CB4990088700308742155000000000000000000000000000000000000000071107103"  />
         </face>
         <skills></skills>
         <Traits>
@@ -63,20 +274,177 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_2_2"
+        name="{=lord_aseriyun_2_2}Yasmin"
+        age="49"
+        voice="curt"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_archer_pol_2">
+        <face>
+            <BodyProperties version="4" age="49" weight="0.39" build="0.472"  key="0029EC0F0000100BAF81E36C496E6CFF4FA89CDE7488CEDA979A7B7F8D4E87CA00676003066CDDF9000000000000000000000000000000000000000062C82044"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_medium" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_2_3"
+        name="{=lord_aseriyun_2_3}Faghira"
+        age="32"
+        voice="earnest"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_1h_throw_1">
+        <face>
+            <BodyProperties version="4" age="32" weight="0.427" build="0.417"  key="0026A80D0000100DAE81D10A466E2BB53EA79BCC746659AA906A6A5F8D4B54B500366003034CB8F900000000000000000000000000000000000000005A7020C3"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_heavy" />
+            <EquipmentSet id="ase_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_2_4"
+        name="{=lord_aseriyun_2_4}Muslihiddin"
+        age="29"
+        voice="ironic"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_2h_pol_2">
+        <face>
+            <BodyProperties version="4" age="29" weight="0.348" build="0.421"  key="0026C00FC00023C7DC7CC38992ADAFD58F649E8E7878DAFF4ABCAEDC8DACB8CA0056500305775A56000000000000000000000000000000000000000070B07083"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_bedouin" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_2_5"
+        name="{=lord_aseriyun_2_5}Mubarak"
+        age="17"
+        voice="softspoken"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="17" weight="0.414" build="0.354"  key="002BBC0D000021C5AC74B349926DADD58F64986C485687FF4878ADCC8D9CB6A90045600304754556000000000000000000000000000000000000000056887143"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_flamboyant" />
+            <EquipmentSet id="ase_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_2_6"
+        name="{=lord_aseriyun_2_6}Kamala"
+        age="11"
+        voice="curt"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="11" weight="0.302" build="0.367"  key="002BD80D80001005AE81E22A496E4BEA4FA79CDE7468CBCA976A6B6F8D4E85C500865003085CCDF9000000000000000000000000000000000000000056F82043"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_bedouin" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_2_7"
+        name="{=lord_aseriyun_2_7}Mansur"
+        age="42"
+        voice="softspoken"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_rogue">
+        <face>
+            <BodyProperties version="4" age="42" weight="0.506" build="0.405"  key="002BB80C40002308AC7AB359926DADD58F649A8C486788FF489BADCC8D9CB6C9007680030775465600000000000000000000000000000000000000005AE87003"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_bedouin" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_2_8"
+        name="{=lord_aseriyun_2_8}Samirah"
+        age="11"
+        voice="curt"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="11" weight="0.445" build="0.283"  key="002BB80D80001005AE81D21A496E2BE53EA79CCC746659CA966A6B6F8D4B65C500547003054CB8F9000000000000000000000000000000000000000058B02043"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_bedouin" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 3 -->
     <NPCCharacter id="lord_aseriyun_3_1"
         name="{=lord_aseriyun_3_1}Ghuzid"
-        age="31"
+        age="38"
         voice="curt"
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.aserai"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_throw_pol_1">
         <face>
-            <BodyProperties version="4"
-                weight="0.5"
-                build="0.6"
-                key="003F000FD6FC29DA0CFC208F1001FBEF2D01FA0000F01110500B1EF068E672B006B970670B0D87810000000000000000000000000000000000000000217800C2" />
+            <BodyProperties version="4" age="38" weight="0.37" build="0.569"  key="002DAC0E400038C20B8C142789AC38DCAFC573B52E24E9076A30764B789F81A700696003061A40B9000000000000000000000000000000000000000040C83143"  />
         </face>
         <skills></skills>
         <Traits>
@@ -94,21 +462,154 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_3_2"
+        name="{=lord_aseriyun_3_2}Maryam"
+        age="37"
+        voice="ironic"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_charmer">
+        <face>
+            <BodyProperties version="4" age="37" weight="0.249" build="0.499"  key="0029B40E4000300C217A1CBA719A917267B09BB95C1481D92382732A7B4C9B73008740030865337C0000000000000000000000000000000000000000650010C3"  />
+        </face>
+        <Traits>
+            <Trait id="Calculating"
+                value="+2" />
+            <Trait id="Generosity"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_bedouin" />
+            <EquipmentSet id="ase_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_3_3"
+        name="{=lord_aseriyun_3_3}Abdullah"
+        age="20"
+        voice="softspoken"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_1h_throw_1">
+        <face>
+            <BodyProperties version="4" age="20" weight="0.32" build="0.467"  key="0029B40D000036007B8C46CF8AAC4CEEBFC77ECA6F36FCCCAC578DFE7CCF8BBA0087500308EB5DB9000000000000000000000000000000000000000033086085"  />
+        </face>
+        <Traits>
+            <Trait id="Valor"
+                value="+1" />
+            <Trait id="Generosity"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_heavy" />
+            <EquipmentSet id="ase_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_3_4"
+        name="{=lord_aseriyun_3_4}Shogofa"
+        age="15"
+        voice="earnest"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.495" build="0.441"  key="0026C80D00003003868B4EBEB39DC7B269B29CEE6C44AAEF958DA7CF7C8FBBB50087700308E75EDD0000000000000000000000000000000000000000311810C3"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_medium" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_3_5"
+        name="{=lord_aseriyun_3_5}Paywand"
+        age="35"
+        voice="curt"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_archer_pol_2">
+        <face>
+            <BodyProperties version="4" age="35" weight="0.491" build="0.461"  key="0029D40D8000300A567B1CBE819BA77269B09BD95C4488EB4582773F7B6D9BA40057700305E543BC00000000000000000000000000000000000000002EA01083"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_medium" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_3_6"
+        name="{=lord_aseriyun_3_6}Murad"
+        age="16"
+        voice="softspoken"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.525" build="0.347"  key="0020E40C400036485B8C356B8AAC4BDDAFC77AB56F35FA999B308CEC7ACF81B900658003065A41B9000000000000000000000000000000000000000040C83142"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_flamboyant" />
+            <EquipmentSet id="ase_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_3_7"
+        name="{=lord_aseriyun_3_7}Habiba"
+        age="9"
+        voice="earnest"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="9" weight="0.403" build="0.426"  key="0028B00F00003008868B1EBE929DC77269B09BED5C4499EE4588775F7C8D9BA40056600305E757BC000000000000000000000000000000000000000004B81103"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_bedouin" />
+            <EquipmentSet id="ase_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 4 -->
     <NPCCharacter id="lord_aseriyun_4_1"
-        name="{=lord_aseriyun_4_1}Maraa"
-        age="45"
+        name="{=lord_aseriyun_4_1}Nafisa"
+        age="35"
         voice="ironic"
         default_group="Cavalry"
         is_hero="true"
         is_female="true"
         culture="Culture.aserai"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_1h_throw_1">
         <face>
-            <BodyProperties version="4"
-                weight="0.5"
-                build="0.6"
-                key="002DD40E40000001869C5A8B7786749AAB77564639947345843A8657994575E5000E00040E9687970000000000000CE600000000000000000000000001E00000" />
+            <BodyProperties version="4" age="35" weight="0.283" build="0.46"  key="0023FC0C4000300E867B1DBE829CB77269B09BDB5C4488ED4583775F7B6D9BA40077400307E555BC000000000000000000000000000000000000000032F81103"  />
         </face>
         <skills>
         </skills>
@@ -124,20 +625,156 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_4_2"
+        name="{=lord_aseriyun_4_2}Talib"
+        age="34"
+        voice="ironic"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_2h_pol_2">
+        <face>
+            <BodyProperties version="4" age="34" weight="0.429" build="0.492"  key="0023B80E400033455B8C46AF8AAC4CDDAFC77EC86F36FBA99B518DED7CCF87BA0067600306BB41B900000000000000000000000000000000000000001EC06003"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_bedouin" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_4_3"
+        name="{=lord_aseriyun_4_3}Saghar"
+        age="14"
+        voice="curt"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="14" weight="0.463" build="0.314"  key="0026CC0C400030017569EC918B35EF685E629F1E5482588965373DB28BBB16330075700307B0C51600000000000000000000000000000000000000001AE02083"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_flamboyant" />
+            <EquipmentSet id="ase_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_4_4"
+        name="{=lord_aseriyun_4_4}Ghalib"
+        age="6"
+        voice="softspoken"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="6" weight="0.305" build="0.442"  key="0023A40FC00038C75B8C466C8AAC4CDDAFC77CB76F35FBA99B518DED7CCF83BA00675003068B41B9000000000000000000000000000000000000000044B85146"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_medium" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_4_5"
+        name="{=lord_aseriyun_4_5}Khalil"
+        age="35"
+        voice="softspoken"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_throw_pol_2">
+        <face>
+            <BodyProperties version="4" age="35" weight="0.355" build="0.546"  key="0029E00FC00014064592A1888A7DFA9A49E86C3E2D27FCD599B692D77C6F8B6500685003064459D6000000000000000000000000000000000000000076C85084"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_flamboyant" />
+            <EquipmentSet id="ase_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_4_6"
+        name="{=lord_aseriyun_4_6}Nyawela"
+        age="33"
+        voice="earnest"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_doctor">
+        <face>
+            <BodyProperties version="4" age="33" weight="0.262" build="0.356"  key="0023C40D00003007AA9AEFAEBB55FF685FA49F1E6F828DBA68886EF88CBB2B780075400307C9DDBF00000000000000000000000000000000000000002AE020C3"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_medium" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_4_7"
+        name="{=lord_aseriyun_4_7}Rashida"
+        age="15"
+        voice="ironic"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.399" build="0.2"  key="0029E80F0000300B896AEF97BB55FF685E749F1E65826D8A66485EB28CBB28460093600309C3D77B000000000000000000000000000000000000000015202043"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_heavy" />
+            <EquipmentSet id="ase_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 5 -->
     <NPCCharacter id="lord_aseriyun_5_1"
-        name="{=lord_aseriyun_5_1}Suruq"
+        name="{=lord_aseriyun_5_1}Qawurd"
         age="28"
         voice="softspoken"
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.aserai"
         occupation="Lord"
-        face_mesh_cache="true">
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_1h_throw_1">
         <face>
-            <BodyProperties version="4"
-                weight="0.6299"
-                build="0.6072"
-                key="001CD808800003D2998335193B81CD944A998317B1718116AA98A7278C098A440399903509299520000000000000000000000000000000000000000057281041" />
+            <BodyProperties version="4" age="28" weight="0.33" build="0.596"  key="0020D00C400018047A9ED198ABADFEBFB9E89F3E6D87FFDD9AB9AAF88C9F9B7B0099500309E85BDB000000000000000000000000000000000000000067288143"  />
         </face>
         <skills></skills>
         <Traits>
@@ -155,21 +792,134 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="lord_aseriyun_6_1"
-        name="{=lord_aseriyun_6_1}Shaima"
-        age="26"
-        voice="curt"
+    <NPCCharacter id="lord_aseriyun_5_2"
+        name="{=lord_aseriyun_5_2}Layla"
+        age="36"
+        voice="ironic"
         is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_archer_pol_2">
+        <face>
+            <BodyProperties version="4" age="36" weight="0.201" build="0.325"  key="0023AC0E4000300D8A7AEF9BBB55FF685E849F1E6A826D8A67485EB48CBB28460065300306C3D87B000000000000000000000000000000000000000016D02044"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_medium" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_5_3"
+        name="{=lord_aseriyun_5_3}Khaireddin"
+        age="13"
+        voice="curt"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="13" weight="0.493" build="0.409"  key="002BDC0F000019805893D198AB8DFBAF59E87F3E5D57FFDC99B69AF78C8F9B6A0096700309D759D9000000000000000000000000000000000000000027208144"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_bedouin" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_5_4"
+        name="{=lord_aseriyun_5_4}Ibrahim"
+        age="27"
+        voice="earnest"
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.aserai"
         occupation="Lord"
-        face_mesh_cache="true">
+        skill_template="SkillSet.lord_cav_throw_pol_2">
         <face>
-            <BodyProperties version="4"
-                weight="0.5"
-                build="0.5"
-                key="003F880FC0B4000D22AA8868B68367A9346A54A66984B75BB1AA59782B2B6773015776130586542600000000000000000000000000000000000000003E9C2043" />
+            <BodyProperties version="4" age="27" weight="0.542" build="0.433"  key="001ED00E40001407689ED198AB9DFDBFB9E87F3E6D87FFDD99B99AF78C9F9B6A0056800305D75ADA000000000000000000000000000000000000000002B080C6"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_flamboyant" />
+            <EquipmentSet id="ase_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_5_5"
+        name="{=lord_aseriyun_5_5}Paymaneh"
+        age="28"
+        voice="softspoken"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_engineer">
+        <face>
+            <BodyProperties version="4" age="28" weight="0.244" build="0.255"  key="0029DC0E400030062A729DA59B7E1AC65A58703529866998439C51DC8AB864A4007440030711948700000000000000000000000000000000000000004AE830C3"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Honor"
+                value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_bedouin" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_5_6"
+        name="{=lord_aseriyun_5_6}Reshawna"
+        age="5"
+        voice="ironic"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="5" weight="0.221" build="0.35"  key="0020E80F00003005BB93CDADAB7E1AD76DE884672E87CB9BC4AC92DC8AE979A80085300308A29ABE00000000000000000000000000000000000000004B084084"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_medium" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 6 -->
+    <NPCCharacter id="lord_aseriyun_6_1"
+        name="{=lord_aseriyun_6_1}Shaima"
+        age="38"
+        voice="curt"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_archer_pol_1">
+        <face>
+            <BodyProperties version="4" age="38" weight="0.49" build="0.403"  key="0026F40E40000007B27D64125965613339C488B23E36806DA074248C888F44730066700306D74E99000000000000000000000000000000000000000048D030C3"  />
         </face>
         <skills></skills>
         <Traits>
@@ -183,20 +933,132 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="lord_aseriyun_7_1"
-        name="{=lord_aseriyun_7_1}Talas"
-        age="48"
+    <NPCCharacter id="lord_aseriyun_6_2"
+        name="{=lord_aseriyun_6_2}Abdul"
+        age="37"
         voice="ironic"
         default_group="Cavalry"
         is_hero="true"
         culture="Culture.aserai"
         occupation="Lord"
-        face_mesh_cache="true">
+        skill_template="SkillSet.lord_1h_throw_2">
         <face>
-            <BodyProperties version="4"
-                weight="0.6768"
-                build="0.6779"
-                key="001CA40880001141A982443A39718ED53DA28416A353712599A86A478E184657066AA068065A8854000000000000000000000000000000000000000008C040C4" />
+            <BodyProperties version="4" age="37" weight="0.383" build="0.329"  key="0020BC0F00001785689DD198AB9DFBBFB9E87F3E6D57FFDD99B69AF78C8F9B6A0075600307D759DA000000000000000000000000000000000000000048F88004"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_heavy" />
+            <EquipmentSet id="ase_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_6_3"
+        name="{=lord_aseriyun_6_3}Faruk"
+        age="22"
+        voice="softspoken"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_2h_pol_2">
+        <face>
+            <BodyProperties version="4" age="22" weight="0.418" build="0.53"  key="0022B40F000008894E87859943128E612CC67A86538607F83376286E7C27693900686003065EEEFA000000000000000000000000000000000000000004B89106"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_bedouin" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_6_4"
+        name="{=lord_aseriyun_6_4}Hanifa"
+        age="16"
+        voice="earnest"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="16" weight="0.473" build="0.221"  key="0020CC0FC0001004C67DCDAF9A76D1796AD58CCE5E78B5FFCBDA46BD8CEF998A0093700309DCDECA00000000000000000000000000000000000000004B384104"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_flamboyant" />
+            <EquipmentSet id="ase_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_6_5"
+        name="{=lord_aseriyun_6_5}Sulayman"
+        age="8"
+        voice="curt"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="8" weight="0.378" build="0.438"  key="0024D80C400009425F88999D5B18CEB18DC68CB677861DF837864CBE7D79AA3900976003095EEEFD000000000000000000000000000000000000000033309086"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_medium" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_6_6"
+        name="{=lord_aseriyun_6_6}Shameem"
+        age="31"
+        voice="softspoken"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_scout">
+        <face>
+            <BodyProperties version="4" age="31" weight="0.244" build="0.321"  key="002BF80C40000007B47DAB2C7965A16559C58CCA4E58A1BDC28746BD8AEF65780065400306D7DE9A000000000000000000000000000000000000000042D030C4"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_bedouin" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 7 -->
+    <NPCCharacter id="lord_aseriyun_7_1"
+        name="{=lord_aseriyun_7_1}Zeyd"
+        age="32"
+        voice="ironic"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_cav_archer_pol_1">
+        <face>
+            <BodyProperties version="4" age="32" weight="0.596" build="0.399"  key="0029F00C40001046667242B5729B1BE4895766213F414DF64154ABD88C7861730096900309E72C52000000000000000000000000000000000000000005305004"  />
         </face>
         <skills></skills>
         <Traits>
@@ -214,20 +1076,109 @@
                 civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="lord_aseriyun_8_1"
-        name="{=lord_aseriyun_8_1}Karith"
-        age="32"
-        voice="curt"
-        default_group="Cavalry"
+    <NPCCharacter id="lord_aseriyun_7_2"
+        name="{=lord_aseriyun_7_2}Sheeva"
+        age="30"
+        voice="earnest"
+        is_female="true"
+        default_group="Infantry"
         is_hero="true"
         culture="Culture.aserai"
         occupation="Lord"
-        face_mesh_cache="true">
+        skill_template="SkillSet.lord_noncom_crafter">
         <face>
-            <BodyProperties version="4"
-                weight="0.3371"
-                build="0.6152"
-                key="0028B00880001A14A78244373A714DB139C2813792826026AA79AC688B185E4503295035024675B0000000000000000000000000000000000000000068486084" />
+            <BodyProperties version="4" age="30" weight="0.352" build="0.37"  key="0020CC0F0000000BC47DADAE8965C17759C58CCA4E78B1CDC78946BD8CEF658A0096500309DCDE9A00000000000000000000000000000000000000004D3040C4"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_heavy" />
+            <EquipmentSet id="ase_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_7_3"
+        name="{=lord_aseriyun_7_3}Jaleel"
+        age="7"
+        voice="softspoken"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="7" weight="0.303" build="0.498"  key="0026B40D00001108879C5BBD85AE7CF48DC879954F869DF78A59ADF98E8F68C60087500308EC5F8E000000000000000000000000000000000000000059088146"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_flamboyant" />
+            <EquipmentSet id="ase_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_7_4"
+        name="{=lord_aseriyun_7_4}Ali"
+        age="25"
+        voice="curt"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_1h_throw_2">
+        <face>
+            <BodyProperties version="4" age="25" weight="0.394" build="0.421"  key="0026D00F00001449877A5AB5859D5BF48DC779653F638DF78A56ADF98D8E61B600A660030AEC4D6A000000000000000000000000000000000000000055407084"  />
+        </face>
+        <Traits>
+            <Trait id="Mercy"
+                value="+1" />
+            <Trait id="Generosity"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_heavy" />
+            <EquipmentSet id="ase_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_7_5"
+        name="{=lord_aseriyun_7_5}Shahrbano"
+        age="15"
+        voice="curt"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="15" weight="0.49" build="0.452"  key="0026C00D00000007C47DAC8E8965A17559C58CCA4E58B1CDC78746BD8BEF65780087700308D7DE9A0000000000000000000000000000000000000000430040C3"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="ase_bat_template_medium" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Clan 8 -->
+    <NPCCharacter id="lord_aseriyun_8_1"
+        name="{=lord_aseriyun_8_1}Jibril"
+        age="25"
+        voice="curt"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        face_mesh_cache="true"
+        skill_template="SkillSet.lord_2h_pol_2">
+        <face>
+            <BodyProperties version="4" age="25" weight="0.446" build="0.551"  key="0029DC0C400012C1677A5AB5849D4BE48CC779653F638DF77756ADE98D8C61A60078700307EC4D69000000000000000000000000000000000000000040F86044"  />
         </face>
         <skills></skills>
         <Traits>
@@ -239,6 +1190,75 @@
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="ase_bat_template_bedouin" />
+            <EquipmentSet id="ase_civ_template_default"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_8_2"
+        name="{=lord_aseriyun_8_2}Rasa"
+        age="23"
+        voice="earnest"
+        is_female="true"
+        default_group="Cavalry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_noncom_merchant">
+        <face>
+            <BodyProperties version="4" age="23" weight="0.219" build="0.31"  key="001EC80D0000100D62706FBF621E9C5C5C3299984731DBBC652780278B597AA90045300304B74222000000000000000000000000000000000000000030903044"  />
+        </face>
+        <Traits>
+            <Trait id="Generosity"
+                value="+1" />
+            <Trait id="Mercy"
+                value="+1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_flamboyant" />
+            <EquipmentSet id="ase_civ_template_flamboyant"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_8_3"
+        name="{=lord_aseriyun_8_3}Wahab"
+        age="3"
+        voice="ironic"
+        default_group="Infantry"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="3" weight="0.537" build="0.347"  key="0029C40D80003806DF9ADE6B9BBDBE678FE86FCB7979306DA5D59A8D8BACB8AB0065800306B9CDE8000000000000000000000000000000000000000008B89105"  />
+        </face>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_heavy" />
+            <EquipmentSet id="ase_civ_template_heavy"
+                civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_aseriyun_8_4"
+        name="{=lord_aseriyun_8_4}Sheeftah"
+        age="26"
+        voice="softspoken"
+        is_female="true"
+        default_group="HorseArcher"
+        is_hero="true"
+        culture="Culture.aserai"
+        occupation="Lord"
+        skill_template="SkillSet.lord_cav_archer_pol_2">
+        <face>
+            <BodyProperties version="4" age="26" weight="0.436" build="0.287"  key="0029E80E50FC000486866C4A998B77394B8475CC6A17756547D6116688FF834500747003075648E9000000000000000000000000000000000000000020E02104"  />
+        </face>
+        <Traits>
+            <Trait id="Valor"
+                value="+2" />
+            <Trait id="Honor"
+                value="-2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="ase_bat_template_medium" />
             <EquipmentSet id="ase_civ_template_default"
                 civilian="true" />
         </Equipments>

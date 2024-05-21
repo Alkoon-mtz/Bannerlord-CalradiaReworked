@@ -124,7 +124,19 @@
             <Equipment slot="Horse" id="Item.noble_horse_southern" />
             <Equipment slot="HorseHarness" id="Item.light_harness" />
         </EquipmentSet>
-        <Flags IsCombatantTemplate="true" IsMediumTemplate="true" IsNobleTemplate="true" />
+        <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsMediumTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="ase_civ_template_heavy" culture="Culture.aserai">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.aserai_noble_sword_4_t5" />
+            <Equipment slot="Body" id="Item.aserai_civil_d" />
+            <Equipment slot="Cape" id="Item.leopard_pelt" />
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+            <Equipment slot="Head" id="Item.aserai_civil_d_hscarf" />
+            <Equipment slot="Horse" id="Item.noble_horse_southern" />
+            <Equipment slot="HorseHarness" id="Item.light_harness" />
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true" />
     </EquipmentRoster>
 
     <!-- King -->
