@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\Split\\bin\\cs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{422361A2-D3D8-477D-B813-40782C7816C1}|Split.csproj|D:\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\Split\\bin\\cs\\submodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{422361A2-D3D8-477D-B813-40782C7816C1}|Split.csproj|solutionrelative:submodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{422361A2-D3D8-477D-B813-40782C7816C1}|Split.csproj|D:\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\Split\\bin\\cs\\explorer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422361A2-D3D8-477D-B813-40782C7816C1}|Split.csproj|solutionrelative:explorer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{422361A2-D3D8-477D-B813-40782C7816C1}|Split.csproj|d:\\steam\\steamapps\\common\\mount \u0026 blade ii bannerlord\\modules\\split\\bin\\cs\\explorer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{422361A2-D3D8-477D-B813-40782C7816C1}|Split.csproj|solutionrelative:explorer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{422361A2-D3D8-477D-B813-40782C7816C1}|Split.csproj|d:\\steam\\steamapps\\common\\mount \u0026 blade ii bannerlord\\modules\\split\\bin\\cs\\submodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422361A2-D3D8-477D-B813-40782C7816C1}|Split.csproj|solutionrelative:submodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Explorer.cs",
               "DocumentMoniker": "D:\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\Split\\bin\\cs\\Explorer.cs",
               "RelativeDocumentMoniker": "Explorer.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\Split\\bin\\cs\\Explorer.cs",
               "RelativeToolTip": "Explorer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAJAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAIwEQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T20:41:19.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SubModule.cs",
               "DocumentMoniker": "D:\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\Split\\bin\\cs\\SubModule.cs",
               "RelativeDocumentMoniker": "SubModule.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\Split\\bin\\cs\\SubModule.cs",
               "RelativeToolTip": "SubModule.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACQAAAA2AAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBYAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T18:49:39.198Z",
               "EditorCaption": ""

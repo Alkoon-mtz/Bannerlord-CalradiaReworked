@@ -9,15 +9,13 @@
     <MBPartyTemplate id="monghatai_kingdom_hero_party_template">
         <stacks>
             <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.monghatai_recruit" />
-            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.monghatai_moriton" />
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.monghatai_moriton" />
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.monghatai_chaalal" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.monghatai_urdal" />
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.monghatai_jadlakh" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.monghatai_tsurakh" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.monghatai_tsoolakh" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.monghatai_tsurakh" />
             <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.monghatai_khurchin" />
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.monghatai_daikchin" />
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.monghatai_mergar" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.monghatai_mergar" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="monghatai_elite_caravan_template">

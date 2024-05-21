@@ -17,6 +17,7 @@ To look:
 
 ALL Cultures:
 Customize:
+    Cities(2000-5000) + Villages(200-500) + Castles (500-1000)
     civ outfit
     townsman + variant + City NPC (ransom_broker etc)
     weapon_practice_stage_1 ?
@@ -71,6 +72,8 @@ NTH:
     Code:
         Cultural choice at char creation
         Cultural feats
+            TaleWorlds.CampaignSystem.GameComponents
+            TaleWorlds.CampaignSystem.CharacterDevelopment.DefaultCulturalFeats
 
     New World Map ?
     More armors (lol...)
