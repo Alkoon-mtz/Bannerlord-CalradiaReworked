@@ -1,28 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CraftingPieces>
-    <CraftingPiece
-        id="rekgeist_blade_elite_t5"
-        name="{=ZweihanderBlade}Zweihander Blade"
+    <CraftingPiece id="rekgeist_blade_elite_t5"
+        name="{=rekgeist_blade_elite_t5}Schwerer Blade"
         tier="5"
         piece_type="Blade"
         mesh="rekgeist_blade_elite_t5"
+        distance_to_next_piece="-20"
+        distance_to_previous_piece="-20"
         culture="Culture.rekgeist"
-        length="99.4"
-        weight="1.35">
-        <BladeData
-            stack_amount="3"
+        length="124"
+        weight="1.5">
+        <BuildData previous_piece_offset="13" />
+        <BladeData stack_amount="3"
             physics_material="metal_weapon"
             body_name="bo_sword_one_handed">
-            <Thrust
-                damage_type="Pierce"
+            <Thrust damage_type="Pierce"
                 damage_factor="3.2" />
-            <Swing
-                damage_type="Cut"
-                damage_factor="4.1" />
+            <Swing damage_type="Cut"
+                damage_factor="4.4" />
         </BladeData>
         <Materials>
-            <Material
-                id="Iron6"
+            <Material id="Iron6"
+                count="4" />
+        </Materials>
+    </CraftingPiece>
+    <CraftingPiece id="rekgeist_blade_elite_t4"
+        name="{=rekgeist_blade_elite_t4}Reiter Blade"
+        tier="4"
+        piece_type="Blade"
+        mesh="rekgeist_blade_elite_t5"
+        culture="Culture.rekgeist"
+        length="114"
+        weight="1.5">
+        <BuildData previous_piece_offset="8" />
+        <BladeData stack_amount="3"
+            physics_material="metal_weapon"
+            body_name="bo_sword_one_handed">
+            <Thrust damage_type="Pierce"
+                damage_factor="3.2" />
+            <Swing damage_type="Cut"
+                damage_factor="2.5" />
+        </BladeData>
+        <Materials>
+            <Material id="Iron6"
                 count="4" />
         </Materials>
     </CraftingPiece>

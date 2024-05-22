@@ -475,9 +475,9 @@
                 <equipment slot="Body" id="Item.leather_and_iron_plate_armor"/>
                 <equipment slot="Gloves" id="Item.padded_vambrace"/>
                 <equipment slot="Leg" id="Item.mail_chausses"/>
-                <equipment slot="Horse" id="Item.t2_vlandia_horse"/>
-                <equipment slot="HorseHarness" id="Item.halfchain_barding"/>
             </EquipmentRoster>
+            <equipment slot="Horse" id="Item.lysellois_charge_horse_t4"/>
+            <equipment slot="HorseHarness" id="Item.halfchain_barding"/>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
                 <equipment slot="Item2" id="Item.throwing_stone"/>
@@ -517,8 +517,6 @@
                 <equipment slot="Cape" id="Item.hood"/>
                 <equipment slot="Body" id="Item.mail_with_tabbard3"/>
                 <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-                <equipment slot="Horse" id="Item.t2_vlandia_horse"/>
-                <equipment slot="HorseHarness" id="Item.halfchain_barding"/>
             </EquipmentRoster>
             <EquipmentRoster>
                 <equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
@@ -528,8 +526,6 @@
                 <equipment slot="Cape" id="Item.hood"/>
                 <equipment slot="Body" id="Item.mail_with_tabbard4"/>
                 <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-                <equipment slot="Horse" id="Item.t2_vlandia_horse"/>
-                <equipment slot="HorseHarness" id="Item.halfchain_barding"/>
             </EquipmentRoster>
             <EquipmentRoster>
                 <equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
@@ -539,8 +535,6 @@
                 <equipment slot="Cape" id="Item.hood"/>
                 <equipment slot="Body" id="Item.mail_with_tabbard1"/>
                 <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-                <equipment slot="Horse" id="Item.t2_vlandia_horse"/>
-                <equipment slot="HorseHarness" id="Item.halfchain_barding"/>
             </EquipmentRoster>
             <EquipmentRoster>
                 <equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
@@ -550,9 +544,9 @@
                 <equipment slot="Cape" id="Item.hood"/>
                 <equipment slot="Body" id="Item.mail_with_tabbard2"/>
                 <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-                <equipment slot="Horse" id="Item.t2_vlandia_horse"/>
-                <equipment slot="HorseHarness" id="Item.halfchain_barding"/>
             </EquipmentRoster>
+            <equipment slot="Horse" id="Item.lysellois_charge_horse_t4"/>
+            <equipment slot="HorseHarness" id="Item.halfchain_barding"/>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
                 <equipment slot="Item2" id="Item.throwing_stone"/>
@@ -593,8 +587,6 @@
                 <equipment slot="Body" id="Item.mail_with_tabbard3"/>
                 <equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
                 <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
-                <equipment slot="Horse" id="Item.noble_horse_western"/>
-                <equipment slot="HorseHarness" id="Item.chain_barding"/>
             </EquipmentRoster>
             <EquipmentRoster>
                 <equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
@@ -605,8 +597,6 @@
                 <equipment slot="Body" id="Item.mail_with_tabbard4"/>
                 <equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
                 <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
-                <equipment slot="Horse" id="Item.noble_horse_western"/>
-                <equipment slot="HorseHarness" id="Item.chain_barding"/>
             </EquipmentRoster>
             <EquipmentRoster>
                 <equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
@@ -617,8 +607,6 @@
                 <equipment slot="Body" id="Item.mail_with_tabbard1"/>
                 <equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
                 <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
-                <equipment slot="Horse" id="Item.noble_horse_western"/>
-                <equipment slot="HorseHarness" id="Item.chain_barding"/>
             </EquipmentRoster>
             <EquipmentRoster>
                 <equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
@@ -629,9 +617,9 @@
                 <equipment slot="Body" id="Item.mail_with_tabbard2"/>
                 <equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
                 <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
-                <equipment slot="Horse" id="Item.noble_horse_western"/>
-                <equipment slot="HorseHarness" id="Item.chain_barding"/>
             </EquipmentRoster>
+            <equipment slot="Horse" id="Item.lysellois_charge_horse_t6"/>
+            <equipment slot="HorseHarness" id="Item.chain_barding"/>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
                 <equipment slot="Item2" id="Item.throwing_stone"/>
@@ -669,7 +657,7 @@
                 <equipment slot="Body" id="Item.Sa_tabbartplate"/>
                 <equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
                 <equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
-                <equipment slot="Horse" id="Item.noble_horse_western"/>
+                <equipment slot="Horse" id="Item.lysellois_charge_horse_t6"/>
                 <equipment slot="HorseHarness" id="Item.chain_barding"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
@@ -810,9 +798,9 @@
                 <equipment slot="Body" id="Item.mail_shirt"/>
                 <equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
                 <equipment slot="Leg" id="Item.mail_cavalier_boots"/>
-                <equipment slot="Horse" id="Item.t2_vlandia_horse"/>
-                <equipment slot="HorseHarness" id="Item.halfchain_barding"/>
             </EquipmentRoster>
+            <equipment slot="Horse" id="Item.lysellois_melee_horse_t2"/>
+            <equipment slot="HorseHarness" id="Item.halfchain_barding"/>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
                 <equipment slot="Item2" id="Item.throwing_stone"/>
@@ -853,9 +841,9 @@
                 <equipment slot="Body" id="Item.white_coat_over_mail"/>
                 <equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
                 <equipment slot="Leg" id="Item.mail_chausses"/>
-                <equipment slot="Horse" id="Item.t3_vlandia_horse"/>
-                <equipment slot="HorseHarness" id="Item.chain_barding"/>
             </EquipmentRoster>
+            <equipment slot="Horse" id="Item.lysellois_melee_horse_t5"/>
+            <equipment slot="HorseHarness" id="Item.chain_barding"/>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
                 <equipment slot="Item2" id="Item.throwing_stone"/>
@@ -893,8 +881,6 @@
                 <equipment slot="Body" id="Item.swadian_striped_cuirass"/>
                 <equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
                 <equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
-                <equipment slot="Horse" id="Item.t3_vlandia_horse"/>
-                <equipment slot="HorseHarness" id="Item.chain_barding"/>
             </EquipmentRoster>
             <EquipmentRoster>
                 <equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
@@ -905,9 +891,9 @@
                 <equipment slot="Body" id="Item.swadian_cuirass"/>
                 <equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
                 <equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
-                <equipment slot="Horse" id="Item.t3_vlandia_horse"/>
-                <equipment slot="HorseHarness" id="Item.chain_barding"/>
             </EquipmentRoster>
+            <equipment slot="Horse" id="Item.lysellois_melee_horse_t5"/>
+            <equipment slot="HorseHarness" id="Item.chain_barding"/>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
                 <equipment slot="Item2" id="Item.throwing_stone"/>

@@ -4,12 +4,22 @@
         4:  3A1C    =>  0T1:2T2:1N  =>  HFC + H
         5:  3A1Y1C  =>  1T1:1T2:1N  =>  HFC + F + Y
         6:  4A1Y1C  =>  1T1:2T2:1N  =>  HFY + HFC   || HFHYC + F
-        7:  4A2Y1C  =>  2T1:1T2:1N  =>  HFHY + FYC  || HFYC + HFY
-        8:  5A2Y1C  =>  2T1:2T2:1N  =>  HFFHYC + HY
+        7:  4A2Y1C  =>  2T1:1T2:1N  =>  HFHY + XFYC  || HFYC + HFY
+        8:  5A2Y1C  =>  2T1:2T2:1N  =>  HFFHYC + HXY
         9:  5A3Y1C  =>  3T1:1T2:1N  =>  
         10: 6A3Y1C  =>  3T1:2T2:1N  =>  HFHYY + HFYC + H
         C < 12 ; Y < 17 ; M = 7 (9?)
      -->
+    <!--
+        8: 24o-oN=C...23o
+        7: 13o-oN=C...12o...Y
+        6: 12o-o23=Y...21o-oN=C
+        5: 13o-o22=24oYC...oN
+        4: 11o-oN=12oY...x-o23=YC
+        3: 12o-o14=YC...21o-oN=Y
+        2: 11o-o23=12o24oYC...No-x=Y
+        1: 11o-oN-24oYY...23o-o11=YC...12o
+    -->
     <Hero id="lord_explorer_1_1" faction="Faction.clan_explorer_1" />
     <!-- <Hero id="lord_explorer_1_2" spouse="Hero.lord_explorer_1_1" faction="Faction.clan_explorer_1" /> -->
 </Heroes>

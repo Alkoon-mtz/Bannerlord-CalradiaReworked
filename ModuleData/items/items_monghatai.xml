@@ -1,12 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
-    <CraftedItem id="monghatai_2hsword_1_t4"
-        name="{=monghatai_2hsword_1_t4}Monghatai Heavy Saber"
+    <CraftedItem id="monghatai_2hsword_1_t5"
+        name="{=monghatai_2hsword_1_t5}Monghatai Heavy Saber"
         crafting_template="TwoHandedSword"
         culture="Culture.khuzait"
         modifier_group="polearm">
         <Pieces>
-            <Piece id="khuzait_blade_2"
+            <Piece id="monghatai_blade_t5"
+                Type="Blade"
+                scale_factor="120" />
+            <Piece id="aserai_guard_4"
+                Type="Guard"
+                scale_factor="120" />
+            <Piece id="cleaver_grip_4"
+                Type="Handle"
+                scale_factor="120" />
+            <Piece id="sturgian_pommel_1"
+                Type="Pommel"
+                scale_factor="120" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="monghatai_2hsword_1_t4"
+        name="{=monghatai_2hsword_1_t4}Monghatai Saber"
+        crafting_template="TwoHandedSword"
+        culture="Culture.khuzait"
+        modifier_group="polearm">
+        <Pieces>
+            <Piece id="monghatai_blade_t4"
+                Type="Blade"
+                scale_factor="120" />
+            <Piece id="aserai_guard_4"
+                Type="Guard"
+                scale_factor="120" />
+            <Piece id="cleaver_grip_4"
+                Type="Handle"
+                scale_factor="120" />
+            <Piece id="sturgian_pommel_1"
+                Type="Pommel"
+                scale_factor="120" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="monghatai_2hsword_1_t3"
+        name="{=monghatai_2hsword_1_t3}Monghatai Light Saber"
+        crafting_template="TwoHandedSword"
+        culture="Culture.khuzait"
+        modifier_group="polearm">
+        <Pieces>
+            <Piece id="monghatai_blade_t3"
                 Type="Blade"
                 scale_factor="120" />
             <Piece id="aserai_guard_4"

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <Item id="qinguo_chukonu_t5"
+        name="{=qinguo_chukonu_t5}Fine Chukonu"
+        body_name="bo_cross_bow_heavy"
+        mesh="crossbow_f"
+        culture="Culture.qinguo"
+        weight="2.0"
+        appearance="0.8"
+        difficulty="70"
+        Type="Crossbow"
+        AmmoOffset="0.0, 0.02131, 0.22975"
+        item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+        holster_position_shift="0.02,0,-0.4">
+        <ItemComponent>
+            <Weapon weapon_class="Crossbow"
+                speed_rating="100"
+                thrust_damage="85"
+                thrust_damage_type="Pierce"
+                thrust_speed="100"
+                accuracy="90"
+                missile_speed="70"
+                ammo_limit="6"
+                ammo_class="Bolt"
+                reload_phase_count="2"
+                weapon_length="90"
+                item_usage="crossbow"
+                physics_material="wood_weapon"
+                center_of_mass="0,0,0.4"
+                modifier_group="crossbow">
+                <WeaponFlags RangedWeapon="true"
+                    HasString="true"
+                    CantReloadOnHorseback="true"
+                    NotUsableWithOneHand="true"
+                    TwoHandIdleOnMount="true" />
+            </Weapon>
+        </ItemComponent>
+        <Flags />
+    </Item>
+    <Item id="qinguo_chukonu_t4"
+        name="{=qinguo_chukonu_t4}Chukonu"
+        body_name="bo_cross_bow_heavy"
+        mesh="crossbow_f"
+        culture="Culture.qinguo"
+        weight="2.0"
+        appearance="0.8"
+        difficulty="70"
+        Type="Crossbow"
+        AmmoOffset="0.0, 0.02131, 0.22975"
+        item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+        holster_position_shift="0.02,0,-0.4">
+        <ItemComponent>
+            <Weapon weapon_class="Crossbow"
+                speed_rating="100"
+                thrust_damage="80"
+                thrust_damage_type="Pierce"
+                thrust_speed="100"
+                accuracy="90"
+                missile_speed="65"
+                ammo_limit="6"
+                ammo_class="Bolt"
+                reload_phase_count="2"
+                weapon_length="90"
+                item_usage="crossbow"
+                physics_material="wood_weapon"
+                center_of_mass="0,0,0.4"
+                modifier_group="crossbow">
+                <WeaponFlags RangedWeapon="true"
+                    HasString="true"
+                    CantReloadOnHorseback="true"
+                    NotUsableWithOneHand="true"
+                    TwoHandIdleOnMount="true" />
+            </Weapon>
+        </ItemComponent>
+        <Flags />
+    </Item>
+    <Item id="qinguo_chukonu_t3"
+        name="{=qinguo_chukonu_t3}Simple Chukonu"
+        body_name="bo_cross_bow_heavy"
+        mesh="crossbow_f"
+        culture="Culture.qinguo"
+        weight="2.0"
+        appearance="0.8"
+        difficulty="70"
+        Type="Crossbow"
+        AmmoOffset="0.0, 0.02131, 0.22975"
+        item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+        holster_position_shift="0.02,0,-0.4">
+        <ItemComponent>
+            <Weapon weapon_class="Crossbow"
+                speed_rating="100"
+                thrust_damage="75"
+                thrust_damage_type="Pierce"
+                thrust_speed="100"
+                accuracy="90"
+                missile_speed="60"
+                ammo_limit="6"
+                ammo_class="Bolt"
+                reload_phase_count="2"
+                weapon_length="90"
+                item_usage="crossbow"
+                physics_material="wood_weapon"
+                center_of_mass="0,0,0.4"
+                modifier_group="crossbow">
+                <WeaponFlags RangedWeapon="true"
+                    HasString="true"
+                    CantReloadOnHorseback="true"
+                    NotUsableWithOneHand="true"
+                    TwoHandIdleOnMount="true" />
+            </Weapon>
+        </ItemComponent>
+        <Flags />
+    </Item>
+</Items>

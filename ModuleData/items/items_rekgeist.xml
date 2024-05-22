@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <CraftedItem id="rekgeist_2hsword_1_t5"
+        name="{=rekgeist_2hsword_1_t5}Schwerer Sword"
+        crafting_template="TwoHandedSword"
+        culture="Culture.rekgeist"
+        modifier_group="sword">
+        <Pieces>
+            <Piece id="rekgeist_blade_elite_t5"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="vlandian_guard_7"
+                Type="Guard"
+                scale_factor="100" />
+            <Piece id="vlandian_grip_8"
+                Type="Handle"
+                scale_factor="100" />
+            <Piece id="vlandian_pommel_4"
+                Type="Pommel"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="rekgeist_2hsword_1_t4"
+        name="{=rekgeist_2hsword_1_t4}Reiter Sword"
+        crafting_template="TwoHandedSword"
+        culture="Culture.rekgeist"
+        modifier_group="sword">
+        <Pieces>
+            <Piece id="rekgeist_blade_elite_t4"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="vlandian_guard_7"
+                Type="Guard"
+                scale_factor="100" />
+            <Piece id="vlandian_grip_8"
+                Type="Handle"
+                scale_factor="100" />
+            <Piece id="vlandian_pommel_4"
+                Type="Pommel"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+</Items>

@@ -361,22 +361,14 @@
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.khuzait_polearm_1_t4"/>
-                <equipment slot="Head"
-                    id="Item.khuzait_noble_helmet_with_feathers"/>
-                <equipment slot="Cape"
-                    id="Item.AR_imperial_lamellar_cape_a2"/>
-                <equipment slot="Body"
-                    id="Item.AR_aserai_armor_c"/>
-                <equipment slot="Gloves"
-                    id="Item.AR_empire_gloves_d"/>
-                <equipment slot="Leg"
-                    id="Item.AR_empire_boots_c"/>
-                <equipment slot="Horse"
-                    id="Item.noble_horse_eastern"/>
-                <equipment slot="HorseHarness"
-                    id="Item.mail_and_plate_barding"/>
+                <equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
+                <equipment slot="Head" id="Item.khuzait_noble_helmet_with_feathers"/>
+                <equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a2"/>
+                <equipment slot="Body" id="Item.AR_aserai_armor_c"/>
+                <equipment slot="Gloves" id="Item.AR_empire_gloves_d"/>
+                <equipment slot="Leg" id="Item.AR_empire_boots_c"/>
+                <equipment slot="Horse" id="Item.noble_horse_eastern"/>
+                <equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -567,22 +559,14 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.crossbow_a"/>
-                <equipment slot="Item1"
-                    id="Item.bolt_d"/>
-                <equipment slot="Item2"
-                    id="Item.bolt_d"/>
-                <equipment slot="Item3"
-                    id="Item.khuzait_sword_1_t2"/>
-                <equipment slot="Head"
-                    id="Item.TV_aserai_helmet_v"/>
-                <equipment slot="Body"
-                    id="Item.nordic_lamellar_vest"/>
-                <equipment slot="Gloves"
-                    id="Item.TV_aserai_gloves_d"/>
-                <equipment slot="Leg"
-                    id="Item.TV_aserai_boots_e2"/>
+                <equipment slot="Item0" id="Item.qinguo_chukonu_t3"/>
+                <equipment slot="Item1" id="Item.bolt_d"/>
+                <equipment slot="Item2" id="Item.bolt_d"/>
+                <equipment slot="Item3" id="Item.khuzait_sword_1_t2"/>
+                <equipment slot="Head" id="Item.TV_aserai_helmet_v"/>
+                <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+                <equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
+                <equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -628,24 +612,15 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.crossbow_e"/>
-                <equipment slot="Item1"
-                    id="Item.bolt_b"/>
-                <equipment slot="Item2"
-                    id="Item.bolt_b"/>
-                <equipment slot="Item3"
-                    id="Item.khuzait_sword_2_t3"/>
-                <equipment slot="Head"
-                    id="Item.TV_aserai_helmet_w"/>
-                <equipment slot="Cape"
-                    id="Item.a_aserai_scale_b_shoulder_c"/>
-                <equipment slot="Body"
-                    id="Item.AR_aserai_armor_e2"/>
-                <equipment slot="Gloves"
-                    id="Item.TV_aserai_gloves_d"/>
-                <equipment slot="Leg"
-                    id="Item.TV_aserai_boots_e2"/>
+                <equipment slot="Item0" id="Item.qinguo_chukonu_t4"/>
+                <equipment slot="Item1" id="Item.bolt_b"/>
+                <equipment slot="Item2" id="Item.bolt_b"/>
+                <equipment slot="Item3" id="Item.khuzait_sword_2_t3"/>
+                <equipment slot="Head" id="Item.TV_aserai_helmet_w"/>
+                <equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_c"/>
+                <equipment slot="Body" id="Item.AR_aserai_armor_e2"/>
+                <equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
+                <equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -688,24 +663,15 @@
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.crossbow_g"/>
-                <equipment slot="Item1"
-                    id="Item.bolt_c"/>
-                <equipment slot="Item2"
-                    id="Item.bolt_c"/>
-                <equipment slot="Item3"
-                    id="Item.khuzait_noble_sword_1_t5"/>
-                <equipment slot="Head"
-                    id="Item.TV_aserai_helmet_y2"/>
-                <equipment slot="Cape"
-                    id="Item.AR_aserai_shoulder_c"/>
-                <equipment slot="Body"
-                    id="Item.AR_aserai_armor_f2"/>
-                <equipment slot="Gloves"
-                    id="Item.AR_empire_gloves_c"/>
-                <equipment slot="Leg"
-                    id="Item.AR_empire_boots_c"/>
+                <equipment slot="Item0" id="Item.qinguo_chukonu_t5"/>
+                <equipment slot="Item1" id="Item.bolt_c"/>
+                <equipment slot="Item2" id="Item.bolt_c"/>
+                <equipment slot="Item3" id="Item.khuzait_noble_sword_1_t5"/>
+                <equipment slot="Head" id="Item.TV_aserai_helmet_y2"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_c"/>
+                <equipment slot="Body" id="Item.AR_aserai_armor_f2"/>
+                <equipment slot="Gloves" id="Item.AR_empire_gloves_c"/>
+                <equipment slot="Leg" id="Item.AR_empire_boots_c"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -810,22 +776,14 @@
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.eastern_throwing_spear_1_t3"/>
-                <equipment slot="Item1"
-                    id="Item.steel_round_shield"/>
-                <equipment slot="Item2"
-                    id="Item.khuzait_sword_2_t3"/>
-                <equipment slot="Head"
-                    id="Item.TV_aserai_guard_helmet_c4"/>
-                <equipment slot="Cape"
-                    id="Item.TV_khuzait_shoulder_q"/>
-                <equipment slot="Body"
-                    id="Item.TV_khuzait_armor_t"/>
-                <equipment slot="Gloves"
-                    id="Item.TV_khuzait_gloves_a"/>
-                <equipment slot="Leg"
-                    id="Item.AO_durkhan_boots_c"/>
+                <equipment slot="Item0" id="Item.eastern_spear_5_t5"/>
+                <equipment slot="Item1" id="Item.steel_round_shield"/>
+                <equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
+                <equipment slot="Head" id="Item.TV_aserai_guard_helmet_c4"/>
+                <equipment slot="Cape" id="Item.TV_khuzait_shoulder_q"/>
+                <equipment slot="Body" id="Item.TV_khuzait_armor_t"/>
+                <equipment slot="Gloves" id="Item.TV_khuzait_gloves_a"/>
+                <equipment slot="Leg" id="Item.AO_durkhan_boots_c"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"

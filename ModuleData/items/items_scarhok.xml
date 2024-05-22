@@ -57,6 +57,7 @@
                 scale_factor="90" />
         </Pieces>
     </CraftedItem>
+
     <!-- 2H Axes -->
     <CraftedItem id="scarhok_axethrower_axe_t2"
         name="{=scarhok_axethrower_axe_t2}Scarhok Francisk T2"
@@ -114,6 +115,7 @@
                 scale_factor="100" />
         </Pieces>
     </CraftedItem>
+
     <!-- 1H Axes -->
     <CraftedItem id="scarhok_elite_axe_t3"
         name="{=scarhok_elite_axe_t3}Scarhok Elite Axe t3"

@@ -778,7 +778,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.justicier_2hsword"/>
+                <equipment slot="Item0" id="Item.rekgeist_2hsword_1_t4"/>
                 <equipment slot="Head" id="Item.vlandia_helmet_s_iii"/>
                 <equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
                 <equipment slot="Body" id="Item.TV_vlandia_armor_i"/>
@@ -816,7 +816,7 @@
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.vlandia_2hsword_1_t5"/>
+                <equipment slot="Item0" id="Item.rekgeist_2hsword_1_t5"/>
                 <equipment slot="Head" id="Item.vlandian_helm_with_faceplate_painted"/>
                 <equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
                 <equipment slot="Body" id="Item.coat_of_plates9_c"/>
@@ -826,7 +826,7 @@
                 <equipment slot="HorseHarness" id="Item.northern_ring_barding"/>
             </EquipmentRoster>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.vlandia_2hsword_1_t5"/>
+                <equipment slot="Item0" id="Item.rekgeist_2hsword_1_t5"/>
                 <equipment slot="Head" id="Item.vlandian_helm_with_faceplate"/>
                 <equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
                 <equipment slot="Body" id="Item.coat_of_plates10_c"/>

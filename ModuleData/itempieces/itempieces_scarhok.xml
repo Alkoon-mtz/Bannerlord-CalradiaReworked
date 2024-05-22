@@ -117,20 +117,20 @@
     <!-- 1H -->
     <CraftingPiece id="scarhok_axe_craft_t3_head"
         name="{=scarhok_axe_craft_t3_head}Scarhok Rectangular Axe Head T3"
-        tier="5"
+        tier="3"
         piece_type="Blade"
         mesh="scarhok_axe_craft_8_head_t2"
         distance_to_next_piece="11.156"
         distance_to_previous_piece="1.96"
-        weight="0.800">
+        weight="0.870">
         <BuildData piece_offset="-3.92" />
         <BladeData stack_amount="3"
-            blade_length="22.332"
-            blade_width="23.205"
+            blade_length="27.903"
+            blade_width="29.006"
             physics_material="metal_weapon"
             body_name="bo_axe_longer_b">
             <Swing damage_type="Cut"
-                damage_factor="3.0" />
+                damage_factor="3.5" />
         </BladeData>
         <Flags>
             <Flag name="BonusAgainstShield" />
@@ -146,20 +146,20 @@
     </CraftingPiece>
     <CraftingPiece id="scarhok_axe_craft_t4_head"
         name="{=scarhok_axe_craft_t4_head}Scarhok Rectangular Axe Head T4"
-        tier="5"
+        tier="4"
         piece_type="Blade"
         mesh="scarhok_axe_craft_8_head_t3"
         distance_to_next_piece="11.156"
         distance_to_previous_piece="1.96"
-        weight="0.800">
+        weight="1.010">
         <BuildData piece_offset="-3.92" />
         <BladeData stack_amount="3"
-            blade_length="22.332"
-            blade_width="23.205"
+            blade_length="33.484"
+            blade_width="34.807"
             physics_material="metal_weapon"
             body_name="bo_axe_longer_b">
             <Swing damage_type="Cut"
-                damage_factor="4.0" />
+                damage_factor="4.1" />
         </BladeData>
         <Flags>
             <Flag name="BonusAgainstShield" />
@@ -180,15 +180,15 @@
         mesh="scarhok_axe_craft_8_head_t4"
         distance_to_next_piece="11.156"
         distance_to_previous_piece="1.96"
-        weight="0.800">
+        weight="1.003">
         <BuildData piece_offset="-3.92" />
         <BladeData stack_amount="3"
-            blade_length="22.332"
-            blade_width="23.205"
+            blade_length="39.065"
+            blade_width="40.608"
             physics_material="metal_weapon"
             body_name="bo_axe_longer_b">
             <Swing damage_type="Cut"
-                damage_factor="4.75" />
+                damage_factor="4.7" />
         </BladeData>
         <Flags>
             <Flag name="BonusAgainstShield" />
@@ -204,20 +204,20 @@
     </CraftingPiece>
     <CraftingPiece id="scarhok_axe_craft_t6_head"
         name="{=scarhok_axe_craft_t6_head}Scarhok Rectangular Axe Head T6"
-        tier="5"
+        tier="6"
         piece_type="Blade"
         mesh="scarhok_axe_craft_8_head_t5"
         distance_to_next_piece="11.156"
         distance_to_previous_piece="1.96"
-        weight="0.800">
+        weight="1.156">
         <BuildData piece_offset="-3.92" />
         <BladeData stack_amount="3"
-            blade_length="22.332"
-            blade_width="23.205"
+            blade_length="44.646"
+            blade_width="46.410"
             physics_material="metal_weapon"
             body_name="bo_axe_longer_b">
             <Swing damage_type="Cut"
-                damage_factor="6.0" />
+                damage_factor="5.5" />
         </BladeData>
         <Flags>
             <Flag name="BonusAgainstShield" />

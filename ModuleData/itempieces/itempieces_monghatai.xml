@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>
+    <CraftingPiece id="monghatai_blade_t3"
+        name="{=monghatai_blade_t3}Light Monghatai Blade"
+        tier="3"
+        piece_type="Blade"
+        mesh="khuzait_blade_2"
+        culture="Culture.khuzait"
+        length="94.6"
+        weight="0.96">
+        <BladeData stack_amount="3"
+            physics_material="metal_weapon"
+            body_name="bo_sword_one_handed"
+            holster_mesh="khuzait_blade_2_scabbard_2">
+            <Thrust damage_type="Pierce"
+                damage_factor="1" />
+            <Swing damage_type="Cut"
+                damage_factor="2" />
+        </BladeData>
+        <Flags>
+            <Flag name="Civilian"
+                type="ItemFlags" />
+        </Flags>
+        <Materials>
+            <Material id="Iron5"
+                count="3" />
+        </Materials>
+    </CraftingPiece>
+    <CraftingPiece id="monghatai_blade_t4"
+        name="{=monghatai_blade_t4}Monghatai Blade"
+        tier="4"
+        piece_type="Blade"
+        mesh="khuzait_blade_2"
+        culture="Culture.khuzait"
+        length="94.6"
+        weight="0.96">
+        <BladeData stack_amount="3"
+            physics_material="metal_weapon"
+            body_name="bo_sword_one_handed"
+            holster_mesh="khuzait_blade_2_scabbard_2">
+            <Thrust damage_type="Pierce"
+                damage_factor="1.5" />
+            <Swing damage_type="Cut"
+                damage_factor="2.5" />
+        </BladeData>
+        <Flags>
+            <Flag name="Civilian"
+                type="ItemFlags" />
+        </Flags>
+        <Materials>
+            <Material id="Iron5"
+                count="3" />
+        </Materials>
+    </CraftingPiece>
+    <CraftingPiece id="monghatai_blade_t5"
+        name="{=monghatai_blade_t5}Heavy Monghatai Blade"
+        tier="5"
+        piece_type="Blade"
+        mesh="khuzait_blade_2"
+        culture="Culture.khuzait"
+        length="94.6"
+        weight="0.96">
+        <BladeData stack_amount="3"
+            physics_material="metal_weapon"
+            body_name="bo_sword_one_handed"
+            holster_mesh="khuzait_blade_2_scabbard_2">
+            <Thrust damage_type="Pierce"
+                damage_factor="2" />
+            <Swing damage_type="Cut"
+                damage_factor="3" />
+        </BladeData>
+        <Flags>
+            <Flag name="Civilian"
+                type="ItemFlags" />
+        </Flags>
+        <Materials>
+            <Material id="Iron5"
+                count="3" />
+        </Materials>
+    </CraftingPiece>
+</CraftingPieces>

@@ -22,40 +22,69 @@
     <!-- Cities -->
     <xsl:template match="Settlement[@id='town_A8']/@owner"><xsl:attribute name='owner'>Faction.clan_aseriyun_1</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_A8']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_A8']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>4500</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A8_1']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A8_1']/Components/Village/@hearth"><xsl:attribute name='hearth'>450</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A8_2']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A8_2']/Components/Village/@hearth"><xsl:attribute name='hearth'>450</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A8_3']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A8_3']/Components/Village/@hearth"><xsl:attribute name='hearth'>450</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_A7']/@owner"><xsl:attribute name='owner'>Faction.clan_aseriyun_2</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_A7']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_A7']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>4000</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A7_2']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A7_2']/Components/Village/@hearth"><xsl:attribute name='hearth'>400</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A7_3']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A7_3']/Components/Village/@hearth"><xsl:attribute name='hearth'>400</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A7_4']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A7_4']/Components/Village/@hearth"><xsl:attribute name='hearth'>400</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_A11']/@owner"><xsl:attribute name='owner'>Faction.clan_aseriyun_3</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_A11']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_A11']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>3000</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A11_1']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A11_1']/Components/Village/@hearth"><xsl:attribute name='hearth'>250</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A11_2']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A11_2']/Components/Village/@hearth"><xsl:attribute name='hearth'>250</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A11_3']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A11_3']/Components/Village/@hearth"><xsl:attribute name='hearth'>250</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A11_4']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A11_4']/Components/Village/@hearth"><xsl:attribute name='hearth'>250</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_A3']/@owner"><xsl:attribute name='owner'>Faction.clan_aseriyun_4</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_A3']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_A3']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>2500</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A3_1']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A3_1']/Components/Village/@hearth"><xsl:attribute name='hearth'>250</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A3_3']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A3_3']/Components/Village/@hearth"><xsl:attribute name='hearth'>250</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_A5_3']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_A5_3']/Components/Village/@hearth"><xsl:attribute name='hearth'>250</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_A12']/@owner"><xsl:attribute name='owner'>Faction.clan_aseriyun_5</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_A12']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_A12']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>2500</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A12_1']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A12_1']/Components/Village/@hearth"><xsl:attribute name='hearth'>250</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A12_2']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A12_2']/Components/Village/@hearth"><xsl:attribute name='hearth'>250</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A12_3']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A12_3']/Components/Village/@hearth"><xsl:attribute name='hearth'>250</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_A5']/@owner"><xsl:attribute name='owner'>Faction.clan_aseriyun_6</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_A5']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_A5']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>2000</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A5_1']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A5_1']/Components/Village/@hearth"><xsl:attribute name='hearth'>200</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A5_2']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A5_2']/Components/Village/@hearth"><xsl:attribute name='hearth'>200</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A5_3']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A5_3']/Components/Village/@hearth"><xsl:attribute name='hearth'>200</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_A14']/@owner"><xsl:attribute name='owner'>Faction.clan_aseriyun_7</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_A14']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_A14']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>2000</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A14_1']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A14_1']/Components/Village/@hearth"><xsl:attribute name='hearth'>200</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A14_2']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A14_2']/Components/Village/@hearth"><xsl:attribute name='hearth'>200</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_A14_3']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_A14_3']/Components/Village/@hearth"><xsl:attribute name='hearth'>200</xsl:attribute></xsl:template>
     <!-- Castles -->
     <xsl:template match="Settlement[@id='castle_A4']/@owner"><xsl:attribute name='owner'>Faction.clan_aseriyun_1</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_A4']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
@@ -74,8 +103,11 @@
     <xsl:template match="Settlement[@id='castle_village_A10_1']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_A11']/@owner"><xsl:attribute name='owner'>Faction.clan_aseriyun_4</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_A11']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_A11']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>500</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_A11_1']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_A11_1']/Components/Village/@hearth"><xsl:attribute name='hearth'>250</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_A11_2']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_A11_2']/Components/Village/@hearth"><xsl:attribute name='hearth'>250</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_A2']/@owner"><xsl:attribute name='owner'>Faction.clan_aseriyun_5</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_A2']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_A2_1']/@culture"><xsl:attribute name='culture'>Culture.aserai</xsl:attribute></xsl:template>
@@ -692,54 +724,91 @@
     <!-- Cities -->
     <xsl:template match="Settlement[@id='town_V8']/@owner"><xsl:attribute name='owner'>Faction.clan_scarhok_1</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_V8']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_V8']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>5000</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_V8']/Components/Town/@level"><xsl:attribute name='level'>3</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_V8_1']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_V8_1']/Components/Village/@hearth"><xsl:attribute name='hearth'>500</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_V8_2']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_V8_2']/Components/Village/@hearth"><xsl:attribute name='hearth'>500</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_V8_3']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_V8_3']/Components/Village/@hearth"><xsl:attribute name='hearth'>500</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_V2']/@owner"><xsl:attribute name='owner'>Faction.clan_scarhok_2</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_V2']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_V2']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>4500</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_V2_1']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_V2_1']/Components/Village/@hearth"><xsl:attribute name='hearth'>450</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_V2_2']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_V2_2']/Components/Village/@hearth"><xsl:attribute name='hearth'>450</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_V2_3']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_V2_3']/Components/Village/@hearth"><xsl:attribute name='hearth'>450</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_V9']/@owner"><xsl:attribute name='owner'>Faction.clan_scarhok_3</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_V9']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_V9']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>4000</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_V9']/Components/Town/@level"><xsl:attribute name='level'>3</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_V9_1']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_V9_1']/Components/Village/@hearth"><xsl:attribute name='hearth'>450</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_V9_2']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_V9_2']/Components/Village/@hearth"><xsl:attribute name='hearth'>450</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_B6']/@owner"><xsl:attribute name='owner'>Faction.clan_scarhok_4</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_B6']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_B6']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>4000</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_B6']/Components/Town/@level"><xsl:attribute name='level'>3</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_B4_5']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_B4_5']/Components/Village/@hearth"><xsl:attribute name='hearth'>400</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_V6_3']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_V6_3']/Components/Village/@hearth"><xsl:attribute name='hearth'>400</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_V6_4']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_V6_4']/Components/Village/@hearth"><xsl:attribute name='hearth'>400</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_S7']/@owner"><xsl:attribute name='owner'>Faction.clan_scarhok_5</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_S7']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_S7']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>3500</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_S7_1']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_S7_1']/Components/Village/@hearth"><xsl:attribute name='hearth'>350</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_S7_2']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_S7_2']/Components/Village/@hearth"><xsl:attribute name='hearth'>350</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_S7_3']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_S7_3']/Components/Village/@hearth"><xsl:attribute name='hearth'>350</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_V4']/@owner"><xsl:attribute name='owner'>Faction.clan_scarhok_6</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='town_V4']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='town_V4']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>3500</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_V5_3']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_village_V5_3']/Components/Village/@hearth"><xsl:attribute name='hearth'>400</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='village_V4_1']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='village_V4_1']/Components/Village/@hearth"><xsl:attribute name='hearth'>400</xsl:attribute></xsl:template>
     <!-- Castles -->
     <xsl:template match="Settlement[@id='castle_V5']/@owner"><xsl:attribute name='owner'>Faction.clan_scarhok_1</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_V5']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_V5']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>1000</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_V5']/Components/Town/@level"><xsl:attribute name='level'>3</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_V5_1']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_V5_2']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_V8']/@owner"><xsl:attribute name='owner'>Faction.clan_scarhok_2</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_V8']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_V8']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>800</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_V8']/Components/Town/@level"><xsl:attribute name='level'>2</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_V8_1']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_V8_2']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_V4']/@owner"><xsl:attribute name='owner'>Faction.clan_scarhok_3</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_V4']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_V4']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>1000</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_V4']/Components/Town/@level"><xsl:attribute name='level'>3</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_V4_1']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_S3']/@owner"><xsl:attribute name='owner'>Faction.clan_scarhok_4</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_S3']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_S3']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>1000</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_S3']/Components/Town/@level"><xsl:attribute name='level'>3</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_S3_1']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_S3_2']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_S1']/@owner"><xsl:attribute name='owner'>Faction.clan_scarhok_5</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_S1']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_S1']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>800</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_S1']/Components/Town/@level"><xsl:attribute name='level'>2</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_S1_1']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_S1_2']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_B6']/@owner"><xsl:attribute name='owner'>Faction.clan_scarhok_7</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_B6']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_B6']/Components/Town/@prosperity"><xsl:attribute name='prosperity'>800</xsl:attribute></xsl:template>
+    <xsl:template match="Settlement[@id='castle_B6']/Components/Town/@level"><xsl:attribute name='level'>2</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_B6_1']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
     <xsl:template match="Settlement[@id='castle_village_B6_2']/@culture"><xsl:attribute name='culture'>Culture.scarhok</xsl:attribute></xsl:template>
     

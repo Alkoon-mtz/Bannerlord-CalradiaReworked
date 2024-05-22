@@ -46,6 +46,10 @@
         <xsl:copy>
             <xsl:apply-templates/>
             <AvailablePiece id="rekgeist_blade_elite_t5" />
+            <AvailablePiece id="rekgeist_blade_elite_t4" />
+            <AvailablePiece id="monghatai_blade_t5" />
+            <AvailablePiece id="monghatai_blade_t4" />
+            <AvailablePiece id="monghatai_blade_t3" />
         </xsl:copy>
     </xsl:template>
 

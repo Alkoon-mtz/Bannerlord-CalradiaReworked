@@ -804,6 +804,7 @@
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.scarhok_elite_axe_t6"/>
             <Equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
+            <equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
             <Equipment slot="Head" id="Item.italio_norman_helm"/>
             <Equipment slot="Cape" id="Item.AR_vlandia_shoulders_f"/>
             <Equipment slot="Body" id="Item.AR_vlandia_armor_b"/>
@@ -993,6 +994,7 @@
         <EquipmentSet civilian="false">
             <Equipment slot="Item0" id="Item.scarhok_elite_axe_t6"/>
             <Equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
+            <equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
             <Equipment slot="Head" id="Item.italio_norman_helm_crown"/>
             <Equipment slot="Cape" id="Item.AR_vlandia_shoulders_f"/>
             <Equipment slot="Body" id="Item.AR_vlandia_armor_b"/>
@@ -1005,6 +1007,7 @@
         <EquipmentSet civilian="false">
             <Equipment slot="Item0" id="Item.scarhok_elite_axe_t6"/>
             <Equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
+            <equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
             <Equipment slot="Head" id="Item.italio_norman_helm_crown"/>
             <Equipment slot="Cape" id="Item.AR_vlandia_shoulders_f"/>
             <Equipment slot="Body" id="Item.AR_vlandia_armor_b"/>

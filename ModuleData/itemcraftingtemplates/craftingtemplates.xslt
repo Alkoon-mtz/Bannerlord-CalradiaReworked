@@ -46,6 +46,10 @@
         <xsl:copy>
             <xsl:apply-templates/>
             <UsablePiece piece_id="rekgeist_blade_elite_t5"/>
+            <UsablePiece piece_id="rekgeist_blade_elite_t4"/>
+            <UsablePiece piece_id="monghatai_blade_t5"/>
+            <UsablePiece piece_id="monghatai_blade_t4"/>
+            <UsablePiece piece_id="monghatai_blade_t3"/>
         </xsl:copy>
     </xsl:template>
 </xsl:stylesheet>

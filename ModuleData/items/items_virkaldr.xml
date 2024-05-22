@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <CraftedItem id="virkaldr_jav_t6"
+        name="{=virkaldr_jav_t6}Virkaldr Jormunkill"
+        crafting_template="Javelin"
+        culture="Culture.sturgia"
+        modifier_group="spear_dart_throwing">
+        <Pieces>
+            <Piece id="spear_blade_27"
+                Type="Blade"
+                scale_factor="120" />
+            <Piece id="default_polearm_guard"
+                Type="Guard"
+                scale_factor="100" />
+            <Piece id="spear_handle_11"
+                Type="Handle"
+                scale_factor="120" />
+            <Piece id="default_polearm_pommel"
+                Type="Pommel"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="virkaldr_jav_t5"
+        name="{=virkaldr_jav_t5}Virkaldr Heavy Harpoon"
+        crafting_template="Javelin"
+        culture="Culture.sturgia"
+        modifier_group="spear_dart_throwing">
+        <Pieces>
+            <Piece id="spear_blade_10"
+                Type="Blade"
+                scale_factor="120" />
+            <Piece id="default_polearm_guard"
+                Type="Guard"
+                scale_factor="100" />
+            <Piece id="spear_handle_11"
+                Type="Handle"
+                scale_factor="120" />
+            <Piece id="default_polearm_pommel"
+                Type="Pommel"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="virkaldr_jav_t4"
+        name="{=virkaldr_jav_t4}Virkaldr Harpoon"
+        crafting_template="Javelin"
+        culture="Culture.sturgia"
+        modifier_group="spear_dart_throwing">
+        <Pieces>
+            <Piece id="spear_blade_10"
+                Type="Blade"
+                scale_factor="80" />
+            <Piece id="default_polearm_guard"
+                Type="Guard"
+                scale_factor="100" />
+            <Piece id="spear_handle_11"
+                Type="Handle"
+                scale_factor="110" />
+            <Piece id="default_polearm_pommel"
+                Type="Pommel"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+</Items>

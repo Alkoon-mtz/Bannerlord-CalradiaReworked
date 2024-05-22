@@ -9,15 +9,16 @@
     <MBPartyTemplate id="scarhok_kingdom_hero_party_template">
         <stacks>
             <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.scarhok_recruit" />
-            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.scarhok_soudard" />
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.scarhok_soudard" />
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.scarhok_marhig" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.scarhok_strellig" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.scarhok_strellig" />
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.scarhok_gareg" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.scarhok_gareker" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.scarhok_gareker" />
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.scarhok_garhaner" />
             <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.scarhok_throwing_axeman" />
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.scarhok_elite_throwing_axeman" />
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.scarhok_kigenn" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.scarhok_haveroi" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.scarhok_elite_haveroi" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="scarhok_elite_caravan_template">
