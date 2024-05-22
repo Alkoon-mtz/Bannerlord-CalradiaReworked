@@ -792,10 +792,10 @@
             <skill id="Riding" value="90"/>
             <skill id="OneHanded" value="100"/>
             <skill id="TwoHanded" value="30"/>
-            <skill id="Polearm" value="40"/>
+            <skill id="Polearm" value="30"/>
             <skill id="Bow" value="15"/>
             <skill id="Crossbow" value="15"/>
-            <skill id="Throwing" value="30"/>
+            <skill id="Throwing" value="50"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.lysellois_cavalier_lourd"/>
@@ -804,6 +804,7 @@
             <EquipmentRoster>
                 <equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
                 <equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+                <equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
                 <equipment slot="Head" id="Item.imperial_mail_coif"/>
                 <equipment slot="Cape" id="Item.chainmail_shoulder_armor"/>
                 <equipment slot="Body" id="Item.mail_shirt"/>
@@ -834,10 +835,10 @@
             <skill id="Riding" value="120"/>
             <skill id="OneHanded" value="140"/>
             <skill id="TwoHanded" value="40"/>
-            <skill id="Polearm" value="60"/>
+            <skill id="Polearm" value="40"/>
             <skill id="Bow" value="20"/>
             <skill id="Crossbow" value="20"/>
-            <skill id="Throwing" value="40"/>
+            <skill id="Throwing" value="70"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.lysellois_champion"/>
@@ -846,6 +847,7 @@
             <EquipmentRoster>
                 <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
                 <equipment slot="Item1" id="Item.wide_heater_shield"/>
+                <equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
                 <equipment slot="Head" id="Item.pigface_bascinet"/>
                 <equipment slot="Cape" id="Item.chainmail_shoulder_armor"/>
                 <equipment slot="Body" id="Item.white_coat_over_mail"/>
@@ -876,15 +878,16 @@
             <skill id="Riding" value="160"/>
             <skill id="OneHanded" value="200"/>
             <skill id="TwoHanded" value="60"/>
-            <skill id="Polearm" value="80"/>
+            <skill id="Polearm" value="60"/>
             <skill id="Bow" value="30"/>
             <skill id="Crossbow" value="30"/>
-            <skill id="Throwing" value="60"/>
+            <skill id="Throwing" value="100"/>
         </skills>
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
                 <equipment slot="Item1" id="Item.wide_heater_shield"/>
+                <equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
                 <equipment slot="Head" id="Item.sa_bacinet_with_facemask"/>
                 <equipment slot="Cape" id="Item.swadian_shoulders"/>
                 <equipment slot="Body" id="Item.swadian_striped_cuirass"/>
@@ -896,6 +899,7 @@
             <EquipmentRoster>
                 <equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
                 <equipment slot="Item1" id="Item.wide_heater_shield"/>
+                <equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
                 <equipment slot="Head" id="Item.sa_bacinet_with_facemask"/>
                 <equipment slot="Cape" id="Item.swadian_shoulders"/>
                 <equipment slot="Body" id="Item.swadian_cuirass"/>

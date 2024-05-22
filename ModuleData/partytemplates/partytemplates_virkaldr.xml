@@ -8,16 +8,17 @@
     </MBPartyTemplate>
     <MBPartyTemplate id="virkaldr_kingdom_hero_party_template">
         <stacks>
-            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.virkaldr_recruit" />
-            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.virkaldr_strid" />
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.virkaldr_recruit" />
+            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.virkaldr_strid" />
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.virkaldr_bogdi" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.virkaldr_veidi" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.virkaldr_veidi" />
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.virkaldr_hestrinn" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.virkaldr_vidrinn" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.virkaldr_vidrinn" />
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.virkaldr_skadrinn" />
-            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.virkaldr_bjorkker" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.virkaldr_grahaerker" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.virkaldr_grahaerker" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.virkaldr_berzerker" />
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.virkaldr_eydandi" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.virkaldr_sekkrandi" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="virkaldr_elite_caravan_template">

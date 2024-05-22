@@ -22,6 +22,9 @@
             <relationship kingdom="Kingdom.kingdom_virkaldr"
                 value="-1"
                 isAtWar="true" />
+            <relationship kingdom="Kingdom.kingdom_rekgeist"
+                value="-1"
+                isAtWar="true" />
         </relationships>
     </Kingdom>
 </Kingdoms>

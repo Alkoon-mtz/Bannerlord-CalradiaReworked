@@ -647,7 +647,7 @@
                 <equipment slot="Leg"
                     id="Item.TV_empire_boots_c"/>
                 <equipment slot="Horse"
-                    id="Item.t2_empire_horse"/>
+                    id="Item.empire_horse"/>
                 <equipment slot="HorseHarness"
                     id="Item.stripped_leather_harness"/>
             </EquipmentRoster>
@@ -712,7 +712,7 @@
                 <equipment slot="Leg"
                     id="Item.plated_strip_boots"/>
                 <equipment slot="Horse"
-                    id="Item.t3_empire_horse"/>
+                    id="Item.t2_empire_horse"/>
                 <equipment slot="HorseHarness"
                     id="Item.half_scale_barding"/>
             </EquipmentRoster>
@@ -774,7 +774,7 @@
                 <equipment slot="Leg"
                     id="Item.plated_strip_boots"/>
                 <equipment slot="Horse"
-                    id="Item.noble_horse_imperial"/>
+                    id="Item.t3_empire_horse"/>
                 <equipment slot="HorseHarness"
                     id="Item.imperial_scale_barding"/>
             </EquipmentRoster>
@@ -830,8 +830,6 @@
                 <equipment slot="Item1"
                     id="Item.default_arrows"/>
                 <equipment slot="Item2"
-                    id="Item.default_arrows"/>
-                <equipment slot="Item3"
                     id="Item.empire_sword_1_t2"/>
                 <equipment slot="Head"
                     id="Item.ao_imperial_nasal_spangenhelm_with_leather_strips_alt"/>
@@ -895,8 +893,6 @@
                 <equipment slot="Item1"
                     id="Item.range_arrows"/>
                 <equipment slot="Item2"
-                    id="Item.range_arrows"/>
-                <equipment slot="Item3"
                     id="Item.empire_sword_3_t3"/>
                 <equipment slot="Head"
                     id="Item.ao_imperial_nasal_spangenhelmet_with_mail"/>
@@ -963,7 +959,7 @@
                 <equipment slot="Item1"
                     id="Item.oval_shield"/>
                 <equipment slot="Item2"
-                    id="Item.default_arrows"/>
+                    id="Item.zulizwe_arrows_a"/>
                 <equipment slot="Item3"
                     id="Item.iron_spatha_sword_t2"/>
                 <equipment slot="Head"
@@ -1024,7 +1020,7 @@
                 <equipment slot="Item1"
                     id="Item.desert_oval_shield"/>
                 <equipment slot="Item2"
-                    id="Item.range_arrows"/>
+                    id="Item.zulizwe_arrows_a"/>
                 <equipment slot="Item3"
                     id="Item.empire_sword_1_t2"/>
                 <equipment slot="Head"
@@ -1087,7 +1083,7 @@
                 <equipment slot="Item1"
                     id="Item.southern_oval_shield"/>
                 <equipment slot="Item2"
-                    id="Item.bodkin_arrows_b"/>
+                    id="Item.zulizwe_arrows_b"/>
                 <equipment slot="Item3"
                     id="Item.empire_sword_3_t3"/>
                 <equipment slot="Head"
@@ -1147,7 +1143,7 @@
                 <equipment slot="Item1"
                     id="Item.emirs_oval_shield"/>
                 <equipment slot="Item2"
-                    id="Item.piercing_arrows"/>
+                    id="Item.zulizwe_arrows_c"/>
                 <equipment slot="Item3"
                     id="Item.empire_sword_6_t5"/>
                 <equipment slot="Head"

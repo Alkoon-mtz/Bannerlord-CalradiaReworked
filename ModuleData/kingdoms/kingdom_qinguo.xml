@@ -13,7 +13,7 @@
         settlement_banner_mesh="encounter_flag_c"
         flag_mesh="info_screen_flags_a"
         name="{=QG_kingdom_name}Qinguo State"
-        short_name="{=QG_short_name}Qinshi"
+        short_name="{=QG_short_name}Qingui"
         title="{=QG_kingdom_title}Qinguo State"
         ruler_title="{=isnp9abW}Supreme Leader"
         text="{=QG_text}Once a great empire, they got hard times against cavalry coming from the north">

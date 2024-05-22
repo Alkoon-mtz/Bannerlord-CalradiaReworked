@@ -9,15 +9,14 @@
     <MBPartyTemplate id="cereann_kingdom_hero_party_template">
         <stacks>
             <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.cereann_recruit" />
-            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.cereann_saighdear" />
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.cereann_saighdear" />
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.cereann_sgiath" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cereann_maoriath" />
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.cereann_tuaghan" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.cereann_maoriath" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.cereann_tuaghan" />
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cereann_gaisghan" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cereann_elite_gaisghan" />
             <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.cereann_marcraidh" />
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cereann_eachraidh" />
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.cereann_saighair" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.cereann_stuaghair" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="cereann_elite_caravan_template">

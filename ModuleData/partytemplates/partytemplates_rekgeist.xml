@@ -9,15 +9,16 @@
     <MBPartyTemplate id="rekgeist_kingdom_hero_party_template">
         <stacks>
             <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.rekgeist_recruit" />
-            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.rekgeist_wache" />
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.rekgeist_wache" />
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.rekgeist_armbrustschütze" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.rekgeist_elite_armbrustschütze" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.rekgeist_elite_armbrustschütze" />
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.rekgeist_reiter" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.rekgeist_leichter_reiter" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.rekgeist_leichter_reiter" />
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.rekgeist_schwerer_reiter" />
             <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.rekgeist_pfähler" />
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.rekgeist_uberpfahler" />
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.rekgeist_bidenhänder" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.rekgeist_zweihänder" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="rekgeist_elite_caravan_template">

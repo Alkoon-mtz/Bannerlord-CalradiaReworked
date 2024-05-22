@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <strings>
-    <string id="str_adjective_for_culture.qinguo" text="{=E11QG_adj_cul}Qinshi" />
-    <string id="str_culture_rich_name.qinguo" text="{=E11QG_cul_name}Qinshis" />
+    <string id="str_adjective_for_culture.qinguo" text="{=E11QG_adj_cul}Qingui" />
+    <string id="str_culture_rich_name.qinguo" text="{=E11QG_cul_name}Qinguis" />
     <string id="str_faction_ruler_name_with_title.qinguo" text="{=E11FRG_ruler_title}{?RULER.GENDER}Supreme Leader{?}Supreme Leader{\?} {RULER.NAME}" />
     <string id="str_faction_noble_name_with_title.qinguo" text="{=E11QG_noble_title}{?RULER.GENDER}Gan{?}Gong{\?} {RULER.NAME}" />
     <string id="str_faction_official.qinguo" text="{=E11QG_noble_m}a gong" />
@@ -9,10 +9,10 @@
     <string id="str_faction_ruler.qinguo" text="{=E11QG_ruler_m}Supreme Leader" />
     <string id="str_faction_ruler.qinguo_f" text="{=E11QG_ruler_f}Supreme Leader" />
     <string id="str_faction_ruler_term_in_speech.qinguo" text="{=E11QG_ruler_sp}{?RULER.GENDER}the Supreme Leader{?}the Supreme Leader{\?} {RULER.NAME}" />
-    <string id="str_neutral_term_for_culture.qinguo" text="{=E11QG_n_cul}Qinshis" />
-    <string id="str_adjective_for_faction.qinguo" text="{=E11QG_adj_fac}Qinshi" />
-    <string id="str_short_term_for_faction.qinguo" text="{=E11QG_short_term}Qinshis" />
+    <string id="str_neutral_term_for_culture.qinguo" text="{=E11QG_n_cul}Qinguis" />
+    <string id="str_adjective_for_faction.qinguo" text="{=E11QG_adj_fac}Qingui" />
+    <string id="str_short_term_for_faction.qinguo" text="{=E11QG_short_term}Qinguis" />
     <string id="str_faction_formal_name_for_culture.qinguo" text="{=E11QG_formal_name}State of Qinguo" />
-    <string id="str_faction_informal_name_for_culture.qinguo" text="{=E11QG_informal_name}the Qinshis" />
+    <string id="str_faction_informal_name_for_culture.qinguo" text="{=E11QG_informal_name}the Qinguis" />
     <string id="str_culture_description.qinguo" text="{=E11QG_desc}Only a 2 handed sword can settle an argument" />
 </strings>

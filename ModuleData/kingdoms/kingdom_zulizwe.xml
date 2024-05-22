@@ -17,10 +17,6 @@
         title="{=ZI_kingdom_title}Zulizwe Nation"
         ruler_title="{=ZI_np9abW}Mbozi"
         text="{=ZI_text}We have broken freet">
-        <relationships>
-            <relationship kingdom="Kingdom.kingdom_cereann"
-                value="-1"
-                isAtWar="true" />
-        </relationships>
+        <relationships></relationships>
     </Kingdom>
 </Kingdoms>

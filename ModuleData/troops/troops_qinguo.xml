@@ -937,7 +937,7 @@
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.crossbow_b"/>
+                    id="Item.crossbow_e"/>
                 <equipment slot="Item1"
                     id="Item.bolt_a"/>
                 <equipment slot="Item2"
@@ -1003,7 +1003,7 @@
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.crossbow_d"/>
+                    id="Item.crossbow_e"/>
                 <equipment slot="Item1"
                     id="Item.bolt_d"/>
                 <equipment slot="Item2"
@@ -1067,7 +1067,7 @@
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.crossbow_f"/>
+                    id="Item.crossbow_g"/>
                 <equipment slot="Item1"
                     id="Item.bolt_c"/>
                 <equipment slot="Item2"

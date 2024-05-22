@@ -255,7 +255,7 @@
             <name name="{=p1dFvTAc}ab {ORIGIN_SETTLEMENT}" />
         </clan_names>
         <cultural_feats>
-            <feat id="sturgian_cheaper_recruits_infantry" />
+            <feat id="vlandian_villages_production_bonus" />
             <feat id="empire_decreased_garrison_wage" />
             <feat id="vlandian_increased_army_influence_cost" />
         </cultural_feats>

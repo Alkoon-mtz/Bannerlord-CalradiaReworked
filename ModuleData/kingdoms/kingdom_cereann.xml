@@ -19,7 +19,7 @@
         ruler_title="{=afvM7XpQ}Chief"
         text="{=ZjaaAoxd}Trying to survive in their woods">
         <relationships>
-            <relationship kingdom="Kingdom.kingdom_zulizwe"
+            <relationship kingdom="Kingdom.kingdom_scarhok"
                 value="-1"
                 isAtWar="true" />
         </relationships>

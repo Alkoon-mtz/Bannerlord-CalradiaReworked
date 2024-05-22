@@ -1070,7 +1070,7 @@
                 <equipment slot="Item0"
                     id="Item.composite_bow"/>
                 <equipment slot="Item1"
-                    id="Item.bodkin_arrows_c"/>
+                    id="Item.aseriyun_arrows_a"/>
                 <equipment slot="Item2"
                     id="Item.eastern_spear_1_t2"/>
                 <equipment slot="Item3"
@@ -1138,7 +1138,7 @@
                 <equipment slot="Item0"
                     id="Item.composite_steppe_bow"/>
                 <equipment slot="Item1"
-                    id="Item.bodkin_arrows_c"/>
+                    id="Item.aseriyun_arrows_a"/>
                 <equipment slot="Item2"
                     id="Item.southern_spear_4_t3"/>
                 <equipment slot="Item3"
@@ -1205,7 +1205,7 @@
                 <equipment slot="Item0"
                     id="Item.composite_steppe_bow"/>
                 <equipment slot="Item1"
-                    id="Item.bodkin_arrows_b"/>
+                    id="Item.aseriyun_arrows_b"/>
                 <equipment slot="Item2"
                     id="Item.aserai_lance_1_t5"/>
                 <equipment slot="Item3"
@@ -1269,7 +1269,7 @@
                 <equipment slot="Item0"
                     id="Item.steppe_war_bow"/>
                 <equipment slot="Item1"
-                    id="Item.bodkin_arrows_a"/>
+                    id="Item.aseriyun_arrows_c"/>
                 <equipment slot="Item2"
                     id="Item.eastern_spear_4_t4"/>
                 <equipment slot="Item3"

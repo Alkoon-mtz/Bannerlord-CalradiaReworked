@@ -18,7 +18,7 @@
         ruler_title="{=RG_ruler_title}Chancellor"
         text="{=RG_text}yup">
         <relationships>
-            <relationship kingdom="Kingdom.kingdom_scarhok"
+            <relationship kingdom="Kingdom.kingdom_monghatai"
                 value="-1"
                 isAtWar="true" />
         </relationships>

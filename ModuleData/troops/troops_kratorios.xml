@@ -230,9 +230,9 @@
                 <equipment slot="Item0"
                     id="Item.crossbow_a"/>
                 <equipment slot="Item1"
-                    id="Item.bolt_a"/>
+                    id="Item.bolt_d"/>
                 <equipment slot="Item2"
-                    id="Item.bolt_a"/>
+                    id="Item.bolt_d"/>
                 <equipment slot="Item3"
                     id="Item.empire_sword_1_t2"/>
                 <equipment slot="Head"
@@ -296,11 +296,11 @@
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.crossbow_c"/>
+                    id="Item.crossbow_e"/>
                 <equipment slot="Item1"
-                    id="Item.bolt_d"/>
+                    id="Item.bolt_b"/>
                 <equipment slot="Item2"
-                    id="Item.bolt_d"/>
+                    id="Item.bolt_b"/>
                 <equipment slot="Item3"
                     id="Item.empire_sword_3_t3"/>
                 <equipment slot="Head"
@@ -363,11 +363,11 @@
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.crossbow_d"/>
+                    id="Item.crossbow_g"/>
                 <equipment slot="Item1"
-                    id="Item.bolt_b"/>
+                    id="Item.bolt_c"/>
                 <equipment slot="Item2"
-                    id="Item.bolt_b"/>
+                    id="Item.bolt_c"/>
                 <equipment slot="Item3"
                     id="Item.empire_noble_sword_1_t5"/>
                 <equipment slot="Head"
@@ -427,7 +427,7 @@
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.crossbow_f"/>
+                    id="Item.crossbow_g"/>
                 <equipment slot="Item1"
                     id="Item.bolt_c"/>
                 <equipment slot="Item2"
@@ -595,7 +595,7 @@
             <skill id="Riding"
                 value="30"/>
             <skill id="OneHanded"
-                value="40"/>
+                value="50"/>
             <skill id="TwoHanded"
                 value="30"/>
             <skill id="Polearm"
@@ -656,7 +656,7 @@
             <skill id="Riding"
                 value="40"/>
             <skill id="OneHanded"
-                value="60"/>
+                value="70"/>
             <skill id="TwoHanded"
                 value="40"/>
             <skill id="Polearm"
@@ -717,7 +717,7 @@
             <skill id="Riding"
                 value="60"/>
             <skill id="OneHanded"
-                value="80"/>
+                value="100"/>
             <skill id="TwoHanded"
                 value="60"/>
             <skill id="Polearm"

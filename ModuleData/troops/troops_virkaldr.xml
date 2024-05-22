@@ -449,11 +449,11 @@
         </face>
         <skills >
             <skill id="Athletics"
-                value="100"/>
+                value="65"/>
             <skill id="Riding"
                 value="10"/>
             <skill id="OneHanded"
-                value="65"/>
+                value="100"/>
             <skill id="TwoHanded"
                 value="30"/>
             <skill id="Polearm"
@@ -512,11 +512,11 @@
         </face>
         <skills >
             <skill id="Athletics"
-                value="140"/>
+                value="90"/>
             <skill id="Riding"
                 value="10"/>
             <skill id="OneHanded"
-                value="90"/>
+                value="140"/>
             <skill id="TwoHanded"
                 value="50"/>
             <skill id="Polearm"
@@ -575,11 +575,11 @@
         </face>
         <skills >
             <skill id="Athletics"
-                value="200"/>
+                value="120"/>
             <skill id="Riding"
                 value="20"/>
             <skill id="OneHanded"
-                value="120"/>
+                value="200"/>
             <skill id="TwoHanded"
                 value="60"/>
             <skill id="Polearm"
@@ -638,11 +638,11 @@
         </face>
         <skills >
             <skill id="Athletics"
-                value="260"/>
+                value="180"/>
             <skill id="Riding"
                 value="20"/>
             <skill id="OneHanded"
-                value="180"/>
+                value="260"/>
             <skill id="TwoHanded"
                 value="60"/>
             <skill id="Polearm"
@@ -805,7 +805,7 @@
     </NPCCharacter>
     <!-- Left Virkaldr -->
     <NPCCharacter id="virkaldr_hestrinn"
-        default_group="Infantry"
+        default_group="Cavalry"
         level="16"
         name="{=virkaldr_hestrinn}Virkaldr Hestrinn "
         occupation="Soldier"
@@ -824,7 +824,7 @@
             <skill id="TwoHanded"
                 value="30"/>
             <skill id="Polearm"
-                value="40"/>
+                value="50"/>
             <skill id="Bow"
                 value="15"/>
             <skill id="Crossbow"
@@ -871,7 +871,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="virkaldr_vidrinn"
-        default_group="Infantry"
+        default_group="Cavalry"
         level="21"
         name="{=virkaldr_vidrinn}Virkaldr Vidrinn"
         occupation="Soldier"
@@ -890,7 +890,7 @@
             <skill id="TwoHanded"
                 value="40"/>
             <skill id="Polearm"
-                value="60"/>
+                value="70"/>
             <skill id="Bow"
                 value="20"/>
             <skill id="Crossbow"
@@ -937,7 +937,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="virkaldr_skadrinn"
-        default_group="Infantry"
+        default_group="Cavalry"
         level="26"
         name="{=Virkaldr CR5}Virkaldr Skadrinn"
         occupation="Soldier"
@@ -956,7 +956,7 @@
             <skill id="TwoHanded"
                 value="60"/>
             <skill id="Polearm"
-                value="80"/>
+                value="100"/>
             <skill id="Bow"
                 value="30"/>
             <skill id="Crossbow"

@@ -18,19 +18,7 @@
         title="{=explorer_title}Explorer Guild"
         ruler_title="{=explorer_rulertitle}Dean"
         text="{=explorer_text}Protecting and exploring.">
-        <relationships>
-            <relationship kingdom="Kingdom.kingdom_aseriyun" value="1" />
-            <relationship kingdom="Kingdom.kingdom_cereann" value="1" />
-            <relationship kingdom="Kingdom.kingdom_iustrium" value="1" />
-            <relationship kingdom="Kingdom.kingdom_kratorios" value="1" />
-            <relationship kingdom="Kingdom.kingdom_lysellois" value="1" />
-            <relationship kingdom="Kingdom.kingdom_monghatai" value="1" />
-            <relationship kingdom="Kingdom.kingdom_qinguo" value="1" />
-            <relationship kingdom="Kingdom.kingdom_rekgeist" value="1" />
-            <relationship kingdom="Kingdom.kingdom_scarhok" value="1" />
-            <relationship kingdom="Kingdom.kingdom_virkaldr" value="1" />
-            <relationship kingdom="Kingdom.kingdom_zulizwe" value="1" />
-        </relationships>
+        <relationships></relationships>
         <policies>
             <policy id="policy_debasement_of_the_currency" />
         </policies>

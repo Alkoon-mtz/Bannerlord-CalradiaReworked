@@ -9,15 +9,15 @@
     <MBPartyTemplate id="kratorios_kingdom_hero_party_template">
         <stacks>
             <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.kratorios_recruit" />
-            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.kratorios_polemistos" />
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.kratorios_kavalaros" />
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.kratorios_polemistos" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.kratorios_kavalaros" />
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.kratorios_ippotos" />
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.kratorios_loutsos" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.kratorios_loforos" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.kratorios_loforos" />
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.kratorios_elite_loforos" />
-            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.kratorios_varyripti" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.kratorios_akontisti" />
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.kratorios_skopeftas" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.kratorios_akontisti" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.kratorios_elite_akontisti" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.kratorios_toxotas" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="kratorios_elite_caravan_template">

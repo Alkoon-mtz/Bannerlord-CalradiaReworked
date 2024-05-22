@@ -235,9 +235,9 @@
                 <equipment slot="Item0"
                     id="Item.composite_bow"/>
                 <equipment slot="Item1"
-                    id="Item.heavy_steppe_arrows"/>
+                    id="Item.light_steppe_arrows"/>
                 <equipment slot="Item2"
-                    id="Item.heavy_steppe_arrows"/>
+                    id="Item.light_steppe_arrows"/>
                 <equipment slot="Item3"
                     id="Item.broad_ild_sword_t3"/>
                 <equipment slot="Head"
@@ -303,9 +303,9 @@
                 <equipment slot="Item0"
                     id="Item.steppe_heavy_bow"/>
                 <equipment slot="Item1"
-                    id="Item.heavy_steppe_arrows"/>
+                    id="Item.light_steppe_arrows"/>
                 <equipment slot="Item2"
-                    id="Item.heavy_steppe_arrows"/>
+                    id="Item.light_steppe_arrows"/>
                 <equipment slot="Item3"
                     id="Item.khuzait_noble_sword_1_t5"/>
                 <equipment slot="Head"
@@ -371,10 +371,8 @@
                 <equipment slot="Item0"
                     id="Item.steppe_war_bow"/>
                 <equipment slot="Item1"
-                    id="Item.heavy_steppe_arrows"/>
+                    id="Item.steppe_arrows"/>
                 <equipment slot="Item2"
-                    id="Item.heavy_steppe_arrows"/>
-                <equipment slot="Item3"
                     id="Item.khuzait_noble_sword_3_t5"/>
                 <equipment slot="Head"
                     id="Item.AR_khuzait_helmet_n"/>
@@ -438,8 +436,6 @@
                 <equipment slot="Item1"
                     id="Item.heavy_steppe_arrows"/>
                 <equipment slot="Item2"
-                    id="Item.heavy_steppe_arrows"/>
-                <equipment slot="Item3"
                     id="Item.khuzait_noble_sword_2_t5"/>
                 <equipment slot="Head"
                     id="Item.AR_khuzait_helmet_o"/>
@@ -941,7 +937,7 @@
                 <equipment slot="Item2"
                     id="Item.steppe_bow"/>
                 <equipment slot="Item3"
-                    id="Item.steppe_arrows"/>
+                    id="Item.light_steppe_arrows"/>
                 <equipment slot="Head"
                     id="Item.AR_khuzait_helmet_p"/>
                 <equipment slot="Cape"
@@ -1009,7 +1005,7 @@
                 <equipment slot="Item2"
                     id="Item.composite_bow"/>
                 <equipment slot="Item3"
-                    id="Item.steppe_arrows"/>
+                    id="Item.light_steppe_arrows"/>
                 <equipment slot="Head"
                     id="Item.AR_khuzait_helmet_u"/>
                 <equipment slot="Cape"
@@ -1076,7 +1072,7 @@
                 <equipment slot="Item2"
                     id="Item.composite_steppe_bow"/>
                 <equipment slot="Item3"
-                    id="Item.steppe_arrows"/>
+                    id="Item.light_steppe_arrows"/>
                 <equipment slot="Head"
                     id="Item.AR_khuzait_helmet_v"/>
                 <equipment slot="Cape"
@@ -1140,7 +1136,7 @@
                 <equipment slot="Item2"
                     id="Item.steppe_war_bow"/>
                 <equipment slot="Item3"
-                    id="Item.steppe_arrows"/>
+                    id="Item.light_steppe_arrows"/>
                 <equipment slot="Head"
                     id="Item.AR_khuzait_lord_helmet_f"/>
                 <equipment slot="Cape"

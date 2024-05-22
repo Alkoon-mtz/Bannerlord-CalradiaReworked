@@ -8,11 +8,11 @@
         mesh="normand_axe_craft_26_head_t2"
         distance_to_next_piece="9"
         distance_to_previous_piece="3.5"
-        weight="0.500">
+        weight="0.900">
         <BuildData piece_offset="-7" />
         <BladeData stack_amount="10"
-            blade_length="20"
-            blade_width="25"
+            blade_length="11.38"
+            blade_width="28.852"
             physics_material="metal_weapon"
             body_name="bo_axe_longer_b"
             holster_mesh="throwing_axe_quiver_1">
@@ -36,11 +36,11 @@
         mesh="normand_axe_craft_26_head_t3"
         distance_to_next_piece="9"
         distance_to_previous_piece="3.5"
-        weight="0.500">
+        weight="1.078">
         <BuildData piece_offset="-7" />
         <BladeData stack_amount="10"
-            blade_length="20"
-            blade_width="25"
+            blade_length="13.657"
+            blade_width="34.623"
             physics_material="metal_weapon"
             body_name="bo_axe_longer_b"
             holster_mesh="throwing_axe_quiver_1">
@@ -64,11 +64,11 @@
         mesh="normand_axe_craft_26_head_t4"
         distance_to_next_piece="9"
         distance_to_previous_piece="3.5"
-        weight="0.500">
+        weight="1.258">
         <BuildData piece_offset="-7" />
         <BladeData stack_amount="10"
-            blade_length="20"
-            blade_width="25"
+            blade_length="15.934"
+            blade_width="40.394"
             physics_material="metal_weapon"
             body_name="bo_axe_longer_b"
             holster_mesh="throwing_axe_quiver_1">
@@ -92,11 +92,11 @@
         mesh="normand_axe_craft_26_head_t5"
         distance_to_next_piece="9"
         distance_to_previous_piece="3.5"
-        weight="0.500">
+        weight="1.438">
         <BuildData piece_offset="-7" />
         <BladeData stack_amount="10"
-            blade_length="20"
-            blade_width="25"
+            blade_length="18.21"
+            blade_width="46.164"
             physics_material="metal_weapon"
             body_name="bo_axe_longer_b"
             holster_mesh="throwing_axe_quiver_1">
@@ -113,6 +113,7 @@
             <Flag name="BonusAgainstShield" />
         </Flags>
     </CraftingPiece>
+
     <!-- 1H -->
     <CraftingPiece id="scarhok_axe_craft_t3_head"
         name="{=scarhok_axe_craft_t3_head}Scarhok Rectangular Axe Head T3"

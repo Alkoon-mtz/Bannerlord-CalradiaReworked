@@ -344,7 +344,7 @@
             <name name="{=63ZZltcm}Zalastros" />
         </clan_names>
         <cultural_feats>
-            <feat id="vlandian_renown_mercenary_income" />
+            <feat id="sturgian_decreased_cohesion_rate" />
             <feat id="empire_army_influence" />
             <feat id="khuzait_decreased_town_tax" />
         </cultural_feats>

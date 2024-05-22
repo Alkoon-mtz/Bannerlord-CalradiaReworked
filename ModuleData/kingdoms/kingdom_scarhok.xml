@@ -18,7 +18,7 @@
         ruler_title="{=SH_ruler_title}Chief"
         text="{=SH_text}Coming from the north west, they wrecked everyone by throwing axes">
         <relationships>
-            <relationship kingdom="Kingdom.kingdom_rekgeist"
+            <relationship kingdom="Kingdom.kingdom_cereann"
                 value="-1"
                 isAtWar="true" />
         </relationships>
