@@ -17,10 +17,10 @@
         title="{=QG_kingdom_title}Qinguo State"
         ruler_title="{=isnp9abW}Supreme Leader"
         text="{=QG_text}Once a great empire, they got hard times against cavalry coming from the north">
-        <relationships>
-            <relationship kingdom="Kingdom.kingdom_kratorios"
+        <relationships></relationships>
+            <!-- <relationship kingdom="Kingdom.kingdom_monghatai"
                 value="-1"
                 isAtWar="true" />
-        </relationships>
+        </relationships> -->
     </Kingdom>
 </Kingdoms>

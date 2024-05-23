@@ -774,7 +774,7 @@
     <!--Lord -->
     <EquipmentRoster id="qin_bat_template_low" culture="Culture.qinguo">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.eastern_throwing_spear_1_t3"/>
+            <Equipment slot="Item0" id="Item.eastern_spear_5_t5"/>
             <Equipment slot="Item1" id="Item.steel_round_shield"/>
             <Equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
             <Equipment slot="Head" id="Item.TV_aserai_guard_helmet_c4"/>
@@ -787,7 +787,7 @@
     </EquipmentRoster>
     <EquipmentRoster id="qin_bat_template_medium" culture="Culture.qinguo">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.crossbow_f"/>
+            <Equipment slot="Item0" id="Item.crossbow_g"/>
             <Equipment slot="Item1" id="Item.bolt_c"/>
             <Equipment slot="Item2" id="Item.bolt_c"/>
             <Equipment slot="Item3" id="Item.cleaver_2hsword_t3"/>
@@ -803,7 +803,7 @@
     </EquipmentRoster>
     <EquipmentRoster id="qin_bat_template_heavy" culture="Culture.qinguo">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.crossbow_g"/>
+            <Equipment slot="Item0" id="Item.qinguo_chukonu_t5"/>
             <Equipment slot="Item1" id="Item.bolt_c"/>
             <Equipment slot="Item2" id="Item.bolt_c"/>
             <Equipment slot="Item3" id="Item.khuzait_noble_sword_1_t5"/>

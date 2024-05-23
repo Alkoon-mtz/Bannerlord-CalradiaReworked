@@ -17,10 +17,10 @@
         title="{=RG_kingdom_title}The Rekgeist Federation"
         ruler_title="{=RG_ruler_title}Chancellor"
         text="{=RG_text}yup">
-        <relationships>
-            <relationship kingdom="Kingdom.kingdom_monghatai"
+        <relationships></relationships>
+            <!-- <relationship kingdom="Kingdom.kingdom_virkaldr"
                 value="-1"
                 isAtWar="true" />
-        </relationships>
+        </relationships> -->
     </Kingdom>
 </Kingdoms>

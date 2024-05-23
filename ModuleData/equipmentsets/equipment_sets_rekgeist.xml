@@ -802,7 +802,7 @@
     </EquipmentRoster>
     <EquipmentRoster id="rek_bat_template_medium" culture="Culture.rekgeist">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+            <Equipment slot="Item0" id="Item.rekgeist_pike_t5"/>
             <Equipment slot="Item1" id="Item.tall_heater_shield"/>
             <Equipment slot="Item2" id="Item.empire_mace_4_t5"/>
             <Equipment slot="Head" id="Item.sallet_base"/>
@@ -814,7 +814,7 @@
     </EquipmentRoster>
     <EquipmentRoster id="rek_bat_template_heavy" culture="Culture.rekgeist">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.vlandia_2hsword_1_t5"/>
+            <Equipment slot="Item0" id="Item.rekgeist_2hsword_1_t5"/>
             <Equipment slot="Head" id="Item.vlandian_helm_with_faceplate_painted"/>
             <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
             <Equipment slot="Body" id="Item.coat_of_plates9_c"/>
@@ -824,7 +824,7 @@
             <Equipment slot="HorseHarness" id="Item.northern_ring_barding"/>
         </EquipmentSet>
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.vlandia_2hsword_1_t5"/>
+            <Equipment slot="Item0" id="Item.rekgeist_2hsword_1_t5"/>
             <Equipment slot="Head" id="Item.vlandian_helm_with_faceplate"/>
             <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
             <Equipment slot="Body" id="Item.coat_of_plates10_c"/>

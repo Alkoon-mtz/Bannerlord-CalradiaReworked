@@ -38,7 +38,7 @@
     <EquipmentRoster id="ase_bat_template_medium" culture="Culture.aserai">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.steppe_war_bow"/>
-            <Equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+            <Equipment slot="Item1" id="Item.aseriyun_arrows_c"/>
             <Equipment slot="Item2" id="Item.eastern_spear_4_t4"/>
             <Equipment slot="Item3" id="Item.highland_riders_shield"/>
             <Equipment slot="Head" id="Item.pointed_skullcap_with_mail"/>

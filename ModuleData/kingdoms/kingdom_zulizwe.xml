@@ -18,5 +18,9 @@
         ruler_title="{=ZI_np9abW}Mbozi"
         text="{=ZI_text}We have broken freet">
         <relationships></relationships>
+            <!-- <relationship kingdom="Kingdom.kingdom_kratorios"
+                value="-1"
+                isAtWar="true" />
+        </relationships> -->
     </Kingdom>
 </Kingdoms>

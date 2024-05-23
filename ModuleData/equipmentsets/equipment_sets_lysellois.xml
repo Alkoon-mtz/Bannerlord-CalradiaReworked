@@ -788,25 +788,25 @@
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
             <Equipment slot="Item1" id="Item.wide_heater_shield"/>
-            <equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
+            <Equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
             <Equipment slot="Head" id="Item.sa_bacinet_with_facemask"/>
             <Equipment slot="Cape" id="Item.swadian_shoulders"/>
             <Equipment slot="Body" id="Item.swadian_striped_cuirass"/>
             <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
             <Equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
-            <Equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+            <Equipment slot="Horse" id="Item.lysellois_melee_horse_t5"/>
             <Equipment slot="HorseHarness" id="Item.chain_barding"/>
         </EquipmentSet>
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
             <Equipment slot="Item1" id="Item.wide_heater_shield"/>
-            <equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
+            <Equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
             <Equipment slot="Head" id="Item.sa_bacinet_with_facemask"/>
             <Equipment slot="Cape" id="Item.swadian_shoulders"/>
             <Equipment slot="Body" id="Item.swadian_cuirass"/>
             <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
             <Equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
-            <Equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+            <Equipment slot="Horse" id="Item.lysellois_melee_horse_t5"/>
             <Equipment slot="HorseHarness" id="Item.chain_barding"/>
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true" />
@@ -821,7 +821,7 @@
             <Equipment slot="Body" id="Item.Sa_tabbartplate"/>
             <Equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
             <Equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
-            <Equipment slot="Horse" id="Item.noble_horse_western"/>
+            <Equipment slot="Horse" id="Item.lysellois_charge_horse_t6"/>
             <Equipment slot="HorseHarness" id="Item.chain_barding"/>
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" />
@@ -836,7 +836,7 @@
             <Equipment slot="Body" id="Item.Sa_tabbartplate"/>
             <Equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
             <Equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
-            <Equipment slot="Horse" id="Item.noble_horse_western"/>
+            <Equipment slot="Horse" id="Item.lysellois_charge_horse_t6"/>
             <Equipment slot="HorseHarness" id="Item.chain_barding"/>
         </EquipmentSet>
         <Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
@@ -1016,7 +1016,7 @@
             <Equipment slot="Body" id="Item.Sa_tabbartplate"/>
             <Equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
             <Equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
-            <Equipment slot="Horse" id="Item.noble_horse_western"/>
+            <Equipment slot="Horse" id="Item.lysellois_charge_horse_t6"/>
             <Equipment slot="HorseHarness" id="Item.chain_barding"/>
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="false" />
@@ -1031,7 +1031,7 @@
             <Equipment slot="Body" id="Item.Sa_tabbartplate"/>
             <Equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
             <Equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
-            <Equipment slot="Horse" id="Item.noble_horse_western"/>
+            <Equipment slot="Horse" id="Item.lysellois_charge_horse_t6"/>
             <Equipment slot="HorseHarness" id="Item.chain_barding"/>
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="false" />

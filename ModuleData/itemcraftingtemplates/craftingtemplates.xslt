@@ -52,4 +52,27 @@
             <UsablePiece piece_id="monghatai_blade_t3"/>
         </xsl:copy>
     </xsl:template>
+
+    <xsl:template match="CraftingTemplate[@id='TwoHandedPolearm']/UsablePieces">
+        <xsl:copy>
+            <xsl:apply-templates/>
+            <UsablePiece piece_id="rekgeist_blade_pike_t5"/>
+            <UsablePiece piece_id="rekgeist_blade_pike_t4"/>
+            <UsablePiece piece_id="rekgeist_blade_pike_t3"/>
+            <UsablePiece piece_id="kratorios_spear_blade_t5"/>
+            <UsablePiece piece_id="kratorios_spear_blade_t4"/>
+            <UsablePiece piece_id="kratorios_spear_blade_t3"/>
+        </xsl:copy>
+    </xsl:template>
+    <xsl:template match="CraftingTemplate[@id='Pike']/UsablePieces">
+        <xsl:copy>
+            <xsl:apply-templates/>
+            <UsablePiece piece_id="rekgeist_blade_pike_t5"/>
+            <UsablePiece piece_id="rekgeist_blade_pike_t4"/>
+            <UsablePiece piece_id="rekgeist_blade_pike_t3"/>
+            <UsablePiece piece_id="kratorios_spear_blade_t5"/>
+            <UsablePiece piece_id="kratorios_spear_blade_t4"/>
+            <UsablePiece piece_id="kratorios_spear_blade_t3"/>
+        </xsl:copy>
+    </xsl:template>
 </xsl:stylesheet>

@@ -899,46 +899,29 @@
             <face_key_template value="BodyProperty.fighter_virkaldr"/>
         </face>
         <skills >
-            <skill id="Athletics"
-                value="90"/>
-            <skill id="Riding"
-                value="15"/>
-            <skill id="OneHanded"
-                value="40"/>
-            <skill id="TwoHanded"
-                value="40"/>
-            <skill id="Polearm"
-                value="30"/>
-            <skill id="Bow"
-                value="100"/>
-            <skill id="Crossbow"
-                value="15"/>
-            <skill id="Throwing"
-                value="30"/>
+            <skill id="Athletics" value="90"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="40"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="30"/>
+            <skill id="Bow" value="100"/>
+            <skill id="Crossbow" value="15"/>
+            <skill id="Throwing" value="30"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.virkaldr_veidi"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.glen_ranger_bow"/>
-                <equipment slot="Item1"
-                    id="Item.default_arrows"/>
-                <equipment slot="Item2"
-                    id="Item.default_arrows"/>
-                <equipment slot="Item3"
-                    id="Item.sturgia_axe_3_t3"/>
-                <equipment slot="Head"
-                    id="Item.AR_sturgia_helmet_h2"/>
-                <equipment slot="Cape"
-                    id="Item.AR_sturgia_shoulders_e"/>
-                <equipment slot="Body"
-                    id="Item.AR_sturgia_armor_e2"/>
-                <equipment slot="Gloves"
-                    id="Item.TV_battania_gloves_a"/>
-                <equipment slot="Leg"
-                    id="Item.TV_empire_boots_c"/>
+                <equipment slot="Item0" id="Item.glen_ranger_bow"/>
+                <equipment slot="Item1" id="Item.virkaldr_hunting_arrow_1"/>
+                <equipment slot="Item2" id="Item.virkaldr_hunting_arrow_1"/>
+                <equipment slot="Item3" id="Item.sturgia_axe_3_t3"/>
+                <equipment slot="Head" id="Item.AR_sturgia_helmet_h2"/>
+                <equipment slot="Cape" id="Item.AR_sturgia_shoulders_e"/>
+                <equipment slot="Body" id="Item.AR_sturgia_armor_e2"/>
+                <equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+                <equipment slot="Leg" id="Item.TV_empire_boots_c"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -962,43 +945,26 @@
             <face_key_template value="BodyProperty.fighter_virkaldr"/>
         </face>
         <skills >
-            <skill id="Athletics"
-                value="120"/>
-            <skill id="Riding"
-                value="20"/>
-            <skill id="OneHanded"
-                value="60"/>
-            <skill id="TwoHanded"
-                value="60"/>
-            <skill id="Polearm"
-                value="40"/>
-            <skill id="Bow"
-                value="140"/>
-            <skill id="Crossbow"
-                value="20"/>
-            <skill id="Throwing"
-                value="40"/>
+            <skill id="Athletics" value="120"/>
+            <skill id="Riding" value="20"/>
+            <skill id="OneHanded" value="60"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="140"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="40"/>
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.woodland_yew_bow"/>
-                <equipment slot="Item1"
-                    id="Item.range_arrows"/>
-                <equipment slot="Item2"
-                    id="Item.range_arrows"/>
-                <equipment slot="Item3"
-                    id="Item.sturgia_axe_4_t4"/>
-                <equipment slot="Head"
-                    id="Item.AR_sturgia_helmet_j2"/>
-                <equipment slot="Cape"
-                    id="Item.AR_sturgia_shoulders_e2"/>
-                <equipment slot="Body"
-                    id="Item.AR_sturgia_armor_a"/>
-                <equipment slot="Gloves"
-                    id="Item.TV_vlandia_gloves_a"/>
-                <equipment slot="Leg"
-                    id="Item.TV_aserai_boots_e"/>
+                <equipment slot="Item0" id="Item.woodland_yew_bow"/>
+                <equipment slot="Item1" id="Item.virkaldr_hunting_arrow_2"/>
+                <equipment slot="Item2" id="Item.virkaldr_hunting_arrow_2"/>
+                <equipment slot="Item3" id="Item.sturgia_axe_4_t4"/>
+                <equipment slot="Head" id="Item.AR_sturgia_helmet_j2"/>
+                <equipment slot="Cape" id="Item.AR_sturgia_shoulders_e2"/>
+                <equipment slot="Body" id="Item.AR_sturgia_armor_a"/>
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
+                <equipment slot="Leg" id="Item.TV_aserai_boots_e"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"

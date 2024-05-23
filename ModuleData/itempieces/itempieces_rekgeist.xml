@@ -46,4 +46,62 @@
                 count="4" />
         </Materials>
     </CraftingPiece>
+
+    <CraftingPiece id="rekgeist_blade_pike_t5"
+        name="{=rekgeist_blade_pike_t5}Solid Spitze"
+        tier="5"
+        piece_type="Blade"
+        mesh="spear_blade_8"
+        length="60.153"
+        weight="0.7"
+        excluded_item_usage_features="swing">
+        <BladeData stack_amount="3"
+            physics_material="wood_weapon"
+            body_name="bo_spear_b">
+            <Thrust damage_type="Pierce"
+                damage_factor="5.0" />
+        </BladeData>
+        <Materials>
+            <Material id="Iron3"
+                count="2" />
+        </Materials>
+    </CraftingPiece>
+    <CraftingPiece id="rekgeist_blade_pike_t4"
+        name="{=rekgeist_blade_pike_t4}Spitze"
+        tier="5"
+        piece_type="Blade"
+        mesh="spear_blade_8"
+        length="60.153"
+        weight="0.7"
+        excluded_item_usage_features="swing">
+        <BladeData stack_amount="3"
+            physics_material="wood_weapon"
+            body_name="bo_spear_b">
+            <Thrust damage_type="Pierce"
+                damage_factor="4.2" />
+        </BladeData>
+        <Materials>
+            <Material id="Iron3"
+                count="2" />
+        </Materials>
+    </CraftingPiece>
+    <CraftingPiece id="rekgeist_blade_pike_t3"
+        name="{=rekgeist_blade_pike_t3}Light Spitze"
+        tier="5"
+        piece_type="Blade"
+        mesh="spear_blade_8"
+        length="60.153"
+        weight="0.7"
+        excluded_item_usage_features="swing">
+        <BladeData stack_amount="3"
+            physics_material="wood_weapon"
+            body_name="bo_spear_b">
+            <Thrust damage_type="Pierce"
+                damage_factor="3.4" />
+        </BladeData>
+        <Materials>
+            <Material id="Iron3"
+                count="2" />
+        </Materials>
+    </CraftingPiece>
 </CraftingPieces>

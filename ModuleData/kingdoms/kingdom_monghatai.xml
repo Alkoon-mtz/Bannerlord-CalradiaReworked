@@ -18,13 +18,10 @@
         title="{=bF7HmNGQ}Monghatai Khanate"
         ruler_title="{=hwnp9abW}Khan"
         text="{=fGNdo1BK}Nomadic tribes unified under a single leader">
-        <relationships>
-            <relationship kingdom="Kingdom.kingdom_virkaldr"
+        <relationships></relationships>
+            <!-- <relationship kingdom="Kingdom.kingdom_qinguo"
                 value="-1"
                 isAtWar="true" />
-            <relationship kingdom="Kingdom.kingdom_rekgeist"
-                value="-1"
-                isAtWar="true" />
-        </relationships>
+        </relationships> -->
     </Kingdom>
 </Kingdoms>

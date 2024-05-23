@@ -1,6 +1,6 @@
 <NPCCharacters>
     <!--
-        zul_bat_template_flamboyant lord_pol_throw_1
+        zul_bat_template_flamboyant lord_pol_1h_1
         zul_bat_template_heavy      lord_cav_pol_throw_1
         zul_bat_template_medium     lord_archer_1h_1
         zul_bat_template_low        lord_cav_archer_1h_1
@@ -15,7 +15,7 @@
         is_hero="true"
         culture="Culture.zulizwe"
         occupation="Lord"
-        skill_template="SkillSet.lord_pol_throw_1">
+        skill_template="SkillSet.lord_pol_1h_1">
         <face>
             <BodyProperties version="4"
                 age="47"
@@ -164,7 +164,7 @@
         is_hero="true"
         culture="Culture.zulizwe"
         occupation="Lord"
-        skill_template="SkillSet.lord_pol_throw_1">
+        skill_template="SkillSet.lord_pol_1h_1">
         <face>
             <BodyProperties version="4" age="37" weight="0.137" build="0.613"  key="003AEC0C49CC000E9E87DB7DC3CADFFCEE7F9FBCD7D7FCBCEEFFFF6F992FEBF900E926030EACCCB4000000000000000000000000000000000000000057DC3083"  />
         </face>
@@ -257,7 +257,7 @@
         is_hero="true"
         culture="Culture.zulizwe"
         occupation="Lord"
-        skill_template="SkillSet.lord_pol_throw_1">
+        skill_template="SkillSet.lord_pol_1h_1">
         <face>
             <BodyProperties version="4"
                 age="40"
@@ -446,7 +446,7 @@
         is_hero="true"
         culture="Culture.zulizwe"
         occupation="Lord"
-        skill_template="SkillSet.lord_pol_throw_1">
+        skill_template="SkillSet.lord_pol_1h_1">
         <face>
             <BodyProperties version="4"
                 age="32"
@@ -704,7 +704,7 @@
         is_hero="true"
         culture="Culture.zulizwe"
         occupation="Lord"
-        skill_template="SkillSet.lord_pol_throw_2">
+        skill_template="SkillSet.lord_pol_1h_2">
         <face>
             <BodyProperties version="4" age="34" weight="0.2628" build="0.7575"  key="0034F40E42CC3017ED849EDEDECBE6FEAE7F9FBCDAE5EC88AEFFFF7F9924CCD900CB46030CABCCA8000000000000000000000000000000000000000027944142"  />
         </face>
@@ -846,7 +846,7 @@
         is_hero="true"
         culture="Culture.zulizwe"
         occupation="Lord"
-        skill_template="SkillSet.lord_pol_throw_2">
+        skill_template="SkillSet.lord_pol_1h_2">
         <face>
             <BodyProperties version="4" age="25" weight="0.262" build="0.751"  key="0034F40E43CC201A7E723D7CD9DBDFFDCE7E9CBBDAC48CDEADFFFF4F992ECAF900DB46030DACC7CA000000000000000000000000000000000000000019AC9081"  />
         </face>

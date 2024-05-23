@@ -1024,28 +1024,17 @@
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.crossbow_g"/>
-                <equipment slot="Item1"
-                    id="Item.bolt_c"/>
-                <equipment slot="Item2"
-                    id="Item.bolt_c"/>
-                <equipment slot="Item3"
-                    id="Item.cleaver_2hsword_t3"/>
-                <equipment slot="Head"
-                    id="Item.AR_battania_lord_helmet_j"/>
-                <equipment slot="Cape"
-                    id="Item.a_aserai_scale_b_shoulder_c"/>
-                <equipment slot="Body"
-                    id="Item.TV_vlandia_armor_d2"/>
-                <equipment slot="Gloves"
-                    id="Item.AR_empire_gloves_d"/>
-                <equipment slot="Leg"
-                    id="Item.AR_empire_boots_c"/>
-                <equipment slot="Horse"
-                    id="Item.t3_khuzait_horse"/>
-                <equipment slot="HorseHarness"
-                    id="Item.studded_steppe_barding"/>
+                <equipment slot="Item0" id="Item.crossbow_g"/>
+                <equipment slot="Item1" id="Item.bolt_c"/>
+                <equipment slot="Item2" id="Item.bolt_c"/>
+                <equipment slot="Item3" id="Item.cleaver_2hsword_t3"/>
+                <equipment slot="Head" id="Item.AR_battania_lord_helmet_j"/>
+                <equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_c"/>
+                <equipment slot="Body" id="Item.TV_vlandia_armor_d2"/>
+                <equipment slot="Gloves" id="Item.AR_empire_gloves_d"/>
+                <equipment slot="Leg" id="Item.AR_empire_boots_c"/>
+                <equipment slot="Horse" id="Item.t3_khuzait_horse"/>
+                <equipment slot="HorseHarness" id="Item.studded_steppe_barding"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"

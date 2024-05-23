@@ -18,10 +18,10 @@
         title="{=frBQ9mbP}Kratorios Empire"
         ruler_title="{=OoHhCa11}Emperor"
         text="{=kratorios_text}An emerging empire trying to unify the continent">
-        <relationships>
-            <relationship kingdom="Kingdom.kingdom_qinguo"
+        <relationships></relationships>
+            <!-- <relationship kingdom="Kingdom.kingdom_zulizwe"
                 value="-1"
                 isAtWar="true" />
-        </relationships>
+        </relationships> -->
     </Kingdom>
 </Kingdoms>

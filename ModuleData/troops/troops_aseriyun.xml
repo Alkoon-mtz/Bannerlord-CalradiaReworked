@@ -1266,28 +1266,17 @@
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.steppe_war_bow"/>
-                <equipment slot="Item1"
-                    id="Item.aseriyun_arrows_c"/>
-                <equipment slot="Item2"
-                    id="Item.eastern_spear_4_t4"/>
-                <equipment slot="Item3"
-                    id="Item.highland_riders_shield"/>
-                <equipment slot="Head"
-                    id="Item.pointed_skullcap_with_mail"/>
-                <equipment slot="Cape"
-                    id="Item.aserai_scale_shoulder_e"/>
-                <equipment slot="Body"
-                    id="Item.AR_aserai_armor_j"/>
-                <equipment slot="Gloves"
-                    id="Item.TV_sturgia_gloves_b"/>
-                <equipment slot="Leg"
-                    id="Item.TV_sturgia_boots_b"/>
-                <equipment slot="Horse"
-                    id="Item.noble_horse_southern"/>
-                <equipment slot="HorseHarness"
-                    id="Item.mail_and_plate_barding"/>
+                <equipment slot="Item0" id="Item.steppe_war_bow"/>
+                <equipment slot="Item1" id="Item.aseriyun_arrows_c"/>
+                <equipment slot="Item2" id="Item.eastern_spear_4_t4"/>
+                <equipment slot="Item3" id="Item.highland_riders_shield"/>
+                <equipment slot="Head" id="Item.pointed_skullcap_with_mail"/>
+                <equipment slot="Cape" id="Item.aserai_scale_shoulder_e"/>
+                <equipment slot="Body" id="Item.AR_aserai_armor_j"/>
+                <equipment slot="Gloves" id="Item.TV_sturgia_gloves_b"/>
+                <equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+                <equipment slot="Horse" id="Item.noble_horse_southern"/>
+                <equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"

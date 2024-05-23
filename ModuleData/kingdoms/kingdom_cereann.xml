@@ -18,10 +18,10 @@
         title="{=qaDIU0XC}Cereann Union"
         ruler_title="{=afvM7XpQ}Chief"
         text="{=ZjaaAoxd}Trying to survive in their woods">
-        <relationships>
-            <relationship kingdom="Kingdom.kingdom_scarhok"
+        <relationships></relationships>
+            <!-- <relationship kingdom="Kingdom.kingdom_lysellois"
                 value="-1"
                 isAtWar="true" />
-        </relationships>
+        </relationships> -->
     </Kingdom>
 </Kingdoms>

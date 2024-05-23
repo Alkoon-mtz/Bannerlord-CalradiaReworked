@@ -17,10 +17,6 @@
         title="{=SH_kingdom_title}Scarhok Chiefdom"
         ruler_title="{=SH_ruler_title}Chief"
         text="{=SH_text}Coming from the north west, they wrecked everyone by throwing axes">
-        <relationships>
-            <relationship kingdom="Kingdom.kingdom_cereann"
-                value="-1"
-                isAtWar="true" />
-        </relationships>
+        <relationships></relationships>
     </Kingdom>
 </Kingdoms>

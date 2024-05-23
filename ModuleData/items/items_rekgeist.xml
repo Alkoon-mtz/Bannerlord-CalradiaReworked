@@ -40,4 +40,44 @@
                 scale_factor="100" />
         </Pieces>
     </CraftedItem>
+
+    <CraftedItem id="rekgeist_pike_t5"
+        name="{=rekgeist_pike_t5}Rekgeist Solid Pike"
+        crafting_template="Pike"
+        modifier_group="polearm">
+        <Pieces>
+            <Piece id="rekgeist_blade_pike_t5"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="spear_handle_7"
+                Type="Handle"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="rekgeist_pike_t4"
+        name="{=rekgeist_pike_t4}Rekgeist Pike"
+        crafting_template="Pike"
+        modifier_group="polearm">
+        <Pieces>
+            <Piece id="rekgeist_blade_pike_t4"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="spear_handle_7"
+                Type="Handle"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="rekgeist_pike_t3"
+        name="{=rekgeist_pike_t3}Rekgeist Light Pike"
+        crafting_template="Pike"
+        modifier_group="polearm">
+        <Pieces>
+            <Piece id="rekgeist_blade_pike_t3"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="spear_handle_7"
+                Type="Handle"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
 </Items>

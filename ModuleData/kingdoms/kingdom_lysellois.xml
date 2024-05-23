@@ -18,5 +18,9 @@
         ruler_title="{=hwnp9abW}King"
         text="{=LY_text}These are the french but with an other name to be honest">
         <relationships></relationships>
+            <!-- <relationship kingdom="Kingdom.kingdom_cereann"
+                value="-1"
+                isAtWar="true" />
+        </relationships> -->
     </Kingdom>
 </Kingdoms>

@@ -17,10 +17,10 @@
         title="{=IS_kingdom_title}Iustrium Principalities"
         ruler_title="{=isnp9abW}Prince"
         text="{=IS_text}Deus lo Vult">
-        <relationships>
-            <relationship kingdom="Kingdom.kingdom_aseriyun"
+        <relationships></relationships>
+            <!-- <relationship kingdom="Kingdom.kingdom_aseriyun"
                 value="-1"
                 isAtWar="true" />
-        </relationships>
+        </relationships> -->
     </Kingdom>
 </Kingdoms>

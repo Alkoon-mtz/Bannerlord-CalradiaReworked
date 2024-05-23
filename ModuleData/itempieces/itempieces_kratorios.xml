@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>
+    <CraftingPiece id="kratorios_spear_blade_t5"
+        name="{=kratorios_spear_blade_t5}Fine Swordspear Head"
+        tier="5"
+        piece_type="Blade"
+        mesh="spear_blade_18"
+        length="70"
+        weight="0.9096">
+        <BladeData stack_amount="3"
+            physics_material="wood_weapon"
+            body_name="bo_spear_b">
+            <Thrust damage_type="Pierce"
+                damage_factor="4.6" />
+            <Swing damage_type="Cut"
+                damage_factor="3.6" />
+        </BladeData>
+        <Materials>
+            <Material id="Iron4"
+                count="2" />
+        </Materials>
+    </CraftingPiece>
+    <CraftingPiece id="kratorios_spear_blade_t4"
+        name="{=kratorios_spear_blade_t4}Swordspear Head"
+        tier="5"
+        piece_type="Blade"
+        mesh="spear_blade_18"
+        length="70"
+        weight="0.9096">
+        <BladeData stack_amount="3"
+            physics_material="wood_weapon"
+            body_name="bo_spear_b">
+            <Thrust damage_type="Pierce"
+                damage_factor="3.7" />
+            <Swing damage_type="Cut"
+                damage_factor="2.7" />
+        </BladeData>
+        <Materials>
+            <Material id="Iron4"
+                count="2" />
+        </Materials>
+    </CraftingPiece>
+    <CraftingPiece id="kratorios_spear_blade_t3"
+        name="{=kratorios_spear_blade_t3}Light Swordspear Head"
+        tier="5"
+        piece_type="Blade"
+        mesh="spear_blade_18"
+        length="70"
+        weight="0.9096">
+        <BladeData stack_amount="3"
+            physics_material="wood_weapon"
+            body_name="bo_spear_b">
+            <Thrust damage_type="Pierce"
+                damage_factor="3.2" />
+            <Swing damage_type="Cut"
+                damage_factor="2.2" />
+        </BladeData>
+        <Materials>
+            <Material id="Iron4"
+                count="2" />
+        </Materials>
+    </CraftingPiece>
+</CraftingPieces>

@@ -18,10 +18,10 @@
         title="{=UsbwPmYb}Aseriyun Sultanate"
         ruler_title="{=5djtBrHj}Sultan"
         text="{=qggtvf8Y}Inhabitant of the desert, they lost parts of their sultanate after the wars with Iustrium">
-        <relationships>
-            <relationship kingdom="Kingdom.kingdom_iustrium"
+        <relationships></relationships>
+            <!-- <relationship kingdom="Kingdom.kingdom_iustrium"
                 value="-1"
                 isAtWar="true" />
-        </relationships>
+        </relationships> -->
     </Kingdom>
 </Kingdoms>

@@ -936,13 +936,13 @@
             <face_key_template value="BodyProperty.fighter_rekgeist"/>
         </face>
         <skills >
-            <skill id="Athletics" value="50"/>
+            <skill id="Athletics" value="30"/>
             <skill id="Riding" value="15"/>
-            <skill id="OneHanded" value="30"/>
+            <skill id="OneHanded" value="50"/>
             <skill id="TwoHanded" value="15"/>
-            <skill id="Polearm" value="50"/>
+            <skill id="Polearm" value="55"/>
             <skill id="Bow" value="10"/>
-            <skill id="Crossbow" value="20"/>
+            <skill id="Crossbow" value="15"/>
             <skill id="Throwing" value="10"/>
         </skills>
         <upgrade_targets>
@@ -950,7 +950,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.vlandia_lance_1_t3"/>
+                <equipment slot="Item0" id="Item.rekgeist_pike_t3"/>
                 <equipment slot="Item1" id="Item.flat_heater_shield"/>
                 <equipment slot="Item2" id="Item.aserai_mace_2_t2"/>
                 <equipment slot="Head" id="Item.TV_vlandia_helmet_s"/>
@@ -975,13 +975,13 @@
             <face_key_template value="BodyProperty.fighter_rekgeist"/>
         </face>
         <skills >
-            <skill id="Athletics" value="80"/>
+            <skill id="Athletics" value="70"/>
             <skill id="Riding" value="30"/>
-            <skill id="OneHanded" value="70"/>
+            <skill id="OneHanded" value="80"/>
             <skill id="TwoHanded" value="30"/>
-            <skill id="Polearm" value="80"/>
+            <skill id="Polearm" value="85"/>
             <skill id="Bow" value="15"/>
-            <skill id="Crossbow" value="40"/>
+            <skill id="Crossbow" value="35"/>
             <skill id="Throwing" value="15"/>
         </skills>
         <upgrade_targets>
@@ -989,7 +989,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.sturgia_lance_1_t4"/>
+                <equipment slot="Item0" id="Item.rekgeist_pike_t3"/>
                 <equipment slot="Item1" id="Item.bracketed_heater_shield"/>
                 <equipment slot="Item2" id="Item.morningstar_mace_t3"/>
                 <equipment slot="Head" id="Item.TV_vlandia_helmet_l"/>
@@ -1015,13 +1015,13 @@
             <face_key_template value="BodyProperty.fighter_rekgeist"/>
         </face>
         <skills >
-            <skill id="Athletics" value="110"/>
+            <skill id="Athletics" value="100"/>
             <skill id="Riding" value="40"/>
-            <skill id="OneHanded" value="100"/>
+            <skill id="OneHanded" value="110"/>
             <skill id="TwoHanded" value="40"/>
-            <skill id="Polearm" value="110"/>
+            <skill id="Polearm" value="120"/>
             <skill id="Bow" value="20"/>
-            <skill id="Crossbow" value="60"/>
+            <skill id="Crossbow" value="50"/>
             <skill id="Throwing" value="20"/>
         </skills>
         <upgrade_targets>
@@ -1029,7 +1029,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.northern_spear_4_t5"/>
+                <equipment slot="Item0" id="Item.rekgeist_pike_t4"/>
                 <equipment slot="Item1" id="Item.tall_heater_shield"/>
                 <equipment slot="Item2" id="Item.empire_mace_2_t4"/>
                 <equipment slot="Head" id="Item.sallet_no_visor"/>
@@ -1055,9 +1055,9 @@
             <face_key_template value="BodyProperty.fighter_rekgeist"/>
         </face>
         <skills >
-            <skill id="Athletics" value="150"/>
+            <skill id="Athletics" value="140"/>
             <skill id="Riding" value="60"/>
-            <skill id="OneHanded" value="140"/>
+            <skill id="OneHanded" value="150"/>
             <skill id="TwoHanded" value="60"/>
             <skill id="Polearm" value="160"/>
             <skill id="Bow" value="30"/>
@@ -1066,7 +1066,7 @@
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+                <equipment slot="Item0" id="Item.rekgeist_pike_t5"/>
                 <equipment slot="Item1" id="Item.tall_heater_shield"/>
                 <equipment slot="Item2" id="Item.empire_mace_4_t5"/>
                 <equipment slot="Head" id="Item.sallet_base"/>

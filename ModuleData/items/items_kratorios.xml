@@ -108,4 +108,65 @@
             </Weapon>
         </ItemComponent>
     </Item>
+
+    <CraftedItem id="kratorios_swordspear_t5"
+        name="{=kratorios_swordspear_t5}Thamaskene Kentri"
+        crafting_template="TwoHandedPolearm"
+        culture="Culture.empire"
+        modifier_group="polearm">
+        <Pieces>
+            <Piece id="kratorios_spear_blade_t5"
+                Type="Blade"
+                scale_factor="70" />
+            <Piece id="spear_guard_16"
+                Type="Guard"
+                scale_factor="100" />
+            <Piece id="spear_handle_1"
+                Type="Handle"
+                scale_factor="70" />
+            <Piece id="spear_pommel_10"
+                Type="Pommel"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="kratorios_swordspear_t4"
+        name="{=kratorios_swordspear_t4}Steel Kentri"
+        crafting_template="TwoHandedPolearm"
+        culture="Culture.empire"
+        modifier_group="polearm">
+        <Pieces>
+            <Piece id="kratorios_spear_blade_t4"
+                Type="Blade"
+                scale_factor="70" />
+            <Piece id="spear_guard_16"
+                Type="Guard"
+                scale_factor="100" />
+            <Piece id="spear_handle_1"
+                Type="Handle"
+                scale_factor="70" />
+            <Piece id="spear_pommel_10"
+                Type="Pommel"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="kratorios_swordspear_t3"
+        name="{=kratorios_swordspear_t3}Iron Kentri"
+        crafting_template="TwoHandedPolearm"
+        culture="Culture.empire"
+        modifier_group="polearm">
+        <Pieces>
+            <Piece id="kratorios_spear_blade_t3"
+                Type="Blade"
+                scale_factor="70" />
+            <Piece id="spear_guard_16"
+                Type="Guard"
+                scale_factor="100" />
+            <Piece id="spear_handle_1"
+                Type="Handle"
+                scale_factor="70" />
+            <Piece id="spear_pommel_10"
+                Type="Pommel"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
 </Items>
