@@ -717,7 +717,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_4_2"
-        name="{=lord_lysellois_4_2}Thibaut"
+        name="{=lord_lysellois_4_2}Thibault"
         age="34"
         voice="ironic"
         default_group="Infantry"

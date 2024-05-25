@@ -30,44 +30,36 @@ Rework banners
 
 Cereann:
 Rework banners
-male / female names
 
 Iustrium:
 Rename cities
-male / female names
 
 Kratorios:
-male / female names
 
 Lysellois:
 Rename cities
-male / female names
 
 Monghatai:
-male / female names
 
 Qinguo:
-male / female names
 Make larger glaive blade (guandao)
 
 Rekgeist:
-male / female names
 Rename cities
 
 Scarhoks:
-male / female names
 Rename cities
 
 Virkaldr:
-male / female names
 
 Zulizwe :
-male / female names
 Rename cities
 
 Bugs:
 
 NTH:
+    Merc ?
+        Italian (Crossbow/1H) Spanish (Pike/2H) Polish (Cavcharge/1H) Japanese (Melee/Raid)
     Code:
         Cultural choice at char creation
         Cultural feats

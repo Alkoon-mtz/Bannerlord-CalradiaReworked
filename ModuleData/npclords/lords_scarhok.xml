@@ -200,7 +200,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_scarhok_1_9"
-        name="{=lord_scarhok_1_9}Charles"
+        name="{=lord_scarhok_1_9}Rolland"
         age="10"
         voice="ironic"
         default_group="Cavalry"
@@ -220,7 +220,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_scarhok_1_10"
-        name="{=lord_scarhok_1_10}Robert"
+        name="{=lord_scarhok_1_10}Oswulf"
         age="33"
         voice="curt"
         default_group="Ranged"
@@ -389,7 +389,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_scarhok_2_7"
-        name="{=lord_scarhok_2_7}Tancrede"
+        name="{=lord_scarhok_2_7}Tancred"
         age="29"
         voice="softspoken"
         default_group="Cavalry"
@@ -651,7 +651,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_scarhok_4_3"
-        name="{=lord_scarhok_4_3}Agnes"
+        name="{=lord_scarhok_4_3}Adalmode"
         age="14"
         voice="curt"
         is_female="true"
@@ -675,7 +675,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_scarhok_4_4"
-        name="{=lord_scarhok_4_4}Gontran"
+        name="{=lord_scarhok_4_4}Gaillard"
         age="6"
         voice="softspoken"
         default_group="Infantry"
@@ -1080,7 +1080,7 @@
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_scarhok_7_2"
-        name="{=lord_scarhok_7_2}Hugaut"
+        name="{=lord_scarhok_7_2}Hugault"
         age="30"
         voice="earnest"
         default_group="Ranged"

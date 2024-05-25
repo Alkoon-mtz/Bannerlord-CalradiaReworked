@@ -75,7 +75,7 @@
         duel_preset_equipment_roster="EquipmentRoster.ase_duel_preset_template"
         board_game_type="Seega">
         <vassal_reward_items>
-            <item id="Item.noble_horse_khamseen" />
+            <item id="Item.aseriyun_polearm_1_t5" />
         </vassal_reward_items>
         <banner_bearer_replacement_weapons>
             <item id="Item.aserai_sword_1_t2" />

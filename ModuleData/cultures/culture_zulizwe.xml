@@ -76,7 +76,7 @@
         duel_preset_equipment_roster="EquipmentRoster.emp_duel_preset_template"
         board_game_type="Seega">
         <vassal_reward_items>
-            <item id="Item.justicier_2hsword" />
+            <item id="Item.zulizwe_polearm_1_t4" />
         </vassal_reward_items>
         <banner_bearer_replacement_weapons>
             <item id="Item.iron_spatha_sword_t2" />
@@ -89,245 +89,238 @@
             <policy id="policy_state_monopolies" />
         </default_policies>
         <male_names>
-            <name name="{=Abdoulaye}Abdoulaye" />
+            <name name="{=Abubakari}Abubakari" />
             <name name="{=Adama}Adama" />
             <name name="{=Adnan}Adnan" />
-            <name name="{=Aksil}Aksil" />
+            <name name="{=Akoi}Akoi" />
+            <name name="{=Alayaman}Alayaman" />
+            <name name="{=Ali}Ali" />
             <name name="{=Alioune}Alioune" />
             <name name="{=Amadou}Amadou" />
-            <name name="{=Assane}Assane" />
-            <name name="{=Babacar}Babacar" />
+            <name name="{=Bada}Bada" />
+            <name name="{=Bakr}Bakr" />
+            <name name="{=Bakr-Kanbu}Bakr-Kanbu" />
+            <name name="{=Bamari}Bamari" />
+            <name name="{=Bankanu}Bankanu" />
+            <name name="{=Bannu}Bannu" />
+            <name name="{=Bassarou}Bassarou" />
+            <name name="{=Bassi}Bassi" />
+            <name name="{=Birama}Birama" />
+            <name name="{=Bisi}Bisi" />
+            <name name="{=Biyu}Biyu" />
+            <name name="{=Bonga}Bonga" />
             <name name="{=Boubacar}Boubacar" />
+            <name name="{=Cisse}Cisse" />
+            <name name="{=Dankaran}Dankaran" />
+            <name name="{=Daoud}Daoud" />
+            <name name="{=Dawud}Dawud" />
             <name name="{=Demba}Demba" />
-            <name name="{=Djibril}Djibril" />
-            <name name="{=Habib}Habib" />
+            <name name="{=Diara}Diara" />
+            <name name="{=Duru}Duru" />
+            <name name="{=Fadazu}Fadazu" />
+            <name name="{=Faga-Laye}Faga-Laye" />
+            <name name="{=Fakoli}Fakoli" />
+            <name name="{=Faran}Faran" />
+            <name name="{=Fatta}Fatta" />
+            <name name="{=Fodi}Fodi" />
+            <name name="{=Fuluku}Fuluku" />
+            <name name="{=Gane}Gane" />
+            <name name="{=Gao}Gao" />
+            <name name="{=Hargani}Hargani" />
             <name name="{=Harun}Harun" />
-            <name name="{=Hisham}Hisham" />
+            <name name="{=Igoumou}Igoumou" />
+            <name name="{=Ishaq}Ishaq" />
+            <name name="{=Ismail}Ismail" />
             <name name="{=Issa}Issa" />
-            <name name="{=Jalil}Jalil" />
-            <name name="{=Jelani}Jelani" />
+            <name name="{=Kabayo}Kabayo" />
+            <name name="{=Kalabi}Kalabi" />
+            <name name="{=Kambine}Kambine" />
+            <name name="{=Kanafa}Kanafa" />
+            <name name="{=Kassa}Kassa" />
+            <name name="{=Kaya}Kaya" />
+            <name name="{=Kayna}Kayna" />
+            <name name="{=Kinkin}Kinkin" />
+            <name name="{=Kisha}Kisha" />
+            <name name="{=Kodama}Kodama" />
+            <name name="{=KoIze}KoIze" />
+            <name name="{=Kukuray}Kukuray" />
+            <name name="{=Kusoy}Kusoy" />
+            <name name="{=Lahiltoul}Lahiltoul" />
             <name name="{=Lassana}Lassana" />
+            <name name="{=Maammarou}Maammarou" />
+            <name name="{=Maghan}Maghan" />
             <name name="{=Mahdi}Mahdi" />
+            <name name="{=Mahmud}Mahmud" />
+            <name name="{=Majan}Majan" />
+            <name name="{=Malla}Malla" />
+            <name name="{=Mamadi}Mamadi" />
             <name name="{=Mamadou}Mamadou" />
+            <name name="{=Mamoudou}Mamoudou" />
+            <name name="{=Manding-Bory}Manding-Bory" />
+            <name name="{=Mari-Djata}Mari-Djata" />
+            <name name="{=Mayroumfa}Mayroumfa" />
+            <name name="{=MBali}MBali" />
+            <name name="{=Missi-Ize}Missi-Ize" />
+            <name name="{=Morobani}Morobani" />
             <name name="{=Moussa}Moussa" />
+            <name name="{=Musa}Musa" />
+            <name name="{=Nintasanay}Nintasanay" />
+            <name name="{=Nuh}Nuh" />
+            <name name="{=Ouali}Ouali" />
+            <name name="{=Ouankoy}Ouankoy" />
+            <name name="{=Ouati}Ouati" />
             <name name="{=Oumar}Oumar" />
             <name name="{=Ousmane}Ousmane" />
             <name name="{=Pape}Pape" />
+            <name name="{=Reidja}Reidja" />
+            <name name="{=Sakoura}Sakoura" />
+            <name name="{=Salman}Salman" />
+            <name name="{=Samsou}Samsou" />
+            <name name="{=Sandaki}Sandaki" />
             <name name="{=Sekou}Sekou" />
             <name name="{=Seydou}Seydou" />
             <name name="{=Soulayman}Soulayman" />
-            <name name="{=Souleymane}Souleymane" />
+            <name name="{=Soumaba}Soumaba" />
+            <name name="{=Soumaoro}Soumaoro" />
+            <name name="{=Soundiata}Soundiata" />
             <name name="{=Taha}Taha" />
+            <name name="{=Takoi}Takoi" />
+            <name name="{=Tib}Tib" />
             <name name="{=Tidiane}Tidiane" />
-
-            <name name="{=v9B50R0Q}Acarion" />
-            <name name="{=aeLgc0cU}Acthon" />
-            <name name="{=tWDyWroN}Amnon" />
-            <name name="{=uTFjknE2}Andros" />
-            <name name="{=fXgftgNv}Aphanys" />
-            <name name="{=QjJAbaoT}Apys" />
-            <name name="{=zInIqBD0}Arenicos" />
-            <name name="{=W1uwgvAQ}Arion" />
-            <name name="{=5VzWRMTn}Artimendros" />
-            <name name="{=rGuYLmez}Ascyron" />
-            <name name="{=J1nh9YiN}Atilon" />
-            <name name="{=NBAGX54b}Avigos" />
-            <name name="{=9cDw6vPF}Cadomenos" />
-            <name name="{=R11i2uVl}Calytos" />
-            <name name="{=lD1sl2XC}Camnon" />
-            <name name="{=LP7yYoGQ}Caribos" />
-            <name name="{=VhbasI9J}Castor" />
-            <name name="{=VG9ng2n2}Chandion" />
-            <name name="{=aezwJGvY}Chenon" />
-            <name name="{=acp2IcMs}Crotor" />
-            <name name="{=XKxeaF0I}Dalidos" />
-            <name name="{=pCBkH35Q}Danos" />
-            <name name="{=2OJEyP0d}Dasys" />
-            <name name="{=SoTUisL3}Deltisos" />
-            <name name="{=2uKoNaSG}Denos" />
-            <name name="{=HfuAdGQX}Destor" />
-            <name name="{=lEHtUGed}Diocosos" />
-            <name name="{=5EiKEdi5}Dorion" />
-            <name name="{=yAZC6F7P}Ecsorios" />
-            <name name="{=hyOgAehG}Emarys" />
-            <name name="{=rUvnbDi2}Encurion" />
-            <name name="{=KjzJjj5n}Eronys" />
-            <name name="{=gYit4RTe}Euchor" />
-            <name name="{=oQCZp9qv}Eumenys" />
-            <name name="{=uW38UtSH}Eupitor" />
-            <name name="{=WfAuSpJq}Eutos" />
-            <name name="{=RyorjCXF}Galon" />
-            <name name="{=ZFlIT1tH}Ganimynos" />
-            <name name="{=f3hTGKIP}Garitops" />
-            <name name="{=nqxxr9We}Gavalon" />
-            <name name="{=iDxygnVF}Gerotheon" />
-            <name name="{=rFbAjSWM}Gorigos" />
-            <name name="{=NxDJcR2c}Haratheos" />
-            <name name="{=tgVJZ1Uc}Hecaron" />
-            <name name="{=wQJGxBJI}Hophtalamos" />
-            <name name="{=4lEEqyCg}Jacorios" />
-            <name name="{=DwzrsJxS}Jamanys" />
-            <name name="{=IU63oxWD}Jemynon" />
-            <name name="{=t1OpnZph}Jeremos" />
-            <name name="{=katzUyMI}Joron" />
-            <name name="{=GWaJ7Ksq}Joculos" />
-            <name name="{=iJvIH6NP}Jutheros" />
-            <name name="{=BCy1KpvR}Lacalion" />
-            <name name="{=6LMiTKZz}Lamenon" />
-            <name name="{=F13aYbuk}Lavalios" />
-            <name name="{=NFIQZOPQ}Leosios" />
-            <name name="{=lbTMVAcI}Lerosion" />
-            <name name="{=bHbR5Mgy}Losys" />
-            <name name="{=CbxLZdVg}Lycos" />
-            <name name="{=HCXHcBzT}Mattis" />
-            <name name="{=X21PahQn}Menaclys" />
-            <name name="{=am2UnbAK}Menor" />
-            <name name="{=tTuaiLS6}Meritor" />
-            <name name="{=qqW5n5Ox}Milos" />
-            <name name="{=5yFy4U4i}Morynon" />
-            <name name="{=ud6rhXbn}Mostiros" />
-            <name name="{=04zSjaRe}Nartiros" />
-            <name name="{=FF3dQKc1}Nethor" />
-            <name name="{=u1lTJoPO}Nemos" />
-            <name name="{=sDFb1PRI}Nortos" />
-            <name name="{=QGIAbglw}Obron" />
-            <name name="{=AEaRpupL}Ocheros" />
-            <name name="{=ZmQx4gT3}Olichor" />
-            <name name="{=pq0w8kry}Orachos" />
-            <name name="{=JFVseSa3}Oros" />
-            <name name="{=7UkzXWTQ}Osarios" />
-            <name name="{=cZIhxH9e}Pacarios" />
-            <name name="{=9sokmYMZ}Padmos" />
-            <name name="{=NXOOJs2X}Patrys" />
-            <name name="{=plx8kkxa}Pelicos" />
-            <name name="{=1cKxsHSh}Penton" />
-            <name name="{=vgBRa2BE}Poraclys" />
-            <name name="{=q186AQHt}Phadon" />
-            <name name="{=yhfJVEe0}Phelenos" />
-            <name name="{=LMWiJi6V}Phirentos" />
-            <name name="{=XZxIpCQH}Phorys" />
-            <name name="{=VJbAdJe4}Purios" />
-            <name name="{=M9CWBbMe}Rhanos" />
-            <name name="{=P1zsoSPN}Rhovarion" />
-            <name name="{=Ho6zsGTI}Sachanion" />
-            <name name="{=5eTb2xr7}Sanion" />
-            <name name="{=Zm4a2xsf}Salusios" />
-            <name name="{=egCbjHDT}Semnon" />
-            <name name="{=GeJobcre}Sinor" />
-            <name name="{=E4WhEvu7}Sotherys" />
-            <name name="{=FClEZIkT}Sovos" />
-            <name name="{=rVUhYuvE}Suterios" />
-            <name name="{=PDK4FHAx}Suvys" />
-            <name name="{=Axe5FkET}Talison" />
-            <name name="{=PR4IqkTW}Temeon" />
-            <name name="{=9xyXdX4I}Tharos" />
-            <name name="{=zfUhnG7y}Themestios" />
-            <name name="{=9mQuSI3c}Thucasys" />
-            <name name="{=P7iNhhPl}Turiados" />
-            <name name="{=kfNW01y5}Tynops" />
-            <name name="{=amlzciqP}Ucasios" />
-            <name name="{=wbJzSg3X}Ulbesos" />
-            <name name="{=SRncaw79}Urios" />
-            <name name="{=pRbKbPK3}Vadrios" />
-            <name name="{=TiJOjUi5}Valaos" />
-            <name name="{=5nEh20ju}Vasylops" />
-            <name name="{=VN1D1Qps}Velanor" />
-            <name name="{=QNtdUfis}Vemioros" />
-            <name name="{=bWb245zO}Voleos" />
-            <name name="{=aH2ncPbK}Zalasos" />
-            <name name="{=WTePYMNF}Zaraclys" />
-            <name name="{=p0hcyZdp}Zenon" />
-            <name name="{=3RBVn5yi}Zoros" />
-            <name name="{=uCyAnus4}Zostios" />
-            <name name="{=7hYr7jQ7}Leutros" />
-            <name name="{=e7dayl1i}Mavinon" />
-            <name name="{=3EZMoUlp}Narmys" />
-            <name name="{=PvoTcJHa}Naselos" />
-            <name name="{=QumqvLnP}Ochivos" />
-            <name name="{=gxHrt6bC}Phamynor" />
-            <name name="{=6IDmRZ5k}Phestos" />
-            <name name="{=ek1Q2TJz}Polon" />
+            <name name="{=Tiramakan}Tiramakan" />
+            <name name="{=Tomo}Tomo" />
+            <name name="{=Tunka}Tunka" />
+            <name name="{=Umar}Umar" />
+            <name name="{=Yama}Yama" />
+            <name name="{=Yaqub}Yaqub" />
+            <name name="{=Yasiboy}Yasiboy" />
+            <name name="{=Zakoi}Zakoi" />
+            <name name="{=Zenku}Zenku" />
         </male_names>
         <female_names>
-            <name name="{=Aïssata}Aïssata" />
-            <name name="{=Aïssatou}Aïssatou" />
-            <name name="{=Aïssé}Aïssé" />
+            <name name="{=Abagbe}Abagbe" />
+            <name name="{=Abayomi}Abayomi" />
+            <name name="{=Abebi}Abebi" />
+            <name name="{=Abeje}Abeje" />
+            <name name="{=Abiodun}Abiodun" />
+            <name name="{=Abiona}Abiona" />
+            <name name="{=Abisola}Abisola" />
+            <name name="{=Adebola}Adebola" />
+            <name name="{=Adebomi}Adebomi" />
+            <name name="{=Adebowale}Adebowale" />
+            <name name="{=Adedagbo}Adedagbo" />
+            <name name="{=Adedewe}Adedewe" />
+            <name name="{=Adedoja}Adedoja" />
+            <name name="{=Adeleke}Adeleke" />
+            <name name="{=Adeola}Adeola" />
+            <name name="{=Adesimbo}Adesimbo" />
+            <name name="{=Adesina}Adesina" />
+            <name name="{=Adetokunbo}Adetokunbo" />
+            <name name="{=Adeyemi}Adeyemi" />
+            <name name="{=Adja}Adja" />
+            <name name="{=Aichata}Aichata" />
+            <name name="{=Aissata}Aissata" />
+            <name name="{=Aissatou}Aissatou" />
+            <name name="{=Aissé}Aissé" />
+            <name name="{=Alima}Alima" />
             <name name="{=Aminata}Aminata" />
+            <name name="{=Amita}Amita" />
+            <name name="{=Aoua}Aoua" />
             <name name="{=Asma}Asma" />
             <name name="{=Assa}Assa" />
+            <name name="{=Assetou}Assetou" />
             <name name="{=Awa}Awa" />
             <name name="{=Aya}Aya" />
             <name name="{=Ayana}Ayana" />
+            <name name="{=Ayobami}Ayobami" />
+            <name name="{=Ayobunmi}Ayobunmi" />
+            <name name="{=Ayodele}Ayodele" />
+            <name name="{=Ayofemi}Ayofemi" />
+            <name name="{=Ayoluwa}Ayoluwa" />
+            <name name="{=Ayotunde}Ayotunde" />
+            <name name="{=Bandele}Bandele" />
+            <name name="{=Barakissa}Barakissa" />
             <name name="{=Bintou}Bintou" />
+            <name name="{=Bolade}Bolade" />
+            <name name="{=Bolanle}Bolanle" />
             <name name="{=Coumba}Coumba" />
+            <name name="{=Dayo}Dayo" />
+            <name name="{=Deye}Deye" />
+            <name name="{=Djeneba}Djeneba" />
+            <name name="{=Djenly}Djenly" />
+            <name name="{=Djire}Djire" />
+            <name name="{=Ekundayo}Ekundayo" />
+            <name name="{=Eniola}Eniola" />
+            <name name="{=Fadima}Fadima" />
             <name name="{=Fanta}Fanta" />
+            <name name="{=Fatim}Fatim" />
             <name name="{=Fatou}Fatou" />
             <name name="{=Fatoumata}Fatoumata" />
+            <name name="{=Folade}Folade" />
+            <name name="{=Folasade}Folasade" />
+            <name name="{=Gbemisola}Gbemisola" />
+            <name name="{=Halima}Halima" />
             <name name="{=Hatouma}Hatouma" />
+            <name name="{=Hawa}Hawa" />
+            <name name="{=Idowu}Idowu" />
+            <name name="{=Ifedapo}Ifedapo" />
             <name name="{=Imani}Imani" />
             <name name="{=Ina}Ina" />
             <name name="{=Inaya}Inaya" />
+            <name name="{=Iyabo}Iyabo" />
+            <name name="{=Kadi}Kadi" />
             <name name="{=Kadiatou}Kadiatou" />
+            <name name="{=Kayin}Kayin" />
+            <name name="{=Kehinde}Kehinde" />
+            <name name="{=Kilia}Kilia" />
+            <name name="{=Kolonkan}Kolonkan" />
             <name name="{=Malaïka}Malaïka" />
             <name name="{=Malia}Malia" />
             <name name="{=Malya}Malya" />
+            <name name="{=Mariam}Mariam" />
             <name name="{=Mariama}Mariama" />
+            <name name="{=Modupe}Modupe" />
+            <name name="{=Mojisola}Mojisola" />
+            <name name="{=Monifa}Monifa" />
+            <name name="{=Morayo}Morayo" />
+            <name name="{=Moremi}Moremi" />
             <name name="{=Nabintou}Nabintou" />
+            <name name="{=Nafissa}Nafissa" />
+            <name name="{=Namandje}Namandje" />
+            <name name="{=Namiss}Namiss" />
+            <name name="{=Nana}Nana" />
+            <name name="{=Oladele}Oladele" />
+            <name name="{=Olamide}Olamide" />
+            <name name="{=Olateju}Olateju" />
+            <name name="{=Olayinka}Olayinka" />
+            <name name="{=Olubunmi}Olubunmi" />
+            <name name="{=Olufunmilola}Olufunmilola" />
+            <name name="{=Oluwanisola}Oluwanisola" />
+            <name name="{=Oluwaseyi}Oluwaseyi" />
+            <name name="{=Oluwatoyin}Oluwatoyin" />
+            <name name="{=Oluwayemisi}Oluwayemisi" />
+            <name name="{=Omobolanle}Omobolanle" />
             <name name="{=Oumou}Oumou" />
             <name name="{=Ramatoulaye}Ramatoulaye" />
+            <name name="{=Remilekun}Remilekun" />
             <name name="{=Rokia}Rokia" />
             <name name="{=Safiatou}Safiatou" />
             <name name="{=Salimata}Salimata" />
-
-            <name name="{=HSlPLC4m}Ira" />
-            <name name="{=PNR2CvvX}Ithicala" />
-            <name name="{=eOHeCKxn}Jespara" />
-            <name name="{=6vtmYjTW}Jolanna" />
-            <name name="{=Ew69yN84}Juthys" />
-            <name name="{=028iCb8B}Jythea" />
-            <name name="{=Jif1C3X3}Laria" />
-            <name name="{=LX1YS9DW}Lasilea" />
-            <name name="{=2oy7atk6}Lundana" />
-            <name name="{=dwFZFQ6V}Lysica" />
-            <name name="{=2fYYfHUI}Martira" />
-            <name name="{=cqSaKXzl}Matha" />
-            <name name="{=Vxt0xTvV}Mavea" />
-            <name name="{=lgvtLEDA}Melchea" />
-            <name name="{=QvfUqzpF}Mina" />
-            <name name="{=11KckWau}Mitara" />
-            <name name="{=IJlw8V5D}Mystesa" />
-            <name name="{=uLjRHv9p}Nadea" />
-            <name name="{=hreO0wwb}Nerhea" />
-            <name name="{=04dAbdjM}Nyvia" />
-            <name name="{=dLOlnl8m}Palysira" />
-            <name name="{=pXBvPxHI}Penestea" />
-            <name name="{=FUT6eXfw}Phaea" />
-            <name name="{=WrAMfIG1}Phenoria" />
-            <name name="{=uYbmhjI6}Rhamira" />
-            <name name="{=BIAEZaVx}Rhandana" />
-            <name name="{=H7oJaxqM}Rhelasa" />
-            <name name="{=XMTD2clw}Rhoe" />
-            <name name="{=0XEaaoah}Rosazia" />
-            <name name="{=L9weGfoX}Salea" />
-            <name name="{=nSoJkeBI}Sittacea" />
-            <name name="{=V1QLbhRl}Sora" />
-            <name name="{=qMJ7UZvk}Surena" />
-            <name name="{=gmD9mgR1}Synira" />
-            <name name="{=Cxazvjr3}Tamarea" />
-            <name name="{=b2aRoXsb}Tessa" />
-            <name name="{=bQKbW8Tx}Thasyna" />
-            <name name="{=YVVCaQE5}Thera" />
-            <name name="{=CvVJyKYA}Thelea" />
-            <name name="{=jJV5Tn09}Tethyclesa" />
-            <name name="{=e4jAHUX0}Tymata" />
-            <name name="{=z2KE7glc}Thylea" />
-            <name name="{=3bIc2X2l}Vaminesa" />
-            <name name="{=VzhbUL60}Vendelia" />
-            <name name="{=a2ajWcI3}Viria" />
-            <name name="{=5VZ0GF6Y}Zalisa" />
-            <name name="{=wbLqHvjE}Zerosica" />
-            <name name="{=zxZH2WbD}Zimena" />
-            <name name="{=AccBcEIt}Zoana" />
+            <name name="{=Sassouma}Sassouma" />
+            <name name="{=Sidibe}Sidibe" />
+            <name name="{=Simisola}Simisola" />
+            <name name="{=Siwauna}Siwauna" />
+            <name name="{=Siya}Siya" />
+            <name name="{=Sogolon}Sogolon" />
+            <name name="{=Tekhaye}Tekhaye" />
+            <name name="{=Temiloluwa}Temiloluwa" />
+            <name name="{=Temitope}Temitope" />
+            <name name="{=Titilayo}Titilayo" />
+            <name name="{=Yejide}Yejide" />
+            <name name="{=Yetunde}Yetunde" />
+            <name name="{=Yewande}Yewande" />
+            <name name="{=Youma}Youma" />
+            <name name="{=ZeInab}ZeInab" />
         </female_names>
         <clan_names>
             <name name="{=pRA9EzNv}Acapanos" />
