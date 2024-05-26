@@ -23,6 +23,140 @@
         </EquipmentSet>
         <Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
+    <EquipmentRoster id="kra_npcgenerics_template_poor" culture="Culture.empire">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.arming_coif"/>
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="kra_npcgenerics_template_mid" culture="Culture.empire">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+            <Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+            <Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+            <Equipment slot="Body" id="Item.hemp_tunic"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.hemp_tunic"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+            <Equipment slot="Body" id="Item.hemp_tunic"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.hemp_tunic"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+            <Equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+            <Equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+            <Equipment slot="Body" id="Item.footmans_tunic"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.footmans_tunic"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+            <Equipment slot="Body" id="Item.footmans_tunic"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.footmans_tunic"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="kra_npcgenerics_template_rich" culture="Culture.empire">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.AR_empire_armor_m"/>
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.AR_empire_armor_m"/>
+            <Equipment slot="Leg" id="Item.TV_moccasins_b"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.imperial_robes"/>
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.imperial_robes"/>
+            <Equipment slot="Leg" id="Item.TV_moccasins_b"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+            <Equipment slot="Leg" id="Item.TV_moccasins_b"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.AR_empire_armor_n"/>
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.AR_empire_armor_n"/>
+            <Equipment slot="Leg" id="Item.TV_moccasins_b"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
 
     <!--Lord -->
     <EquipmentRoster id="emp_bat_template_stoic" culture="Culture.empire">

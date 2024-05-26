@@ -24,6 +24,303 @@
         </EquipmentSet>
         <Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
+    <EquipmentRoster id="mon_npcgenerics_template_poor" culture="Culture.khuzait">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nomad_padded_hood"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Gloves" id="Item.armwraps"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Gloves" id="Item.armwraps"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nomad_padded_hood"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nomad_padded_hood"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+            <Equipment slot="Gloves" id="Item.armwraps"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+            <Equipment slot="Gloves" id="Item.armwraps"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nomad_padded_hood"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nomad_padded_hood"/>
+            <Equipment slot="Body" id="Item.peasant_costume"/>
+            <Equipment slot="Gloves" id="Item.armwraps"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.peasant_costume"/>
+            <Equipment slot="Gloves" id="Item.armwraps"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nomad_padded_hood"/>
+            <Equipment slot="Body" id="Item.peasant_costume"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.peasant_costume"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nomad_padded_hood"/>
+            <Equipment slot="Body" id="Item.ao_durkhan_hide_poncho"/>
+            <Equipment slot="Gloves" id="Item.armwraps"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.ao_durkhan_hide_poncho"/>
+            <Equipment slot="Gloves" id="Item.armwraps"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nomad_padded_hood"/>
+            <Equipment slot="Body" id="Item.ao_durkhan_hide_poncho"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.ao_durkhan_hide_poncho"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="mon_npcgenerics_template_mid" culture="Culture.khuzait">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.fur_hat"/>
+            <Equipment slot="Cape" id="Item.scarf"/>
+            <Equipment slot="Body" id="Item.steppe_armor"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_khuzait_helmet_a"/>
+            <Equipment slot="Cape" id="Item.scarf"/>
+            <Equipment slot="Body" id="Item.steppe_armor"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.upturned_fur_cap"/>
+            <Equipment slot="Cape" id="Item.scarf"/>
+            <Equipment slot="Body" id="Item.steppe_armor"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Cape" id="Item.scarf"/>
+            <Equipment slot="Body" id="Item.steppe_armor"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.fur_hat"/>
+            <Equipment slot="Body" id="Item.steppe_armor"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_khuzait_helmet_a"/>
+            <Equipment slot="Body" id="Item.steppe_armor"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.upturned_fur_cap"/>
+            <Equipment slot="Body" id="Item.steppe_armor"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.steppe_armor"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.fur_hat"/>
+            <Equipment slot="Cape" id="Item.scarf"/>
+            <Equipment slot="Body" id="Item.tundra_tunic"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_khuzait_helmet_a"/>
+            <Equipment slot="Cape" id="Item.scarf"/>
+            <Equipment slot="Body" id="Item.tundra_tunic"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.upturned_fur_cap"/>
+            <Equipment slot="Cape" id="Item.scarf"/>
+            <Equipment slot="Body" id="Item.tundra_tunic"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Cape" id="Item.scarf"/>
+            <Equipment slot="Body" id="Item.tundra_tunic"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.fur_hat"/>
+            <Equipment slot="Body" id="Item.tundra_tunic"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_khuzait_helmet_a"/>
+            <Equipment slot="Body" id="Item.tundra_tunic"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.upturned_fur_cap"/>
+            <Equipment slot="Body" id="Item.tundra_tunic"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.tundra_tunic"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="mon_npcgenerics_template_rich" culture="Culture.khuzait">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_khuzait_helmet_a"/>
+            <Equipment slot="Body" id="Item.khuzait_civil_coat"/>
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.fur_hat"/>
+            <Equipment slot="Body" id="Item.khuzait_civil_coat"/>
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+            <Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_khuzait_helmet_a"/>
+            <Equipment slot="Body" id="Item.khuzait_civil_coat"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.fur_hat"/>
+            <Equipment slot="Body" id="Item.khuzait_civil_coat"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.khuzait_civil_coat"/>
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+            <Equipment slot="Leg" id="Item.eastern_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.khuzait_civil_coat"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_khuzait_helmet_a"/>
+            <Equipment slot="Body" id="Item.khuzait_belt_leather"/>
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.fur_hat"/>
+            <Equipment slot="Body" id="Item.khuzait_belt_leather"/>
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+            <Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_khuzait_helmet_a"/>
+            <Equipment slot="Body" id="Item.khuzait_belt_leather"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.fur_hat"/>
+            <Equipment slot="Body" id="Item.khuzait_belt_leather"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.khuzait_belt_leather"/>
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+            <Equipment slot="Leg" id="Item.eastern_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.khuzait_belt_leather"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_khuzait_helmet_a"/>
+            <Equipment slot="Body" id="Item.khuzait_civil_coat_b"/>
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.fur_hat"/>
+            <Equipment slot="Body" id="Item.khuzait_civil_coat_b"/>
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+            <Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_khuzait_helmet_a"/>
+            <Equipment slot="Body" id="Item.khuzait_civil_coat_b"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.fur_hat"/>
+            <Equipment slot="Body" id="Item.khuzait_civil_coat_b"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.khuzait_civil_coat_b"/>
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+            <Equipment slot="Leg" id="Item.eastern_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.khuzait_civil_coat_b"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_khuzait_helmet_a"/>
+            <Equipment slot="Body" id="Item.merchants_fur_coat"/>
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.fur_hat"/>
+            <Equipment slot="Body" id="Item.merchants_fur_coat"/>
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+            <Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_khuzait_helmet_a"/>
+            <Equipment slot="Body" id="Item.merchants_fur_coat"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.fur_hat"/>
+            <Equipment slot="Body" id="Item.merchants_fur_coat"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.merchants_fur_coat"/>
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+            <Equipment slot="Leg" id="Item.eastern_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.merchants_fur_coat"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
 
     <!--Lord -->
     <EquipmentRoster id="khu_bat_template_nomad" culture="Culture.khuzait">

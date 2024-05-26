@@ -770,6 +770,379 @@
         </EquipmentSet>
         <Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
+    <EquipmentRoster id="qin_npcgenerics_template_poor" culture="Culture.qinguo">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.desert_cap"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.desert_cap"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.desert_cap"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.leather_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.leather_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.desert_cap"/>
+            <Equipment slot="Body" id="Item.ragged_robes"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.desert_cap"/>
+            <Equipment slot="Body" id="Item.ragged_robes"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.desert_cap"/>
+            <Equipment slot="Body" id="Item.ragged_robes"/>
+            <Equipment slot="Leg" id="Item.leather_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.ragged_robes"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.ragged_robes"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.ragged_robes"/>
+            <Equipment slot="Leg" id="Item.leather_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.desert_cap"/>
+            <Equipment slot="Body" id="Item.vlandia_bandit_b"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.desert_cap"/>
+            <Equipment slot="Body" id="Item.vlandia_bandit_b"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.desert_cap"/>
+            <Equipment slot="Body" id="Item.vlandia_bandit_b"/>
+            <Equipment slot="Leg" id="Item.leather_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.vlandia_bandit_b"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.vlandia_bandit_b"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.vlandia_bandit_b"/>
+            <Equipment slot="Leg" id="Item.leather_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.desert_cap"/>
+            <Equipment slot="Body" id="Item.tundra_tunic"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.desert_cap"/>
+            <Equipment slot="Body" id="Item.tundra_tunic"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.desert_cap"/>
+            <Equipment slot="Body" id="Item.tundra_tunic"/>
+            <Equipment slot="Leg" id="Item.leather_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.tundra_tunic"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.tundra_tunic"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.tundra_tunic"/>
+            <Equipment slot="Leg" id="Item.leather_shoes"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="qin_npcgenerics_template_mid" culture="Culture.qinguo">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nomad_cap"/>
+            <Equipment slot="Body" id="Item.light_tunic"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nomad_cap"/>
+            <Equipment slot="Body" id="Item.light_tunic"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_roman_hat_c"/>
+            <Equipment slot="Body" id="Item.light_tunic"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_roman_hat_c"/>
+            <Equipment slot="Body" id="Item.light_tunic"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.light_tunic"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.light_tunic"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nomad_cap"/>
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_g"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nomad_cap"/>
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_g"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_roman_hat_c"/>
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_g"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_roman_hat_c"/>
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_g"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_g"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_g"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nomad_cap"/>
+            <Equipment slot="Body" id="Item.long_padded_robe"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nomad_cap"/>
+            <Equipment slot="Body" id="Item.long_padded_robe"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_roman_hat_c"/>
+            <Equipment slot="Body" id="Item.long_padded_robe"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_roman_hat_c"/>
+            <Equipment slot="Body" id="Item.long_padded_robe"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.long_padded_robe"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.long_padded_robe"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nomad_cap"/>
+            <Equipment slot="Body" id="Item.short_padded_robe"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nomad_cap"/>
+            <Equipment slot="Body" id="Item.short_padded_robe"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_roman_hat_c"/>
+            <Equipment slot="Body" id="Item.short_padded_robe"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.AR_roman_hat_c"/>
+            <Equipment slot="Body" id="Item.short_padded_robe"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.short_padded_robe"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.short_padded_robe"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="qin_npcgenerics_template_rich" culture="Culture.qinguo">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.decorated_nomad_cap"/>
+            <Equipment slot="Body" id="Item.DZ_khuzait_armor_a"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.decorated_nomad_cap"/>
+            <Equipment slot="Body" id="Item.DZ_khuzait_armor_a"/>
+            <Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.decorated_nomad_cap"/>
+            <Equipment slot="Body" id="Item.DZ_khuzait_armor_a"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.decorated_nomad_cap"/>
+            <Equipment slot="Body" id="Item.DZ_khuzait_armor_a"/>
+            <Equipment slot="Leg" id="Item.eastern_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.DZ_khuzait_armor_a"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.DZ_khuzait_armor_a"/>
+            <Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.DZ_khuzait_armor_a"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.DZ_khuzait_armor_a"/>
+            <Equipment slot="Leg" id="Item.eastern_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.decorated_nomad_cap"/>
+            <Equipment slot="Body" id="Item.DZ_khuzait_armor_b"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.decorated_nomad_cap"/>
+            <Equipment slot="Body" id="Item.DZ_khuzait_armor_b"/>
+            <Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.decorated_nomad_cap"/>
+            <Equipment slot="Body" id="Item.DZ_khuzait_armor_b"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.decorated_nomad_cap"/>
+            <Equipment slot="Body" id="Item.DZ_khuzait_armor_b"/>
+            <Equipment slot="Leg" id="Item.eastern_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.DZ_khuzait_armor_b"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.DZ_khuzait_armor_b"/>
+            <Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.DZ_khuzait_armor_b"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.DZ_khuzait_armor_b"/>
+            <Equipment slot="Leg" id="Item.eastern_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.decorated_nomad_cap"/>
+            <Equipment slot="Body" id="Item.aserai_civil_b"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.decorated_nomad_cap"/>
+            <Equipment slot="Body" id="Item.aserai_civil_b"/>
+            <Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.decorated_nomad_cap"/>
+            <Equipment slot="Body" id="Item.aserai_civil_b"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.decorated_nomad_cap"/>
+            <Equipment slot="Body" id="Item.aserai_civil_b"/>
+            <Equipment slot="Leg" id="Item.eastern_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.aserai_civil_b"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.aserai_civil_b"/>
+            <Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.aserai_civil_b"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.aserai_civil_b"/>
+            <Equipment slot="Leg" id="Item.eastern_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.decorated_nomad_cap"/>
+            <Equipment slot="Body" id="Item.aserai_civil_a"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.decorated_nomad_cap"/>
+            <Equipment slot="Body" id="Item.aserai_civil_a"/>
+            <Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.decorated_nomad_cap"/>
+            <Equipment slot="Body" id="Item.aserai_civil_a"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.decorated_nomad_cap"/>
+            <Equipment slot="Body" id="Item.aserai_civil_a"/>
+            <Equipment slot="Leg" id="Item.eastern_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.aserai_civil_a"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.aserai_civil_a"/>
+            <Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.aserai_civil_a"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.aserai_civil_a"/>
+            <Equipment slot="Leg" id="Item.eastern_leather_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
 
     <!--Lord -->
     <EquipmentRoster id="qin_bat_template_low" culture="Culture.qinguo">

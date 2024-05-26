@@ -17,11 +17,10 @@ To look:
 
 ALL Cultures:
 Customize:
-    civ outfit
     townsman + variant + City NPC (ransom_broker etc)
-    weapon_practice_stage_1 ?
     tournament_team_templates
     basic_mercenary_troops
+    weapon_practice_stage_1 ?
 Independant clans
 Change banner of the 1st clan to avoid confusion when leader clan change
 
@@ -59,25 +58,25 @@ Bugs:
 
 NTH:
     Merc ?
-        Italian (Crossbow/1H) Spanish (Pike/2H) Polish (Cavcharge/1H) Japanese (Melee/Raid)
+        Italian (Crossbow/1H) Spanish (Pike/2Pol) Polish (Cavcharge/1H) Japanese (2H/Raid)
     Code:
         Cultural choice at char creation
         Cultural feats
             TaleWorlds.CampaignSystem.GameComponents
             TaleWorlds.CampaignSystem.CharacterDevelopment.DefaultCulturalFeats
-
     New World Map ?
     More armors (lol...)
 
-Debug:
-    - Troops incorrect culture in cities
-        Notables in culture@notable_and_wanderer_templates must be of the troops culture, city culture is not used for that
-    - Sequence contains no matching element
-        For notables, merchants needs caravan_master of the same culture in culture+elite_caravan_party_template
-    - Same face troops/face always set to BodyPropertiesMin or BodyPropertiesMax
-        Check if BodyPropertiesMin and BodyPropertiesMax are different, carefull about the c/p and the simple "<BodyProperties version="4..."
-        BodyPropertiesMin and BodyPropertiesMax must be "wide" enough or else it won't differ a lot
-
+wakizashi (1h)
+aserai_noble_blade_6
+khuzait_noble_guard_1
+empire_noble_grip_3
+khuzait_noble_pommel_1
+katana (2h)
+aserai_blade_3
+sturgian_guard_6
+sturgian_grip_19
+sturgian_pommel_12
 
 Error	CS1705	Assembly '0Harmony' with identity '0Harmony, Version=2.3.1.1, Culture=neutral, PublicKeyToken=null' 
 uses 'System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' 

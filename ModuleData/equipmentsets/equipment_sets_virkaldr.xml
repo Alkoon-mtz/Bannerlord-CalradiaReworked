@@ -21,6 +21,431 @@
         </EquipmentSet>
         <Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
+    <EquipmentRoster id="vir_npcgenerics_template_poor" culture="Culture.sturgia">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.torn_bandit_clothes"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.torn_bandit_clothes"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.torn_bandit_clothes"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.torn_bandit_clothes"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.roughcloth_shortcoat"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.roughcloth_shortcoat"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.roughcloth_shortcoat"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.roughcloth_shortcoat"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" IsWandererEquipment="true"/>
+    </EquipmentRoster>
+    <EquipmentRoster id="vir_npcgenerics_template_mid" culture="Culture.sturgia">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.northern_fur_cap"/>
+            <Equipment slot="Cape" id="Item.female_scarf"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nordic_leather_cap"/>
+            <Equipment slot="Cape" id="Item.female_scarf"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.northern_fur_cap"/>
+            <Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nordic_leather_cap"/>
+            <Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.northern_fur_cap"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nordic_leather_cap"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.northern_fur_cap"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nordic_leather_cap"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.northern_fur_cap"/>
+            <Equipment slot="Cape" id="Item.female_scarf"/>
+            <Equipment slot="Body" id="Item.northern_tunic"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nordic_leather_cap"/>
+            <Equipment slot="Cape" id="Item.female_scarf"/>
+            <Equipment slot="Body" id="Item.northern_tunic"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.northern_fur_cap"/>
+            <Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+            <Equipment slot="Body" id="Item.northern_tunic"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nordic_leather_cap"/>
+            <Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+            <Equipment slot="Body" id="Item.northern_tunic"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.northern_fur_cap"/>
+            <Equipment slot="Body" id="Item.northern_tunic"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nordic_leather_cap"/>
+            <Equipment slot="Body" id="Item.northern_tunic"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.northern_fur_cap"/>
+            <Equipment slot="Body" id="Item.northern_tunic"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nordic_leather_cap"/>
+            <Equipment slot="Body" id="Item.northern_tunic"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+            <Equipment slot="Body" id="Item.northern_tunic"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+            <Equipment slot="Body" id="Item.northern_tunic"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.northern_fur_cap"/>
+            <Equipment slot="Cape" id="Item.female_scarf"/>
+            <Equipment slot="Body" id="Item.northern_leather_vest"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nordic_leather_cap"/>
+            <Equipment slot="Cape" id="Item.female_scarf"/>
+            <Equipment slot="Body" id="Item.northern_leather_vest"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.northern_fur_cap"/>
+            <Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+            <Equipment slot="Body" id="Item.northern_leather_vest"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nordic_leather_cap"/>
+            <Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+            <Equipment slot="Body" id="Item.northern_leather_vest"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.northern_fur_cap"/>
+            <Equipment slot="Body" id="Item.northern_leather_vest"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nordic_leather_cap"/>
+            <Equipment slot="Body" id="Item.northern_leather_vest"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.northern_fur_cap"/>
+            <Equipment slot="Body" id="Item.northern_leather_vest"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nordic_leather_cap"/>
+            <Equipment slot="Body" id="Item.northern_leather_vest"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+            <Equipment slot="Body" id="Item.northern_leather_vest"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+            <Equipment slot="Body" id="Item.northern_leather_vest"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.northern_fur_cap"/>
+            <Equipment slot="Cape" id="Item.female_scarf"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nordic_leather_cap"/>
+            <Equipment slot="Cape" id="Item.female_scarf"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.northern_fur_cap"/>
+            <Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nordic_leather_cap"/>
+            <Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.northern_fur_cap"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nordic_leather_cap"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.northern_fur_cap"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.nordic_leather_cap"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+            <Equipment slot="Gloves" id="Item.guarded_armwraps"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+            <Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" IsWandererEquipment="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="vir_npcgenerics_template_rich" culture="Culture.sturgia">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.northern_padded_cloth"/>
+            <Equipment slot="Gloves" id="Item.highland_gloves"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.northern_padded_cloth"/>
+            <Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.northern_padded_cloth"/>
+            <Equipment slot="Gloves" id="Item.highland_gloves"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.northern_padded_cloth"/>
+            <Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.northern_padded_cloth"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.northern_padded_cloth"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.khuzait_civil_coat"/>
+            <Equipment slot="Gloves" id="Item.highland_gloves"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.khuzait_civil_coat"/>
+            <Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.khuzait_civil_coat"/>
+            <Equipment slot="Gloves" id="Item.highland_gloves"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.khuzait_civil_coat"/>
+            <Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.khuzait_civil_coat"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.khuzait_civil_coat"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.merchants_fur_coat"/>
+            <Equipment slot="Gloves" id="Item.highland_gloves"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.merchants_fur_coat"/>
+            <Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.merchants_fur_coat"/>
+            <Equipment slot="Gloves" id="Item.highland_gloves"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.merchants_fur_coat"/>
+            <Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.merchants_fur_coat"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.merchants_fur_coat"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.northern_padded_gambeson"/>
+            <Equipment slot="Gloves" id="Item.highland_gloves"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.northern_padded_gambeson"/>
+            <Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.northern_padded_gambeson"/>
+            <Equipment slot="Gloves" id="Item.highland_gloves"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.northern_padded_gambeson"/>
+            <Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.northern_padded_gambeson"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.northern_padded_gambeson"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" IsWandererEquipment="true" />
+    </EquipmentRoster>
 
     <!--Lord -->
     <EquipmentRoster id="stu_bat_template_woodsman" culture="Culture.sturgia">

@@ -204,7 +204,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
-            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+            <EquipmentSet id="kra_npcgenerics_template_rich" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_merchant_kratorios_2"
@@ -225,7 +225,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
-            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+            <EquipmentSet id="kra_npcgenerics_template_rich" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_merchant_kratorios_3"
@@ -245,7 +245,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
-            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+            <EquipmentSet id="kra_npcgenerics_template_rich" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_merchant_kratorios_4"
@@ -265,7 +265,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
-            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+            <EquipmentSet id="kra_npcgenerics_template_rich" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_merchant_kratorios_1f"
@@ -286,7 +286,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
-            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+            <EquipmentSet id="kra_npcgenerics_template_rich" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_merchant_kratorios_2f"
@@ -308,7 +308,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
-            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+            <EquipmentSet id="kra_npcgenerics_template_rich" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_preacher_kratorios_1"
@@ -369,7 +369,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
-            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_gangleader_kratorios_1f"
@@ -390,7 +390,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
-            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_artisan_kratorios_1"
@@ -409,7 +409,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
-            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_artisan_kratorios_2"
@@ -428,7 +428,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
-            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_ruralnotable_kratorios_1"
@@ -447,7 +447,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
-            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_ruralnotable_kratorios_2"
@@ -467,7 +467,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
-            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_ruralnotable_kratorios_1f"
@@ -487,7 +487,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
-            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_headman_kratorios_1"
@@ -507,7 +507,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
-            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_headman_kratorios_2"
@@ -527,7 +527,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
-            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_headman_kratorios_1f"
@@ -548,7 +548,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_kratorios" />
-            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
 </NPCCharacters>

@@ -784,6 +784,265 @@
         </EquipmentSet>
         <Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
+    <EquipmentRoster id="rek_npcgenerics_template_poor" culture="Culture.rekgeist">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.laced_cloth_coif"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.imperial_cloth_coif"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.laced_cloth_coif"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.imperial_cloth_coif"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.laced_cloth_coif"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.imperial_cloth_coif"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.laced_cloth_coif"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.imperial_cloth_coif"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.laced_cloth_coif"/>
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.imperial_cloth_coif"/>
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.laced_cloth_coif"/>
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.imperial_cloth_coif"/>
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.laced_cloth_coif"/>
+            <Equipment slot="Body" id="Item.sackcloth_tunic"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.imperial_cloth_coif"/>
+            <Equipment slot="Body" id="Item.sackcloth_tunic"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.laced_cloth_coif"/>
+            <Equipment slot="Body" id="Item.sackcloth_tunic"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.imperial_cloth_coif"/>
+            <Equipment slot="Body" id="Item.sackcloth_tunic"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.sackcloth_tunic"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.sackcloth_tunic"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="rek_npcgenerics_template_mid" culture="Culture.rekgeist">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.padded_cap"/>
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_k"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.padded_cap"/>
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_k"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_k"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_k"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.padded_cap"/>
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_m"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.padded_cap"/>
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_m"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_m"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_m"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.padded_cap"/>
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_l"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.padded_cap"/>
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_l"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_l"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_l"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.padded_cap"/>
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_j"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.padded_cap"/>
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_j"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_j"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_j"/>
+            <Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="rek_npcgenerics_template_rich" culture="Culture.rekgeist">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.nordic_padded_cloth"/>
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.nordic_padded_cloth"/>
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_d"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.nordic_padded_cloth"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.nordic_padded_cloth"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_d"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.light_tunic"/>
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.light_tunic"/>
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_d"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.light_tunic"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.light_tunic"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_d"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.nordic_tunic"/>
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.nordic_tunic"/>
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_d"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.nordic_tunic"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.nordic_tunic"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_d"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
 
     <!--Lord -->
     <EquipmentRoster id="rek_bat_template_low" culture="Culture.rekgeist">
