@@ -23,17 +23,17 @@
     </MBPartyTemplate>
     <MBPartyTemplate id="rekgeist_elite_caravan_template">
         <stacks>
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_sturgia" />
-            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_sturgia" />
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_sturgia" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_rekgeist" />
+            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_rekgeist" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_rekgeist" />
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_rekgeist" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="rekgeist_caravan_template">
         <stacks>
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_sturgia" />
-            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_sturgia" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_sturgia" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_rekgeist" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_rekgeist" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_rekgeist" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="rekgeist_militia_template">

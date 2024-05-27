@@ -19,19 +19,19 @@
             <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.zulizwe_umlwi" />
         </stacks>
     </MBPartyTemplate>
-    <MBPartyTemplate id="zulizwe_caravan_template">
-        <stacks>
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_empire" />
-            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_empire" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_empire" />
-        </stacks>
-    </MBPartyTemplate>
     <MBPartyTemplate id="zulizwe_elite_caravan_template">
         <stacks>
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_empire" />
-            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_empire" />
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_empire" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_zulizwe" />
+            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_zulizwe" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_zulizwe" />
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_zulizwe" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="zulizwe_caravan_template">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_zulizwe" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_zulizwe" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_zulizwe" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="zulizwe_militia_template">

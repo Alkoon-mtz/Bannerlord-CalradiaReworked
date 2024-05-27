@@ -1,5 +1,212 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
+    <!-- Guards -->
+    <NPCCharacter id="armed_trader_rekgeist"
+        default_group="Ranged"
+        occupation="CaravanGuard"
+        culture="Culture.rekgeist"
+        name="{=armed_trader_rekgeist}Rekgeist Caravan Armed Trader"
+        level="16"
+        is_basic_troop="true">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rekgeist" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="70" />
+            <skill id="Riding" value="10" />
+            <skill id="OneHanded" value="10" />
+            <skill id="TwoHanded" value="70" />
+            <skill id="Polearm" value="10" />
+            <skill id="Bow" value="30" />
+            <skill id="Crossbow" value="80" />
+            <skill id="Throwing" value="30" />
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.crossbow_a"/>
+                <equipment slot="Item1" id="Item.bolt_e"/>
+                <equipment slot="Item2" id="Item.simple_sparth_axe_t2"/>
+                <equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+                <equipment slot="Body" id="Item.ao_mail_shirt_sleeveless"/>
+                <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            </EquipmentRoster>
+            <EquipmentSet id="rek_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="caravan_guard_rekgeist"
+        default_group="Cavalry"
+        occupation="CaravanGuard"
+        culture="Culture.rekgeist"
+        name="{=caravan_guard_rekgeist}Rekgeist Caravan Guard"
+        level="21"
+        upgrade_requires="ItemCategory.horse">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rekgeist" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="40" />
+            <skill id="Riding" value="100" />
+            <skill id="OneHanded" value="100" />
+            <skill id="TwoHanded" value="15" />
+            <skill id="Polearm" value="110" />
+            <skill id="Bow" value="40" />
+            <skill id="Crossbow" value="15" />
+            <skill id="Throwing" value="15" />
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.rekgeist_pike_t3"/>
+                <equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+                <equipment slot="Item2" id="Item.morningstar_mace_t3"/>
+                <equipment slot="Head" id="Item.kettle_hat_over_padded_cloth"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_m"/>
+                <equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_e"/>
+                <equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
+            </EquipmentRoster>
+            <EquipmentSet id="rek_npcgenerics_template_mid" civilian="true" />
+            <equipment slot="Horse" id="Item.sturgia_horse"/>
+            <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="veteran_caravan_guard_rekgeist"
+        default_group="Cavalry"
+        occupation="CaravanGuard"
+        culture="Culture.rekgeist"
+        name="{=veteran_caravan_guard_rekgeist}Rekgeist Caravan Veteran Guard"
+        level="26"
+        upgrade_requires="ItemCategory.war_horse">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rekgeist" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="80" />
+            <skill id="Riding" value="140" />
+            <skill id="OneHanded" value="140" />
+            <skill id="TwoHanded" value="50" />
+            <skill id="Polearm" value="160" />
+            <skill id="Bow" value="40" />
+            <skill id="Crossbow" value="40" />
+            <skill id="Throwing" value="50" />
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.rekgeist_pike_t4"/>
+                <equipment slot="Item1" id="Item.tall_heater_shield"/>
+                <equipment slot="Item2" id="Item.empire_mace_2_t4"/>
+                <equipment slot="Head" id="Item.kettle_helmet_over_mail"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_n"/>
+                <equipment slot="Body" id="Item.AR_vlandia_armor_f"/>
+                <equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+                <equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
+            </EquipmentRoster>
+            <EquipmentSet id="rek_npcgenerics_template_mid" civilian="true" />
+            <equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+            <equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="prison_guard_rekgeist"
+        default_group="Infantry"
+        culture="Culture.rekgeist"
+        occupation="PrisonGuard"
+        name="{=XgjXfmM1}Prison Guard"
+        level="21">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rekgeist" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="100" />
+            <skill id="Riding" value="40" />
+            <skill id="OneHanded" value="110" />
+            <skill id="TwoHanded" value="15" />
+            <skill id="Polearm" value="100" />
+            <skill id="Bow" value="40" />
+            <skill id="Crossbow" value="15" />
+            <skill id="Throwing" value="15" />
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.rekgeist_pike_t3"/>
+                <equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+                <equipment slot="Item2" id="Item.morningstar_mace_t3"/>
+                <equipment slot="Head" id="Item.kettle_hat_over_padded_cloth"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_m"/>
+                <equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_e"/>
+                <equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
+            </EquipmentRoster>
+            <EquipmentSet id="rek_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="guard_rekgeist"
+        default_group="Infantry"
+        occupation="Soldier"
+        culture="Culture.rekgeist"
+        name="{=guardnoun}Guard"
+        level="21"
+        is_hidden_encyclopedia="true">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rekgeist" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="100" />
+            <skill id="Riding" value="40" />
+            <skill id="OneHanded" value="110" />
+            <skill id="TwoHanded" value="15" />
+            <skill id="Polearm" value="100" />
+            <skill id="Bow" value="40" />
+            <skill id="Crossbow" value="15" />
+            <skill id="Throwing" value="15" />
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.rekgeist_pike_t3"/>
+                <equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+                <equipment slot="Item2" id="Item.morningstar_mace_t3"/>
+                <equipment slot="Head" id="Item.kettle_hat_over_padded_cloth"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_m"/>
+                <equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_e"/>
+                <equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
+            </EquipmentRoster>
+            <EquipmentSet id="rek_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="gangleader_bodyguard_rekgeist"
+        default_group="Infantry"
+        occupation="Townsfolk"
+        culture="Culture.rekgeist"
+        name="{=LNNXiPyV}Gang Leader Bodyguard"
+        level="16">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rekgeist" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="70" />
+            <skill id="Riding" value="10" />
+            <skill id="OneHanded" value="80" />
+            <skill id="TwoHanded" value="10" />
+            <skill id="Polearm" value="70" />
+            <skill id="Bow" value="30" />
+            <skill id="Crossbow" value="10" />
+            <skill id="Throwing" value="30" />
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.aserai_mace_2_t2"/>
+                <equipment slot="Item1" id="Item.flat_heater_shield"/>
+                <equipment slot="Item2" id="Item.rekgeist_pike_t3"/>
+                <equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+                <equipment slot="Body" id="Item.ao_mail_shirt_sleeveless"/>
+                <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            </EquipmentRoster>
+            <EquipmentSet id="rek_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- Civilians -->
     <NPCCharacter id="caravan_master_rekgeist"
             default_group="Infantry"
             level="26" name="{=uDseaKcb}Rekgeisten Caravan Master"

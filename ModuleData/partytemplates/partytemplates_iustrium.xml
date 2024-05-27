@@ -22,17 +22,17 @@
     </MBPartyTemplate>
     <MBPartyTemplate id="iustrium_elite_caravan_template">
         <stacks>
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_aserai" />
-            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_aserai" />
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_aserai" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_iustrium" />
+            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_iustrium" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_iustrium" />
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_iustrium" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="iustrium_caravan_template">
         <stacks>
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_aserai" />
-            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_aserai" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_aserai" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_iustrium" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_iustrium" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_iustrium" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="iustrium_militia_template">

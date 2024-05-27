@@ -692,22 +692,14 @@
             <face_key_template value="BodyProperty.fighter_aseriyun"/>
         </face>
         <skills >
-            <skill id="Athletics"
-                value="50"/>
-            <skill id="Riding"
-                value="10"/>
-            <skill id="OneHanded"
-                value="60"/>
-            <skill id="TwoHanded"
-                value="20"/>
-            <skill id="Polearm"
-                value="15"/>
-            <skill id="Bow"
-                value="15"/>
-            <skill id="Crossbow"
-                value="10"/>
-            <skill id="Throwing"
-                value="20"/>
+            <skill id="Athletics" value="50"/>
+            <skill id="Riding" value="10"/>
+            <skill id="OneHanded" value="60"/>
+            <skill id="TwoHanded" value="20"/>
+            <skill id="Polearm" value="15"/>
+            <skill id="Bow" value="15"/>
+            <skill id="Crossbow" value="10"/>
+            <skill id="Throwing" value="20"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.aseriyun_yahris"/>
@@ -715,16 +707,11 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.aserai_sword_2_t2"/>
-                <equipment slot="Item1"
-                    id="Item.battania_targe_b"/>
-                <equipment slot="Head"
-                    id="Item.TV_aserai_helmet_d"/>
-                <equipment slot="Body"
-                    id="Item.desert_padded_cloth"/>
-                <equipment slot="Leg"
-                    id="Item.TV_aserai_boots_a"/>
+                <equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+                <equipment slot="Item1" id="Item.battania_targe_b"/>
+                <equipment slot="Head" id="Item.TV_aserai_helmet_d"/>
+                <equipment slot="Body" id="Item.desert_padded_cloth"/>
+                <equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -771,20 +758,13 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.aserai_sword_4_t4"/>
-                <equipment slot="Item1"
-                    id="Item.highland_scouts_shield"/>
-                <equipment slot="Head"
-                    id="Item.aserai_nasalhelm_mailcoif"/>
-                <equipment slot="Cape"
-                    id="Item.a_aserai_scale_b_shoulder_a"/>
-                <equipment slot="Body"
-                    id="Item.AR_aserai_armor_e"/>
-                <equipment slot="Gloves"
-                    id="Item.TV_aserai_gloves_c"/>
-                <equipment slot="Leg"
-                    id="Item.TV_aserai_boots_e"/>
+                <equipment slot="Item0" id="Item.aserai_sword_4_t4"/>
+                <equipment slot="Item1" id="Item.highland_scouts_shield"/>
+                <equipment slot="Head" id="Item.aserai_nasalhelm_mailcoif"/>
+                <equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_a"/>
+                <equipment slot="Body" id="Item.AR_aserai_armor_e"/>
+                <equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
+                <equipment slot="Leg" id="Item.TV_aserai_boots_e"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -808,42 +788,27 @@
             <face_key_template value="BodyProperty.fighter_aseriyun"/>
         </face>
         <skills >
-            <skill id="Athletics"
-                value="120"/>
-            <skill id="Riding"
-                value="20"/>
-            <skill id="OneHanded"
-                value="140"/>
-            <skill id="TwoHanded"
-                value="60"/>
-            <skill id="Polearm"
-                value="40"/>
-            <skill id="Bow"
-                value="40"/>
-            <skill id="Crossbow"
-                value="20"/>
-            <skill id="Throwing"
-                value="60"/>
+            <skill id="Athletics" value="120"/>
+            <skill id="Riding" value="20"/>
+            <skill id="OneHanded" value="140"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="40"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="60"/>
         </skills>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.aseriyun_alqasharis"/>
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.aserai_sword_5_t4"/>
-                <equipment slot="Item1"
-                    id="Item.highland_scouts_shield"/>
-                <equipment slot="Head"
-                    id="Item.tv_aserai_lord_helmet_e"/>
-                <equipment slot="Cape"
-                    id="Item.desert_scale_shoulders"/>
-                <equipment slot="Body"
-                    id="Item.AR_aserai_armor_b"/>
-                <equipment slot="Gloves"
-                    id="Item.TV_aserai_gloves_b"/>
-                <equipment slot="Leg"
-                    id="Item.TV_aserai_boots_e"/>
+                <equipment slot="Item0" id="Item.aserai_sword_5_t4"/>
+                <equipment slot="Item1" id="Item.highland_scouts_shield"/>
+                <equipment slot="Head" id="Item.tv_aserai_lord_helmet_e"/>
+                <equipment slot="Cape" id="Item.desert_scale_shoulders"/>
+                <equipment slot="Body" id="Item.AR_aserai_armor_b"/>
+                <equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
+                <equipment slot="Leg" id="Item.TV_aserai_boots_e"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -946,22 +911,14 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.aserai_2haxe_1_t3"/>
-                <equipment slot="Item1"
-                    id="Item.highland_scouts_shield"/>
-                <equipment slot="Item2"
-                    id="Item.vlandia_pike_1_t5"/>
-                <equipment slot="Head"
-                    id="Item.AR_aserai_helmet_k"/>
-                <equipment slot="Cape"
-                    id="Item.AR_aserai_scale_shoulder_a"/>
-                <equipment slot="Body"
-                    id="Item.aserai_robe_c_chain"/>
-                <equipment slot="Gloves"
-                    id="Item.TV_aserai_gloves_c"/>
-                <equipment slot="Leg"
-                    id="Item.TV_aserai_boots_e"/>
+                <equipment slot="Item0" id="Item.aserai_2haxe_1_t3"/>
+                <equipment slot="Item1" id="Item.highland_scouts_shield"/>
+                <equipment slot="Item2" id="Item.vlandia_pike_1_t5"/>
+                <equipment slot="Head" id="Item.AR_aserai_helmet_k"/>
+                <equipment slot="Cape" id="Item.AR_aserai_scale_shoulder_a"/>
+                <equipment slot="Body" id="Item.aserai_robe_c_chain"/>
+                <equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
+                <equipment slot="Leg" id="Item.TV_aserai_boots_e"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -1004,22 +961,14 @@
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.aserai_2haxe_3_t5"/>
-                <equipment slot="Item1"
-                    id="Item.highland_riders_shield"/>
-                <equipment slot="Item2"
-                    id="Item.vlandia_pike_1_t5"/>
-                <equipment slot="Head"
-                    id="Item.AR_aserai_helmet_l"/>
-                <equipment slot="Cape"
-                    id="Item.AR_aserai_scale_cape_b2"/>
-                <equipment slot="Body"
-                    id="Item.TV_aserai_robe_a"/>
-                <equipment slot="Gloves"
-                    id="Item.TV_aserai_gloves_b"/>
-                <equipment slot="Leg"
-                    id="Item.TV_aserai_boots_d"/>
+                <equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+                <equipment slot="Item1" id="Item.highland_riders_shield"/>
+                <equipment slot="Item2" id="Item.vlandia_pike_1_t5"/>
+                <equipment slot="Head" id="Item.AR_aserai_helmet_l"/>
+                <equipment slot="Cape" id="Item.AR_aserai_scale_cape_b2"/>
+                <equipment slot="Body" id="Item.TV_aserai_robe_a"/>
+                <equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
+                <equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -1067,28 +1016,17 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.composite_bow"/>
-                <equipment slot="Item1"
-                    id="Item.aseriyun_arrows_a"/>
-                <equipment slot="Item2"
-                    id="Item.eastern_spear_1_t2"/>
-                <equipment slot="Item3"
-                    id="Item.battania_shield_targe_a"/>
-                <equipment slot="Head"
-                    id="Item.aserai_light_helmet"/>
-                <equipment slot="Cape"
-                    id="Item.aserai_scale_shoulder_d"/>
-                <equipment slot="Body"
-                    id="Item.AR_aserai_armor_za"/>
-                <equipment slot="Gloves"
-                    id="Item.TV_aserai_gloves_c"/>
-                <equipment slot="Leg"
-                    id="Item.TV_aserai_boots_e"/>
-                <equipment slot="Horse"
-                    id="Item.aserai_horse"/>
-                <equipment slot="HorseHarness"
-                    id="Item.bandit_saddle_desert"/>
+                <equipment slot="Item0" id="Item.composite_bow"/>
+                <equipment slot="Item1" id="Item.aseriyun_arrows_a"/>
+                <equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
+                <equipment slot="Item3" id="Item.battania_shield_targe_a"/>
+                <equipment slot="Head" id="Item.aserai_light_helmet"/>
+                <equipment slot="Cape" id="Item.aserai_scale_shoulder_d"/>
+                <equipment slot="Body" id="Item.AR_aserai_armor_za"/>
+                <equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
+                <equipment slot="Leg" id="Item.TV_aserai_boots_e"/>
+                <equipment slot="Horse" id="Item.aserai_horse"/>
+                <equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"

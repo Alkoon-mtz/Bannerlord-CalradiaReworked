@@ -716,20 +716,13 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.highland_ranger_bow"/>
-                <equipment slot="Item1"
-                    id="Item.default_arrows"/>
-                <equipment slot="Item2"
-                    id="Item.sturgia_old_shield_b"/>
-                <equipment slot="Item3"
-                    id="Item.sturgia_axe_2_t2"/>
-                <equipment slot="Head"
-                    id="Item.AR_sturgia_helmet_a"/>
-                <equipment slot="Body"
-                    id="Item.northern_lamellar_armor"/>
-                <equipment slot="Leg"
-                    id="Item.rough_tied_boots"/>
+                <equipment slot="Item0" id="Item.highland_ranger_bow"/>
+                <equipment slot="Item1" id="Item.default_arrows"/>
+                <equipment slot="Item2" id="Item.sturgia_old_shield_b"/>
+                <equipment slot="Item3" id="Item.sturgia_axe_2_t2"/>
+                <equipment slot="Head" id="Item.AR_sturgia_helmet_a"/>
+                <equipment slot="Body" id="Item.northern_lamellar_armor"/>
+                <equipment slot="Leg" id="Item.rough_tied_boots"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"

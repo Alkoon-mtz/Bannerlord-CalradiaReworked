@@ -506,22 +506,14 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.western_spear_4_t4"/>
-                <equipment slot="Item1"
-                    id="Item.reinforced_kite_shield"/>
-                <equipment slot="Item2"
-                    id="Item.iron_spatha_sword_t2"/>
-                <equipment slot="Head"
-                    id="Item.AR_intercisa_helmet_b"/>
-                <equipment slot="Cape"
-                    id="Item.a_empire_plated_shoulder_a"/>
-                <equipment slot="Body"
-                    id="Item.empire_warrior_padded_armor_g"/>
-                <equipment slot="Gloves"
-                    id="Item.padded_mitten"/>
-                <equipment slot="Leg"
-                    id="Item.empire_horseman_boots"/>
+                <equipment slot="Item0" id="Item.western_spear_4_t4"/>
+                <equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+                <equipment slot="Item2" id="Item.iron_spatha_sword_t2"/>
+                <equipment slot="Head" id="Item.AR_intercisa_helmet_b"/>
+                <equipment slot="Cape" id="Item.a_empire_plated_shoulder_a"/>
+                <equipment slot="Body" id="Item.empire_warrior_padded_armor_g"/>
+                <equipment slot="Gloves" id="Item.padded_mitten"/>
+                <equipment slot="Leg" id="Item.empire_horseman_boots"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -704,26 +696,16 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.western_spear_5_t4"/>
-                <equipment slot="Item1"
-                    id="Item.reinforced_kite_shield"/>
-                <equipment slot="Item2"
-                    id="Item.empire_sword_1_t2"/>
-                <equipment slot="Head"
-                    id="Item.AR_intercisa_helmet_c"/>
-                <equipment slot="Cape"
-                    id="Item.empire_plate_armor_shoulder_b"/>
-                <equipment slot="Body"
-                    id="Item.AR_empire_scout_armor_a"/>
-                <equipment slot="Gloves"
-                    id="Item.plated_strip_gauntlets"/>
-                <equipment slot="Leg"
-                    id="Item.DZ_empire_boots_b"/>
-                <equipment slot="Horse"
-                    id="Item.t2_empire_horse"/>
-                <equipment slot="HorseHarness"
-                    id="Item.stripped_leather_harness"/>
+                <equipment slot="Item0" id="Item.western_spear_5_t4"/>
+                <equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+                <equipment slot="Item2" id="Item.empire_sword_1_t2"/>
+                <equipment slot="Head" id="Item.AR_intercisa_helmet_c"/>
+                <equipment slot="Cape" id="Item.empire_plate_armor_shoulder_b"/>
+                <equipment slot="Body" id="Item.AR_empire_scout_armor_a"/>
+                <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+                <equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+                <equipment slot="Horse" id="Item.t2_empire_horse"/>
+                <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"
@@ -766,26 +748,16 @@
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0"
-                    id="Item.western_spear_5_t4"/>
-                <equipment slot="Item1"
-                    id="Item.reinforced_kite_shield"/>
-                <equipment slot="Item2"
-                    id="Item.empire_sword_4_t4"/>
-                <equipment slot="Head"
-                    id="Item.AR_empire_crested_helm_a"/>
-                <equipment slot="Cape"
-                    id="Item.AR_imperial_shoulders_z"/>
-                <equipment slot="Body"
-                    id="Item.AR_empire_horseman_armor_c"/>
-                <equipment slot="Gloves"
-                    id="Item.plated_strip_gauntlets"/>
-                <equipment slot="Leg"
-                    id="Item.plated_strip_boots"/>
-                <equipment slot="Horse"
-                    id="Item.t3_empire_horse"/>
-                <equipment slot="HorseHarness"
-                    id="Item.half_scale_barding"/>
+                <equipment slot="Item0" id="Item.western_spear_5_t4"/>
+                <equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+                <equipment slot="Item2" id="Item.empire_sword_4_t4"/>
+                <equipment slot="Head" id="Item.AR_empire_crested_helm_a"/>
+                <equipment slot="Cape" id="Item.AR_imperial_shoulders_z"/>
+                <equipment slot="Body" id="Item.AR_empire_horseman_armor_c"/>
+                <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+                <equipment slot="Leg" id="Item.plated_strip_boots"/>
+                <equipment slot="Horse" id="Item.t3_empire_horse"/>
+                <equipment slot="HorseHarness" id="Item.half_scale_barding"/>
             </EquipmentRoster>
             <EquipmentRoster civilian="true">
                 <equipment slot="Item0"

@@ -17,7 +17,6 @@ To look:
 
 ALL Cultures:
 Customize:
-    caravan_master_aserai armed_trader_aserai caravan_guard_aserai veteran_caravan_guard_aserai prison_guard_aserai guard_aserai gangleader_bodyguard_aserai
     tournament_team_templates
     basic_mercenary_troops
     weapon_practice_stage_1 ?
