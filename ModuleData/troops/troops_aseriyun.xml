@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
     <!-- Villager -->
-    <NPCCharacter id="villager_aseriyun"
+    <!-- <NPCCharacter id="villager_aseriyun"
         default_group="Infantry"
         level="1"
         age="30"
@@ -210,7 +210,7 @@
                     id="Item.khuzait_curved_boots" />
             </EquipmentRoster>
         </Equipments>
-    </NPCCharacter>
+    </NPCCharacter> -->
 
     <!-- Militia -->
     <NPCCharacter id="aseriyun_militia_archer"

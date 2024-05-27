@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-    <NPCCharacter id="villager_iustrium"
+    <!-- <NPCCharacter id="villager_iustrium"
         default_group="Infantry"
         level="1"
         name="{=villager_iustrium}Iustrium Peasant"
@@ -200,7 +200,7 @@
                     id="Item.highland_leg_wrappings" />
             </EquipmentRoster>
         </Equipments>
-    </NPCCharacter>
+    </NPCCharacter> -->
 
     <!-- Militia -->
     <NPCCharacter id="iustrium_militia_archer"

@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+    <NPCCharacter id="tournament_master_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="ArenaMaster"
+        culture="Culture.aserai"
+        name="{=IHKXNP9H}Tournament Master"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_mid" />
+            <EquipmentSet id="ase_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="blacksmith_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Blacksmith"
+        culture="Culture.aserai"
+        name="{=bNnQt4jN}Blacksmith"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_forge" />
+            <EquipmentSet id="ase_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weaponsmith_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Weaponsmith"
+        culture="Culture.aserai"
+        name="{=UaN2lfwi}Weaponsmith"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_forge" />
+            <EquipmentSet id="ase_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="armorer_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Armorer"
+        culture="Culture.aserai"
+        name="{=jx8ohENz}Armorer"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_forge" />
+            <EquipmentSet id="ase_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="barber_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.aserai"
+        name="{=WH7EGGIg}Barber"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_forge" />
+            <EquipmentSet id="ase_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="preacher_notary_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.aserai"
+        name="{=bLMGbLF8}Preacher Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_preacher" />
+            <EquipmentSet id="ase_npcgenerics_template_preacher" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.aserai"
+        name="{=ansW4mx2}Aseriyun Townswoman"
+        level="1"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_mid" />
+            <EquipmentSet id="ase_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_infant_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.aserai"
+        name="{=femaleinfant}Infant"
+        age="3"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_mid" />
+            <EquipmentSet id="ase_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_child_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.aserai"
+        name="{=femalechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_mid" />
+            <EquipmentSet id="ase_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_teenager_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.aserai"
+        name="{=femaleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_mid" />
+            <EquipmentSet id="ase_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.aserai"
+        name="{=muu5cofb}Townsman"
+        level="1"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_mid" />
+            <EquipmentSet id="ase_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_infant_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.aserai"
+        name="{=maleinfant}Infant"
+        age="3"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_mid" />
+            <EquipmentSet id="ase_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_child_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.aserai"
+        name="{=malechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_mid" />
+            <EquipmentSet id="ase_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_teenager_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.aserai"
+        name="{=maleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_mid" />
+            <EquipmentSet id="ase_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Villager"
+        culture="Culture.aserai"
+        name="{=aseriyunpeasantman}Aseriyun Peasant"
+        level="1"
+        age="30"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun"/>
+        </face>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.aseriyun_recruit" />
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_poor" civilian="true" />
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment slot="Item1"
+                    id="Item.peasant_2haxe_1_t1" />
+                <equipment slot="Head"
+                    id="Item.aserai_civil_d_hscarf" />
+                <equipment slot="Body"
+                    id="Item.aserai_civil_d" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.peasant_2haxe_1_t1" />
+                <equipment slot="Head"
+                    id="Item.aserai_civil_c_head" />
+                <equipment slot="Cape"
+                    id="Item.wrapped_scarf" />
+                <equipment slot="Body"
+                    id="Item.aserai_civil_c" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment slot="Item1"
+                    id="Item.peasant_2haxe_1_t1" />
+                <equipment slot="Body"
+                    id="Item.aserai_civil_b" />
+                <equipment slot="Head"
+                    id="Item.aserai_civil_hscarf_b" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment slot="Item1"
+                    id="Item.peasant_pitchfork_2_t1" />
+                <equipment slot="Body"
+                    id="Item.aserai_civil_a" />
+                <equipment slot="Head"
+                    id="Item.aserai_civil_e_hscarf" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment slot="Item1"
+                    id="Item.peasant_pitchfork_2_t1" />
+                <equipment slot="Body"
+                    id="Item.aserai_civil_f" />
+                <equipment slot="Head"
+                    id="Item.aserai_civil_e_hscarf" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment slot="Item1"
+                    id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Body"
+                    id="Item.aserai_civil_e" />
+                <equipment slot="Head"
+                    id="Item.desert_cap" />
+                <equipment slot="Cape"
+                    id="Item.wrapped_scarf" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment slot="Item1"
+                    id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Head"
+                    id="Item.aserai_civil_hscarf_b" />
+                <equipment slot="Body"
+                    id="Item.tassled_southern_robes" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment slot="Item1"
+                    id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Body"
+                    id="Item.layered_robe" />
+                <equipment slot="Head"
+                    id="Item.tied_head_wrapping" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0"
+                    id="Item.throwing_stone" />
+                <equipment slot="Item1"
+                    id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Head"
+                    id="Item.turban" />
+                <equipment slot="Cape"
+                    id="Item.wrapped_scarf" />
+                <equipment slot="Body"
+                    id="Item.tassled_southern_robes" />
+                <equipment slot="Leg"
+                    id="Item.khuzait_curved_boots" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_child_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Villager"
+        culture="Culture.aserai"
+        name="{=malechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_poor" />
+            <EquipmentSet id="ase_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_teenager_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Villager"
+        culture="Culture.aserai"
+        name="{=maleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_poor" />
+            <EquipmentSet id="ase_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_woman_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Villager"
+        culture="Culture.aserai"
+        name="{=aseriyunpeasantwoman}Aseriyun Peasant"
+        level="1"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_poor" />
+            <EquipmentSet id="ase_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="village_woman_child_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Villager"
+        culture="Culture.aserai"
+        name="{=femalechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_poor" />
+            <EquipmentSet id="ase_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="village_woman_teenager_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Villager"
+        culture="Culture.aserai"
+        name="{=femaleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_poor" />
+            <EquipmentSet id="ase_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="ransom_broker_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="RansomBroker"
+        culture="Culture.aserai"
+        name="{=W2WXkiAh}Ransom Broker"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_mid" />
+            <EquipmentSet id="ase_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="merchant_notary_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.aserai"
+        name="{=reoVAtrE}Merchant Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_rich" />
+            <EquipmentSet id="ase_npcgenerics_template_rich" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="artisan_notary_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.aserai"
+        name="{=ECxiXTbF}Artisan Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_mid" />
+            <EquipmentSet id="ase_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rural_notable_notary_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.aserai"
+        name="{=AlmaRAib}Rural Notable Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_mid" />
+            <EquipmentSet id="ase_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="shop_worker_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="ShopWorker"
+        culture="Culture.aserai"
+        name="{=275LD0Gh}Shop Worker"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_mid" />
+            <EquipmentSet id="ase_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tavernkeeper_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Tavernkeeper"
+        culture="Culture.aserai"
+        name="{=CsjtWt1g}Tavern Keeper"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_mid" />
+            <EquipmentSet id="ase_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="taverngamehost_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="TavernGameHost"
+        culture="Culture.aserai"
+        name="{=twCIejxn}Game Host"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_mid" />
+            <EquipmentSet id="ase_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="musician_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Musician"
+        culture="Culture.aserai"
+        name="{=zfCoeglY}Musician"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_mid" />
+            <EquipmentSet id="ase_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tavern_wench_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="TavernWench"
+        culture="Culture.aserai"
+        name="{=z6RMWTaA}Tavern Maid"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_mid" />
+            <EquipmentSet id="ase_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="horse_merchant_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="HorseTrader"
+        culture="Culture.aserai"
+        name="{=79ElOr2x}Horse Trader"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_rich" />
+            <EquipmentSet id="ase_npcgenerics_template_rich" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="merchant_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="GoodsTrader"
+        culture="Culture.aserai"
+        name="{=thbcgVVO}Trader"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_rich" />
+            <EquipmentSet id="ase_npcgenerics_template_rich" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="beggar_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.aserai"
+        name="{=malebeggar}Beggar"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_poor" />
+            <EquipmentSet id="ase_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="female_beggar_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.aserai"
+        name="{=femalebeggar}Beggar"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="ase_npcgenerics_template_poor" />
+            <EquipmentSet id="ase_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="female_dancer_aseriyun"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.aserai"
+        name="{=X3KYysuv}Dancer"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_aseriyun_f" />
+        </face>
+        <Equipments>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body" id="Item.aserai_female_civil_a" />
+                <equipment slot="Leg" id="Item.ladys_shoe" />
+                <equipment slot="Head" id="Item.desert_headdress" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body" id="Item.fine_southern_dress" />
+                <equipment slot="Head" id="Item.aserai_female_civil_hscarf_b" />
+                <equipment slot="Leg" id="Item.ladys_shoe" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

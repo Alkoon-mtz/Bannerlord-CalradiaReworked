@@ -328,7 +328,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
-            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist" civilian="true" />
+            <EquipmentSet id="rek_npcgenerics_template_preacher" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_preacher_rekgeist_1f"
@@ -349,7 +349,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
-            <EquipmentSet id="npc_wanderer_equipment_template_rekgeist" civilian="true" />
+            <EquipmentSet id="rek_npcgenerics_template_preacher" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_gangleader_rekgeist_1"
@@ -409,7 +409,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
-            <EquipmentSet id="rek_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="rek_npcgenerics_template_forge" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_artisan_rekgeist_2"
@@ -428,7 +428,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_rekgeist" />
-            <EquipmentSet id="rek_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="rek_npcgenerics_template_forge" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_ruralnotable_rekgeist_1"

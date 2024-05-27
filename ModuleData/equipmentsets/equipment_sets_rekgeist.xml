@@ -986,6 +986,30 @@
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
+    <EquipmentRoster id="rek_npcgenerics_template_forge" culture="Culture.rekgeist">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.half_apron"/>
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.leather_apron"/>
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="rek_npcgenerics_template_preacher" culture="Culture.rekgeist">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.AR_monk_robe_b"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.AR_monk_robe_a2"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
     <EquipmentRoster id="rek_npcgenerics_template_rich" culture="Culture.rekgeist">
         <EquipmentSet civilian="true">
             <Equipment slot="Body" id="Item.nordic_padded_cloth"/>

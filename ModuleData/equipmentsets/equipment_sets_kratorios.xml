@@ -122,6 +122,30 @@
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
+    <EquipmentRoster id="kra_npcgenerics_template_forge" culture="Culture.empire">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.half_apron"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e" />
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.leather_apron"/>
+            <Equipment slot="Gloves" id="Item.AR_empire_gloves_e" />
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="kra_npcgenerics_template_preacher" culture="Culture.empire">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.imperial_robes"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.imperial_robes"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
     <EquipmentRoster id="kra_npcgenerics_template_rich" culture="Culture.empire">
         <EquipmentSet civilian="true">
             <Equipment slot="Body" id="Item.AR_empire_armor_m"/>

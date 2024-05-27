@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-    <NPCCharacter id="villager_zulizwe"
+    <!-- <NPCCharacter id="villager_zulizwe"
         default_group="Infantry"
         level="1"
         name="{=villager_zulizwe}Zulizwe Peasant"
@@ -40,7 +40,7 @@
                     id="Item.scarf" />
             </EquipmentRoster>
         </Equipments>
-    </NPCCharacter>
+    </NPCCharacter> -->
 
     <!-- Militia -->
     <NPCCharacter id="zulizwe_militia_archer"

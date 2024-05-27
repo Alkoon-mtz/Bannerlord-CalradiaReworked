@@ -914,6 +914,30 @@
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
+    <EquipmentRoster id="sca_npcgenerics_template_forge" culture="Culture.scarhok">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.half_apron"/>
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.leather_apron"/>
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="sca_npcgenerics_template_preacher" culture="Culture.scarhok">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.northern_leather_vest"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.northern_leather_vest"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
     <EquipmentRoster id="sca_npcgenerics_template_rich" culture="Culture.scarhok">
         <EquipmentSet civilian="true">
             <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>

@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+    <NPCCharacter id="tournament_master_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="ArenaMaster"
+        culture="Culture.kratorios"
+        name="{=IHKXNP9H}Tournament Master"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_mid" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="blacksmith_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Blacksmith"
+        culture="Culture.kratorios"
+        name="{=bNnQt4jN}Blacksmith"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_forge" />
+            <EquipmentSet id="kra_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weaponsmith_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Weaponsmith"
+        culture="Culture.kratorios"
+        name="{=UaN2lfwi}Weaponsmith"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_forge" />
+            <EquipmentSet id="kra_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="armorer_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Armorer"
+        culture="Culture.kratorios"
+        name="{=jx8ohENz}Armorer"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_forge" />
+            <EquipmentSet id="kra_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="barber_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.kratorios"
+        name="{=WH7EGGIg}Barber"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_forge" />
+            <EquipmentSet id="kra_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="preacher_notary_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.kratorios"
+        name="{=bLMGbLF8}Preacher Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_preacher" />
+            <EquipmentSet id="kra_npcgenerics_template_preacher" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.kratorios"
+        name="{=ansW4mx2}Kratorios Townswoman"
+        level="1"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_mid" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_infant_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.kratorios"
+        name="{=femaleinfant}Infant"
+        age="3"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_mid" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_child_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.kratorios"
+        name="{=femalechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_mid" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_teenager_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.kratorios"
+        name="{=femaleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_mid" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.kratorios"
+        name="{=muu5cofb}Townsman"
+        level="1"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_mid" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_infant_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.kratorios"
+        name="{=maleinfant}Infant"
+        age="3"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_mid" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_child_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.kratorios"
+        name="{=malechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_mid" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_teenager_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.kratorios"
+        name="{=maleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_mid" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Villager"
+        culture="Culture.empire"
+        name="{=villager_kratorios}Kratorios Peasant"
+        level="1"
+        age="30"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios"/>
+        </face>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.kratorios_recruit" />
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_poor" civilian="true" />
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Item1" id="Item.throwing_stone" />
+                <equipment slot="Body" id="Item.fine_town_tunic" />
+                <equipment slot="Leg" id="Item.leather_boots" />
+                <equipment slot="Head" id="Item.merchants_hat" />
+                <equipment slot="Cape" id="Item.scarf" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_child_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Villager"
+        culture="Culture.kratorios"
+        name="{=malechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_poor" />
+            <EquipmentSet id="kra_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_teenager_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Villager"
+        culture="Culture.kratorios"
+        name="{=maleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_poor" />
+            <EquipmentSet id="kra_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_woman_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Villager"
+        culture="Culture.kratorios"
+        name="{=kratoriospeasantwoman}Kratorios Peasant"
+        level="1"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_poor" />
+            <EquipmentSet id="kra_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="village_woman_child_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Villager"
+        culture="Culture.kratorios"
+        name="{=femalechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_poor" />
+            <EquipmentSet id="kra_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="village_woman_teenager_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Villager"
+        culture="Culture.kratorios"
+        name="{=femaleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_poor" />
+            <EquipmentSet id="kra_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="ransom_broker_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="RansomBroker"
+        culture="Culture.kratorios"
+        name="{=W2WXkiAh}Ransom Broker"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_mid" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="merchant_notary_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.kratorios"
+        name="{=reoVAtrE}Merchant Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_rich" />
+            <EquipmentSet id="kra_npcgenerics_template_rich" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="artisan_notary_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.kratorios"
+        name="{=ECxiXTbF}Artisan Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_mid" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rural_notable_notary_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.kratorios"
+        name="{=AlmaRAib}Rural Notable Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_mid" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="shop_worker_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="ShopWorker"
+        culture="Culture.kratorios"
+        name="{=275LD0Gh}Shop Worker"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_mid" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tavernkeeper_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Tavernkeeper"
+        culture="Culture.kratorios"
+        name="{=CsjtWt1g}Tavern Keeper"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_mid" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="taverngamehost_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="TavernGameHost"
+        culture="Culture.kratorios"
+        name="{=twCIejxn}Game Host"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_mid" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="musician_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Musician"
+        culture="Culture.kratorios"
+        name="{=zfCoeglY}Musician"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_mid" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tavern_wench_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="TavernWench"
+        culture="Culture.kratorios"
+        name="{=z6RMWTaA}Tavern Maid"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_mid" />
+            <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="horse_merchant_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="HorseTrader"
+        culture="Culture.kratorios"
+        name="{=79ElOr2x}Horse Trader"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_rich" />
+            <EquipmentSet id="kra_npcgenerics_template_rich" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="merchant_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="GoodsTrader"
+        culture="Culture.kratorios"
+        name="{=thbcgVVO}Trader"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_rich" />
+            <EquipmentSet id="kra_npcgenerics_template_rich" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="beggar_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.kratorios"
+        name="{=malebeggar}Beggar"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_poor" />
+            <EquipmentSet id="kra_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="female_beggar_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.kratorios"
+        name="{=femalebeggar}Beggar"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="kra_npcgenerics_template_poor" />
+            <EquipmentSet id="kra_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="female_dancer_kratorios"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.kratorios"
+        name="{=X3KYysuv}Dancer"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_kratorios_f" />
+        </face>
+        <Equipments>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body" id="Item.cut_dress" />
+                <equipment slot="Leg" id="Item.ladys_shoe" />
+                <equipment slot="Head" id="Item.head_wrapped" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body" id="Item.cut_dress_with_pouch" />
+                <equipment slot="Leg" id="Item.ladys_shoe" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

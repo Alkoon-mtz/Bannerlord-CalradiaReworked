@@ -175,6 +175,21 @@
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
+    <EquipmentRoster id="cer_npcgenerics_template_forge" culture="Culture.battania">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.cloth_apron"/>
+            <Equipment slot="Gloves" id="Item.leather_gloves" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="cer_npcgenerics_template_preacher" culture="Culture.battania">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.battania_light_armor_e"/>
+            <Equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
     <EquipmentRoster id="cer_npcgenerics_template_rich" culture="Culture.battania">
         <EquipmentSet civilian="true">
             <Equipment slot="Cape" id="Item.battania_scarf_a"/>

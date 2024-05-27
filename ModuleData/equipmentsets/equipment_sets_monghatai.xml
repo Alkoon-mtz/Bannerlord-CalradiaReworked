@@ -194,6 +194,22 @@
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
+    <EquipmentRoster id="mon_npcgenerics_template_forge" culture="Culture.khuzait">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.cloth_apron"/>
+            <Equipment slot="Gloves" id="Item.leather_gloves" />
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="mon_npcgenerics_template_preacher" culture="Culture.khuzait">
+        <EquipmentSet civilian="true">
+            <equipment slot="Cape" id="Item.scarf" />
+            <Equipment slot="Body" id="Item.khuzait_civil_coat_b"/>
+            <Equipment slot="Leg" id="Item.leather_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
     <EquipmentRoster id="mon_npcgenerics_template_rich" culture="Culture.khuzait">
         <EquipmentSet civilian="true">
             <Equipment slot="Head" id="Item.AR_khuzait_helmet_a"/>

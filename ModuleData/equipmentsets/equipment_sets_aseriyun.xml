@@ -152,6 +152,22 @@
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
+    <EquipmentRoster id="ase_npcgenerics_template_forge" culture="Culture.aserai">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.cloth_apron"/>
+            <Equipment slot="Gloves" id="Item.leather_gloves" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="ase_npcgenerics_template_preacher" culture="Culture.aserai">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Head" id="Item.aserai_civil_hscarf_b" />
+            <Equipment slot="Body" id="Item.aserai_civil_b"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
     <EquipmentRoster id="ase_npcgenerics_template_rich" culture="Culture.aserai">
         <EquipmentSet civilian="true">
             <Equipment slot="Head" id="Item.aserai_civil_c_head"/>

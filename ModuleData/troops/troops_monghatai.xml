@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-    <NPCCharacter id="villager_monghatai"
+    <!-- <NPCCharacter id="villager_monghatai"
         default_group="Infantry"
         level="1"
         name="{=villager_monghatai}Monghatai Peasant"
@@ -40,7 +40,7 @@
                     id="Item.fur_hat" />
             </EquipmentRoster>
         </Equipments>
-    </NPCCharacter>
+    </NPCCharacter> -->
 
     <!-- Militia -->
     <NPCCharacter id="monghatai_militia_archer"

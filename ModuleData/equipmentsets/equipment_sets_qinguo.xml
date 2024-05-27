@@ -996,6 +996,22 @@
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
+    <EquipmentRoster id="qin_npcgenerics_template_forge" culture="Culture.qinguo">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.cloth_apron"/>
+            <Equipment slot="Gloves" id="Item.leather_gloves" />
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="qin_npcgenerics_template_preacher" culture="Culture.qinguo">
+        <EquipmentSet civilian="true">
+            <equipment slot="Cape" id="Item.scarf" />
+            <Equipment slot="Body" id="Item.eastern_silk_clothing"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
     <EquipmentRoster id="qin_npcgenerics_template_rich" culture="Culture.qinguo">
         <EquipmentSet civilian="true">
             <Equipment slot="Head" id="Item.decorated_nomad_cap"/>

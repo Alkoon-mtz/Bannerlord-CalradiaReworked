@@ -1,282 +1,244 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-    <NPCCharacter id="caravan_master_scarhok"
-        default_group="Infantry"
-        level="26" name="{=caravan_master_scarhok}Scarhokar Caravan Master"
-        occupation="CaravanGuard"
-        culture="Culture.scarhok">
-        <face>
-            <face_key_template value="BodyProperty.fighter_scarhok" />
-        </face>
-        <skills >
-            <skill id="Athletics" value="150"/>
-            <skill id="Riding" value="30"/>
-            <skill id="OneHanded" value="140"/>
-            <skill id="TwoHanded" value="30"/>
-            <skill id="Polearm" value="60"/>
-            <skill id="Bow" value="60"/>
-            <skill id="Crossbow" value="160"/>
-            <skill id="Throwing" value="70"/>
-        </skills>
-        <Equipments>
-            <EquipmentRoster>
-                <equipment slot="Item0" id="Item.crossbow_f"/>
-                <equipment slot="Item1" id="Item.bolt_c"/>
-                <equipment slot="Item2" id="Item.vlandia_sword_4_t4"/>
-                <equipment slot="Item3" id="Item.pavise_shield"/>
-                <equipment slot="Head" id="Item.peaked_helmet_over_mail_coif"/>
-                <equipment slot="Cape" id="Item.chainmail_shoulder_armor"/>
-                <equipment slot="Body" id="Item.vlandia_chainmail"/>
-                <equipment slot="Gloves" id="Item.mail_mitten"/>
-                <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
-            </EquipmentRoster>
-            <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
-        </Equipments>
-    </NPCCharacter>
-    <NPCCharacter id="tournament_master_scarhok"
+    <NPCCharacter id="tournament_master_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="ArenaMaster"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=IHKXNP9H}Tournament Master"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_mid" />
-            <EquipmentSet id="sca_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="blacksmith_scarhok"
+    <NPCCharacter id="blacksmith_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="Blacksmith"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=bNnQt4jN}Blacksmith"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_forge" />
-            <EquipmentSet id="sca_npcgenerics_template_forge" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_forge" />
+            <EquipmentSet id="vir_npcgenerics_template_forge" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="weaponsmith_scarhok"
+    <NPCCharacter id="weaponsmith_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="Weaponsmith"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=UaN2lfwi}Weaponsmith"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_forge" />
-            <EquipmentSet id="sca_npcgenerics_template_forge" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_forge" />
+            <EquipmentSet id="vir_npcgenerics_template_forge" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="armorer_scarhok"
+    <NPCCharacter id="armorer_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="Armorer"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=jx8ohENz}Armorer"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_forge" />
-            <EquipmentSet id="sca_npcgenerics_template_forge" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_forge" />
+            <EquipmentSet id="vir_npcgenerics_template_forge" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="barber_scarhok"
+    <NPCCharacter id="barber_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="Townsfolk"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=WH7EGGIg}Barber"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_forge" />
-            <EquipmentSet id="sca_npcgenerics_template_forge" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_forge" />
+            <EquipmentSet id="vir_npcgenerics_template_forge" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="preacher_notary_scarhok"
+    <NPCCharacter id="preacher_notary_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="Townsfolk"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=bLMGbLF8}Preacher Notary"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_preacher" />
-            <EquipmentSet id="sca_npcgenerics_template_preacher" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_preacher" />
+            <EquipmentSet id="vir_npcgenerics_template_preacher" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="townswoman_scarhok"
+    <NPCCharacter id="townswoman_virkaldr"
         default_group="Infantry"
         is_hero="false"
         is_female="true"
         occupation="Townsfolk"
-        culture="Culture.scarhok"
-        name="{=ansW4mx2}Scarhok Townswoman"
+        culture="Culture.sturgia"
+        name="{=ansW4mx2}Virkaldr Townswoman"
         level="1"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok_f" />
+            <face_key_template value="BodyProperty.villager_virkaldr_f" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_mid" />
-            <EquipmentSet id="sca_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="townswoman_infant_scarhok"
+    <NPCCharacter id="townswoman_infant_virkaldr"
         default_group="Infantry"
         is_hero="false"
         is_female="true"
         occupation="Townsfolk"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=femaleinfant}Infant"
         age="3"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok_f" />
+            <face_key_template value="BodyProperty.villager_virkaldr_f" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_mid" />
-            <EquipmentSet id="sca_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="townswoman_child_scarhok"
+    <NPCCharacter id="townswoman_child_virkaldr"
         default_group="Infantry"
         is_hero="false"
         is_female="true"
         occupation="Townsfolk"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=femalechild}Child"
         age="6"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok_f" />
+            <face_key_template value="BodyProperty.villager_virkaldr_f" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_mid" />
-            <EquipmentSet id="sca_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="townswoman_teenager_scarhok"
+    <NPCCharacter id="townswoman_teenager_virkaldr"
         default_group="Infantry"
         is_hero="false"
         is_female="true"
         occupation="Townsfolk"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=femaleteenager}Teenager"
         age="14"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok_f" />
+            <face_key_template value="BodyProperty.villager_virkaldr_f" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_mid" />
-            <EquipmentSet id="sca_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="townsman_scarhok"
+    <NPCCharacter id="townsman_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="Townsfolk"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=muu5cofb}Townsman"
         level="1"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_mid" />
-            <EquipmentSet id="sca_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="townsman_infant_scarhok"
+    <NPCCharacter id="townsman_infant_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="Townsfolk"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=maleinfant}Infant"
         age="3"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_mid" />
-            <EquipmentSet id="sca_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="townsman_child_scarhok"
+    <NPCCharacter id="townsman_child_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="Townsfolk"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=malechild}Child"
         age="6"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_mid" />
-            <EquipmentSet id="sca_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="townsman_teenager_scarhok"
+    <NPCCharacter id="townsman_teenager_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="Townsfolk"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=maleteenager}Teenager"
         age="14"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_mid" />
-            <EquipmentSet id="sca_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="villager_scarhok"
+    <NPCCharacter id="villager_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="Villager"
-        culture="Culture.scarhok"
-        name="{=villager_scarhok}Scarhok Peasant"
+        culture="Culture.sturgia"
+        name="{=villager_virkaldr}Virkaldr Peasant"
         level="1"
         age="30"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok"/>
+            <face_key_template value="BodyProperty.fighter_virkaldr"/>
         </face>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.scarhok_recruit" />
+            <upgrade_target id="NPCCharacter.virkaldr_recruit" />
         </upgrade_targets>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_poor" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_poor" civilian="true" />
             <EquipmentRoster>
                 <equipment slot="Item0" id="Item.throwing_stone" />
                 <equipment slot="Item1" id="Item.peasant_2haxe_1_t1" />
@@ -306,296 +268,296 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="villager_child_scarhok"
+    <NPCCharacter id="villager_child_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="Villager"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=malechild}Child"
         age="6"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_poor" />
-            <EquipmentSet id="sca_npcgenerics_template_poor" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_poor" />
+            <EquipmentSet id="vir_npcgenerics_template_poor" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="villager_teenager_scarhok"
+    <NPCCharacter id="villager_teenager_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="Villager"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=maleteenager}Teenager"
         age="14"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_poor" />
-            <EquipmentSet id="sca_npcgenerics_template_poor" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_poor" />
+            <EquipmentSet id="vir_npcgenerics_template_poor" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="villager_woman_scarhok"
+    <NPCCharacter id="villager_woman_virkaldr"
         default_group="Infantry"
         is_hero="false"
         is_female="true"
         occupation="Villager"
-        culture="Culture.scarhok"
-        name="{=scarhokpeasantwoman}Scarhok Peasant"
+        culture="Culture.sturgia"
+        name="{=virkaldrpeasantwoman}Virkaldr Peasant"
         level="1"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok_f" />
+            <face_key_template value="BodyProperty.villager_virkaldr_f" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_poor" />
-            <EquipmentSet id="sca_npcgenerics_template_poor" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_poor" />
+            <EquipmentSet id="vir_npcgenerics_template_poor" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="village_woman_child_scarhok"
+    <NPCCharacter id="village_woman_child_virkaldr"
         default_group="Infantry"
         is_hero="false"
         is_female="true"
         occupation="Villager"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=femalechild}Child"
         age="6"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok_f" />
+            <face_key_template value="BodyProperty.villager_virkaldr_f" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_poor" />
-            <EquipmentSet id="sca_npcgenerics_template_poor" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_poor" />
+            <EquipmentSet id="vir_npcgenerics_template_poor" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="village_woman_teenager_scarhok"
+    <NPCCharacter id="village_woman_teenager_virkaldr"
         default_group="Infantry"
         is_hero="false"
         is_female="true"
         occupation="Villager"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=femaleteenager}Teenager"
         age="14"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok_f" />
+            <face_key_template value="BodyProperty.villager_virkaldr_f" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_poor" />
-            <EquipmentSet id="sca_npcgenerics_template_poor" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_poor" />
+            <EquipmentSet id="vir_npcgenerics_template_poor" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="ransom_broker_scarhok"
+    <NPCCharacter id="ransom_broker_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="RansomBroker"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=W2WXkiAh}Ransom Broker"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_mid" />
-            <EquipmentSet id="sca_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="merchant_notary_scarhok"
+    <NPCCharacter id="merchant_notary_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="Townsfolk"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=reoVAtrE}Merchant Notary"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_rich" />
-            <EquipmentSet id="sca_npcgenerics_template_rich" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_rich" />
+            <EquipmentSet id="vir_npcgenerics_template_rich" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="artisan_notary_scarhok"
+    <NPCCharacter id="artisan_notary_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="Townsfolk"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=ECxiXTbF}Artisan Notary"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_mid" />
-            <EquipmentSet id="sca_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="rural_notable_notary_scarhok"
+    <NPCCharacter id="rural_notable_notary_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="Townsfolk"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=AlmaRAib}Rural Notable Notary"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_mid" />
-            <EquipmentSet id="sca_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="shop_worker_scarhok"
+    <NPCCharacter id="shop_worker_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="ShopWorker"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=275LD0Gh}Shop Worker"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_mid" />
-            <EquipmentSet id="sca_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="tavernkeeper_scarhok"
+    <NPCCharacter id="tavernkeeper_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="Tavernkeeper"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=CsjtWt1g}Tavern Keeper"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_mid" />
-            <EquipmentSet id="sca_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="taverngamehost_scarhok"
+    <NPCCharacter id="taverngamehost_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="TavernGameHost"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=twCIejxn}Game Host"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_mid" />
-            <EquipmentSet id="sca_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="musician_scarhok"
+    <NPCCharacter id="musician_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="Musician"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=zfCoeglY}Musician"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_mid" />
-            <EquipmentSet id="sca_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="tavern_wench_scarhok"
+    <NPCCharacter id="tavern_wench_virkaldr"
         default_group="Infantry"
         is_hero="false"
         is_female="true"
         occupation="TavernWench"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=z6RMWTaA}Tavern Maid"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok_f" />
+            <face_key_template value="BodyProperty.villager_virkaldr_f" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_mid" />
-            <EquipmentSet id="sca_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" />
+            <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="horse_merchant_scarhok"
+    <NPCCharacter id="horse_merchant_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="HorseTrader"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=79ElOr2x}Horse Trader"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_rich" />
-            <EquipmentSet id="sca_npcgenerics_template_rich" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_rich" />
+            <EquipmentSet id="vir_npcgenerics_template_rich" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="merchant_scarhok"
+    <NPCCharacter id="merchant_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="GoodsTrader"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=thbcgVVO}Trader"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_rich" />
-            <EquipmentSet id="sca_npcgenerics_template_rich" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_rich" />
+            <EquipmentSet id="vir_npcgenerics_template_rich" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="beggar_scarhok"
+    <NPCCharacter id="beggar_virkaldr"
         default_group="Infantry"
         is_hero="false"
         occupation="Townsfolk"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=malebeggar}Beggar"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok" />
+            <face_key_template value="BodyProperty.villager_virkaldr" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_poor" />
-            <EquipmentSet id="sca_npcgenerics_template_poor" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_poor" />
+            <EquipmentSet id="vir_npcgenerics_template_poor" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="female_beggar_scarhok"
+    <NPCCharacter id="female_beggar_virkaldr"
         default_group="Infantry"
         is_hero="false"
         is_female="true"
         occupation="Townsfolk"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=femalebeggar}Beggar"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok_f" />
+            <face_key_template value="BodyProperty.villager_virkaldr_f" />
         </face>
         <Equipments>
-            <EquipmentSet id="sca_npcgenerics_template_poor" />
-            <EquipmentSet id="sca_npcgenerics_template_poor" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_poor" />
+            <EquipmentSet id="vir_npcgenerics_template_poor" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="female_dancer_scarhok"
+    <NPCCharacter id="female_dancer_virkaldr"
         default_group="Infantry"
         is_hero="false"
         is_female="true"
         occupation="Townsfolk"
-        culture="Culture.scarhok"
+        culture="Culture.sturgia"
         name="{=X3KYysuv}Dancer"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_scarhok_f" />
+            <face_key_template value="BodyProperty.villager_virkaldr_f" />
         </face>
         <Equipments>
             <EquipmentRoster civilian="true">

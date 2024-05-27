@@ -266,24 +266,4 @@
     <xsl:template match="NPCCharacter[@id='vlandian_knight']"/>
     <xsl:template match="NPCCharacter[@id='vlandian_champion']"/>
     <xsl:template match="NPCCharacter[@id='vlandian_banner_knight']"/>
-    
-    <xsl:template match="NPCCharacter[@id='imperial_recruit']"> <xsl:copy> <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> <xsl:apply-templates select="@* | node()"/> </xsl:copy> </xsl:template>	
-    <xsl:template match="NPCCharacter[@id='imperial_infantryman']"> <xsl:copy> <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> <xsl:apply-templates select="@* | node()"/> </xsl:copy> </xsl:template>	
-    <xsl:template match="NPCCharacter[@id='imperial_vigla_recruit']"> <xsl:copy> <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> <xsl:apply-templates select="@* | node()"/> </xsl:copy> </xsl:template>	
-    <xsl:template match="NPCCharacter[@id='imperial_equite']"> <xsl:copy> <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> <xsl:apply-templates select="@* | node()"/> </xsl:copy> </xsl:template>	
-    <xsl:template match="NPCCharacter[@id='imperial_heavy_horseman']"> <xsl:copy> <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> <xsl:apply-templates select="@* | node()"/> </xsl:copy> </xsl:template>	
-    <xsl:template match="NPCCharacter[@id='imperial_cataphract']"> <xsl:copy> <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> <xsl:apply-templates select="@* | node()"/> </xsl:copy> </xsl:template>	
-    <xsl:template match="NPCCharacter[@id='imperial_elite_cataphract']"> <xsl:copy> <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> <xsl:apply-templates select="@* | node()"/> </xsl:copy> </xsl:template>	
-    <xsl:template match="NPCCharacter[@id='imperial_trained_infantryman']"> <xsl:copy> <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> <xsl:apply-templates select="@* | node()"/> </xsl:copy> </xsl:template>	
-    <xsl:template match="NPCCharacter[@id='imperial_veteran_infantryman']"> <xsl:copy> <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> <xsl:apply-templates select="@* | node()"/> </xsl:copy> </xsl:template>	
-    <xsl:template match="NPCCharacter[@id='imperial_legionary']"> <xsl:copy> <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> <xsl:apply-templates select="@* | node()"/> </xsl:copy> </xsl:template>	
-    <xsl:template match="NPCCharacter[@id='imperial_archer']"> <xsl:copy> <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> <xsl:apply-templates select="@* | node()"/> </xsl:copy> </xsl:template>	
-    <xsl:template match="NPCCharacter[@id='bucellarii']"> <xsl:copy> <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> <xsl:apply-templates select="@* | node()"/> </xsl:copy> </xsl:template>	
-    <xsl:template match="NPCCharacter[@id='imperial_trained_archer']"> <xsl:copy> <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> <xsl:apply-templates select="@* | node()"/> </xsl:copy> </xsl:template>	
-    <xsl:template match="NPCCharacter[@id='imperial_veteran_archer']"> <xsl:copy> <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> <xsl:apply-templates select="@* | node()"/> </xsl:copy> </xsl:template>	
-    <xsl:template match="NPCCharacter[@id='imperial_palatine_guard']"> <xsl:copy> <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> <xsl:apply-templates select="@* | node()"/> </xsl:copy> </xsl:template>	
-    <xsl:template match="NPCCharacter[@id='imperial_menavliaton']"> <xsl:copy> <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> <xsl:apply-templates select="@* | node()"/> </xsl:copy> </xsl:template>	
-    <xsl:template match="NPCCharacter[@id='imperial_elite_menavliaton']"> <xsl:copy> <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> <xsl:apply-templates select="@* | node()"/> </xsl:copy> </xsl:template>	
-    <xsl:template match="NPCCharacter[@id='imperial_crossbowman']"> <xsl:copy> <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> <xsl:apply-templates select="@* | node()"/> </xsl:copy> </xsl:template>	
-    <xsl:template match="NPCCharacter[@id='imperial_sergeant_crossbowman']"> <xsl:copy> <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> <xsl:apply-templates select="@* | node()"/> </xsl:copy> </xsl:template>	
 </xsl:stylesheet>

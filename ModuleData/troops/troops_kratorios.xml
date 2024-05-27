@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-    <NPCCharacter id="villager_kratorios"
+    <!-- <NPCCharacter id="villager_kratorios"
         default_group="Infantry"
         level="1"
         name="{=villager_kratorios}Kratorios Peasant"
@@ -40,7 +40,7 @@
                     id="Item.scarf" />
             </EquipmentRoster>
         </Equipments>
-    </NPCCharacter>
+    </NPCCharacter> -->
 
     <!-- Militia -->
     <NPCCharacter id="kratorios_militia_archer"

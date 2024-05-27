@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-    <NPCCharacter id="villager_lysellois"
+    <!-- <NPCCharacter id="villager_lysellois"
         default_group="Infantry"
         level="1"
         name="{=villager_lysellois}Lysellois Peasant"
@@ -324,7 +324,7 @@
                     id="Item.strapped_leather_boots" />
             </EquipmentRoster>
         </Equipments>
-    </NPCCharacter>
+    </NPCCharacter> -->
 
     <!-- Militia -->
     <NPCCharacter id="lysellois_militia_archer"

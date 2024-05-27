@@ -331,6 +331,32 @@
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" IsWandererEquipment="true" />
     </EquipmentRoster>
+    <EquipmentRoster id="vir_npcgenerics_template_forge" culture="Culture.sturgia">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.half_apron"/>
+            <Equipment slot="Gloves" id="Item.highland_gloves" />
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.leather_apron"/>
+            <Equipment slot="Gloves" id="Item.highland_gloves" />
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="vir_npcgenerics_template_preacher" culture="Culture.sturgia">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.northern_leather_vest"/>
+            <Equipment slot="Gloves" id="Item.highland_gloves" />
+            <Equipment slot="Leg" id="Item.battania_woodland_boots"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.northern_leather_vest"/>
+            <Equipment slot="Gloves" id="Item.highland_gloves" />
+            <Equipment slot="Leg" id="Item.battania_fur_boots"/>
+        </EquipmentSet>
+        <Flags IsCivilianTemplate="true" />
+    </EquipmentRoster>
     <EquipmentRoster id="vir_npcgenerics_template_rich" culture="Culture.sturgia">
         <EquipmentSet civilian="true">
             <Equipment slot="Body" id="Item.northern_padded_cloth"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-    <NPCCharacter id="villager_cereann"
+    <!-- <NPCCharacter id="villager_cereann"
         default_group="Infantry"
         level="1"
         name="{=villager_cereann}Cereann Peasant"
@@ -41,7 +41,7 @@
             </EquipmentRoster>
 
         </Equipments>
-    </NPCCharacter>
+    </NPCCharacter> -->
 
     <!-- Militia -->
     <NPCCharacter id="cereann_militia_archer"

@@ -328,7 +328,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_monghatai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_monghatai" civilian="true" />
+            <EquipmentSet id="mon_npcgenerics_template_preacher" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_preacher_monghatai_1f"
@@ -349,7 +349,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_monghatai" />
-            <EquipmentSet id="npc_wanderer_equipment_template_monghatai" civilian="true" />
+            <EquipmentSet id="mon_npcgenerics_template_preacher" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_gangleader_monghatai_1"
@@ -409,7 +409,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_monghatai" />
-            <EquipmentSet id="mon_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="mon_npcgenerics_template_forge" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_artisan_monghatai_2"
@@ -428,7 +428,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_monghatai" />
-            <EquipmentSet id="mon_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="mon_npcgenerics_template_forge" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_ruralnotable_monghatai_1"

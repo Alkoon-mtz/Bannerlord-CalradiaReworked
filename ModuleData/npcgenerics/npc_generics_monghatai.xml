@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+    <NPCCharacter id="tournament_master_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="ArenaMaster"
+        culture="Culture.khuzait"
+        name="{=IHKXNP9H}Tournament Master"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_mid" />
+            <EquipmentSet id="mon_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="blacksmith_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Blacksmith"
+        culture="Culture.khuzait"
+        name="{=bNnQt4jN}Blacksmith"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_forge" />
+            <EquipmentSet id="mon_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weaponsmith_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Weaponsmith"
+        culture="Culture.khuzait"
+        name="{=UaN2lfwi}Weaponsmith"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_forge" />
+            <EquipmentSet id="mon_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="armorer_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Armorer"
+        culture="Culture.khuzait"
+        name="{=jx8ohENz}Armorer"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_forge" />
+            <EquipmentSet id="mon_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="barber_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.khuzait"
+        name="{=WH7EGGIg}Barber"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_forge" />
+            <EquipmentSet id="mon_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="preacher_notary_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.khuzait"
+        name="{=bLMGbLF8}Preacher Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_preacher" />
+            <EquipmentSet id="mon_npcgenerics_template_preacher" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.khuzait"
+        name="{=ansW4mx2}Monghatai Townswoman"
+        level="1"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_mid" />
+            <EquipmentSet id="mon_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_infant_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.khuzait"
+        name="{=femaleinfant}Infant"
+        age="3"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_mid" />
+            <EquipmentSet id="mon_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_child_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.khuzait"
+        name="{=femalechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_mid" />
+            <EquipmentSet id="mon_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_teenager_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.khuzait"
+        name="{=femaleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_mid" />
+            <EquipmentSet id="mon_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.khuzait"
+        name="{=muu5cofb}Townsman"
+        level="1"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_mid" />
+            <EquipmentSet id="mon_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_infant_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.khuzait"
+        name="{=maleinfant}Infant"
+        age="3"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_mid" />
+            <EquipmentSet id="mon_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_child_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.khuzait"
+        name="{=malechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_mid" />
+            <EquipmentSet id="mon_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_teenager_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.khuzait"
+        name="{=maleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_mid" />
+            <EquipmentSet id="mon_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Villager"
+        culture="Culture.khuzait"
+        name="{=villager_monghatai}Monghatai Peasant"
+        level="1"
+        age="30"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai"/>
+        </face>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.monghatai_recruit" />
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_poor" civilian="true" />
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.throwing_stone" />
+                <equipment slot="Item1" id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Body" id="Item.steppe_robe" />
+                <equipment slot="Leg" id="Item.strapped_leather_boots" />
+                <equipment slot="Cape" id="Item.scarf" />
+                <equipment slot="Head" id="Item.fur_hat" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_child_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Villager"
+        culture="Culture.khuzait"
+        name="{=malechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_poor" />
+            <EquipmentSet id="mon_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_teenager_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Villager"
+        culture="Culture.khuzait"
+        name="{=maleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_poor" />
+            <EquipmentSet id="mon_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_woman_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Villager"
+        culture="Culture.khuzait"
+        name="{=monghataipeasantwoman}Monghatai Peasant"
+        level="1"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_poor" />
+            <EquipmentSet id="mon_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="village_woman_child_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Villager"
+        culture="Culture.khuzait"
+        name="{=femalechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_poor" />
+            <EquipmentSet id="mon_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="village_woman_teenager_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Villager"
+        culture="Culture.khuzait"
+        name="{=femaleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_poor" />
+            <EquipmentSet id="mon_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="ransom_broker_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="RansomBroker"
+        culture="Culture.khuzait"
+        name="{=W2WXkiAh}Ransom Broker"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_mid" />
+            <EquipmentSet id="mon_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="merchant_notary_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.khuzait"
+        name="{=reoVAtrE}Merchant Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_rich" />
+            <EquipmentSet id="mon_npcgenerics_template_rich" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="artisan_notary_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.khuzait"
+        name="{=ECxiXTbF}Artisan Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_mid" />
+            <EquipmentSet id="mon_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rural_notable_notary_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.khuzait"
+        name="{=AlmaRAib}Rural Notable Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_mid" />
+            <EquipmentSet id="mon_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="shop_worker_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="ShopWorker"
+        culture="Culture.khuzait"
+        name="{=275LD0Gh}Shop Worker"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_mid" />
+            <EquipmentSet id="mon_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tavernkeeper_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Tavernkeeper"
+        culture="Culture.khuzait"
+        name="{=CsjtWt1g}Tavern Keeper"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_mid" />
+            <EquipmentSet id="mon_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="taverngamehost_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="TavernGameHost"
+        culture="Culture.khuzait"
+        name="{=twCIejxn}Game Host"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_mid" />
+            <EquipmentSet id="mon_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="musician_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Musician"
+        culture="Culture.khuzait"
+        name="{=zfCoeglY}Musician"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_mid" />
+            <EquipmentSet id="mon_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tavern_wench_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="TavernWench"
+        culture="Culture.khuzait"
+        name="{=z6RMWTaA}Tavern Maid"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_mid" />
+            <EquipmentSet id="mon_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="horse_merchant_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="HorseTrader"
+        culture="Culture.khuzait"
+        name="{=79ElOr2x}Horse Trader"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_rich" />
+            <EquipmentSet id="mon_npcgenerics_template_rich" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="merchant_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="GoodsTrader"
+        culture="Culture.khuzait"
+        name="{=thbcgVVO}Trader"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_rich" />
+            <EquipmentSet id="mon_npcgenerics_template_rich" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="beggar_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.khuzait"
+        name="{=malebeggar}Beggar"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_poor" />
+            <EquipmentSet id="mon_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="female_beggar_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.khuzait"
+        name="{=femalebeggar}Beggar"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="mon_npcgenerics_template_poor" />
+            <EquipmentSet id="mon_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="female_dancer_monghatai"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.khuzait"
+        name="{=X3KYysuv}Dancer"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_monghatai_f" />
+        </face>
+        <Equipments>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body" id="Item.steppe_dress" />
+                <equipment slot="Leg" id="Item.ladys_shoe" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body" id="Item.khuzait_dress" />
+                <equipment slot="Leg" id="Item.ladys_shoe" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

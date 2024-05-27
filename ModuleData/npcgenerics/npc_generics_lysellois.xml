@@ -39,4 +39,601 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
+    <NPCCharacter id="tournament_master_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="ArenaMaster"
+        culture="Culture.vlandia"
+        name="{=IHKXNP9H}Tournament Master"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_mid" />
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="blacksmith_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Blacksmith"
+        culture="Culture.vlandia"
+        name="{=bNnQt4jN}Blacksmith"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_forge" />
+            <EquipmentSet id="lys_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weaponsmith_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Weaponsmith"
+        culture="Culture.vlandia"
+        name="{=UaN2lfwi}Weaponsmith"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_forge" />
+            <EquipmentSet id="lys_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="armorer_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Armorer"
+        culture="Culture.vlandia"
+        name="{=jx8ohENz}Armorer"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_forge" />
+            <EquipmentSet id="lys_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="barber_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.vlandia"
+        name="{=WH7EGGIg}Barber"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_forge" />
+            <EquipmentSet id="lys_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="preacher_notary_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.vlandia"
+        name="{=bLMGbLF8}Preacher Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_preacher" />
+            <EquipmentSet id="lys_npcgenerics_template_preacher" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.vlandia"
+        name="{=ansW4mx2}Lysellois Townswoman"
+        level="1"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_mid" />
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_infant_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.vlandia"
+        name="{=femaleinfant}Infant"
+        age="3"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_mid" />
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_child_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.vlandia"
+        name="{=femalechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_mid" />
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_teenager_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.vlandia"
+        name="{=femaleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_mid" />
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.vlandia"
+        name="{=muu5cofb}Townsman"
+        level="1"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_mid" />
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_infant_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.vlandia"
+        name="{=maleinfant}Infant"
+        age="3"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_mid" />
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_child_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.vlandia"
+        name="{=malechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_mid" />
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_teenager_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.vlandia"
+        name="{=maleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_mid" />
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Villager"
+        culture="Culture.vlandia"
+        name="{=villager_lysellois}Lysellois Peasant"
+        level="1"
+        age="30"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois"/>
+        </face>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.lysellois_recruit" />
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_poor" civilian="true" />
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.throwing_stone" />
+                <equipment slot="Item1" id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Cape" id="Item.hood" />
+                <equipment slot="Body" id="Item.tattered_rags" />
+                <equipment slot="Leg" id="Item.strapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.throwing_stone" />
+                <equipment slot="Item1" id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v2" />
+                <equipment slot="Leg" id="Item.strapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.throwing_stone" />
+                <equipment slot="Item1" id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Body" id="Item.tunic_with_rolled_cloth" />
+                <equipment slot="Head" id="Item.leather_cap" />
+                <equipment slot="Leg" id="Item.strapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.throwing_stone" />
+                <equipment slot="Item1" id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Cape" id="Item.hood" />
+                <equipment slot="Body" id="Item.long_hemp_tunic" />
+                <equipment slot="Leg" id="Item.wrapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.throwing_stone" />
+                <equipment slot="Item1" id="Item.peasant_2haxe_1_t1" />
+                <equipment slot="Body" id="Item.long_hemp_tunic" />
+                <equipment slot="Leg" id="Item.wrapped_shoes" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.throwing_stone" />
+                <equipment slot="Item1" id="Item.peasant_2haxe_1_t1" />
+                <equipment slot="Cape" id="Item.hood" />
+                <equipment slot="Body" id="Item.long_woolen_tunic" />
+                <equipment slot="Leg" id="Item.strapped_leather_boots" />
+                <equipment slot="Gloves" id="Item.leather_gloves" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.throwing_stone" />
+                <equipment slot="Item1" id="Item.peasant_2haxe_1_t1" />
+                <equipment slot="Body" id="Item.long_woolen_tunic" />
+                <equipment slot="Leg" id="Item.strapped_leather_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.throwing_stone" />
+                <equipment slot="Item1" id="Item.peasant_2haxe_1_t1" />
+                <equipment slot="Cape" id="Item.hood" />
+                <equipment slot="Body" id="Item.sackcloth_tunic" />
+                <equipment slot="Leg" id="Item.strapped_leather_boots" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_child_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Villager"
+        culture="Culture.vlandia"
+        name="{=malechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_poor" />
+            <EquipmentSet id="lys_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_teenager_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Villager"
+        culture="Culture.vlandia"
+        name="{=maleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_poor" />
+            <EquipmentSet id="lys_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_woman_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Villager"
+        culture="Culture.vlandia"
+        name="{=lyselloispeasantwoman}Lysellois Peasant"
+        level="1"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_poor" />
+            <EquipmentSet id="lys_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="village_woman_child_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Villager"
+        culture="Culture.vlandia"
+        name="{=femalechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_poor" />
+            <EquipmentSet id="lys_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="village_woman_teenager_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Villager"
+        culture="Culture.vlandia"
+        name="{=femaleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_poor" />
+            <EquipmentSet id="lys_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="ransom_broker_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="RansomBroker"
+        culture="Culture.vlandia"
+        name="{=W2WXkiAh}Ransom Broker"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_mid" />
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="merchant_notary_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.vlandia"
+        name="{=reoVAtrE}Merchant Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_rich" />
+            <EquipmentSet id="lys_npcgenerics_template_rich" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="artisan_notary_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.vlandia"
+        name="{=ECxiXTbF}Artisan Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_mid" />
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rural_notable_notary_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.vlandia"
+        name="{=AlmaRAib}Rural Notable Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_mid" />
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="shop_worker_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="ShopWorker"
+        culture="Culture.vlandia"
+        name="{=275LD0Gh}Shop Worker"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_mid" />
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tavernkeeper_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Tavernkeeper"
+        culture="Culture.vlandia"
+        name="{=CsjtWt1g}Tavern Keeper"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_mid" />
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="taverngamehost_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="TavernGameHost"
+        culture="Culture.vlandia"
+        name="{=twCIejxn}Game Host"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_mid" />
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="musician_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Musician"
+        culture="Culture.vlandia"
+        name="{=zfCoeglY}Musician"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_mid" />
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tavern_wench_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="TavernWench"
+        culture="Culture.vlandia"
+        name="{=z6RMWTaA}Tavern Maid"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_mid" />
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="horse_merchant_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="HorseTrader"
+        culture="Culture.vlandia"
+        name="{=79ElOr2x}Horse Trader"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_rich" />
+            <EquipmentSet id="lys_npcgenerics_template_rich" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="merchant_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="GoodsTrader"
+        culture="Culture.vlandia"
+        name="{=thbcgVVO}Trader"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_rich" />
+            <EquipmentSet id="lys_npcgenerics_template_rich" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="beggar_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.vlandia"
+        name="{=malebeggar}Beggar"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_poor" />
+            <EquipmentSet id="lys_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="female_beggar_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.vlandia"
+        name="{=femalebeggar}Beggar"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="lys_npcgenerics_template_poor" />
+            <EquipmentSet id="lys_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="female_dancer_lysellois"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.vlandia"
+        name="{=X3KYysuv}Dancer"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_lysellois_f" />
+        </face>
+        <Equipments>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body" id="Item.cut_dress" />
+                <equipment slot="Leg" id="Item.ladys_shoe" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body" id="Item.cut_dress_with_pouch" />
+                <equipment slot="Leg" id="Item.ladys_shoe" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
 </NPCCharacters>

@@ -328,7 +328,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_virkaldr" />
-            <EquipmentSet id="npc_wanderer_equipment_template_virkaldr" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_preacher" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_preacher_virkaldr_1f"
@@ -349,7 +349,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_virkaldr" />
-            <EquipmentSet id="npc_wanderer_equipment_template_virkaldr" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_preacher" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_gangleader_virkaldr_1"
@@ -409,7 +409,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_virkaldr" />
-            <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_forge" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_artisan_virkaldr_2"
@@ -428,7 +428,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_virkaldr" />
-            <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_forge" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_ruralnotable_virkaldr_1"

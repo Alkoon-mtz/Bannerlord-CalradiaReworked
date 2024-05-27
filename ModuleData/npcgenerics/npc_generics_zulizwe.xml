@@ -19,7 +19,6 @@
             <skill id="Crossbow" value="20" />
             <skill id="Throwing" value="50" />
         </skills>
-        <upgrade_targets></upgrade_targets>
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0" id="Item.empire_sword_1_t2" />
@@ -50,6 +49,558 @@
                 <equipment slot="Body" id="Item.legionary_mail" />
                 <equipment slot="Gloves" id="Item.highland_gloves" />
                 <equipment slot="Leg" id="Item.leather_shoes" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tournament_master_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="ArenaMaster"
+        culture="Culture.zulizwe"
+        name="{=IHKXNP9H}Tournament Master"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_mid" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="blacksmith_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Blacksmith"
+        culture="Culture.zulizwe"
+        name="{=bNnQt4jN}Blacksmith"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_forge" />
+            <EquipmentSet id="zul_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weaponsmith_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Weaponsmith"
+        culture="Culture.zulizwe"
+        name="{=UaN2lfwi}Weaponsmith"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_forge" />
+            <EquipmentSet id="zul_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="armorer_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Armorer"
+        culture="Culture.zulizwe"
+        name="{=jx8ohENz}Armorer"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_forge" />
+            <EquipmentSet id="zul_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="barber_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.zulizwe"
+        name="{=WH7EGGIg}Barber"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_forge" />
+            <EquipmentSet id="zul_npcgenerics_template_forge" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="preacher_notary_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.zulizwe"
+        name="{=bLMGbLF8}Preacher Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_preacher" />
+            <EquipmentSet id="zul_npcgenerics_template_preacher" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.zulizwe"
+        name="{=ansW4mx2}Scarhok Townswoman"
+        level="1"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_mid" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_infant_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.zulizwe"
+        name="{=femaleinfant}Infant"
+        age="3"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_mid" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_child_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.zulizwe"
+        name="{=femalechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_mid" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townswoman_teenager_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.zulizwe"
+        name="{=femaleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_mid" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.zulizwe"
+        name="{=muu5cofb}Townsman"
+        level="1"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_mid" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_infant_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.zulizwe"
+        name="{=maleinfant}Infant"
+        age="3"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_mid" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_child_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.zulizwe"
+        name="{=malechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_mid" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="townsman_teenager_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.zulizwe"
+        name="{=maleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_mid" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Villager"
+        culture="Culture.zulizwe"
+        name="{=villager_zulizwe}Zulizwe Peasant"
+        level="1"
+        age="30"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe"/>
+        </face>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.zulizwe_recruit" />
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_poor" civilian="true" />
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.peasant_polearm_1_t1" />
+                <equipment slot="Item1" id="Item.throwing_stone" />
+                <equipment slot="Body" id="Item.fine_town_tunic" />
+                <equipment slot="Leg" id="Item.leather_boots" />
+                <equipment slot="Head" id="Item.merchants_hat" />
+                <equipment slot="Cape" id="Item.scarf" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_child_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Villager"
+        culture="Culture.zulizwe"
+        name="{=malechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_poor" />
+            <EquipmentSet id="zul_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_teenager_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Villager"
+        culture="Culture.zulizwe"
+        name="{=maleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_poor" />
+            <EquipmentSet id="zul_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="villager_woman_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Villager"
+        culture="Culture.zulizwe"
+        name="{=zulizwepeasantwoman}Scarhok Peasant"
+        level="1"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_poor" />
+            <EquipmentSet id="zul_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="village_woman_child_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Villager"
+        culture="Culture.zulizwe"
+        name="{=femalechild}Child"
+        age="6"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_poor" />
+            <EquipmentSet id="zul_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="village_woman_teenager_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Villager"
+        culture="Culture.zulizwe"
+        name="{=femaleteenager}Teenager"
+        age="14"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_poor" />
+            <EquipmentSet id="zul_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="ransom_broker_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="RansomBroker"
+        culture="Culture.zulizwe"
+        name="{=W2WXkiAh}Ransom Broker"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_mid" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="merchant_notary_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.zulizwe"
+        name="{=reoVAtrE}Merchant Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_rich" />
+            <EquipmentSet id="zul_npcgenerics_template_rich" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="artisan_notary_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.zulizwe"
+        name="{=ECxiXTbF}Artisan Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_mid" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rural_notable_notary_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.zulizwe"
+        name="{=AlmaRAib}Rural Notable Notary"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_mid" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="shop_worker_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="ShopWorker"
+        culture="Culture.zulizwe"
+        name="{=275LD0Gh}Shop Worker"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_mid" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tavernkeeper_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Tavernkeeper"
+        culture="Culture.zulizwe"
+        name="{=CsjtWt1g}Tavern Keeper"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_mid" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="taverngamehost_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="TavernGameHost"
+        culture="Culture.zulizwe"
+        name="{=twCIejxn}Game Host"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_mid" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="musician_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Musician"
+        culture="Culture.zulizwe"
+        name="{=zfCoeglY}Musician"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_mid" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tavern_wench_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="TavernWench"
+        culture="Culture.zulizwe"
+        name="{=z6RMWTaA}Tavern Maid"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_mid" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="horse_merchant_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="HorseTrader"
+        culture="Culture.zulizwe"
+        name="{=79ElOr2x}Horse Trader"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_rich" />
+            <EquipmentSet id="zul_npcgenerics_template_rich" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="merchant_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="GoodsTrader"
+        culture="Culture.zulizwe"
+        name="{=thbcgVVO}Trader"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_rich" />
+            <EquipmentSet id="zul_npcgenerics_template_rich" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="beggar_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        occupation="Townsfolk"
+        culture="Culture.zulizwe"
+        name="{=malebeggar}Beggar"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_poor" />
+            <EquipmentSet id="zul_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="female_beggar_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.zulizwe"
+        name="{=femalebeggar}Beggar"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe_f" />
+        </face>
+        <Equipments>
+            <EquipmentSet id="zul_npcgenerics_template_poor" />
+            <EquipmentSet id="zul_npcgenerics_template_poor" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="female_dancer_zulizwe"
+        default_group="Infantry"
+        is_hero="false"
+        is_female="true"
+        occupation="Townsfolk"
+        culture="Culture.zulizwe"
+        name="{=X3KYysuv}Dancer"
+        skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe_f" />
+        </face>
+        <Equipments>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Head" id="Item.head_wrapped" />
+                <equipment slot="Body" id="Item.cut_dress" />
+                <equipment slot="Leg" id="Item.ladys_shoe" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body" id="Item.cut_dress_with_pouch" />
+                <equipment slot="Leg" id="Item.ladys_shoe" />
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>

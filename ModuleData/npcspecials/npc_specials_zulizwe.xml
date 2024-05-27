@@ -265,8 +265,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="zul_npcgenerics_template_rich" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_merchant_zulizwe_2"
@@ -290,8 +289,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="zul_npcgenerics_template_rich" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_merchant_zulizwe_3"
@@ -313,8 +311,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="zul_npcgenerics_template_rich" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_merchant_zulizwe_4"
@@ -336,8 +333,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="zul_npcgenerics_template_rich" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_merchant_zulizwe_1f"
@@ -360,8 +356,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="zul_npcgenerics_template_rich" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_merchant_zulizwe_2f"
@@ -386,8 +381,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="zul_npcgenerics_template_rich" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_preacher_zulizwe_1"
@@ -409,8 +403,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_preacher" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_preacher_zulizwe_1f"
@@ -433,8 +426,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="vir_npcgenerics_template_preacher" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_gangleader_zulizwe_1"
@@ -501,8 +493,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="zul_npcgenerics_template_forge" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_artisan_zulizwe_2"
@@ -522,8 +513,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="zul_npcgenerics_template_forge" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_ruralnotable_zulizwe_1"
@@ -543,8 +533,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_ruralnotable_zulizwe_2"
@@ -566,8 +555,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_ruralnotable_zulizwe_1f"
@@ -588,8 +576,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_headman_zulizwe_1"
@@ -611,8 +598,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_headman_zulizwe_2"
@@ -634,8 +620,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_headman_zulizwe_1f"
@@ -658,8 +643,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="zul_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
 </NPCCharacters>

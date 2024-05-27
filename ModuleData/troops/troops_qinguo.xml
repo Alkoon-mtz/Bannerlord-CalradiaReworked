@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-    <NPCCharacter id="villager_qinguo"
+    <!-- <NPCCharacter id="villager_qinguo"
         default_group="Infantry"
         level="1"
         name="{=villager_qinguo}Qinguo Peasant"
@@ -40,7 +40,7 @@
                     id="Item.fur_hat" />
             </EquipmentRoster>
         </Equipments>
-    </NPCCharacter>
+    </NPCCharacter> -->
 
     <!-- Militia -->
     <NPCCharacter id="qinguo_militia_archer"

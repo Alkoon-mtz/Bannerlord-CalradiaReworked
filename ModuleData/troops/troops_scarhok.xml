@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-    <NPCCharacter id="villager_scarhok"
+    <!-- <NPCCharacter id="villager_scarhok"
         default_group="Infantry"
         level="1"
         name="{=villager_scarhok}Scarhok Peasant"
@@ -324,7 +324,7 @@
                     id="Item.strapped_leather_boots" />
             </EquipmentRoster>
         </Equipments>
-    </NPCCharacter>
+    </NPCCharacter> -->
 
     <!-- Militia -->
     <NPCCharacter id="scarhok_militia_archer"

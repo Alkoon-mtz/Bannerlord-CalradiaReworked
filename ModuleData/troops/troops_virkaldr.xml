@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-     <NPCCharacter id="villager_virkaldr"
+    <!-- <NPCCharacter id="villager_virkaldr"
         default_group="Infantry"
         level="1"
         name="{=villager_virkaldr}Virkaldr Peasant"
@@ -324,7 +324,7 @@
                     id="Item.strapped_leather_boots" />
             </EquipmentRoster>
         </Equipments>
-    </NPCCharacter>
+    </NPCCharacter> -->
 
     <!-- Militia -->
     <NPCCharacter id="virkaldr_militia_archer"

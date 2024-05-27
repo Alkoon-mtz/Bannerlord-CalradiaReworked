@@ -328,7 +328,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
-            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
+            <EquipmentSet id="ius_npcgenerics_template_preacher" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_preacher_iustrium_1f"
@@ -349,7 +349,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
-            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
+            <EquipmentSet id="ius_npcgenerics_template_preacher" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_gangleader_iustrium_1"
@@ -409,7 +409,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
-            <EquipmentSet id="ius_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="ius_npcgenerics_template_forge" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_artisan_iustrium_2"
@@ -428,7 +428,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_iustrium" />
-            <EquipmentSet id="ius_npcgenerics_template_mid" civilian="true" />
+            <EquipmentSet id="ius_npcgenerics_template_forge" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_ruralnotable_iustrium_1"
