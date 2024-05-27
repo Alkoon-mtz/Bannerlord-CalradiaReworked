@@ -186,7 +186,7 @@
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.khuzait_polearm_1_t4"/>
+                    id="Item.qinguo_polearm_1_t4"/>
                 <equipment slot="Head"
                     id="Item.AR_khuzait_helmet_q"/>
                 <equipment slot="Body"
@@ -243,7 +243,7 @@
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.khuzait_polearm_1_t4"/>
+                    id="Item.qinguo_polearm_1_t4"/>
                 <equipment slot="Head"
                     id="Item.AR_khuzait_helmet_r"/>
                 <equipment slot="Body"
@@ -302,7 +302,7 @@
         <Equipments>
             <EquipmentRoster>
                 <equipment slot="Item0"
-                    id="Item.khuzait_polearm_1_t4"/>
+                    id="Item.qinguo_polearm_1_t6"/>
                 <equipment slot="Head"
                     id="Item.AR_khuzait_helmet_s"/>
                 <equipment slot="Cape"
@@ -359,7 +359,7 @@
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
+                <equipment slot="Item0" id="Item.qinguo_polearm_1_t6"/>
                 <equipment slot="Head" id="Item.khuzait_noble_helmet_with_feathers"/>
                 <equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a2"/>
                 <equipment slot="Body" id="Item.AR_aserai_armor_c"/>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>
+    <CraftingPiece id="guandao_blade_t6"
+        name="{=guandao_blade_t6}Guandao Blade"
+        tier="4"
+        piece_type="Blade"
+        mesh="guandao_blade"
+        length="69.4"
+        weight="0.647"
+        excluded_item_usage_features="thrust">
+        <BladeData stack_amount="3"
+            physics_material="wood_weapon"
+            body_name="bo_spear_b">
+            <Swing damage_type="Cut"
+                damage_factor="4.8" />
+        </BladeData>
+        <Materials>
+            <Material id="Iron4"
+                count="1" />
+        </Materials>
+    </CraftingPiece>
+    <CraftingPiece id="guandao_blade_t4"
+        name="{=guandao_blade_t6}Guandao Blade"
+        tier="4"
+        piece_type="Blade"
+        mesh="guandao_blade"
+        length="69.4"
+        weight="0.647"
+        excluded_item_usage_features="thrust">
+        <BladeData stack_amount="3"
+            physics_material="wood_weapon"
+            body_name="bo_spear_b">
+            <Swing damage_type="Cut"
+                damage_factor="2.4" />
+        </BladeData>
+        <Materials>
+            <Material id="Iron1"
+                count="1" />
+        </Materials>
+    </CraftingPiece>
+</CraftingPieces>

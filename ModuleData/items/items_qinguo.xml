@@ -111,4 +111,45 @@
         </ItemComponent>
         <Flags />
     </Item>
+
+    <CraftedItem id="qinguo_polearm_1_t6"
+        name="{=qinguo_polearm_1_t6}Heavy Guandao"
+        crafting_template="TwoHandedPolearm"
+        culture="Culture.qinguo"
+        modifier_group="polearm">
+        <Pieces>
+            <Piece id="guandao_blade_t6"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="spear_banner_17"
+                Type="Guard"
+                scale_factor="100" />
+            <Piece id="spear_handle_15"
+                Type="Handle"
+                scale_factor="100" />
+            <Piece id="default_polearm_pommel"
+                Type="Pommel"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="qinguo_polearm_1_t4"
+        name="{=qinguo_polearm_1_t4}Guandao"
+        crafting_template="TwoHandedPolearm"
+        culture="Culture.qinguo"
+        modifier_group="polearm">
+        <Pieces>
+            <Piece id="guandao_blade_t4"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="spear_banner_17"
+                Type="Guard"
+                scale_factor="100" />
+            <Piece id="spear_handle_15"
+                Type="Handle"
+                scale_factor="100" />
+            <Piece id="default_polearm_pommel"
+                Type="Pommel"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
 </Items>

@@ -73,6 +73,8 @@
             <AvailablePiece id="kratorios_spear_blade_t5" />
             <AvailablePiece id="kratorios_spear_blade_t4" />
             <AvailablePiece id="kratorios_spear_blade_t3" />
+            <AvailablePiece id="guandao_blade_t6" />
+            <AvailablePiece id="guandao_blade_t4" />
         </xsl:copy>
     </xsl:template>
     <xsl:template match="WeaponDescription[@id='TwoHandedPolearm_Couchable']/AvailablePieces">
