@@ -5,7 +5,7 @@
         owner="Hero.lord_rekgeist_1_1"
         culture="Culture.rekgeist"
         super_faction="Kingdom.kingdom_rekgeist"
-        banner_key="11.116.72.2538.2543.764.788.1.0.0.449.127.116.400.400.764.964.0.0.0.102.127.40.500.500.764.764.0.0.0.340.127.116.300.200.764.504.0.0.0" />
+        banner_key="11.116.72.2538.2543.764.788.1.0.0.222.127.40.600.600.764.764.0.0.0.102.127.40.300.300.764.784.0.0.0" />
     <Faction id="clan_rekgeist_2"
         name="{=clan_rekgeist_2}von Wickerode"
         tier="5"

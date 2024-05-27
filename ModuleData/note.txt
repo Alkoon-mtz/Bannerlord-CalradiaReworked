@@ -21,7 +21,6 @@ Customize:
     basic_mercenary_troops
     weapon_practice_stage_1 ?
 Independant clans
-Change banner of the 1st clan to avoid confusion when leader clan change
 
 Aseriyun:
 Rework banners

@@ -5,7 +5,7 @@
         owner="Hero.lord_kratorios_1_1"
         culture="Culture.empire"
         super_faction="Kingdom.kingdom_kratorios"
-        banner_key="11.6.6.4345.4345.764.764.1.0.0.423.9.9.600.600.764.764.0.0.0.106.9.9.375.375.764.764.0.0.0" />
+        banner_key="11.6.6.4345.4345.764.764.1.0.0.423.9.9.600.600.764.764.0.0.0.109.9.9.375.375.764.764.0.0.0" />
     <Faction id="clan_kratorios_2"
         name="{=clan_kratorios_2}Corenos"
         tier="5"
