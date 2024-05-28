@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CraftingPieces>
-
+    <!-- length="37.992" -->
+    <CraftingPiece id="halberd_head_t3"
+        name="{=halberd_head_t3}Halberd Blade"
+        tier="3"
+        piece_type="Blade"
+        mesh="halberd_head"
+        distance_to_next_piece="13.9"
+        distance_to_previous_piece="4"
+        weight="0.7">
+        <BladeData stack_amount="3"
+            blade_length="37.992"
+            blade_width="46.534"
+            physics_material="wood_weapon"
+            body_name="bo_spear_b">
+            <Thrust damage_type="Pierce" damage_factor="2.4" />
+            <Swing damage_type="Cut" damage_factor="2.2" />
+        </BladeData>
+        <Materials>
+            <Material id="Iron4" count="1" />
+        </Materials>
+    </CraftingPiece>
 </CraftingPieces>

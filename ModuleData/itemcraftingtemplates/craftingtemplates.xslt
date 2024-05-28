@@ -64,6 +64,7 @@
             <UsablePiece piece_id="kratorios_spear_blade_t3"/>
             <UsablePiece piece_id="guandao_blade_t6"/>
             <UsablePiece piece_id="guandao_blade_t4"/>
+            <UsablePiece piece_id="halberd_head_t3" />
         </xsl:copy>
     </xsl:template>
     <xsl:template match="CraftingTemplate[@id='Pike']/UsablePieces">
@@ -75,6 +76,7 @@
             <UsablePiece piece_id="kratorios_spear_blade_t5"/>
             <UsablePiece piece_id="kratorios_spear_blade_t4"/>
             <UsablePiece piece_id="kratorios_spear_blade_t3"/>
+            <UsablePiece piece_id="halberd_head_t3" />
         </xsl:copy>
     </xsl:template>
 </xsl:stylesheet>

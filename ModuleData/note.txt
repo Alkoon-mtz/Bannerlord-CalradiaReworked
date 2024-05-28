@@ -66,15 +66,15 @@ NTH:
     More armors (lol...)
 
 wakizashi (1h)
-aserai_noble_blade_6
-khuzait_noble_guard_1
-empire_noble_grip_3
-khuzait_noble_pommel_1
+    aserai_noble_blade_6
+    khuzait_noble_guard_1
+    empire_noble_grip_3
+    khuzait_noble_pommel_1
 katana (2h)
-aserai_blade_3
-sturgian_guard_6
-sturgian_grip_19
-sturgian_pommel_12
+    aserai_blade_3
+    sturgian_guard_6
+    sturgian_grip_19
+    sturgian_pommel_12
 
 Error	CS1705	Assembly '0Harmony' with identity '0Harmony, Version=2.3.1.1, Culture=neutral, PublicKeyToken=null' 
 uses 'System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' 

@@ -1,4 +1,37 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-
+    <NPCCharacter id="condotierri"
+        default_group="Ranged"
+        level="26"
+        name="{=condotierri}Condotierri"
+        occupation="Soldier"
+        culture="Culture.qinguo">
+        <face>
+            <face_key_template value="BodyProperty.fighter_qinguo"/>
+        </face>
+        <skills >
+            <skill id="Athletics" value="120"/>
+            <skill id="Riding" value="30"/>
+            <skill id="OneHanded" value="160"/>
+            <skill id="TwoHanded" value="30"/>
+            <skill id="Polearm" value="80"/>
+            <skill id="Bow" value="40"/>
+            <skill id="Crossbow" value="200"/>
+            <skill id="Throwing" value="40"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.qinguo_chukonu_t5"/>
+                <equipment slot="Item1" id="Item.bolt_c"/>
+                <equipment slot="Item2" id="Item.bolt_c"/>
+                <equipment slot="Item3" id="Item.khuzait_noble_sword_1_t5"/>
+                <equipment slot="Head" id="Item.TV_aserai_helmet_y2"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_c"/>
+                <equipment slot="Body" id="Item.AR_aserai_armor_f2"/>
+                <equipment slot="Gloves" id="Item.AR_empire_gloves_c"/>
+                <equipment slot="Leg" id="Item.AR_empire_boots_c"/>
+            </EquipmentRoster>
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
 </NPCCharacters>

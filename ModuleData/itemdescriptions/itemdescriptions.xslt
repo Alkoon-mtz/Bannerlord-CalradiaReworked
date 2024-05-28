@@ -75,6 +75,7 @@
             <AvailablePiece id="kratorios_spear_blade_t3" />
             <AvailablePiece id="guandao_blade_t6" />
             <AvailablePiece id="guandao_blade_t4" />
+            <AvailablePiece id="halberd_head_t3" />
         </xsl:copy>
     </xsl:template>
     <xsl:template match="WeaponDescription[@id='TwoHandedPolearm_Couchable']/AvailablePieces">
@@ -86,6 +87,7 @@
             <AvailablePiece id="kratorios_spear_blade_t5" />
             <AvailablePiece id="kratorios_spear_blade_t4" />
             <AvailablePiece id="kratorios_spear_blade_t3" />
+            <AvailablePiece id="halberd_head_t3" />
         </xsl:copy>
     </xsl:template>
     <xsl:template match="WeaponDescription[@id='TwoHandedPolearm_Pike']/AvailablePieces">
@@ -97,6 +99,7 @@
             <AvailablePiece id="kratorios_spear_blade_t5" />
             <AvailablePiece id="kratorios_spear_blade_t4" />
             <AvailablePiece id="kratorios_spear_blade_t3" />
+            <AvailablePiece id="halberd_head_t3" />
         </xsl:copy>
     </xsl:template>
     <xsl:template match="WeaponDescription[@id='TwoHandedPolearm_Bracing']/AvailablePieces">
@@ -108,6 +111,7 @@
             <AvailablePiece id="kratorios_spear_blade_t5" />
             <AvailablePiece id="kratorios_spear_blade_t4" />
             <AvailablePiece id="kratorios_spear_blade_t3" />
+            <AvailablePiece id="halberd_head_t3" />
         </xsl:copy>
     </xsl:template>
 
