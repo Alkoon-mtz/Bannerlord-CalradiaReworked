@@ -44,6 +44,7 @@
     <CraftedItem id="rekgeist_pike_t5"
         name="{=rekgeist_pike_t5}Rekgeist Solid Pike"
         crafting_template="Pike"
+        culture="Culture.rekgeist"
         modifier_group="polearm">
         <Pieces>
             <Piece id="rekgeist_blade_pike_t5"
@@ -57,6 +58,7 @@
     <CraftedItem id="rekgeist_pike_t4"
         name="{=rekgeist_pike_t4}Rekgeist Pike"
         crafting_template="Pike"
+        culture="Culture.rekgeist"
         modifier_group="polearm">
         <Pieces>
             <Piece id="rekgeist_blade_pike_t4"
@@ -70,6 +72,7 @@
     <CraftedItem id="rekgeist_pike_t3"
         name="{=rekgeist_pike_t3}Rekgeist Light Pike"
         crafting_template="Pike"
+        culture="Culture.rekgeist"
         modifier_group="polearm">
         <Pieces>
             <Piece id="rekgeist_blade_pike_t3"

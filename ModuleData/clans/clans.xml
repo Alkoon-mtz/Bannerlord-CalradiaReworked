@@ -7,4 +7,106 @@
         culture="Culture.empire"
         super_faction="Kingdom.kingdom_explorer"
         banner_key="11.100.0.4345.4345.764.764.0.0.0.342.115.1.358.358.764.764.0.0.0" />
+
+    <!-- Mercenary Clans -->
+    <Faction id="geniveri"
+        name="{=geniveri}Geniveri Brotherhood"
+        short_name="{=geniveri_short}Geniveri"
+        tier="4"
+        culture="Culture.empire"
+        banner_key="11.120.120.2058.1662.762.764.1.0.0.104.121.121.400.400.764.764.0.0.0.510.121.121.400.200.764.1014.0.0.0.510.121.121.400.200.764.514.0.0.0"
+        is_minor_faction="true"
+        is_clan_type_mercenary="true"
+        initial_posX="472.0"
+        initial_posY="372.0"
+        label_color="FF5FBD72"
+        color="FF5FBD72"
+        color2="FFF4D32E"
+        alternative_color="FFF4D32E"
+        alternative_color2="FF5FBD72"
+        default_party_template="PartyTemplate.geniveri_kingdom_hero_party_template"
+        settlement_banner_mesh="encounter_flag_f"
+        text="{=geniveri_text}A skilled, mostly crossbowmen, mercenary company">
+        <minor_faction_character_templates>
+            <template id="NPCCharacter.spc_geniveri_leader_0" />
+            <template id="NPCCharacter.spc_geniveri_leader_1" />
+            <template id="NPCCharacter.spc_geniveri_leader_2" />
+            <template id="NPCCharacter.spc_geniveri_leader_3" />
+        </minor_faction_character_templates>
+    </Faction>
+    <Faction id="ludnik"
+        name="{=ludnik}Ludnik Squadron"
+        short_name="{=ludnik_short}Ludnik"
+        tier="4"
+        culture="Culture.rekgeist"
+        banner_key="11.83.83.2058.1662.762.764.1.0.0.504.56.56.300.300.764.849.0.0.0.504.56.56.300.300.764.679.0.1.180.504.56.56.300.300.849.764.0.1.90.504.56.56.300.300.679.764.0.0.270.510.56.56.1600.600.764.1114.0.0.0.510.56.56.1600.600.764.414.0.0.0"
+        is_minor_faction="true"
+        is_clan_type_mercenary="true"
+        initial_posX="472.0"
+        initial_posY="372.0"
+        label_color="FFD22D33"
+        color="FFD22D33"
+        color2="FFE2BCAF"
+        alternative_color="FFE2BCAF"
+        alternative_color2="FFD22D33"
+        default_party_template="PartyTemplate.ludnik_kingdom_hero_party_template"
+        settlement_banner_mesh="encounter_flag_f"
+        text="{=ludnik_text}The best cavalry squadron of a fallen kingdom">
+        <minor_faction_character_templates>
+            <template id="NPCCharacter.spc_ludnik_leader_0" />
+            <template id="NPCCharacter.spc_ludnik_leader_1" />
+            <template id="NPCCharacter.spc_ludnik_leader_2" />
+            <template id="NPCCharacter.spc_ludnik_leader_3" />
+        </minor_faction_character_templates>
+    </Faction>
+    <Faction id="peblador"
+        name="{=peblador}Peblador Company"
+        short_name="{=peblador_short}Peblador"
+        tier="4"
+        culture="Culture.vlandia"
+        banner_key="11.148.148.2058.1662.762.764.1.0.0.326.39.39.250.250.614.939.0.0.0.326.39.39.250.250.914.589.0.0.0.505.39.39.850.750.399.444.0.0.0.505.39.39.850.750.1129.1084.0.0.0"
+        is_minor_faction="true"
+        is_clan_type_mercenary="true"
+        initial_posX="472.0"
+        initial_posY="372.0"
+        label_color="FF6C1512"
+        color="FF6C1512"
+        color2="FFDCAC46"
+        alternative_color="FFDCAC46"
+        alternative_color2="FF6C1512"
+        default_party_template="PartyTemplate.peblador_kingdom_hero_party_template"
+        settlement_banner_mesh="encounter_flag_f"
+        text="{=peblador_text}Company composed of retired palace guards">
+        <minor_faction_character_templates>
+            <template id="NPCCharacter.spc_peblador_leader_0" />
+            <template id="NPCCharacter.spc_peblador_leader_1" />
+            <template id="NPCCharacter.spc_peblador_leader_2" />
+            <template id="NPCCharacter.spc_peblador_leader_3" />
+        </minor_faction_character_templates>
+    </Faction>
+    <Faction id="ikubito"
+        name="{=ikubito}Ikubito clan"
+        short_name="{=ikubito_short}ikubito"
+        tier="4"
+        culture="Culture.vlandia"
+        banner_key="11.67.67.2058.1662.762.764.1.0.0.510.11.11.200.150.764.687.0.0.0.511.11.11.290.150.764.627.0.0.0.510.11.11.150.150.764.762.0.0.90.510.11.11.225.150.764.737.0.0.0.510.11.11.225.150.764.822.0.0.0.510.11.11.140.150.674.789.0.0.90.510.11.11.140.150.854.779.0.0.90.510.11.11.125.150.799.877.0.0.115.510.11.11.175.150.729.887.0.1.65.502.11.11.550.550.764.764.0.1.0"
+        is_minor_faction="true"
+        is_clan_type_mercenary="true"
+        initial_posX="472.0"
+        initial_posY="372.0"
+        label_color="FF644974"
+        color="FF644974"
+        color2="FFEFC990"
+        alternative_color="FFEFC990"
+        alternative_color2="FF644974"
+        default_party_template="PartyTemplate.ikubito_kingdom_hero_party_template"
+        settlement_banner_mesh="encounter_flag_f"
+        text="{=ikubito_text}Company composed of retired palace guards">
+        <minor_faction_character_templates>
+            <template id="NPCCharacter.spc_ikubito_leader_0" />
+            <template id="NPCCharacter.spc_ikubito_leader_1" />
+            <template id="NPCCharacter.spc_ikubito_leader_2" />
+            <template id="NPCCharacter.spc_ikubito_leader_3" />
+        </minor_faction_character_templates>
+    </Faction>
 </Factions>

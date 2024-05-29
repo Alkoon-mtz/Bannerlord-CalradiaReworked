@@ -10,6 +10,7 @@
     <xsl:template match='CraftingPiece[@id="spear_blade_27"]/BladeData/@stack_amount'> <xsl:attribute name='stack_amount'>10</xsl:attribute> </xsl:template>
     <xsl:template match='CraftingPiece[@id="spear_blade_19"]/BladeData/@stack_amount'> <xsl:attribute name='stack_amount'>10</xsl:attribute> </xsl:template>
     <xsl:template match='CraftingPiece[@id="spear_blade_42"]/BladeData/@stack_amount'> <xsl:attribute name='stack_amount'>10</xsl:attribute> </xsl:template>
+    <xsl:template match='CraftingPiece[@id="dagger_blade_11"]/BladeData/@stack_amount'> <xsl:attribute name='stack_amount'>10</xsl:attribute> </xsl:template>
 
     <xsl:template match='CraftingPiece[@id="axe_craft_4_head"]/BladeData/Swing/@damage_factor'> <xsl:attribute name='damage_factor'>4.25</xsl:attribute> </xsl:template>
 </xsl:stylesheet>

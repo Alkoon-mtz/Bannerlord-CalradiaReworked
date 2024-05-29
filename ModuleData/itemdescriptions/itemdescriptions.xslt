@@ -112,6 +112,7 @@
             <AvailablePiece id="kratorios_spear_blade_t4" />
             <AvailablePiece id="kratorios_spear_blade_t3" />
             <AvailablePiece id="halberd_head_t3" />
+            <AvailablePiece id="spear_handle_16" />
         </xsl:copy>
     </xsl:template>
 

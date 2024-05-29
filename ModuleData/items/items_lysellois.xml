@@ -131,7 +131,7 @@
         Type="Horse">
         <ItemComponent>
             <Horse monster="Monster.horse"
-                maneuver="70"
+                maneuver="80"
                 speed="45"
                 charge_damage="25"
                 body_length="118"
@@ -190,7 +190,7 @@
         Type="Horse">
         <ItemComponent>
             <Horse monster="Monster.horse"
-                maneuver="55"
+                maneuver="70"
                 speed="40"
                 charge_damage="20"
                 body_length="115"

@@ -406,9 +406,9 @@
             <template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v3" />
         </tournament_team_templates_four_participant>
         <basic_mercenary_troops>
-            <template name="NPCCharacter.eastern_mercenary" />
-            <template name="NPCCharacter.western_mercenary" />
-            <template name="NPCCharacter.sword_sisters_sister_t3" />
+            <template name="NPCCharacter.geniveri_stritoti" />
+            <template name="NPCCharacter.ludnik_kodziec" />
+            <template name="NPCCharacter.peblador_merbaro" />
         </basic_mercenary_troops>
     </Culture>
 </SPCultures>

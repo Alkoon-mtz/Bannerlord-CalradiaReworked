@@ -12,10 +12,151 @@
             <Piece id="default_polearm_guard"
                 Type="Guard"
                 scale_factor="100" />
-            <Piece id="spear_handle_15"
+            <Piece id="spear_handle_16"
                 Type="Handle"
                 scale_factor="100" />
             <Piece id="default_polearm_pommel"
+                Type="Pommel"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="espada"
+        name="{=espada}Espada"
+        crafting_template="OneHandedSword"
+        culture="Culture.vlandia"
+        modifier_group="sword">
+        <Pieces>
+            <Piece id="vlandian_blade_6"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="aserai_guard_2"
+                Type="Guard"
+                scale_factor="100" />
+            <Piece id="vlandian_grip_1"
+                Type="Handle"
+                scale_factor="100" />
+            <Piece id="khuzait_pommel_6"
+                Type="Pommel"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="katana"
+        name="{=katana}Katana"
+        crafting_template="TwoHandedSword"
+        culture="Culture.qinguo"
+        modifier_group="sword">
+        <Pieces>
+            <Piece id="aserai_blade_3"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="sturgian_guard_6"
+                Type="Guard"
+                scale_factor="100" />
+            <Piece id="sturgian_grip_19"
+                Type="Handle"
+                scale_factor="100" />
+            <Piece id="sturgian_pommel_12"
+                Type="Pommel"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="wakizashi"
+        name="{=wakizashi}Wakizashi"
+        crafting_template="OneHandedSword"
+        culture="Culture.qinguo">
+        <Pieces>
+            <Piece id="aserai_noble_blade_6"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="khuzait_noble_guard_1"
+                Type="Guard"
+                scale_factor="100" />
+            <Piece id="empire_noble_grip_3"
+                Type="Handle"
+                scale_factor="100" />
+            <Piece id="khuzait_noble_pommel_1"
+                Type="Pommel"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="kunai"
+        name="{=kunai}Kunai"
+        crafting_template="ThrowingKnife"
+        culture="Culture.qinguo"
+        modifier_group="knife_throwing">
+        <Pieces>
+            <Piece id="dagger_blade_11"
+                Type="Blade"
+                scale_factor="120" />
+            <Piece id="sturgian_dagger_guard_1"
+                Type="Guard"
+                scale_factor="80" />
+            <Piece id="vlandian_grip_4"
+                Type="Handle"
+                scale_factor="80" />
+            <Piece id="khuzait_pommel_1"
+                Type="Pommel"
+                scale_factor="80" />
+        </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="merc_polearm_t5"
+        name="{=merc_polearm_t5}Heavy Kopia"
+        crafting_template="TwoHandedPolearm"
+        culture="Culture.rekgeist"
+        modifier_group="polearm">
+        <Pieces>
+            <Piece id="rekgeist_blade_pike_t5"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="spear_banner_12"
+                Type="Guard"
+                scale_factor="120" />
+            <Piece id="spear_handle_19"
+                Type="Handle"
+                scale_factor="80" />
+            <Piece id="spear_pommel_4"
+                Type="Pommel"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="merc_polearm_t4"
+        name="{=merc_polearm_t4}Kopia"
+        crafting_template="TwoHandedPolearm"
+        culture="Culture.rekgeist"
+        modifier_group="polearm">
+        <Pieces>
+            <Piece id="rekgeist_blade_pike_t4"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="spear_banner_12"
+                Type="Guard"
+                scale_factor="120" />
+            <Piece id="spear_handle_19"
+                Type="Handle"
+                scale_factor="80" />
+            <Piece id="spear_pommel_4"
+                Type="Pommel"
+                scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="merc_polearm_t3"
+        name="{=merc_polearm_t3}Light Kopia"
+        crafting_template="TwoHandedPolearm"
+        culture="Culture.rekgeist"
+        modifier_group="polearm">
+        <Pieces>
+            <Piece id="rekgeist_blade_pike_t3"
+                Type="Blade"
+                scale_factor="100" />
+            <Piece id="spear_banner_12"
+                Type="Guard"
+                scale_factor="120" />
+            <Piece id="spear_handle_19"
+                Type="Handle"
+                scale_factor="80" />
+            <Piece id="spear_pommel_4"
                 Type="Pommel"
                 scale_factor="100" />
         </Pieces>

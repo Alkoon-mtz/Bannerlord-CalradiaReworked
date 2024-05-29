@@ -1,4 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <partyTemplates>
-
+    <MBPartyTemplate id="geniveri_kingdom_hero_party_template">
+        <stacks>
+            <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.geniveri_condoriti" />
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.geniveri_alesti" />
+            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.geniveri_stritoti" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="ludnik_kingdom_hero_party_template">
+        <stacks>
+            <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.ludnik_huziec" />
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.ludnik_jedziec" />
+            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.ludnik_kodziec" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="peblador_kingdom_hero_party_template">
+        <stacks>
+            <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.peblador_albaro" />
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.peblador_esparo" />
+            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.peblador_merbaro" />
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="ikubito_kingdom_hero_party_template">
+        <stacks>
+            <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.ikubito_nakazushi" />
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.ikubito_hitorishi" />
+            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.ikubito_hajimashi" />
+        </stacks>
+    </MBPartyTemplate>
 </partyTemplates>

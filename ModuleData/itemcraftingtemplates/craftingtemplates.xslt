@@ -77,6 +77,7 @@
             <UsablePiece piece_id="kratorios_spear_blade_t4"/>
             <UsablePiece piece_id="kratorios_spear_blade_t3"/>
             <UsablePiece piece_id="halberd_head_t3" />
+            <UsablePiece piece_id="spear_handle_16" />
         </xsl:copy>
     </xsl:template>
 </xsl:stylesheet>

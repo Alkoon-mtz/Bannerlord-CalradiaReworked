@@ -1,15 +1,99 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-    <NPCCharacter id="condotierri"
+    <!-- Mercenary Troops -->
+    <NPCCharacter id="geniveri_stritoti"
+        default_group="Ranged"
+        level="16"
+        name="{=geniveri_stritoti}Geniveri Sritoti"
+        occupation="Mercenary"
+        culture="Culture.empire"
+        is_basic_troop="true">
+        <face>
+            <face_key_template value="BodyProperty.fighter_kratorios" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="60" />
+            <skill id="Riding" value="15" />
+            <skill id="OneHanded" value="90" />
+            <skill id="TwoHanded" value="15" />
+            <skill id="Polearm" value="40" />
+            <skill id="Bow" value="20" />
+            <skill id="Crossbow" value="100" />
+            <skill id="Throwing" value="20" />
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.geniveri_alesti" />
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.kratorios_hand_ballista_t4" />
+                <equipment slot="Item1" id="Item.bolt_a" />
+                <equipment slot="Item2" id="Item.vlandia_sword_1_t2" />
+                <equipment slot="Item3" id="Item.tall_heater_shield" />
+                <equipment slot="Head" id="Item.tv_vlandia_helmet_k" />
+                <equipment slot="Cape" id="Item.scarf" />
+                <equipment slot="Body" id="Item.imperial_mail_over_leather" />
+                <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1" />
+                <equipment slot="Item2" id="Item.throwing_stone" />
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
+                <equipment slot="Leg" id="Item.wrapped_shoes" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="geniveri_alesti"
+        default_group="Ranged"
+        level="21"
+        name="{=geniveri_alesti}Geniveri Alesti"
+        occupation="Mercenary"
+        culture="Culture.empire">
+        <face>
+            <face_key_template value="BodyProperty.fighter_kratorios" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="90" />
+            <skill id="Riding" value="20" />
+            <skill id="OneHanded" value="120" />
+            <skill id="TwoHanded" value="20" />
+            <skill id="Polearm" value="50" />
+            <skill id="Bow" value="30" />
+            <skill id="Crossbow" value="140" />
+            <skill id="Throwing" value="30" />
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.geniveri_condoriti" />
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.kratorios_hand_ballista_t5" />
+                <equipment slot="Item1" id="Item.bolt_d" />
+                <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+                <equipment slot="Item3" id="Item.tall_heater_shield" />
+                <equipment slot="Head" id="Item.TV_vlandia_helmet_h" />
+                <equipment slot="Cape" id="Item.hood" />
+                <equipment slot="Body" id="Item.AR_vlandia_armor_o" />
+                <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1" />
+                <equipment slot="Item2" id="Item.throwing_stone" />
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
+                <equipment slot="Leg" id="Item.wrapped_shoes" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="geniveri_condoriti"
         default_group="Ranged"
         level="26"
-        name="{=condotierri}Condotierri"
-        occupation="Soldier"
-        culture="Culture.qinguo">
+        name="{=geniveri_condoriti}Geniveri Condoriti"
+        occupation="Mercenary"
+        culture="Culture.empire">
         <face>
-            <face_key_template value="BodyProperty.fighter_qinguo"/>
+            <face_key_template value="BodyProperty.fighter_kratorios" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="120"/>
             <skill id="Riding" value="30"/>
             <skill id="OneHanded" value="160"/>
@@ -21,17 +105,345 @@
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.qinguo_chukonu_t5"/>
-                <equipment slot="Item1" id="Item.bolt_c"/>
-                <equipment slot="Item2" id="Item.bolt_c"/>
-                <equipment slot="Item3" id="Item.khuzait_noble_sword_1_t5"/>
-                <equipment slot="Head" id="Item.TV_aserai_helmet_y2"/>
-                <equipment slot="Cape" id="Item.AR_aserai_shoulder_c"/>
-                <equipment slot="Body" id="Item.AR_aserai_armor_f2"/>
-                <equipment slot="Gloves" id="Item.AR_empire_gloves_c"/>
-                <equipment slot="Leg" id="Item.AR_empire_boots_c"/>
+                <equipment slot="Item0" id="Item.kratorios_hand_ballista_t6" />
+                <equipment slot="Item1" id="Item.bolt_b" />
+                <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
+                <equipment slot="Item3" id="Item.tall_heater_shield" />
+                <equipment slot="Head" id="Item.TV_vlandia_helmet_g" />
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2" />
+                <equipment slot="Body" id="Item.AR_vlandia_armor_s" />
+                <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1" />
+                <equipment slot="Item2" id="Item.throwing_stone" />
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
+                <equipment slot="Leg" id="Item.wrapped_shoes" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="ludnik_kodziec"
+        default_group="Cavalry"
+        level="16"
+        name="{=ludnik_kodziec}Ludnik Kodziec"
+        occupation="Mercenary"
+        culture="Culture.rekgeist"
+        is_basic_troop="true">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rekgeist" />
+        </face>
+        <skills >
+            <skill id="Athletics" value="40" />
+            <skill id="Riding" value="100" />
+            <skill id="OneHanded" value="60" />
+            <skill id="TwoHanded" value="20" />
+            <skill id="Polearm" value="90" />
+            <skill id="Bow" value="15" />
+            <skill id="Crossbow" value="15" />
+            <skill id="Throwing" value="20" />
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.ludnik_jedziec" />
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.merc_polearm_t3" />
+                <equipment slot="Item1" id="Item.studded_round_shield" />
+                <equipment slot="Item2" id="Item.battania_sword_1_t2" />
+                <equipment slot="Head" id="Item.AR_battania_helmet_l" />
+                <equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_b" />
+                <equipment slot="Body" id="Item.empire_warrior_padded_armor_f" />
+                <equipment slot="Gloves" id="Item.AO_durkhan_gauntlets_a" />
+                <equipment slot="Leg" id="Item.AR_empire_boots_a" />
+                <equipment slot="Horse" id="Item.lysellois_charge_horse_t4" />
+                <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
+            </EquipmentRoster>
+            <EquipmentSet id="rek_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="ludnik_jedziec"
+        default_group="Cavalry"
+        level="21"
+        name="{=ludnik_jedziec}Ludnik Jedziec"
+        occupation="Mercenary"
+        culture="Culture.rekgeist">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rekgeist" />
+        </face>
+        <skills >
+            <skill id="Athletics" value="50" />
+            <skill id="Riding" value="140" />
+            <skill id="OneHanded" value="90" />
+            <skill id="TwoHanded" value="30" />
+            <skill id="Polearm" value="120" />
+            <skill id="Bow" value="20" />
+            <skill id="Crossbow" value="20" />
+            <skill id="Throwing" value="30" />
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.ludnik_huziec" />
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.merc_polearm_t4" />
+                <equipment slot="Item1" id="Item.studded_round_shield" />
+                <equipment slot="Item2" id="Item.battania_sword_3_t3" />
+                <equipment slot="Head" id="Item.ao_durkhan_iron_horsehair_helmet" />
+                <equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_b" />
+                <equipment slot="Body" id="Item.AR_battania_armor_p2" />
+                <equipment slot="Gloves" id="Item.AO_durkhan_gauntlets_a" />
+                <equipment slot="Leg" id="Item.AR_empire_boots_a" />
+                <equipment slot="Horse" id="Item.lysellois_charge_horse_t4" />
+                <equipment slot="HorseHarness" id="Item.half_scale_barding" />
+            </EquipmentRoster>
+            <EquipmentSet id="rek_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="ludnik_huziec"
+        default_group="Cavalry"
+        level="26"
+        name="{=ludnik_huziec}Ludnik Huziec"
+        occupation="Mercenary"
+        culture="Culture.rekgeist">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rekgeist" />
+        </face>
+        <skills >
+            <skill id="Athletics" value="80"/>
+            <skill id="Riding" value="200"/>
+            <skill id="OneHanded" value="120"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="160"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="30"/>
+            <skill id="Throwing" value="40"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.merc_polearm_t5" />
+                <equipment slot="Item1" id="Item.studded_round_shield" />
+                <equipment slot="Item2" id="Item.battania_sword_4_t4" />
+                <equipment slot="Head" id="Item.battania_earmuff_helmet_a" />
+                <equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a" />
+                <equipment slot="Body" id="Item.AR_battania_armor_q2" />
+                <equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+                <equipment slot="Leg" id="Item.lamellar_plate_boots" />
+                <equipment slot="Horse" id="Item.lysellois_charge_horse_t6" />
+                <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+            </EquipmentRoster>
+            <EquipmentSet id="rek_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="peblador_merbaro"
+        default_group="Infantry"
+        level="16"
+        name="{=peblador_merbaro}Peblador Merbaro"
+        occupation="Mercenary"
+        culture="Culture.vlandia"
+        is_basic_troop="true">
+        <face>
+            <face_key_template value="BodyProperty.fighter_lysellois" />
+        </face>
+        <skills >
+            <skill id="Athletics" value="90" />
+            <skill id="Riding" value="20" />
+            <skill id="OneHanded" value="60" />
+            <skill id="TwoHanded" value="40" />
+            <skill id="Polearm" value="100" />
+            <skill id="Bow" value="15" />
+            <skill id="Crossbow" value="20" />
+            <skill id="Throwing" value="15" />
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.peblador_esparo" />
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.halberd_t3" />
+                <equipment slot="Item1" id="Item.espada" />
+                <equipment slot="Head" id="Item.ao_imperial_cone_helmet_with_leather" />
+                <equipment slot="Cape" id="Item.chainmail_shoulder_armor" />
+                <equipment slot="Body" id="Item.imperial_padded_cloth" />
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+                <equipment slot="Leg" id="Item.DZ_battania_boots_a" />
             </EquipmentRoster>
             <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="peblador_esparo"
+        default_group="Infantry"
+        level="21"
+        name="{=peblador_esparo}Peblador Esparo"
+        occupation="Mercenary"
+        culture="Culture.vlandia">
+        <face>
+            <face_key_template value="BodyProperty.fighter_lysellois" />
+        </face>
+        <skills >
+            <skill id="Athletics" value="120" />
+            <skill id="Riding" value="30" />
+            <skill id="OneHanded" value="90" />
+            <skill id="TwoHanded" value="50" />
+            <skill id="Polearm" value="140" />
+            <skill id="Bow" value="20" />
+            <skill id="Crossbow" value="30" />
+            <skill id="Throwing" value="20" />
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.peblador_albaro" />
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.halberd_t3" />
+                <equipment slot="Item1" id="Item.espada" />
+                <equipment slot="Head" id="Item.ao_imperial_noblemans_cone_helmet" />
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2" />
+                <equipment slot="Body" id="Item.khuzait_leather_stitched" />
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_g" />
+                <equipment slot="Leg" id="Item.mail_chausses" />
+            </EquipmentRoster>
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="peblador_albaro"
+        default_group="Infantry"
+        level="26"
+        name="{=peblador_albaro}Peblador Albaro"
+        occupation="Mercenary"
+        culture="Culture.vlandia">
+        <face>
+            <face_key_template value="BodyProperty.fighter_lysellois" />
+        </face>
+        <skills >
+            <skill id="Athletics" value="160"/>
+            <skill id="Riding" value="40"/>
+            <skill id="OneHanded" value="120"/>
+            <skill id="TwoHanded" value="80"/>
+            <skill id="Polearm" value="200"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="40"/>
+            <skill id="Throwing" value="30"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.halberd_t3" />
+                <equipment slot="Item1" id="Item.espada" />
+                <equipment slot="Head" id="Item.ao_imperial_plumed_cone_helmet_with_closed_mail" />
+                <equipment slot="Cape" id="Item.TV_vlandia_shoulders_b" />
+                <equipment slot="Body" id="Item.TV_vlandia_armor_r" />
+                <equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet" />
+                <equipment slot="Leg" id="Item.plate_boots" />
+            </EquipmentRoster>
+            <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="ikubito_hajimashi"
+        default_group="Infantry"
+        level="16"
+        name="{=ikubito_hajimashi}Ikubito Hajimashi"
+        occupation="Mercenary"
+        culture="Culture.qinguo"
+        is_basic_troop="true">
+        <face>
+            <face_key_template value="BodyProperty.fighter_qinguo" />
+        </face>
+        <skills >
+            <skill id="Athletics" value="60" />
+            <skill id="Riding" value="20" />
+            <skill id="OneHanded" value="40" />
+            <skill id="TwoHanded" value="100" />
+            <skill id="Polearm" value="20" />
+            <skill id="Bow" value="15" />
+            <skill id="Crossbow" value="15" />
+            <skill id="Throwing" value="90" />
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.ikubito_hitorishi" />
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.katana" />
+                <equipment slot="Item1" id="Item.wakizashi" />
+                <equipment slot="Item2" id="Item.kunai" />
+                <equipment slot="Head" id="Item.TV_khuzait_helmet_c2" />
+                <equipment slot="Cape" id="Item.a_khuzait_leather_shoulder_b_a" />
+                <equipment slot="Body" id="Item.leather_lamellar_armor" />
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_a" />
+                <equipment slot="Leg" id="Item.AR_vlandia_boots_a" />
+            </EquipmentRoster>
+            <EquipmentSet id="qin_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="ikubito_hitorishi"
+        default_group="Infantry"
+        level="21"
+        name="{=ikubito_hitorishi}Ikubito Hitorishi"
+        occupation="Mercenary"
+        culture="Culture.qinguo">
+        <face>
+            <face_key_template value="BodyProperty.fighter_qinguo" />
+        </face>
+        <skills >
+            <skill id="Athletics" value="90" />
+            <skill id="Riding" value="30" />
+            <skill id="OneHanded" value="50" />
+            <skill id="TwoHanded" value="140" />
+            <skill id="Polearm" value="30" />
+            <skill id="Bow" value="20" />
+            <skill id="Crossbow" value="20" />
+            <skill id="Throwing" value="120" />
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.ikubito_nakazushi" />
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.katana" />
+                <equipment slot="Item1" id="Item.wakizashi" />
+                <equipment slot="Item2" id="Item.kunai" />
+                <equipment slot="Head" id="Item.TV_khuzait_helmet_g" />
+                <equipment slot="Cape" id="Item.noble_pauldron_with_scarf" />
+                <equipment slot="Body" id="Item.eastern_lamellar_armor" />
+                <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
+                <equipment slot="Leg" id="Item.decorated_imperial_boots" />
+            </EquipmentRoster>
+            <EquipmentSet id="qin_npcgenerics_template_mid" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="ikubito_nakazushi"
+        default_group="Infantry"
+        level="26"
+        name="{=ikubito_nakazushi}Ikubito Nakazushi"
+        occupation="Mercenary"
+        culture="Culture.qinguo">
+        <face>
+            <face_key_template value="BodyProperty.fighter_qinguo" />
+        </face>
+        <skills >
+            <skill id="Athletics" value="120"/>
+            <skill id="Riding" value="40"/>
+            <skill id="OneHanded" value="80"/>
+            <skill id="TwoHanded" value="200"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="30"/>
+            <skill id="Throwing" value="160"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.katana" />
+                <equipment slot="Item1" id="Item.wakizashi" />
+                <equipment slot="Item2" id="Item.kunai" />
+                <equipment slot="Head" id="Item.TV_khuzait_helmet_j" />
+                <equipment slot="Cape" id="Item.noble_pauldron_with_scarf" />
+                <equipment slot="Body" id="Item.AR_khuzait_armor_b" />
+                <equipment slot="Gloves" id="Item.tv_empire_plate_b" />
+                <equipment slot="Leg" id="Item.tv_empire_plate_a" />
+            </EquipmentRoster>
+            <EquipmentSet id="qin_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
 </NPCCharacters>
