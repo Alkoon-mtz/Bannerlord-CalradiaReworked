@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>
+    <CraftingPiece id="aseriyun_axe_head_t3"
+        name="{=aseriyun_axe_head_t3}Slicer Head"
+        tier="4"
+        piece_type="Blade"
+        mesh="axe_craft_16_head"
+        distance_to_next_piece="28.8"
+        distance_to_previous_piece="6"
+        weight="1.092">
+        <BuildData piece_offset="-12" />
+        <BladeData stack_amount="3"
+            blade_length="57.435"
+            blade_width="23.337"
+            physics_material="metal_weapon"
+            body_name="bo_axe_longer_b">
+            <Swing damage_type="Cut" damage_factor="2.3" />
+        </BladeData>
+        <Flags>
+            <Flag name="CanBePickedUpFromCorpse" type="ItemFlags" />
+        </Flags>
+        <Materials>
+            <Material id="Iron4" count="4" />
+        </Materials>
+    </CraftingPiece>
+</CraftingPieces>

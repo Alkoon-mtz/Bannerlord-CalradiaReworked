@@ -51,4 +51,11 @@
             <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.zulizwe_mdunguaji" />
         </stacks>
     </MBPartyTemplate>
+    <MBPartyTemplate id="zulizwe_kingdom_hero_outlaw_party_template">
+        <stacks>
+            <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.zulizwe_outlaw_3" />
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.zulizwe_outlaw_2" />
+            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.zulizwe_outlaw_1" />
+        </stacks>
+    </MBPartyTemplate>
 </partyTemplates>

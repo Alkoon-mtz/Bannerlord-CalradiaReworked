@@ -6,18 +6,21 @@
         culture="Culture.aserai"
         modifier_group="polearm">
         <Pieces>
-            <Piece id="spear_blade_44"
-                Type="Blade"
-                scale_factor="100" />
-            <Piece id="spear_guard_15"
-                Type="Guard"
-                scale_factor="100" />
-            <Piece id="spear_handle_14"
-                Type="Handle"
-                scale_factor="100" />
-            <Piece id="spear_pommel_7"
-                Type="Pommel"
-                scale_factor="100" />
+            <Piece id="spear_blade_44" Type="Blade" scale_factor="100" />
+            <Piece id="spear_guard_15" Type="Guard" scale_factor="100" />
+            <Piece id="spear_handle_14" Type="Handle" scale_factor="100" />
+            <Piece id="spear_pommel_7" Type="Pommel" scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="aseriyun_2haxe_t3"
+        name="{=aseriyun_2haxe_t3}Slicer"
+        crafting_template="TwoHandedAxe"
+        culture="Culture.aserai"
+        modifier_group="axe">
+        <Pieces>
+            <Piece id="aseriyun_axe_head_t3" Type="Blade" scale_factor="100" />
+            <Piece id="axe_craft_8_handle" Type="Handle" scale_factor="100" />
         </Pieces>
     </CraftedItem>
 
@@ -51,9 +54,7 @@
                 sticking_rotation="90,0,0"
                 center_of_mass="0,0,-0.13"
                 modifier_group="arrow">
-                <WeaponFlags Consumable="true"
-                    AmmoSticksWhenShot="true"
-                    AmmoBreaksOnBounceBack="true" />
+                <WeaponFlags Consumable="true" AmmoSticksWhenShot="true" AmmoBreaksOnBounceBack="true" />
             </Weapon>
         </ItemComponent>
         <Flags />
@@ -88,9 +89,7 @@
                 sticking_rotation="90,0,0"
                 center_of_mass="0,0,-0.13"
                 modifier_group="arrow">
-                <WeaponFlags Consumable="true"
-                    AmmoSticksWhenShot="true"
-                    AmmoBreaksOnBounceBack="true" />
+                <WeaponFlags Consumable="true" AmmoSticksWhenShot="true" AmmoBreaksOnBounceBack="true" />
             </Weapon>
         </ItemComponent>
         <Flags />
@@ -125,9 +124,7 @@
                 sticking_rotation="90,0,0"
                 center_of_mass="0,0,-0.13"
                 modifier_group="arrow">
-                <WeaponFlags Consumable="true"
-                    AmmoSticksWhenShot="true"
-                    AmmoBreaksOnBounceBack="true" />
+                <WeaponFlags Consumable="true" AmmoSticksWhenShot="true" AmmoBreaksOnBounceBack="true" />
             </Weapon>
         </ItemComponent>
         <Flags />

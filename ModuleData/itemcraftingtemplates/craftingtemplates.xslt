@@ -39,6 +39,7 @@
             <UsablePiece piece_id="scarhok_throwing_axe_craft_t3_head"/>
             <UsablePiece piece_id="scarhok_throwing_axe_craft_t4_head"/>
             <UsablePiece piece_id="scarhok_throwing_axe_craft_t5_head"/>
+            <UsablePiece piece_id="aseriyun_axe_head_t3"/>
         </xsl:copy>
     </xsl:template>
 

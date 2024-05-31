@@ -39,6 +39,7 @@
             <AvailablePiece id="scarhok_throwing_axe_craft_t3_head" />
             <AvailablePiece id="scarhok_throwing_axe_craft_t4_head" />
             <AvailablePiece id="scarhok_throwing_axe_craft_t5_head" />
+            <AvailablePiece id="aseriyun_axe_head_t3" />
         </xsl:copy>
     </xsl:template>
 

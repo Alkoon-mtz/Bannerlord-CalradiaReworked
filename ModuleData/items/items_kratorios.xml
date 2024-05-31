@@ -109,24 +109,29 @@
         </ItemComponent>
     </Item>
 
+    <CraftedItem id="kratorios_2hsword_t4"
+        name="{=kratorios_2hsword_t4}Steel Broadsword"
+        crafting_template="TwoHandedSword"
+        culture="Culture.empire"
+        modifier_group="sword">
+        <Pieces>
+            <Piece id="vlandian_blade_1" Type="Blade" scale_factor="120" />
+            <Piece id="cleaver_guard_3" Type="Guard" scale_factor="100" />
+            <Piece id="sturgian_grip_23" Type="Handle" scale_factor="100" />
+            <Piece id="sturgian_pommel_3" Type="Pommel" scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    
     <CraftedItem id="kratorios_swordspear_t5"
         name="{=kratorios_swordspear_t5}Thamaskene Kentri"
         crafting_template="TwoHandedPolearm"
         culture="Culture.empire"
         modifier_group="polearm">
         <Pieces>
-            <Piece id="kratorios_spear_blade_t5"
-                Type="Blade"
-                scale_factor="70" />
-            <Piece id="spear_guard_16"
-                Type="Guard"
-                scale_factor="100" />
-            <Piece id="spear_handle_1"
-                Type="Handle"
-                scale_factor="70" />
-            <Piece id="spear_pommel_10"
-                Type="Pommel"
-                scale_factor="100" />
+            <Piece id="kratorios_spear_blade_t5" Type="Blade" scale_factor="70" />
+            <Piece id="spear_guard_16" Type="Guard" scale_factor="100" />
+            <Piece id="spear_handle_1" Type="Handle" scale_factor="70" />
+            <Piece id="spear_pommel_10" Type="Pommel" scale_factor="100" />
         </Pieces>
     </CraftedItem>
     <CraftedItem id="kratorios_swordspear_t4"
@@ -135,18 +140,10 @@
         culture="Culture.empire"
         modifier_group="polearm">
         <Pieces>
-            <Piece id="kratorios_spear_blade_t4"
-                Type="Blade"
-                scale_factor="70" />
-            <Piece id="spear_guard_16"
-                Type="Guard"
-                scale_factor="100" />
-            <Piece id="spear_handle_1"
-                Type="Handle"
-                scale_factor="70" />
-            <Piece id="spear_pommel_10"
-                Type="Pommel"
-                scale_factor="100" />
+            <Piece id="kratorios_spear_blade_t4" Type="Blade" scale_factor="70" />
+            <Piece id="spear_guard_16" Type="Guard" scale_factor="100" />
+            <Piece id="spear_handle_1" Type="Handle" scale_factor="70" />
+            <Piece id="spear_pommel_10" Type="Pommel" scale_factor="100" />
         </Pieces>
     </CraftedItem>
     <CraftedItem id="kratorios_swordspear_t3"
@@ -155,18 +152,10 @@
         culture="Culture.empire"
         modifier_group="polearm">
         <Pieces>
-            <Piece id="kratorios_spear_blade_t3"
-                Type="Blade"
-                scale_factor="70" />
-            <Piece id="spear_guard_16"
-                Type="Guard"
-                scale_factor="100" />
-            <Piece id="spear_handle_1"
-                Type="Handle"
-                scale_factor="70" />
-            <Piece id="spear_pommel_10"
-                Type="Pommel"
-                scale_factor="100" />
+            <Piece id="kratorios_spear_blade_t3" Type="Blade" scale_factor="70" />
+            <Piece id="spear_guard_16" Type="Guard" scale_factor="100" />
+            <Piece id="spear_handle_1" Type="Handle" scale_factor="70" />
+            <Piece id="spear_pommel_10" Type="Pommel" scale_factor="100" />
         </Pieces>
     </CraftedItem>
 </Items>
