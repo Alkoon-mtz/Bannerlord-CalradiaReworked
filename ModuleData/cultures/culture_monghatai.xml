@@ -24,7 +24,7 @@
         vassal_reward_party_template="PartyTemplate.monghatai_vassal_reward_troops"
         default_face_key="0013EC0D80001691AA7B6B89DEC8162B7BE8AC5D8CEE527FEA7B46BD632CF8F5005960030561E589000000000000000000000000000000000000000058A85042"
         text="{=monghatai_text}Nomadic tribes unified under a single leader"
-        caravan_master="NPCCharacter.caravan_master_khuzait"
+        caravan_master="NPCCharacter.caravan_master_monghatai"
         armed_trader="NPCCharacter.armed_trader_monghatai"
         caravan_guard="NPCCharacter.caravan_guard_monghatai"
         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_monghatai"
@@ -392,16 +392,16 @@
             <template name="NPCCharacter.spc_headman_monghatai_1f" />
         </notable_and_wanderer_templates>
         <lord_templates>
-            <template name="NPCCharacter.spc_karakhuzaits_leader_0" />
-            <template name="NPCCharacter.spc_karakhuzaits_leader_1" />
-            <template name="NPCCharacter.spc_karakhuzaits_leader_2" />
-            <template name="NPCCharacter.spc_karakhuzaits_leader_3" />
+            <template name="NPCCharacter.spc_outlaw_monghatai_leader_0" />
+            <template name="NPCCharacter.spc_outlaw_monghatai_leader_1" />
+            <template name="NPCCharacter.spc_outlaw_monghatai_leader_2" />
+            <template name="NPCCharacter.spc_outlaw_monghatai_leader_3" />
         </lord_templates>
         <rebellion_hero_templates>
-            <template name="NPCCharacter.spc_karakhuzaits_leader_0" />
-            <template name="NPCCharacter.spc_karakhuzaits_leader_1" />
-            <template name="NPCCharacter.spc_karakhuzaits_leader_2" />
-            <template name="NPCCharacter.spc_karakhuzaits_leader_3" />
+            <template name="NPCCharacter.spc_outlaw_monghatai_leader_0" />
+            <template name="NPCCharacter.spc_outlaw_monghatai_leader_1" />
+            <template name="NPCCharacter.spc_outlaw_monghatai_leader_2" />
+            <template name="NPCCharacter.spc_outlaw_monghatai_leader_3" />
         </rebellion_hero_templates>
         <tournament_team_templates_one_participant>
             <template name="NPCCharacter.tournament_template_khuzait_one_participant_set_v1" />
@@ -418,9 +418,9 @@
             <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v3" />
         </tournament_team_templates_four_participant>
         <basic_mercenary_troops>
-            <template name="NPCCharacter.geniveri_stritoti" />
-            <template name="NPCCharacter.peblador_merbaro" />
-            <template name="NPCCharacter.ikubito_hajimashi" />
+            <template name="NPCCharacter.geniveri_tier_1" />
+            <template name="NPCCharacter.peblador_tier_1" />
+            <template name="NPCCharacter.ikubito_tier_1" />
         </basic_mercenary_troops>
     </Culture>
 </SPCultures>

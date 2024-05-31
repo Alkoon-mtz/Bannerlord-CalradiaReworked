@@ -25,7 +25,7 @@
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_kratorios" />
             <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_kratorios" />
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_kratorios" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_empire" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_kratorios" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="kratorios_caravan_template">

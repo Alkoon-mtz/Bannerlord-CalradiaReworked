@@ -2,30 +2,30 @@
 <partyTemplates>
     <MBPartyTemplate id="geniveri_kingdom_hero_party_template">
         <stacks>
-            <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.geniveri_condoriti" />
-            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.geniveri_alesti" />
-            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.geniveri_stritoti" />
+            <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.geniveri_tier_3" />
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.geniveri_tier_2" />
+            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.geniveri_tier_1" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="ludnik_kingdom_hero_party_template">
         <stacks>
-            <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.ludnik_huziec" />
-            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.ludnik_jedziec" />
-            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.ludnik_kodziec" />
+            <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.ludnik_tier_3" />
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.ludnik_tier_2" />
+            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.ludnik_tier_1" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="peblador_kingdom_hero_party_template">
         <stacks>
-            <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.peblador_albaro" />
-            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.peblador_esparo" />
-            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.peblador_merbaro" />
+            <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.peblador_tier_3" />
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.peblador_tier_2" />
+            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.peblador_tier_1" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="ikubito_kingdom_hero_party_template">
         <stacks>
-            <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.ikubito_nakazushi" />
-            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.ikubito_hitorishi" />
-            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.ikubito_hajimashi" />
+            <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.ikubito_tier_3" />
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.ikubito_tier_2" />
+            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.ikubito_tier_1" />
         </stacks>
     </MBPartyTemplate>
 </partyTemplates>

@@ -431,7 +431,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="100" />
             <skill id="Riding" value="15" />
             <skill id="OneHanded" value="115" />
@@ -467,7 +467,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="140" />
             <skill id="Riding" value="20" />
             <skill id="OneHanded" value="160" />
@@ -503,7 +503,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="200" />
             <skill id="Riding" value="30" />
             <skill id="OneHanded" value="220" />
@@ -539,7 +539,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="260" />
             <skill id="Riding" value="40" />
             <skill id="OneHanded" value="300" />
@@ -574,7 +574,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="25" />
             <skill id="Riding" value="5" />
             <skill id="OneHanded" value="30" />
@@ -606,7 +606,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="50" />
             <skill id="Riding" value="20" />
             <skill id="OneHanded" value="60" />
@@ -643,7 +643,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="80" />
             <skill id="Riding" value="20" />
             <skill id="OneHanded" value="90" />
@@ -680,7 +680,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="100" />
             <skill id="Riding" value="30" />
             <skill id="OneHanded" value="120" />
@@ -717,7 +717,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="130" />
             <skill id="Riding" value="40" />
             <skill id="OneHanded" value="160" />
@@ -753,7 +753,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="30" />
             <skill id="Riding" value="80" />
             <skill id="OneHanded" value="90" />
@@ -791,7 +791,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="40" />
             <skill id="Riding" value="100" />
             <skill id="OneHanded" value="120" />
@@ -827,7 +827,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="30" />
             <skill id="Riding" value="15" />
             <skill id="OneHanded" value="15" />
@@ -863,7 +863,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="70" />
             <skill id="Riding" value="30" />
             <skill id="OneHanded" value="35" />
@@ -899,7 +899,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="100" />
             <skill id="Riding" value="40" />
             <skill id="OneHanded" value="50" />
@@ -935,7 +935,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="140" />
             <skill id="Riding" value="60" />
             <skill id="OneHanded" value="70" />
@@ -971,7 +971,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="30" />
             <skill id="Riding" value="80" />
             <skill id="OneHanded" value="90" />
@@ -1009,7 +1009,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="40" />
             <skill id="Riding" value="100" />
             <skill id="OneHanded" value="120" />
@@ -1047,7 +1047,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_scarhok" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="70" />
             <skill id="Riding" value="130" />
             <skill id="OneHanded" value="160" />

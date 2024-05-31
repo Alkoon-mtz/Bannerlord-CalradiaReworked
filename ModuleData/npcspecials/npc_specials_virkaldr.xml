@@ -186,6 +186,131 @@
         </Equipments>
     </NPCCharacter>
 
+    <!-- Outlaws -->
+    <NPCCharacter id="spc_outlaw_virkaldr_leader_0"
+        name="{=spc_outlaw_virkaldr_leader_0}of the Ghawango"
+        voice="earnest"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.sturgia"
+        occupation="Lord">
+        <face>
+            <face_key_template value="BodyProperty.fighter_virkaldr" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="140" />
+            <skill id="Riding" value="60" />
+            <skill id="OneHanded" value="60" />
+            <skill id="TwoHanded" value="160" />
+            <skill id="Polearm" value="150" />
+            <skill id="Bow" value="30" />
+            <skill id="Crossbow" value="30" />
+            <skill id="Throwing" value="70" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy" value="1" />
+            <Trait id="Generosity" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="stu_bat_template_medium" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_outlaw_virkaldr_leader_1"
+        name="{=spc_outlaw_virkaldr_leader_1}of the Ghawango"
+        voice="curt"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.sturgia"
+        occupation="Lord">
+        <face>
+            <face_key_template value="BodyProperty.fighter_virkaldr" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="140" />
+            <skill id="Riding" value="60" />
+            <skill id="OneHanded" value="60" />
+            <skill id="TwoHanded" value="160" />
+            <skill id="Polearm" value="150" />
+            <skill id="Bow" value="30" />
+            <skill id="Crossbow" value="30" />
+            <skill id="Throwing" value="70" />
+        </skills>
+        <Traits>
+            <Trait id="Valor" value="1" />
+            <Trait id="Mercy" value="-1" />
+            <Trait id="Calculating" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="stu_bat_template_medium" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_outlaw_virkaldr_leader_2"
+        name="{=spc_outlaw_virkaldr_leader_2}of the Ghawango"
+        voice="softspoken"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.sturgia"
+        occupation="Lord">
+        <face>
+            <face_key_template value="BodyProperty.fighter_virkaldr" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="140" />
+            <skill id="Riding" value="60" />
+            <skill id="OneHanded" value="60" />
+            <skill id="TwoHanded" value="160" />
+            <skill id="Polearm" value="150" />
+            <skill id="Bow" value="30" />
+            <skill id="Crossbow" value="30" />
+            <skill id="Throwing" value="70" />
+        </skills>
+        <Traits>
+            <Trait id="Honor" value="1" />
+            <Trait id="Valor" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="stu_bat_template_medium" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_outlaw_virkaldr_leader_3"
+        name="{=spc_outlaw_virkaldr_leader_3}of the Ghawango"
+        voice="ironic"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.sturgia"
+        occupation="Lord">
+        <face>
+            <face_key_template value="BodyProperty.villager_virkaldr_f" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="140" />
+            <skill id="Riding" value="60" />
+            <skill id="OneHanded" value="60" />
+            <skill id="TwoHanded" value="160" />
+            <skill id="Polearm" value="150" />
+            <skill id="Bow" value="30" />
+            <skill id="Crossbow" value="30" />
+            <skill id="Throwing" value="70" />
+        </skills>
+        <Traits>
+            <Trait id="Calculating" value="1" />
+            <Trait id="Generosity" value="1" />
+            <Trait id="Honor" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="stu_bat_template_medium" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
     <!-- Notables -->
     <NPCCharacter id="spc_merchant_virkaldr_1"
         name="{=!}Ironic virkaldr merchant"

@@ -55,4 +55,30 @@
            culture="Culture.scarhok"
            super_faction="Kingdom.kingdom_scarhok"
            banner_key="11.142.142.1536.1536.764.764.1.0.0.510.25.25.2000.200.764.914.0.0.0.510.25.25.1500.200.914.864.0.0.90.447.25.25.200.200.854.784.0.0.0.447.25.25.200.200.854.634.0.0.0.447.25.25.200.200.854.484.0.0.0.447.25.25.200.200.854.334.0.0.0.447.25.25.200.200.774.859.0.0.90.447.25.25.200.200.624.859.0.0.90.447.25.25.200.200.474.859.0.0.90.447.25.25.200.200.324.859.0.0.90.447.25.25.200.200.174.859.0.0.90.319.25.25.150.150.648.624.0.0.0.306.25.25.300.300.614.594.0.0.45.306.25.25.300.300.684.594.0.1.315" />
+
+    <Faction id="clan_scarhok_outlaw_1"
+        name="{=clan_scarhok_outlaw_1}Hocard"
+        tier="4"
+        initial_posX="310.0"
+        initial_posY="340.0"
+        banner_key="11.83.83.1536.1536.764.764.1.0.0.127.99.99.425.425.768.837.0.0.0.345.99.99.125.125.760.612.0.1.0.304.99.99.250.200.695.682.0.0.-2.304.99.99.250.200.707.682.0.0.-5.304.99.99.250.200.684.682.0.0.2.304.99.99.250.200.671.682.0.0.5.506.99.99.175.200.750.737.0.0.0"
+        label_color="FFD22D33"
+        color="FFD22D33"
+        color2="FF453E38"
+        alternative_color="FF453E38"
+        alternative_color2="FFD22D33"
+        culture="Culture.scarhok"
+        default_party_template="PartyTemplate.scarhok_kingdom_hero_outlaw_party_template"
+        settlement_banner_mesh="encounter_flag_f"
+        is_minor_faction="true"
+        is_outlaw="true"
+        is_mafia="true"
+        text="{=clan_scarhok_outlaw_1_text}Outlaw of the Scarhok">
+        <minor_faction_character_templates>
+            <template id="NPCCharacter.spc_outlaw_scarhok_leader_0" />
+            <template id="NPCCharacter.spc_outlaw_scarhok_leader_1" />
+            <template id="NPCCharacter.spc_outlaw_scarhok_leader_2" />
+            <template id="NPCCharacter.spc_outlaw_scarhok_leader_3" />
+        </minor_faction_character_templates>
+    </Faction>
 </Factions>

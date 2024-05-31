@@ -15,17 +15,13 @@
             <face_key_template value="BodyProperty.fighter_zulizwe" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Honor"
-                value="1" />
-            <Trait id="Calculating"
-                value="-1" />
+            <Trait id="Valor" value="1" />
+            <Trait id="Honor" value="1" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_zulizwe_1"
@@ -42,17 +38,13 @@
             <face_key_template value="BodyProperty.fighter_zulizwe" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Generosity"
-                value="1" />
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Valor" value="1" />
+            <Trait id="Generosity" value="1" />
+            <Trait id="Mercy" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_zulizwe_2"
@@ -69,17 +61,13 @@
             <face_key_template value="BodyProperty.fighter_zulizwe" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="1" />
-            <Trait id="Calculating"
-                value="1" />
-            <Trait id="Honor"
-                value="-1" />
+            <Trait id="Mercy" value="1" />
+            <Trait id="Calculating" value="1" />
+            <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_zulizwe_3"
@@ -96,13 +84,11 @@
             <face_key_template value="BodyProperty.fighter_zulizwe" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="1" />
+            <Trait id="Valor" value="1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_zulizwe_0f"
@@ -120,17 +106,13 @@
             <face_key_template value="BodyProperty.villager_zulizwe_f" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Honor"
-                value="1" />
-            <Trait id="Calculating"
-                value="-1" />
+            <Trait id="Valor" value="1" />
+            <Trait id="Honor" value="1" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_zulizwe_1f"
@@ -148,17 +130,13 @@
             <face_key_template value="BodyProperty.villager_zulizwe_f" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Generosity"
-                value="1" />
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Valor" value="1" />
+            <Trait id="Generosity" value="1" />
+            <Trait id="Mercy" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_zulizwe_2f"
@@ -176,17 +154,13 @@
             <face_key_template value="BodyProperty.villager_zulizwe_f" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="1" />
-            <Trait id="Calculating"
-                value="1" />
-            <Trait id="Honor"
-                value="-1" />
+            <Trait id="Mercy" value="1" />
+            <Trait id="Calculating" value="1" />
+            <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_wanderer_zulizwe_3f"
@@ -204,40 +178,134 @@
             <face_key_template value="BodyProperty.villager_zulizwe_f" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="1" />
+            <Trait id="Valor" value="1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
     <!-- Outlaws -->
     <NPCCharacter id="spc_outlaw_zulizwe_leader_0"
         name="{=spc_outlaw_zulizwe_leader_0}of the Ghawango"
+        voice="earnest"
+        is_template="true"
+        is_female="true"
+        default_group="Ranged"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="Lord">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe_f" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="150" />
+            <skill id="Riding" value="60" />
+            <skill id="OneHanded" value="140" />
+            <skill id="TwoHanded" value="30" />
+            <skill id="Polearm" value="70" />
+            <skill id="Bow" value="160" />
+            <skill id="Crossbow" value="30" />
+            <skill id="Throwing" value="60" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy" value="1" />
+            <Trait id="Generosity" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="zul_bat_template_medium" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_outlaw_zulizwe_leader_1"
+        name="{=spc_outlaw_zulizwe_leader_1}of the Ghawango"
         voice="curt"
         is_template="true"
-        default_group="Infantry"
+        is_female="true"
+        default_group="Ranged"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="Lord">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe_f" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="150" />
+            <skill id="Riding" value="60" />
+            <skill id="OneHanded" value="140" />
+            <skill id="TwoHanded" value="30" />
+            <skill id="Polearm" value="70" />
+            <skill id="Bow" value="160" />
+            <skill id="Crossbow" value="30" />
+            <skill id="Throwing" value="60" />
+        </skills>
+        <Traits>
+            <Trait id="Valor" value="1" />
+            <Trait id="Mercy" value="-1" />
+            <Trait id="Calculating" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="zul_bat_template_medium" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_outlaw_zulizwe_leader_2"
+        name="{=spc_outlaw_zulizwe_leader_2}of the Ghawango"
+        voice="softspoken"
+        is_template="true"
+        is_female="true"
+        default_group="Ranged"
+        is_hero="false"
+        culture="Culture.zulizwe"
+        occupation="Lord">
+        <face>
+            <face_key_template value="BodyProperty.villager_zulizwe_f" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="150" />
+            <skill id="Riding" value="60" />
+            <skill id="OneHanded" value="140" />
+            <skill id="TwoHanded" value="30" />
+            <skill id="Polearm" value="70" />
+            <skill id="Bow" value="160" />
+            <skill id="Crossbow" value="30" />
+            <skill id="Throwing" value="60" />
+        </skills>
+        <Traits>
+            <Trait id="Honor" value="1" />
+            <Trait id="Valor" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="zul_bat_template_medium" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_outlaw_zulizwe_leader_3"
+        name="{=spc_outlaw_zulizwe_leader_3}of the Ghawango"
+        voice="ironic"
+        is_template="true"
+        default_group="Ranged"
         is_hero="false"
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe" />
         </face>
-        <skills></skills>
+        <skills>
+            <skill id="Athletics" value="150" />
+            <skill id="Riding" value="60" />
+            <skill id="OneHanded" value="140" />
+            <skill id="TwoHanded" value="30" />
+            <skill id="Polearm" value="70" />
+            <skill id="Bow" value="160" />
+            <skill id="Crossbow" value="30" />
+            <skill id="Throwing" value="60" />
+        </skills>
         <Traits>
-            <Trait id="Honor"
-                value="1" />
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Calculating"
-                value="-1" />
-            <Trait id="Commander"
-                value="12" />
-            <Trait id="HorseArcherFightingSkills"
-                value="7" />
+            <Trait id="Calculating" value="1" />
+            <Trait id="Generosity" value="1" />
+            <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_medium" />
@@ -258,10 +326,8 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="-1" />
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Valor" value="-1" />
+            <Trait id="Calculating" value="1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
@@ -280,12 +346,9 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Generosity"
-                value="-1" />
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Valor" value="1" />
+            <Trait id="Generosity" value="-1" />
+            <Trait id="Calculating" value="1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
@@ -304,10 +367,8 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Honor"
-                value="1" />
+            <Trait id="Valor" value="1" />
+            <Trait id="Honor" value="1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
@@ -326,10 +387,8 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="Generosity"
-                value="-1" />
-            <Trait id="Valor"
-                value="1" />
+            <Trait id="Generosity" value="-1" />
+            <Trait id="Valor" value="1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
@@ -349,10 +408,8 @@
             <face_key_template value="BodyProperty.villager_zulizwe_f" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="-1" />
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Valor" value="-1" />
+            <Trait id="Calculating" value="1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
@@ -372,12 +429,9 @@
             <face_key_template value="BodyProperty.villager_zulizwe_f" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Generosity"
-                value="-1" />
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Valor" value="1" />
+            <Trait id="Generosity" value="-1" />
+            <Trait id="Calculating" value="1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
@@ -396,10 +450,8 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="Generosity"
-                value="-1" />
-            <Trait id="Honor"
-                value="1" />
+            <Trait id="Generosity" value="-1" />
+            <Trait id="Honor" value="1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
@@ -419,10 +471,8 @@
             <face_key_template value="BodyProperty.villager_zulizwe_f" />
         </face>
         <Traits>
-            <Trait id="Generosity"
-                value="1" />
-            <Trait id="Honor"
-                value="1" />
+            <Trait id="Generosity" value="1" />
+            <Trait id="Honor" value="1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
@@ -441,15 +491,12 @@
             <face_key_template value="BodyProperty.fighter_zulizwe" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Valor" value="1" />
+            <Trait id="Mercy" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_gangleader_zulizwe_1f"
@@ -465,15 +512,12 @@
             <face_key_template value="BodyProperty.villager_zulizwe_f" />
         </face>
         <Traits>
-            <Trait id="Honor"
-                value="1" />
-            <Trait id="Calculating"
-                value="-1" />
+            <Trait id="Honor" value="1" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
-            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe"
-                civilian="true" />
+            <EquipmentSet id="npc_wanderer_equipment_template_zulizwe" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="spc_artisan_zulizwe_1"
@@ -488,8 +532,7 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="Generosity"
-                value="1" />
+            <Trait id="Generosity" value="1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
@@ -508,8 +551,7 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Calculating" value="1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
@@ -528,8 +570,7 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="Generosity"
-                value="1" />
+            <Trait id="Generosity" value="1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
@@ -548,10 +589,8 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="Calculating"
-                value="1" />
-            <Trait id="Generosity"
-                value="1" />
+            <Trait id="Calculating" value="1" />
+            <Trait id="Generosity" value="1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
@@ -571,8 +610,7 @@
             <face_key_template value="BodyProperty.villager_zulizwe_f" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="1" />
+            <Trait id="Valor" value="1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
@@ -591,10 +629,8 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Calculating"
-                value="-1" />
+            <Trait id="Valor" value="1" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
@@ -613,10 +649,8 @@
             <face_key_template value="BodyProperty.villager_zulizwe" />
         </face>
         <Traits>
-            <Trait id="Calculating"
-                value="1" />
-            <Trait id="Honor"
-                value="-1" />
+            <Trait id="Calculating" value="1" />
+            <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />
@@ -636,10 +670,8 @@
             <face_key_template value="BodyProperty.villager_zulizwe_f" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="-1" />
-            <Trait id="Generosity"
-                value="1" />
+            <Trait id="Valor" value="-1" />
+            <Trait id="Generosity" value="1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="npc_armed_wanderer_equipment_template_zulizwe" />

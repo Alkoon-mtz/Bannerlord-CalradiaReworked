@@ -101,7 +101,7 @@
         alternative_color2="FF644974"
         default_party_template="PartyTemplate.ikubito_kingdom_hero_party_template"
         settlement_banner_mesh="encounter_flag_f"
-        text="{=ikubito_text}Company composed of retired palace guards">
+        text="{=ikubito_text}A clan hidden in the eastern mountains">
         <minor_faction_character_templates>
             <template id="NPCCharacter.spc_ikubito_leader_0" />
             <template id="NPCCharacter.spc_ikubito_leader_1" />

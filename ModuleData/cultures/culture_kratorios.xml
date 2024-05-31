@@ -25,7 +25,7 @@
         vassal_reward_party_template="PartyTemplate.kratorios_vassal_reward_troops"
         default_face_key="0013D40B800035CFFE8BCE8CBA65FD79DED85CCCCA67EB7CD8EFEB4C9EEFDBDE00965003096A8F9A000000000000000000000000000000000000000021289142"
         text="{=kratorios_text}An emerging empire trying to unify the continent"
-        caravan_master="NPCCharacter.caravan_master_empire"
+        caravan_master="NPCCharacter.caravan_master_kratorios"
         armed_trader="NPCCharacter.armed_trader_kratorios"
         caravan_guard="NPCCharacter.caravan_guard_kratorios"
         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_kratorios"
@@ -404,40 +404,16 @@
             <template name="NPCCharacter.spc_headman_kratorios_1f" />
         </notable_and_wanderer_templates>
         <lord_templates>
-            <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
-            <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
-            <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
-            <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
-            <template name="NPCCharacter.spc_hidden_hand_leader_0" />
-            <template name="NPCCharacter.spc_hidden_hand_leader_1" />
-            <template name="NPCCharacter.spc_hidden_hand_leader_2" />
-            <template name="NPCCharacter.spc_hidden_hand_leader_3" />
-            <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
-            <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
-            <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
-            <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
-            <template name="NPCCharacter.spc_eleftheroi_leader_0" />
-            <template name="NPCCharacter.spc_eleftheroi_leader_1" />
-            <template name="NPCCharacter.spc_eleftheroi_leader_2" />
-            <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+            <template name="NPCCharacter.spc_outlaw_kratorios_leader_0" />
+            <template name="NPCCharacter.spc_outlaw_kratorios_leader_1" />
+            <template name="NPCCharacter.spc_outlaw_kratorios_leader_2" />
+            <template name="NPCCharacter.spc_outlaw_kratorios_leader_3" />
         </lord_templates>
         <rebellion_hero_templates>
-            <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
-            <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
-            <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
-            <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
-            <template name="NPCCharacter.spc_hidden_hand_leader_0" />
-            <template name="NPCCharacter.spc_hidden_hand_leader_1" />
-            <template name="NPCCharacter.spc_hidden_hand_leader_2" />
-            <template name="NPCCharacter.spc_hidden_hand_leader_3" />
-            <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
-            <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
-            <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
-            <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
-            <template name="NPCCharacter.spc_eleftheroi_leader_0" />
-            <template name="NPCCharacter.spc_eleftheroi_leader_1" />
-            <template name="NPCCharacter.spc_eleftheroi_leader_2" />
-            <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+            <template name="NPCCharacter.spc_outlaw_kratorios_leader_0" />
+            <template name="NPCCharacter.spc_outlaw_kratorios_leader_1" />
+            <template name="NPCCharacter.spc_outlaw_kratorios_leader_2" />
+            <template name="NPCCharacter.spc_outlaw_kratorios_leader_3" />
         </rebellion_hero_templates>
         <tournament_team_templates_one_participant>
             <template name="NPCCharacter.tournament_template_empire_one_participant_set_v1" />
@@ -453,9 +429,9 @@
             <template name="NPCCharacter.tournament_template_empire_four_participant_set_v3" />
         </tournament_team_templates_four_participant>
         <basic_mercenary_troops>
-            <template name="NPCCharacter.geniveri_stritoti" />
-            <template name="NPCCharacter.ludnik_kodziec" />
-            <template name="NPCCharacter.ikubito_hajimashi" />
+            <template name="NPCCharacter.geniveri_tier_1" />
+            <template name="NPCCharacter.ludnik_tier_1" />
+            <template name="NPCCharacter.ikubito_tier_1" />
         </basic_mercenary_troops>
     </Culture>
 </SPCultures>

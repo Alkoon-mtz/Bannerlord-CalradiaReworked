@@ -26,7 +26,7 @@
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_virkaldr" />
             <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_virkaldr" />
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_virkaldr" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_sturgia" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_virkaldr" />
         </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="virkaldr_caravan_template">

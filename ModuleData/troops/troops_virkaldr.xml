@@ -427,7 +427,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_virkaldr" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="65" />
             <skill id="Riding" value="10" />
             <skill id="OneHanded" value="100" />
@@ -464,7 +464,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_virkaldr" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="90" />
             <skill id="Riding" value="10" />
             <skill id="OneHanded" value="140" />
@@ -501,7 +501,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_virkaldr" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="120" />
             <skill id="Riding" value="20" />
             <skill id="OneHanded" value="200" /> 
@@ -538,7 +538,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_virkaldr" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="180" />
             <skill id="Riding" value="20" />
             <skill id="OneHanded" value="260" />
@@ -574,7 +574,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_virkaldr" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="20" />
             <skill id="Riding" value="5" />
             <skill id="OneHanded" value="25" />
@@ -607,7 +607,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_virkaldr" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="50" />
             <skill id="Riding" value="10" />
             <skill id="OneHanded" value="20" />
@@ -645,7 +645,7 @@
         <face>
             <face_key_template value="BodyProperty.villager_virkaldr_f" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="30" />
             <skill id="Riding" value="80" />
             <skill id="OneHanded" value="20" />
@@ -685,7 +685,7 @@
         <face>
             <face_key_template value="BodyProperty.villager_virkaldr_f" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="40" />
             <skill id="Riding" value="100" />
             <skill id="OneHanded" value="30" />
@@ -725,7 +725,7 @@
         <face>
             <face_key_template value="BodyProperty.villager_virkaldr_f" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="70" />
             <skill id="Riding" value="130" />
             <skill id="OneHanded" value="40" />
@@ -762,7 +762,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_virkaldr" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="80" />
             <skill id="Riding" value="10" />
             <skill id="OneHanded" value="90" />
@@ -799,7 +799,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_virkaldr" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="100" />
             <skill id="Riding" value="20" />
             <skill id="OneHanded" value="120" />
@@ -834,7 +834,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_virkaldr" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="50" />
             <skill id="Riding" value="15" />
             <skill id="OneHanded" value="15" />
@@ -868,7 +868,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_virkaldr" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="80" />
             <skill id="Riding" value="30" />
             <skill id="OneHanded" value="30" />
@@ -904,7 +904,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_virkaldr" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="110" />
             <skill id="Riding" value="40" />
             <skill id="OneHanded" value="40" />
@@ -940,7 +940,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_virkaldr" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="140" />
             <skill id="Riding" value="60" />
             <skill id="OneHanded" value="60" />
@@ -976,7 +976,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_virkaldr" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="80" />
             <skill id="Riding" value="10" />
             <skill id="OneHanded" value="90" />
@@ -1013,7 +1013,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_virkaldr" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="100" />
             <skill id="Riding" value="20" />
             <skill id="OneHanded" value="120" />
@@ -1050,7 +1050,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_virkaldr" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="130" />
             <skill id="Riding" value="30" />
             <skill id="OneHanded" value="160" />

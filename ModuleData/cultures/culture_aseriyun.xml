@@ -24,7 +24,7 @@
         vassal_reward_party_template="PartyTemplate.aseriyun_vassal_reward_troops"
         default_face_key="0023C00D80001843886878E669B54A89599594646F76BCA778B4A25579C756B900877003083C616700000000000000000000000000000000000000003B102102"
         text="{=aseriyun_text}Inhabitant of the desert, they lost parts of their sultanate after the wars with Iustrium"
-        caravan_master="NPCCharacter.caravan_master_aserai"
+        caravan_master="NPCCharacter.caravan_master_aseriyun"
         armed_trader="NPCCharacter.armed_trader_aseriyun"
         caravan_guard="NPCCharacter.caravan_guard_aseriyun"
         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_aseriyun"
@@ -280,24 +280,16 @@
             <template name="NPCCharacter.spc_headman_aseriyun_1f" />
         </notable_and_wanderer_templates>
         <lord_templates>
-            <template name="NPCCharacter.spc_beni_zilal_leader_0" />
-            <template name="NPCCharacter.spc_beni_zilal_leader_1" />
-            <template name="NPCCharacter.spc_beni_zilal_leader_2" />
-            <template name="NPCCharacter.spc_beni_zilal_leader_3" />
-            <template name="NPCCharacter.spc_jawwal_leader_0" />
-            <template name="NPCCharacter.spc_jawwal_leader_1" />
-            <template name="NPCCharacter.spc_jawwal_leader_2" />
-            <template name="NPCCharacter.spc_jawwal_leader_3" />
+            <template name="NPCCharacter.spc_outlaw_aseriyun_leader_0" />
+            <template name="NPCCharacter.spc_outlaw_aseriyun_leader_1" />
+            <template name="NPCCharacter.spc_outlaw_aseriyun_leader_2" />
+            <template name="NPCCharacter.spc_outlaw_aseriyun_leader_3" />
         </lord_templates>
         <rebellion_hero_templates>
-            <template name="NPCCharacter.spc_beni_zilal_leader_0" />
-            <template name="NPCCharacter.spc_beni_zilal_leader_1" />
-            <template name="NPCCharacter.spc_beni_zilal_leader_2" />
-            <template name="NPCCharacter.spc_beni_zilal_leader_3" />
-            <template name="NPCCharacter.spc_jawwal_leader_0" />
-            <template name="NPCCharacter.spc_jawwal_leader_1" />
-            <template name="NPCCharacter.spc_jawwal_leader_2" />
-            <template name="NPCCharacter.spc_jawwal_leader_3" />
+            <template name="NPCCharacter.spc_outlaw_aseriyun_leader_0" />
+            <template name="NPCCharacter.spc_outlaw_aseriyun_leader_1" />
+            <template name="NPCCharacter.spc_outlaw_aseriyun_leader_2" />
+            <template name="NPCCharacter.spc_outlaw_aseriyun_leader_3" />
         </rebellion_hero_templates>
         <tournament_team_templates_one_participant>
             <template name="NPCCharacter.tournament_template_aserai_one_participant_set_v1" />
@@ -314,9 +306,9 @@
             <template name="NPCCharacter.tournament_template_aserai_four_participant_set_v4" />
         </tournament_team_templates_four_participant>
         <basic_mercenary_troops>
-            <template name="NPCCharacter.geniveri_stritoti" />
-            <template name="NPCCharacter.peblador_merbaro" />
-            <template name="NPCCharacter.ikubito_hajimashi" />
+            <template name="NPCCharacter.geniveri_tier_1" />
+            <template name="NPCCharacter.peblador_tier_1" />
+            <template name="NPCCharacter.ikubito_tier_1" />
         </basic_mercenary_troops>
     </Culture>
 </SPCultures>

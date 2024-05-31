@@ -186,6 +186,131 @@
         </Equipments>
     </NPCCharacter>
 
+    <!-- Outlaws -->
+    <NPCCharacter id="spc_outlaw_scarhok_leader_0"
+        name="{=spc_outlaw_scarhok_leader_0}of the Ghawango"
+        voice="earnest"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scarhok" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="140" />
+            <skill id="Riding" value="60" />
+            <skill id="OneHanded" value="70" />
+            <skill id="TwoHanded" value="150" />
+            <skill id="Polearm" value="30" />
+            <skill id="Bow" value="60" />
+            <skill id="Crossbow" value="30" />
+            <skill id="Throwing" value="160" />
+        </skills>
+        <Traits>
+            <Trait id="Mercy" value="1" />
+            <Trait id="Generosity" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_medium" />
+            <EquipmentSet id="sca_civ_template_default" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_outlaw_scarhok_leader_1"
+        name="{=spc_outlaw_scarhok_leader_1}of the Ghawango"
+        voice="curt"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scarhok" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="140" />
+            <skill id="Riding" value="60" />
+            <skill id="OneHanded" value="70" />
+            <skill id="TwoHanded" value="150" />
+            <skill id="Polearm" value="30" />
+            <skill id="Bow" value="60" />
+            <skill id="Crossbow" value="30" />
+            <skill id="Throwing" value="160" />
+        </skills>
+        <Traits>
+            <Trait id="Valor" value="1" />
+            <Trait id="Mercy" value="-1" />
+            <Trait id="Calculating" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_medium" />
+            <EquipmentSet id="sca_civ_template_default" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_outlaw_scarhok_leader_2"
+        name="{=spc_outlaw_scarhok_leader_2}of the Ghawango"
+        voice="softspoken"
+        is_template="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scarhok" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="140" />
+            <skill id="Riding" value="60" />
+            <skill id="OneHanded" value="70" />
+            <skill id="TwoHanded" value="150" />
+            <skill id="Polearm" value="30" />
+            <skill id="Bow" value="60" />
+            <skill id="Crossbow" value="30" />
+            <skill id="Throwing" value="160" />
+        </skills>
+        <Traits>
+            <Trait id="Honor" value="1" />
+            <Trait id="Valor" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_medium" />
+            <EquipmentSet id="sca_civ_template_default" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="spc_outlaw_scarhok_leader_3"
+        name="{=spc_outlaw_scarhok_leader_3}of the Ghawango"
+        voice="ironic"
+        is_template="true"
+        is_female="true"
+        default_group="Infantry"
+        is_hero="false"
+        culture="Culture.scarhok"
+        occupation="Lord">
+        <face>
+            <face_key_template value="BodyProperty.villager_scarhok_f" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="140" />
+            <skill id="Riding" value="60" />
+            <skill id="OneHanded" value="70" />
+            <skill id="TwoHanded" value="150" />
+            <skill id="Polearm" value="30" />
+            <skill id="Bow" value="60" />
+            <skill id="Crossbow" value="30" />
+            <skill id="Throwing" value="160" />
+        </skills>
+        <Traits>
+            <Trait id="Calculating" value="1" />
+            <Trait id="Generosity" value="1" />
+            <Trait id="Honor" value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="sca_bat_template_medium" />
+            <EquipmentSet id="sca_civ_template_default" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+
     <!-- Notables -->
     <NPCCharacter id="spc_merchant_scarhok_1"
         name="{=!}Ironic scarhok merchant"

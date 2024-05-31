@@ -55,4 +55,30 @@
         culture="Culture.battania"
         super_faction="Kingdom.kingdom_cereann"
         banner_key="11.23.75.4345.4345.764.764.1.0.0.415.39.0.391.391.764.764.0.0.0" />
+
+    <Faction id="clan_cereann_outlaw_1"
+        name="{=clan_cereann_outlaw_1}Raeglain"
+        tier="4"
+        initial_posX="310.0"
+        initial_posY="340.0"
+        banner_key="11.126.126.4345.4345.764.764.1.0.0.131.60.60.300.300.639.822.0.0.0.131.60.60.300.300.889.822.0.1.0.413.60.60.150.150.764.622.0.0.0"
+        label_color="FF34671E"
+        color="FF34671E"
+        color2="FFE6A57F"
+        alternative_color="FFE6A57F"
+        alternative_color2="FF34671E"
+        culture="Culture.battania"
+        default_party_template="PartyTemplate.cereann_kingdom_hero_outlaw_party_template"
+        settlement_banner_mesh="encounter_flag_f"
+        is_minor_faction="true"
+        is_outlaw="true"
+        is_mafia="true"
+        text="{=clan_cereann_outlaw_1_text}Outlaw of the Cereann">
+        <minor_faction_character_templates>
+            <template id="NPCCharacter.spc_outlaw_cereann_leader_0" />
+            <template id="NPCCharacter.spc_outlaw_cereann_leader_1" />
+            <template id="NPCCharacter.spc_outlaw_cereann_leader_2" />
+            <template id="NPCCharacter.spc_outlaw_cereann_leader_3" />
+        </minor_faction_character_templates>
+    </Faction>
 </Factions>

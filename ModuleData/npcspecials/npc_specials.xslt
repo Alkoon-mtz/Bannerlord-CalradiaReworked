@@ -79,4 +79,74 @@
     <xsl:template match="NPCCharacter[@id='spc_wanderer_vlandia_11']"/>
     <xsl:template match="NPCCharacter[@id='spc_wanderer_vlandia_12']"/>
 
+    <!-- Mercenary/Outlaw -->
+    <xsl:template match="NPCCharacter[@id='spc_ghilman_leader_0']"/>
+    <xsl:template match="NPCCharacter[@id='spc_ghilman_leader_1']"/>
+    <xsl:template match="NPCCharacter[@id='spc_ghilman_leader_2']"/>
+    <xsl:template match="NPCCharacter[@id='spc_ghilman_leader_3']"/>
+
+    <xsl:template match="NPCCharacter[@id='spc_legion_of_the_betrayed_leader_0']"/>
+    <xsl:template match="NPCCharacter[@id='spc_legion_of_the_betrayed_leader_1']"/>
+    <xsl:template match="NPCCharacter[@id='spc_legion_of_the_betrayed_leader_2']"/>
+    <xsl:template match="NPCCharacter[@id='spc_legion_of_the_betrayed_leader_3']"/>
+
+    <xsl:template match="NPCCharacter[@id='spc_skolderbrotva_leader_0']"/>
+    <xsl:template match="NPCCharacter[@id='spc_skolderbrotva_leader_1']"/>
+    <xsl:template match="NPCCharacter[@id='spc_skolderbrotva_leader_2']"/>
+    <xsl:template match="NPCCharacter[@id='spc_skolderbrotva_leader_3']"/>
+
+    <xsl:template match="NPCCharacter[@id='spc_company_of_the_boar_leader_0']"/>
+    <xsl:template match="NPCCharacter[@id='spc_company_of_the_boar_leader_1']"/>
+    <xsl:template match="NPCCharacter[@id='spc_company_of_the_boar_leader_2']"/>
+    <xsl:template match="NPCCharacter[@id='spc_company_of_the_boar_leader_3']"/>
+
+    <xsl:template match="NPCCharacter[@id='spc_beni_zilal_leader_0']"/>
+    <xsl:template match="NPCCharacter[@id='spc_beni_zilal_leader_1']"/>
+    <xsl:template match="NPCCharacter[@id='spc_beni_zilal_leader_2']"/>
+    <xsl:template match="NPCCharacter[@id='spc_beni_zilal_leader_3']"/>
+
+    <xsl:template match="NPCCharacter[@id='spc_wolfskins_leader_0']"/>
+    <xsl:template match="NPCCharacter[@id='spc_wolfskins_leader_1']"/>
+    <xsl:template match="NPCCharacter[@id='spc_wolfskins_leader_2']"/>
+    <xsl:template match="NPCCharacter[@id='spc_wolfskins_leader_3']"/>
+
+    <xsl:template match="NPCCharacter[@id='spc_brotherhood_of_woods_leader_0']"/>
+    <xsl:template match="NPCCharacter[@id='spc_brotherhood_of_woods_leader_1']"/>
+    <xsl:template match="NPCCharacter[@id='spc_brotherhood_of_woods_leader_2']"/>
+    <xsl:template match="NPCCharacter[@id='spc_brotherhood_of_woods_leader_3']"/>
+
+    <xsl:template match="NPCCharacter[@id='spc_hidden_hand_leader_0']"/>
+    <xsl:template match="NPCCharacter[@id='spc_hidden_hand_leader_1']"/>
+    <xsl:template match="NPCCharacter[@id='spc_hidden_hand_leader_2']"/>
+    <xsl:template match="NPCCharacter[@id='spc_hidden_hand_leader_3']"/>
+
+    <xsl:template match="NPCCharacter[@id='spc_lakepike_leader_0']"/>
+    <xsl:template match="NPCCharacter[@id='spc_lakepike_leader_1']"/>
+    <xsl:template match="NPCCharacter[@id='spc_lakepike_leader_2']"/>
+    <xsl:template match="NPCCharacter[@id='spc_lakepike_leader_3']"/>
+
+    <xsl:template match="NPCCharacter[@id='spc_embers_of_flame_leader_0']"/>
+    <xsl:template match="NPCCharacter[@id='spc_embers_of_flame_leader_1']"/>
+    <xsl:template match="NPCCharacter[@id='spc_embers_of_flame_leader_2']"/>
+    <xsl:template match="NPCCharacter[@id='spc_embers_of_flame_leader_3']"/>
+
+    <xsl:template match="NPCCharacter[@id='spc_jawwal_leader_0']"/>
+    <xsl:template match="NPCCharacter[@id='spc_jawwal_leader_1']"/>
+    <xsl:template match="NPCCharacter[@id='spc_jawwal_leader_2']"/>
+    <xsl:template match="NPCCharacter[@id='spc_jawwal_leader_3']"/>
+
+    <xsl:template match="NPCCharacter[@id='spc_karakhuzaits_leader_0']"/>
+    <xsl:template match="NPCCharacter[@id='spc_karakhuzaits_leader_1']"/>
+    <xsl:template match="NPCCharacter[@id='spc_karakhuzaits_leader_2']"/>
+    <xsl:template match="NPCCharacter[@id='spc_karakhuzaits_leader_3']"/>
+
+    <xsl:template match="NPCCharacter[@id='spc_forest_people_leader_0']"/>
+    <xsl:template match="NPCCharacter[@id='spc_forest_people_leader_1']"/>
+    <xsl:template match="NPCCharacter[@id='spc_forest_people_leader_2']"/>
+    <xsl:template match="NPCCharacter[@id='spc_forest_people_leader_3']"/>
+
+    <xsl:template match="NPCCharacter[@id='spc_eleftheroi_leader_0']"/>
+    <xsl:template match="NPCCharacter[@id='spc_eleftheroi_leader_1']"/>
+    <xsl:template match="NPCCharacter[@id='spc_eleftheroi_leader_2']"/>
+    <xsl:template match="NPCCharacter[@id='spc_eleftheroi_leader_3']"/>
 </xsl:stylesheet>

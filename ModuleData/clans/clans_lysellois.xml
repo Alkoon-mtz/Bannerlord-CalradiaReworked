@@ -55,4 +55,30 @@
            culture="Culture.vlandia"
            super_faction="Kingdom.kingdom_lysellois"
            banner_key="11.12.12.1536.1536.764.764.1.0.0.511.131.12.1700.1200.764.964.0.1.0.220.131.12.200.200.614.564.0.1.0.220.131.12.200.200.914.564.0.1.0.220.131.12.200.200.764.999.0.1.0" />
+
+    <Faction id="clan_lysellois_outlaw_1"
+        name="{=clan_lysellois_outlaw_1}Rebelle"
+        tier="4"
+        initial_posX="310.0"
+        initial_posY="340.0"
+        banner_key="11.138.75.1536.1536.764.764.1.0.0.219.121.121.300.300.764.634.0.0.0.219.121.121.300.300.764.894.0.1.180.315.121.121.300.300.679.714.0.0.50.315.121.121.300.300.849.714.0.1.310"
+        label_color="FF3A6298"
+        color="FF3A6298"
+        color2="FFF4D32E"
+        alternative_color="FFF4D32E"
+        alternative_color2="FF3A6298"
+        culture="Culture.vlandia"
+        default_party_template="PartyTemplate.lysellois_kingdom_hero_outlaw_party_template"
+        settlement_banner_mesh="encounter_flag_f"
+        is_minor_faction="true"
+        is_outlaw="true"
+        is_mafia="true"
+        text="{=clan_lysellois_outlaw_1_text}Outlaw of the Lysellois">
+        <minor_faction_character_templates>
+            <template id="NPCCharacter.spc_outlaw_lysellois_leader_0" />
+            <template id="NPCCharacter.spc_outlaw_lysellois_leader_1" />
+            <template id="NPCCharacter.spc_outlaw_lysellois_leader_2" />
+            <template id="NPCCharacter.spc_outlaw_lysellois_leader_3" />
+        </minor_faction_character_templates>
+    </Faction>
 </Factions>

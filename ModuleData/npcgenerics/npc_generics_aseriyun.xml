@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
     <!-- Guards -->
+    <NPCCharacter id="caravan_master_aseriyun"
+        default_group="Infantry"
+        occupation="CaravanGuard"
+        culture="Culture.aserai"
+        name="{=caravan_master_aseriyun}Aseriyun Caravan Master"
+        level="26">
+        <face>
+            <face_key_template value="BodyProperty.fighter_aseriyun" />
+        </face>
+        <skills>
+            <skill id="Athletics" value="140" />
+            <skill id="Riding" value="80" />
+            <skill id="OneHanded" value="140" />
+            <skill id="TwoHanded" value="50" />
+            <skill id="Polearm" value="160" />
+            <skill id="Bow" value="40" />
+            <skill id="Crossbow" value="40" />
+            <skill id="Throwing" value="50" />
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+                <equipment slot="Item1" id="Item.highland_riders_shield"/>
+                <equipment slot="Item2" id="Item.vlandia_pike_1_t5"/>
+                <equipment slot="Head" id="Item.AR_aserai_helmet_l"/>
+                <equipment slot="Cape" id="Item.AR_aserai_scale_cape_b2"/>
+                <equipment slot="Body" id="Item.TV_aserai_robe_a"/>
+                <equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
+                <equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
+            </EquipmentRoster>
+            <EquipmentSet id="ase_npcgenerics_template_rich" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
     <NPCCharacter id="armed_trader_aseriyun"
         default_group="Ranged"
         occupation="CaravanGuard"

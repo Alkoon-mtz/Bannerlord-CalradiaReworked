@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
     <!-- Mercenary Troops -->
-    <NPCCharacter id="geniveri_stritoti"
+    <NPCCharacter id="geniveri_tier_1"
         default_group="Ranged"
         level="16"
-        name="{=geniveri_stritoti}Geniveri Sritoti"
+        name="{=geniveri_tier_1}Geniveri Sritoti"
         occupation="Mercenary"
-        culture="Culture.empire"
+        culture="Culture.neutral_culture"
         is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.fighter_kratorios" />
@@ -22,7 +22,7 @@
             <skill id="Throwing" value="20" />
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.geniveri_alesti" />
+            <upgrade_target id="NPCCharacter.geniveri_tier_2" />
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -43,12 +43,12 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="geniveri_alesti"
+    <NPCCharacter id="geniveri_tier_2"
         default_group="Ranged"
         level="21"
-        name="{=geniveri_alesti}Geniveri Alesti"
+        name="{=geniveri_tier_2}Geniveri Alesti"
         occupation="Mercenary"
-        culture="Culture.empire">
+        culture="Culture.neutral_culture">
         <face>
             <face_key_template value="BodyProperty.fighter_kratorios" />
         </face>
@@ -63,7 +63,7 @@
             <skill id="Throwing" value="30" />
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.geniveri_condoriti" />
+            <upgrade_target id="NPCCharacter.geniveri_tier_3" />
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -84,12 +84,12 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="geniveri_condoriti"
+    <NPCCharacter id="geniveri_tier_3"
         default_group="Ranged"
         level="26"
-        name="{=geniveri_condoriti}Geniveri Condoriti"
+        name="{=geniveri_tier_3}Geniveri Condoriti"
         occupation="Mercenary"
-        culture="Culture.empire">
+        culture="Culture.neutral_culture">
         <face>
             <face_key_template value="BodyProperty.fighter_kratorios" />
         </face>
@@ -123,17 +123,17 @@
         </Equipments>
     </NPCCharacter>
 
-    <NPCCharacter id="ludnik_kodziec"
+    <NPCCharacter id="ludnik_tier_1"
         default_group="Cavalry"
         level="16"
-        name="{=ludnik_kodziec}Ludnik Kodziec"
+        name="{=ludnik_tier_1}Ludnik Kodziec"
         occupation="Mercenary"
-        culture="Culture.rekgeist"
+        culture="Culture.neutral_culture"
         is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.fighter_rekgeist" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="40" />
             <skill id="Riding" value="100" />
             <skill id="OneHanded" value="60" />
@@ -144,7 +144,7 @@
             <skill id="Throwing" value="20" />
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.ludnik_jedziec" />
+            <upgrade_target id="NPCCharacter.ludnik_tier_2" />
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -162,16 +162,16 @@
             <EquipmentSet id="rek_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="ludnik_jedziec"
+    <NPCCharacter id="ludnik_tier_2"
         default_group="Cavalry"
         level="21"
-        name="{=ludnik_jedziec}Ludnik Jedziec"
+        name="{=ludnik_tier_2}Ludnik Jedziec"
         occupation="Mercenary"
-        culture="Culture.rekgeist">
+        culture="Culture.neutral_culture">
         <face>
             <face_key_template value="BodyProperty.fighter_rekgeist" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="50" />
             <skill id="Riding" value="140" />
             <skill id="OneHanded" value="90" />
@@ -182,7 +182,7 @@
             <skill id="Throwing" value="30" />
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.ludnik_huziec" />
+            <upgrade_target id="NPCCharacter.ludnik_tier_3" />
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -200,16 +200,16 @@
             <EquipmentSet id="rek_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="ludnik_huziec"
+    <NPCCharacter id="ludnik_tier_3"
         default_group="Cavalry"
         level="26"
-        name="{=ludnik_huziec}Ludnik Huziec"
+        name="{=ludnik_tier_3}Ludnik Huziec"
         occupation="Mercenary"
-        culture="Culture.rekgeist">
+        culture="Culture.neutral_culture">
         <face>
             <face_key_template value="BodyProperty.fighter_rekgeist" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="80"/>
             <skill id="Riding" value="200"/>
             <skill id="OneHanded" value="120"/>
@@ -236,17 +236,17 @@
         </Equipments>
     </NPCCharacter>
 
-    <NPCCharacter id="peblador_merbaro"
+    <NPCCharacter id="peblador_tier_1"
         default_group="Infantry"
         level="16"
-        name="{=peblador_merbaro}Peblador Merbaro"
+        name="{=peblador_tier_1}Peblador Merbaro"
         occupation="Mercenary"
-        culture="Culture.vlandia"
+        culture="Culture.neutral_culture"
         is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.fighter_lysellois" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="90" />
             <skill id="Riding" value="20" />
             <skill id="OneHanded" value="60" />
@@ -257,7 +257,7 @@
             <skill id="Throwing" value="15" />
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.peblador_esparo" />
+            <upgrade_target id="NPCCharacter.peblador_tier_2" />
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -272,16 +272,16 @@
             <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="peblador_esparo"
+    <NPCCharacter id="peblador_tier_2"
         default_group="Infantry"
         level="21"
-        name="{=peblador_esparo}Peblador Esparo"
+        name="{=peblador_tier_2}Peblador Esparo"
         occupation="Mercenary"
-        culture="Culture.vlandia">
+        culture="Culture.neutral_culture">
         <face>
             <face_key_template value="BodyProperty.fighter_lysellois" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="120" />
             <skill id="Riding" value="30" />
             <skill id="OneHanded" value="90" />
@@ -292,7 +292,7 @@
             <skill id="Throwing" value="20" />
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.peblador_albaro" />
+            <upgrade_target id="NPCCharacter.peblador_tier_3" />
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -307,16 +307,16 @@
             <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="peblador_albaro"
+    <NPCCharacter id="peblador_tier_3"
         default_group="Infantry"
         level="26"
-        name="{=peblador_albaro}Peblador Albaro"
+        name="{=peblador_tier_3}Peblador Albaro"
         occupation="Mercenary"
-        culture="Culture.vlandia">
+        culture="Culture.neutral_culture">
         <face>
             <face_key_template value="BodyProperty.fighter_lysellois" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="160"/>
             <skill id="Riding" value="40"/>
             <skill id="OneHanded" value="120"/>
@@ -340,17 +340,17 @@
         </Equipments>
     </NPCCharacter>
 
-    <NPCCharacter id="ikubito_hajimashi"
+    <NPCCharacter id="ikubito_tier_1"
         default_group="Infantry"
         level="16"
-        name="{=ikubito_hajimashi}Ikubito Hajimashi"
+        name="{=ikubito_tier_1}Ikubito Hajimashi"
         occupation="Mercenary"
-        culture="Culture.qinguo"
+        culture="Culture.neutral_culture"
         is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.fighter_qinguo" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="60" />
             <skill id="Riding" value="20" />
             <skill id="OneHanded" value="40" />
@@ -361,7 +361,7 @@
             <skill id="Throwing" value="90" />
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.ikubito_hitorishi" />
+            <upgrade_target id="NPCCharacter.ikubito_tier_2" />
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -377,16 +377,16 @@
             <EquipmentSet id="qin_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="ikubito_hitorishi"
+    <NPCCharacter id="ikubito_tier_2"
         default_group="Infantry"
         level="21"
-        name="{=ikubito_hitorishi}Ikubito Hitorishi"
+        name="{=ikubito_tier_2}Ikubito Hitorishi"
         occupation="Mercenary"
-        culture="Culture.qinguo">
+        culture="Culture.neutral_culture">
         <face>
             <face_key_template value="BodyProperty.fighter_qinguo" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="90" />
             <skill id="Riding" value="30" />
             <skill id="OneHanded" value="50" />
@@ -397,7 +397,7 @@
             <skill id="Throwing" value="120" />
         </skills>
         <upgrade_targets>
-            <upgrade_target id="NPCCharacter.ikubito_nakazushi" />
+            <upgrade_target id="NPCCharacter.ikubito_tier_3" />
         </upgrade_targets>
         <Equipments>
             <EquipmentRoster>
@@ -413,16 +413,16 @@
             <EquipmentSet id="qin_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="ikubito_nakazushi"
+    <NPCCharacter id="ikubito_tier_3"
         default_group="Infantry"
         level="26"
-        name="{=ikubito_nakazushi}Ikubito Nakazushi"
+        name="{=ikubito_tier_3}Ikubito Nakazushi"
         occupation="Mercenary"
-        culture="Culture.qinguo">
+        culture="Culture.neutral_culture">
         <face>
             <face_key_template value="BodyProperty.fighter_qinguo" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="120"/>
             <skill id="Riding" value="40"/>
             <skill id="OneHanded" value="80"/>

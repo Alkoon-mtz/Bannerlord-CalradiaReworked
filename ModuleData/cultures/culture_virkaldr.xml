@@ -24,7 +24,7 @@
         vassal_reward_party_template="PartyTemplate.virkaldr_vassal_reward_troops"
         default_face_key="000810021D8834819D8B711B6CEE94FBDE6B8BEFB4538267D6EB7D7D7D87CBAB0079700307584E0B000000000000000000000000000000000000000046E86006"
         text="{=virkaldr_text}Living in the hard cold north, seeking for a thing called sun"
-        caravan_master="NPCCharacter.caravan_master_sturgia"
+        caravan_master="NPCCharacter.caravan_master_virkaldr"
         armed_trader="NPCCharacter.armed_trader_virkaldr"
         caravan_guard="NPCCharacter.caravan_guard_virkaldr"
         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_virkaldr"
@@ -288,38 +288,21 @@
             <name name="{=Yrsa}Yrsa" />
         </female_names>
         <clan_names>
-            <name name="{=tGEChxdb}Achanoving" />
-            <name name="{=OLLYkaWd}Asraloving" />
-            <name name="{=Y9qYt71a}Balikoving" />
-            <name name="{=yUuM8a0j}Boranoving" />
-            <name name="{=XJZJIZ9Q}Cholokhoving" />
-            <name name="{=NbprLzeU}Dazheroving" />
-            <name name="{=eNSZGTbN}Doronoving" />
-            <name name="{=euyyBbjq}Folyoroving" />
-            <name name="{=tKUIAmbV}Fyomanoving" />
-            <name name="{=ODcWVL1a}Gendiroving" />
-            <name name="{=NLXHafGS}Gissinoving" />
-            <name name="{=Va35TmQW}Igrunoving" />
-            <name name="{=UYqwbjTP}Iskanoving" />
-            <name name="{=dey9d9DX}Kasyoving" />
-            <name name="{=ctJub9Ah}Khirinoving" />
-            <name name="{=YJ6JKs9O}Kyorinoving" />
-            <name name="{=Vp9n86Wy}Lezhanoving" />
-            <name name="{=z2Oqk8aq}Maregoving" />
-            <name name="{=bBD4tF2y}Morochoving" />
-            <name name="{=XQfYxgti}Nimanoving" />
-            <name name="{=DxU5mVDg}Pyasoving" />
-            <name name="{=RpDv3cGI}Rimanoving" />
-            <name name="{=BrI1aJdo}Rukhanoving" />
-            <name name="{=lpbIXNdK}Suratoving" />
-            <name name="{=Lcbrsqw8}Syaveroving" />
-            <name name="{=jqaH0a35}Tymanoving" />
-            <name name="{=IVHobRWE}Usharoving" />
-            <name name="{=RFapQLfR}Vyshoving" />
-            <name name="{=OrUdifEU}Yathanoving" />
-            <name name="{=gC1paDtD}Yerchoving" />
-            <name name="{=DakafAXa}Zamantoving" />
-            <name name="{=qD72Ya4I}Zhanoving" />
+            <name name="{=Borg}Borgheim" />
+            <name name="{=Kven}Kvenheim" />
+            <name name="{=Orming}Ormingheim" />
+            <name name="{=Rakki}Rakkiheim" />
+            <name name="{=Snarfar}Snarfarheim" />
+            <name name="{=Snjall}Snjallheim" />
+            <name name="{=Svarti}Svartiheim" />
+            <name name="{=Skarfr}Skarfrheim" />
+            <name name="{=Gunar}Gunarheim" />
+            <name name="{=Morin}Morinheim" />
+            <name name="{=Eyji}Eyjiheim" />
+            <name name="{=Austmadr}Austmadrheim" />
+            <name name="{=Godr}Godrheim" />
+            <name name="{=Viss}Vissheim" />
+            <name name="{=Trym}Trymheim" />
         </clan_names>
         <cultural_feats>
             <feat id="sturgian_cheaper_recruits_infantry" />
@@ -380,16 +363,16 @@
             <template name="NPCCharacter.spc_headman_virkaldr_1f" />
         </notable_and_wanderer_templates>
         <lord_templates>
-            <template name="NPCCharacter.spc_lakepike_leader_0" />
-            <template name="NPCCharacter.spc_lakepike_leader_1" />
-            <template name="NPCCharacter.spc_lakepike_leader_2" />
-            <template name="NPCCharacter.spc_lakepike_leader_3" />
+            <template name="NPCCharacter.spc_outlaw_virkaldr_leader_0" />
+            <template name="NPCCharacter.spc_outlaw_virkaldr_leader_1" />
+            <template name="NPCCharacter.spc_outlaw_virkaldr_leader_2" />
+            <template name="NPCCharacter.spc_outlaw_virkaldr_leader_3" />
         </lord_templates>
         <rebellion_hero_templates>
-            <template name="NPCCharacter.spc_lakepike_leader_0" />
-            <template name="NPCCharacter.spc_lakepike_leader_1" />
-            <template name="NPCCharacter.spc_lakepike_leader_2" />
-            <template name="NPCCharacter.spc_lakepike_leader_3" />
+            <template name="NPCCharacter.spc_outlaw_virkaldr_leader_0" />
+            <template name="NPCCharacter.spc_outlaw_virkaldr_leader_1" />
+            <template name="NPCCharacter.spc_outlaw_virkaldr_leader_2" />
+            <template name="NPCCharacter.spc_outlaw_virkaldr_leader_3" />
         </rebellion_hero_templates>
         <tournament_team_templates_one_participant>
             <template name="NPCCharacter.tournament_template_sturgia_one_participant_set_v1" />
@@ -406,9 +389,9 @@
             <template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v3" />
         </tournament_team_templates_four_participant>
         <basic_mercenary_troops>
-            <template name="NPCCharacter.geniveri_stritoti" />
-            <template name="NPCCharacter.ludnik_kodziec" />
-            <template name="NPCCharacter.peblador_merbaro" />
+            <template name="NPCCharacter.geniveri_tier_1" />
+            <template name="NPCCharacter.ludnik_tier_1" />
+            <template name="NPCCharacter.peblador_tier_1" />
         </basic_mercenary_troops>
     </Culture>
 </SPCultures>

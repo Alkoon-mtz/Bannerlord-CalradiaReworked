@@ -55,4 +55,30 @@
         culture="Culture.qinguo"
         super_faction="Kingdom.kingdom_qinguo"
         banner_key="11.143.143.1536.1536.764.764.1.0.0.154.89.89.400.400.764.804.0.0.0.315.89.89.500.700.764.764.0.0.0.315.89.89.500.700.764.764.0.0.0" />
+
+    <Faction id="clan_qinguo_outlaw_1"
+        name="{=clan_qinguo_outlaw_1}Pan"
+        tier="4"
+        initial_posX="310.0"
+        initial_posY="340.0"
+        banner_key="11.44.44.1536.1536.764.764.1.0.0.157.10.10.400.400.764.764.0.0.0.205.10.10.300.300.834.684.0.1.75"
+        label_color="FFF0E0A5"
+        color="FFF0E0A5"
+        color2="FF429081"
+        alternative_color="FF429081"
+        alternative_color2="FFF0E0A5"
+        culture="Culture.qinguo"
+        default_party_template="PartyTemplate.qinguo_kingdom_hero_outlaw_party_template"
+        settlement_banner_mesh="encounter_flag_f"
+        is_minor_faction="true"
+        is_outlaw="true"
+        is_mafia="true"
+        text="{=clan_qinguo_outlaw_1_text}Outlaw of the Qinguo">
+        <minor_faction_character_templates>
+            <template id="NPCCharacter.spc_outlaw_qinguo_leader_0" />
+            <template id="NPCCharacter.spc_outlaw_qinguo_leader_1" />
+            <template id="NPCCharacter.spc_outlaw_qinguo_leader_2" />
+            <template id="NPCCharacter.spc_outlaw_qinguo_leader_3" />
+        </minor_faction_character_templates>
+    </Faction>
 </Factions>

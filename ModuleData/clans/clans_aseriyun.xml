@@ -55,4 +55,30 @@
         culture="Culture.aserai"
         super_faction="Kingdom.kingdom_aseriyun"
         banner_key="11.156.75.4345.4345.764.764.1.0.0.428.1.0.454.454.764.764.0.0.359.321.1.0.354.354.764.721.0.0.359" />
+
+    <Faction id="clan_aseriyun_outlaw_1"
+        name="{=clan_aseriyun_outlaw_1}Almuta"
+        tier="4"
+        initial_posX="310.0"
+        initial_posY="340.0"
+        banner_key="11.39.39.4345.4345.764.764.1.0.0.428.14.14.125.100.709.634.0.0.127.156.14.14.400.400.764.764.0.0.0"
+        label_color="FFDCAC46"
+        color="FFDCAC46"
+        color2="FF8D291A"
+        alternative_color="FF8D291A"
+        alternative_color2="FFDCAC46"
+        culture="Culture.aserai"
+        default_party_template="PartyTemplate.aseriyun_kingdom_hero_outlaw_party_template"
+        settlement_banner_mesh="encounter_flag_f"
+        is_minor_faction="true"
+        is_outlaw="true"
+        is_mafia="true"
+        text="{=clan_aseriyun_outlaw_1_text}Outlaw of the Aseriyun">
+        <minor_faction_character_templates>
+            <template id="NPCCharacter.spc_outlaw_aseriyun_leader_0" />
+            <template id="NPCCharacter.spc_outlaw_aseriyun_leader_1" />
+            <template id="NPCCharacter.spc_outlaw_aseriyun_leader_2" />
+            <template id="NPCCharacter.spc_outlaw_aseriyun_leader_3" />
+        </minor_faction_character_templates>
+    </Faction>
 </Factions>

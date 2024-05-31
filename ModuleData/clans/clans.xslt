@@ -6,6 +6,9 @@
         </xsl:copy>
     </xsl:template>
     
+    <!-- Misc -->
+    <xsl:template match="Faction[@id='sea_raiders']/@name"><xsl:attribute name='name'>{=SeaBc2pL8}Sea Bandits</xsl:attribute></xsl:template>
+
     <!-- Aserai -->
     <xsl:template match="Faction[@id='clan_aserai_1']"/>
     <xsl:template match="Faction[@id='clan_aserai_2']"/>
@@ -97,7 +100,18 @@
 
     <!-- Subclans -->
     <xsl:template match="Faction[@id='ghilman']"/>
+    <xsl:template match="Faction[@id='legion_of_the_betrayed']"/>
     <xsl:template match="Faction[@id='skolderbrotva']"/>
+    <xsl:template match="Faction[@id='company_of_the_boar']"/>
+    <xsl:template match="Faction[@id='beni_zilal']"/>
+    <xsl:template match="Faction[@id='wolfskins']"/>
+    <xsl:template match="Faction[@id='brotherhood_of_woods']"/>
+    <xsl:template match="Faction[@id='hidden_hand']"/>
+    <xsl:template match="Faction[@id='lakepike']"/>
+    <xsl:template match="Faction[@id='embers_of_flame']"/>
+    <xsl:template match="Faction[@id='jawwal']"/>
+    <xsl:template match="Faction[@id='karakhuzaits']"/>
     <xsl:template match="Faction[@id='forest_people']"/>
+    <xsl:template match="Faction[@id='eleftheroi']"/>
 
 </xsl:stylesheet>

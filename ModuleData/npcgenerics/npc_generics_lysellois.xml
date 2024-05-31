@@ -1,45 +1,39 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
+    <!-- Guards -->
     <NPCCharacter id="caravan_master_lysellois"
-            default_group="Infantry"
-            level="26" name="{=uDseaKcb}Lysellegien Caravan Master"
-            occupation="CaravanGuard"
-            culture="Culture.vlandia">
+        default_group="Infantry"
+        level="26"
+        name="{=uDseaKcb}Lysellois Caravan Master"
+        occupation="CaravanGuard"
+        culture="Culture.vlandia">
         <face>
             <face_key_template value="BodyProperty.fighter_lysellois" />
         </face>
-        <skills >
-            <skill id="Athletics" value="150"/>
-            <skill id="Riding" value="30"/>
-            <skill id="OneHanded" value="140"/>
-            <skill id="TwoHanded" value="30"/>
-            <skill id="Polearm" value="60"/>
-            <skill id="Bow" value="60"/>
-            <skill id="Crossbow" value="160"/>
-            <skill id="Throwing" value="70"/>
+        <skills>
+            <skill id="Athletics" value="140" />
+            <skill id="Riding" value="80" />
+            <skill id="OneHanded" value="140" />
+            <skill id="TwoHanded" value="50" />
+            <skill id="Polearm" value="160" />
+            <skill id="Bow" value="40" />
+            <skill id="Crossbow" value="40" />
+            <skill id="Throwing" value="50" />
         </skills>
-        <upgrade_targets></upgrade_targets>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.crossbow_f"/>
-                <equipment slot="Item1" id="Item.bolt_c"/>
-                <equipment slot="Item2" id="Item.vlandia_sword_4_t4"/>
-                <equipment slot="Item3" id="Item.pavise_shield"/>
-                <equipment slot="Head" id="Item.peaked_helmet_over_mail_coif"/>
-                <equipment slot="Cape" id="Item.chainmail_shoulder_armor"/>
-                <equipment slot="Body" id="Item.vlandia_chainmail"/>
-                <equipment slot="Gloves" id="Item.mail_mitten"/>
-                <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+                <equipment slot="Item0" id="Item.vlandia_sword_2_t3" />
+                <equipment slot="Item1" id="Item.wide_heater_shield" />
+                <equipment slot="Item2" id="Item.vlandia_lance_3_t5" />
+                <equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif" />
+                <equipment slot="Cape" id="Item.swadian_shoulders" />
+                <equipment slot="Body" id="Item.nordic_sloven_over_mail" />
+                <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+                <equipment slot="Leg" id="Item.mail_chausses" />
             </EquipmentRoster>
-            <EquipmentRoster civilian="true">
-                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                <equipment slot="Item2" id="Item.throwing_stone"/>
-                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                <equipment slot="Leg" id="Item.wrapped_shoes"/>
-            </EquipmentRoster>
+            <EquipmentSet id="lys_npcgenerics_template_rich" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <!-- Guards -->
     <NPCCharacter id="armed_trader_lysellois"
         default_group="Ranged"
         occupation="CaravanGuard"
@@ -62,15 +56,15 @@
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.crossbow_a"/>
-                <equipment slot="Item1" id="Item.bolt_e"/>
-                <equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
-                <equipment slot="Item3" id="Item.flat_heater_shield"/>
-                <equipment slot="Head" id="Item.spangenhelm_with_leather"/>
-                <equipment slot="Cape" id="Item.hood"/>
-                <equipment slot="Body" id="Item.nordic_sloven"/>
-                <equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-                <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+                <equipment slot="Item0" id="Item.crossbow_a" />
+                <equipment slot="Item1" id="Item.bolt_e" />
+                <equipment slot="Item2" id="Item.vlandia_sword_1_t2" />
+                <equipment slot="Item3" id="Item.flat_heater_shield" />
+                <equipment slot="Head" id="Item.spangenhelm_with_leather" />
+                <equipment slot="Cape" id="Item.hood" />
+                <equipment slot="Body" id="Item.nordic_sloven" />
+                <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+                <equipment slot="Leg" id="Item.leather_cavalier_boots" />
             </EquipmentRoster>
             <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
         </Equipments>
@@ -97,18 +91,18 @@
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
-                <equipment slot="Item1" id="Item.bracketed_heater_shield"/>
-                <equipment slot="Item2" id="Item.vlandia_lance_2_t4"/>
-                <equipment slot="Head" id="Item.segmented_cervelliere_over_mail"/>
-                <equipment slot="Cape" id="Item.Western_chain_shoulders"/>
-                <equipment slot="Body" id="Item.banded_leather_over_mail"/>
-                <equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-                <equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+                <equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+                <equipment slot="Item1" id="Item.bracketed_heater_shield" />
+                <equipment slot="Item2" id="Item.vlandia_lance_2_t4" />
+                <equipment slot="Head" id="Item.segmented_cervelliere_over_mail" />
+                <equipment slot="Cape" id="Item.Western_chain_shoulders" />
+                <equipment slot="Body" id="Item.banded_leather_over_mail" />
+                <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+                <equipment slot="Leg" id="Item.mail_cavalier_boots" />
             </EquipmentRoster>
             <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
-            <equipment slot="Horse" id="Item.lysellois_charge_horse_t4"/>
-            <equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+            <equipment slot="Horse" id="Item.lysellois_charge_horse_t4" />
+            <equipment slot="HorseHarness" id="Item.halfchain_barding" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="veteran_caravan_guard_lysellois"
@@ -133,18 +127,18 @@
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
-                <equipment slot="Item1" id="Item.wide_heater_shield"/>
-                <equipment slot="Item2" id="Item.vlandia_lance_3_t5"/>
-                <equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif"/>
-                <equipment slot="Cape" id="Item.swadian_shoulders"/>
-                <equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
-                <equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
-                <equipment slot="Leg" id="Item.mail_chausses"/>
+                <equipment slot="Item0" id="Item.vlandia_sword_2_t3" />
+                <equipment slot="Item1" id="Item.wide_heater_shield" />
+                <equipment slot="Item2" id="Item.vlandia_lance_3_t5" />
+                <equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif" />
+                <equipment slot="Cape" id="Item.swadian_shoulders" />
+                <equipment slot="Body" id="Item.nordic_sloven_over_mail" />
+                <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+                <equipment slot="Leg" id="Item.mail_chausses" />
             </EquipmentRoster>
             <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
-            <equipment slot="Horse" id="Item.lysellois_charge_horse_t4"/>
-            <equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+            <equipment slot="Horse" id="Item.lysellois_charge_horse_t4" />
+            <equipment slot="HorseHarness" id="Item.halfchain_barding" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="prison_guard_lysellois"
@@ -168,14 +162,14 @@
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
-                <equipment slot="Item1" id="Item.bracketed_heater_shield"/>
-                <equipment slot="Item2" id="Item.vlandia_lance_2_t4"/>
-                <equipment slot="Head" id="Item.segmented_cervelliere_over_mail"/>
-                <equipment slot="Cape" id="Item.Western_chain_shoulders"/>
-                <equipment slot="Body" id="Item.banded_leather_over_mail"/>
-                <equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-                <equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+                <equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+                <equipment slot="Item1" id="Item.bracketed_heater_shield" />
+                <equipment slot="Item2" id="Item.vlandia_lance_2_t4" />
+                <equipment slot="Head" id="Item.segmented_cervelliere_over_mail" />
+                <equipment slot="Cape" id="Item.Western_chain_shoulders" />
+                <equipment slot="Body" id="Item.banded_leather_over_mail" />
+                <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+                <equipment slot="Leg" id="Item.mail_cavalier_boots" />
             </EquipmentRoster>
             <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
         </Equipments>
@@ -202,14 +196,14 @@
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
-                <equipment slot="Item1" id="Item.bracketed_heater_shield"/>
-                <equipment slot="Item2" id="Item.vlandia_lance_2_t4"/>
-                <equipment slot="Head" id="Item.segmented_cervelliere_over_mail"/>
-                <equipment slot="Cape" id="Item.Western_chain_shoulders"/>
-                <equipment slot="Body" id="Item.banded_leather_over_mail"/>
-                <equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-                <equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+                <equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+                <equipment slot="Item1" id="Item.bracketed_heater_shield" />
+                <equipment slot="Item2" id="Item.vlandia_lance_2_t4" />
+                <equipment slot="Head" id="Item.segmented_cervelliere_over_mail" />
+                <equipment slot="Cape" id="Item.Western_chain_shoulders" />
+                <equipment slot="Body" id="Item.banded_leather_over_mail" />
+                <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+                <equipment slot="Leg" id="Item.mail_cavalier_boots" />
             </EquipmentRoster>
             <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
         </Equipments>
@@ -235,13 +229,13 @@
         </skills>
         <Equipments>
             <EquipmentRoster>
-                <equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
-                <equipment slot="Item1" id="Item.flat_heater_shield"/>
-                <equipment slot="Head" id="Item.spangenhelm_with_leather"/>
-                <equipment slot="Cape" id="Item.hood"/>
-                <equipment slot="Body" id="Item.nordic_sloven"/>
-                <equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-                <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+                <equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+                <equipment slot="Item1" id="Item.flat_heater_shield" />
+                <equipment slot="Head" id="Item.spangenhelm_with_leather" />
+                <equipment slot="Cape" id="Item.hood" />
+                <equipment slot="Body" id="Item.nordic_sloven" />
+                <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+                <equipment slot="Leg" id="Item.leather_cavalier_boots" />
             </EquipmentRoster>
             <EquipmentSet id="lys_npcgenerics_template_mid" civilian="true" />
         </Equipments>
@@ -480,7 +474,7 @@
         age="30"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
-            <face_key_template value="BodyProperty.villager_lysellois"/>
+            <face_key_template value="BodyProperty.villager_lysellois" />
         </face>
         <upgrade_targets>
             <upgrade_target id="NPCCharacter.lysellois_recruit" />

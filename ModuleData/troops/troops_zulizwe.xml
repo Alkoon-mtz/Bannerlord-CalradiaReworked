@@ -141,7 +141,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="100" />
             <skill id="Riding" value="15" />
             <skill id="OneHanded" value="65" />
@@ -177,7 +177,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="140" />
             <skill id="Riding" value="20" />
             <skill id="OneHanded" value="90" />
@@ -213,7 +213,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="200" />
             <skill id="Riding" value="30" />
             <skill id="OneHanded" value="120" />
@@ -249,7 +249,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="260" />
             <skill id="Riding" value="40" />
             <skill id="OneHanded" value="180" />
@@ -284,7 +284,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="25" />
             <skill id="Riding" value="10" />
             <skill id="OneHanded" value="5" />
@@ -341,7 +341,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="15" />
             <skill id="Riding" value="50" />
             <skill id="OneHanded" value="20" />
@@ -380,7 +380,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="30" />
             <skill id="Riding" value="100" />
             <skill id="OneHanded" value="20" />
@@ -417,7 +417,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="40" />
             <skill id="Riding" value="140" />
             <skill id="OneHanded" value="30" />
@@ -455,7 +455,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="70" />
             <skill id="Riding" value="200" />
             <skill id="OneHanded" value="40" />
@@ -493,7 +493,7 @@
         <face>
             <face_key_template value="BodyProperty.villager_zulizwe_f" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="30" />
             <skill id="Riding" value="80" />
             <skill id="OneHanded" value="90" />
@@ -532,7 +532,7 @@
         <face>
             <face_key_template value="BodyProperty.villager_zulizwe_f" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="40" />
             <skill id="Riding" value="100" />
             <skill id="OneHanded" value="120" />
@@ -568,7 +568,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="50" />
             <skill id="Riding" value="15" />
             <skill id="OneHanded" value="30" />
@@ -604,7 +604,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="80" />
             <skill id="Riding" value="30" />
             <skill id="OneHanded" value="70" />
@@ -641,7 +641,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="110" />
             <skill id="Riding" value="40" />
             <skill id="OneHanded" value="100" />
@@ -678,7 +678,7 @@
         <face>
             <face_key_template value="BodyProperty.fighter_zulizwe" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="150" />
             <skill id="Riding" value="60" />
             <skill id="OneHanded" value="140" />
@@ -716,7 +716,7 @@
         <face>
             <face_key_template value="BodyProperty.villager_zulizwe_f" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="30" />
             <skill id="Riding" value="80" />
             <skill id="OneHanded" value="90" />
@@ -755,7 +755,7 @@
         <face>
             <face_key_template value="BodyProperty.villager_zulizwe_f" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="40" />
             <skill id="Riding" value="100" />
             <skill id="OneHanded" value="120" />
@@ -787,14 +787,14 @@
     <NPCCharacter id="zulizwe_outlaw_3"
         default_group="HorseArcher"
         level="26"
-        name="{=zulizwe_outlaw_3}Zulizwe Outlaw H B"
+        name="{=zulizwe_outlaw_3}Zulizwe Outlaw Jambazi"
         occupation="Soldier"
         culture="Culture.zulizwe"
         is_female="true">
         <face>
             <face_key_template value="BodyProperty.villager_zulizwe_f" />
         </face>
-        <skills >
+        <skills>
             <skill id="Athletics" value="70" />
             <skill id="Riding" value="130" />
             <skill id="OneHanded" value="160" />

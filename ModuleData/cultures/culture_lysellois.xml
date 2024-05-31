@@ -94,7 +94,7 @@
             <name name="{=Aimery}Aimery" />
             <name name="{=Alain}Alain" />
             <name name="{=Aldebert}Aldebert" />
-            <name name="{=Alderic}Alderic" />
+            <name name="{=Alderan}Alderan" />
             <name name="{=Alphonse}Alphonse" />
             <name name="{=Amedee}Amedee" />
             <name name="{=Ancel}Ancel" />
@@ -305,7 +305,21 @@
             <name name="{=Yolande}Yolande" />
         </female_names>
         <clan_names>
-            <name name="{=p1dFvTAc}de {ORIGIN_SETTLEMENT}" />
+            <name name="{=Piemont}de Piemont" />
+            <name name="{=Montferrat}de Montferrat" />
+            <name name="{=Avaugour}de Avaugour" />
+            <name name="{=Clermont}de Clermont" />
+            <name name="{=Dampierre}de Dampierre" />
+            <name name="{=Gironde}de Gironde" />
+            <name name="{=Artois}de Artois" />
+            <name name="{=Clerieux}de Clerieux" />
+            <name name="{=Valpergue}de Valpergue" />
+            <name name="{=Vaudemont}de Vaudemont" />
+            <name name="{=Flotte}de Flotte" />
+            <name name="{=Vendome}de Vendome" />
+            <name name="{=Coulogne}de Coulogne" />
+            <name name="{=Preuilly}de Preuilly" />
+            <name name="{=Hainaut}de Hainaut" />
         </clan_names>
         <cultural_feats>
             <feat id="vlandian_renown_mercenary_income" />
@@ -362,24 +376,16 @@
             <template name="NPCCharacter.spc_headman_lysellois_1f" />
         </notable_and_wanderer_templates>
         <lord_templates>
-            <template name="NPCCharacter.spc_company_of_the_boar_leader_0" />
-            <template name="NPCCharacter.spc_company_of_the_boar_leader_1" />
-            <template name="NPCCharacter.spc_company_of_the_boar_leader_2" />
-            <template name="NPCCharacter.spc_company_of_the_boar_leader_3" />
-            <template name="NPCCharacter.spc_brotherhood_of_woods_leader_0" />
-            <template name="NPCCharacter.spc_brotherhood_of_woods_leader_1" />
-            <template name="NPCCharacter.spc_brotherhood_of_woods_leader_2" />
-            <template name="NPCCharacter.spc_brotherhood_of_woods_leader_3" />
+            <template name="NPCCharacter.spc_outlaw_lysellois_leader_0" />
+            <template name="NPCCharacter.spc_outlaw_lysellois_leader_1" />
+            <template name="NPCCharacter.spc_outlaw_lysellois_leader_2" />
+            <template name="NPCCharacter.spc_outlaw_lysellois_leader_3" />
         </lord_templates>
         <rebellion_hero_templates>
-            <template name="NPCCharacter.spc_company_of_the_boar_leader_0" />
-            <template name="NPCCharacter.spc_company_of_the_boar_leader_1" />
-            <template name="NPCCharacter.spc_company_of_the_boar_leader_2" />
-            <template name="NPCCharacter.spc_company_of_the_boar_leader_3" />
-            <template name="NPCCharacter.spc_brotherhood_of_woods_leader_0" />
-            <template name="NPCCharacter.spc_brotherhood_of_woods_leader_1" />
-            <template name="NPCCharacter.spc_brotherhood_of_woods_leader_2" />
-            <template name="NPCCharacter.spc_brotherhood_of_woods_leader_3" />
+            <template name="NPCCharacter.spc_outlaw_lysellois_leader_0" />
+            <template name="NPCCharacter.spc_outlaw_lysellois_leader_1" />
+            <template name="NPCCharacter.spc_outlaw_lysellois_leader_2" />
+            <template name="NPCCharacter.spc_outlaw_lysellois_leader_3" />
         </rebellion_hero_templates>
         <tournament_team_templates_one_participant>
             <template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v1" />
@@ -399,9 +405,9 @@
             <template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v4" />
         </tournament_team_templates_four_participant>
         <basic_mercenary_troops>
-            <template name="NPCCharacter.geniveri_stritoti" />
-            <template name="NPCCharacter.peblador_merbaro" />
-            <template name="NPCCharacter.ikubito_hajimashi" />
+            <template name="NPCCharacter.geniveri_tier_1" />
+            <template name="NPCCharacter.peblador_tier_1" />
+            <template name="NPCCharacter.ikubito_tier_1" />
         </basic_mercenary_troops>
     </Culture>
 </SPCultures>

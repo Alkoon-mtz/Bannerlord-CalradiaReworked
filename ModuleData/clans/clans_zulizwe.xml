@@ -56,26 +56,29 @@
         super_faction="Kingdom.kingdom_zulizwe"
         banner_key="11.123.11.1536.1536.764.764.1.0.0.144.11.123.400.400.764.844.0.0.0.216.11.123.200.200.764.614.0.0.0.216.11.123.200.200.819.589.0.0.45.216.11.123.200.200.709.589.0.1.315.216.11.123.200.200.839.529.0.1.90.216.11.123.200.200.689.529.0.0.270.217.11.123.200.100.764.1014.0.1.180" />
 
-    <Faction id="clan_zulizwe_mercenary_1"
-        name="{=clan_zulizwe_mercenary_1}Ghawango"
+    <Faction id="clan_zulizwe_outlaw_1"
+        name="{=clan_zulizwe_outlaw_1}Mwasikoo"
         tier="4"
         initial_posX="310.0"
         initial_posY="340.0"
         banner_key="34.157.11.1536.1536.764.764.1.0.0.154.35.35.444.444.764.764.0.0.270.154.35.35.444.444.764.764.0.0.90"
-        label_color="FF5f4f44"
-        color="FF5f4f44"
+        label_color="FF5F4F44"
+        color="FF5F4F44"
         color2="FFf5f5f5"
-        alternative_color="FF5f4f44"
-        alternative_color2="FFf5f5f5"
+        alternative_color="FFf5f5f5"
+        alternative_color2="FF5F4F44"
         culture="Culture.zulizwe"
-        default_party_template="PartyTemplate.kingdom_hero_party_karakhuzaits_template"
+        default_party_template="PartyTemplate.zulizwe_kingdom_hero_outlaw_party_template"
         settlement_banner_mesh="encounter_flag_f"
         is_minor_faction="true"
         is_outlaw="true"
         is_mafia="true"
-        text="{=clan_zulizwe_mercenary_1_text}Test">
+        text="{=clan_zulizwe_outlaw_1_text}Outlaw of the Zulizwe">
         <minor_faction_character_templates>
             <template id="NPCCharacter.spc_outlaw_zulizwe_leader_0" />
+            <template id="NPCCharacter.spc_outlaw_zulizwe_leader_1" />
+            <template id="NPCCharacter.spc_outlaw_zulizwe_leader_2" />
+            <template id="NPCCharacter.spc_outlaw_zulizwe_leader_3" />
         </minor_faction_character_templates>
     </Faction>
 </Factions>
