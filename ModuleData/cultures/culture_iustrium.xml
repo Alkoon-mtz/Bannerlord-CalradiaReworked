@@ -22,7 +22,7 @@
         militia_party_template="PartyTemplate.iustrium_militia_template"
         rebels_party_template="PartyTemplate.iustrium_rebels_template"
         vassal_reward_party_template="PartyTemplate.iustrium_vassal_reward_troops"
-        default_face_key="001878060000320C889CADDBA97EBCF8AC878B96F774A8FF7CFFEFAD7AEEFD8A0079B00307DD8B2F000000000000000000000000000000000000000016E090C3"
+        default_face_key="00187806C000320C889CADDBA97EBCF8AC878B96F774A8FF7CFFEFAD7AEEFD8A0077700307DD8B2F000000000000000000000000000000000000000016E090C2"
         text="{=iustrium_text}Deus lo Vult"
         caravan_master="NPCCharacter.caravan_master_iustrium"
         armed_trader="NPCCharacter.armed_trader_iustrium"

@@ -18,7 +18,7 @@
         <SubModule>
             <Name value="Split"/>
             <DLLName value="Split.dll"/>
-            <SubModuleClassType value="Split.SubModule"/>
+            <SubModuleClassType value="Split.ReworkedSubModule"/>
             <Tags>
                 <Tag key="DedicatedServerType" value="none" />
                 <Tag key="IsNoRenderModeElement" value="false" />
