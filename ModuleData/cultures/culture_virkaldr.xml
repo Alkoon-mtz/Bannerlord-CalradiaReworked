@@ -22,7 +22,7 @@
         militia_party_template="PartyTemplate.virkaldr_militia_template"
         rebels_party_template="PartyTemplate.virkaldr_rebels_template"
         vassal_reward_party_template="PartyTemplate.virkaldr_vassal_reward_troops"
-        default_face_key="000810021D8834819D8B711B6CEE94FBDE6B8BEFB4538267D6EB7D7D7D87CBAB0079700307584E0B000000000000000000000000000000000000000046E86006"
+        default_face_key="000810021D883481AC8B711B6CEE94FBDE6B8BEFB4538223D6EB7D7D7D87CBAB0077700307584E0B000000000000000000000000000000000000000046E82002"
         text="{=virkaldr_text}Living in the hard cold north, seeking for a thing called sun"
         caravan_master="NPCCharacter.caravan_master_virkaldr"
         armed_trader="NPCCharacter.armed_trader_virkaldr"

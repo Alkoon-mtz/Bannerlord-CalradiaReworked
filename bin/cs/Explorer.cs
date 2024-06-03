@@ -5,6 +5,9 @@ using TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors;
 
 namespace Split
 {
+    // Goal of this class is to make the explorers unattackable
+    // Doesn't work yet with the "Diplomacy" module since it use alliance and ally helps in war, so they can be attacked
+    // Also, player can join and act like in any other kingdom (propose war etc...)
     public class Explorer
     {
         [HarmonyPatch(typeof(KingdomDecisionProposalBehavior))]

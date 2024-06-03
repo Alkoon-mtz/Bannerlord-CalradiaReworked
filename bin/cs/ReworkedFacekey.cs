@@ -8,12 +8,13 @@ using TaleWorlds.ObjectSystem;
 
 namespace Split
 {
-    internal class InitializePlayersFaceKeyAccordingToCultureSelectionPatch
+    internal class ReworkedFacekey
     {
         [HarmonyPatch(typeof(CultureObject))]
         [HarmonyPatch("Deserialize")]
-        public static class CultureObjectPatch
+        public static class CultureObjectDeserializePatch
         {
+            // Add default_face_key found in culture.xml to Deserialize
             public static void Postfix(CultureObject __instance, MBObjectManager objectManager, XmlNode node)
             {
                 var defaultFaceKeyAttribute = node.Attributes["default_face_key"];
@@ -27,8 +28,9 @@ namespace Split
 
         [HarmonyPatch(typeof(CharacterCreationCultureStageVM))]
         [HarmonyPatch("InitializePlayersFaceKeyAccordingToCultureSelection")]
-        public class FaceKeyPatch
+        public class CharacterCreationCultureStageVMInitializePlayersFaceKeyAccordingToCultureSelectionPatch
         {
+            // Use default_face_key to set default character of a culture instead of hardcoded one
             public static bool Prefix(CharacterCreationCultureVM selectedCulture)
             {
                 string keyValue = "<BodyProperties version='4' age='25.84' weight='0.5000' build='0.5000' key=\""+ selectedCulture.Culture.BodyPropertiesValue + "\" />";
