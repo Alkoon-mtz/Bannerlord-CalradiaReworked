@@ -5,9 +5,6 @@ Leader titles ideas
 Dean    Archduke    Senator    Consul
 Pharaoh    Majesty    Shogun    President
 
-For Cultures check : culture / education_character_templates / education_equipement_templates / equipment_sets / partytemplates / strings / troops
-For Items check : itempieces / craftingtemplates / descriptions / items / Assets(if custom)
-
 Banner_templates:
 shield : 11.12.12.1414.1110.764.767.1.0.0.510.143.143.530.75.764.444.0.1.0.510.143.143.470.-75.536.649.0.1.90.510.143.143.470.-75.992.649.0.1.90.510.143.143.50.75.539.876.0.0.100.510.143.143.50.75.549.916.0.0.110.510.143.143.50.75.567.956.0.0.120.510.143.143.50.75.594.989.0.0.140.510.143.143.50.75.628.1016.0.0.140.510.143.143.50.75.659.1036.0.0.150.510.143.143.50.75.689.1052.0.0.150.510.143.143.50.75.724.1071.0.0.150.510.143.143.50.75.746.1083.0.0.150.510.143.143.50.75.989.876.0.1.260.510.143.143.50.75.979.916.0.1.250.510.143.143.50.75.961.956.0.1.240.510.143.143.50.75.934.989.0.1.220.510.143.143.50.75.900.1016.0.1.220.510.143.143.50.75.869.1036.0.1.210.510.143.143.50.75.839.1052.0.1.210.510.143.143.50.75.804.1071.0.1.210.510.143.143.50.75.782.1083.0.1.210
 shield2: 11.41.41.1414.1110.764.767.1.0.0.510.142.41.530.100.764.495.0.1.0.510.142.41.400.100.536.665.0.1.90.510.142.41.400.100.992.665.0.1.90.510.142.41.50.100.539.861.0.0.100.510.142.41.50.100.549.901.0.0.110.510.142.41.50.100.567.941.0.0.120.510.142.41.50.100.594.974.0.0.140.510.142.41.50.100.628.1001.0.0.140.510.142.41.50.100.659.1021.0.0.150.510.142.41.50.100.689.1037.0.0.150.510.142.41.50.100.724.1056.0.0.150.510.142.41.50.100.746.1068.0.0.150.510.142.41.50.100.989.861.0.1.260.510.142.41.50.100.979.901.0.1.250.510.142.41.50.100.961.941.0.1.240.510.142.41.50.100.934.974.0.1.220.510.142.41.50.100.900.1001.0.1.220.510.142.41.50.100.869.1021.0.1.210.510.142.41.50.100.839.1037.0.1.210.510.142.41.50.100.804.1056.0.1.210.510.142.41.50.100.782.1068.0.1.210
@@ -18,47 +15,34 @@ Customize:
     weapon_practice_stage_1 ?
 
 Aseriyun:
-Rework banners
-
+    /
 Cereann:
-Rework banners
-
+    /
 Iustrium:
-Rename cities
-
+    Rename cities
 Kratorios:
-
+    /
 Lysellois:
-Rename cities
-
+    /
 Monghatai:
-
+    /
 Qinguo:
-Rename cities
-
+    Rename cities
 Rekgeist:
-Rename cities
-
+    Rename cities
 Scarhoks:
-Rename cities
-
+    Rename cities
 Virkaldr:
-
+    /
 Zulizwe :
-Rename cities
+    Rename cities
 
 Bugs:
 
 NTH:
     Code:
-        Cultural choice at char creation
         Cultural feats
             TaleWorlds.CampaignSystem.GameComponents
             TaleWorlds.CampaignSystem.CharacterDevelopment.DefaultCulturalFeats
     New World Map ?
     More armors (lol...)
-
-Error	CS1705	Assembly '0Harmony' with identity '0Harmony, Version=2.3.1.1, Culture=neutral, PublicKeyToken=null' 
-uses 'System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' 
-which has a higher version than referenced assembly 
-'System.Runtime' with identity 'System.Runtime, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'	

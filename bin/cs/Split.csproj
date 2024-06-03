@@ -50,7 +50,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>D:\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\BackupMod\Bannerlord.Harmony_2.3.1.1200\bin\Win64_Shipping_Client\0Harmony.dll</HintPath>
+      <HintPath>..\..\..\Bannerlord.Harmony\bin\Win64_Shipping_Client\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />

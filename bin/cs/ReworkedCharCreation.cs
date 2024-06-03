@@ -1,7 +1,4 @@
-﻿using HarmonyLib;
-using System;
-using System.Collections.Generic;
-using System.Reflection;
+﻿using System.Collections.Generic;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.CharacterCreationContent;
 using TaleWorlds.CampaignSystem.CharacterDevelopment;
@@ -842,21 +839,6 @@ namespace Split
         protected bool ScarhokParentsOnCondition(){ return base.GetSelectedCulture().StringId == "scarhok"; }
         protected bool ZulizweParentsOnCondition(){ return base.GetSelectedCulture().StringId == "zulizwe"; }
 
-        //protected bool IsCultureArcherType()
-        //{
-        //    if (base.GetSelectedCulture().StringId == "aserai" ||
-        //        base.GetSelectedCulture().StringId == "battania" ||
-        //        base.GetSelectedCulture().StringId == "khuzait" ||
-        //        base.GetSelectedCulture().StringId == "scarhok" ||
-        //        base.GetSelectedCulture().StringId == "sturgia" ||
-        //        base.GetSelectedCulture().StringId == "zulizwe")
-        //    {
-        //        return true;
-        //    } else
-        //    {
-        //        return false;
-        //    }
-        //}
         protected bool IsCultureArcherType()
         {
             string cultureId = base.GetSelectedCulture().StringId;
