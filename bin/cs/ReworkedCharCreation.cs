@@ -38,35 +38,40 @@ namespace Split
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Throwing, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory1.AddCategoryOption(new TextObject("{=ase_parents_1}An Aseriyun noble", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents1OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=ase_parents_1_text}Your father was a muqital, a noble unit of the aseriyun army", null), null, 0, 0, 0, 0, 0);
             // Aseriyun Choice 2
             effectedSkills = new MBList<SkillObject> { DefaultSkills.OneHanded, DefaultSkills.Throwing };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory1.AddCategoryOption(new TextObject("{=ase_parents_2}An Aseriyun footman", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents2OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=ase_parents_2_text}Your father was a haris, he was on his way to become an elite soldier in the aseriyun army", null), null, 0, 0, 0, 0, 0);
             // Aseriyun Choice 3
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Bow, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory1.AddCategoryOption(new TextObject("{=ase_parents_3}An Aseriyun scout", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents3OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=ase_parents_3_text}Your father was a artahir, a polyvalent and resourceful man who served in the aseriyun army", null), null, 0, 0, 0, 0, 0);
             // Aseriyun Choice 4
             effectedSkills = new MBList<SkillObject> { DefaultSkills.TwoHanded, DefaultSkills.Athletics };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory1.AddCategoryOption(new TextObject("{=ase_parents_4}An Aseriyun warrior", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents4OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=ase_parents_4_text}Your father was a muharib, he was not exceptionally skilled but was a good battle comrade", null), null, 0, 0, 0, 0, 0);
             // Aseriyun Choice 5
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Crossbow, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory1.AddCategoryOption(new TextObject("{=ase_parents_5}A mercenary", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents5OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=ase_parents_5_text}Your father was a mercenary trained in the Kratorios empire", null), null, 0, 0, 0, 0, 0);
 
@@ -76,35 +81,40 @@ namespace Split
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Bow, DefaultSkills.TwoHanded };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory2.AddCategoryOption(new TextObject("{=cer_parents_1}A Cereann noble", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents1OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=cer_parents_1_text}Your father was a saighair, a noble unit of the cereann army", null), null, 0, 0, 0, 0, 0);
             // Cereann Choice 2
             effectedSkills = new MBList<SkillObject> { DefaultSkills.TwoHanded, DefaultSkills.Athletics };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory2.AddCategoryOption(new TextObject("{=cer_parents_2}A Cereann warrior", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents2OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=cer_parents_2_text}Your father was a gaisghan, he was on his way to become an elite soldier in the cereann army", null), null, 0, 0, 0, 0, 0);
             // Cereann Choice 3
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Bow, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory2.AddCategoryOption(new TextObject("{=cer_parents_3}A Cereann scout", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents3OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=cer_parents_3_text}Your mother was a eachraidh, a polyvalent and resourceful woman who served in the cereann army", null), null, 0, 0, 0, 0, 0);
             // Cereann Choice 4
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Throwing, DefaultSkills.OneHanded };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory2.AddCategoryOption(new TextObject("{=cer_parents_4}A Cereann skirmisher", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents4OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=cer_parents_4_text}Your father was a maoriath, he was not exceptionally skilled but was a good battle comrade", null), null, 0, 0, 0, 0, 0);
             // Cereann Choice 5
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Polearm, DefaultSkills.OneHanded };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory2.AddCategoryOption(new TextObject("{=cer_parents_5}A mercenary", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents5OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=cer_parents_5_text}Your father was a mercenary trained in the Zulizwe nation", null), null, 0, 0, 0, 0, 0);
 
@@ -114,35 +124,40 @@ namespace Split
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Crossbow, DefaultSkills.Polearm };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory3.AddCategoryOption(new TextObject("{=ius_parents_1}A Iustrium noble", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents1OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=ius_parents_1_text}Your father was a creditis, a noble unit of the iustrium army", null), null, 0, 0, 0, 0, 0);
             // Iustrium Choice 2
             effectedSkills = new MBList<SkillObject> { DefaultSkills.OneHanded, DefaultSkills.Throwing };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory3.AddCategoryOption(new TextObject("{=ius_parents_2}A Iustrium footman", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents2OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=ius_parents_2_text}Your father was a scutus, he was on his way to become an elite soldier in the iustrium army", null), null, 0, 0, 0, 0, 0);
             // Iustrium Choice 3
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Crossbow, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory3.AddCategoryOption(new TextObject("{=ius_parents_3}A Iustrium patroller", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents3OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=ius_parents_3_text}Your father was a limitator, a polyvalent and resourceful man who served in the iustrium army", null), null, 0, 0, 0, 0, 0);
             // Iustrium Choice 4
             effectedSkills = new MBList<SkillObject> { DefaultSkills.OneHanded, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory3.AddCategoryOption(new TextObject("{=ius_parents_4}A Iustrium cavalrymen", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents4OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=ius_parents_4_text}Your mother was a praetrix, she was not exceptionally skilled but was a good battle comrade", null), null, 0, 0, 0, 0, 0);
             // Iustrium Choice 5
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Bow, DefaultSkills.TwoHanded };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory3.AddCategoryOption(new TextObject("{=ius_parents_5}A mercenary", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents5OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=ius_parents_5_text}Your father was a mercenary trained in the Cereann Union", null), null, 0, 0, 0, 0, 0);
 
@@ -152,35 +167,40 @@ namespace Split
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Crossbow, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory4.AddCategoryOption(new TextObject("{=ius_parents_1}A Kratorios noble", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents1OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=ius_parents_1_text}Your father was a skopeftas, a noble unit of the kratorios army", null), null, 0, 0, 0, 0, 0);
             // Kratorios Choice 2
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Polearm, DefaultSkills.OneHanded };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory4.AddCategoryOption(new TextObject("{=ius_parents_2}A Kratorios guardian", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents2OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=ius_parents_2_text}Your father was a loforos, he was on his way to become an elite soldier in the kratorios army", null), null, 0, 0, 0, 0, 0);
             // Kratorios Choice 3
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Throwing, DefaultSkills.OneHanded };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory4.AddCategoryOption(new TextObject("{=ius_parents_3}A Kratorios skirmisher", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents3OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=ius_parents_3_text}Your father was a akontisti, a polyvalent and resourceful man who served in the kratorios army", null), null, 0, 0, 0, 0, 0);
             // Kratorios Choice 4
             effectedSkills = new MBList<SkillObject> { DefaultSkills.TwoHanded, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory4.AddCategoryOption(new TextObject("{=ius_parents_4}A Kratorios yeoman", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents4OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=ius_parents_4_text}Your father was a ippotos, he was not exceptionally skilled but was a good battle comrade", null), null, 0, 0, 0, 0, 0);
             // Kratorios Choice 5
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Bow, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory4.AddCategoryOption(new TextObject("{=ius_parents_5}A mercenary", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents5OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=ius_parents_5_text}Your mother was a mercenary trained in the Monghatai Khanate", null), null, 0, 0, 0, 0, 0);
 
@@ -190,35 +210,40 @@ namespace Split
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Riding, DefaultSkills.Polearm };
             effectedAttribute = DefaultCharacterAttributes.Endurance;
             characterCreationCategory5.AddCategoryOption(new TextObject("{=lys_parents_1}A Lysellois noble", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents1OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=lys_parents_1_text}Your father was a baron, a noble unit of the lysellois army", null), null, 0, 0, 0, 0, 0);
             // Lysellois Choice 2
             effectedSkills = new MBList<SkillObject> { DefaultSkills.OneHanded, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory5.AddCategoryOption(new TextObject("{=lys_parents_2}A Lysellois yeoman", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents2OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=lys_parents_2_text}Your father was a cavalier lourd, he was on his way to become an elite soldier in the lysellois army", null), null, 0, 0, 0, 0, 0);
             // Lysellois Choice 3
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Crossbow, DefaultSkills.OneHanded };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory5.AddCategoryOption(new TextObject("{=lys_parents_3}A Lysellois watcher", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents3OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=lys_parents_3_text}Your father was a tireur, a polyvalent and resourceful man who served in the lysellois army", null), null, 0, 0, 0, 0, 0);
             // Lysellois Choice 4
             effectedSkills = new MBList<SkillObject> { DefaultSkills.OneHanded, DefaultSkills.Polearm };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory5.AddCategoryOption(new TextObject("{=lys_parents_4}A Lysellois footman", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents4OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=lys_parents_4_text}Your father was a sergent, he was not exceptionally skilled but was a good battle comrade", null), null, 0, 0, 0, 0, 0);
             // Lysellois Choice 5
             effectedSkills = new MBList<SkillObject> { DefaultSkills.TwoHanded, DefaultSkills.Athletics };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory5.AddCategoryOption(new TextObject("{=lys_parents_5}A mercenary", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents5OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=lys_parents_5_text}Your father was a mercenary trained in the Rekgeist Federation", null), null, 0, 0, 0, 0, 0);
 
@@ -228,35 +253,40 @@ namespace Split
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Bow, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory6.AddCategoryOption(new TextObject("{=mon_parents_1}A Monghatai noble", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents1OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=mon_parents_1_text}Your mother was a mergar, a noble unit of the monghatai army", null), null, 0, 0, 0, 0, 0);
             // Monghatai Choice 2
             effectedSkills = new MBList<SkillObject> { DefaultSkills.TwoHanded, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory6.AddCategoryOption(new TextObject("{=mon_parents_2}A Monghatai yeoman", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents2OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=mon_parents_2_text}Your father was a tsurakh, he was on his way to become an elite soldier in the monghatai army", null), null, 0, 0, 0, 0, 0);
             // Monghatai Choice 3
             effectedSkills = new MBList<SkillObject> { DefaultSkills.OneHanded, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory6.AddCategoryOption(new TextObject("{=mon_parents_3}A Monghatai cavalryman", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents3OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=mon_parents_3_text}Your father was a khurchin, a polyvalent and resourceful man who served in the monghatai army", null), null, 0, 0, 0, 0, 0);
             // Monghatai Choice 4
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Riding, DefaultSkills.Polearm };
             effectedAttribute = DefaultCharacterAttributes.Endurance;
             characterCreationCategory6.AddCategoryOption(new TextObject("{=mon_parents_4}A Monghatai rider", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents4OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=mon_parents_4_text}Your father was a urdal, he was not exceptionally skilled but was a good battle comrade", null), null, 0, 0, 0, 0, 0);
             // Monghatai Choice 5
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Crossbow, DefaultSkills.Polearm };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory6.AddCategoryOption(new TextObject("{=mon_parents_5}A mercenary", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents5OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=mon_parents_5_text}Your father was a mercenary trained in the Iustrium Principalities", null), null, 0, 0, 0, 0, 0);
 
@@ -266,35 +296,40 @@ namespace Split
             effectedSkills = new MBList<SkillObject> { DefaultSkills.TwoHanded, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory7.AddCategoryOption(new TextObject("{=qin_parents_1}A Qinguo noble", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents1OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=qin_parents_1_text}Your father was a erbai, a noble unit of the qinguo army", null), null, 0, 0, 0, 0, 0);
             // Qinguo Choice 2
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Crossbow, DefaultSkills.OneHanded };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory7.AddCategoryOption(new TextObject("{=qin_parents_2}A Qinguo watcher", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents2OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=qin_parents_2_text}Your father was a jinshou, he was on his way to become an elite soldier in the qinguo army", null), null, 0, 0, 0, 0, 0);
             // Qinguo Choice 3
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Crossbow, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory7.AddCategoryOption(new TextObject("{=qin_parents_3}A Qinguo patroller", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents3OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=qin_parents_3_text}Your father was a manuluo, a polyvalent and resourceful man who served in the qinguo army", null), null, 0, 0, 0, 0, 0);
             // Qinguo Choice 4
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Polearm, DefaultSkills.OneHanded };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory7.AddCategoryOption(new TextObject("{=qin_parents_4}A Qinguo guard", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents4OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=qin_parents_4_text}Your father was a cichuqi, he was not exceptionally skilled but was a good battle comrade", null), null, 0, 0, 0, 0, 0);
             // Qinguo Choice 5
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Throwing, DefaultSkills.OneHanded };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory7.AddCategoryOption(new TextObject("{=qin_parents_5}A mercenary", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents5OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=qin_parents_5_text}Your father was a mercenary trained in the Virkaldr Jarland", null), null, 0, 0, 0, 0, 0);
 
@@ -304,35 +339,40 @@ namespace Split
             effectedSkills = new MBList<SkillObject> { DefaultSkills.TwoHanded, DefaultSkills.Athletics };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory8.AddCategoryOption(new TextObject("{=rek_parents_1}A Rekgeist noble", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents1OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=rek_parents_1_text}Your father was a beidhänder, a noble unit of the rekgeist army", null), null, 0, 0, 0, 0, 0);
             // Rekgeist Choice 2
             effectedSkills = new MBList<SkillObject> { DefaultSkills.TwoHanded, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory8.AddCategoryOption(new TextObject("{=rek_parents_2}A Rekgeist yeoman", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents2OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=rek_parents_2_text}Your father was a leichter reiter, he was on his way to become an elite soldier in the rekgeist army", null), null, 0, 0, 0, 0, 0);
             // Rekgeist Choice 3
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Polearm, DefaultSkills.OneHanded };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory8.AddCategoryOption(new TextObject("{=rek_parents_3}A Rekgeist guard", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents3OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=rek_parents_3_text}Your father was a pfähler, a polyvalent and resourceful man who served in the rekgeist army", null), null, 0, 0, 0, 0, 0);
             // Rekgeist Choice 4
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Crossbow, DefaultSkills.TwoHanded };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory8.AddCategoryOption(new TextObject("{=rek_parents_4}A Rekgeist watcher", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents4OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=rek_parents_4_text}Your father was a wachterschutze, he was not exceptionally skilled but was a good battle comrade", null), null, 0, 0, 0, 0, 0);
             // Rekgeist Choice 5
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Throwing, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory8.AddCategoryOption(new TextObject("{=rek_parents_5}A mercenary", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents5OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=rek_parents_5_text}Your father was a mercenary trained in the Aseriyun Sultanate", null), null, 0, 0, 0, 0, 0);
 
@@ -342,35 +382,40 @@ namespace Split
             effectedSkills = new MBList<SkillObject> { DefaultSkills.OneHanded, DefaultSkills.Throwing };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory9.AddCategoryOption(new TextObject("{=sca_parents_1}A Scarhok noble", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents1OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=sca_parents_1_text}Your father was a kigenn, a noble unit of the scarhok army", null), null, 0, 0, 0, 0, 0);
             // Scarhok Choice 2
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Bow, DefaultSkills.OneHanded };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory9.AddCategoryOption(new TextObject("{=sca_parents_2}A Scarhok bowman", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents2OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=sca_parents_2_text}Your father was a gareker, he was on his way to become an elite soldier in the scarhok army", null), null, 0, 0, 0, 0, 0);
             // Scarhok Choice 3
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Throwing, DefaultSkills.TwoHanded };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory9.AddCategoryOption(new TextObject("{=sca_parents_3}A Scarhok skirmisher", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents3OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=sca_parents_3_text}Your father was a throwing axeman, a polyvalent and resourceful man who served in the scarhok army", null), null, 0, 0, 0, 0, 0);
             // Scarhok Choice 4
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Throwing, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory9.AddCategoryOption(new TextObject("{=sca_parents_4}A Scarhok harasser", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents4OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=sca_parents_4_text}Your father was a strellig, he was not exceptionally skilled but was a good battle comrade", null), null, 0, 0, 0, 0, 0);
             // Scarhok Choice 5
             effectedSkills = new MBList<SkillObject> { DefaultSkills.TwoHanded, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory9.AddCategoryOption(new TextObject("{=sca_parents_5}A mercenary", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents5OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=sca_parents_5_text}Your father was a mercenary trained in the Qinguo State", null), null, 0, 0, 0, 0, 0);
 
@@ -380,35 +425,40 @@ namespace Split
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Throwing, DefaultSkills.OneHanded };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory10.AddCategoryOption(new TextObject("{=vir_parents_1}A Virkaldr noble", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents1OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=vir_parents_1_text}Your father was a eydandi, a noble unit of the virkaldr army", null), null, 0, 0, 0, 0, 0);
             // Virkaldr Choice 2
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Throwing, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory10.AddCategoryOption(new TextObject("{=vir_parents_2}A Virkaldr harasser", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents2OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=vir_parents_2_text}Your mother was a vidrinn, she was on his way to become an elite soldier in the virkaldr army", null), null, 0, 0, 0, 0, 0);
             // Virkaldr Choice 3
             effectedSkills = new MBList<SkillObject> { DefaultSkills.TwoHanded, DefaultSkills.Athletics };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory10.AddCategoryOption(new TextObject("{=vir_parents_3}A Virkaldr warrior", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents3OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=vir_parents_3_text}Your father was a grahaerker, a polyvalent and resourceful man who served in the virkaldr army", null), null, 0, 0, 0, 0, 0);
             // Virkaldr Choice 4
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Bow, DefaultSkills.OneHanded };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory10.AddCategoryOption(new TextObject("{=vir_parents_4}A Virkaldr bowman", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents4OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=vir_parents_4_text}Your father was a veidi, he was not exceptionally skilled but was a good battle comrade", null), null, 0, 0, 0, 0, 0);
             // Virkaldr Choice 5
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Riding, DefaultSkills.Polearm };
             effectedAttribute = DefaultCharacterAttributes.Endurance;
             characterCreationCategory10.AddCategoryOption(new TextObject("{=vir_parents_5}A mercenary", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents5OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=vir_parents_5_text}Your father was a mercenary trained in the Lysellois Kingdom", null), null, 0, 0, 0, 0, 0);
 
@@ -418,35 +468,40 @@ namespace Split
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Polearm, DefaultSkills.OneHanded };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory11.AddCategoryOption(new TextObject("{=zul_parents_1}A Zulizwe noble", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents1OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=zul_parents_1_text}Your father was a umlwi, a noble unit of the zulizwe army", null), null, 0, 0, 0, 0, 0);
             // Zulizwe Choice 2
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Riding, DefaultSkills.Polearm };
             effectedAttribute = DefaultCharacterAttributes.Endurance;
             characterCreationCategory11.AddCategoryOption(new TextObject("{=zul_parents_2}A Zulizwe rider", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents2OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=zul_parents_2_text}Your father was a mzigo, he was on his way to become an elite soldier in the zulizwe army", null), null, 0, 0, 0, 0, 0);
             // Zulizwe Choice 3
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Bow, DefaultSkills.OneHanded };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory11.AddCategoryOption(new TextObject("{=zul_parents_3}A Zulizwe bowman", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents3OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=zul_parents_3_text}Your father was a risasi, a polyvalent and resourceful man who served in the zulizwe army", null), null, 0, 0, 0, 0, 0);
             // Zulizwe Choice 4
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Bow, DefaultSkills.Riding };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory11.AddCategoryOption(new TextObject("{=zul_parents_4}A Zulizwe scout", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents4OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=zul_parents_4_text}Your mother was a wepesi, she was not exceptionally skilled but was a good battle comrade", null), null, 0, 0, 0, 0, 0);
             // Zulizwe Choice 5
             effectedSkills = new MBList<SkillObject> { DefaultSkills.OneHanded, DefaultSkills.Throwing };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory11.AddCategoryOption(new TextObject("{=zul_parents_5}A mercenary", null),
-                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                new CharacterCreationOnSelect(this.Parents5OnConsequence),
                 new CharacterCreationApplyFinalEffects(this.ParentsOnApply),
                 new TextObject("{=zul_parents_5_text}Your father was a mercenary trained in the Scarhok Chiefdom", null), null, 0, 0, 0, 0, 0);
 
@@ -458,7 +513,7 @@ namespace Split
             CharacterCreationMenu characterCreationMenu = new CharacterCreationMenu(
                 new TextObject("{=8Yiwt1z6}Early Childhood", null),
                 new TextObject("{=childhood_menu}When you were a child, you listened stories of...", null),
-                new CharacterCreationOnInit(base.ChildhoodOnInit),
+                new CharacterCreationOnInit(this.ChildhoodOnInit),
                 CharacterCreationMenu.MenuTypes.MultipleChoice);
 
             CharacterCreationCategory characterCreationCategory = characterCreationMenu.AddMenuCategory(null);
@@ -779,6 +834,27 @@ namespace Split
         {
         }
 
+        protected new void ChildhoodOnInit(CharacterCreation characterCreation)
+        {
+            characterCreation.IsPlayerAlone = true;
+            characterCreation.HasSecondaryCharacter = false;
+            characterCreation.ClearFaceGenPrefab();
+            characterCreation.ChangeFaceGenChars(SandboxCharacterCreationContent.ChangePlayerFaceWithAge((float)this.ChildhoodAge, "act_childhood_schooled"));
+            string text = string.Concat(new object[]
+            {
+                "player_char_creation_childhood_age_",
+                base.GetSelectedCulture().StringId,
+                "_",
+                base.SelectedParentType
+            });
+            text += (Hero.MainHero.IsFemale ? "_f" : "_m");
+            this.ChangePlayerOutfit(characterCreation, text);
+            characterCreation.ChangeCharsAnimation(new List<string>
+            {
+                "act_childhood_schooled"
+            });
+            SandboxCharacterCreationContent.ClearMountEntity(characterCreation);
+        }
         protected new void EducationOnInit(CharacterCreation characterCreation)
         {
             characterCreation.IsPlayerAlone = true;
@@ -838,6 +914,26 @@ namespace Split
         protected bool RekgeistParentsOnCondition(){ return base.GetSelectedCulture().StringId == "rekgeist"; }
         protected bool ScarhokParentsOnCondition(){ return base.GetSelectedCulture().StringId == "scarhok"; }
         protected bool ZulizweParentsOnCondition(){ return base.GetSelectedCulture().StringId == "zulizwe"; }
+        protected void Parents1OnConsequence(CharacterCreation characterCreation)
+        {
+            this.SetParentAndOccupationType(characterCreation, 1, SandboxCharacterCreationContent.OccupationTypes.NumberOfTypes, "", "", true, true);
+        }
+        protected void Parents2OnConsequence(CharacterCreation characterCreation)
+        {
+            this.SetParentAndOccupationType(characterCreation, 2, SandboxCharacterCreationContent.OccupationTypes.NumberOfTypes, "", "", true, true);
+        }
+        protected void Parents3OnConsequence(CharacterCreation characterCreation)
+        {
+            this.SetParentAndOccupationType(characterCreation, 3, SandboxCharacterCreationContent.OccupationTypes.NumberOfTypes, "", "", true, true);
+        }
+        protected void Parents4OnConsequence(CharacterCreation characterCreation)
+        {
+            this.SetParentAndOccupationType(characterCreation, 4, SandboxCharacterCreationContent.OccupationTypes.NumberOfTypes, "", "", true, true);
+        }
+        protected void Parents5OnConsequence(CharacterCreation characterCreation)
+        {
+            this.SetParentAndOccupationType(characterCreation, 5, SandboxCharacterCreationContent.OccupationTypes.NumberOfTypes, "", "", true, true);
+        }
 
         protected bool IsCultureArcherType()
         {

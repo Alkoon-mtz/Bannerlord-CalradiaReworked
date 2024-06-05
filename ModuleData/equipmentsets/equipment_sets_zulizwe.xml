@@ -3,101 +3,103 @@
     <!-- Parents -->
     <EquipmentRoster id="mother_char_creation_0_zulizwe" culture="Culture.zulizwe">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.empire_dress" />
-            <Equipment slot="Cape" id="Item.female_hood" />
-            <Equipment slot="Leg" id="Item.ladys_shoe" />
+            <Equipment slot="Cape" id="Item.leopard_pelt" />
+            <Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_0_zulizwe" culture="Culture.zulizwe">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.cloth_tunic" />
-            <Equipment slot="Leg" id="Item.strapped_shoes" />
+            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+            <Equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+            <Equipment slot="Body" id="Item.fur_armor_with_strap" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
     </EquipmentRoster>
-    <!--1.Retainer-->
+    <!-- Choice 1 -->
     <EquipmentRoster id="mother_char_creation_1_zulizwe" culture="Culture.zulizwe">
         <EquipmentSet>
-            <Equipment slot="Head" id="Item.head_wrapped" />
-            <Equipment slot="Body" id="Item.empire_dress" />
-            <Equipment slot="Leg" id="Item.ladys_shoe" />
+            <Equipment slot="Head" id="Item.aserai_female_civil_hscarf_b" />
+            <Equipment slot="Cape" id="Item.scarf" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_zd" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_1_zulizwe" culture="Culture.zulizwe">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
-            <Equipment slot="Leg" id="Item.fine_town_boots" />
+            <Equipment slot="Cape" id="Item.AR_wolf_shoulder_f2" />
+            <Equipment slot="Body" id="Item.AR_empire_horseman_armor_d" />
+            <Equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers_b" />
+            <Equipment slot="Leg" id="Item.decorated_imperial_boots" />
         </EquipmentSet>
     </EquipmentRoster>
-    <!--2.Merchant-->
+    <!-- Choice 2 -->
     <EquipmentRoster id="mother_char_creation_2_zulizwe" culture="Culture.zulizwe">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.dress_with_overall" />
-            <Equipment slot="Leg" id="Item.ladys_shoe" />
-            <Equipment slot="Head" id="Item.head_scarf" />
+            <Equipment slot="Head" id="Item.ao_gold_circlet_a" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_zd2" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_2_zulizwe" culture="Culture.zulizwe">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.merchants_fur_coat" />
-            <Equipment slot="Leg" id="Item.strapped_shoes" />
-            <Equipment slot="Head" id="Item.merchants_hat" />
+            <Equipment slot="Cape" id="Item.AR_imperial_shoulders_k" />
+            <Equipment slot="Body" id="Item.AR_empire_brass_lamellar_c" />
+            <Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+            <Equipment slot="Leg" id="Item.plated_strip_boots" />
         </EquipmentSet>
     </EquipmentRoster>
-    <!--3.Freeholder-->
+    <!-- Choice 3 -->
     <EquipmentRoster id="mother_char_creation_3_zulizwe" culture="Culture.zulizwe">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.laced_dress" />
-            <Equipment slot="Leg" id="Item.ladys_shoe" />
+            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+            <Equipment slot="Cape" id="Item.leopard_pelt" />
+            <Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_3_zulizwe" culture="Culture.zulizwe">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
-            <Equipment slot="Head" id="Item.leather_cap" />
-            <Equipment slot="Leg" id="Item.plated_strip_boots" />
+            <Equipment slot="Cape" id="Item.BA_empire_shoulders_c" />
+            <Equipment slot="Body" id="Item.ao_imperial_lamellar_vest_over_mail_b" />
+            <Equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers_b" />
+            <Equipment slot="Leg" id="Item.decorated_imperial_boots" />
         </EquipmentSet>
     </EquipmentRoster>
-    <!--4.Artisan-->
+    <!-- Choice 4 -->
     <EquipmentRoster id="mother_char_creation_4_zulizwe" culture="Culture.zulizwe">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.cloth_apron" />
-            <Equipment slot="Leg" id="Item.ladys_shoe" />
-            <Equipment slot="Head" id="Item.head_wrapped" />
+            <Equipment slot="Cape" id="Item.TV_battania_shoulders_c" />
+            <Equipment slot="Body" id="Item.armored_baggy_trunks" />
+            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_b" />
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_d" />
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_4_zulizwe" culture="Culture.zulizwe">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.leather_apron" />
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
+            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+            <Equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+            <Equipment slot="Body" id="Item.ao_mabili_zebra_skirt" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
     </EquipmentRoster>
-    <!--5.Forester-->
+    <!-- Choice 5 -->
     <EquipmentRoster id="mother_char_creation_5_zulizwe" culture="Culture.zulizwe">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.battania_female_civil_a" />
-            <Equipment slot="Leg" id="Item.ladys_shoe" />
+            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+            <Equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_o" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_5_zulizwe" culture="Culture.zulizwe">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.cloth_tunic" />
-            <Equipment slot="Leg" id="Item.strapped_shoes" />
-            <Equipment slot="Gloves" id="Item.leather_gloves" />
-            <Equipment slot="Cape" id="Item.battania_woodland_cloak" />
-            <Equipment slot="Head" id="Item.roughhide_cap" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <!--6.Vagabond-->
-    <EquipmentRoster id="mother_char_creation_6_zulizwe" culture="Culture.zulizwe">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.plain_dress" />
-            <Equipment slot="Leg" id="Item.ladys_shoe" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="father_char_creation_6_zulizwe" culture="Culture.zulizwe">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.torn_bandit_clothes" />
-            <Equipment slot="Leg" id="Item.fine_town_boots" />
+            <Equipment slot="Cape" id="Item.hood" />
+            <Equipment slot="Body" id="Item.AO_eorling_armor_d" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_a" />
+            <Equipment slot="Leg" id="Item.TV_vlandia_boots_b" />
         </EquipmentSet>
     </EquipmentRoster>
 
@@ -554,7 +556,11 @@
             <Equipment slot="Body" id="Item.peasant_costume" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
-        <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="child_template_zulizwe_villager_female" culture="Culture.zulizwe">
         <EquipmentSet civilian="true">
@@ -569,7 +575,11 @@
             <Equipment slot="Body" id="Item.peasant_costume" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
-        <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_zulizwe_villager_male" culture="Culture.zulizwe">
         <EquipmentSet civilian="true">
@@ -588,7 +598,11 @@
             <Equipment slot="Leg" id="Item.turndown_leather_boots" />
             <Equipment slot="Gloves" id="Item.roughtied_leather_bracers" />
         </EquipmentSet>
-        <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_zulizwe_villager_female" culture="Culture.zulizwe">
         <EquipmentSet civilian="true">
@@ -605,7 +619,11 @@
             <Equipment slot="Body" id="Item.aserai_female_civil_a" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
-        <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
 
     <!--Townsman -->
@@ -618,7 +636,11 @@
             <Equipment slot="Body" id="Item.footmans_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
-        <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="child_template_zulizwe_townsman_female" culture="Culture.zulizwe">
         <EquipmentSet civilian="true">
@@ -629,7 +651,11 @@
             <Equipment slot="Body" id="Item.footmans_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
-        <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_zulizwe_townsman_female" culture="Culture.zulizwe">
         <EquipmentSet civilian="true">
@@ -650,7 +676,11 @@
             <Equipment slot="Body" id="Item.aserai_female_civil_a" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
-        <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_zulizwe_townsman_male" culture="Culture.zulizwe">
         <EquipmentSet civilian="true">
@@ -669,7 +699,11 @@
             <Equipment slot="Body" id="Item.tunic_with_rolled_cloth" />
             <Equipment slot="Leg" id="Item.fine_town_boots" />
         </EquipmentSet>
-        <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
 
     <!--Noble -->
@@ -739,184 +773,184 @@
     </EquipmentRoster>
     <EquipmentRoster id="npc_armed_wanderer_equipment_template_zulizwe" culture="Culture.zulizwe">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
-            <Equipment slot="Item1" id="Item.oval_shield"/>
-            <Equipment slot="Item2" id="Item.iron_spatha_sword_t2"/>
-            <Equipment slot="Cape" id="Item.eastern_studded_shoulders"/>
-            <Equipment slot="Body" id="Item.battanian_savage_armor"/>
-            <Equipment slot="Leg" id="Item.simple_shoes"/>
-            <Equipment slot="Horse" id="Item.empire_horse"/>
-            <Equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
+            <Equipment slot="Item0" id="Item.eastern_spear_1_t2" />
+            <Equipment slot="Item1" id="Item.oval_shield" />
+            <Equipment slot="Item2" id="Item.iron_spatha_sword_t2" />
+            <Equipment slot="Cape" id="Item.eastern_studded_shoulders" />
+            <Equipment slot="Body" id="Item.battanian_savage_armor" />
+            <Equipment slot="Leg" id="Item.simple_shoes" />
+            <Equipment slot="Horse" id="Item.empire_horse" />
+            <Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
         </EquipmentSet>
         <Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="zul_npcgenerics_template_poor" culture="Culture.zulizwe">
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
-            <Equipment slot="Body" id="Item.ragged_robes"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+            <Equipment slot="Body" id="Item.ragged_robes" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.ragged_robes"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Body" id="Item.ragged_robes" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
-            <Equipment slot="Body" id="Item.ao_mabili_hide_skirt"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+            <Equipment slot="Body" id="Item.ao_mabili_hide_skirt" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.ao_mabili_hide_skirt"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Body" id="Item.ao_mabili_hide_skirt" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
-            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
-            <Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+            <Equipment slot="Body" id="Item.vlandia_bandit_c" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Body" id="Item.vlandia_bandit_c" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="zul_npcgenerics_template_mid" culture="Culture.zulizwe">
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
-            <Equipment slot="Cape" id="Item.leopard_pelt"/>
-            <Equipment slot="Body" id="Item.ao_mabili_leopard_skirt"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+            <Equipment slot="Cape" id="Item.leopard_pelt" />
+            <Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.leopard_pelt"/>
-            <Equipment slot="Body" id="Item.ao_mabili_leopard_skirt"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Cape" id="Item.leopard_pelt" />
+            <Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
-            <Equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
-            <Equipment slot="Body" id="Item.ao_mabili_zebra_skirt"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+            <Equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+            <Equipment slot="Body" id="Item.ao_mabili_zebra_skirt" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
-            <Equipment slot="Body" id="Item.ao_mabili_zebra_skirt"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+            <Equipment slot="Body" id="Item.ao_mabili_zebra_skirt" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
-            <Equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
-            <Equipment slot="Body" id="Item.AR_aserai_armor_o"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+            <Equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_o" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
-            <Equipment slot="Body" id="Item.AR_aserai_armor_o"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_o" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
-            <Equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
-            <Equipment slot="Body" id="Item.fur_armor_with_strap"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+            <Equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+            <Equipment slot="Body" id="Item.fur_armor_with_strap" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
-            <Equipment slot="Body" id="Item.fur_armor_with_strap"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+            <Equipment slot="Body" id="Item.fur_armor_with_strap" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="zul_npcgenerics_template_forge" culture="Culture.zulizwe">
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.cloth_apron"/>
+            <Equipment slot="Body" id="Item.cloth_apron" />
             <Equipment slot="Gloves" id="Item.leather_gloves" />
-            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="zul_npcgenerics_template_preacher" culture="Culture.zulizwe">
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.AR_empire_armor_p"/>
-            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+            <Equipment slot="Body" id="Item.AR_empire_armor_p" />
+            <Equipment slot="Leg" id="Item.fine_town_boots" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="zul_npcgenerics_template_rich" culture="Culture.zulizwe">
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.aserai_female_civil_hscarf_b"/>
-            <Equipment slot="Cape" id="Item.scarf"/>
-            <Equipment slot="Body" id="Item.AR_aserai_armor_zd"/>
-            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Head" id="Item.aserai_female_civil_hscarf_b" />
+            <Equipment slot="Cape" id="Item.scarf" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_zd" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
-            <Equipment slot="Body" id="Item.AR_aserai_armor_zd"/>
-            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Head" id="Item.ao_gold_circlet_a" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_zd" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.aserai_female_civil_hscarf_b"/>
-            <Equipment slot="Cape" id="Item.scarf"/>
-            <Equipment slot="Body" id="Item.AR_aserai_armor_zd"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Head" id="Item.aserai_female_civil_hscarf_b" />
+            <Equipment slot="Cape" id="Item.scarf" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_zd" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
-            <Equipment slot="Body" id="Item.AR_aserai_armor_zd"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Head" id="Item.ao_gold_circlet_a" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_zd" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.AR_aserai_armor_zd"/>
-            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Body" id="Item.AR_aserai_armor_zd" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.AR_aserai_armor_zd"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Body" id="Item.AR_aserai_armor_zd" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.aserai_female_civil_hscarf_b"/>
-            <Equipment slot="Cape" id="Item.scarf"/>
-            <Equipment slot="Body" id="Item.AR_aserai_armor_zd2"/>
-            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Head" id="Item.aserai_female_civil_hscarf_b" />
+            <Equipment slot="Cape" id="Item.scarf" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_zd2" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
-            <Equipment slot="Body" id="Item.AR_aserai_armor_zd2"/>
-            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Head" id="Item.ao_gold_circlet_a" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_zd2" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.aserai_female_civil_hscarf_b"/>
-            <Equipment slot="Cape" id="Item.scarf"/>
-            <Equipment slot="Body" id="Item.AR_aserai_armor_zd2"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Head" id="Item.aserai_female_civil_hscarf_b" />
+            <Equipment slot="Cape" id="Item.scarf" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_zd2" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
-            <Equipment slot="Body" id="Item.AR_aserai_armor_zd2"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Head" id="Item.ao_gold_circlet_a" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_zd2" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.AR_aserai_armor_zd2"/>
-            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Body" id="Item.AR_aserai_armor_zd2" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.AR_aserai_armor_zd2"/>
-            <Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            <Equipment slot="Body" id="Item.AR_aserai_armor_zd2" />
+            <Equipment slot="Leg" id="Item.TV_battania_boots_w" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
@@ -924,72 +958,72 @@
     <!--Lord -->
     <EquipmentRoster id="zul_bat_template_low" culture="Culture.zulizwe">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.composite_steppe_bow"/>
-            <Equipment slot="Item1" id="Item.range_arrows"/>
-            <Equipment slot="Item2" id="Item.range_arrows"/>
-            <Equipment slot="Item3" id="Item.empire_sword_3_t3"/>
-            <Equipment slot="Head" id="Item.ao_imperial_nasal_spangenhelmet_with_mail"/>
-            <Equipment slot="Cape" id="Item.TV_battania_shoulders_c"/>
-            <Equipment slot="Body" id="Item.armored_baggy_trunks"/>
-            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
-            <Equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
-            <Equipment slot="Horse" id="Item.t3_empire_horse"/>
-            <Equipment slot="HorseHarness" id="Item.half_scale_barding"/>
+            <Equipment slot="Item0" id="Item.composite_steppe_bow" />
+            <Equipment slot="Item1" id="Item.range_arrows" />
+            <Equipment slot="Item2" id="Item.range_arrows" />
+            <Equipment slot="Item3" id="Item.empire_sword_3_t3" />
+            <Equipment slot="Head" id="Item.ao_imperial_nasal_spangenhelmet_with_mail" />
+            <Equipment slot="Cape" id="Item.TV_battania_shoulders_c" />
+            <Equipment slot="Body" id="Item.armored_baggy_trunks" />
+            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_b" />
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_d" />
+            <Equipment slot="Horse" id="Item.t3_empire_horse" />
+            <Equipment slot="HorseHarness" id="Item.half_scale_barding" />
         </EquipmentSet>
-        <Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true"/>
+        <Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="zul_bat_template_medium" culture="Culture.zulizwe">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.woodland_longbow"/>
-            <Equipment slot="Item1" id="Item.emirs_oval_shield"/>
-            <Equipment slot="Item2" id="Item.piercing_arrows"/>
-            <Equipment slot="Item3" id="Item.empire_sword_6_t5"/>
-            <Equipment slot="Head" id="Item.AR_empire_helmet_h"/>
-            <Equipment slot="Cape" id="Item.BA_empire_shoulders_a"/>
-            <Equipment slot="Body" id="Item.ao_imperial_cataphracts_lamellar_b"/>
-            <Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
-            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+            <Equipment slot="Item0" id="Item.woodland_longbow" />
+            <Equipment slot="Item1" id="Item.emirs_oval_shield" />
+            <Equipment slot="Item2" id="Item.piercing_arrows" />
+            <Equipment slot="Item3" id="Item.empire_sword_6_t5" />
+            <Equipment slot="Head" id="Item.AR_empire_helmet_h" />
+            <Equipment slot="Cape" id="Item.BA_empire_shoulders_a" />
+            <Equipment slot="Body" id="Item.ao_imperial_cataphracts_lamellar_b" />
+            <Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+            <Equipment slot="Leg" id="Item.decorated_imperial_boots" />
         </EquipmentSet>
-        <Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true"/>
+        <Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="zul_bat_template_heavy" culture="Culture.zulizwe">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
-            <Equipment slot="Item1" id="Item.emirs_oval_shield"/>
-            <Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
-            <Equipment slot="Head" id="Item.AR_roman_helmet_b_fur_c"/>
-            <Equipment slot="Cape" id="Item.AR_imperial_shoulders_f"/>
-            <Equipment slot="Body" id="Item.ao_imperial_cataphracts_lamellar"/>
-            <Equipment slot="Gloves" id="Item.TV_sturgia_gloves_a"/>
-            <Equipment slot="Leg" id="Item.plated_strip_boots"/>
-            <Equipment slot="Horse" id="Item.noble_horse_imperial"/>
-            <Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+            <Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+            <Equipment slot="Item1" id="Item.emirs_oval_shield" />
+            <Equipment slot="Item2" id="Item.western_javelin_2_t3" />
+            <Equipment slot="Head" id="Item.AR_roman_helmet_b_fur_c" />
+            <Equipment slot="Cape" id="Item.AR_imperial_shoulders_f" />
+            <Equipment slot="Body" id="Item.ao_imperial_cataphracts_lamellar" />
+            <Equipment slot="Gloves" id="Item.TV_sturgia_gloves_a" />
+            <Equipment slot="Leg" id="Item.plated_strip_boots" />
+            <Equipment slot="Horse" id="Item.noble_horse_imperial" />
+            <Equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
         </EquipmentSet>
         <Flags IsNobleTemplate="true" IsHeavyTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="zul_bat_template_flamboyant" culture="Culture.zulizwe">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
-            <Equipment slot="Item1" id="Item.emirs_oval_shield"/>
-            <Equipment slot="Item2" id="Item.empire_noble_sword_2_t5"/>
-            <Equipment slot="Head" id="Item.AR_lion_head_c"/>
-            <Equipment slot="Cape" id="Item.AR_wolf_shoulder_g2"/>
-            <Equipment slot="Body" id="Item.AR_empire_horseman_armor_a2"/>
-            <Equipment slot="Gloves" id="Item.tv_empire_plate_b"/>
-            <Equipment slot="Leg" id="Item.tv_empire_plate_a"/>
+            <Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+            <Equipment slot="Item1" id="Item.emirs_oval_shield" />
+            <Equipment slot="Item2" id="Item.empire_noble_sword_2_t5" />
+            <Equipment slot="Head" id="Item.AR_lion_head_c" />
+            <Equipment slot="Cape" id="Item.AR_wolf_shoulder_g2" />
+            <Equipment slot="Body" id="Item.AR_empire_horseman_armor_a2" />
+            <Equipment slot="Gloves" id="Item.tv_empire_plate_b" />
+            <Equipment slot="Leg" id="Item.tv_empire_plate_a" />
         </EquipmentSet>
         <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="zul_bat_template_lady" culture="Culture.zulizwe">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
-            <Equipment slot="Item1" id="Item.emirs_oval_shield"/>
-            <Equipment slot="Item2" id="Item.empire_noble_sword_2_t5"/>
-            <Equipment slot="Head" id="Item.AR_lion_head_c"/>
-            <Equipment slot="Cape" id="Item.AR_wolf_shoulder_g2"/>
-            <Equipment slot="Body" id="Item.AR_empire_horseman_armor_a2"/>
-            <Equipment slot="Gloves" id="Item.tv_empire_plate_b"/>
-            <Equipment slot="Leg" id="Item.tv_empire_plate_a"/>
+            <Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+            <Equipment slot="Item1" id="Item.emirs_oval_shield" />
+            <Equipment slot="Item2" id="Item.empire_noble_sword_2_t5" />
+            <Equipment slot="Head" id="Item.AR_lion_head_c" />
+            <Equipment slot="Cape" id="Item.AR_wolf_shoulder_g2" />
+            <Equipment slot="Body" id="Item.AR_empire_horseman_armor_a2" />
+            <Equipment slot="Gloves" id="Item.tv_empire_plate_b" />
+            <Equipment slot="Leg" id="Item.tv_empire_plate_a" />
         </EquipmentSet>
         <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsFemaleTemplate="true" />
     </EquipmentRoster>
@@ -1194,29 +1228,29 @@
     </EquipmentRoster>
     <EquipmentRoster id="zul_king_template_bat_m" culture="Culture.zulizwe">
         <EquipmentSet civilian="false">
-            <Equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
-            <Equipment slot="Item1" id="Item.emirs_oval_shield"/>
-            <Equipment slot="Item2" id="Item.empire_noble_sword_2_t5"/>
-            <Equipment slot="Item3" id="Item.zulizwe_polearm_1_t4"/>
-            <Equipment slot="Head" id="Item.AR_lion_head_c"/>
-            <Equipment slot="Cape" id="Item.AR_wolf_shoulder_g2"/>
-            <Equipment slot="Body" id="Item.AR_empire_horseman_armor_a2"/>
-            <Equipment slot="Gloves" id="Item.tv_empire_plate_b"/>
-            <Equipment slot="Leg" id="Item.tv_empire_plate_a"/>
+            <Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+            <Equipment slot="Item1" id="Item.emirs_oval_shield" />
+            <Equipment slot="Item2" id="Item.empire_noble_sword_2_t5" />
+            <Equipment slot="Item3" id="Item.zulizwe_polearm_1_t4" />
+            <Equipment slot="Head" id="Item.AR_lion_head_c" />
+            <Equipment slot="Cape" id="Item.AR_wolf_shoulder_g2" />
+            <Equipment slot="Body" id="Item.AR_empire_horseman_armor_a2" />
+            <Equipment slot="Gloves" id="Item.tv_empire_plate_b" />
+            <Equipment slot="Leg" id="Item.tv_empire_plate_a" />
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="false" />
     </EquipmentRoster>
     <EquipmentRoster id="zul_king_template_bat_f" culture="Culture.zulizwe">
         <EquipmentSet civilian="false">
-            <Equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
-            <Equipment slot="Item1" id="Item.emirs_oval_shield"/>
-            <Equipment slot="Item2" id="Item.empire_noble_sword_2_t5"/>
-            <Equipment slot="Item3" id="Item.zulizwe_polearm_1_t4"/>
-            <Equipment slot="Head" id="Item.AR_lion_head_c"/>
-            <Equipment slot="Cape" id="Item.AR_wolf_shoulder_g2"/>
-            <Equipment slot="Body" id="Item.AR_empire_horseman_armor_a2"/>
-            <Equipment slot="Gloves" id="Item.tv_empire_plate_b"/>
-            <Equipment slot="Leg" id="Item.tv_empire_plate_a"/>
+            <Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+            <Equipment slot="Item1" id="Item.emirs_oval_shield" />
+            <Equipment slot="Item2" id="Item.empire_noble_sword_2_t5" />
+            <Equipment slot="Item3" id="Item.zulizwe_polearm_1_t4" />
+            <Equipment slot="Head" id="Item.AR_lion_head_c" />
+            <Equipment slot="Cape" id="Item.AR_wolf_shoulder_g2" />
+            <Equipment slot="Body" id="Item.AR_empire_horseman_armor_a2" />
+            <Equipment slot="Gloves" id="Item.tv_empire_plate_b" />
+            <Equipment slot="Leg" id="Item.tv_empire_plate_a" />
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="false" />
     </EquipmentRoster>

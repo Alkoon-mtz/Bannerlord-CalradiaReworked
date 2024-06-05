@@ -3,101 +3,96 @@
     <!-- Parents -->
     <EquipmentRoster id="mother_char_creation_0_scarhok" culture="Culture.empire">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.vlandian_dress" />
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.layered_leather_tunic" />
             <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_0_scarhok" culture="Culture.empire">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.sleeveless_padded_short_coat" />
-            <Equipment slot="Leg" id="Item.strapped_shoes" />
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.layered_leather_tunic" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
     </EquipmentRoster>
-    <!--1.Retainer-->
+    <!-- Choice 1 -->
     <EquipmentRoster id="mother_char_creation_1_scarhok" culture="Culture.scarhok">
         <EquipmentSet>
-            <Equipment slot="Head" id="Item.head_wrapped" />
-            <Equipment slot="Body" id="Item.empire_dress_b" />
-            <Equipment slot="Leg" id="Item.ladys_shoe" />
+            <Equipment slot="Cape" id="Item.ao_battanian_medallion" />
+            <Equipment slot="Body" id="Item.fur_trimmed_short_tunic" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_1_scarhok" culture="Culture.scarhok">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.coat_of_plates_over_mail" />
-            <Equipment slot="Head" id="Item.pointed_skullcap_with_mail" />
-            <Equipment slot="Leg" id="Item.strapped_shoes" />
+            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2" />
+            <Equipment slot="Body" id="Item.TV_vlandia_armor_b" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_g" />
+            <Equipment slot="Leg" id="Item.TV_vlandia_boots_b" />
         </EquipmentSet>
     </EquipmentRoster>
-    <!--2.Merchant-->
+    <!-- Choice 2 -->
     <EquipmentRoster id="mother_char_creation_2_scarhok" culture="Culture.scarhok">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.cut_dress_with_pouch" />
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Cape" id="Item.ao_battanian_medallion" />
+            <Equipment slot="Body" id="Item.fur_trimmed_tunic" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_2_scarhok" culture="Culture.scarhok">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.merchants_fur_coat" />
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
+            <Equipment slot="Cape" id="Item.hood" />
+            <Equipment slot="Body" id="Item.AO_eorling_armor_d" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_a" />
+            <Equipment slot="Leg" id="Item.TV_vlandia_boots_b" />
         </EquipmentSet>
     </EquipmentRoster>
-    <!--3.Farmer-->
+    <!-- Choice 3 -->
     <EquipmentRoster id="mother_char_creation_3_scarhok" culture="Culture.scarhok">
         <EquipmentSet>
-            <Equipment slot="Head" id="Item.head_scarf" />
-            <Equipment slot="Body" id="Item.vlandian_woman_dress" />
-            <Equipment slot="Leg" id="Item.ladys_shoe" />
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_3_scarhok" culture="Culture.scarhok">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
-            <Equipment slot="Head" id="Item.leather_cap" />
+            <Equipment slot="Cape" id="Item.DZ_vlandia_shoulders_b" />
+            <Equipment slot="Body" id="Item.nordic_sloven_over_mail" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_b" />
+            <Equipment slot="Leg" id="Item.TV_vlandia_boots_a" />
         </EquipmentSet>
     </EquipmentRoster>
-    <!--4.Artisan-->
+    <!-- Choice 4 -->
     <EquipmentRoster id="mother_char_creation_4_scarhok" culture="Culture.scarhok">
         <EquipmentSet>
-            <Equipment slot="Head" id="Item.headscarf" />
-            <Equipment slot="Body" id="Item.cloth_apron" />
-            <Equipment slot="Leg" id="Item.ladys_shoe" />
+            <Equipment slot="Body" id="Item.sturgia_light_tunic" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_4_scarhok" culture="Culture.scarhok">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.leather_apron" />
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
-            <Equipment slot="Gloves" id="Item.leather_gloves" />
+            <Equipment slot="Cape" id="Item.battania_shoulder_strap_cloak" />
+            <Equipment slot="Body" id="Item.AR_sturgia_armor_e" />
+            <Equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+            <Equipment slot="Leg" id="Item.TV_sturgia_boots_a" />
         </EquipmentSet>
     </EquipmentRoster>
-    <!--5.Hunter-->
+    <!-- Choice 5 -->
     <EquipmentRoster id="mother_char_creation_5_scarhok" culture="Culture.scarhok">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.battania_female_civil_a" />
-            <Equipment slot="Cape" id="Item.green_hood" />
-            <Equipment slot="Leg" id="Item.ragged_boots" />
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.sturgia_light_tunic" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_5_scarhok" culture="Culture.scarhok">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.layered_leather_tunic" />
-            <Equipment slot="Leg" id="Item.battania_woodland_boots" />
-            <Equipment slot="Gloves" id="Item.leather_gloves" />
-            <Equipment slot="Cape" id="Item.battania_woodland_cloak" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <!--6.Mercenary-->
-    <EquipmentRoster id="mother_char_creation_6_scarhok" culture="Culture.scarhok">
-        <EquipmentSet>
-            <Equipment slot="Head" id="Item.head_wrapped" />
-            <Equipment slot="Body" id="Item.laced_dress" />
-            <Equipment slot="Leg" id="Item.ladys_shoe" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="father_char_creation_6_scarhok" culture="Culture.scarhok">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.padded_short_coat" />
-            <Equipment slot="Leg" id="Item.strapped_shoes" />
+            <Equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_c" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_e2" />
+            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_d" />
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
         </EquipmentSet>
     </EquipmentRoster>
 
@@ -559,7 +554,11 @@
             <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
-        <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="child_template_scarhok_villager_female" culture="Culture.scarhok">
         <EquipmentSet civilian="true">
@@ -570,7 +569,11 @@
             <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
-        <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_scarhok_villager_male" culture="Culture.scarhok">
         <EquipmentSet civilian="true">
@@ -587,7 +590,11 @@
             <Equipment slot="Body" id="Item.monk_robe" />
             <Equipment slot="Leg" id="Item.strapped_shoes" />
         </EquipmentSet>
-        <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_scarhok_villager_female" culture="Culture.scarhok">
         <EquipmentSet civilian="true">
@@ -603,7 +610,11 @@
             <Equipment slot="Head" id="Item.headscarf_c" />
             <Equipment slot="Body" id="Item.battania_dress_c" />
         </EquipmentSet>
-        <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
 
     <!--Townsman -->
@@ -620,7 +631,11 @@
             <Equipment slot="Body" id="Item.long_hemp_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
-        <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="child_template_scarhok_townsman_female" culture="Culture.scarhok">
         <EquipmentSet civilian="true">
@@ -635,7 +650,11 @@
             <Equipment slot="Body" id="Item.leather_coat" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
-        <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_scarhok_townsman_male" culture="Culture.scarhok">
         <EquipmentSet civilian="true">
@@ -650,7 +669,11 @@
             <Equipment slot="Body" id="Item.monk_robe" />
             <Equipment slot="Leg" id="Item.strapped_shoes" />
         </EquipmentSet>
-        <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_scarhok_townsman_female" culture="Culture.scarhok">
         <EquipmentSet civilian="true">
@@ -667,7 +690,11 @@
             <Equipment slot="Head" id="Item.head_scarf" />
             <Equipment slot="Body" id="Item.vlandian_woman_dress" />
         </EquipmentSet>
-        <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
 
     <!--Noble -->
@@ -684,7 +711,11 @@
             <Equipment slot="Body" id="Item.long_hemp_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
-        <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="child_template_scarhok_noble_female" culture="Culture.scarhok">
         <EquipmentSet civilian="true">
@@ -699,7 +730,11 @@
             <Equipment slot="Body" id="Item.long_hemp_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
-        <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_scarhok_noble_male" culture="Culture.scarhok">
         <EquipmentSet civilian="true">
@@ -714,7 +749,11 @@
             <Equipment slot="Body" id="Item.cloth_tunic" />
             <Equipment slot="Leg" id="Item.strapped_shoes" />
         </EquipmentSet>
-        <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_scarhok_noble_female" culture="Culture.scarhok">
         <EquipmentSet civilian="true">
@@ -731,7 +770,11 @@
             <Equipment slot="Head" id="Item.head_scarf" />
             <Equipment slot="Body" id="Item.vlandian_corset_dress" />
         </EquipmentSet>
-        <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
 
 
@@ -746,318 +789,318 @@
     </EquipmentRoster>
     <EquipmentRoster id="npc_armed_wanderer_equipment_template_scarhok" culture="Culture.scarhok">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
-            <Equipment slot="Item1" id="Item.western_kite_shield"/>
-            <Equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
-            <Equipment slot="Head" id="Item.nasalhelm_over_leather"/>
-            <Equipment slot="Body" id="Item.TV_vlandia_armor_e"/>
-            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Item0" id="Item.vlandia_axe_1_t3" />
+            <Equipment slot="Item1" id="Item.western_kite_shield" />
+            <Equipment slot="Item2" id="Item.western_throwing_axe_1_t1" />
+            <Equipment slot="Head" id="Item.nasalhelm_over_leather" />
+            <Equipment slot="Body" id="Item.TV_vlandia_armor_e" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="sca_npcgenerics_template_poor" culture="Culture.scarhok">
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Body" id="Item.AR_empire_armor_f"/>
-            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.AR_empire_armor_f" />
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Body" id="Item.AR_empire_armor_f"/>
-            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.AR_empire_armor_f" />
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Body" id="Item.AR_empire_armor_f"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.AR_empire_armor_f" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Body" id="Item.AR_empire_armor_f"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.AR_empire_armor_f" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.AR_empire_armor_f"/>
-            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Body" id="Item.AR_empire_armor_f" />
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.AR_empire_armor_f"/>
-            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Body" id="Item.AR_empire_armor_f" />
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.AR_empire_armor_f"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Body" id="Item.AR_empire_armor_f" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.AR_empire_armor_f"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Body" id="Item.AR_empire_armor_f" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
+            <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="sca_npcgenerics_template_mid" culture="Culture.scarhok">
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Body" id="Item.sturgia_light_tunic"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.sturgia_light_tunic" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Body" id="Item.sturgia_light_tunic"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.sturgia_light_tunic" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.sturgia_light_tunic"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Body" id="Item.sturgia_light_tunic" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.sturgia_light_tunic"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Body" id="Item.sturgia_light_tunic" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Body" id="Item.leather_coat_over_cloth"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Body" id="Item.leather_coat_over_cloth"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.leather_coat_over_cloth"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.leather_coat_over_cloth"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Body" id="Item.nordic_sloven"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.nordic_sloven" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Body" id="Item.nordic_sloven"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.nordic_sloven" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.nordic_sloven"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Body" id="Item.nordic_sloven" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.nordic_sloven"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Body" id="Item.nordic_sloven" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Body" id="Item.layered_leather_tunic"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.layered_leather_tunic" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Body" id="Item.layered_leather_tunic"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Body" id="Item.layered_leather_tunic" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.layered_leather_tunic"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Body" id="Item.layered_leather_tunic" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.layered_leather_tunic"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Body" id="Item.layered_leather_tunic" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="sca_npcgenerics_template_forge" culture="Culture.scarhok">
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.half_apron"/>
+            <Equipment slot="Body" id="Item.half_apron" />
             <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.leather_apron"/>
+            <Equipment slot="Body" id="Item.leather_apron" />
             <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="sca_npcgenerics_template_preacher" culture="Culture.scarhok">
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.northern_leather_vest"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Body" id="Item.northern_leather_vest" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.northern_leather_vest"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Body" id="Item.northern_leather_vest" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="sca_npcgenerics_template_rich" culture="Culture.scarhok">
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Cape" id="Item.ao_battanian_medallion"/>
-            <Equipment slot="Body" id="Item.fur_trimmed_tunic"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Cape" id="Item.ao_battanian_medallion" />
+            <Equipment slot="Body" id="Item.fur_trimmed_tunic" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Cape" id="Item.ao_caladogs_medallion"/>
-            <Equipment slot="Body" id="Item.fur_trimmed_tunic"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Cape" id="Item.ao_caladogs_medallion" />
+            <Equipment slot="Body" id="Item.fur_trimmed_tunic" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.ao_battanian_medallion"/>
-            <Equipment slot="Body" id="Item.fur_trimmed_tunic"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Cape" id="Item.ao_battanian_medallion" />
+            <Equipment slot="Body" id="Item.fur_trimmed_tunic" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.ao_caladogs_medallion"/>
-            <Equipment slot="Body" id="Item.fur_trimmed_tunic"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Cape" id="Item.ao_caladogs_medallion" />
+            <Equipment slot="Body" id="Item.fur_trimmed_tunic" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.fur_trimmed_tunic"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Body" id="Item.fur_trimmed_tunic" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.fur_trimmed_tunic"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Body" id="Item.fur_trimmed_tunic" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Cape" id="Item.ao_battanian_medallion"/>
-            <Equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Cape" id="Item.ao_battanian_medallion" />
+            <Equipment slot="Body" id="Item.fur_trimmed_short_tunic" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Cape" id="Item.ao_caladogs_medallion"/>
-            <Equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Cape" id="Item.ao_caladogs_medallion" />
+            <Equipment slot="Body" id="Item.fur_trimmed_short_tunic" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.ao_battanian_medallion"/>
-            <Equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Cape" id="Item.ao_battanian_medallion" />
+            <Equipment slot="Body" id="Item.fur_trimmed_short_tunic" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.ao_caladogs_medallion"/>
-            <Equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Cape" id="Item.ao_caladogs_medallion" />
+            <Equipment slot="Body" id="Item.fur_trimmed_short_tunic" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Body" id="Item.fur_trimmed_short_tunic" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Body" id="Item.fur_trimmed_short_tunic" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Cape" id="Item.ao_battanian_medallion"/>
-            <Equipment slot="Body" id="Item.khuzait_civil_coat"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Cape" id="Item.ao_battanian_medallion" />
+            <Equipment slot="Body" id="Item.khuzait_civil_coat" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Cape" id="Item.ao_caladogs_medallion"/>
-            <Equipment slot="Body" id="Item.khuzait_civil_coat"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Cape" id="Item.ao_caladogs_medallion" />
+            <Equipment slot="Body" id="Item.khuzait_civil_coat" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.ao_battanian_medallion"/>
-            <Equipment slot="Body" id="Item.khuzait_civil_coat"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Cape" id="Item.ao_battanian_medallion" />
+            <Equipment slot="Body" id="Item.khuzait_civil_coat" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.ao_caladogs_medallion"/>
-            <Equipment slot="Body" id="Item.khuzait_civil_coat"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Cape" id="Item.ao_caladogs_medallion" />
+            <Equipment slot="Body" id="Item.khuzait_civil_coat" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.khuzait_civil_coat"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Body" id="Item.khuzait_civil_coat" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.khuzait_civil_coat"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Body" id="Item.khuzait_civil_coat" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Cape" id="Item.ao_battanian_medallion"/>
-            <Equipment slot="Body" id="Item.merchants_fur_coat"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Cape" id="Item.ao_battanian_medallion" />
+            <Equipment slot="Body" id="Item.merchants_fur_coat" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-            <Equipment slot="Cape" id="Item.ao_caladogs_medallion"/>
-            <Equipment slot="Body" id="Item.merchants_fur_coat"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+            <Equipment slot="Cape" id="Item.ao_caladogs_medallion" />
+            <Equipment slot="Body" id="Item.merchants_fur_coat" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.ao_battanian_medallion"/>
-            <Equipment slot="Body" id="Item.merchants_fur_coat"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Cape" id="Item.ao_battanian_medallion" />
+            <Equipment slot="Body" id="Item.merchants_fur_coat" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.ao_caladogs_medallion"/>
-            <Equipment slot="Body" id="Item.merchants_fur_coat"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Cape" id="Item.ao_caladogs_medallion" />
+            <Equipment slot="Body" id="Item.merchants_fur_coat" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.merchants_fur_coat"/>
-            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            <Equipment slot="Body" id="Item.merchants_fur_coat" />
+            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.merchants_fur_coat"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Body" id="Item.merchants_fur_coat" />
+            <Equipment slot="Leg" id="Item.sturgia_boots_c" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
@@ -1065,69 +1108,69 @@
     <!--Lord -->
     <EquipmentRoster id="sca_bat_template_low" culture="Culture.scarhok">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.northern_battle_axe_t3"/>
-            <Equipment slot="Item1" id="Item.generic_javelin_1_t3"/>
-            <Equipment slot="Item2" id="Item.generic_javelin_1_t3"/>
-            <Equipment slot="Head" id="Item.TV_nord_helmet_o"/>
-            <Equipment slot="Cape" id="Item.battania_shoulder_strap_cloak"/>
-            <Equipment slot="Body" id="Item.AR_sturgia_armor_e"/>
-            <Equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
-            <Equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
-            <Equipment slot="Horse" id="Item.t2_sturgia_horse"/>
-            <Equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+            <Equipment slot="Item0" id="Item.northern_battle_axe_t3" />
+            <Equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+            <Equipment slot="Item2" id="Item.generic_javelin_1_t3" />
+            <Equipment slot="Head" id="Item.TV_nord_helmet_o" />
+            <Equipment slot="Cape" id="Item.battania_shoulder_strap_cloak" />
+            <Equipment slot="Body" id="Item.AR_sturgia_armor_e" />
+            <Equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+            <Equipment slot="Leg" id="Item.TV_sturgia_boots_a" />
+            <Equipment slot="Horse" id="Item.t2_sturgia_horse" />
+            <Equipment slot="HorseHarness" id="Item.northern_light_harness" />
         </EquipmentSet>
         <Flags IsNobleTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="sca_bat_template_medium" culture="Culture.scarhok">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.scarhok_throwing_axe_t5"/>
-            <Equipment slot="Item1" id="Item.scarhok_throwing_axe_t5"/>
-            <Equipment slot="Item2" id="Item.scarhok_axethrower_axe_t5"/>
-            <Equipment slot="Head" id="Item.TV_nord_helmet_f"/>
-            <Equipment slot="Cape" id="Item.DZ_vlandia_shoulders_b"/>
-            <Equipment slot="Body" id="Item.AR_sturgia_armor_c"/>
-            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
-            <Equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+            <Equipment slot="Item0" id="Item.scarhok_throwing_axe_t5" />
+            <Equipment slot="Item1" id="Item.scarhok_throwing_axe_t5" />
+            <Equipment slot="Item2" id="Item.scarhok_axethrower_axe_t5" />
+            <Equipment slot="Head" id="Item.TV_nord_helmet_f" />
+            <Equipment slot="Cape" id="Item.DZ_vlandia_shoulders_b" />
+            <Equipment slot="Body" id="Item.AR_sturgia_armor_c" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_b" />
+            <Equipment slot="Leg" id="Item.TV_vlandia_boots_a" />
         </EquipmentSet>
         <Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="sca_bat_template_heavy" culture="Culture.scarhok">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.lowland_yew_bow"/>
-            <Equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-            <Equipment slot="Item2" id="Item.bodkin_arrows_a"/>
-            <Equipment slot="Item3" id="Item.scarhok_archer_axe_t5"/>
-            <Equipment slot="Head" id="Item.nasal_helmet_with_mail"/>
-            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
-            <Equipment slot="Body" id="Item.ao_eorling_bronze_scale_over_mail"/>
-            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
-            <Equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+            <Equipment slot="Item0" id="Item.lowland_yew_bow" />
+            <Equipment slot="Item1" id="Item.bodkin_arrows_a" />
+            <Equipment slot="Item2" id="Item.bodkin_arrows_a" />
+            <Equipment slot="Item3" id="Item.scarhok_archer_axe_t5" />
+            <Equipment slot="Head" id="Item.nasal_helmet_with_mail" />
+            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2" />
+            <Equipment slot="Body" id="Item.ao_eorling_bronze_scale_over_mail" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_b" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="sca_bat_template_flamboyant" culture="Culture.scarhok">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.scarhok_elite_axe_t6"/>
-            <Equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
-            <Equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
-            <Equipment slot="Head" id="Item.italio_norman_helm"/>
-            <Equipment slot="Cape" id="Item.AR_vlandia_shoulders_f"/>
-            <Equipment slot="Body" id="Item.AR_vlandia_armor_b"/>
-            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
+            <Equipment slot="Item0" id="Item.scarhok_elite_axe_t6" />
+            <Equipment slot="Item1" id="Item.stronger_reinforced_kite_shield" />
+            <Equipment slot="Item2" id="Item.highland_throwing_axe_1_t2" />
+            <Equipment slot="Head" id="Item.italio_norman_helm" />
+            <Equipment slot="Cape" id="Item.AR_vlandia_shoulders_f" />
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_b" />
+            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet" />
+            <Equipment slot="Leg" id="Item.sa_1ChurburghBoots" />
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="sca_bat_template_lady" culture="Culture.scarhok">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.scarhok_elite_axe_t6"/>
-            <Equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
-            <Equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
-            <Equipment slot="Head" id="Item.italio_norman_helm"/>
-            <Equipment slot="Cape" id="Item.AR_vlandia_shoulders_f"/>
-            <Equipment slot="Body" id="Item.AR_vlandia_armor_b"/>
-            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
+            <Equipment slot="Item0" id="Item.scarhok_elite_axe_t6" />
+            <Equipment slot="Item1" id="Item.stronger_reinforced_kite_shield" />
+            <Equipment slot="Item2" id="Item.highland_throwing_axe_1_t2" />
+            <Equipment slot="Head" id="Item.italio_norman_helm" />
+            <Equipment slot="Cape" id="Item.AR_vlandia_shoulders_f" />
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_b" />
+            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet" />
+            <Equipment slot="Leg" id="Item.sa_1ChurburghBoots" />
         </EquipmentSet>
         <Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
@@ -1298,27 +1341,27 @@
     </EquipmentRoster>
     <EquipmentRoster id="sca_king_template_bat_m" culture="Culture.scarhok">
         <EquipmentSet civilian="false">
-            <Equipment slot="Item0" id="Item.scarhok_elite_axe_t6"/>
-            <Equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
-            <Equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
-            <Equipment slot="Head" id="Item.italio_norman_helm_crown"/>
-            <Equipment slot="Cape" id="Item.AR_vlandia_shoulders_f"/>
-            <Equipment slot="Body" id="Item.AR_vlandia_armor_b"/>
-            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
+            <Equipment slot="Item0" id="Item.scarhok_elite_axe_t6" />
+            <Equipment slot="Item1" id="Item.stronger_reinforced_kite_shield" />
+            <Equipment slot="Item2" id="Item.highland_throwing_axe_1_t2" />
+            <Equipment slot="Head" id="Item.italio_norman_helm_crown" />
+            <Equipment slot="Cape" id="Item.AR_vlandia_shoulders_f" />
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_b" />
+            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet" />
+            <Equipment slot="Leg" id="Item.sa_1ChurburghBoots" />
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="false" />
     </EquipmentRoster>
     <EquipmentRoster id="sca_king_template_bat_f" culture="Culture.scarhok">
         <EquipmentSet civilian="false">
-            <Equipment slot="Item0" id="Item.scarhok_elite_axe_t6"/>
-            <Equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
-            <Equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
-            <Equipment slot="Head" id="Item.italio_norman_helm_crown"/>
-            <Equipment slot="Cape" id="Item.AR_vlandia_shoulders_f"/>
-            <Equipment slot="Body" id="Item.AR_vlandia_armor_b"/>
-            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
+            <Equipment slot="Item0" id="Item.scarhok_elite_axe_t6" />
+            <Equipment slot="Item1" id="Item.stronger_reinforced_kite_shield" />
+            <Equipment slot="Item2" id="Item.highland_throwing_axe_1_t2" />
+            <Equipment slot="Head" id="Item.italio_norman_helm_crown" />
+            <Equipment slot="Cape" id="Item.AR_vlandia_shoulders_f" />
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_b" />
+            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet" />
+            <Equipment slot="Leg" id="Item.sa_1ChurburghBoots" />
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="false" />
     </EquipmentRoster>

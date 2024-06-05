@@ -1,5 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EquipmentRosters>
+    <!-- Parents -->
+    <EquipmentRoster id="mother_char_creation_0_aserai" culture="Culture.aserai">
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a" />
+            <Equipment slot="Body" id="Item.long_desert_robe" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_0_aserai" culture="Culture.aserai">
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.aserai_civil_c_head" />
+            <Equipment slot="Body" id="Item.long_desert_robe" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!-- Choice 1 -->
+    <EquipmentRoster id="mother_char_creation_1_aserai" culture="Culture.aserai">
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.aserai_civil_c_head" />
+            <Equipment slot="Cape" id="Item.AR_aserai_shoulder_h" />
+            <Equipment slot="Body" id="Item.aserai_civil_d" />
+            <Equipment slot="Leg" id="Item.TV_moccasins_b" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_1_aserai" culture="Culture.aserai">
+        <EquipmentSet>
+            <Equipment slot="Cape" id="Item.aserai_scale_shoulder_b" />
+            <Equipment slot="Body" id="Item.aserai_scale_armor_on_cloth" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_a" />
+            <Equipment slot="Leg" id="Item.AR_vlandia_boots_a" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!-- Choice 2 -->
+    <EquipmentRoster id="mother_char_creation_2_aserai" culture="Culture.aserai">
+        <EquipmentSet>
+            <Equipment slot="Cape" id="Item.AR_aserai_shoulder_h" />
+            <Equipment slot="Body" id="Item.aserai_civil_c" />
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_a" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_2_aserai" culture="Culture.aserai">
+        <EquipmentSet>
+            <Equipment slot="Cape" id="Item.desert_scale_shoulders" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_b" />
+            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_b" />
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_e" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!-- Choice 3 -->
+    <EquipmentRoster id="mother_char_creation_3_aserai" culture="Culture.aserai">
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a" />
+            <Equipment slot="Body" id="Item.desert_robe" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_3_aserai" culture="Culture.aserai">
+        <EquipmentSet>
+            <Equipment slot="Cape" id="Item.aserai_scale_shoulder_c" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_i" />
+            <Equipment slot="Gloves" id="Item.TV_sturgia_gloves_b" />
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_e" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!-- Choice 4 -->
+    <EquipmentRoster id="mother_char_creation_4_aserai" culture="Culture.aserai">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.long_desert_robe" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_4_aserai" culture="Culture.aserai">
+        <EquipmentSet>
+            <Equipment slot="Cape" id="Item.AR_aserai_scale_shoulder_b" />
+            <Equipment slot="Body" id="Item.desert_robe_over_mail" />
+            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_d" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!-- Choice 5 -->
+    <EquipmentRoster id="mother_char_creation_5_aserai" culture="Culture.aserai">
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.aserai_female_civil_hscarf" />
+            <Equipment slot="Body" id="Item.fine_southern_dress" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_5_aserai" culture="Culture.aserai">
+        <EquipmentSet>
+            <Equipment slot="Cape" id="Item.DZ_empire_shoulder_a" />
+            <Equipment slot="Body" id="Item.tv_empire_armor_a" />
+            <Equipment slot="Gloves" id="Item.AO_durkhan_gauntlets_a" />
+            <Equipment slot="Leg" id="Item.AR_empire_boots_a" />
+        </EquipmentSet>
+    </EquipmentRoster>
+
     <!-- Notables and Wanderers -->
     <EquipmentRoster id="npc_wanderer_equipment_template_aseriyun" culture="Culture.aserai">
         <EquipmentSet civilian="true">
@@ -12,234 +108,234 @@
     </EquipmentRoster>
     <EquipmentRoster id="npc_armed_wanderer_equipment_template_aseriyun" culture="Culture.aserai">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
-            <Equipment slot="Item1" id="Item.battania_targe_b"/>
-            <Equipment slot="Head" id="Item.TV_aserai_helmet_d"/>
-            <Equipment slot="Body" id="Item.desert_padded_cloth"/>
-            <Equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+            <Equipment slot="Item0" id="Item.aserai_sword_2_t2" />
+            <Equipment slot="Item1" id="Item.battania_targe_b" />
+            <Equipment slot="Head" id="Item.TV_aserai_helmet_d" />
+            <Equipment slot="Body" id="Item.desert_padded_cloth" />
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_a" />
         </EquipmentSet>
         <Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="ase_npcgenerics_template_poor" culture="Culture.aserai">
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.turban"/>
-            <Equipment slot="Body" id="Item.layered_robe"/>
-            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+            <Equipment slot="Head" id="Item.turban" />
+            <Equipment slot="Body" id="Item.layered_robe" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.headscarf_d"/>
-            <Equipment slot="Body" id="Item.layered_robe"/>
-            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+            <Equipment slot="Head" id="Item.headscarf_d" />
+            <Equipment slot="Body" id="Item.layered_robe" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.layered_robe"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+            <Equipment slot="Body" id="Item.layered_robe" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.layered_robe"/>
-            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+            <Equipment slot="Body" id="Item.layered_robe" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.turban"/>
-            <Equipment slot="Body" id="Item.AR_aserai_armor_n"/>
-            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+            <Equipment slot="Head" id="Item.turban" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_n" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.headscarf_d"/>
-            <Equipment slot="Body" id="Item.AR_aserai_armor_n"/>
-            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+            <Equipment slot="Head" id="Item.headscarf_d" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_n" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.AR_aserai_armor_n"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+            <Equipment slot="Body" id="Item.AR_aserai_armor_n" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.AR_aserai_armor_n"/>
-            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+            <Equipment slot="Body" id="Item.AR_aserai_armor_n" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.turban"/>
-            <Equipment slot="Body" id="Item.aserai_civil_f"/>
-            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+            <Equipment slot="Head" id="Item.turban" />
+            <Equipment slot="Body" id="Item.aserai_civil_f" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.headscarf_d"/>
-            <Equipment slot="Body" id="Item.aserai_civil_f"/>
-            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+            <Equipment slot="Head" id="Item.headscarf_d" />
+            <Equipment slot="Body" id="Item.aserai_civil_f" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.aserai_civil_f"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+            <Equipment slot="Body" id="Item.aserai_civil_f" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.aserai_civil_f"/>
-            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+            <Equipment slot="Body" id="Item.aserai_civil_f" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="ase_npcgenerics_template_mid" culture="Culture.aserai">
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
-            <Equipment slot="Body" id="Item.long_desert_robe"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a" />
+            <Equipment slot="Body" id="Item.long_desert_robe" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.aserai_civil_c_head"/>
-            <Equipment slot="Body" id="Item.long_desert_robe"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+            <Equipment slot="Head" id="Item.aserai_civil_c_head" />
+            <Equipment slot="Body" id="Item.long_desert_robe" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.long_desert_robe"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+            <Equipment slot="Body" id="Item.long_desert_robe" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.long_desert_robe"/>
-            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+            <Equipment slot="Body" id="Item.long_desert_robe" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
-            <Equipment slot="Body" id="Item.desert_robe"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a" />
+            <Equipment slot="Body" id="Item.desert_robe" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.aserai_civil_c_head"/>
-            <Equipment slot="Body" id="Item.desert_robe"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+            <Equipment slot="Head" id="Item.aserai_civil_c_head" />
+            <Equipment slot="Body" id="Item.desert_robe" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.desert_robe"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+            <Equipment slot="Body" id="Item.desert_robe" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.desert_robe"/>
-            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+            <Equipment slot="Body" id="Item.desert_robe" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
-            <Equipment slot="Body" id="Item.thick_sleeved_robe"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a" />
+            <Equipment slot="Body" id="Item.thick_sleeved_robe" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.aserai_civil_c_head"/>
-            <Equipment slot="Body" id="Item.thick_sleeved_robe"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+            <Equipment slot="Head" id="Item.aserai_civil_c_head" />
+            <Equipment slot="Body" id="Item.thick_sleeved_robe" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.thick_sleeved_robe"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+            <Equipment slot="Body" id="Item.thick_sleeved_robe" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.thick_sleeved_robe"/>
-            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+            <Equipment slot="Body" id="Item.thick_sleeved_robe" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
-            <Equipment slot="Body" id="Item.aserai_civil_e"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a" />
+            <Equipment slot="Body" id="Item.aserai_civil_e" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.aserai_civil_c_head"/>
-            <Equipment slot="Body" id="Item.aserai_civil_e"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+            <Equipment slot="Head" id="Item.aserai_civil_c_head" />
+            <Equipment slot="Body" id="Item.aserai_civil_e" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.aserai_civil_e"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+            <Equipment slot="Body" id="Item.aserai_civil_e" />
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.aserai_civil_e"/>
-            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+            <Equipment slot="Body" id="Item.aserai_civil_e" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="ase_npcgenerics_template_forge" culture="Culture.aserai">
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.cloth_apron"/>
+            <Equipment slot="Body" id="Item.cloth_apron" />
             <Equipment slot="Gloves" id="Item.leather_gloves" />
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="ase_npcgenerics_template_preacher" culture="Culture.aserai">
         <EquipmentSet civilian="true">
             <Equipment slot="Head" id="Item.aserai_civil_hscarf_b" />
-            <Equipment slot="Body" id="Item.aserai_civil_b"/>
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+            <Equipment slot="Body" id="Item.aserai_civil_b" />
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="ase_npcgenerics_template_rich" culture="Culture.aserai">
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.aserai_civil_c_head"/>
-            <Equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
-            <Equipment slot="Body" id="Item.aserai_civil_d"/>
-            <Equipment slot="Leg" id="Item.TV_moccasins_b"/>
+            <Equipment slot="Head" id="Item.aserai_civil_c_head" />
+            <Equipment slot="Cape" id="Item.AR_aserai_shoulder_h" />
+            <Equipment slot="Body" id="Item.aserai_civil_d" />
+            <Equipment slot="Leg" id="Item.TV_moccasins_b" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
-            <Equipment slot="Body" id="Item.aserai_civil_d"/>
-            <Equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+            <Equipment slot="Cape" id="Item.AR_aserai_shoulder_h" />
+            <Equipment slot="Body" id="Item.aserai_civil_d" />
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_a" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.aserai_civil_c_head"/>
-            <Equipment slot="Body" id="Item.aserai_civil_d"/>
-            <Equipment slot="Leg" id="Item.TV_moccasins_b"/>
+            <Equipment slot="Head" id="Item.aserai_civil_c_head" />
+            <Equipment slot="Body" id="Item.aserai_civil_d" />
+            <Equipment slot="Leg" id="Item.TV_moccasins_b" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.aserai_civil_d"/>
-            <Equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+            <Equipment slot="Body" id="Item.aserai_civil_d" />
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_a" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.aserai_civil_d"/>
-            <Equipment slot="Leg" id="Item.TV_moccasins_b"/>
+            <Equipment slot="Body" id="Item.aserai_civil_d" />
+            <Equipment slot="Leg" id="Item.TV_moccasins_b" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.aserai_civil_c_head"/>
-            <Equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
-            <Equipment slot="Body" id="Item.aserai_civil_c"/>
-            <Equipment slot="Leg" id="Item.TV_moccasins_b"/>
+            <Equipment slot="Head" id="Item.aserai_civil_c_head" />
+            <Equipment slot="Cape" id="Item.AR_aserai_shoulder_h" />
+            <Equipment slot="Body" id="Item.aserai_civil_c" />
+            <Equipment slot="Leg" id="Item.TV_moccasins_b" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
-            <Equipment slot="Body" id="Item.aserai_civil_c"/>
-            <Equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+            <Equipment slot="Cape" id="Item.AR_aserai_shoulder_h" />
+            <Equipment slot="Body" id="Item.aserai_civil_c" />
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_a" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.aserai_civil_c_head"/>
-            <Equipment slot="Body" id="Item.aserai_civil_c"/>
-            <Equipment slot="Leg" id="Item.TV_moccasins_b"/>
+            <Equipment slot="Head" id="Item.aserai_civil_c_head" />
+            <Equipment slot="Body" id="Item.aserai_civil_c" />
+            <Equipment slot="Leg" id="Item.TV_moccasins_b" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.aserai_civil_c"/>
-            <Equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+            <Equipment slot="Body" id="Item.aserai_civil_c" />
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_a" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.aserai_civil_c"/>
-            <Equipment slot="Leg" id="Item.TV_moccasins_b"/>
+            <Equipment slot="Body" id="Item.aserai_civil_c" />
+            <Equipment slot="Leg" id="Item.TV_moccasins_b" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.aserai_civil_c_head"/>
-            <Equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
-            <Equipment slot="Body" id="Item.tassled_southern_robes"/>
-            <Equipment slot="Leg" id="Item.TV_moccasins_b"/>
+            <Equipment slot="Head" id="Item.aserai_civil_c_head" />
+            <Equipment slot="Cape" id="Item.AR_aserai_shoulder_h" />
+            <Equipment slot="Body" id="Item.tassled_southern_robes" />
+            <Equipment slot="Leg" id="Item.TV_moccasins_b" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
-            <Equipment slot="Body" id="Item.tassled_southern_robes"/>
-            <Equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+            <Equipment slot="Cape" id="Item.AR_aserai_shoulder_h" />
+            <Equipment slot="Body" id="Item.tassled_southern_robes" />
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_a" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.aserai_civil_c_head"/>
-            <Equipment slot="Body" id="Item.tassled_southern_robes"/>
-            <Equipment slot="Leg" id="Item.TV_moccasins_b"/>
+            <Equipment slot="Head" id="Item.aserai_civil_c_head" />
+            <Equipment slot="Body" id="Item.tassled_southern_robes" />
+            <Equipment slot="Leg" id="Item.TV_moccasins_b" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.tassled_southern_robes"/>
-            <Equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+            <Equipment slot="Body" id="Item.tassled_southern_robes" />
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_a" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.tassled_southern_robes"/>
-            <Equipment slot="Leg" id="Item.TV_moccasins_b"/>
+            <Equipment slot="Body" id="Item.tassled_southern_robes" />
+            <Equipment slot="Leg" id="Item.TV_moccasins_b" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
@@ -247,74 +343,74 @@
     <!--Lord -->
     <EquipmentRoster id="ase_bat_template_bedouin" culture="Culture.aserai">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
-            <Equipment slot="Item1" id="Item.highland_riders_shield"/>
-            <Equipment slot="Item2" id="Item.vlandia_pike_1_t5"/>
-            <Equipment slot="Head" id="Item.AR_aserai_helmet_l"/>
-            <Equipment slot="Cape" id="Item.AR_aserai_scale_cape_b2"/>
-            <Equipment slot="Body" id="Item.TV_aserai_robe_a"/>
-            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
-            <Equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
+            <Equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
+            <Equipment slot="Item1" id="Item.highland_riders_shield" />
+            <Equipment slot="Item2" id="Item.vlandia_pike_1_t5" />
+            <Equipment slot="Head" id="Item.AR_aserai_helmet_l" />
+            <Equipment slot="Cape" id="Item.AR_aserai_scale_cape_b2" />
+            <Equipment slot="Body" id="Item.TV_aserai_robe_a" />
+            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_b" />
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_d" />
         </EquipmentSet>
         <Flags IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="ase_bat_template_medium" culture="Culture.aserai">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.steppe_war_bow"/>
-            <Equipment slot="Item1" id="Item.aseriyun_arrows_c"/>
-            <Equipment slot="Item2" id="Item.eastern_spear_4_t4"/>
-            <Equipment slot="Item3" id="Item.highland_riders_shield"/>
-            <Equipment slot="Head" id="Item.pointed_skullcap_with_mail"/>
-            <Equipment slot="Cape" id="Item.aserai_scale_shoulder_e"/>
-            <Equipment slot="Body" id="Item.AR_aserai_armor_j"/>
-            <Equipment slot="Gloves" id="Item.TV_sturgia_gloves_b"/>
-            <Equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
-            <Equipment slot="Horse" id="Item.noble_horse_southern"/>
-            <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+            <Equipment slot="Item0" id="Item.steppe_war_bow" />
+            <Equipment slot="Item1" id="Item.aseriyun_arrows_c" />
+            <Equipment slot="Item2" id="Item.eastern_spear_4_t4" />
+            <Equipment slot="Item3" id="Item.highland_riders_shield" />
+            <Equipment slot="Head" id="Item.pointed_skullcap_with_mail" />
+            <Equipment slot="Cape" id="Item.aserai_scale_shoulder_e" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_j" />
+            <Equipment slot="Gloves" id="Item.TV_sturgia_gloves_b" />
+            <Equipment slot="Leg" id="Item.TV_sturgia_boots_b" />
+            <Equipment slot="Horse" id="Item.noble_horse_southern" />
+            <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
         </EquipmentSet>
         <Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="ase_bat_template_heavy" culture="Culture.aserai">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.aserai_noble_sword_2_t5"/>
-            <Equipment slot="Item1" id="Item.highland_riders_shield"/>
-            <Equipment slot="Head" id="Item.AR_aserai_cataphract_helmet_b"/>
-            <Equipment slot="Cape" id="Item.AR_aserai_shoulder_c2"/>
-            <Equipment slot="Body" id="Item.AR_aserai_armor_f"/>
-            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
-            <Equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
+            <Equipment slot="Item0" id="Item.aserai_noble_sword_2_t5" />
+            <Equipment slot="Item1" id="Item.highland_riders_shield" />
+            <Equipment slot="Head" id="Item.AR_aserai_cataphract_helmet_b" />
+            <Equipment slot="Cape" id="Item.AR_aserai_shoulder_c2" />
+            <Equipment slot="Body" id="Item.AR_aserai_armor_f" />
+            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_b" />
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_d" />
         </EquipmentSet>
         <Flags IsNobleTemplate="true" IsHeavyTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="ase_bat_template_flamboyant" culture="Culture.aserai">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.eastern_javelin_3_t4"/>
-            <Equipment slot="Item1" id="Item.eastern_javelin_3_t4"/>
-            <Equipment slot="Item2" id="Item.aseriyun_polearm_1_t5"/>
-            <Equipment slot="Item3" id="Item.highland_riders_shield"/>
-            <Equipment slot="Head" id="Item.brass_aserai_helmet_b_closed"/>
-            <Equipment slot="Cape" id="Item.AR_aserai_scale_cape_b"/>
-            <Equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain"/>
-            <Equipment slot="Gloves" id="Item.tv_battania_warlord_bracers"/>
-            <Equipment slot="Leg" id="Item.tv_battania_warlord_boots_b"/>
-            <Equipment slot="Horse" id="Item.noble_horse_southern"/>
-            <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+            <Equipment slot="Item0" id="Item.eastern_javelin_3_t4" />
+            <Equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+            <Equipment slot="Item2" id="Item.aseriyun_polearm_1_t5" />
+            <Equipment slot="Item3" id="Item.highland_riders_shield" />
+            <Equipment slot="Head" id="Item.brass_aserai_helmet_b_closed" />
+            <Equipment slot="Cape" id="Item.AR_aserai_scale_cape_b" />
+            <Equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain" />
+            <Equipment slot="Gloves" id="Item.tv_battania_warlord_bracers" />
+            <Equipment slot="Leg" id="Item.tv_battania_warlord_boots_b" />
+            <Equipment slot="Horse" id="Item.noble_horse_southern" />
+            <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
         </EquipmentSet>
         <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="ase_bat_template_lady" culture="Culture.aserai">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.eastern_javelin_3_t4"/>
-            <Equipment slot="Item1" id="Item.eastern_javelin_3_t4"/>
-            <Equipment slot="Item2" id="Item.aseriyun_polearm_1_t5"/>
-            <Equipment slot="Item3" id="Item.highland_riders_shield"/>
-            <Equipment slot="Head" id="Item.brass_aserai_helmet_b_closed"/>
-            <Equipment slot="Cape" id="Item.AR_aserai_scale_cape_b"/>
-            <Equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain"/>
-            <Equipment slot="Gloves" id="Item.tv_battania_warlord_bracers"/>
-            <Equipment slot="Leg" id="Item.tv_battania_warlord_boots_b"/>
-            <Equipment slot="Horse" id="Item.noble_horse_southern"/>
-            <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+            <Equipment slot="Item0" id="Item.eastern_javelin_3_t4" />
+            <Equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+            <Equipment slot="Item2" id="Item.aseriyun_polearm_1_t5" />
+            <Equipment slot="Item3" id="Item.highland_riders_shield" />
+            <Equipment slot="Head" id="Item.brass_aserai_helmet_b_closed" />
+            <Equipment slot="Cape" id="Item.AR_aserai_scale_cape_b" />
+            <Equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain" />
+            <Equipment slot="Gloves" id="Item.tv_battania_warlord_bracers" />
+            <Equipment slot="Leg" id="Item.tv_battania_warlord_boots_b" />
+            <Equipment slot="Horse" id="Item.noble_horse_southern" />
+            <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
         </EquipmentSet>
         <Flags IsNobleTemplate="true" IsFemaleTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
@@ -365,33 +461,33 @@
     <!-- King -->
     <EquipmentRoster id="ase_king_template_bat_m" culture="Culture.aserai">
         <EquipmentSet civilian="false">
-            <Equipment slot="Item0" id="Item.eastern_javelin_3_t4"/>
-            <Equipment slot="Item1" id="Item.eastern_javelin_3_t4"/>
-            <Equipment slot="Item2" id="Item.aseriyun_polearm_1_t5"/>
-            <Equipment slot="Item3" id="Item.highland_riders_shield"/>
-            <Equipment slot="Head" id="Item.brass_aserai_helmet_b_closed"/>
-            <Equipment slot="Cape" id="Item.AR_aserai_scale_cape_b"/>
-            <Equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain"/>
-            <Equipment slot="Gloves" id="Item.tv_battania_warlord_bracers"/>
-            <Equipment slot="Leg" id="Item.tv_battania_warlord_boots_b"/>
-            <Equipment slot="Horse" id="Item.noble_horse_southern"/>
-            <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+            <Equipment slot="Item0" id="Item.eastern_javelin_3_t4" />
+            <Equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+            <Equipment slot="Item2" id="Item.aseriyun_polearm_1_t5" />
+            <Equipment slot="Item3" id="Item.highland_riders_shield" />
+            <Equipment slot="Head" id="Item.brass_aserai_helmet_b_closed" />
+            <Equipment slot="Cape" id="Item.AR_aserai_scale_cape_b" />
+            <Equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain" />
+            <Equipment slot="Gloves" id="Item.tv_battania_warlord_bracers" />
+            <Equipment slot="Leg" id="Item.tv_battania_warlord_boots_b" />
+            <Equipment slot="Horse" id="Item.noble_horse_southern" />
+            <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="false" />
     </EquipmentRoster>
     <EquipmentRoster id="ase_king_template_bat_f" culture="Culture.aserai">
         <EquipmentSet civilian="false">
-            <Equipment slot="Item0" id="Item.eastern_javelin_3_t4"/>
-            <Equipment slot="Item1" id="Item.eastern_javelin_3_t4"/>
-            <Equipment slot="Item2" id="Item.aseriyun_polearm_1_t5"/>
-            <Equipment slot="Item3" id="Item.highland_riders_shield"/>
-            <Equipment slot="Head" id="Item.brass_aserai_helmet_b_closed"/>
-            <Equipment slot="Cape" id="Item.AR_aserai_scale_cape_b"/>
-            <Equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain"/>
-            <Equipment slot="Gloves" id="Item.tv_battania_warlord_bracers"/>
-            <Equipment slot="Leg" id="Item.tv_battania_warlord_boots_b"/>
-            <Equipment slot="Horse" id="Item.noble_horse_southern"/>
-            <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+            <Equipment slot="Item0" id="Item.eastern_javelin_3_t4" />
+            <Equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+            <Equipment slot="Item2" id="Item.aseriyun_polearm_1_t5" />
+            <Equipment slot="Item3" id="Item.highland_riders_shield" />
+            <Equipment slot="Head" id="Item.brass_aserai_helmet_b_closed" />
+            <Equipment slot="Cape" id="Item.AR_aserai_scale_cape_b" />
+            <Equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain" />
+            <Equipment slot="Gloves" id="Item.tv_battania_warlord_bracers" />
+            <Equipment slot="Leg" id="Item.tv_battania_warlord_boots_b" />
+            <Equipment slot="Horse" id="Item.noble_horse_southern" />
+            <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="false" />
     </EquipmentRoster>

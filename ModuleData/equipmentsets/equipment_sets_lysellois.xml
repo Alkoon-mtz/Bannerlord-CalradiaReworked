@@ -1,103 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EquipmentRosters>
     <!-- Parents -->
-    <EquipmentRoster id="mother_char_creation_0_vlandia" culture="Culture.empire">
+    <EquipmentRoster id="mother_char_creation_0_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.vlandian_dress" />
-            <Equipment slot="Leg" id="Item.strapped_leather_boots" />
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_i" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="father_char_creation_0_vlandia" culture="Culture.empire">
+    <EquipmentRoster id="father_char_creation_0_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.sleeveless_padded_short_coat" />
-            <Equipment slot="Leg" id="Item.strapped_shoes" />
+            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_h" />
+            <Equipment slot="Body" id="Item.tied_cloth_tunic" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
     </EquipmentRoster>
-    <!--1.Retainer-->
+    <!-- Choice 1 -->
     <EquipmentRoster id="mother_char_creation_1_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
-            <Equipment slot="Head" id="Item.head_wrapped" />
-            <Equipment slot="Body" id="Item.empire_dress_b" />
-            <Equipment slot="Leg" id="Item.ladys_shoe" />
+            <Equipment slot="Body" id="Item.fine_town_tunic" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_1_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.coat_of_plates_over_mail" />
-            <Equipment slot="Head" id="Item.pointed_skullcap_with_mail" />
-            <Equipment slot="Leg" id="Item.strapped_shoes" />
+            <Equipment slot="Cape" id="Item.hood" />
+            <Equipment slot="Body" id="Item.mail_with_tabbard3" />
+            <Equipment slot="Leg" id="Item.empire_horseman_boots" />
         </EquipmentSet>
     </EquipmentRoster>
-    <!--2.Merchant-->
+    <!-- Choice 2 -->
     <EquipmentRoster id="mother_char_creation_2_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.cut_dress_with_pouch" />
+            <Equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+            <Equipment slot="Body" id="Item.fine_town_tunic" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_2_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.merchants_fur_coat" />
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
+            <Equipment slot="Cape" id="Item.chainmail_shoulder_armor" />
+            <Equipment slot="Body" id="Item.white_coat_over_mail" />
+            <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+            <Equipment slot="Leg" id="Item.mail_chausses" />
         </EquipmentSet>
     </EquipmentRoster>
-    <!--3.Farmer-->
+    <!-- Choice 3 -->
     <EquipmentRoster id="mother_char_creation_3_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
-            <Equipment slot="Head" id="Item.head_scarf" />
-            <Equipment slot="Body" id="Item.vlandian_woman_dress" />
-            <Equipment slot="Leg" id="Item.ladys_shoe" />
+            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_j" />
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_i" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_3_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
-            <Equipment slot="Head" id="Item.leather_cap" />
+            <Equipment slot="Cape" id="Item.Western_chain_shoulders" />
+            <Equipment slot="Body" id="Item.mail_shirt" />
+            <Equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+            <Equipment slot="Leg" id="Item.mail_chausses" />
         </EquipmentSet>
     </EquipmentRoster>
-    <!--4.Artisan-->
+    <!-- Choice 4 -->
     <EquipmentRoster id="mother_char_creation_4_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
-            <Equipment slot="Head" id="Item.headscarf" />
-            <Equipment slot="Body" id="Item.cloth_apron" />
-            <Equipment slot="Leg" id="Item.ladys_shoe" />
+            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_j" />
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_i" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_4_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.leather_apron" />
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
-            <Equipment slot="Gloves" id="Item.leather_gloves" />
+            <Equipment slot="Cape" id="Item.swadian_shoulders" />
+            <Equipment slot="Body" id="Item.nordic_sloven_over_mail" />
+            <Equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+            <Equipment slot="Leg" id="Item.mail_chausses" />
         </EquipmentSet>
     </EquipmentRoster>
-    <!--5.Hunter-->
+    <!-- Choice 5 -->
     <EquipmentRoster id="mother_char_creation_5_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.battania_female_civil_a" />
-            <Equipment slot="Cape" id="Item.green_hood" />
-            <Equipment slot="Leg" id="Item.ragged_boots" />
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_i" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="father_char_creation_5_vlandia" culture="Culture.vlandia">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.layered_leather_tunic" />
-            <Equipment slot="Leg" id="Item.battania_woodland_boots" />
-            <Equipment slot="Gloves" id="Item.leather_gloves" />
-            <Equipment slot="Cape" id="Item.battania_woodland_cloak" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <!--6.Mercenary-->
-    <EquipmentRoster id="mother_char_creation_6_vlandia" culture="Culture.vlandia">
-        <EquipmentSet>
-            <Equipment slot="Head" id="Item.head_wrapped" />
-            <Equipment slot="Body" id="Item.laced_dress" />
-            <Equipment slot="Leg" id="Item.ladys_shoe" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="father_char_creation_6_vlandia" culture="Culture.vlandia">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.padded_short_coat" />
-            <Equipment slot="Leg" id="Item.strapped_shoes" />
+            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2" />
+            <Equipment slot="Body" id="Item.TV_vlandia_armor_i" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_g" />
+            <Equipment slot="Leg" id="Item.mail_chausses" />
         </EquipmentSet>
     </EquipmentRoster>
 
@@ -559,7 +553,11 @@
             <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
-        <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="child_template_vlandia_villager_female" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
@@ -570,7 +568,11 @@
             <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
-        <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_vlandia_villager_male" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
@@ -587,7 +589,11 @@
             <Equipment slot="Body" id="Item.monk_robe" />
             <Equipment slot="Leg" id="Item.strapped_shoes" />
         </EquipmentSet>
-        <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_vlandia_villager_female" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
@@ -603,7 +609,11 @@
             <Equipment slot="Head" id="Item.headscarf_c" />
             <Equipment slot="Body" id="Item.battania_dress_c" />
         </EquipmentSet>
-        <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
 
     <!--Townsman -->
@@ -620,7 +630,11 @@
             <Equipment slot="Body" id="Item.long_hemp_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
-        <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="child_template_vlandia_townsman_female" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
@@ -635,7 +649,11 @@
             <Equipment slot="Body" id="Item.leather_coat" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
-        <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_vlandia_townsman_male" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
@@ -650,7 +668,11 @@
             <Equipment slot="Body" id="Item.monk_robe" />
             <Equipment slot="Leg" id="Item.strapped_shoes" />
         </EquipmentSet>
-        <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_vlandia_townsman_female" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
@@ -667,7 +689,11 @@
             <Equipment slot="Head" id="Item.head_scarf" />
             <Equipment slot="Body" id="Item.vlandian_woman_dress" />
         </EquipmentSet>
-        <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="false"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
 
     <!--Noble -->
@@ -684,7 +710,11 @@
             <Equipment slot="Body" id="Item.long_hemp_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
-        <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="child_template_vlandia_noble_female" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
@@ -699,7 +729,11 @@
             <Equipment slot="Body" id="Item.long_hemp_tunic" />
             <Equipment slot="Leg" id="Item.ladys_shoe" />
         </EquipmentSet>
-        <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsChildEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_vlandia_noble_male" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
@@ -714,7 +748,11 @@
             <Equipment slot="Body" id="Item.cloth_tunic" />
             <Equipment slot="Leg" id="Item.strapped_shoes" />
         </EquipmentSet>
-        <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="false"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="teenager_template_vlandia_noble_female" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
@@ -731,7 +769,11 @@
             <Equipment slot="Head" id="Item.head_scarf" />
             <Equipment slot="Body" id="Item.vlandian_corset_dress" />
         </EquipmentSet>
-        <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" />
+        <Flags IsTeenagerEquipmentTemplate="true"
+            IsFemaleTemplate="true"
+            IsNobleTemplate="true"
+            IsCivilianTemplate="true"
+            IsNoncombatantTemplate="true" />
     </EquipmentRoster>
 
     <!-- Notables and Wanderers -->
@@ -746,183 +788,183 @@
     </EquipmentRoster>
     <EquipmentRoster id="npc_armed_wanderer_equipment_template_lysellois" culture="Culture.vlandia">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
-            <Equipment slot="Item1" id="Item.flat_heater_shield"/>
-            <Equipment slot="Head" id="Item.spangenhelm_with_leather"/>
-            <Equipment slot="Cape" id="Item.hood"/>
-            <Equipment slot="Body" id="Item.nordic_sloven"/>
-            <Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+            <Equipment slot="Item1" id="Item.flat_heater_shield" />
+            <Equipment slot="Head" id="Item.spangenhelm_with_leather" />
+            <Equipment slot="Cape" id="Item.hood" />
+            <Equipment slot="Body" id="Item.nordic_sloven" />
+            <Equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="lys_npcgenerics_template_poor" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.leather_cap"/>
-            <Equipment slot="Body" id="Item.sackcloth_tunic"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Head" id="Item.leather_cap" />
+            <Equipment slot="Body" id="Item.sackcloth_tunic" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.sackcloth_tunic"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Body" id="Item.sackcloth_tunic" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.leather_cap"/>
-            <Equipment slot="Body" id="Item.long_hemp_tunic"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Head" id="Item.leather_cap" />
+            <Equipment slot="Body" id="Item.long_hemp_tunic" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.long_hemp_tunic"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Body" id="Item.long_hemp_tunic" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Head" id="Item.leather_cap"/>
-            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Head" id="Item.leather_cap" />
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="lys_npcgenerics_template_mid" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_j"/>
-            <Equipment slot="Body" id="Item.AR_vlandia_armor_i"/>
-            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_j" />
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_i" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_h"/>
-            <Equipment slot="Body" id="Item.AR_vlandia_armor_i"/>
-            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_h" />
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_i" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_j"/>
-            <Equipment slot="Body" id="Item.AR_vlandia_armor_i"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_j" />
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_i" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_h"/>
-            <Equipment slot="Body" id="Item.AR_vlandia_armor_i"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_h" />
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_i" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.wrapped_scarf"/>
-            <Equipment slot="Body" id="Item.AR_vlandia_armor_i"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Cape" id="Item.wrapped_scarf" />
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_i" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.AR_vlandia_armor_i"/>
-            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_i" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.AR_vlandia_armor_i"/>
-            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_i" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.AR_vlandia_armor_i"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_i" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_j"/>
-            <Equipment slot="Body" id="Item.tied_cloth_tunic"/>
-            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_j" />
+            <Equipment slot="Body" id="Item.tied_cloth_tunic" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_h"/>
-            <Equipment slot="Body" id="Item.tied_cloth_tunic"/>
-            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_h" />
+            <Equipment slot="Body" id="Item.tied_cloth_tunic" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_j"/>
-            <Equipment slot="Body" id="Item.tied_cloth_tunic"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_j" />
+            <Equipment slot="Body" id="Item.tied_cloth_tunic" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_h"/>
-            <Equipment slot="Body" id="Item.tied_cloth_tunic"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_h" />
+            <Equipment slot="Body" id="Item.tied_cloth_tunic" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.wrapped_scarf"/>
-            <Equipment slot="Body" id="Item.tied_cloth_tunic"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Cape" id="Item.wrapped_scarf" />
+            <Equipment slot="Body" id="Item.tied_cloth_tunic" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.tied_cloth_tunic"/>
-            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Body" id="Item.tied_cloth_tunic" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.tied_cloth_tunic"/>
-            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Body" id="Item.tied_cloth_tunic" />
+            <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.tied_cloth_tunic"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Body" id="Item.tied_cloth_tunic" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="lys_npcgenerics_template_forge" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.half_apron"/>
+            <Equipment slot="Body" id="Item.half_apron" />
             <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.leather_apron"/>
+            <Equipment slot="Body" id="Item.leather_apron" />
             <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c" />
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="lys_npcgenerics_template_preacher" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.AR_monk_robe_b"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Body" id="Item.AR_monk_robe_b" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.AR_monk_robe_a2"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Body" id="Item.AR_monk_robe_a2" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="lys_npcgenerics_template_rich" culture="Culture.vlandia">
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.TV_battania_cloak_m"/>
-            <Equipment slot="Body" id="Item.fine_town_tunic"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+            <Equipment slot="Body" id="Item.fine_town_tunic" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.TV_battania_cloak_o"/>
-            <Equipment slot="Body" id="Item.fine_town_tunic"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Cape" id="Item.TV_battania_cloak_o" />
+            <Equipment slot="Body" id="Item.fine_town_tunic" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.fine_town_tunic"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Body" id="Item.fine_town_tunic" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.TV_battania_cloak_m"/>
-            <Equipment slot="Body" id="Item.TV_vlandia_armor_u"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+            <Equipment slot="Body" id="Item.TV_vlandia_armor_u" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Cape" id="Item.TV_battania_cloak_o"/>
-            <Equipment slot="Body" id="Item.TV_vlandia_armor_u"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Cape" id="Item.TV_battania_cloak_o" />
+            <Equipment slot="Body" id="Item.TV_vlandia_armor_u" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Body" id="Item.TV_vlandia_armor_u"/>
-            <Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+            <Equipment slot="Body" id="Item.TV_vlandia_armor_u" />
+            <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
         </EquipmentSet>
         <Flags IsCivilianTemplate="true" />
     </EquipmentRoster>
@@ -930,84 +972,84 @@
     <!--Lord -->
     <EquipmentRoster id="vla_bat_template_low" culture="Culture.vlandia">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
-            <Equipment slot="Item1" id="Item.wide_heater_shield"/>
-            <Equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif"/>
-            <Equipment slot="Cape" id="Item.swadian_shoulders"/>
-            <Equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
-            <Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
-            <Equipment slot="Leg" id="Item.mail_chausses"/>
+            <Equipment slot="Item0" id="Item.vlandia_sword_2_t3" />
+            <Equipment slot="Item1" id="Item.wide_heater_shield" />
+            <Equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif" />
+            <Equipment slot="Cape" id="Item.swadian_shoulders" />
+            <Equipment slot="Body" id="Item.nordic_sloven_over_mail" />
+            <Equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+            <Equipment slot="Leg" id="Item.mail_chausses" />
         </EquipmentSet>
         <Flags IsNobleTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="vla_bat_template_medium" culture="Culture.vlandia">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.crossbow_f"/>
-            <Equipment slot="Item1" id="Item.bolt_c"/>
-            <Equipment slot="Item2" id="Item.vlandia_sword_4_t4"/>
-            <Equipment slot="Item3" id="Item.pavise_shield"/>
-            <Equipment slot="Head" id="Item.peaked_helmet_over_mail_coif"/>
-            <Equipment slot="Cape" id="Item.chainmail_shoulder_armor"/>
-            <Equipment slot="Body" id="Item.vlandia_chainmail"/>
-            <Equipment slot="Gloves" id="Item.mail_mitten"/>
-            <Equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+            <Equipment slot="Item0" id="Item.crossbow_f" />
+            <Equipment slot="Item1" id="Item.bolt_c" />
+            <Equipment slot="Item2" id="Item.vlandia_sword_4_t4" />
+            <Equipment slot="Item3" id="Item.pavise_shield" />
+            <Equipment slot="Head" id="Item.peaked_helmet_over_mail_coif" />
+            <Equipment slot="Cape" id="Item.chainmail_shoulder_armor" />
+            <Equipment slot="Body" id="Item.vlandia_chainmail" />
+            <Equipment slot="Gloves" id="Item.mail_mitten" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
         </EquipmentSet>
         <Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="vla_bat_template_heavy" culture="Culture.vlandia">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
-            <Equipment slot="Item1" id="Item.wide_heater_shield"/>
-            <Equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
-            <Equipment slot="Head" id="Item.sa_bacinet_with_facemask"/>
-            <Equipment slot="Cape" id="Item.swadian_shoulders"/>
-            <Equipment slot="Body" id="Item.swadian_striped_cuirass"/>
-            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
-            <Equipment slot="Horse" id="Item.lysellois_melee_horse_t5"/>
-            <Equipment slot="HorseHarness" id="Item.chain_barding"/>
+            <Equipment slot="Item0" id="Item.vlandia_sword_5_t5" />
+            <Equipment slot="Item1" id="Item.wide_heater_shield" />
+            <Equipment slot="Item2" id="Item.western_throwing_axe_1_t1" />
+            <Equipment slot="Head" id="Item.sa_bacinet_with_facemask" />
+            <Equipment slot="Cape" id="Item.swadian_shoulders" />
+            <Equipment slot="Body" id="Item.swadian_striped_cuirass" />
+            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet" />
+            <Equipment slot="Leg" id="Item.sa_1ChurburghBoots" />
+            <Equipment slot="Horse" id="Item.lysellois_melee_horse_t5" />
+            <Equipment slot="HorseHarness" id="Item.chain_barding" />
         </EquipmentSet>
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
-            <Equipment slot="Item1" id="Item.wide_heater_shield"/>
-            <Equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
-            <Equipment slot="Head" id="Item.sa_bacinet_with_facemask"/>
-            <Equipment slot="Cape" id="Item.swadian_shoulders"/>
-            <Equipment slot="Body" id="Item.swadian_cuirass"/>
-            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
-            <Equipment slot="Horse" id="Item.lysellois_melee_horse_t5"/>
-            <Equipment slot="HorseHarness" id="Item.chain_barding"/>
+            <Equipment slot="Item0" id="Item.vlandia_sword_5_t5" />
+            <Equipment slot="Item1" id="Item.wide_heater_shield" />
+            <Equipment slot="Item2" id="Item.western_throwing_axe_1_t1" />
+            <Equipment slot="Head" id="Item.sa_bacinet_with_facemask" />
+            <Equipment slot="Cape" id="Item.swadian_shoulders" />
+            <Equipment slot="Body" id="Item.swadian_cuirass" />
+            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet" />
+            <Equipment slot="Leg" id="Item.sa_1ChurburghBoots" />
+            <Equipment slot="Horse" id="Item.lysellois_melee_horse_t5" />
+            <Equipment slot="HorseHarness" id="Item.chain_barding" />
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="vla_bat_template_flamboyant" culture="Culture.vlandia">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
-            <Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
-            <Equipment slot="Item2" id="Item.vlandia_noble_sword_3_t5"/>
-            <Equipment slot="Head" id="Item.engraved_vlandian_helm_with_visor"/>
-            <Equipment slot="Cape" id="Item.noble_pauldron_with_cape"/>
-            <Equipment slot="Body" id="Item.Sa_tabbartplate"/>
-            <Equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
-            <Equipment slot="Horse" id="Item.lysellois_charge_horse_t6"/>
-            <Equipment slot="HorseHarness" id="Item.chain_barding"/>
+            <Equipment slot="Item0" id="Item.khuzait_lance_3_t5" />
+            <Equipment slot="Item1" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Item2" id="Item.vlandia_noble_sword_3_t5" />
+            <Equipment slot="Head" id="Item.engraved_vlandian_helm_with_visor" />
+            <Equipment slot="Cape" id="Item.noble_pauldron_with_cape" />
+            <Equipment slot="Body" id="Item.Sa_tabbartplate" />
+            <Equipment slot="Gloves" id="Item.sa_ChurburghGauntlet" />
+            <Equipment slot="Leg" id="Item.sa_ChurburghBoots" />
+            <Equipment slot="Horse" id="Item.lysellois_charge_horse_t6" />
+            <Equipment slot="HorseHarness" id="Item.chain_barding" />
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="vla_bat_template_lady" culture="Culture.vlandia">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
-            <Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
-            <Equipment slot="Item2" id="Item.vlandia_noble_sword_3_t5"/>
-            <Equipment slot="Head" id="Item.engraved_vlandian_helm_with_visor"/>
-            <Equipment slot="Cape" id="Item.noble_pauldron_with_cape"/>
-            <Equipment slot="Body" id="Item.Sa_tabbartplate"/>
-            <Equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
-            <Equipment slot="Horse" id="Item.lysellois_charge_horse_t6"/>
-            <Equipment slot="HorseHarness" id="Item.chain_barding"/>
+            <Equipment slot="Item0" id="Item.khuzait_lance_3_t5" />
+            <Equipment slot="Item1" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Item2" id="Item.vlandia_noble_sword_3_t5" />
+            <Equipment slot="Head" id="Item.engraved_vlandian_helm_with_visor" />
+            <Equipment slot="Cape" id="Item.noble_pauldron_with_cape" />
+            <Equipment slot="Body" id="Item.Sa_tabbartplate" />
+            <Equipment slot="Gloves" id="Item.sa_ChurburghGauntlet" />
+            <Equipment slot="Leg" id="Item.sa_ChurburghBoots" />
+            <Equipment slot="Horse" id="Item.lysellois_charge_horse_t6" />
+            <Equipment slot="HorseHarness" id="Item.chain_barding" />
         </EquipmentSet>
         <Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
     </EquipmentRoster>
@@ -1178,31 +1220,31 @@
     </EquipmentRoster>
     <EquipmentRoster id="vla_king_template_bat_m" culture="Culture.vlandia">
         <EquipmentSet civilian="false">
-            <Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
-            <Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
-            <Equipment slot="Item2" id="Item.vlandia_noble_sword_3_t5"/>
-            <Equipment slot="Head" id="Item.crowned_royal_vlandian_helm_with_visor"/>
-            <Equipment slot="Cape" id="Item.noble_pauldron_with_cape"/>
-            <Equipment slot="Body" id="Item.Sa_tabbartplate"/>
-            <Equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
-            <Equipment slot="Horse" id="Item.lysellois_charge_horse_t6"/>
-            <Equipment slot="HorseHarness" id="Item.chain_barding"/>
+            <Equipment slot="Item0" id="Item.khuzait_lance_3_t5" />
+            <Equipment slot="Item1" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Item2" id="Item.vlandia_noble_sword_3_t5" />
+            <Equipment slot="Head" id="Item.crowned_royal_vlandian_helm_with_visor" />
+            <Equipment slot="Cape" id="Item.noble_pauldron_with_cape" />
+            <Equipment slot="Body" id="Item.Sa_tabbartplate" />
+            <Equipment slot="Gloves" id="Item.sa_ChurburghGauntlet" />
+            <Equipment slot="Leg" id="Item.sa_ChurburghBoots" />
+            <Equipment slot="Horse" id="Item.lysellois_charge_horse_t6" />
+            <Equipment slot="HorseHarness" id="Item.chain_barding" />
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="false" />
     </EquipmentRoster>
     <EquipmentRoster id="vla_king_template_bat_f" culture="Culture.vlandia">
         <EquipmentSet civilian="false">
-            <Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
-            <Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
-            <Equipment slot="Item2" id="Item.vlandia_noble_sword_3_t5"/>
-            <Equipment slot="Head" id="Item.crowned_royal_vlandian_helm_with_visor"/>
-            <Equipment slot="Cape" id="Item.noble_pauldron_with_cape"/>
-            <Equipment slot="Body" id="Item.Sa_tabbartplate"/>
-            <Equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
-            <Equipment slot="Horse" id="Item.lysellois_charge_horse_t6"/>
-            <Equipment slot="HorseHarness" id="Item.chain_barding"/>
+            <Equipment slot="Item0" id="Item.khuzait_lance_3_t5" />
+            <Equipment slot="Item1" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Item2" id="Item.vlandia_noble_sword_3_t5" />
+            <Equipment slot="Head" id="Item.crowned_royal_vlandian_helm_with_visor" />
+            <Equipment slot="Cape" id="Item.noble_pauldron_with_cape" />
+            <Equipment slot="Body" id="Item.Sa_tabbartplate" />
+            <Equipment slot="Gloves" id="Item.sa_ChurburghGauntlet" />
+            <Equipment slot="Leg" id="Item.sa_ChurburghBoots" />
+            <Equipment slot="Horse" id="Item.lysellois_charge_horse_t6" />
+            <Equipment slot="HorseHarness" id="Item.chain_barding" />
         </EquipmentSet>
         <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="false" />
     </EquipmentRoster>
