@@ -920,17 +920,17 @@ namespace Split
             this.RefreshPlayerAppearance(characterCreation);
         }
         protected new void AccomplishmentOnInit(CharacterCreation characterCreation)
-		{
-			characterCreation.IsPlayerAlone = true;
-			characterCreation.HasSecondaryCharacter = false;
-			characterCreation.ClearFaceGenPrefab();
-			characterCreation.ChangeFaceGenChars(SandboxCharacterCreationContent.ChangePlayerFaceWithAge((float)this.AccomplishmentAge, "act_childhood_schooled"));
-			characterCreation.ChangeCharsAnimation(new List<string>
-			{
-				"act_childhood_schooled"
-			});
-			this.RefreshPlayerAppearance(characterCreation);
-		}
+        {
+            characterCreation.IsPlayerAlone = true;
+            characterCreation.HasSecondaryCharacter = false;
+            characterCreation.ClearFaceGenPrefab();
+            characterCreation.ChangeFaceGenChars(SandboxCharacterCreationContent.ChangePlayerFaceWithAge((float)this.AccomplishmentAge, "act_childhood_schooled"));
+            characterCreation.ChangeCharsAnimation(new List<string>
+            {
+                "act_childhood_schooled"
+            });
+            this.RefreshPlayerAppearance(characterCreation);
+        }
         protected new void StartingAgeOnInit(CharacterCreation characterCreation)
         {
             characterCreation.IsPlayerAlone = true;
