@@ -1,7 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.CharacterCreationContent;
 using TaleWorlds.CampaignSystem.CharacterDevelopment;
+using TaleWorlds.CampaignSystem.Extensions;
 using TaleWorlds.Core;
 using TaleWorlds.Library;
 using TaleWorlds.Localization;
@@ -18,7 +21,7 @@ namespace Split
             this.AddAdolescenceMenu(characterCreation);
             this.AddYouthMenu(characterCreation);
             this.AddAdulthoodMenu(characterCreation);
-            base.AddAgeSelectionMenu(characterCreation);
+            this.AddAgeSelectionMenu(characterCreation);
         }
         protected new void AddParentsMenu(CharacterCreation characterCreation)
         {
@@ -639,21 +642,24 @@ namespace Split
             effectedSkills = new MBList<SkillObject> { DefaultSkills.OneHanded, DefaultSkills.Athletics };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory.AddCategoryOption(new TextObject("{=adolescence_1}a footmen", null),
-                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                 new CharacterCreationOnSelect(this.AdoFootmenOnConsequence),
                  new CharacterCreationApplyFinalEffects(this.AdolescenceOnApply),
                  new TextObject("{=adolescence_1_text}They taught you to hold your shield up and maintain the line", null), null, 0, 0, 0, 0, 0);
             // Choice 2
             effectedSkills = new MBList<SkillObject> { DefaultSkills.TwoHanded, DefaultSkills.Athletics };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory.AddCategoryOption(new TextObject("{=adolescence_2}a linebreaker", null),
-                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                 new CharacterCreationOnSelect(this.AdoLinebreakerOnConsequence),
                  new CharacterCreationApplyFinalEffects(this.AdolescenceOnApply),
                  new TextObject("{=adolescence_2_text}You were strong, they needed guys like you to break the enemy formation", null), null, 0, 0, 0, 0, 0);
             // Choice 3
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Polearm, DefaultSkills.Athletics };
             effectedAttribute = DefaultCharacterAttributes.Vigor;
             characterCreationCategory.AddCategoryOption(new TextObject("{=adolescence_3}a guard", null),
-                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                 new CharacterCreationOnSelect(this.AdoGuardOnConsequence),
                  new CharacterCreationApplyFinalEffects(this.AdolescenceOnApply),
                  new TextObject("{=adolescence_3_text}You spent your time at the gate while learning how to deal against cavalry", null), null, 0, 0, 0, 0, 0);
             // Choice 4 archer faction
@@ -661,7 +667,8 @@ namespace Split
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory.AddCategoryOption(new TextObject("{=adolescence_4}a hunter", null),
                  effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd,
-                 new CharacterCreationOnCondition(this.IsCultureArcherType), null,
+                 new CharacterCreationOnCondition(this.IsCultureArcherType),
+                 new CharacterCreationOnSelect(this.AdoHunterOnConsequence),
                  new CharacterCreationApplyFinalEffects(this.AdolescenceOnApply),
                  new TextObject("{=adolescence_4_text}Shooting the target was not the only thing to do, you also were on hunting duty", null), null, 0, 0, 0, 0, 0);
             // Choice 4 xbow faction
@@ -669,14 +676,16 @@ namespace Split
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory.AddCategoryOption(new TextObject("{=adolescence_5}a watcher", null),
                  effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd,
-                 new CharacterCreationOnCondition(this.IsCultureXbowType), null,
+                 new CharacterCreationOnCondition(this.IsCultureXbowType),
+                 new CharacterCreationOnSelect(this.AdoWatcherOnConsequence),
                  new CharacterCreationApplyFinalEffects(this.AdolescenceOnApply),
                  new TextObject("{=adolescence_5_text}Looking on the horizon on top of a watchtower, and sometimes shooting bandits", null), null, 0, 0, 0, 0, 0);
             // Choice 5
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Throwing, DefaultSkills.Athletics };
             effectedAttribute = DefaultCharacterAttributes.Control;
             characterCreationCategory.AddCategoryOption(new TextObject("{=adolescence_6}a skirmisher", null),
-                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                 new CharacterCreationOnSelect(this.AdoRaiderOnConsequence),
                  new CharacterCreationApplyFinalEffects(this.AdolescenceOnApply),
                  new TextObject("{=adolescence_6_text}A versatile job suited for a polyvalent guy like you", null), null, 0, 0, 0, 0, 0);
 
@@ -699,42 +708,48 @@ namespace Split
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Riding, DefaultSkills.Tactics };
             effectedAttribute = DefaultCharacterAttributes.Endurance;
             characterCreationCategory.AddCategoryOption(new TextObject("{=youth_1}enlisted with the cavalry", null),
-                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                 new CharacterCreationOnSelect(this.YouthRidingOnConsequence), 
                  new CharacterCreationApplyFinalEffects(this.YouthOnApply),
                  new TextObject("{=youth_1_text}You wanted to be like the legendary king in a theater piece who charged the enemy yelling \"Arise ! Arise Riders !\"", null), null, 0, 0, 0, 0, 0);
             // Choice 2
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Riding, DefaultSkills.Leadership };
             effectedAttribute = DefaultCharacterAttributes.Endurance;
             characterCreationCategory.AddCategoryOption(new TextObject("{=youth_2}served a high ranked officer", null),
-                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                 new CharacterCreationOnSelect(this.YouthRidingOnConsequence),
                  new CharacterCreationApplyFinalEffects(this.YouthOnApply),
                  new TextObject("{=youth_2_text}It was mostly a messenger job but you learned a few things on how to manage a regiment", null), null, 0, 0, 0, 0, 0);
             // Choice 3
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Riding, DefaultSkills.Steward };
             effectedAttribute = DefaultCharacterAttributes.Endurance;
             characterCreationCategory.AddCategoryOption(new TextObject("{=youth_3}cared for horses", null),
-                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                 new CharacterCreationOnSelect(this.YouthRidingOnConsequence),
                  new CharacterCreationApplyFinalEffects(this.YouthOnApply),
                  new TextObject("{=youth_3_text}You were in the stables taking care of the horses of the nobles and other wanderers or merchants", null), null, 0, 0, 0, 0, 0);
             // Choice 4
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Athletics, DefaultSkills.Tactics };
             effectedAttribute = DefaultCharacterAttributes.Endurance;
             characterCreationCategory.AddCategoryOption(new TextObject("{=youth_4}enlisted with the infantry", null),
-                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                 new CharacterCreationOnSelect(this.YouthAthleticsOnConsequence),
                  new CharacterCreationApplyFinalEffects(this.YouthOnApply),
                  new TextObject("{=youth_4_text}When you don't know what to do, the army is always recruiting", null), null, 0, 0, 0, 0, 0);
             // Choice 5
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Athletics, DefaultSkills.Leadership };
             effectedAttribute = DefaultCharacterAttributes.Endurance;
             characterCreationCategory.AddCategoryOption(new TextObject("{=youth_5}assisted the town's headman", null),
-                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                 new CharacterCreationOnSelect(this.YouthAthleticsOnConsequence),
                  new CharacterCreationApplyFinalEffects(this.YouthOnApply),
                  new TextObject("{=youth_5_text}Walking around the town, fixing problems and settle disputes", null), null, 0, 0, 0, 0, 0);
             // Choice 6
             effectedSkills = new MBList<SkillObject> { DefaultSkills.Athletics, DefaultSkills.Steward };
             effectedAttribute = DefaultCharacterAttributes.Endurance;
             characterCreationCategory.AddCategoryOption(new TextObject("{=youth_6}worked at the docks", null),
-                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null, null,
+                 effectedSkills, effectedAttribute, this.FocusToAdd, this.SkillLevelToAdd, this.AttributeLevelToAdd, null,
+                 new CharacterCreationOnSelect(this.YouthAthleticsOnConsequence),
                  new CharacterCreationApplyFinalEffects(this.YouthOnApply),
                  new TextObject("{=youth_6_text}An honest job that strengthened your body with hard work", null), null, 0, 0, 0, 0, 0);
 
@@ -746,7 +761,7 @@ namespace Split
             CharacterCreationMenu characterCreationMenu = new CharacterCreationMenu(
                 new TextObject("{=MafIe9yI}Young Adulthood", null),
                 new TextObject("{=adult_menu}You were granted the right to make a clan when you...", null),
-                new CharacterCreationOnInit(base.AccomplishmentOnInit),
+                new CharacterCreationOnInit(this.AccomplishmentOnInit),
                 CharacterCreationMenu.MenuTypes.MultipleChoice);
 
             CharacterCreationCategory characterCreationCategory = characterCreationMenu.AddMenuCategory(null);
@@ -813,25 +828,34 @@ namespace Split
 
             characterCreation.AddNewMenu(characterCreationMenu);
         }
-
-        protected void ParentsOnApply(CharacterCreation characterCreation)
+        protected new void AddAgeSelectionMenu(CharacterCreation characterCreation)
         {
-            this.FinalizeParents();
-        }
-        protected static void ChildhoodOnApply(CharacterCreation characterCreation)
-        {
-        }
-        protected static void EducationOnApply(CharacterCreation characterCreation)
-        {
-        }
-        protected void AdolescenceOnApply(CharacterCreation characterCreation)
-        {
-        }
-        protected void YouthOnApply(CharacterCreation characterCreation)
-        {
-        }
-        protected void AdulthoodOnApply(CharacterCreation characterCreation)
-        {
+            MBTextManager.SetTextVariable("EXP_VALUE", this.SkillLevelToAdd);
+            CharacterCreationMenu characterCreationMenu = new CharacterCreationMenu(new TextObject("{=HDFEAYDk}Starting Age", null),
+                new TextObject("{=VlOGrGSn}Your character started off on the adventuring path at the age of...", null),
+                new CharacterCreationOnInit(this.StartingAgeOnInit), CharacterCreationMenu.MenuTypes.MultipleChoice);
+            CharacterCreationCategory characterCreationCategory = characterCreationMenu.AddMenuCategory(null);
+            characterCreationCategory.AddCategoryOption(new TextObject("{=!}20", null),
+                new MBList<SkillObject>(), null, 0, 0, 0, null, new CharacterCreationOnSelect(this.StartingAgeYoungOnConsequence),
+                new CharacterCreationApplyFinalEffects(this.StartingAgeYoungOnApply),
+                new TextObject("{=2k7adlh7}While lacking experience a bit, you are full with youthful energy, you are fully eager, for the long years of adventuring ahead.", null),
+                null, 0, 0, 0, 2, 1);
+            characterCreationCategory.AddCategoryOption(new TextObject("{=!}30", null),
+                new MBList<SkillObject>(), null, 0, 0, 0, null, new CharacterCreationOnSelect(this.StartingAgeAdultOnConsequence),
+                new CharacterCreationApplyFinalEffects(this.StartingAgeAdultOnApply),
+                new TextObject("{=NUlVFRtK}You are at your prime, You still have some youthful energy but also have a substantial amount of experience under your belt. ", null),
+                null, 0, 0, 0, 4, 2);
+            characterCreationCategory.AddCategoryOption(new TextObject("{=!}40", null),
+                new MBList<SkillObject>(), null, 0, 0, 0, null, new CharacterCreationOnSelect(this.StartingAgeMiddleAgedOnConsequence),
+                new CharacterCreationApplyFinalEffects(this.StartingAgeMiddleAgedOnApply),
+                new TextObject("{=5MxTYApM}This is the right age for starting off, you have years of experience, and you are old enough for people to respect you and gather under your banner.", null),
+                null, 0, 0, 0, 6, 3);
+            characterCreationCategory.AddCategoryOption(new TextObject("{=!}50", null),
+                new MBList<SkillObject>(), null, 0, 0, 0, null, new CharacterCreationOnSelect(this.StartingAgeElderlyOnConsequence),
+                new CharacterCreationApplyFinalEffects(this.StartingAgeElderlyOnApply),
+                new TextObject("{=ePD5Afvy}While you are past your prime, there is still enough time to go on that last big adventure for you. And you have all the experience you need to overcome anything!", null),
+                null, 0, 0, 0, 8, 4);
+            characterCreation.AddNewMenu(characterCreationMenu);
         }
 
         protected new void ChildhoodOnInit(CharacterCreation characterCreation)
@@ -844,10 +868,7 @@ namespace Split
             {
                 "player_char_creation_childhood_age_",
                 base.GetSelectedCulture().StringId,
-                "_",
-                base.SelectedParentType
             });
-            text += (Hero.MainHero.IsFemale ? "_f" : "_m");
             this.ChangePlayerOutfit(characterCreation, text);
             characterCreation.ChangeCharsAnimation(new List<string>
             {
@@ -865,10 +886,7 @@ namespace Split
             {
                 "player_char_creation_education_age_",
                 base.GetSelectedCulture().StringId,
-                "_",
-                base.SelectedParentType
             });
-            text += (Hero.MainHero.IsFemale ? "_f" : "_m");
             this.ChangePlayerOutfit(characterCreation, text);
             characterCreation.ChangeCharsAnimation(new List<string>
             {
@@ -886,10 +904,7 @@ namespace Split
             {
                 "act_childhood_schooled"
             });
-            if (base.SelectedTitleType < 1 || base.SelectedTitleType > 10)
-            {
-                base.SelectedTitleType = 1;
-            }
+            SandboxCharacterCreationContent.ClearMountEntity(characterCreation);
             this.RefreshPlayerAppearance(characterCreation);
         }
         protected new void YouthOnInit(CharacterCreation characterCreation)
@@ -902,10 +917,30 @@ namespace Split
             {
                 "act_childhood_schooled"
             });
-            if (base.SelectedTitleType < 1 || base.SelectedTitleType > 10)
+            this.RefreshPlayerAppearance(characterCreation);
+        }
+        protected new void AccomplishmentOnInit(CharacterCreation characterCreation)
+		{
+			characterCreation.IsPlayerAlone = true;
+			characterCreation.HasSecondaryCharacter = false;
+			characterCreation.ClearFaceGenPrefab();
+			characterCreation.ChangeFaceGenChars(SandboxCharacterCreationContent.ChangePlayerFaceWithAge((float)this.AccomplishmentAge, "act_childhood_schooled"));
+			characterCreation.ChangeCharsAnimation(new List<string>
+			{
+				"act_childhood_schooled"
+			});
+			this.RefreshPlayerAppearance(characterCreation);
+		}
+        protected new void StartingAgeOnInit(CharacterCreation characterCreation)
+        {
+            characterCreation.IsPlayerAlone = true;
+            characterCreation.HasSecondaryCharacter = false;
+            characterCreation.ClearFaceGenPrefab();
+            characterCreation.ChangeFaceGenChars(SandboxCharacterCreationContent.ChangePlayerFaceWithAge((float)this._startingAge, "act_childhood_schooled"));
+            characterCreation.ChangeCharsAnimation(new List<string>
             {
-                base.SelectedTitleType = 1;
-            }
+                "act_childhood_schooled"
+            });
             this.RefreshPlayerAppearance(characterCreation);
         }
 
@@ -935,6 +970,149 @@ namespace Split
             this.SetParentAndOccupationType(characterCreation, 5, SandboxCharacterCreationContent.OccupationTypes.NumberOfTypes, "", "", true, true);
         }
 
+        protected void AdoFootmenOnConsequence(CharacterCreation characterCreation)
+        {
+            base.SelectedTitleType = 1;
+            this.RefreshPlayerAppearance(characterCreation);
+            characterCreation.ChangeCharsAnimation(new List<string>
+            {
+                "act_childhood_athlete"
+            });
+        }
+        protected void AdoLinebreakerOnConsequence(CharacterCreation characterCreation)
+        {
+            base.SelectedTitleType = 2;
+            this.RefreshPlayerAppearance(characterCreation);
+            characterCreation.ChangeCharsAnimation(new List<string>
+            {
+                "act_childhood_fierce"
+            });
+        }
+        protected void AdoGuardOnConsequence(CharacterCreation characterCreation)
+        {
+            base.SelectedTitleType = 3;
+            this.RefreshPlayerAppearance(characterCreation);
+            characterCreation.ChangeCharsAnimation(new List<string>
+            {
+                "act_childhood_gracious"
+            });
+        }
+        protected void AdoHunterOnConsequence(CharacterCreation characterCreation)
+        {
+            base.SelectedTitleType = 4;
+            this.RefreshPlayerAppearance(characterCreation);
+            characterCreation.ChangeCharsAnimation(new List<string>
+            {
+                "act_childhood_sharp"
+            });
+        }
+        protected void AdoWatcherOnConsequence(CharacterCreation characterCreation)
+        {
+            base.SelectedTitleType = 4;
+            this.RefreshPlayerAppearance(characterCreation);
+            characterCreation.ChangeCharsAnimation(new List<string>
+            {
+                "act_childhood_decisive"
+            });
+        }
+        protected void AdoRaiderOnConsequence(CharacterCreation characterCreation)
+        {
+            base.SelectedTitleType = 5;
+            this.RefreshPlayerAppearance(characterCreation);
+            characterCreation.ChangeCharsAnimation(new List<string>
+            {
+                "act_childhood_tough"
+            });
+        }
+
+        protected void YouthRidingOnConsequence(CharacterCreation characterCreation)
+        {
+            this.IsHorseman = true;
+            this.RefreshPlayerAppearance(characterCreation);
+            characterCreation.ChangeCharsAnimation(new List<string>
+            {
+                "act_childhood_gracious"
+            });
+        }
+        protected void YouthAthleticsOnConsequence(CharacterCreation characterCreation)
+        {
+            this.IsHorseman = false;
+            this.RefreshPlayerAppearance(characterCreation);
+            characterCreation.ChangeCharsAnimation(new List<string>
+            {
+                "act_childhood_athlete"
+            });
+        }
+
+        protected new void StartingAgeYoungOnConsequence(CharacterCreation characterCreation)
+        {
+            characterCreation.ClearFaceGenPrefab();
+            characterCreation.ChangeFaceGenChars(SandboxCharacterCreationContent.ChangePlayerFaceWithAge(20f, "act_childhood_schooled"));
+            characterCreation.ChangeCharsAnimation(new List<string>
+            {
+                "act_childhood_focus"
+            });
+            this.RefreshPlayerAppearance(characterCreation);
+            base._startingAge = SandboxCharacterCreationContent.SandboxAgeOptions.YoungAdult;
+            base.SetHeroAge(20f);
+        }
+        protected new void StartingAgeAdultOnConsequence(CharacterCreation characterCreation)
+        {
+            characterCreation.ClearFaceGenPrefab();
+            characterCreation.ChangeFaceGenChars(SandboxCharacterCreationContent.ChangePlayerFaceWithAge(30f, "act_childhood_schooled"));
+            characterCreation.ChangeCharsAnimation(new List<string>
+            {
+                "act_childhood_ready"
+            });
+            this.RefreshPlayerAppearance(characterCreation);
+            base._startingAge = SandboxCharacterCreationContent.SandboxAgeOptions.Adult;
+            base.SetHeroAge(30f);
+        }
+        protected new void StartingAgeMiddleAgedOnConsequence(CharacterCreation characterCreation)
+        {
+            characterCreation.ClearFaceGenPrefab();
+            characterCreation.ChangeFaceGenChars(SandboxCharacterCreationContent.ChangePlayerFaceWithAge(40f, "act_childhood_schooled"));
+            characterCreation.ChangeCharsAnimation(new List<string>
+            {
+                "act_childhood_sharp"
+            });
+            this.RefreshPlayerAppearance(characterCreation);
+            base._startingAge = SandboxCharacterCreationContent.SandboxAgeOptions.MiddleAged;
+            base.SetHeroAge(40f);
+        }
+        protected new void StartingAgeElderlyOnConsequence(CharacterCreation characterCreation)
+        {
+            characterCreation.ClearFaceGenPrefab();
+            characterCreation.ChangeFaceGenChars(SandboxCharacterCreationContent.ChangePlayerFaceWithAge(50f, "act_childhood_schooled"));
+            characterCreation.ChangeCharsAnimation(new List<string>
+            {
+                "act_childhood_tough"
+            });
+            this.RefreshPlayerAppearance(characterCreation);
+            base._startingAge = SandboxCharacterCreationContent.SandboxAgeOptions.Elder;
+            base.SetHeroAge(50f);
+        }
+
+        protected void ParentsOnApply(CharacterCreation characterCreation)
+        {
+            this.FinalizeParents();
+        }
+        protected static void ChildhoodOnApply(CharacterCreation characterCreation)
+        {
+        }
+        protected static void EducationOnApply(CharacterCreation characterCreation)
+        {
+        }
+        protected void AdolescenceOnApply(CharacterCreation characterCreation)
+        {
+        }
+        protected void YouthOnApply(CharacterCreation characterCreation)
+        {
+        }
+        protected void AdulthoodOnApply(CharacterCreation characterCreation)
+        {
+        }
+
         protected bool IsCultureArcherType()
         {
             string cultureId = base.GetSelectedCulture().StringId;
@@ -948,6 +1126,55 @@ namespace Split
                    cultureId == "qinguo" || cultureId == "rekgeist";
         }
 
+        protected new void RefreshPlayerAppearance(CharacterCreation characterCreation)
+        {
+            string text = string.Concat(new object[]
+            {
+                "player_char_creation_",
+                base.GetSelectedCulture().StringId,
+                "_",
+                base.SelectedTitleType
+            });
+            base.ChangePlayerOutfit(characterCreation, text);
+            this.ApplyEquipments(characterCreation);
+        }
+        protected new void ApplyEquipments(CharacterCreation characterCreation)
+        {
+            SandboxCharacterCreationContent.ClearMountEntity(characterCreation);
+            string text = string.Concat(new object[]
+            {
+                "player_char_creation_",
+                base.GetSelectedCulture().StringId,
+                "_",
+                base.SelectedTitleType
+            });
+            MBEquipmentRoster @stuff = Game.Current.ObjectManager.GetObject<MBEquipmentRoster>(text);
+            if (this.IsHorseman == true && @stuff.DefaultEquipment.Horse.IsEmpty)
+            {
+                ItemObject @object = Game.Current.ObjectManager.GetObject<ItemObject>("sumpter_horse");
+                ItemObject @object2 = Game.Current.ObjectManager.GetObject<ItemObject>("light_harness");
+
+                Equipment equipment = base.ChangePlayerOutfit(characterCreation, text).Clone(false);
+                equipment.AddEquipmentToSlotWithoutAgent(EquipmentIndex.Horse, new EquipmentElement(@object, null, null, false));
+                equipment.AddEquipmentToSlotWithoutAgent(EquipmentIndex.HorseHarness, new EquipmentElement(@object2, null, null, false));
+                characterCreation.ChangeCharactersEquipment(new List<Equipment> { equipment });
+                base.PlayerStartEquipment = equipment ?? MBEquipmentRoster.EmptyEquipment;
+            } else
+            {
+                base.PlayerStartEquipment = ((@stuff != null) ? @stuff.DefaultEquipment : null) ?? MBEquipmentRoster.EmptyEquipment;
+            }
+            base.PlayerCivilianEquipment = ((@stuff != null) ? @stuff.GetCivilianEquipments().FirstOrDefault<Equipment>() : null) ?? MBEquipmentRoster.EmptyEquipment;
+
+            if (base.PlayerStartEquipment != null && base.PlayerCivilianEquipment != null)
+            {
+                CharacterObject.PlayerCharacter.Equipment.FillFrom(base.PlayerStartEquipment, true);
+                CharacterObject.PlayerCharacter.FirstCivilianEquipment.FillFrom(base.PlayerCivilianEquipment, true);
+            }
+            SandboxCharacterCreationContent.ChangePlayerMount(characterCreation, Hero.MainHero);
+        }
+
         protected virtual int AdolescenceAge{ get{ return 16; }}
+        protected bool IsHorseman { get; set; }
     }
 }
+

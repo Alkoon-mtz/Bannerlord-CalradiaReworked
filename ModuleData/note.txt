@@ -13,6 +13,11 @@ ALL Cultures:
 Customize:
     rework tournament_team_templates
     rework charCreation equipments
+        children remove choice, 1 set
+        education remove choice, 1 set
+        adolescence remove choice, 1 set + weapon A
+        adult remove choice, 1 set + weapon B
+
 
 Aseriyun:
     /
