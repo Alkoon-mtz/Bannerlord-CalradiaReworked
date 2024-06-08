@@ -676,4 +676,107 @@
             <EquipmentSet id="ase_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
+
+    <!-- Tournament -->
+    <NPCCharacter id="tournament_template_aseriyun_one_participant_set_v1"
+        default_group="Infantry"
+        level="6"
+        name="{=!}tournament_template_aseriyun_one_participant_set_v1"
+        culture="Culture.aserai"
+        skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_javelin_1_t2_blunt" />
+                <equipment slot="Item1" id="Item.eastern_javelin_1_t2_blunt" />
+                <equipment slot="Item2" id="Item.aserai_sword_2_t2_blunt" />
+                <equipment slot="Horse" id="Item.aserai_horse_tournament" />
+                <equipment slot="HorseHarness" id="Item.light_harness" />
+            </EquipmentRoster>
+            <EquipmentSet id="npc_wanderer_equipment_template_aseriyun" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tournament_template_aseriyun_two_participant_set_v1"
+        default_group="Infantry"
+        level="6"
+        name="{=!}tournament_template_aseriyun_two_participant_set_v1"
+        culture="Culture.aserai"
+        skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.aserai_sword_1_t2_blunt" />
+                <equipment slot="Item1" id="Item.bound_desert_round_sparring_shield" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.steppe_bow" />
+                <equipment slot="Item1" id="Item.tournament_arrows" />
+                <equipment slot="Item2" id="Item.aserai_sword_1_t2_blunt" />
+                <equipment slot="Horse" id="Item.aserai_horse_tournament" />
+                <equipment slot="HorseHarness" id="Item.light_harness" />
+            </EquipmentRoster>
+            <EquipmentSet id="npc_wanderer_equipment_template_aseriyun" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tournament_template_aseriyun_two_participant_set_v2"
+        default_group="Infantry"
+        level="6"
+        name="{=!}tournament_template_aseriyun_two_participant_set_v2"
+        culture="Culture.aserai"
+        skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_javelin_1_t2_blunt" />
+                <equipment slot="Item1" id="Item.eastern_javelin_1_t2_blunt" />
+                <equipment slot="Item2" id="Item.aserai_sword_2_t2_blunt" />
+                <equipment slot="Horse" id="Item.aserai_horse_tournament" />
+                <equipment slot="HorseHarness" id="Item.light_harness" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.battania_2haxe_1_t2_blunt" />
+            </EquipmentRoster>
+            <EquipmentSet id="npc_wanderer_equipment_template_aseriyun" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tournament_template_aseriyun_four_participant_set_v1"
+        default_group="Infantry"
+        level="6"
+        name="{=!}tournament_template_aseriyun_four_participant_set_v1"
+        culture="Culture.aserai"
+        skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_aseriyun" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_javelin_1_t2_blunt" />
+                <equipment slot="Item1" id="Item.eastern_javelin_1_t2_blunt" />
+                <equipment slot="Item2" id="Item.aserai_sword_2_t2_blunt" />
+                <equipment slot="Horse" id="Item.aserai_horse_tournament" />
+                <equipment slot="HorseHarness" id="Item.light_harness" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.aserai_sword_1_t2_blunt" />
+                <equipment slot="Item1" id="Item.bound_desert_round_sparring_shield" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.battania_2haxe_1_t2_blunt" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.steppe_bow" />
+                <equipment slot="Item1" id="Item.tournament_arrows" />
+                <equipment slot="Item2" id="Item.aserai_sword_1_t2_blunt" />
+                <equipment slot="Horse" id="Item.aserai_horse_tournament" />
+                <equipment slot="HorseHarness" id="Item.light_harness" />
+            </EquipmentRoster>
+            <EquipmentSet id="npc_wanderer_equipment_template_aseriyun" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
 </NPCCharacters>

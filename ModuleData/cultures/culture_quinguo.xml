@@ -445,18 +445,14 @@
             <template name="NPCCharacter.spc_outlaw_qinguo_leader_3" />
         </rebellion_hero_templates>
         <tournament_team_templates_one_participant>
-            <template name="NPCCharacter.tournament_template_khuzait_one_participant_set_v1" />
-            <template name="NPCCharacter.tournament_template_khuzait_one_participant_set_v2" />
+            <template name="NPCCharacter.tournament_template_qinguo_one_participant_set_v1" />
         </tournament_team_templates_one_participant>
         <tournament_team_templates_two_participant>
-            <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v1" />
-            <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v2" />
-            <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v3" />
+            <template name="NPCCharacter.tournament_template_qinguo_two_participant_set_v1" />
+            <template name="NPCCharacter.tournament_template_qinguo_two_participant_set_v2" />
         </tournament_team_templates_two_participant>
         <tournament_team_templates_four_participant>
-            <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v1" />
-            <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v2" />
-            <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v3" />
+            <template name="NPCCharacter.tournament_template_qinguo_four_participant_set_v1" />
         </tournament_team_templates_four_participant>
         <basic_mercenary_troops>
             <template name="NPCCharacter.ludnik_tier_1" />

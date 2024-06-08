@@ -676,4 +676,107 @@
             <EquipmentSet id="ius_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
+
+    <!-- Tournament -->
+    <NPCCharacter id="tournament_template_iustrium_one_participant_set_v1"
+        default_group="Infantry"
+        level="6"
+        name="{=!}tournament_template_iustrium_one_participant_set_v1"
+        culture="Culture.iustrium"
+        skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_iustrium" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.crossbow_a_blunt" />
+                <equipment slot="Item1" id="Item.tournament_bolts" />
+                <equipment slot="Item2" id="Item.billhook_polearm_t2_blunt" />
+            </EquipmentRoster>
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tournament_template_iustrium_two_participant_set_v1"
+        default_group="Infantry"
+        level="6"
+        name="{=!}tournament_template_iustrium_two_participant_set_v1"
+        culture="Culture.iustrium"
+        skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_iustrium" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.empire_sword_1_t2_blunt" />
+                <equipment slot="Item1" id="Item.western_kite_sparring_shield" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.crossbow_a_blunt" />
+                <equipment slot="Item1" id="Item.tournament_bolts" />
+                <equipment slot="Item2" id="Item.empire_sword_1_t2_blunt" />
+                <equipment slot="Horse" id="Item.empire_horse_tournament" />
+                <equipment slot="HorseHarness" id="Item.light_harness" />
+            </EquipmentRoster>
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tournament_template_iustrium_two_participant_set_v2"
+        default_group="Infantry"
+        level="6"
+        name="{=!}tournament_template_iustrium_two_participant_set_v2"
+        culture="Culture.iustrium"
+        skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_iustrium" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.crossbow_a_blunt" />
+                <equipment slot="Item1" id="Item.tournament_bolts" />
+                <equipment slot="Item2" id="Item.billhook_polearm_t2_blunt" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.empire_sword_1_t2_blunt" />
+                <equipment slot="Item1" id="Item.western_kite_sparring_shield" />
+                <equipment slot="Horse" id="Item.empire_horse_tournament" />
+                <equipment slot="HorseHarness" id="Item.light_harness" />
+            </EquipmentRoster>
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tournament_template_iustrium_four_participant_set_v1"
+        default_group="Infantry"
+        level="6"
+        name="{=!}tournament_template_iustrium_four_participant_set_v1"
+        culture="Culture.iustrium"
+        skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_iustrium" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.crossbow_a_blunt" />
+                <equipment slot="Item1" id="Item.tournament_bolts" />
+                <equipment slot="Item2" id="Item.billhook_polearm_t2_blunt" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.empire_sword_1_t2_blunt" />
+                <equipment slot="Item1" id="Item.western_kite_sparring_shield" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.crossbow_a_blunt" />
+                <equipment slot="Item1" id="Item.tournament_bolts" />
+                <equipment slot="Item2" id="Item.empire_sword_1_t2_blunt" />
+                <equipment slot="Horse" id="Item.empire_horse_tournament" />
+                <equipment slot="HorseHarness" id="Item.light_harness" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.empire_sword_1_t2_blunt" />
+                <equipment slot="Item1" id="Item.western_kite_sparring_shield" />
+                <equipment slot="Horse" id="Item.empire_horse_tournament" />
+                <equipment slot="HorseHarness" id="Item.light_harness" />
+            </EquipmentRoster>
+            <EquipmentSet id="npc_wanderer_equipment_template_iustrium" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
 </NPCCharacters>

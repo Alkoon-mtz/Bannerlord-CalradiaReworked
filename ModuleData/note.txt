@@ -11,7 +11,6 @@ shield2: 11.41.41.1414.1110.764.767.1.0.0.510.142.41.530.100.764.495.0.1.0.510.1
 
 ALL Cultures:
 Customize:
-    rework tournament_team_templates
 
 Aseriyun:
     /
@@ -38,7 +37,7 @@ Zulizwe :
 
 NTH:
     Code:
-        Cultural feats
+        Cultural feats ?
             TaleWorlds.CampaignSystem.GameComponents
             TaleWorlds.CampaignSystem.CharacterDevelopment.DefaultCulturalFeats
     New World Map ?

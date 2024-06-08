@@ -31,7 +31,7 @@
         prison_guard="NPCCharacter.prison_guard_iustrium"
         guard="NPCCharacter.guard_iustrium"
         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_iustrium"
-        tournament_master="NPCCharacter.tournament_master_iustrium"
+        tournament_master="NPCCharacter.tournament_master_rekgeist"
         blacksmith="NPCCharacter.blacksmith_iustrium"
         weaponsmith="NPCCharacter.weaponsmith_iustrium"
         armorer="NPCCharacter.armorer_iustrium"
@@ -384,17 +384,14 @@
             <template name="NPCCharacter.spc_outlaw_iustrium_leader_3" />
         </rebellion_hero_templates>
         <tournament_team_templates_one_participant>
-            <template name="NPCCharacter.tournament_template_empire_one_participant_set_v1" />
+            <template name="NPCCharacter.tournament_template_iustrium_one_participant_set_v1" />
         </tournament_team_templates_one_participant>
         <tournament_team_templates_two_participant>
-            <template name="NPCCharacter.tournament_template_empire_two_participant_set_v1" />
-            <template name="NPCCharacter.tournament_template_empire_two_participant_set_v2" />
-            <template name="NPCCharacter.tournament_template_empire_two_participant_set_v3" />
+            <template name="NPCCharacter.tournament_template_iustrium_two_participant_set_v1" />
+            <template name="NPCCharacter.tournament_template_iustrium_two_participant_set_v2" />
         </tournament_team_templates_two_participant>
         <tournament_team_templates_four_participant>
-            <template name="NPCCharacter.tournament_template_empire_four_participant_set_v1" />
-            <template name="NPCCharacter.tournament_template_empire_four_participant_set_v2" />
-            <template name="NPCCharacter.tournament_template_empire_four_participant_set_v3" />
+            <template name="NPCCharacter.tournament_template_iustrium_four_participant_set_v1" />
         </tournament_team_templates_four_participant>
         <basic_mercenary_troops>
             <template name="NPCCharacter.ludnik_tier_1" />

@@ -676,4 +676,109 @@
             <EquipmentSet id="kra_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
+
+    <!-- Tournament -->
+    <NPCCharacter id="tournament_template_kratorios_one_participant_set_v1"
+        default_group="Infantry"
+        level="6"
+        name="{=!}tournament_template_kratorios_one_participant_set_v1"
+        culture="Culture.empire"
+        skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.crossbow_a_blunt" />
+                <equipment slot="Item1" id="Item.tournament_bolts" />
+                <equipment slot="Item2" id="Item.empire_sword_1_t2_blunt" />
+                <equipment slot="Horse" id="Item.empire_horse_tournament" />
+                <equipment slot="HorseHarness" id="Item.light_harness" />
+            </EquipmentRoster>
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tournament_template_kratorios_two_participant_set_v1"
+        default_group="Infantry"
+        level="6"
+        name="{=!}tournament_template_kratorios_two_participant_set_v1"
+        culture="Culture.empire"
+        skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.empire_lance_1_t3_blunt" />
+                <equipment slot="Item1" id="Item.western_kite_sparring_shield" />
+                <equipment slot="Item2" id="Item.empire_sword_1_t2_blunt" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.western_javelin_1_t2_blunt" />
+                <equipment slot="Item1" id="Item.western_javelin_1_t2_blunt" />
+                <equipment slot="Item2" id="Item.empire_sword_1_t2_blunt" />
+            </EquipmentRoster>
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tournament_template_kratorios_two_participant_set_v2"
+        default_group="Infantry"
+        level="6"
+        name="{=!}tournament_template_kratorios_two_participant_set_v2"
+        culture="Culture.empire"
+        skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.crossbow_a_blunt" />
+                <equipment slot="Item1" id="Item.tournament_bolts" />
+                <equipment slot="Item2" id="Item.empire_sword_1_t2_blunt" />
+                <equipment slot="Horse" id="Item.empire_horse_tournament" />
+                <equipment slot="HorseHarness" id="Item.light_harness" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.battania_2hsword_1_t2_blunt" />
+                <equipment slot="Horse" id="Item.battania_horse_tournament" />
+                <equipment slot="HorseHarness" id="Item.light_harness" />
+            </EquipmentRoster>
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tournament_template_kratorios_four_participant_set_v1"
+        default_group="Infantry"
+        level="6"
+        name="{=!}tournament_template_kratorios_four_participant_set_v1"
+        culture="Culture.empire"
+        skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_kratorios" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.crossbow_a_blunt" />
+                <equipment slot="Item1" id="Item.tournament_bolts" />
+                <equipment slot="Item2" id="Item.empire_sword_1_t2_blunt" />
+                <equipment slot="Horse" id="Item.empire_horse_tournament" />
+                <equipment slot="HorseHarness" id="Item.light_harness" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.empire_lance_1_t3_blunt" />
+                <equipment slot="Item1" id="Item.western_kite_sparring_shield" />
+                <equipment slot="Item2" id="Item.empire_sword_1_t2_blunt" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.battania_2hsword_1_t2_blunt" />
+                <equipment slot="Horse" id="Item.battania_horse_tournament" />
+                <equipment slot="HorseHarness" id="Item.light_harness" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.western_javelin_1_t2_blunt" />
+                <equipment slot="Item1" id="Item.western_javelin_1_t2_blunt" />
+                <equipment slot="Item2" id="Item.empire_sword_1_t2_blunt" />
+            </EquipmentRoster>
+            <EquipmentSet id="npc_wanderer_equipment_template_kratorios" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
 </NPCCharacters>

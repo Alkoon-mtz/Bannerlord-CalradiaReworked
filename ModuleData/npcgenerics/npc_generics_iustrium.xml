@@ -462,10 +462,12 @@
     </NPCCharacter>
     <NPCCharacter id="villager_iustrium"
         default_group="Infantry"
-        level="1"
-        name="{=villager_iustrium}Iustrium Peasant"
+        is_hero="false"
         occupation="Villager"
         culture="Culture.iustrium"
+        name="{=villager_iustrium}Iustrium Peasant"
+        level="1"
+        age="30"
         skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
         <face>
             <face_key_template value="BodyProperty.villager_iustrium" />
@@ -821,7 +823,7 @@
             <EquipmentSet id="ius_npcgenerics_template_poor" civilian="true" />
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="female_danius_iustrium"
+    <NPCCharacter id="female_dancer_iustrium"
         default_group="Infantry"
         is_hero="false"
         is_female="true"

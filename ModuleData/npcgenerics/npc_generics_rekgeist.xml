@@ -4,7 +4,7 @@
     <NPCCharacter id="caravan_master_rekgeist"
         default_group="Infantry"
         level="26"
-        name="{=uDseaKcb}Rekgeisten Caravan Master"
+        name="{=caravan_master_rekgeist}Rekgeist Caravan Master"
         occupation="CaravanGuard"
         culture="Culture.rekgeist">
         <face>

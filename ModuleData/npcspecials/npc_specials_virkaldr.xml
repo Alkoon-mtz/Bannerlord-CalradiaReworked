@@ -676,4 +676,106 @@
             <EquipmentSet id="vir_npcgenerics_template_mid" civilian="true" />
         </Equipments>
     </NPCCharacter>
+
+    <!-- Tournament -->
+    <NPCCharacter id="tournament_template_virkaldr_one_participant_set_v1"
+        default_group="Infantry"
+        level="6"
+        name="{=!}tournament_template_virkaldr_one_participant_set_v1"
+        culture="Culture.sturgia"
+        skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_virkaldr" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.northern_throwing_axe_1_t1_blunt" />
+                <equipment slot="Item1" id="Item.northern_throwing_axe_1_t1_blunt" />
+                <equipment slot="Item2" id="Item.sturgia_axe_2_t2_blunt" />
+                <equipment slot="Item3" id="Item.northern_round_sparring_shield" />
+            </EquipmentRoster>
+            <EquipmentSet id="npc_wanderer_equipment_template_virkaldr" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tournament_template_virkaldr_two_participant_set_v1"
+        default_group="Infantry"
+        level="6"
+        name="{=!}tournament_template_virkaldr_two_participant_set_v1"
+        culture="Culture.sturgia"
+        skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_virkaldr" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.northern_throwing_axe_1_t1_blunt" />
+                <equipment slot="Item1" id="Item.northern_throwing_axe_1_t1_blunt" />
+                <equipment slot="Item2" id="Item.battania_2haxe_1_t2_blunt" />
+                <equipment slot="Horse" id="Item.sturgia_horse_tournament" />
+                <equipment slot="HorseHarness" id="Item.light_harness" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sturgia_axe_2_t2_blunt" />
+            </EquipmentRoster>
+            <EquipmentSet id="npc_wanderer_equipment_template_virkaldr" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tournament_template_virkaldr_two_participant_set_v2"
+        default_group="Infantry"
+        level="6"
+        name="{=!}tournament_template_virkaldr_two_participant_set_v2"
+        culture="Culture.sturgia"
+        skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_virkaldr" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.northern_throwing_axe_1_t1_blunt" />
+                <equipment slot="Item1" id="Item.northern_throwing_axe_1_t1_blunt" />
+                <equipment slot="Item2" id="Item.sturgia_axe_2_t2_blunt" />
+                <equipment slot="Item3" id="Item.northern_round_sparring_shield" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.mountain_hunting_bow" />
+                <equipment slot="Item1" id="Item.tournament_arrows" />
+                <equipment slot="Item2" id="Item.sturgia_axe_2_t2_blunt" />
+            </EquipmentRoster>
+            <EquipmentSet id="npc_wanderer_equipment_template_virkaldr" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="tournament_template_virkaldr_four_participant_set_v1"
+        default_group="Infantry"
+        level="6"
+        name="{=!}tournament_template_virkaldr_four_participant_set_v1"
+        culture="Culture.sturgia"
+        skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+        <face>
+            <face_key_template value="BodyProperty.fighter_virkaldr" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.northern_throwing_axe_1_t1_blunt" />
+                <equipment slot="Item1" id="Item.northern_throwing_axe_1_t1_blunt" />
+                <equipment slot="Item2" id="Item.sturgia_axe_2_t2_blunt" />
+                <equipment slot="Item3" id="Item.northern_round_sparring_shield" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.northern_throwing_axe_1_t1_blunt" />
+                <equipment slot="Item1" id="Item.northern_throwing_axe_1_t1_blunt" />
+                <equipment slot="Item2" id="Item.battania_2haxe_1_t2_blunt" />
+                <equipment slot="Horse" id="Item.sturgia_horse_tournament" />
+                <equipment slot="HorseHarness" id="Item.light_harness" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.mountain_hunting_bow" />
+                <equipment slot="Item1" id="Item.tournament_arrows" />
+                <equipment slot="Item2" id="Item.sturgia_axe_2_t2_blunt" />
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.battania_2haxe_1_t2_blunt" />
+            </EquipmentRoster>
+            <EquipmentSet id="npc_wanderer_equipment_template_virkaldr" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
 </NPCCharacters>
