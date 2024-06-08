@@ -93,453 +93,92 @@
         </EquipmentSet>
     </EquipmentRoster>
 
-    <!-- Culture first choice -->
-    <!--Kinsfolk -->
-    <EquipmentRoster id="player_char_creation_childhood_age_qinguo_1_m" culture="Culture.qinguo">
+    <EquipmentRoster id="player_char_creation_childhood_age_qinguo" culture="Culture.qinguo">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.khuzait_civil_coat" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
+            <Equipment slot="Head" id="Item.nomad_cap" />
+            <Equipment slot="Body" id="Item.DZ_khuzait_armor_a" />
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_f" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_qinguo_1_m" culture="Culture.qinguo">
+    <EquipmentRoster id="player_char_creation_education_age_qinguo" culture="Culture.qinguo">
         <EquipmentSet>
-            <Equipment slot="Body" id="Item.khuzait_civil_coat" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_childhood_age_qinguo_1_f" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.khuzait_civil_coat" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_qinguo_1_f" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.khuzait_civil_coat" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <!--Merchant -->
-    <EquipmentRoster id="player_char_creation_childhood_age_qinguo_2_m" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_qinguo_2_m" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
-            <Equipment slot="Leg" id="Item.leather_shoes" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_childhood_age_qinguo_2_f" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
-            <Equipment slot="Leg" id="Item.leather_shoes" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_qinguo_2_f" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
-            <Equipment slot="Leg" id="Item.leather_shoes" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <!--Tribespeople -->
-    <EquipmentRoster id="player_char_creation_childhood_age_qinguo_3_m" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.steppe_armor" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_qinguo_3_m" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.steppe_armor" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_childhood_age_qinguo_3_f" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.steppe_armor" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_qinguo_3_f" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.steppe_armor" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <!--Farmer -->
-    <EquipmentRoster id="player_char_creation_childhood_age_qinguo_4_m" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.steppe_robe" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-            <Equipment slot="Head" id="Item.peaked_fur_hood" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_qinguo_4_m" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.steppe_robe" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-            <Equipment slot="Head" id="Item.peaked_fur_hood" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_childhood_age_qinguo_4_f" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.steppe_robe" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-            <Equipment slot="Head" id="Item.peaked_fur_hood" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_qinguo_4_f" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.steppe_robe" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-            <Equipment slot="Head" id="Item.peaked_fur_hood" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <!--Shaman -->
-    <EquipmentRoster id="player_char_creation_childhood_age_qinguo_5_m" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_qinguo_5_m" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_childhood_age_qinguo_5_f" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_qinguo_5_f" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <!--Nomads -->
-    <EquipmentRoster id="player_char_creation_childhood_age_qinguo_6_m" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-            <Equipment slot="Head" id="Item.nomad_padded_hood" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_qinguo_6_m" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-            <Equipment slot="Head" id="Item.nomad_padded_hood" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_childhood_age_qinguo_6_f" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-            <Equipment slot="Head" id="Item.nomad_padded_hood" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_education_age_qinguo_6_f" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
-            <Equipment slot="Leg" id="Item.southern_moccasins" />
-            <Equipment slot="Head" id="Item.nomad_padded_hood" />
+            <Equipment slot="Head" id="Item.nomad_cap" />
+            <Equipment slot="Body" id="Item.DZ_khuzait_armor_a" />
+            <Equipment slot="Leg" id="Item.TV_aserai_boots_f" />
         </EquipmentSet>
     </EquipmentRoster>
 
-    <!-- Special Situations -->
-    <!--were a chieftain's servant=> Battania and Khuzait Only, Parents Are Retainers-->
-    <EquipmentRoster id="player_char_creation_qinguo_10_m" culture="Culture.qinguo">
+    <!-- OneHanded -->
+    <EquipmentRoster id="player_char_creation_qinguo_1" culture="Culture.qinguo">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.small_flat_heater_shield" />
-            <Equipment slot="Item1" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Item2" id="Item.western_spear_1_t2" />
-            <Equipment slot="Body" id="Item.khuzait_belt_leather" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-            <Equipment slot="Horse" id="Item.sumpter_horse" />
-            <Equipment slot="HorseHarness" id="Item.steppe_harness" />
+            <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+            <Equipment slot="Item1" id="Item.decorated_steppe_shield" />
+            <Equipment slot="Body" id="Item.ao_durkhan_sleeveless_leather_lamellar" />
+            <Equipment slot="Leg" id="Item.TV_khuzait_boots_a" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+            <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+            <Equipment slot="Body" id="Item.light_tunic" />
+            <Equipment slot="Leg" id="Item.fine_town_boots" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_qinguo_10_f" culture="Culture.qinguo">
+    <!-- TwoHanded -->
+    <EquipmentRoster id="player_char_creation_qinguo_2" culture="Culture.qinguo">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.small_flat_heater_shield" />
-            <Equipment slot="Item1" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Item2" id="Item.eastern_spear_1_t2" />
-            <Equipment slot="Body" id="Item.khuzait_belt_leather" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-            <Equipment slot="Horse" id="Item.sumpter_horse" />
-            <Equipment slot="HorseHarness" id="Item.steppe_harness" />
+            <Equipment slot="Item0" id="Item.simple_sparth_axe_t2" />
+            <Equipment slot="Item1" id="Item.highland_throwing_axe_1_t2" />
+            <Equipment slot="Body" id="Item.ao_durkhan_sleeveless_leather_lamellar" />
+            <Equipment slot="Leg" id="Item.TV_khuzait_boots_a" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Body" id="Item.khuzait_dress_b" />
-            <Equipment slot="Cape" id="Item.female_scarf" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+            <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+            <Equipment slot="Body" id="Item.light_tunic" />
+            <Equipment slot="Leg" id="Item.fine_town_boots" />
         </EquipmentSet>
     </EquipmentRoster>
-    <!--trained with the cavalry=> Empire Khuzait Aserai Vlandia Only, Parents Are Retainers-->
-    <EquipmentRoster id="player_char_creation_qinguo_9_m" culture="Culture.qinguo">
+    <!-- Polearm -->
+    <EquipmentRoster id="player_char_creation_qinguo_3" culture="Culture.qinguo">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.small_flat_heater_shield" />
-            <Equipment slot="Item1" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Item2" id="Item.eastern_spear_1_t2" />
-            <Equipment slot="Body" id="Item.studded_leather_waistcoat" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-            <Equipment slot="Horse" id="Item.sumpter_horse" />
-            <Equipment slot="HorseHarness" id="Item.steppe_harness" />
+            <Equipment slot="Item0" id="Item.imperial_spear_t2" />
+            <Equipment slot="Item1" id="Item.decorated_steppe_shield" />
+            <Equipment slot="Item2" id="Item.empire_sword_1_t2" />
+            <Equipment slot="Body" id="Item.ao_durkhan_sleeveless_leather_lamellar" />
+            <Equipment slot="Leg" id="Item.TV_khuzait_boots_a" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
-            <Equipment slot="Cape" id="Item.scarf" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+            <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+            <Equipment slot="Body" id="Item.light_tunic" />
+            <Equipment slot="Leg" id="Item.fine_town_boots" />
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_qinguo_9_f" culture="Culture.qinguo">
+    <!-- Xbow -->
+    <EquipmentRoster id="player_char_creation_qinguo_4" culture="Culture.qinguo">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.small_flat_heater_shield" />
-            <Equipment slot="Item1" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Item2" id="Item.eastern_spear_1_t2" />
-            <Equipment slot="Body" id="Item.studded_leather_waistcoat" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-            <Equipment slot="Horse" id="Item.sumpter_horse" />
-            <Equipment slot="HorseHarness" id="Item.steppe_harness" />
+            <Equipment slot="Item0" id="Item.crossbow_a" />
+            <Equipment slot="Item1" id="Item.bolt_e" />
+            <Equipment slot="Item2" id="Item.empire_sword_1_t2" />
+            <Equipment slot="Body" id="Item.ao_durkhan_sleeveless_leather_lamellar" />
+            <Equipment slot="Leg" id="Item.TV_khuzait_boots_a" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Body" id="Item.khuzait_dress_b" />
-            <Equipment slot="Cape" id="Item.female_scarf" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+            <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+            <Equipment slot="Body" id="Item.light_tunic" />
+            <Equipment slot="Leg" id="Item.fine_town_boots" />
         </EquipmentSet>
     </EquipmentRoster>
-
-    <!--stood guard with the garrisons-->
-    <EquipmentRoster id="player_char_creation_qinguo_1_m" culture="Culture.qinguo">
+    <!-- Throwing -->
+    <EquipmentRoster id="player_char_creation_qinguo_5" culture="Culture.qinguo">
         <EquipmentSet>
-            <Equipment slot="Item1" id="Item.adarga" />
-            <Equipment slot="Item0" id="Item.khuzait_mace_1_t2" />
-            <Equipment slot="Item2" id="Item.hunting_bow" />
-            <Equipment slot="Item3" id="Item.default_arrows" />
-            <Equipment slot="Body" id="Item.steppe_armor" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-            <Equipment slot="Horse" id="Item.sumpter_horse" />
-            <Equipment slot="HorseHarness" id="Item.steppe_fur_harness" />
+            <Equipment slot="Item0" id="Item.western_javelin_1_t2" />
+            <Equipment slot="Item1" id="Item.western_javelin_1_t2" />
+            <Equipment slot="Item2" id="Item.empire_sword_1_t2" />
+            <Equipment slot="Body" id="Item.ao_durkhan_sleeveless_leather_lamellar" />
+            <Equipment slot="Leg" id="Item.TV_khuzait_boots_a" />
         </EquipmentSet>
         <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="player_char_creation_qinguo_1_f" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Item1" id="Item.adarga" />
-            <Equipment slot="Item0" id="Item.khuzait_mace_1_t2" />
-            <Equipment slot="Item2" id="Item.hunting_bow" />
-            <Equipment slot="Item3" id="Item.default_arrows" />
-            <Equipment slot="Body" id="Item.steppe_armor" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-            <Equipment slot="Horse" id="Item.sumpter_horse" />
-            <Equipment slot="HorseHarness" id="Item.steppe_fur_harness" />
-        </EquipmentSet>
-        <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Body" id="Item.khuzait_dress_b" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <!--rode with the scouts-->
-    <EquipmentRoster id="player_char_creation_qinguo_2_m" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Item1" id="Item.default_arrows" />
-            <Equipment slot="Item2" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Item0" id="Item.steppe_bow" />
-            <Equipment slot="Head" id="Item.fur_hat" />
-            <Equipment slot="Body" id="Item.khuzait_belt_leather" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-            <Equipment slot="Horse" id="Item.sumpter_horse" />
-            <Equipment slot="HorseHarness" id="Item.steppe_fur_harness" />
-        </EquipmentSet>
-        <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Body" id="Item.khuzait_belt_leather" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <!--rode with the scouts-->
-    <EquipmentRoster id="player_char_creation_qinguo_2_f" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Item1" id="Item.default_arrows" />
-            <Equipment slot="Item2" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Item0" id="Item.steppe_bow" />
-            <Equipment slot="Head" id="Item.fur_hat" />
-            <Equipment slot="Body" id="Item.khuzait_belt_leather" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-            <Equipment slot="Horse" id="Item.sumpter_horse" />
-            <Equipment slot="HorseHarness" id="Item.steppe_fur_harness" />
-        </EquipmentSet>
-        <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Body" id="Item.khuzait_belt_leather" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <!--trained with the infantry-->
-    <EquipmentRoster id="player_char_creation_qinguo_3_m" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Item2" id="Item.eastern_spear_1_t2" />
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Body" id="Item.steppe_armor" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-            <Equipment slot="Horse" id="Item.sumpter_horse" />
-            <Equipment slot="HorseHarness" id="Item.steppe_fur_harness" />
-        </EquipmentSet>
-        <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Body" id="Item.steppe_armor" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <!--trained with the infantry-->
-    <EquipmentRoster id="player_char_creation_qinguo_3_f" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Item2" id="Item.eastern_spear_1_t2" />
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Body" id="Item.steppe_armor" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-            <Equipment slot="Horse" id="Item.sumpter_horse" />
-            <Equipment slot="HorseHarness" id="Item.steppe_fur_harness" />
-        </EquipmentSet>
-        <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Body" id="Item.steppe_armor" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <!--joined the skirmishers-->
-    <EquipmentRoster id="player_char_creation_qinguo_4_m" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Item3" id="Item.western_javelin_1_t2" />
-            <Equipment slot="Item2" id="Item.western_javelin_1_t2" />
-            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-            <Equipment slot="Horse" id="Item.sumpter_horse" />
-            <Equipment slot="HorseHarness" id="Item.steppe_fur_harness" />
-        </EquipmentSet>
-        <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <!--joined the skirmishers-->
-    <EquipmentRoster id="player_char_creation_qinguo_4_f" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Item3" id="Item.eastern_javelin_1_t2" />
-            <Equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
-            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-            <Equipment slot="Horse" id="Item.sumpter_horse" />
-            <Equipment slot="HorseHarness" id="Item.steppe_fur_harness" />
-        </EquipmentSet>
-        <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <!--marched with the camp followers-->
-    <EquipmentRoster id="player_char_creation_qinguo_5_m" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Item3" id="Item.eastern_javelin_1_t2" />
-            <Equipment slot="Item0" id="Item.eastern_spear_1_t2" />
-            <Equipment slot="Item2" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Body" id="Item.steppe_armor" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-            <Equipment slot="Horse" id="Item.sumpter_horse" />
-            <Equipment slot="HorseHarness" id="Item.steppe_fur_harness" />
-        </EquipmentSet>
-        <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Body" id="Item.steppe_armor" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <!--marched with the camp followers-->
-    <EquipmentRoster id="player_char_creation_qinguo_5_f" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.eastern_spear_1_t2" />
-            <Equipment slot="Item3" id="Item.eastern_javelin_1_t2" />
-            <Equipment slot="Body" id="Item.khuzait_belt_leather" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-            <Equipment slot="Horse" id="Item.sumpter_horse" />
-            <Equipment slot="HorseHarness" id="Item.steppe_fur_harness" />
-        </EquipmentSet>
-        <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Body" id="Item.khuzait_belt_leather" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <!--Ignore 6th Option-->
-    <EquipmentRoster id="player_char_creation_qinguo_6_m" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Item2" id="Item.khuzait_mace_1_t2" />
-            <Equipment slot="Item3" id="Item.adarga" />
-            <Equipment slot="Body" id="Item.reinforced_suede_armor" />
-            <Equipment slot="Cape" id="Item.reinforced_suede_shoulders" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-            <Equipment slot="Horse" id="Item.sumpter_horse" />
-            <Equipment slot="HorseHarness" id="Item.steppe_fur_harness" />
-        </EquipmentSet>
-        <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
-            <Equipment slot="Body" id="Item.reinforced_suede_armor" />
-            <Equipment slot="Cape" id="Item.reinforced_suede_shoulders" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <!--Ignore 6th Option-->
-    <EquipmentRoster id="player_char_creation_qinguo_6_f" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Item2" id="Item.khuzait_mace_1_t2" />
-            <Equipment slot="Item3" id="Item.adarga" />
-            <Equipment slot="Body" id="Item.reinforced_suede_armor" />
-            <Equipment slot="Cape" id="Item.reinforced_suede_shoulders" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-            <Equipment slot="Horse" id="Item.sumpter_horse" />
-            <Equipment slot="HorseHarness" id="Item.steppe_fur_harness" />
-        </EquipmentSet>
-        <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.khuzait_mace_1_t2" />
-            <Equipment slot="Body" id="Item.reinforced_suede_armor" />
-            <Equipment slot="Cape" id="Item.reinforced_suede_shoulders" />
-            <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
-        </EquipmentSet>
-    </EquipmentRoster>
-    <!-- Character creation show armor set -->
-    <EquipmentRoster id="player_char_creation_show_qinguo" culture="Culture.qinguo">
-        <EquipmentSet>
-            <Equipment slot="Body" id="Item.reinforced_suede_armor" />
-            <Equipment slot="Leg" id="Item.steppe_leather_boots" />
-        </EquipmentSet>
-        <EquipmentSet civilian="true">
-            <Equipment slot="Item0" id="Item.battania_mace_2_t2" />
-            <Equipment slot="Body" id="Item.northern_leather_vest" />
-            <Equipment slot="Leg" id="Item.wrapped_leather_boots" />
+            <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+            <Equipment slot="Body" id="Item.light_tunic" />
+            <Equipment slot="Leg" id="Item.fine_town_boots" />
         </EquipmentSet>
     </EquipmentRoster>
 
@@ -621,7 +260,6 @@
             IsCivilianTemplate="true"
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-
     <!--Townsman -->
     <EquipmentRoster id="child_template_qinguo_townsman_male" culture="Culture.qinguo">
         <EquipmentSet civilian="true">
@@ -697,7 +335,6 @@
             IsCivilianTemplate="true"
             IsNoncombatantTemplate="true" />
     </EquipmentRoster>
-
     <!--Noble -->
     <EquipmentRoster id="child_template_qinguo_noble_male" culture="Culture.qinguo">
         <EquipmentSet civilian="true">

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\Split\\bin\\cs\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{422361A2-D3D8-477D-B813-40782C7816C1}|Split.csproj|d:\\steam\\steamapps\\common\\mount \u0026 blade ii bannerlord\\modules\\split\\bin\\cs\\explorer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422361A2-D3D8-477D-B813-40782C7816C1}|Split.csproj|solutionrelative:explorer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422361A2-D3D8-477D-B813-40782C7816C1}|Split.csproj|d:\\steam\\steamapps\\common\\mount \u0026 blade ii bannerlord\\modules\\split\\bin\\cs\\reworkedfacekey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422361A2-D3D8-477D-B813-40782C7816C1}|Split.csproj|solutionrelative:reworkedfacekey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{422361A2-D3D8-477D-B813-40782C7816C1}|Split.csproj|d:\\steam\\steamapps\\common\\mount \u0026 blade ii bannerlord\\modules\\split\\bin\\cs\\reworkedcharcreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{422361A2-D3D8-477D-B813-40782C7816C1}|Split.csproj|solutionrelative:reworkedcharcreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Explorer.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\Split\\bin\\cs\\Explorer.cs",
+              "RelativeDocumentMoniker": "Explorer.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\Split\\bin\\cs\\Explorer.cs",
+              "RelativeToolTip": "Explorer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T00:52:11.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReworkedFacekey.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\Split\\bin\\cs\\ReworkedFacekey.cs",
+              "RelativeDocumentMoniker": "ReworkedFacekey.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\Split\\bin\\cs\\ReworkedFacekey.cs",
+              "RelativeToolTip": "ReworkedFacekey.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAowDQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T23:07:04.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ReworkedCharCreation.cs",
               "DocumentMoniker": "D:\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\Split\\bin\\cs\\ReworkedCharCreation.cs",
               "RelativeDocumentMoniker": "ReworkedCharCreation.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\Split\\bin\\cs\\ReworkedCharCreation.cs",
               "RelativeToolTip": "ReworkedCharCreation.cs",
-              "ViewState": "AQIAAJcDAAAAAAAAAAAgwJ0DAAAzAAAA",
+              "ViewState": "AQIAAOcCAAAAAAAAAAAAwJ0DAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T11:51:19.556Z",
               "EditorCaption": ""
