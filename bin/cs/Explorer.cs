@@ -3,7 +3,7 @@ using TaleWorlds.CampaignSystem.CampaignBehaviors;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors;
 
-namespace Split
+namespace CalradiaReworked
 {
     // Goal of this class is to make the explorers unattackable
     // Doesn't work yet with the "Diplomacy" module since it use alliance and ally helps in war, so they can be attacked
@@ -36,8 +36,8 @@ namespace Split
                     return false;
                 }
                 if (otherMapFaction is Kingdom otherKingdom && otherKingdom.StringId == "kingdom_explorer")
-                {  
-                    return false; 
+                {
+                    return false;
                 }
                 return true;
             }

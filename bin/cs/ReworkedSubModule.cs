@@ -1,14 +1,22 @@
 ﻿using HarmonyLib;
-using TaleWorlds.MountAndBlade;
-using TaleWorlds.CampaignSystem.CharacterCreationContent;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
-using TaleWorlds.CampaignSystem.CampaignBehaviors;
+using Helpers;
 using SandBox;
 using TaleWorlds.Core;
+using TaleWorlds.CampaignSystem;
+using TaleWorlds.CampaignSystem.CampaignBehaviors;
+using TaleWorlds.CampaignSystem.CharacterCreationContent;
+using TaleWorlds.CampaignSystem.Settlements;
+using TaleWorlds.Library;
+using TaleWorlds.Localization;
+using TaleWorlds.MountAndBlade;
 
-namespace Split
+namespace CalradiaReworked
 {
-    public class ReworkedSubModule : MBSubModuleBase
+    public class CalradiaReworkedSubModule : MBSubModuleBase
     {
         // Init all harmony patches
         protected override void OnSubModuleLoad()
@@ -48,6 +56,63 @@ namespace Split
                     new ReworkedCharCreation()
                 });
                 Game.Current.GameStateManager.CleanAndPushState(gameState, 0);
+                return false;
+            }
+        }
+    }
+
+    internal class GenerateClanNameforPlayerPatch
+    {
+        [HarmonyPatch(typeof(FactionHelper))]
+        [HarmonyPatch("GenerateClanNameforPlayer")]
+        public class FactionHelperGenerateClanNameforPlayerPatch
+        {
+            // Remove the specific behavior for vlandia clan name
+            public static bool Prefix(ref TextObject __result)
+            {
+                 __result = NameGenerator.Current.GenerateClanName(CharacterObject.PlayerCharacter.Culture, null);
+                 return false;
+            }
+        }
+    }
+
+    internal class GenerateClanNamePatch
+    {
+        [HarmonyPatch(typeof(NameGenerator))]
+        [HarmonyPatch("GenerateClanName")]
+        public class NameGeneratorGenerateClanNamePatch
+        {
+            // Remove the specific behavior for vlandia clan name
+            public static bool Prefix(CultureObject culture, Settlement clanOriginSettlement, NameGenerator __instance, ref TextObject __result)
+            {
+                MethodInfo getClanNameListForCultureMethod = typeof(NameGenerator).GetMethod("GetClanNameListForCulture", BindingFlags.NonPublic | BindingFlags.Instance);
+                TextObject[] clanNameListForCulture = (TextObject[])getClanNameListForCultureMethod.Invoke(__instance, new object[] { culture });
+
+                Dictionary<TextObject, int> dictionary = new Dictionary<TextObject, int>();
+                TextObject[] array = clanNameListForCulture;
+                for (int i = 0; i < array.Length; i++)
+                {
+                    TextObject clanNameElement = array[i];
+                    if (!dictionary.ContainsKey(clanNameElement))
+                    {
+                        int num = Clan.All.Count((Clan t) => t.Name.Equals(clanNameElement)) * 3;
+                        num += Clan.All.Count((Clan t) => t.Name.HasSameValue(clanNameElement));
+                        dictionary.Add(clanNameElement, num);
+                    }
+                    else
+                    {
+                        Debug.FailedAssert("Duplicate name in Clan Name list", "C:\\Develop\\MB3\\Source\\Bannerlord\\TaleWorlds.CampaignSystem\\NameGenerator.cs", "GenerateClanName", 196);
+                    }
+                }
+                int num2 = dictionary.Values.Max() + 1;
+                List<ValueTuple<TextObject, float>> list = new List<ValueTuple<TextObject, float>>();
+                foreach (TextObject textObject in dictionary.Keys)
+                {
+                    list.Add(new ValueTuple<TextObject, float>(textObject, (float)(num2 - dictionary[textObject])));
+                }
+                MBRandom.ChooseWeighted<TextObject>(list, out int index);
+                __result = dictionary.ElementAt(index).Key.CopyTextObject();
+
                 return false;
             }
         }

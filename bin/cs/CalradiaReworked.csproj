@@ -7,8 +7,8 @@
     <ProjectGuid>{422361A2-D3D8-477D-B813-40782C7816C1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Split</RootNamespace>
-    <AssemblyName>Split</AssemblyName>
+    <RootNamespace>CalradiaReworked</RootNamespace>
+    <AssemblyName>CalradiaReworked</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

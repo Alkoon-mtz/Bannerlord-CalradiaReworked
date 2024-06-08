@@ -8,7 +8,7 @@ using TaleWorlds.ObjectSystem;
 using System;
 using System.Collections.Generic;
 
-namespace Split
+namespace CalradiaReworked
 {
     internal class ReworkedFacekey
     {

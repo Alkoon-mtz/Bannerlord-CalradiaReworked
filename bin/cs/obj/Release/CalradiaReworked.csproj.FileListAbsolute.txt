@@ -1,0 +1,6 @@
+D:\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Split\bin\cs\obj\Release\CalradiaReworked.csproj.AssemblyReference.cache
+D:\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Split\bin\cs\obj\Release\CalradiaReworked.csproj.CoreCompileInputs.cache
+D:\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Split\bin\Win64_Shipping_Client\CalradiaReworked.dll
+D:\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Split\bin\Win64_Shipping_Client\CalradiaReworked.pdb
+D:\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Split\bin\cs\obj\Release\CalradiaReworked.dll
+D:\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Split\bin\cs\obj\Release\CalradiaReworked.pdb

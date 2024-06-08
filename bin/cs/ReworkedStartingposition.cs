@@ -11,7 +11,7 @@ using TaleWorlds.Core;
 using TaleWorlds.Library;
 using TaleWorlds.ObjectSystem;
 
-namespace Split
+namespace CalradiaReworked
 {
     public static class ReworkedStartingposition
     {

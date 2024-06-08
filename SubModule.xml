@@ -1,10 +1,11 @@
 <Module>
-    <Name value="Split"/>
-    <Id value="Split"/>
-    <Version value="v1.6.0"/>
+    <Name value="Calradia Reworked"/>
+    <Id value="CalradiaReworked"/>
+    <Version value="v1.0.0"/>
     <SingleplayerModule value="true"/>
     <MultiplayerModule value="false"/>
     <DependedModules>
+        <DependedModule Id="Bannerlord.Harmony"/>
         <DependedModule Id="Native"/>
         <DependedModule Id="SandBoxCore"/>
         <DependedModule Id="Sandbox"/>
@@ -16,9 +17,9 @@
     </DependedModules>
     <SubModules>
         <SubModule>
-            <Name value="Split"/>
-            <DLLName value="Split.dll"/>
-            <SubModuleClassType value="Split.ReworkedSubModule"/>
+            <Name value="CalradiaReworked"/>
+            <DLLName value="CalradiaReworked.dll"/>
+            <SubModuleClassType value="CalradiaReworked.CalradiaReworkedSubModule"/>
             <Tags>
                 <Tag key="DedicatedServerType" value="none" />
                 <Tag key="IsNoRenderModeElement" value="false" />

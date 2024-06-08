@@ -9,7 +9,7 @@ using TaleWorlds.Core;
 using TaleWorlds.Library;
 using TaleWorlds.Localization;
 
-namespace Split
+namespace CalradiaReworked
 {
     public class ReworkedCharCreation : SandboxCharacterCreationContent
     {
@@ -904,8 +904,8 @@ namespace Split
             {
                 "act_childhood_schooled"
             });
-            SandboxCharacterCreationContent.ClearMountEntity(characterCreation);
             this.RefreshPlayerAppearance(characterCreation);
+            SandboxCharacterCreationContent.ClearMountEntity(characterCreation);
         }
         protected new void YouthOnInit(CharacterCreation characterCreation)
         {
