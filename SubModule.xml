@@ -1,6 +1,6 @@
 <Module>
-    <Name value="Calradia Reworked"/>
-    <Id value="CalradiaReworked"/>
+    <Name value="Split"/>
+    <Id value="Split"/>
     <Version value="v1.0.0"/>
     <SingleplayerModule value="true"/>
     <MultiplayerModule value="false"/>

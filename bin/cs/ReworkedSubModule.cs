@@ -13,6 +13,7 @@ using TaleWorlds.CampaignSystem.Settlements;
 using TaleWorlds.Library;
 using TaleWorlds.Localization;
 using TaleWorlds.MountAndBlade;
+using TaleWorlds.CampaignSystem.ViewModelCollection.CharacterCreation;
 
 namespace CalradiaReworked
 {
@@ -60,7 +61,18 @@ namespace CalradiaReworked
             }
         }
     }
-
+    internal class SortCultureListPatch
+    {
+        [HarmonyPatch(typeof(CharacterCreationCultureStageVM))]
+        [HarmonyPatch("SortCultureList")]
+        public class CharacterCreationCultureStageVMSortCultureListPatch
+        {
+            public static bool Prefix()
+            {
+                return false;
+            }
+        }
+    }
     internal class GenerateClanNameforPlayerPatch
     {
         [HarmonyPatch(typeof(FactionHelper))]
