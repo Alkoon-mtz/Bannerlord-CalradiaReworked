@@ -25,11 +25,29 @@
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\aserai_3</Name>
+      <Width>550</Width>
+      <Height>550</Height>
+      <SheetX>1928</SheetX>
+      <SheetY>1978</SheetY>
+      <CategoryName>ui_charactercreation</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
       <Name>CharacterCreation\Culture\battania_1</Name>
       <Width>800</Width>
       <Height>700</Height>
-      <SheetX>812</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>4</SheetX>
+      <SheetY>1420</SheetY>
+      <CategoryName>ui_charactercreation</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\battania_3</Name>
+      <Width>550</Width>
+      <Height>550</Height>
+      <SheetX>3044</SheetX>
+      <SheetY>1420</SheetY>
       <CategoryName>ui_charactercreation</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -37,8 +55,17 @@
       <Name>CharacterCreation\Culture\empire_1</Name>
       <Width>800</Width>
       <Height>700</Height>
-      <SheetX>1620</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>3236</SheetX>
+      <SheetY>712</SheetY>
+      <CategoryName>ui_charactercreation</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\empire_3</Name>
+      <Width>550</Width>
+      <Height>550</Height>
+      <SheetX>1370</SheetX>
+      <SheetY>1420</SheetY>
       <CategoryName>ui_charactercreation</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -47,30 +74,21 @@
       <Width>800</Width>
       <Height>700</Height>
       <SheetX>2428</SheetX>
-      <SheetY>4</SheetY>
-      <CategoryName>ui_charactercreation</CategoryName>
-    </SpritePart>
-    <SpritePart>
-      <SheetID>1</SheetID>
-      <Name>CharacterCreation\Culture\khuzait_1</Name>
-      <Width>800</Width>
-      <Height>700</Height>
-      <SheetX>3236</SheetX>
-      <SheetY>4</SheetY>
-      <CategoryName>ui_charactercreation</CategoryName>
-    </SpritePart>
-    <SpritePart>
-      <SheetID>1</SheetID>
-      <Name>CharacterCreation\Culture\qinguo_1</Name>
-      <Width>800</Width>
-      <Height>700</Height>
-      <SheetX>4</SheetX>
       <SheetY>712</SheetY>
       <CategoryName>ui_charactercreation</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
-      <Name>CharacterCreation\Culture\rekgeist_1</Name>
+      <Name>CharacterCreation\Culture\iustrium_3</Name>
+      <Width>550</Width>
+      <Height>550</Height>
+      <SheetX>3044</SheetX>
+      <SheetY>1978</SheetY>
+      <CategoryName>ui_charactercreation</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\khuzait_1</Name>
       <Width>800</Width>
       <Height>700</Height>
       <SheetX>812</SheetX>
@@ -79,7 +97,16 @@
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
-      <Name>CharacterCreation\Culture\scarhok_1</Name>
+      <Name>CharacterCreation\Culture\khuzait_3</Name>
+      <Width>550</Width>
+      <Height>550</Height>
+      <SheetX>812</SheetX>
+      <SheetY>1420</SheetY>
+      <CategoryName>ui_charactercreation</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\qinguo_1</Name>
       <Width>800</Width>
       <Height>700</Height>
       <SheetX>1620</SheetX>
@@ -88,11 +115,65 @@
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
-      <Name>CharacterCreation\Culture\sturgia_1</Name>
+      <Name>CharacterCreation\Culture\qinguo_3</Name>
+      <Width>550</Width>
+      <Height>550</Height>
+      <SheetX>1928</SheetX>
+      <SheetY>1420</SheetY>
+      <CategoryName>ui_charactercreation</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\rekgeist_1</Name>
+      <Width>800</Width>
+      <Height>700</Height>
+      <SheetX>3236</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_charactercreation</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\rekgeist_3</Name>
+      <Width>550</Width>
+      <Height>550</Height>
+      <SheetX>2486</SheetX>
+      <SheetY>1420</SheetY>
+      <CategoryName>ui_charactercreation</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\scarhok_1</Name>
       <Width>800</Width>
       <Height>700</Height>
       <SheetX>2428</SheetX>
-      <SheetY>712</SheetY>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_charactercreation</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\scarhok_3</Name>
+      <Width>550</Width>
+      <Height>550</Height>
+      <SheetX>812</SheetX>
+      <SheetY>1978</SheetY>
+      <CategoryName>ui_charactercreation</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\sturgia_1</Name>
+      <Width>800</Width>
+      <Height>700</Height>
+      <SheetX>1620</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_charactercreation</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\sturgia_3</Name>
+      <Width>550</Width>
+      <Height>550</Height>
+      <SheetX>1370</SheetX>
+      <SheetY>1978</SheetY>
       <CategoryName>ui_charactercreation</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -100,8 +181,17 @@
       <Name>CharacterCreation\Culture\vlandia_1</Name>
       <Width>800</Width>
       <Height>700</Height>
-      <SheetX>3236</SheetX>
-      <SheetY>712</SheetY>
+      <SheetX>812</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_charactercreation</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\vlandia_3</Name>
+      <Width>550</Width>
+      <Height>550</Height>
+      <SheetX>2486</SheetX>
+      <SheetY>1978</SheetY>
       <CategoryName>ui_charactercreation</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -110,7 +200,16 @@
       <Width>800</Width>
       <Height>700</Height>
       <SheetX>4</SheetX>
-      <SheetY>1420</SheetY>
+      <SheetY>712</SheetY>
+      <CategoryName>ui_charactercreation</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\zulizwe_3</Name>
+      <Width>550</Width>
+      <Height>550</Height>
+      <SheetX>4</SheetX>
+      <SheetY>2128</SheetY>
       <CategoryName>ui_charactercreation</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -219,44 +318,88 @@
       <SpritePartName>CharacterCreation\Culture\aserai_1</SpritePartName>
     </GenericSprite>
     <GenericSprite>
+      <Name>CharacterCreation\Culture\aserai_3</Name>
+      <SpritePartName>CharacterCreation\Culture\aserai_3</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
       <Name>CharacterCreation\Culture\battania_1</Name>
       <SpritePartName>CharacterCreation\Culture\battania_1</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\Culture\battania_3</Name>
+      <SpritePartName>CharacterCreation\Culture\battania_3</SpritePartName>
     </GenericSprite>
     <GenericSprite>
       <Name>CharacterCreation\Culture\empire_1</Name>
       <SpritePartName>CharacterCreation\Culture\empire_1</SpritePartName>
     </GenericSprite>
     <GenericSprite>
+      <Name>CharacterCreation\Culture\empire_3</Name>
+      <SpritePartName>CharacterCreation\Culture\empire_3</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
       <Name>CharacterCreation\Culture\iustrium_1</Name>
       <SpritePartName>CharacterCreation\Culture\iustrium_1</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\Culture\iustrium_3</Name>
+      <SpritePartName>CharacterCreation\Culture\iustrium_3</SpritePartName>
     </GenericSprite>
     <GenericSprite>
       <Name>CharacterCreation\Culture\khuzait_1</Name>
       <SpritePartName>CharacterCreation\Culture\khuzait_1</SpritePartName>
     </GenericSprite>
     <GenericSprite>
+      <Name>CharacterCreation\Culture\khuzait_3</Name>
+      <SpritePartName>CharacterCreation\Culture\khuzait_3</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
       <Name>CharacterCreation\Culture\qinguo_1</Name>
       <SpritePartName>CharacterCreation\Culture\qinguo_1</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\Culture\qinguo_3</Name>
+      <SpritePartName>CharacterCreation\Culture\qinguo_3</SpritePartName>
     </GenericSprite>
     <GenericSprite>
       <Name>CharacterCreation\Culture\rekgeist_1</Name>
       <SpritePartName>CharacterCreation\Culture\rekgeist_1</SpritePartName>
     </GenericSprite>
     <GenericSprite>
+      <Name>CharacterCreation\Culture\rekgeist_3</Name>
+      <SpritePartName>CharacterCreation\Culture\rekgeist_3</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
       <Name>CharacterCreation\Culture\scarhok_1</Name>
       <SpritePartName>CharacterCreation\Culture\scarhok_1</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\Culture\scarhok_3</Name>
+      <SpritePartName>CharacterCreation\Culture\scarhok_3</SpritePartName>
     </GenericSprite>
     <GenericSprite>
       <Name>CharacterCreation\Culture\sturgia_1</Name>
       <SpritePartName>CharacterCreation\Culture\sturgia_1</SpritePartName>
     </GenericSprite>
     <GenericSprite>
+      <Name>CharacterCreation\Culture\sturgia_3</Name>
+      <SpritePartName>CharacterCreation\Culture\sturgia_3</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
       <Name>CharacterCreation\Culture\vlandia_1</Name>
       <SpritePartName>CharacterCreation\Culture\vlandia_1</SpritePartName>
     </GenericSprite>
     <GenericSprite>
+      <Name>CharacterCreation\Culture\vlandia_3</Name>
+      <SpritePartName>CharacterCreation\Culture\vlandia_3</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
       <Name>CharacterCreation\Culture\zulizwe_1</Name>
       <SpritePartName>CharacterCreation\Culture\zulizwe_1</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\Culture\zulizwe_3</Name>
+      <SpritePartName>CharacterCreation\Culture\zulizwe_3</SpritePartName>
     </GenericSprite>
     <GenericSprite>
       <Name>CharacterCreation\Culture\aserai</Name>

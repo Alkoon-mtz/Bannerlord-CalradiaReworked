@@ -67,9 +67,27 @@ namespace CalradiaReworked
         [HarmonyPatch("SortCultureList")]
         public class CharacterCreationCultureStageVMSortCultureListPatch
         {
-            public static bool Prefix()
+            public static bool Prefix(CharacterCreationCultureVM __instance, MBBindingList<CharacterCreationCultureVM> listToWorkOn)
             {
+                string[] cultureIds = { "aser", "batt", "iust", "empi", "vlan", "khuz", "qing", "rekg", "scarh", "stur", "zuli" };
+
+                for (int i = 0; i < cultureIds.Length; i++)
+                {
+                    int swapFromIndex = listToWorkOn.IndexOf(listToWorkOn.Single((CharacterCreationCultureVM c) => c.CultureID.Contains(cultureIds[i])));
+                    SwapReworked(listToWorkOn, swapFromIndex, i);
+                }
+
                 return false;
+            }
+        }
+
+        private static void SwapReworked(MBBindingList<CharacterCreationCultureVM> listToWorkOn, int swapFromIndex, int swapToIndex)
+        {
+            if (swapFromIndex != swapToIndex)
+            {
+                CharacterCreationCultureVM value = listToWorkOn[swapToIndex];
+                listToWorkOn[swapToIndex] = listToWorkOn[swapFromIndex];
+                listToWorkOn[swapFromIndex] = value;
             }
         }
     }

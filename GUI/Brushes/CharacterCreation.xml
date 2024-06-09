@@ -472,23 +472,38 @@
             <BrushLayer Name="Default" />
         </Layers>
         <Styles>
+            <Style Name="aserai">
+                <BrushLayer Name="Default" Sprite="CharacterCreation\Culture\aserai_3" />
+            </Style>
             <Style Name="battania">
                 <BrushLayer Name="Default" Sprite="CharacterCreation\Culture\battania_3" />
+            </Style>
+            <Style Name="iustrium">
+                <BrushLayer Name="Default" Sprite="CharacterCreation\Culture\iustrium_3" />
             </Style>
             <Style Name="empire">
                 <BrushLayer Name="Default" Sprite="CharacterCreation\Culture\empire_3" />
             </Style>
-            <Style Name="sturgia">
-                <BrushLayer Name="Default" Sprite="CharacterCreation\Culture\sturgia_3" />
-            </Style>
-            <Style Name="aserai">
-                <BrushLayer Name="Default" Sprite="CharacterCreation\Culture\aserai_3" />
+            <Style Name="vlandia">
+                <BrushLayer Name="Default" Sprite="CharacterCreation\Culture\vlandia_3" />
             </Style>
             <Style Name="khuzait">
                 <BrushLayer Name="Default" Sprite="CharacterCreation\Culture\khuzait_3" />
             </Style>
-            <Style Name="vlandia">
-                <BrushLayer Name="Default" Sprite="CharacterCreation\Culture\vlandia_3" />
+            <Style Name="qinguo">
+                <BrushLayer Name="Default" Sprite="CharacterCreation\Culture\qinguo_3" />
+            </Style>
+            <Style Name="rekgeist">
+                <BrushLayer Name="Default" Sprite="CharacterCreation\Culture\rekgeist_3" />
+            </Style>
+            <Style Name="scarhok">
+                <BrushLayer Name="Default" Sprite="CharacterCreation\Culture\scarhok_3" />
+            </Style>
+            <Style Name="sturgia">
+                <BrushLayer Name="Default" Sprite="CharacterCreation\Culture\sturgia_3" />
+            </Style>
+            <Style Name="zulizwe">
+                <BrushLayer Name="Default" Sprite="CharacterCreation\Culture\zulizwe_3" />
             </Style>
         </Styles>
     </Brush>
