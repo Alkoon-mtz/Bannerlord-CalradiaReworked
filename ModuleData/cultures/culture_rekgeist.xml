@@ -23,7 +23,7 @@
         rebels_party_template="PartyTemplate.rekgeist_rebels_template"
         vassal_reward_party_template="PartyTemplate.rekgeist_vassal_reward_troops"
         default_face_key="00005402800023C6FB794E3998AB6CD7DEAD8B3479E7FA38AA9BFC857F9FEF5900A770030AFD9CE6000000000000000000000000000000000000000053607002"
-        text="{=rekgeist_text}Only a 2 handed sword can settle an argument"
+        text="{=rekgeist_text}A federation of small states sharing the same culture, allied together for protection purposes"
         caravan_master="NPCCharacter.caravan_master_rekgeist"
         armed_trader="NPCCharacter.armed_trader_rekgeist"
         caravan_guard="NPCCharacter.caravan_guard_rekgeist"

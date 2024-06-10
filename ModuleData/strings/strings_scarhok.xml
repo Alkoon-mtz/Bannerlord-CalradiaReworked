@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <strings>
     <string id="str_adjective_for_culture.scarhok" text="{=E11SH_adj_cul}Scarhokar" />
     <string id="str_culture_rich_name.scarhok" text="{=E11SH_cul_name}Scarhokars" />
@@ -14,5 +14,7 @@
     <string id="str_short_term_for_faction.scarhok" text="{=E11SH_short_term}Scarhokars" />
     <string id="str_faction_formal_name_for_culture.scarhok" text="{=E11SH_formal_name}Chiefdom of Scarhok" />
     <string id="str_faction_informal_name_for_culture.scarhok" text="{=E11SH_informal_name}the Scarhokars" />
-    <string id="str_culture_description.scarhok" text="{=SH_text}Coming from the north west, they wrecked everyone by throwing axes" />
+    <string id="str_culture_description.scarhok" text="{=SH_text}Coming from the northwest, their invasion was quick and brutal" />
+
+    <string id="str_crafting_template.CTScarhokThrowingAxe" text="{=SH_CTSH}Heavy Throwing Axe" />
 </strings>

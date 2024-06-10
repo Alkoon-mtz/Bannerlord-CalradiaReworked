@@ -23,7 +23,7 @@
         rebels_party_template="PartyTemplate.scarhok_rebels_template"
         vassal_reward_party_template="PartyTemplate.scarhok_vassal_reward_troops"
         default_face_key="000D3408C00023C47D877F197EE5CDD5CFBB741BE2B4CE83D5AEAEBE8D781E9C006D800306DF7BE7000000000000000000000000000000000000000022C87000"
-        text="{=scarhok_text}Coming from the north west, they wrecked everyone by throwing axes"
+        text="{=scarhok_text}Coming from the northwest, their invasion was quick and brutal"
         caravan_master="NPCCharacter.caravan_master_scarhok"
         armed_trader="NPCCharacter.armed_trader_scarhok"
         caravan_guard="NPCCharacter.caravan_guard_scarhok"

@@ -14,5 +14,5 @@
     <string id="str_short_term_for_faction.qinguo" text="{=E11QG_short_term}Qinguis" />
     <string id="str_faction_formal_name_for_culture.qinguo" text="{=E11QG_formal_name}State of Qinguo" />
     <string id="str_faction_informal_name_for_culture.qinguo" text="{=E11QG_informal_name}the Qinguis" />
-    <string id="str_culture_description.qinguo" text="{=E11QG_desc}Only a 2 handed sword can settle an argument" />
+    <string id="str_culture_description.qinguo" text="{=E11QG_desc}After hundreds years of war between small kingdoms, the qinguo state is finally unified and seek for lands to grow stronger" />
 </strings>

@@ -12,11 +12,11 @@
         culture="Culture.qinguo"
         settlement_banner_mesh="encounter_flag_c"
         flag_mesh="info_screen_flags_a"
-        name="{=QG_kingdom_name}Qinguo State"
-        short_name="{=QG_short_name}Qingui"
-        title="{=QG_kingdom_title}Qinguo State"
-        ruler_title="{=isnp9abW}Supreme Leader"
-        text="{=QG_text}Once a great empire, they got hard times against cavalry coming from the north">
+        name="{=QIN_kingdom_name}Qinguo State"
+        short_name="{=QIN_short_name}Qingui"
+        title="{=QIN_kingdom_title}Qinguo State"
+        ruler_title="{=QIN_ruler_title}Supreme Leader"
+        text="{=QIN_text}After hundreds years of war between small kingdoms, the qinguo state is finally unified and seek for lands to grow stronger">
         <relationships></relationships>
             <!-- <relationship kingdom="Kingdom.kingdom_monghatai"
                 value="-1"

@@ -12,11 +12,11 @@
         culture="Culture.zulizwe"
         settlement_banner_mesh="encounter_flag_c"
         flag_mesh="info_screen_flags_a"
-        name="{=ZI_kingdom_name}Zulizwe Nation"
-        short_name="{=ZI_short_name}Zulizwo"
-        title="{=ZI_kingdom_title}Zulizwe Nation"
-        ruler_title="{=ZI_np9abW}Mbozi"
-        text="{=ZI_text}We have broken freet">
+        name="{=ZUL_kingdom_name}Zulizwe Nation"
+        short_name="{=ZUL_short_name}Zulizwo"
+        title="{=ZUL_kingdom_title}Zulizwe Nation"
+        ruler_title="{=ZUL_np9abW}Mbozi"
+        text="{=ZUL_text}Living in hot areas, they decided to go north for greener pastures">
         <relationships></relationships>
             <!-- <relationship kingdom="Kingdom.kingdom_kratorios"
                 value="-1"

@@ -13,11 +13,11 @@
         culture="Culture.sturgia"
         settlement_banner_mesh="encounter_flag_b"
         flag_mesh="info_screen_flags_c"
-        name="{=PjO7oY16}Virkaldr Jarland"
-        short_name="{=C4qjBqLO}Virkaldir"
-        title="{=iYCR3xuQ}Virkaldr Jarland"
-        ruler_title="{=FmbgPGBL}High Jarl"
-        text="{=bVihnRUu}Living in the hard cold north, seeking for a thing called sun">
+        name="{=VIR_kingdom_name}Virkaldr Jarland"
+        short_name="{=VIR_short_name}Virkaldir"
+        title="{=VIR_kingdom_title}Virkaldr Jarland"
+        ruler_title="{=VIR_ruler_title}High Jarl"
+        text="{=VIR_text}Living in the hard cold north, they make up for their lack of agriculture by pillaging">
         <relationships></relationships>
             <!-- <relationship kingdom="Kingdom.kingdom_rekgeist"
                 value="-1"

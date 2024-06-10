@@ -12,11 +12,11 @@
         culture="Culture.rekgeist"
         settlement_banner_mesh="encounter_flag_a"
         flag_mesh="info_screen_flags_b"
-        name="{=RG_kingdom_name}Rekgeist Federation"
-        short_name="{=RG_short_name}Rekgeistens"
-        title="{=RG_kingdom_title}The Rekgeist Federation"
-        ruler_title="{=RG_ruler_title}Chancellor"
-        text="{=RG_text}yup">
+        name="{=REK_kingdom_name}Rekgeist Federation"
+        short_name="{=REK_short_name}Rekgeistens"
+        title="{=REK_kingdom_title}The Rekgeist Federation"
+        ruler_title="{=REK_ruler_title}Chancellor"
+        text="{=REK_text}A federation of small states sharing the same culture, allied together for protection purposes">
         <relationships></relationships>
             <!-- <relationship kingdom="Kingdom.kingdom_virkaldr"
                 value="-1"

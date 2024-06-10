@@ -37,7 +37,7 @@
     <xsl:template match="string[@id='str_short_term_for_faction.battania']/@text"> <xsl:attribute name="text">Cereanns</xsl:attribute> </xsl:template>
     <xsl:template match="string[@id='str_faction_formal_name_for_culture.battania']/@text"> <xsl:attribute name="text">Union of Cereann</xsl:attribute> </xsl:template>
     <xsl:template match="string[@id='str_faction_informal_name_for_culture.battania']/@text"> <xsl:attribute name="text">the Cereanns</xsl:attribute> </xsl:template>
-    <xsl:template match="string[@id='str_culture_description.battania']/@text"> <xsl:attribute name="text">Trying to survive in their woods</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_culture_description.battania']/@text"> <xsl:attribute name="text">A community withdrawn into itself, trying to survive in their woods</xsl:attribute> </xsl:template>
 
 <!-- Kratorios -->
     <xsl:template match="string[@id='str_adjective_for_culture.empire']/@text"> <xsl:attribute name="text">Kratoria</xsl:attribute> </xsl:template>
@@ -105,5 +105,5 @@
     <xsl:template match="string[@id='str_short_term_for_faction.sturgia']/@text"> <xsl:attribute name="text">Virkaldirs</xsl:attribute> </xsl:template>
     <xsl:template match="string[@id='str_faction_formal_name_for_culture.sturgia']/@text"> <xsl:attribute name="text">Jarland of Virkaldr</xsl:attribute> </xsl:template>
     <xsl:template match="string[@id='str_faction_informal_name_for_culture.sturgia']/@text"> <xsl:attribute name="text">the Virkaldirs</xsl:attribute> </xsl:template>
-    <xsl:template match="string[@id='str_culture_description.sturgia']/@text"> <xsl:attribute name="text">Living in the hard cold north, seeking for a thing called sun</xsl:attribute> </xsl:template>
+    <xsl:template match="string[@id='str_culture_description.sturgia']/@text"> <xsl:attribute name="text">Living in the hard cold north, they make up for their lack of agriculture by pillaging</xsl:attribute> </xsl:template>
 </xsl:stylesheet>

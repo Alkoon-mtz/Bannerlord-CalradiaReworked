@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
     <!--
         stu_bat_template_flamboyant lord_throw_1h_1
@@ -27,16 +27,13 @@
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="Mercy"
-                value="-2" />
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Mercy" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="stu_king_template_bat_m" />
-            <EquipmentSet id="stu_king_template_civ_m"
-                civilian="true" />
+            <EquipmentSet id="stu_king_template_civ_m" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_1_2"
@@ -51,19 +48,20 @@
         skill_template="SkillSet.lord_noncom_rogue"
         face_mesh_cache="true">
         <face>
-            <BodyProperties version="4" age="42" weight="0.476" build="0.456"  key="0000B4015D88000F7B788D5E4849469AEA3873E8B252655C3396551A7E673FBC00977003095EB337000000000000000000000000000000000000000069383104"  />
+            <BodyProperties version="4"
+                age="42"
+                weight="0.476"
+                build="0.456"
+                key="0000B4015D88000F7B788D5E4849469AEA3873E8B252655C3396551A7E673FBC00977003095EB337000000000000000000000000000000000000000069383104" />
         </face>
         <Traits>
-            <Trait id="Generosity"
-                value="+2" />
-            <Trait id="Calculating"
-                value="-1" />
+            <Trait id="Calculating" value="+2" />
+            <Trait id="Valor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="stu_king_template_bat_f" />
-            <EquipmentSet id="stu_king_template_civ_f"
-                civilian="true" />
+            <EquipmentSet id="stu_king_template_civ_f" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_1_3"
@@ -76,19 +74,17 @@
         occupation="Lord"
         skill_template="SkillSet.lord_archer_1h_1">
         <face>
-            <BodyProperties version="4" age="23" weight="0.477" build="0.584"  key="0005180357883503967F0A5D8A8C5CBDA3C878DB9EB341DC3D4DCEBC84BD03B500797003077BD89B000000000000000000000000000000000000000058E07142"  />
+            <BodyProperties version="4"
+                age="23"
+                weight="0.477"
+                build="0.584"
+                key="0005180357883503967F0A5D8A8C5CBDA3C878DB9EB341DC3D4DCEBC84BD03B500797003077BD89B000000000000000000000000000000000000000058E07142" />
         </face>
-        <Traits>
-            <Trait id="Honor"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="stu_bat_template_woodsman" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_1_4"
@@ -100,15 +96,17 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="16" weight="0.5" build="0.439"  key="00082402937035059A8FEC6FCCBDFEDDEAD878ECBEB5E1DC5DCDDECD89DECDCC00577003058BDEBF00000000000000000000000000000000000000002CB08106"  />
+            <BodyProperties version="4"
+                age="16"
+                weight="0.5"
+                build="0.439"
+                key="00082402937035059A8FEC6FCCBDFEDDEAD878ECBEB5E1DC5DCDDECD89DECDCC00577003058BDEBF00000000000000000000000000000000000000002CB08106" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="stu_bat_template_medium" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_1_5"
@@ -121,15 +119,17 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="14" weight="0.203" build="0.4"  key="00088C029888100F8F7E8E7F784A489CEFB886EFEBC26C8D76CBEEEC7EA9BFCE0076300307EEE85B000000000000000000000000000000000000000054F84084"  />
+            <BodyProperties version="4"
+                age="14"
+                weight="0.203"
+                build="0.4"
+                key="00088C029888100F8F7E8E7F784A489CEFB886EFEBC26C8D76CBEEEC7EA9BFCE0076300307EEE85B000000000000000000000000000000000000000054F84084" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="stu_bat_template_heavy" />
-            <EquipmentSet id="stu_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_1_6"
@@ -142,19 +142,20 @@
         occupation="Lord"
         skill_template="SkillSet.lord_2h_pol_1">
         <face>
-            <BodyProperties version="4" age="391" weight="0.383" build="0.454"  key="00054C0015703681997FBC6F9AAC8CBDC7C878ECBEB441DC4D6DCECD86BE2BB600776003077BDDBC000000000000000000000000000000000000000054E87084"  />
+            <BodyProperties version="4"
+                age="391"
+                weight="0.383"
+                build="0.454"
+                key="00054C0015703681997FBC6F9AAC8CBDC7C878ECBEB441DC4D6DCECD86BE2BB600776003077BDDBC000000000000000000000000000000000000000054E87084" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Valor"
-                value="-1" />
+            <Trait id="Calculating" value="+1" />
+            <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="stu_bat_template_medium" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_1_7"
@@ -168,19 +169,20 @@
         occupation="Lord"
         skill_template="SkillSet.lord_throw_1h_1">
         <face>
-            <BodyProperties version="4" age="39" weight="0.392" build="0.677"  key="0000B002998800078F7D8D7F5849479CEDA876EAE292658C6596896A7EA87FCD008A6003086EC458000000000000000000000000000000000000000049183003"  />
+            <BodyProperties version="4"
+                age="39"
+                weight="0.392"
+                build="0.677"
+                key="0000B002998800078F7D8D7F5849479CEDA876EAE292658C6596896A7EA87FCD008A6003086EC458000000000000000000000000000000000000000049183003" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="+2" />
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Valor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="stu_bat_template_flamboyant" />
-            <EquipmentSet id="stu_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_1_8"
@@ -193,15 +195,17 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="13" weight="0.25" build="0.493"  key="0002A000157010058F7D8E7F7849489CEEA876EBE8926A8D769BBBCC7EA88FCE0077400307DEC85A000000000000000000000000000000000000000052E04003"  />
+            <BodyProperties version="4"
+                age="13"
+                weight="0.25"
+                build="0.493"
+                key="0002A000157010058F7D8E7F7849489CEEA876EBE8926A8D769BBBCC7EA88FCE0077400307DEC85A000000000000000000000000000000000000000052E04003" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="stu_bat_template_heavy" />
-            <EquipmentSet id="stu_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_1_9"
@@ -213,15 +217,17 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="10" weight="0.42" build="0.659"  key="00054C03588834C9998FEC6FBCBD9EBDD8D878ECBEB5B1DC4DBDDECD89BE2BBB008A6003087BDEBD000000000000000000000000000000000000000045007142"  />
+            <BodyProperties version="4"
+                age="10"
+                weight="0.42"
+                build="0.659"
+                key="00054C03588834C9998FEC6FBCBD9EBDD8D878ECBEB5B1DC4DBDDECD89BE2BBB008A6003087BDEBD000000000000000000000000000000000000000045007142" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="stu_bat_template_woodsman" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_1_10"
@@ -234,19 +240,20 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_throw_pol_1">
         <face>
-            <BodyProperties version="4" age="35" weight="0.499" build="0.452"  key="000848020E883587998FCC6FBBAC8DBDC7D878ECBEB461DC4D9DCECD88BE2BB800977003097BDDBD000000000000000000000000000000000000000055287043"  />
+            <BodyProperties version="4"
+                age="35"
+                weight="0.499"
+                build="0.452"
+                key="000848020E883587998FCC6FBBAC8DBDC7D878ECBEB461DC4D9DCECD88BE2BB800977003097BDDBD000000000000000000000000000000000000000055287043" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Valor"
-                value="-1" />
+            <Trait id="Generosity" value="+2" />
+            <Trait id="Valor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="stu_bat_template_heavy" />
-            <EquipmentSet id="stu_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -263,20 +270,20 @@
         face_mesh_cache="true"
         skill_template="SkillSet.lord_throw_1h_1">
         <face>
-            <BodyProperties version="4" age="31" weight="0.5" build="0.5"  key="000A7806E114200E8D1723DA7A67949A66266E8653525564594C4368786D87B30087760308288EC7000000000000000000000000000000000000000031143003"  />
+            <BodyProperties version="4"
+                age="31"
+                weight="0.5"
+                build="0.5"
+                key="000A7806E114200E8D1723DA7A67949A66266E8653525564594C4368786D87B30087760308288EC7000000000000000000000000000000000000000031143003" />
         </face>
-        <skills></skills>
         <Traits>
-            <Trait id="Mercy"
-                value="-1" />
-            <Trait id="Generosity"
-                value="1" />
+            <Trait id="Generosity" value="+2" />
+            <Trait id="Honor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="stu_bat_template_flamboyant" />
-            <EquipmentSet id="stu_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_2_2"
@@ -289,18 +296,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_2h_pol_2">
         <face>
-            <BodyProperties version="4" age="44" weight="0.242" build="0.628"  key="00024C021A703342CC72A6A021A7CC65D3F571A70696E6493D2BD3C1865D34DD00794003077AEE66000000000000000000000000000000000000000024E02003"  />
+            <BodyProperties version="4"
+                age="44"
+                weight="0.242"
+                build="0.628"
+                key="00024C021A703342CC72A6A021A7CC65D3F571A70696E6493D2BD3C1865D34DD00794003077AEE66000000000000000000000000000000000000000024E02003" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+2" />
+            <Trait id="Mercy" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_medium" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_2_3"
@@ -313,18 +321,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_throw_pol_1">
         <face>
-            <BodyProperties version="4" age="27" weight="0.454" build="0.577"  key="000550015E883585CD89E6BC2CEBEDB8DCFA74CD9AE6ED4DAD7DEED78C9E68DD0069700306BDEE6A000000000000000000000000000000000000000024C84143"  />
+            <BodyProperties version="4"
+                age="27"
+                weight="0.454"
+                build="0.577"
+                key="000550015E883585CD89E6BC2CEBEDB8DCFA74CD9AE6ED4DAD7DEED78C9E68DD0069700306BDEE6A000000000000000000000000000000000000000024C84143" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Generosity" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_heavy" />
-            <EquipmentSet id="stu_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_2_4"
@@ -338,18 +347,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_archer_1h_2">
         <face>
-            <BodyProperties version="4" age="27" weight="0.212" build="0.619"  key="000850015C701007568418879E21FC8D10287AC0B2B679AC8635A1E1898707D6004930030462E444000000000000000000000000000000000000000052902044"  />
+            <BodyProperties version="4"
+                age="27"
+                weight="0.212"
+                build="0.619"
+                key="000850015C701007568418879E21FC8D10287AC0B2B679AC8635A1E1898707D6004930030462E444000000000000000000000000000000000000000052902044" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Generosity" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_woodsman" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_2_5"
@@ -361,14 +371,16 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="16" weight="0.286" build="0.65"  key="000220009870350ACC83E6B627C7CD85D9F573AD58E6EB4A8D7CD4C2869D65DD009A4003097CEE66000000000000000000000000000000000000000021202085"  />
+            <BodyProperties version="4"
+                age="16"
+                weight="0.286"
+                build="0.65"
+                key="000220009870350ACC83E6B627C7CD85D9F573AD58E6EB4A8D7CD4C2869D65DD009A4003097CEE66000000000000000000000000000000000000000021202085" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_flamboyant" />
-            <EquipmentSet id="stu_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_2_6"
@@ -381,14 +393,16 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="12" weight="0.272" build="0.467"  key="00029003598810089989C98BCED7FC8D9F6B7BDBC3B6ECCCEACAABE28ACD2FDB0067400306E6E5B600000000000000000000000000000000000000001CB830C4"  />
+            <BodyProperties version="4"
+                age="12"
+                weight="0.272"
+                build="0.467"
+                key="00029003598810089989C98BCED7FC8D9F6B7BDBC3B6ECCCEACAABE28ACD2FDB0067400306E6E5B600000000000000000000000000000000000000001CB830C4" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_medium" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_2_7"
@@ -401,18 +415,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_crafter">
         <face>
-            <BodyProperties version="4" age="29" weight="0.42" build="0.7"  key="0002040090703589CC89E6B927DBCDA5DBF574BD79E6EC4CAD7CD6D3889E66DD00AA60030A7CEE69000000000000000000000000000000000000000005484083"  />
+            <BodyProperties version="4"
+                age="29"
+                weight="0.42"
+                build="0.7"
+                key="0002040090703589CC89E6B927DBCDA5DBF574BD79E6EC4CAD7CD6D3889E66DD00AA60030A7CEE69000000000000000000000000000000000000000005484083" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Generosity" value="+2" />
+            <Trait id="Valor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_woodsman" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_2_8"
@@ -424,14 +439,16 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="11" weight="0.278" build="0.485"  key="000220021D7034C2CC83E6B727C7CDA5DBF574BD59E6EB4C9D7CD5D3869E66DD00674003067CEE67000000000000000000000000000000000000000030C04044"  />
+            <BodyProperties version="4"
+                age="11"
+                weight="0.278"
+                build="0.485"
+                key="000220021D7034C2CC83E6B727C7CDA5DBF574BD59E6EB4C9D7CD5D3869E66DD00674003067CEE67000000000000000000000000000000000000000030C04044" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_woodsman" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -455,18 +472,13 @@
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Mercy"
-                value="-1" />
-            <Trait id="Calculating"
-                value="-1" />
+            <Trait id="Generosity" value="+2" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="stu_bat_template_flamboyant" />
-            <EquipmentSet id="stu_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_3_2"
@@ -480,18 +492,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_scout">
         <face>
-            <BodyProperties version="4" age="36" weight="0.228" build="0.514"  key="00058004158810096684298A9E83FC8D6E3A7BD1C3B6DCACE7A7A7E2898D1BD90068300306B4E584000000000000000000000000000000000000000050D02043"  />
+            <BodyProperties version="4"
+                age="36"
+                weight="0.228"
+                build="0.514"
+                key="00058004158810096684298A9E83FC8D6E3A7BD1C3B6DCACE7A7A7E2898D1BD90068300306B4E584000000000000000000000000000000000000000050D02043" />
         </face>
         <Traits>
-            <Trait id="Calculating"
-                value="+2" />
-            <Trait id="Generosity"
-                value="-1" />
+            <Trait id="Mercy" value="+2" />
+            <Trait id="Calculating" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_woodsman" />
-            <EquipmentSet id="stu_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_3_3"
@@ -504,18 +517,16 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_throw_pol_1">
         <face>
-            <BodyProperties version="4" age="22" weight="0.227" build="0.594"  key="00003C029A880301AC78BBD14DBCBD66DD7D7EA3C3421BA3E3E48E218C7BFCD300693003065ED446000000000000000000000000000000000000000002C05142"  />
+            <BodyProperties version="4"
+                age="22"
+                weight="0.227"
+                build="0.594"
+                key="00003C029A880301AC78BBD14DBCBD66DD7D7EA3C3421BA3E3E48E218C7BFCD300693003065ED446000000000000000000000000000000000000000002C05142" />
         </face>
-        <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_heavy" />
-            <EquipmentSet id="stu_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_3_4"
@@ -528,14 +539,16 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="16" weight="0.477" build="0.424"  key="00089C035F7010087786698BBEA4FC8D9E5A7BD6C3B6ECBCE9A9AAE28ACD2FDA0036700303B6E5A600000000000000000000000000000000000000004E702044"  />
+            <BodyProperties version="4"
+                age="16"
+                weight="0.477"
+                build="0.424"
+                key="00089C035F7010087786698BBEA4FC8D9E5A7BD6C3B6ECBCE9A9AAE28ACD2FDA0036700303B6E5A600000000000000000000000000000000000000004E702044" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_medium" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_3_5"
@@ -549,18 +562,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_2h_pol_2">
         <face>
-            <BodyProperties version="4" age="32" weight="0.489" build="0.566"  key="00026C015A7010036786498B9E83FC8D8E5A7BD6C3B6ECACE9A7A7E28A8D1FDA0068700306B6E58500000000000000000000000000000000000000002EC02003"  />
+            <BodyProperties version="4"
+                age="32"
+                weight="0.489"
+                build="0.566"
+                key="00026C015A7010036786498B9E83FC8D8E5A7BD6C3B6ECACE9A7A7E28A8D1FDA0068700306B6E58500000000000000000000000000000000000000002EC02003" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Mercy" value="+2" />
+            <Trait id="Valor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_medium" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_3_6"
@@ -572,14 +586,16 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="16" weight="0.319" build="0.437"  key="00084C0356701604EE8BCCF47EBEDEE9DDBD8ED6D7434EB3EDE7CEB28DBBFED90087500308DFE76C00000000000000000000000000000000000000006F087146"  />
+            <BodyProperties version="4"
+                age="16"
+                weight="0.319"
+                build="0.437"
+                key="00084C0356701604EE8BCCF47EBEDEE9DDBD8ED6D7434EB3EDE7CEB28DBBFED90087500308DFE76C00000000000000000000000000000000000000006F087146" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_flamboyant" />
-            <EquipmentSet id="stu_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_3_7"
@@ -592,14 +608,16 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="11" weight="0.324" build="0.524"  key="000000015E88100F398991859C85EBE44F7C71279A00D8E39681B35C8C5B5EB300885003083CE537000000000000000000000000000000000000000007100044"  />
+            <BodyProperties version="4"
+                age="11"
+                weight="0.324"
+                build="0.524"
+                key="000000015E88100F398991859C85EBE44F7C71279A00D8E39681B35C8C5B5EB300885003083CE537000000000000000000000000000000000000000007100044" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_woodsman" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -616,26 +634,21 @@
         face_mesh_cache="true"
         skill_template="SkillSet.lord_cav_throw_pol_1">
         <face>
-            <BodyProperties version="4" age="37" weight="0.5" build="0.8"  key="00001C04207010018873324163A357B4966D873971979A028B644405773A5B24007C7603078B799C000000000000000000000000000000000000000078E41083"  />
+            <BodyProperties version="4"
+                age="37"
+                weight="0.5"
+                build="0.8"
+                key="00001C04207010018873324163A357B4966D873971979A028B644405773A5B24007C7603078B799C000000000000000000000000000000000000000078E41083" />
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="Mercy"
-                value="-1" />
-            <Trait id="Honor"
-                value="1" />
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Generosity"
-                value="-1" />
-            <Trait id="Calculating"
-                value="-1" />
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Generosity" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="stu_bat_template_heavy" />
-            <EquipmentSet id="stu_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_4_2"
@@ -648,18 +661,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_archer_1h_2">
         <face>
-            <BodyProperties version="4" age="36" weight="0.417" build="0.546"  key="0002040016881501EE8BCCE37EBCCEC8DD9D8EB4C3422DB3EDE59E618C8BFCD70068600306BFD656000000000000000000000000000000000000000006D06105"  />
+            <BodyProperties version="4"
+                age="36"
+                weight="0.417"
+                build="0.546"
+                key="0002040016881501EE8BCCE37EBCCEC8DD9D8EB4C3422DB3EDE59E618C8BFCD70068600306BFD656000000000000000000000000000000000000000006D06105" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_woodsman" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_4_3"
@@ -672,18 +686,16 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="16" weight="0.325" build="0.639"  key="00052002198820034F8DF3CCAE85EBE9CF7D823EEBD4DBE4D7CCB95D8DEBEFCC006A5003066CEA4D000000000000000000000000000000000000000040B840C4"  />
+            <BodyProperties version="4"
+                age="16"
+                weight="0.325"
+                build="0.639"
+                key="00052002198820034F8DF3CCAE85EBE9CF7D823EEBD4DBE4D7CCB95D8DEBEFCC006A5003066CEA4D000000000000000000000000000000000000000040B840C4" />
         </face>
-        <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_flamboyant" />
-            <EquipmentSet id="stu_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_4_4"
@@ -695,14 +707,16 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="11" weight="0.338" build="0.58"  key="000028020E701306EE8BCCF37EBCDED9DD9D8ED6D6422DB3EDE6AE918CABFCD80079500307BFD758000000000000000000000000000000000000000034F87042"  />
+            <BodyProperties version="4"
+                age="11"
+                weight="0.338"
+                build="0.58"
+                key="000028020E701306EE8BCCF37EBCDED9DD9D8ED6D6422DB3EDE6AE918CABFCD80079500307BFD758000000000000000000000000000000000000000034F87042" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_medium" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_4_5"
@@ -715,18 +729,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_throw_1h_2">
         <face>
-            <BodyProperties version="4" age="33" weight="0.301" build="0.501"  key="000824029E701447EE8BCCE37EBCCED8DD9D8EB6C5422DB3EDE59E618CABFCD70068500306BFD756000000000000000000000000000000000000000030C86084"  />
+            <BodyProperties version="4"
+                age="33"
+                weight="0.301"
+                build="0.501"
+                key="000824029E701447EE8BCCE37EBCCED8DD9D8EB6C5422DB3EDE59E618CABFCD70068500306BFD756000000000000000000000000000000000000000030C86084" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Valor" value="+2" />
+            <Trait id="Generosity" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_flamboyant" />
-            <EquipmentSet id="stu_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_4_6"
@@ -740,18 +755,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_engineer">
         <face>
-            <BodyProperties version="4" age="32" weight="0.266" build="0.613"  key="0008A002157020023D8A93B59D85EBE78F7D723CEA31D8E3B795B45C8D8B8EB300594003054CE74D000000000000000000000000000000000000000030A81003"  />
+            <BodyProperties version="4"
+                age="32"
+                weight="0.266"
+                build="0.613"
+                key="0008A002157020023D8A93B59D85EBE78F7D723CEA31D8E3B795B45C8D8B8EB300594003054CE74D000000000000000000000000000000000000000030A81003" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Generosity" value="+1" />
+            <Trait id="Calculating" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_medium" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_4_7"
@@ -764,14 +780,16 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="16" weight="0.353" build="0.648"  key="000504029588200B3F8AA3C99D85EBE7CF7D723EEBD2D9E4C7C9B45D8DABCFC7005A5003054CE94D00000000000000000000000000000000000000000CA81104"  />
+            <BodyProperties version="4"
+                age="16"
+                weight="0.353"
+                build="0.648"
+                key="000504029588200B3F8AA3C99D85EBE7CF7D723EEBD2D9E4C7C9B45D8DABCFC7005A5003054CE94D00000000000000000000000000000000000000000CA81104" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_heavy" />
-            <EquipmentSet id="stu_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -787,22 +805,21 @@
         face_mesh_cache="true"
         skill_template="SkillSet.lord_cav_throw_pol_1">
         <face>
-            <BodyProperties version="4" age="31" weight="0.419" build="0.491"  key="0002880156883448EE8DAFF5EDA7FAECE68B8D7FA1E258E7BDE6999E8E2E86DC00876003087FB7EF000000000000000000000000000000000000000023008102"  />
+            <BodyProperties version="4"
+                age="31"
+                weight="0.419"
+                build="0.491"
+                key="0002880156883448EE8DAFF5EDA7FAECE68B8D7FA1E258E7BDE6999E8E2E86DC00876003087FB7EF000000000000000000000000000000000000000023008102" />
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Calculating"
-                value="-1" />
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Calculating" value="+2" />
+            <Trait id="Generosity" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="stu_bat_template_heavy" />
-            <EquipmentSet id="stu_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_5_2"
@@ -816,18 +833,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_2h_pol_2">
         <face>
-            <BodyProperties version="4" age="32" weight="0.407" build="0.636"  key="0008B4041B7020053F8A93C69D85EBE79F7D723EEAC1D8E3C795B45D8D9B8FC7004A6003044CE94D000000000000000000000000000000000000000034781104"  />
+            <BodyProperties version="4"
+                age="32"
+                weight="0.407"
+                build="0.636"
+                key="0008B4041B7020053F8A93C69D85EBE79F7D723EEAC1D8E3C795B45D8D9B8FC7004A6003044CE94D000000000000000000000000000000000000000034781104" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Generosity" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_medium" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_5_3"
@@ -839,14 +857,16 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="15" weight="0.253" build="0.406"  key="00092800188806414A786386E621A1F85ADC821050144B73316D95B37042A9900056400305B389E800000000000000000000000000000000000000005AA07042"  />
+            <BodyProperties version="4"
+                age="15"
+                weight="0.253"
+                build="0.406"
+                key="00092800188806414A786386E621A1F85ADC821050144B73316D95B37042A9900056400305B389E800000000000000000000000000000000000000005AA07042" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_woodsman" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_5_4"
@@ -859,18 +879,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_throw_1h_2">
         <face>
-            <BodyProperties version="4" age="27" weight="0.292" build="0.627"  key="000010014F8805048F8B77FAE9E1DDF98BED88A4E415CDABC8BDC9BC8986B9CA0099400309C48BEC0000000000000000000000000000000000000000532080C2"  />
+            <BodyProperties version="4"
+                age="27"
+                weight="0.292"
+                build="0.627"
+                key="000010014F8805048F8B77FAE9E1DDF98BED88A4E415CDABC8BDC9BC8986B9CA0099400309C48BEC0000000000000000000000000000000000000000532080C2" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Valor" value="+2" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_flamboyant" />
-            <EquipmentSet id="stu_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_5_5"
@@ -884,18 +905,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_doctor">
         <face>
-            <BodyProperties version="4" age="28" weight="0.424" build="0.539"  key="0005B4009E88300B0E7515064771FC64508787AB1BE64A4CEBEA7CC777072F3700886003089D35A200000000000000000000000000000000000000006F100104"  />
+            <BodyProperties version="4"
+                age="28"
+                weight="0.424"
+                build="0.539"
+                key="0005B4009E88300B0E7515064771FC64508787AB1BE64A4CEBEA7CC777072F3700886003089D35A200000000000000000000000000000000000000006F100104" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Honor"
-                value="-1" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Generosity" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_woodsman" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_5_6"
@@ -908,14 +930,16 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="9" weight="0.277" build="0.567"  key="00022C0356703005DE786AFD6776FEAAE4DE89EC1CE64EEDECFCBEDA8AED2FB80059400305DDEBE3000000000000000000000000000000000000000066B83104"  />
+            <BodyProperties version="4"
+                age="9"
+                weight="0.277"
+                build="0.567"
+                key="00022C0356703005DE786AFD6776FEAAE4DE89EC1CE64EEDECFCBEDA8AED2FB80059400305DDEBE3000000000000000000000000000000000000000066B83104" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_medium" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -932,22 +956,20 @@
         face_mesh_cache="true"
         skill_template="SkillSet.lord_2h_pol_1">
         <face>
-            <BodyProperties version="4" age="39" weight="0.3573" build="0.491"  key="0002880097702005EC635FF5ED86FAEBE65B8D4FA0E257E74BE2699C8B2786B800775003077EA7EE000000000000000000000000000000000000000026F84103"  />
+            <BodyProperties version="4"
+                age="39"
+                weight="0.3573"
+                build="0.491"
+                key="0002880097702005EC635FF5ED86FAEBE65B8D4FA0E257E74BE2699C8B2786B800775003077EA7EE000000000000000000000000000000000000000026F84103" />
         </face>
-        <skills></skills>
         <Traits>
-            <Trait id="Mercy"
-                value="-1" />
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Generosity" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="stu_bat_template_medium" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_6_2"
@@ -960,18 +982,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_throw_pol_2">
         <face>
-            <BodyProperties version="4" age="38" weight="0.389" build="0.627"  key="00050800158804498D7B65F8E921ADF96BDD85A1E0155B86A79DC6B37474B9910089600308B489EA0000000000000000000000000000000000000000591870C6"  />
+            <BodyProperties version="4"
+                age="38"
+                weight="0.389"
+                build="0.627"
+                key="00050800158804498D7B65F8E921ADF96BDD85A1E0155B86A79DC6B37474B9910089600308B489EA0000000000000000000000000000000000000000591870C6" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+1" />
+            <Trait id="Mercy" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_heavy" />
-            <EquipmentSet id="stu_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_6_3"
@@ -985,18 +1008,16 @@
         occupation="Lord"
         skill_template="SkillSet.lord_archer_1h_2">
         <face>
-            <BodyProperties version="4" age="21" weight="0.426" build="0.623"  key="000804001870300D4E75395C6775FE9681AA89BC1BE64E4DECEA8ED87A8B2F5800596003059D98E3000000000000000000000000000000000000000020B82103"  />
+            <BodyProperties version="4"
+                age="21"
+                weight="0.426"
+                build="0.623"
+                key="000804001870300D4E75395C6775FE9681AA89BC1BE64E4DECEA8ED87A8B2F5800596003059D98E3000000000000000000000000000000000000000020B82103" />
         </face>
-        <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_woodsman" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_6_4"
@@ -1008,14 +1029,16 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="16" weight="0.439" build="0.653"  key="000854008F8803848F7B77F9E9D1DDF98BDD86A4E1158C8BA7ADC6B88675B9A7008A700308C489EC000000000000000000000000000000000000000051108046"  />
+            <BodyProperties version="4"
+                age="16"
+                weight="0.439"
+                build="0.653"
+                key="000854008F8803848F7B77F9E9D1DDF98BDD86A4E1158C8BA7ADC6B88675B9A7008A700308C489EC000000000000000000000000000000000000000051108046" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_flamboyant" />
-            <EquipmentSet id="stu_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_6_5"
@@ -1027,14 +1050,16 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="11" weight="0.424" build="0.691"  key="00020401518803418E7B77F8E941BDF97BDD85A1E1158B86A79DC6B68674B996007A600307C489EC00000000000000000000000000000000000000003AF87044"  />
+            <BodyProperties version="4"
+                age="11"
+                weight="0.424"
+                build="0.691"
+                key="00020401518803418E7B77F8E941BDF97BDD85A1E1158B86A79DC6B68674B996007A600307C489EC00000000000000000000000000000000000000003AF87044" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_medium" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_6_6"
@@ -1047,18 +1072,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_merchant">
         <face>
-            <BodyProperties version="4" age="31" weight="0.2" build="0.633"  key="0008240017703349358D4261B4AB67B8C5EB87C83B20B58743AE851581BBE63A00A930030A411E91000000000000000000000000000000000000000011401144"  />
+            <BodyProperties version="4"
+                age="31"
+                weight="0.2"
+                build="0.633"
+                key="0008240017703349358D4261B4AB67B8C5EB87C83B20B58743AE851581BBE63A00A930030A411E91000000000000000000000000000000000000000011401144" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Mercy" value="+2" />
+            <Trait id="Valor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_woodsman" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -1074,22 +1100,21 @@
         face_mesh_cache="true"
         skill_template="SkillSet.lord_2h_pol_1">
         <face>
-            <BodyProperties version="4" age="31" weight="0.214" build="0.6173"  key="000A04021D703583D975D6D75BE5AC586EA98B3B99E58BCBA89FCBD98BC9EEAA0099300309D7A9A7000000000000000000000000000000000000000055301102"  />
+            <BodyProperties version="4"
+                age="31"
+                weight="0.214"
+                build="0.6173"
+                key="000A04021D703583D975D6D75BE5AC586EA98B3B99E58BCBA89FCBD98BC9EEAA0099300309D7A9A7000000000000000000000000000000000000000055301102" />
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="Honor"
-                value="1" />
-            <Trait id="Generosity"
-                value="1" />
-            <Trait id="Calculating"
-                value="-1" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Valor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="stu_bat_template_medium" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_7_2"
@@ -1103,18 +1128,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_charmer">
         <face>
-            <BodyProperties version="4" age="30" weight="0.302" build="0.547"  key="00025C029870300B9E776A7D6776FEAAB4BE89EC1BE64EBDECFC8ED97A8C2F880058500305BDCAE3000000000000000000000000000000000000000028A82044"  />
+            <BodyProperties version="4"
+                age="30"
+                weight="0.302"
+                build="0.547"
+                key="00025C029870300B9E776A7D6776FEAAB4BE89EC1BE64EBDECFC8ED97A8C2F880058500305BDCAE3000000000000000000000000000000000000000028A82044" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+2" />
+            <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_heavy" />
-            <EquipmentSet id="stu_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_7_3"
@@ -1126,14 +1152,16 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="10" weight="0.417" build="0.585"  key="00081C041170330ACE8D9B6FB6CE9EFACCEB8DEF9CA6D8B868FFCB1E86BCEFBC0059600305494EA1000000000000000000000000000000000000000044A87142"  />
+            <BodyProperties version="4"
+                age="10"
+                weight="0.417"
+                build="0.585"
+                key="00081C041170330ACE8D9B6FB6CE9EFACCEB8DEF9CA6D8B868FFCB1E86BCEFBC0059600305494EA1000000000000000000000000000000000000000044A87142" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_flamboyant" />
-            <EquipmentSet id="stu_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_7_4"
@@ -1147,18 +1175,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_throw_pol_2">
         <face>
-            <BodyProperties version="4" age="25" weight="0.313" build="0.695"  key="00007004217030079E77397C6775FE97A1BA89EC1BE64E8DECEC8ED97A8C2F58004A500304ADB9E300000000000000000000000000000000000000001A8820C3"  />
+            <BodyProperties version="4"
+                age="25"
+                weight="0.313"
+                build="0.695"
+                key="00007004217030079E77397C6775FE97A1BA89EC1BE64E8DECEC8ED97A8C2F58004A500304ADB9E300000000000000000000000000000000000000001A8820C3" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Mercy" value="+2" />
+            <Trait id="Generosity" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_heavy" />
-            <EquipmentSet id="stu_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_7_5"
@@ -1171,15 +1200,17 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="15" weight="0.426" build="0.663"  key="000AC0021570200E1986C89A803E49C1625481E455335C55437BEC277491CCE8007A600307C88A3E000000000000000000000000000000000000000040E82083"  />
+            <BodyProperties version="4"
+                age="15"
+                weight="0.426"
+                build="0.663"
+                key="000AC0021570200E1986C89A803E49C1625481E455335C55437BEC277491CCE8007A600307C88A3E000000000000000000000000000000000000000040E82083" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="stu_bat_template_medium" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -1195,22 +1226,21 @@
         face_mesh_cache="true"
         skill_template="SkillSet.lord_archer_1h_2">
         <face>
-            <BodyProperties version="4" age="25" weight="0.464" build="0.626"  key="000534009A8834413C8D9864B4BD89F9CAEB88D83BA3B59867EEA51982BBEB8C0069700306433E91000000000000000000000000000000000000000042D030C2"  />
+            <BodyProperties version="4"
+                age="25"
+                weight="0.464"
+                build="0.626"
+                key="000534009A8834413C8D9864B4BD89F9CAEB88D83BA3B59867EEA51982BBEB8C0069700306433E91000000000000000000000000000000000000000042D030C2" />
         </face>
         <skills></skills>
         <Traits>
-            <Trait id="Valor"
-                value="1" />
-            <Trait id="Generosity"
-                value="1" />
-            <Trait id="Calculating"
-                value="1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Mercy" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="stu_bat_template_woodsman" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_8_2"
@@ -1224,18 +1254,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_rogue">
         <face>
-            <BodyProperties version="4" age="23" weight="0.382" build="0.547"  key="0008C00096883004CD86DDCACB4EBBE5BFC98DEB57348C89C6DFED4774BCCFFC0078600307CD8D7F000000000000000000000000000000000000000030E03084"  />
+            <BodyProperties version="4"
+                age="23"
+                weight="0.382"
+                build="0.547"
+                key="0008C00096883004CD86DDCACB4EBBE5BFC98DEB57348C89C6DFED4774BCCFFC0078600307CD8D7F000000000000000000000000000000000000000030E03084" />
         </face>
         <Traits>
-            <Trait id="Generosity"
-                value="+1" />
-            <Trait id="Mercy"
-                value="+1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Generosity" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_flamboyant" />
-            <EquipmentSet id="stu_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_8_3"
@@ -1247,14 +1278,16 @@
         culture="Culture.sturgia"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="5" weight="0.265" build="0.454"  key="00054C009D8834833D8D9964B4CD9DFACBEB8DDB8BA6D59867FEA71D82BBEEBC00A740030A463E910000000000000000000000000000000000000000154050C5"  />
+            <BodyProperties version="4"
+                age="5"
+                weight="0.265"
+                build="0.454"
+                key="00054C009D8834833D8D9964B4CD9DFACBEB8DDB8BA6D59867FEA71D82BBEEBC00A740030A463E910000000000000000000000000000000000000000154050C5" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_heavy" />
-            <EquipmentSet id="stu_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_virkaldr_8_4"
@@ -1268,18 +1301,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_2h_pol_2">
         <face>
-            <BodyProperties version="4" age="21" weight="0.359" build="0.603"  key="000218001870200E1A86CD9AC63E99D49BB883E956336C8583BBEC377499CFEC0069500306CD8D4F000000000000000000000000000000000000000034D83043"  />
+            <BodyProperties version="4"
+                age="21"
+                weight="0.359"
+                build="0.603"
+                key="000218001870200E1A86CD9AC63E99D49BB883E956336C8583BBEC377499CFEC0069500306CD8D4F000000000000000000000000000000000000000034D83043" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="+2" />
-            <Trait id="Honor"
-                value="-2" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Mercy" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="stu_bat_template_medium" />
-            <EquipmentSet id="stu_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="stu_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 </NPCCharacters>

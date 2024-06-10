@@ -24,15 +24,12 @@
                 key="00043002000036487A7CDFF47A8349D5BF5B89877AD4EAFCE69ACC3CE7DC07A400A860030ACDE8F7000000000000000000000000000000000000000057407004" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="+2" />
-            <Trait id="Mercy"
-                value="-2" />
+            <Trait id="Valor" value="+2" />
+            <Trait id="Mercy" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_king_template_bat_m" />
-            <EquipmentSet id="rek_king_template_civ_m"
-                civilian="true" />
+            <EquipmentSet id="rek_king_template_civ_m" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_1_2"
@@ -47,19 +44,20 @@
         skill_template="SkillSet.lord_noncom_crafter"
         face_mesh_cache="true">
         <face>
-            <BodyProperties version="4" age="28" weight="0.521" build="0.397"  key="00083C000000368631A7E3AD168FF764CC1CAB6357E53DAC416F6276D853E67E0096800309D75841000000000000000000000000000000000000000007282041"  />
+            <BodyProperties version="4"
+                age="28"
+                weight="0.521"
+                build="0.397"
+                key="00083C000000368631A7E3AD168FF764CC1CAB6357E53DAC416F6276D853E67E0096800309D75841000000000000000000000000000000000000000007282041" />
         </face>
         <Traits>
-            <Trait id="Generosity"
-                value="+2" />
-            <Trait id="Calculating"
-                value="-1" />
+            <Trait id="Valor" value="+1" />
+            <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="rek_king_template_civ_f" />
-            <EquipmentSet id="rek_king_template_civ_f"
-                civilian="true" />
+            <EquipmentSet id="rek_king_template_civ_f" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_1_3"
@@ -72,19 +70,20 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_2h_pol_2">
         <face>
-            <BodyProperties version="4" age="40" weight="0.825" build="0.453"  key="00050C02800025C8BB584E1976A826C2AE7A76327647F736236BF981D89F8D2800A7C0030AED6C74000000000000000000000000000000000000000043588040"  />
+            <BodyProperties version="4"
+                age="40"
+                weight="0.825"
+                build="0.453"
+                key="00050C02800025C8BB584E1976A826C2AE7A76327647F736236BF981D89F8D2800A7C0030AED6C74000000000000000000000000000000000000000043588040" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Valor"
-                value="-1" />
+            <Trait id="Generosity" value="+2" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="rek_bat_template_heavy" />
-            <EquipmentSet id="rek_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_1_4"
@@ -97,19 +96,20 @@
         occupation="Lord"
         skill_template="SkillSet.lord_xbow_2h_2">
         <face>
-            <BodyProperties version="4" age="23" weight="0.7602" build="0.453"  key="0000380340002589FB7C4E59B8BB6CF8FFBDFD377BF7FB4AAF9DFE87DFEFFF7A00A7B0030AFDBCE8000000000000000000000000000000000000000077489081"  />
+            <BodyProperties version="4"
+                age="23"
+                weight="0.7602"
+                build="0.453"
+                key="0000380340002589FB7C4E59B8BB6CF8FFBDFD377BF7FB4AAF9DFE87DFEFFF7A00A7B0030AFDBCE8000000000000000000000000000000000000000077489081" />
         </face>
         <Traits>
-            <Trait id="Honor"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+1" />
+            <Trait id="Mercy" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="rek_bat_template_low" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_1_5"
@@ -121,15 +121,17 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="16" weight="0.825" build="0.453"  key="0001780400002605FB794E3988AB6CD7CEAD8A3279D7FA369A9BFC858F9FCE590097C00309ED8CE6000000000000000000000000000000000000000055302001"  />
+            <BodyProperties version="4"
+                age="16"
+                weight="0.825"
+                build="0.453"
+                key="0001780400002605FB794E3988AB6CD7CEAD8A3279D7FA369A9BFC858F9FCE590097C00309ED8CE6000000000000000000000000000000000000000055302001" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="rek_bat_template_medium" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_1_6"
@@ -142,15 +144,17 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="14" weight="0.521" build="0.397"  key="00054400800033016DE9E8FEAA9FFDADCDEFAD9588F56FACF3EF6DBBDCB6EFFE00A680030AFA6E9B000000000000000000000000000000000000000055585003"  />
+            <BodyProperties version="4"
+                age="14"
+                weight="0.521"
+                build="0.397"
+                key="00054400800033016DE9E8FEAA9FFDADCDEFAD9588F56FACF3EF6DBBDCB6EFFE00A680030AFA6E9B000000000000000000000000000000000000000055585003" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="rek_bat_template_heavy" />
-            <EquipmentSet id="rek_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_1_7"
@@ -163,19 +167,20 @@
         occupation="Lord"
         skill_template="SkillSet.lord_pol_1h_2">
         <face>
-            <BodyProperties version="4" age="39" weight="0.7022" build="0.453"  key="0002500280002287FB7B4E39B8AB6CF7DEADFB377BE7FA3AAE9BFC85DF9FFF5900B7B0030BFD9CE8000000000000000000000000000000000000000053689041"  />
+            <BodyProperties version="4"
+                age="39"
+                weight="0.7022"
+                build="0.453"
+                key="0002500280002287FB7B4E39B8AB6CF7DEADFB377BE7FA3AAE9BFC85DF9FFF5900B7B0030BFD9CE8000000000000000000000000000000000000000053689041" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Valor"
-                value="-1" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Generosity" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="rek_bat_template_medium" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_1_8"
@@ -189,19 +194,20 @@
         occupation="Lord"
         skill_template="SkillSet.lord_2h_pol_1">
         <face>
-            <BodyProperties version="4" age="40" weight="0.521" build="0.397"  key="00026C008000334484D7E4FE2A9FFB8A998AAC9368C55CA952CF6887A996AA9800D680030DE96A89000000000000000000000000000000000000000035B82103"  />
+            <BodyProperties version="4"
+                age="40"
+                weight="0.521"
+                build="0.397"
+                key="00026C008000334484D7E4FE2A9FFB8A998AAC9368C55CA952CF6887A996AA9800D680030DE96A89000000000000000000000000000000000000000035B82103" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="+2" />
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Generosity" value="+1" />
+            <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="rek_bat_template_flamboyant" />
-            <EquipmentSet id="rek_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_1_9"
@@ -214,15 +220,17 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="13" weight="0.521" build="0.397"  key="000014020000340369E9E7FE4A9FFDAACCEFAC9378F56FAC52EF6B9BDBB6EFEE00A680030AEA6A9A0000000000000000000000000000000000000000554030C3"  />
+            <BodyProperties version="4"
+                age="13"
+                weight="0.521"
+                build="0.397"
+                key="000014020000340369E9E7FE4A9FFDAACCEFAC9378F56FAC52EF6B9BDBB6EFEE00A680030AEA6A9A0000000000000000000000000000000000000000554030C3" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="rek_bat_template_heavy" />
-            <EquipmentSet id="rek_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_1_10"
@@ -234,15 +242,17 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="10" weight="0.733" build="0.453"  key="0000540340002446FB794E3998AB6CD7DEADBB3479E7FA38AA9BFC85DF9FEF5900B7B0030BFD9CE6000000000000000000000000000000000000000053609001"  />
+            <BodyProperties version="4"
+                age="10"
+                weight="0.733"
+                build="0.453"
+                key="0000540340002446FB794E3998AB6CD7DEADBB3479E7FA38AA9BFC85DF9FEF5900B7B0030BFD9CE6000000000000000000000000000000000000000053609001" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="rek_bat_template_low" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -264,17 +274,13 @@
                 key="000328000000258678FCDEE4768339D39F4988677AC4D6ECA69EBC3FD5BB07A400B860030B8DE8C5000000000000000000000000000000000000000053705044" />
         </face>
         <Traits>
-            <Trait id="Honor"
-                value="+2" />
-            <Trait id="Valor"
-                value="+1" />
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Valor" value="+1" />
+            <Trait id="Mercy" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_flamboyant" />
-            <EquipmentSet id="rek_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_2_2"
@@ -288,18 +294,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_pol_1h_2">
         <face>
-            <BodyProperties version="4" age="48" weight="0.521" build="0.397"  key="000118040000368669D7E5FE4A9FFCAACCBFAC9368E55EAC52CF6A9BD9B5EDDE00D680030DE96A8A000000000000000000000000000000000000000053A83083"  />
+            <BodyProperties version="4"
+                age="48"
+                weight="0.521"
+                build="0.397"
+                key="000118040000368669D7E5FE4A9FFCAACCBFAC9368E55EAC52CF6A9BD9B5EDDE00D680030DE96A8A000000000000000000000000000000000000000053A83083" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Mercy" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_medium" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_2_3"
@@ -313,18 +320,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_2h_pol_1">
         <face>
-            <BodyProperties version="4" age="32" weight="0.526" build="0.3117"  key="0000980340000306AA6EB34723A24096441C8E817CE7BB99A7C9CAE54F183E1500B580030B1AE3AE000000000000000000000000000000000000000013708004"  />
+            <BodyProperties version="4"
+                age="32"
+                weight="0.526"
+                build="0.3117"
+                key="0000980340000306AA6EB34723A24096441C8E817CE7BB99A7C9CAE54F183E1500B580030B1AE3AE000000000000000000000000000000000000000013708004" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+1" />
+            <Trait id="Valor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_heavy" />
-            <EquipmentSet id="rek_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_2_4"
@@ -337,18 +345,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_xbow_2h_2">
         <face>
-            <BodyProperties version="4" age="29" weight="0.8318" build="0.5139"  key="00055C04C0000346F99B9B7B543144DF41D473545214A8BAA692EC0580CA5A5100D8C0030DDF63A7000000000000000000000000000000000000000033C06040"  />
+            <BodyProperties version="4"
+                age="29"
+                weight="0.8318"
+                build="0.5139"
+                key="00055C04C0000346F99B9B7B543144DF41D473545214A8BAA692EC0580CA5A5100D8C0030DDF63A7000000000000000000000000000000000000000033C06040" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Generosity" value="+1" />
+            <Trait id="Calculating" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_low" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_2_5"
@@ -360,14 +369,16 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="17" weight="0.893" build="0.415"  key="0000900140001241FA9BDD9BBA7D4AFF6FDC9B849A14FABDB8FEEC7891EDEA6100C6D0030CEFF5FA000000000000000000000000000000000000000053988082"  />
+            <BodyProperties version="4"
+                age="17"
+                weight="0.893"
+                build="0.415"
+                key="0000900140001241FA9BDD9BBA7D4AFF6FDC9B849A14FABDB8FEEC7891EDEA6100C6D0030CEFF5FA000000000000000000000000000000000000000053988082" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_flamboyant" />
-            <EquipmentSet id="rek_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_2_6"
@@ -380,14 +391,16 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="11" weight="0.363" build="0.376"  key="0002500540001547FB5655F3859CA7860FCEB7543484303DC5BAB94EF2BC0EEA00D650030D5642FB000000000000000000000000000000000000000053B850C4"  />
+            <BodyProperties version="4"
+                age="11"
+                weight="0.363"
+                build="0.376"
+                key="0002500540001547FB5655F3859CA7860FCEB7543484303DC5BAB94EF2BC0EEA00D650030D5642FB000000000000000000000000000000000000000053B850C4" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_low" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_2_7"
@@ -400,18 +413,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_rogue">
         <face>
-            <BodyProperties version="4" age="42" weight="0.7078" build="0.4151"  key="00002400800003C4DA9BCB8B555D49EF6CD79B769814CAAAB792EC3691EBCA5100B6B0030BDF64F90000000000000000000000000000000000000000337090C2"  />
+            <BodyProperties version="4"
+                age="42"
+                weight="0.7078"
+                build="0.4151"
+                key="00002400800003C4DA9BCB8B555D49EF6CD79B769814CAAAB792EC3691EBCA5100B6B0030BDF64F90000000000000000000000000000000000000000337090C2" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Mercy" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_low" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_2_8"
@@ -424,14 +438,16 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="11" weight="0.6099" build="0.4995"  key="0002540280002646FC7657FC859EA7992FCEE75444A5396DE6BCDE4EF7BD1EEA00D790030D5BD3FB000000000000000000000000000000000000000033A05084"  />
+            <BodyProperties version="4"
+                age="11"
+                weight="0.6099"
+                build="0.4995"
+                key="0002540280002646FC7657FC859EA7992FCEE75444A5396DE6BCDE4EF7BD1EEA00D790030D5BD3FB000000000000000000000000000000000000000033A05084" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_low" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -453,17 +469,12 @@
                 key="0000040080002406ECFDD5DEAB89BAE89B86FC559CC6F9BE8A29C9DFCEEE488D00AA90030AEFFCBB00000000000000000000000000000000000000003D485085" />
         </face>
         <Traits>
-            <Trait id="Honor"
-                value="+2" />
-            <Trait id="Valor"
-                value="+1" />
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Calculating" value="+1" />
+            <Trait id="Mercy" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_flamboyant" />
-            <EquipmentSet id="rek_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_3_2"
@@ -477,18 +488,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_doctor">
         <face>
-            <BodyProperties version="4" age="37" weight="0.5827" build="0.3765"  key="0008500140003486FC9EB38873AB82DEDDDDAF878DE8ECFBBEF9EAE68FCA4F5A00D690030DFBEACF000000000000000000000000000000000000000043A88045"  />
+            <BodyProperties version="4"
+                age="37"
+                weight="0.5827"
+                build="0.3765"
+                key="0008500140003486FC9EB38873AB82DEDDDDAF878DE8ECFBBEF9EAE68FCA4F5A00D690030DFBEACF000000000000000000000000000000000000000043A88045" />
         </face>
         <Traits>
-            <Trait id="Calculating"
-                value="+2" />
-            <Trait id="Generosity"
-                value="-1" />
+            <Trait id="Generosity" value="+2" />
+            <Trait id="Valor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_low" />
-            <EquipmentSet id="rek_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_3_3"
@@ -501,18 +513,16 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_2h_pol_1">
         <face>
-            <BodyProperties version="4" age="20.04" weight="0.893" build="0.415"  key="00054C0080001248FA9BCB8BA57D49EF6FD99B849914FABDA7A9CB8891ECCA6100B6D0030B9AC5C9000000000000000000000000000000000000000055708082"  />
+            <BodyProperties version="4"
+                age="20.04"
+                weight="0.893"
+                build="0.415"
+                key="00054C0080001248FA9BCB8BA57D49EF6FD99B849914FABDA7A9CB8891ECCA6100B6D0030B9AC5C9000000000000000000000000000000000000000055708082" />
         </face>
-        <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_heavy" />
-            <EquipmentSet id="rek_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_3_4"
@@ -525,14 +535,16 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="15" weight="0.7062" build="0.3765"  key="0005280340001603AAAEB38743A580BD765CEF838DE8BCBBB8D9DAE57F6A4E5700A6B0030A6BE7CE000000000000000000000000000000000000000027408083"  />
+            <BodyProperties version="4"
+                age="15"
+                weight="0.7062"
+                build="0.3765"
+                key="0005280340001603AAAEB38743A580BD765CEF838DE8BCBBB8D9DAE57F6A4E5700A6B0030A6BE7CE000000000000000000000000000000000000000027408083" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_medium" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_3_5"
@@ -546,18 +558,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_pol_1h_2">
         <face>
-            <BodyProperties version="4" age="35" weight="0.526" build="0.3102"  key="00088004C0002604CCAEB38763AA82CEB87DEF848DE8ECFBBBE9EAE58FBA4F5700B580030B7BE7CE000000000000000000000000000000000000000041708003"  />
+            <BodyProperties version="4"
+                age="35"
+                weight="0.526"
+                build="0.3102"
+                key="00088004C0002604CCAEB38763AA82CEB87DEF848DE8ECFBBBE9EAE58FBA4F5700B580030B7BE7CE000000000000000000000000000000000000000041708003" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Honor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_medium" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_3_6"
@@ -569,14 +582,16 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="16" weight="0.7577" build="0.6003"  key="00059C02800014C8FA9BCB8B556D49EF6CD79B849914FABBB7B8EC6791EBCA610099B00309DF84F90000000000000000000000000000000000000000433880C2"  />
+            <BodyProperties version="4"
+                age="16"
+                weight="0.7577"
+                build="0.6003"
+                key="00059C02800014C8FA9BCB8B556D49EF6CD79B849914FABBB7B8EC6791EBCA610099B00309DF84F90000000000000000000000000000000000000000433880C2" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_flamboyant" />
-            <EquipmentSet id="rek_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_3_7"
@@ -589,14 +604,16 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="9" weight="0.526" build="0.3117"  key="00026C0140002584CBAEB38753A882BE986CEF838DE8CCCBB8E9DAE57FAA4F5700A580030A6BE7CE000000000000000000000000000000000000000045488003"  />
+            <BodyProperties version="4"
+                age="9"
+                weight="0.526"
+                build="0.3117"
+                key="00026C0140002584CBAEB38753A882BE986CEF838DE8CCCBB8E9DAE57FAA4F5700A580030A6BE7CE000000000000000000000000000000000000000045488003" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_low" />
-            <EquipmentSet id="rek_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -618,17 +635,12 @@
                 key="00059804C0002388ECFDC5DEAB89BA879B76CC4579C6F9AE8929C9DFCEED458C00BA90030BEFFCBB000000000000000000000000000000000000000073605005" />
         </face>
         <Traits>
-            <Trait id="Honor"
-                value="+2" />
-            <Trait id="Valor"
-                value="+1" />
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Valor" value="+2" />
+            <Trait id="Calculating" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_heavy" />
-            <EquipmentSet id="rek_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_4_2"
@@ -642,18 +654,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_xbow_2h_2">
         <face>
-            <BodyProperties version="4" age="35" weight="0.4892" build="0.376"  key="0005140140003386FED657FCA99EDBEA4FDFE95697C53D7EFECCDF7FFDED5EEC00A670030A5DFAFC000000000000000000000000000000000000000057407105"  />
+            <BodyProperties version="4"
+                age="35"
+                weight="0.4892"
+                build="0.376"
+                key="0005140140003386FED657FCA99EDBEA4FDFE95697C53D7EFECCDF7FFDED5EEC00A670030A5DFAFC000000000000000000000000000000000000000057407105" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+2" />
+            <Trait id="Honor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_low" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_4_3"
@@ -666,18 +679,16 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="14" weight="0.5574" build="0.376"  key="0008980340003645FDC657FC879EABAA3FDEE95477A53B7DFDCCDE7EF8DD4EEA00C680030C5CDAFC000000000000000000000000000000000000000053907003"  />
+            <BodyProperties version="4"
+                age="14"
+                weight="0.5574"
+                build="0.376"
+                key="0008980340003645FDC657FC879EABAA3FDEE95477A53B7DFDCCDE7EF8DD4EEA00C680030C5CDAFC000000000000000000000000000000000000000053907003" />
         </face>
-        <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_flamboyant" />
-            <EquipmentSet id="rek_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_4_4"
@@ -689,14 +700,16 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="6" weight="0.443" build="0.493"  key="00083C03400035C822A603190B85CCF2F137623585E8E848763B70D67AAF3B4800A770030A39F25D000000000000000000000000000000000000000025488001"  />
+            <BodyProperties version="4"
+                age="6"
+                weight="0.443"
+                build="0.493"
+                key="00083C03400035C822A603190B85CCF2F137623585E8E848763B70D67AAF3B4800A770030A39F25D000000000000000000000000000000000000000025488001" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_medium" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_4_5"
@@ -709,18 +722,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_2h_pol_2">
         <face>
-            <BodyProperties version="4" age="35" weight="0.443" build="0.493"  key="00021803400033072AAB076B7A41DCC6FF7F72959EF8E879EDDCD9EE8EDF4D4D00A770030A9BF48D000000000000000000000000000000000000000023588104"  />
+            <BodyProperties version="4"
+                age="35"
+                weight="0.443"
+                build="0.493"
+                key="00021803400033072AAB076B7A41DCC6FF7F72959EF8E879EDDCD9EE8EDF4D4D00A770030A9BF48D000000000000000000000000000000000000000023588104" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Mercy" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_flamboyant" />
-            <EquipmentSet id="rek_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_4_6"
@@ -734,18 +748,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_charmer">
         <face>
-            <BodyProperties version="4" age="33" weight="0.7114" build="0.5633"  key="0002280080003241FDB657FC869EAB992FCEE75467A53B6DE6CCDE6EF8CD2EEA00D8B0030D5BD4FB000000000000000000000000000000000000000037B86003"  />
+            <BodyProperties version="4"
+                age="33"
+                weight="0.7114"
+                build="0.5633"
+                key="0002280080003241FDB657FC869EAB992FCEE75467A53B6DE6CCDE6EF8CD2EEA00D8B0030D5BD4FB000000000000000000000000000000000000000037B86003" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Mercy" value="+2" />
+            <Trait id="Valor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_medium" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_4_7"
@@ -758,14 +773,16 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="15" weight="0.513" build="0.262"  key="00045804C0001502D2533436776926EB31A718243915C9CD55872612B4A15B4E00D480030DB492D2000000000000000000000000000000000000000065B82002"  />
+            <BodyProperties version="4"
+                age="15"
+                weight="0.513"
+                build="0.262"
+                key="00045804C0001502D2533436776926EB31A718243915C9CD55872612B4A15B4E00D480030DB492D2000000000000000000000000000000000000000065B82002" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_heavy" />
-            <EquipmentSet id="rek_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -788,17 +805,12 @@
                 key="00084C0080002546EC991F6E983649C7C7EB9F3743C7D4B995EBCE569CA69D7300C7A0030CC5CDB9000000000000000000000000000000000000000065904083" />
         </face>
         <Traits>
-            <Trait id="Honor"
-                value="+2" />
-            <Trait id="Valor"
-                value="+1" />
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Generosity" value="+1" />
+            <Trait id="Valor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_heavy" />
-            <EquipmentSet id="rek_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_5_2"
@@ -818,15 +830,12 @@
                 key="000A500E40003343DB7EEFFB5B5D7AEBD7CD86AE9CD5EE8AE5A2BB558454BCC80069300306D9ACDC000000000000000000000000000000000000000072C87101" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Generosity" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_medium" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_5_3"
@@ -838,14 +847,16 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="13" weight="0.5787" build="0.493"  key="000344014000358928A907390B8DCCF6FC48724596E8E859AC3CA4EC7CDF4C4A00A790030A99F46D000000000000000000000000000000000000000023408103"  />
+            <BodyProperties version="4"
+                age="13"
+                weight="0.5787"
+                build="0.493"
+                key="000344014000358928A907390B8DCCF6FC48724596E8E859AC3CA4EC7CDF4C4A00A790030A99F46D000000000000000000000000000000000000000023408103" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_low" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_5_4"
@@ -858,18 +869,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_2h_pol_2">
         <face>
-            <BodyProperties version="4" age="27" weight="0.443" build="0.6195"  key="00034802800033C929A907492B9FDCF6FE7F72859AF8E869BD5CA9EE8CDF4C4A00C970030C99F48D000000000000000000000000000000000000000025988084"  />
+            <BodyProperties version="4"
+                age="27"
+                weight="0.443"
+                build="0.6195"
+                key="00034802800033C929A907492B9FDCF6FE7F72859AF8E869BD5CA9EE8CDF4C4A00C970030C99F48D000000000000000000000000000000000000000025988084" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Generosity" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_flamboyant" />
-            <EquipmentSet id="rek_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_5_5"
@@ -883,18 +895,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_scout">
         <face>
-            <BodyProperties version="4" age="28" weight="0.513" build="0.3885"  key="00051C0280003244FBB768B6B88ECBEF95CC1B448EB6FCEE87AAAC52ECDFEE4E00B680030BC8C4DB000000000000000000000000000000000000000073784102"  />
+            <BodyProperties version="4"
+                age="28"
+                weight="0.513"
+                build="0.3885"
+                key="00051C0280003244FBB768B6B88ECBEF95CC1B448EB6FCEE87AAAC52ECDFEE4E00B680030BC8C4DB000000000000000000000000000000000000000073784102" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Honor"
-                value="-1" />
+            <Trait id="Mercy" value="+2" />
+            <Trait id="Calculating" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_low" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_5_6"
@@ -907,14 +920,16 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="5" weight="0.5818" build="0.3904"  key="0008340200002342F3645786B78CABEC73BC1A244C56CBDD65994A42B9AD7B4E00B690030BB894D500000000000000000000000000000000000000002F782082"  />
+            <BodyProperties version="4"
+                age="5"
+                weight="0.5818"
+                build="0.3904"
+                key="0008340200002342F3645786B78CABEC73BC1A244C56CBDD65994A42B9AD7B4E00B690030BB894D500000000000000000000000000000000000000002F782082" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_medium" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -936,17 +951,12 @@
                 key="0005680080002549ECFDC5DEAB89BAD89B76FC459CC6F9AE8A29C9DFCEED468C00CA90030CEFFCBB000000000000000000000000000000000000000025985082" />
         </face>
         <Traits>
-            <Trait id="Honor"
-                value="+2" />
-            <Trait id="Valor"
-                value="+1" />
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Valor" value="+1" />
+            <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_medium" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_6_2"
@@ -960,18 +970,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_2h_pol_2">
         <face>
-            <BodyProperties version="4" age="37" weight="0.513" build="0.3287"  key="0002980280002503F88758B6B78EABEF93BC1B447D76DBDE66AA9B52BBBFBD4E00A580030AC8A4D6000000000000000000000000000000000000000045484004"  />
+            <BodyProperties version="4"
+                age="37"
+                weight="0.513"
+                build="0.3287"
+                key="0002980280002503F88758B6B78EABEF93BC1B447D76DBDE66AA9B52BBBFBD4E00A580030AC8A4D6000000000000000000000000000000000000000045484004" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Mercy" value="+2" />
+            <Trait id="Generosity" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_heavy" />
-            <EquipmentSet id="rek_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_6_3"
@@ -984,18 +995,16 @@
         occupation="Lord"
         skill_template="SkillSet.lord_xbow_2h_2">
         <face>
-            <BodyProperties version="4" age="22" weight="0.405" build="0.539"  key="0004280400002308F4A7B5DE5A44D0C8D29B9473919775E46499C5BD88AC643E00B860030B3CBF76000000000000000000000000000000000000000035706083"  />
+            <BodyProperties version="4"
+                age="22"
+                weight="0.405"
+                build="0.539"
+                key="0004280400002308F4A7B5DE5A44D0C8D29B9473919775E46499C5BD88AC643E00B860030B3CBF76000000000000000000000000000000000000000035706083" />
         </face>
-        <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_low" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_6_4"
@@ -1008,14 +1017,16 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="16" weight="0.7022" build="0.3225"  key="00009404C0002603F48557A6B78CABEE83BC1B347C56DBDD65AA9A52B9AFBC4E00E5B0030EB894D5000000000000000000000000000000000000000067C030C2"  />
+            <BodyProperties version="4"
+                age="16"
+                weight="0.7022"
+                build="0.3225"
+                key="00009404C0002603F48557A6B78CABEE83BC1B347C56DBDD65AA9A52B9AFBC4E00E5B0030EB894D5000000000000000000000000000000000000000067C030C2" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_flamboyant" />
-            <EquipmentSet id="rek_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_6_5"
@@ -1027,14 +1038,16 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="8" weight="0.405" build="0.539"  key="0000380400003681FAABC5FEBA56D1E8D7AC978492E89DF9EBCAFDEF98DCEFCE0098600309CDEF960000000000000000000000000000000000000000633860C3"  />
+            <BodyProperties version="4"
+                age="8"
+                weight="0.405"
+                build="0.539"
+                key="0000380400003681FAABC5FEBA56D1E8D7AC978492E89DF9EBCAFDEF98DCEFCE0098600309CDEF960000000000000000000000000000000000000000633860C3" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_medium" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_6_6"
@@ -1048,18 +1061,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_merchant">
         <face>
-            <BodyProperties version="4" age="31" weight="0.5664" build="0.5602"  key="00084C02800035C15D182FB78227254BCC3BD62715B2A9FB34FE2FE9922129CD00C880030CA6E8D4000000000000000000000000000000000000000035908083"  />
+            <BodyProperties version="4"
+                age="31"
+                weight="0.5664"
+                build="0.5602"
+                key="00084C02800035C15D182FB78227254BCC3BD62715B2A9FB34FE2FE9922129CD00C880030CA6E8D4000000000000000000000000000000000000000035908083" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Valor" value="+1" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_low" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -1081,17 +1095,12 @@
                 key="00037C0340002689FAACE98A7BBBBACFE9ED7D976993DEE995EC6AA6B7EC1CBA00C480030C684BFE000000000000000000000000000000000000000071987104" />
         </face>
         <Traits>
-            <Trait id="Honor"
-                value="+2" />
-            <Trait id="Valor"
-                value="+1" />
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_medium" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_7_2"
@@ -1105,18 +1114,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_engineer">
         <face>
-            <BodyProperties version="4" age="30" weight="0.43" build="0.417"  key="0000480280003601FE892FCB9AAD2B6BEE3BD78748D8FDFCF5FF2FEFACE4ACDD00A660030AFEEDD5000000000000000000000000000000000000000029509004"  />
+            <BodyProperties version="4"
+                age="30"
+                weight="0.43"
+                build="0.417"
+                key="0000480280003601FE892FCB9AAD2B6BEE3BD78748D8FDFCF5FF2FEFACE4ACDD00A660030AFEEDD5000000000000000000000000000000000000000029509004" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Valor" value="+2" />
+            <Trait id="Generosity" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_heavy" />
-            <EquipmentSet id="rek_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_7_3"
@@ -1128,14 +1138,16 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="7" weight="0.5941" build="0.539"  key="0002540140003502FAAAC5FEBA56D1C8D6AC978492D899F6E9C9F8EF98CCA9BE00A890030A4DDF86000000000000000000000000000000000000000047586043"  />
+            <BodyProperties version="4"
+                age="7"
+                weight="0.5941"
+                build="0.539"
+                key="0002540140003502FAAAC5FEBA56D1C8D6AC978492D899F6E9C9F8EF98CCA9BE00A890030A4DDF86000000000000000000000000000000000000000047586043" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_flamboyant" />
-            <EquipmentSet id="rek_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_7_4"
@@ -1148,18 +1160,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_2h_pol_2">
         <face>
-            <BodyProperties version="4" age="25" weight="0.5509" build="0.6038"  key="00004804C0003286F8A9B5FE6A46D1C8D6AC968491D786F5E9C9F8CE98CC758E00C980030C4DCF76000000000000000000000000000000000000000035986103"  />
+            <BodyProperties version="4"
+                age="25"
+                weight="0.5509"
+                build="0.6038"
+                key="00004804C0003286F8A9B5FE6A46D1C8D6AC968491D786F5E9C9F8CE98CC758E00C980030C4DCF76000000000000000000000000000000000000000035986103" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+1" />
+            <Trait id="Valor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_heavy" />
-            <EquipmentSet id="rek_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_7_5"
@@ -1172,15 +1185,17 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="15" weight="0.6183" build="0.417"  key="00056404000032826D182FCA9979276BED3BD62735B5DAFCC4FF2FEDA8B3ACCD00D690030DBEE8D400000000000000000000000000000000000000006DB08104"  />
+            <BodyProperties version="4"
+                age="15"
+                weight="0.6183"
+                build="0.417"
+                key="00056404000032826D182FCA9979276BED3BD62735B5DAFCC4FF2FEDA8B3ACCD00D690030DBEE8D400000000000000000000000000000000000000006DB08104" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="rek_bat_template_medium" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -1202,17 +1217,12 @@
                 key="0007280280001286CE96B8BE24A9E9D38A4C97464CE8F828CEF5A54CDCE8EBCC00D680030D86BA7D000000000000000000000000000000000000000067B08085" />
         </face>
         <Traits>
-            <Trait id="Honor"
-                value="+2" />
-            <Trait id="Valor"
-                value="+1" />
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Valor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_low" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_8_2"
@@ -1226,18 +1236,16 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_crafter">
         <face>
-            <BodyProperties version="4" age="23" weight="0.8164" build="0.417"  key="00027401400036847E582FCB9A89276BED3BD78737B8FDFCE5FF2FEEAAC4ACDD00C6C0030CEEEAD4000000000000000000000000000000000000000013A080C3"  />
+            <BodyProperties version="4"
+                age="23"
+                weight="0.8164"
+                build="0.417"
+                key="00027401400036847E582FCB9A89276BED3BD78737B8FDFCE5FF2FEEAAC4ACDD00C6C0030CEEEAD4000000000000000000000000000000000000000013A080C3" />
         </face>
-        <Traits>
-            <Trait id="Generosity"
-                value="+1" />
-            <Trait id="Mercy"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_flamboyant" />
-            <EquipmentSet id="rek_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_8_3"
@@ -1249,14 +1257,16 @@
         culture="Culture.rekgeist"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="3" weight="0.657" build="0.564"  key="0003600340001282A5AD6812B68CB56A5F9C71264AF856AB67C296D27B2E7DE900B8A0030BF3B7C0000000000000000000000000000000000000000035701101"  />
+            <BodyProperties version="4"
+                age="3"
+                weight="0.657"
+                build="0.564"
+                key="0003600340001282A5AD6812B68CB56A5F9C71264AF856AB67C296D27B2E7DE900B8A0030BF3B7C0000000000000000000000000000000000000000035701101" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_heavy" />
-            <EquipmentSet id="rek_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_rekgeist_8_4"
@@ -1270,18 +1280,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_pol_1h_2">
         <face>
-            <BodyProperties version="4" age="26" weight="0.43" build="0.5787"  key="00023404C00034837D582FCA9A79276BED3BD64736B6ECFCC4FF2FEDAAC3ACDD00B960030BEEE9D400000000000000000000000000000000000000003B788103"  />
+            <BodyProperties version="4"
+                age="26"
+                weight="0.43"
+                build="0.5787"
+                key="00023404C00034837D582FCA9A79276BED3BD64736B6ECFCC4FF2FEDAAC3ACDD00B960030BEEE9D400000000000000000000000000000000000000003B788103" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="+2" />
-            <Trait id="Honor"
-                value="-2" />
+            <Trait id="Calculating" value="+2" />
+            <Trait id="Valor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="rek_bat_template_medium" />
-            <EquipmentSet id="rek_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="rek_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 </NPCCharacters>

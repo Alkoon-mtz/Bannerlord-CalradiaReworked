@@ -13,11 +13,11 @@
         culture="Culture.khuzait"
         settlement_banner_mesh="encounter_flag_f"
         flag_mesh="info_screen_flags_b"
-        name="{=sZLd6VHi}Monghatai Khanate"
-        short_name="{=vJOWy1QF}Monghatais"
-        title="{=bF7HmNGQ}Monghatai Khanate"
-        ruler_title="{=hwnp9abW}Khan"
-        text="{=fGNdo1BK}Nomadic tribes unified under a single leader">
+        name="{=MON_kingdom_name}Monghatai Khanate"
+        short_name="{=MON_short_name}Monghatais"
+        title="{=MON_kingdom_title}Monghatai Khanate"
+        ruler_title="{=MON_ruler_title}Khan"
+        text="{=MON_text}Nomadic tribes unified under a single leader">
         <relationships></relationships>
             <!-- <relationship kingdom="Kingdom.kingdom_qinguo"
                 value="-1"

@@ -12,11 +12,11 @@
         culture="Culture.scarhok"
         settlement_banner_mesh="encounter_flag_a"
         flag_mesh="info_screen_flags_b"
-        name="{=SH_kingdom_name}Scarhok Chiefdom"
-        short_name="{=SH_short_name}Scarhokar"
-        title="{=SH_kingdom_title}Scarhok Chiefdom"
-        ruler_title="{=SH_ruler_title}Chief"
-        text="{=SH_text}Coming from the north west, they wrecked everyone by throwing axes">
+        name="{=SCA_kingdom_name}Scarhok Chiefdom"
+        short_name="{=SCA_short_name}Scarhokar"
+        title="{=SCA_kingdom_title}Scarhok Chiefdom"
+        ruler_title="{=SCA_ruler_title}Chief"
+        text="{=SCA_text}Coming from the northwest, their invasion was quick and brutal">
         <relationships></relationships>
     </Kingdom>
 </Kingdoms>

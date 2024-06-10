@@ -14,5 +14,5 @@
     <string id="str_short_term_for_faction.rekgeist" text="{=E11RG_short_term}Rekgeistens" />
     <string id="str_faction_formal_name_for_culture.rekgeist" text="{=E11RG_formal_name}Federation of Rekgeist" />
     <string id="str_faction_informal_name_for_culture.rekgeist" text="{=E11RG_informal_name}the Rekgeistens" />
-    <string id="str_culture_description.rekgeist" text="{=E11RG_desc}Only a 2 handed sword can settle an argument" />
+    <string id="str_culture_description.rekgeist" text="{=E11RG_desc}A federation of small states sharing the same culture, allied together for protection purposes" />
 </strings>

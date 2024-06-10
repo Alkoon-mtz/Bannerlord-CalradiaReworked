@@ -14,5 +14,5 @@
     <string id="str_short_term_for_faction.iustrium" text="{=E11IS_short_term}Iustrams" />
     <string id="str_faction_formal_name_for_culture.iustrium" text="{=E11IS_formal_name}Principalities of Iustrium" />
     <string id="str_faction_informal_name_for_culture.iustrium" text="{=E11IS_informal_name}the Iustrams" />
-    <string id="str_culture_description.iustrium" text="{=E11IS_desc}Deus Lo Vult" />
+    <string id="str_culture_description.iustrium" text="{=E11IS_desc}An order seeking lost artifacts, the original goal become more and more forgotten because of politics and games of powers" />
 </strings>

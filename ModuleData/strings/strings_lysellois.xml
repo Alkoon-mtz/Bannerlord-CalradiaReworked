@@ -14,5 +14,5 @@
     <string id="str_short_term_for_faction.vlandia" text="{=E11FR_short_term}Lysellegiens" />
     <string id="str_faction_formal_name_for_culture.vlandia" text="{=E11FR_formal_name}Kingdom of Lysellois" />
     <string id="str_faction_informal_name_for_culture.vlandia" text="{=E11FR_informal_name}the Lysellegiens" />
-    <string id="str_culture_description.vlandia" text="{=E11FR_desc}Lysellois rules bebe" />
+    <string id="str_culture_description.vlandia" text="{=E11FR_desc}A culture where honor is key, sometimes at the expense of stable government" />
 </strings>

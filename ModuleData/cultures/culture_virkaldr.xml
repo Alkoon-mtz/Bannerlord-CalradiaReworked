@@ -23,7 +23,7 @@
         rebels_party_template="PartyTemplate.virkaldr_rebels_template"
         vassal_reward_party_template="PartyTemplate.virkaldr_vassal_reward_troops"
         default_face_key="000810021D883481AC8B711B6CEE94FBDE6B8BEFB4538223D6EB7D7D7D87CBAB0077700307584E0B000000000000000000000000000000000000000046E82002"
-        text="{=virkaldr_text}Living in the hard cold north, seeking for a thing called sun"
+        text="{=virkaldr_text}Living in the hard cold north, they make up for their lack of agriculture by pillaging"
         caravan_master="NPCCharacter.caravan_master_virkaldr"
         armed_trader="NPCCharacter.armed_trader_virkaldr"
         caravan_guard="NPCCharacter.caravan_guard_virkaldr"

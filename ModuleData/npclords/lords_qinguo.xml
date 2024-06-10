@@ -24,15 +24,12 @@
                 key="0013EC0FC00028C1F4E799BE6FDF9A3C6D34DADEFECE16D782F9BEF98849FEE40076F003075DB7AD00000000000000000000000000000000000000004AE080C0" />
         </face>
         <Traits>
-            <Trait id="Honor"
-                value="+2" />
-            <Trait id="Valor"
-                value="+1" />
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Honor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_king_template_bat_m" />
-            <EquipmentSet id="qin_king_template_civ_m"
-                civilian="true" />
+            <EquipmentSet id="qin_king_template_civ_m" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_1_2"
@@ -54,10 +51,8 @@
                 key="0010E80FD116268EB478AD866EBB914E9D9DBAEF8DBA0EF64936ED17805429B1003650030347115A000000000000000000000000000000000000000066703083" />
         </face>
         <Traits>
-            <Trait id="Generosity"
-                value="+2" />
-            <Trait id="Calculating"
-                value="-1" />
+            <Trait id="Valor" value="+1" />
+            <Trait id="Mercy" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
@@ -75,14 +70,13 @@
         occupation="Lord"
         skill_template="SkillSet.lord_pol_1h_2">
         <face>
-            <BodyProperties version="4" age="21" weight="0.362" build="0.4"  key="0015E00FC00026DC618867936CFA4118A93A7AB9BCBA45284EEDC891803D7EF10066500306CF9289000000000000000000000000000000000000000072D82084"  />
+            <BodyProperties version="4"
+                age="21"
+                weight="0.362"
+                build="0.4"
+                key="0015E00FC00026DC618867936CFA4118A93A7AB9BCBA45284EEDC891803D7EF10066500306CF9289000000000000000000000000000000000000000072D82084" />
         </face>
-        <Traits>
-            <Trait id="Honor"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="qin_bat_template_low" />
@@ -98,15 +92,17 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="15" weight="0.474" build="0.386"  key="0010E80FC000265BF1899ACDCEFB8E6ECC7C9EDCBDDA6EAC7EEDC9C7895DFEF70046700304EFEBEB000000000000000000000000000000000000000032906102"  />
+            <BodyProperties version="4"
+                age="15"
+                weight="0.474"
+                build="0.386"
+                key="0010E80FC000265BF1899ACDCEFB8E6ECC7C9EDCBDDA6EAC7EEDC9C7895DFEF70046700304EFEBEB000000000000000000000000000000000000000032906102" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="qin_bat_template_medium" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_1_5"
@@ -119,15 +115,17 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="13" weight="0.139" build="0.361"  key="0013F00FD400000E6C81C888ECFD974B3C49DAE994D887583B90D5E684782B150005200300A9238E000000000000000000000000000000000000000068104043"  />
+            <BodyProperties version="4"
+                age="13"
+                weight="0.139"
+                build="0.361"
+                key="0013F00FD400000E6C81C888ECFD974B3C49DAE994D887583B90D5E684782B150005200300A9238E000000000000000000000000000000000000000068104043" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="qin_bat_template_heavy" />
-            <EquipmentSet id="qin_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_1_6"
@@ -140,19 +138,20 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_xbow_2h_2">
         <face>
-            <BodyProperties version="4" age="36" weight="0.288" build="0.263"  key="0015FC0FC000269BB18889A58CFA763AA95B7CCBBDCA6E5C7EEDC995875DEEF50044400304CFD5BB00000000000000000000000000000000000000003E906083"  />
+            <BodyProperties version="4"
+                age="36"
+                weight="0.288"
+                build="0.263"
+                key="0015FC0FC000269BB18889A58CFA763AA95B7CCBBDCA6E5C7EEDC995875DEEF50044400304CFD5BB00000000000000000000000000000000000000003E906083" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Valor"
-                value="-1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Generosity" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="qin_bat_template_medium" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_1_7"
@@ -166,19 +165,20 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_pol_throw_1">
         <face>
-            <BodyProperties version="4" age="37" weight="0.187" build="0.353"  key="0014E00FD32C200A9DB3CECCEDFD9D4D6D8DFDEB99D88C5A3ED9EFFC87794C460065300306CE289F000000000000000000000000000000000000000052C04083"  />
+            <BodyProperties version="4"
+                age="37"
+                weight="0.187"
+                build="0.353"
+                key="0014E00FD32C200A9DB3CECCEDFD9D4D6D8DFDEB99D88C5A3ED9EFFC87794C460065300306CE289F000000000000000000000000000000000000000052C04083" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="+2" />
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Mercy" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="qin_bat_template_flamboyant" />
-            <EquipmentSet id="qin_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_1_8"
@@ -191,15 +191,17 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="13" weight="0.328" build="0.274"  key="000DF00FD400200D9C83CEB8ECFD974D3D7DFDEA96D88A593BC3D6EC85794C250054500305CC238E000000000000000000000000000000000000000016B040C3"  />
+            <BodyProperties version="4"
+                age="13"
+                weight="0.328"
+                build="0.274"
+                key="000DF00FD400200D9C83CEB8ECFD974D3D7DFDEA96D88A593BC3D6EC85794C250054500305CC238E000000000000000000000000000000000000000016B040C3" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="qin_bat_template_heavy" />
-            <EquipmentSet id="qin_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_1_9"
@@ -211,15 +213,17 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="10" weight="0.251" build="0.487"  key="0018F80FC00025DCF18899BBAEFA876BCA6B7DDCBDDA6EAC7EEDC9A7895DEEF60037400303CFD9BB00000000000000000000000000000000000000004A606085"  />
+            <BodyProperties version="4"
+                age="10"
+                weight="0.251"
+                build="0.487"
+                key="0018F80FC00025DCF18899BBAEFA876BCA6B7DDCBDDA6EAC7EEDC9A7895DEEF60037400303CFD9BB00000000000000000000000000000000000000004A606085" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="qin_bat_template_low" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_1_10"
@@ -232,19 +236,20 @@
         occupation="Lord"
         skill_template="SkillSet.lord_xbow_1h_1">
         <face>
-            <BodyProperties version="4" age="33" weight="0.352" build="0.282"  key="0016F00FC00026018B806342EEE9734E9A55663A97CA8B87BFE8C189850A15610054500305F95B37000000000000000000000000000000000000000038B09141"  />
+            <BodyProperties version="4"
+                age="33"
+                weight="0.352"
+                build="0.282"
+                key="0016F00FC00026018B806342EEE9734E9A55663A97CA8B87BFE8C189850A15610054500305F95B37000000000000000000000000000000000000000038B09141" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Valor"
-                value="-1" />
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Calculating" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="qin_bat_template_heavy" />
-            <EquipmentSet id="qin_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -266,15 +271,12 @@
                 key="0017E40FC00025DCF4E79ACE8FEC9A3F6D44DBDEFECF66E783F9BEF98949FEE900867003085DBCBD00000000000000000000000000000000000000004CF880C0" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Valor" value="+2" />
+            <Trait id="Mercy" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_flamboyant" />
-            <EquipmentSet id="qin_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_2_2"
@@ -288,18 +290,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_xbow_2h_2">
         <face>
-            <BodyProperties version="4" age="41" weight="0.159" build="0.279"  key="000FF00FD200200F9CB3CEB9ECFD994D6D8DFDEB96D88B593EC3D9FC87794C460024200302CE269E000000000000000000000000000000000000000050504043"  />
+            <BodyProperties version="4"
+                age="41"
+                weight="0.159"
+                build="0.279"
+                key="000FF00FD200200F9CB3CEB9ECFD994D6D8DFDEB96D88B593EC3D9FC87794C460024200302CE269E000000000000000000000000000000000000000050504043" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_medium" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_2_3"
@@ -313,18 +316,16 @@
         occupation="Lord"
         skill_template="SkillSet.lord_xbow_1h_1">
         <face>
-            <BodyProperties version="4" age="25" weight="0.23" build="0.17"  key="0013E80FD22C200E9CA3CEB9ECFD984D6D7DFDEB96D88B593BC3D8FC86794C450013300301CE239E00000000000000000000000000000000000000004A204084"  />
+            <BodyProperties version="4"
+                age="25"
+                weight="0.23"
+                build="0.17"
+                key="0013E80FD22C200E9CA3CEB9ECFD984D6D7DFDEB96D88B593BC3D8FC86794C450013300301CE239E00000000000000000000000000000000000000004A204084" />
         </face>
-        <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_heavy" />
-            <EquipmentSet id="qin_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_2_4"
@@ -337,18 +338,16 @@
         occupation="Lord"
         skill_template="SkillSet.lord_pol_1h_2">
         <face>
-            <BodyProperties version="4" age="25" weight="0.315" build="0.496"  key="0013E80FC000269BAF9BABF3EFFE7A6E9ABB886EDACDCDACBFEAC989885EF8C70027500302FAECAE00000000000000000000000000000000000000005E509003"  />
+            <BodyProperties version="4"
+                age="25"
+                weight="0.315"
+                build="0.496"
+                key="0013E80FC000269BAF9BABF3EFFE7A6E9ABB886EDACDCDACBFEAC989885EF8C70027500302FAECAE00000000000000000000000000000000000000005E509003" />
         </face>
-        <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_low" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_2_5"
@@ -360,14 +359,16 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="16" weight="0.387" build="0.467"  key="000DF40FC00026DC9C8BAAA2EEF9775E9A6A684CA7CD8C9CBFEAC289885B56630047600304F97CAD000000000000000000000000000000000000000044889140"  />
+            <BodyProperties version="4"
+                age="16"
+                weight="0.387"
+                build="0.467"
+                key="000DF40FC00026DC9C8BAAA2EEF9775E9A6A684CA7CD8C9CBFEAC289885B56630047600304F97CAD000000000000000000000000000000000000000044889140" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_flamboyant" />
-            <EquipmentSet id="qin_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_2_6"
@@ -380,14 +381,16 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="12" weight="0.267" build="0.179"  key="0014F80FD4143010DBC94A2ADDC70C0DDD6DCD8FFAD95B8BABEE8FE1737BA71600534003056CD3A0000000000000000000000000000000000000000028B01104"  />
+            <BodyProperties version="4"
+                age="12"
+                weight="0.267"
+                build="0.179"
+                key="0014F80FD4143010DBC94A2ADDC70C0DDD6DCD8FFAD95B8BABEE8FE1737BA71600534003056CD3A0000000000000000000000000000000000000000028B01104" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_low" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_2_7"
@@ -400,18 +403,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_scout">
         <face>
-            <BodyProperties version="4" age="29" weight="0.393" build="0.376"  key="0013E80FC000275CAE8BABC3EFFA775E9A6A785CA9CD9DACBFEAC389885EA8C40026600302F99CAD000000000000000000000000000000000000000014489142"  />
+            <BodyProperties version="4"
+                age="29"
+                weight="0.393"
+                build="0.376"
+                key="0013E80FC000275CAE8BABC3EFFA775E9A6A785CA9CD9DACBFEAC389885EA8C40026600302F99CAD000000000000000000000000000000000000000014489142" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Valor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_low" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_2_8"
@@ -424,14 +428,16 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="11" weight="0.325" build="0.238"  key="0010E40FD014300DDFFA7A5CEFF87C2FEF7EFDAFFAD9BB9BBFFEAFE1897EAC670014500301CFECF600000000000000000000000000000000000000001C204044"  />
+            <BodyProperties version="4"
+                age="11"
+                weight="0.325"
+                build="0.238"
+                key="0010E40FD014300DDFFA7A5CEFF87C2FEF7EFDAFFAD9BB9BBFFEAFE1897EAC670014500301CFECF600000000000000000000000000000000000000001C204044" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_low" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -453,15 +459,12 @@
                 key="0015F80FC00036DB96FB26943FFC775909AA49C888A88245634E6EB18115BC84007570030790680600000000000000000000000000000000000000005CF86004" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+1" />
+            <Trait id="Generosity" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_flamboyant" />
-            <EquipmentSet id="qin_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_3_2"
@@ -475,18 +478,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_doctor">
         <face>
-            <BodyProperties version="4" age="36" weight="0.282" build="0.269"  key="000DE40FD014300EDCE95A4BDDC84C2FDD6ECD9FFAD9AB8BACEEAFE1737BAA270044400304ADDBE2000000000000000000000000000000000000000030903044"  />
+            <BodyProperties version="4"
+                age="36"
+                weight="0.282"
+                build="0.269"
+                key="000DE40FD014300EDCE95A4BDDC84C2FDD6ECD9FFAD9AB8BACEEAFE1737BAA270044400304ADDBE2000000000000000000000000000000000000000030903044" />
         </face>
         <Traits>
-            <Trait id="Calculating"
-                value="+2" />
-            <Trait id="Generosity"
-                value="-1" />
+            <Trait id="Valor" value="+1" />
+            <Trait id="Calculating" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_low" />
-            <EquipmentSet id="qin_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_3_3"
@@ -499,18 +503,16 @@
         occupation="Lord"
         skill_template="SkillSet.lord_xbow_1h_1">
         <face>
-            <BodyProperties version="4" age="20" weight="0.447" build="0.449"  key="0010EC0FC000265CAD8BABA3EEF9775E9A6A685CA8CD9CACBFEAC389885C87840087700308F98CAD00000000000000000000000000000000000000002D1090C6"  />
+            <BodyProperties version="4"
+                age="20"
+                weight="0.447"
+                build="0.449"
+                key="0010EC0FC000265CAD8BABA3EEF9775E9A6A685CA8CD9CACBFEAC389885C87840087700308F98CAD00000000000000000000000000000000000000002D1090C6" />
         </face>
-        <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_heavy" />
-            <EquipmentSet id="qin_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_3_4"
@@ -523,14 +525,16 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="15" weight="0.268" build="0.263"  key="0013EC0FD02C3010DDE95A4CDEF86C2FEF6EDD9FFAD9AB8BADEEAFE1837EAB470064400306CDDBE5000000000000000000000000000000000000000066D04004"  />
+            <BodyProperties version="4"
+                age="15"
+                weight="0.268"
+                build="0.263"
+                key="0013EC0FD02C3010DDE95A4CDEF86C2FEF6EDD9FFAD9AB8BADEEAFE1837EAB470064400306CDDBE5000000000000000000000000000000000000000066D04004" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_medium" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_3_5"
@@ -544,18 +548,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_xbow_2h_2">
         <face>
-            <BodyProperties version="4" age="30" weight="0.264" build="0.202"  key="0015E80FD200300B9CE1B9E88FFD994F5CDDCCEFEEEAC8EBCEF8DEBD897DABB70023400302DD5AAF000000000000000000000000000000000000000046502044"  />
+            <BodyProperties version="4"
+                age="30"
+                weight="0.264"
+                build="0.202"
+                key="0015E80FD200300B9CE1B9E88FFD994F5CDDCCEFEEEAC8EBCEF8DEBD897DABB70023400302DD5AAF000000000000000000000000000000000000000046502044" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Generosity" value="+1" />
+            <Trait id="Calculating" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_medium" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_3_6"
@@ -567,14 +572,16 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="16" weight="0.311" build="0.49"  key="000DE40FC000165BA6853C965FB95609D6739A1AFBA9D82B851AE2A08464C22A0017500301E722180000000000000000000000000000000000000000021890C0"  />
+            <BodyProperties version="4"
+                age="16"
+                weight="0.311"
+                build="0.49"
+                key="000DE40FC000165BA6853C965FB95609D6739A1AFBA9D82B851AE2A08464C22A0017500301E722180000000000000000000000000000000000000000021890C0" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_flamboyant" />
-            <EquipmentSet id="qin_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_3_7"
@@ -587,14 +594,16 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="9" weight="0.141" build="0.298"  key="0013F00FD214300E89E1B5D78FFC972C3C9ACCDCBCCA98D9BBE3BCBD897288B70044200304DD56AB00000000000000000000000000000000000000003E902104"  />
+            <BodyProperties version="4"
+                age="9"
+                weight="0.141"
+                build="0.298"
+                key="0013F00FD214300E89E1B5D78FFC972C3C9ACCDCBCCA98D9BBE3BCBD897288B70044200304DD56AB00000000000000000000000000000000000000003E902104" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_low" />
-            <EquipmentSet id="qin_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -610,18 +619,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_xbow_1h_1">
         <face>
-            <BodyProperties version="4" age="37" weight="0.259" build="0.362"  key="0015F00FD01426C66AFACEFDCDFB8E5E6FBCBD6FE4EC8EEFD9BBBF9D86874DE90065400306EAC99E000000000000000000000000000000000000000020D08004"  />
+            <BodyProperties version="4"
+                age="37"
+                weight="0.259"
+                build="0.362"
+                key="0015F00FD01426C66AFACEFDCDFB8E5E6FBCBD6FE4EC8EEFD9BBBF9D86874DE90065400306EAC99E000000000000000000000000000000000000000020D08004" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Mercy" value="+2" />
+            <Trait id="Honor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_heavy" />
-            <EquipmentSet id="qin_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_4_2"
@@ -634,18 +644,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_pol_1h_2">
         <face>
-            <BodyProperties version="4" age="34" weight="0.401" build="0.353"  key="000DEC0FC000261BCC8A9CACDFE98C3AD7D79C4CFEECECEC9B8BEFCC8789F8CA0045600304FD2B3F00000000000000000000000000000000000000004A909043"  />
+            <BodyProperties version="4"
+                age="34"
+                weight="0.401"
+                build="0.353"
+                key="000DEC0FC000261BCC8A9CACDFE98C3AD7D79C4CFEECECEC9B8BEFCC8789F8CA0045600304FD2B3F00000000000000000000000000000000000000004A909043" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Generosity" value="+1" />
+            <Trait id="Calculating" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_low" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_4_3"
@@ -658,18 +669,16 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="14" weight="0.229" build="0.335"  key="0010E80FD22C300F9AE1B8E78FFD974C4C9DCCDDDEDAA8E9CDF3DDBD8972AAB70055300305DD57AC000000000000000000000000000000000000000036A82104"  />
+            <BodyProperties version="4"
+                age="14"
+                weight="0.229"
+                build="0.335"
+                key="0010E80FD22C300F9AE1B8E78FFD974C4C9DCCDDDEDAA8E9CDF3DDBD8972AAB70055300305DD57AC000000000000000000000000000000000000000036A82104" />
         </face>
-        <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_flamboyant" />
-            <EquipmentSet id="qin_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_4_4"
@@ -681,14 +690,16 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="6" weight="0.429" build="0.374"  key="0013F80FC00026DCA98A8CAA9FD95B0AD6849B4BFDA9EB3B8B7AECB68669E4BA0066600306F8272F000000000000000000000000000000000000000002C09145"  />
+            <BodyProperties version="4"
+                age="6"
+                weight="0.429"
+                build="0.374"
+                key="0013F80FC00026DCA98A8CAA9FD95B0AD6849B4BFDA9EB3B8B7AECB68669E4BA0066600306F8272F000000000000000000000000000000000000000002C09145" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_medium" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_4_5"
@@ -701,18 +712,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_pol_throw_2">
         <face>
-            <BodyProperties version="4" age="35" weight="0.471" build="0.431"  key="0010F80FC00025DCCA8A8CAB9FE96B2AD7C79C4CFEBBEC6B8B8BEDCA8679E4CA0016700301F8282F00000000000000000000000000000000000000004C209104"  />
+            <BodyProperties version="4"
+                age="35"
+                weight="0.471"
+                build="0.431"
+                key="0010F80FC00025DCCA8A8CAB9FE96B2AD7C79C4CFEBBEC6B8B8BEDCA8679E4CA0016700301F8282F00000000000000000000000000000000000000004C209104" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Valor" value="+2" />
+            <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_flamboyant" />
-            <EquipmentSet id="qin_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_4_6"
@@ -726,18 +738,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_rogue">
         <face>
-            <BodyProperties version="4" age="33" weight="0.299" build="0.248"  key="0018F80FD300301099E1B6D78FFC973C4C9ACCDDBCCAA8D9CBE3DDBD89729AB70034400303DD56AC000000000000000000000000000000000000000016702084"  />
+            <BodyProperties version="4"
+                age="33"
+                weight="0.299"
+                build="0.248"
+                key="0018F80FD300301099E1B6D78FFC973C4C9ACCDDBCCAA8D9CBE3DDBD89729AB70034400303DD56AC000000000000000000000000000000000000000016702084" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Generosity" value="+1" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_medium" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_4_7"
@@ -750,14 +763,16 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="15" weight="0.127" build="0.157"  key="0010FC0FD22C100AB5F18C824DF861482E6479B8C4D869F53110649E811CBAD20062200306456BB4000000000000000000000000000000000000000056D02044"  />
+            <BodyProperties version="4"
+                age="15"
+                weight="0.127"
+                build="0.157"
+                key="0010FC0FD22C100AB5F18C824DF861482E6479B8C4D869F53110649E811CBAD20062200306456BB4000000000000000000000000000000000000000056D02044" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_heavy" />
-            <EquipmentSet id="qin_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -779,15 +794,12 @@
                 key="000DE00FC00036DCAEFB39B4BFFE875C7DAEB9D8FCEDC2DDDB9EBFCD8225DC970035700303D77E19000000000000000000000000000000000000000078706000" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Valor" value="+1" />
+            <Trait id="Mercy" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_heavy" />
-            <EquipmentSet id="qin_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_5_2"
@@ -801,18 +813,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_xbow_2h_2">
         <face>
-            <BodyProperties version="4" age="34" weight="0.378" build="0.332"  key="0015F40FC00026DBC98A8CAB9FE95B2AD7869B4BFEBBEB3B8B7BEDB88679E4BA0005600300F8282F000000000000000000000000000000000000000006009006"  />
+            <BodyProperties version="4"
+                age="34"
+                weight="0.378"
+                build="0.332"
+                key="0015F40FC00026DBC98A8CAB9FE95B2AD7869B4BFEBBEB3B8B7BEDB88679E4BA0005600300F8282F000000000000000000000000000000000000000006009006" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Mercy" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_medium" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_5_3"
@@ -824,14 +837,16 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="13" weight="0.443" build="0.277"  key="000DF00FC000175CFC8A95835DD94E2F38D9998A93AB5BA32ECD7E3469489D800024700302DF11D8000000000000000000000000000000000000000046405006"  />
+            <BodyProperties version="4"
+                age="13"
+                weight="0.443"
+                build="0.277"
+                key="000DF00FC000175CFC8A95835DD94E2F38D9998A93AB5BA32ECD7E3469489D800024700302DF11D8000000000000000000000000000000000000000046405006" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_low" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_5_4"
@@ -844,18 +859,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_pol_throw_2">
         <face>
-            <BodyProperties version="4" age="27" weight="0.424" build="0.256"  key="0015FC0FC000361BFD9AACD8DFDE4E2F7EDB9EDAD4ED6FC82FCE7E888979CEF70054600305DF52F8000000000000000000000000000000000000000072A890C6"  />
+            <BodyProperties version="4"
+                age="27"
+                weight="0.424"
+                build="0.256"
+                key="0015FC0FC000361BFD9AACD8DFDE4E2F7EDB9EDAD4ED6FC82FCE7E888979CEF70054600305DF52F8000000000000000000000000000000000000000072A890C6" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+2" />
+            <Trait id="Valor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_flamboyant" />
-            <EquipmentSet id="qin_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_5_5"
@@ -869,18 +885,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_crafter">
         <face>
-            <BodyProperties version="4" age="28" weight="0.38" build="0.322"  key="0015E40FD32C200ABAFACEF6EFFE9A682F6EAFC8F5EFDDF8D2AEC7BF821DCDE90015600301F8FDEE000000000000000000000000000000000000000066204083"  />
+            <BodyProperties version="4"
+                age="28"
+                weight="0.38"
+                build="0.322"
+                key="0015E40FD32C200ABAFACEF6EFFE9A682F6EAFC8F5EFDDF8D2AEC7BF821DCDE90015600301F8FDEE000000000000000000000000000000000000000066204083" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Honor"
-                value="-1" />
+            <Trait id="Generosity" value="+1" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_low" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_5_6"
@@ -893,14 +910,16 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="22.06" weight="0.205" build="0.158"  key="0010F80FD32C2010B6F7CE82CFFA65582F6AABB8F4DADBF83137C5AE811CCCD70012300301C87BEE00000000000000000000000000000000000000002E282103"  />
+            <BodyProperties version="4"
+                age="22.06"
+                weight="0.205"
+                build="0.158"
+                key="0010F80FD32C2010B6F7CE82CFFA65582F6AABB8F4DADBF83137C5AE811CCCD70012300301C87BEE00000000000000000000000000000000000000002E282103" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_medium" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -922,15 +941,12 @@
                 key="0015E00FC00036DCAEFB38949FFE875C7BAC99D8EBBDC2DC8B9EAFBD8225DC940065700306C57C16000000000000000000000000000000000000000078C06100" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Mercy" value="+2" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_medium" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_6_2"
@@ -944,18 +960,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_xbow_1h_2">
         <face>
-            <BodyProperties version="4" age="36" weight="0.331" build="0.307"  key="0018E40FD12C200CB6F9CE83DFFE95682F6AAEB8F4ECDCF87248C7BF811DCCD70045500304E8BBEE000000000000000000000000000000000000000056803104"  />
+            <BodyProperties version="4"
+                age="36"
+                weight="0.331"
+                build="0.307"
+                key="0018E40FD12C200CB6F9CE83DFFE95682F6AAEB8F4ECDCF87248C7BF811DCCD70045500304E8BBEE000000000000000000000000000000000000000056803104" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Generosity" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_heavy" />
-            <EquipmentSet id="qin_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_6_3"
@@ -969,18 +986,16 @@
         occupation="Lord"
         skill_template="SkillSet.lord_pol_1h_2">
         <face>
-            <BodyProperties version="4" age="21" weight="0.189" build="0.363"  key="000DE80FD000200FB6F8CE82DFFC85682F6AADB8F4ECDBF84137C7BE811CCCD70075300307D87BEE000000000000000000000000000000000000000046F02084"  />
+            <BodyProperties version="4"
+                age="21"
+                weight="0.189"
+                build="0.363"
+                key="000DE80FD000200FB6F8CE82DFFC85682F6AADB8F4ECDBF84137C7BE811CCCD70075300307D87BEE000000000000000000000000000000000000000046F02084" />
         </face>
-        <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_low" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_6_4"
@@ -993,14 +1008,16 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="16" weight="0.202" build="0.204"  key="000EF80FD100200FD4F86CB47CE7405D892579DEC7BE68CCC405013B87898D870023300302BCF5D4000000000000000000000000000000000000000048500084"  />
+            <BodyProperties version="4"
+                age="16"
+                weight="0.202"
+                build="0.204"
+                key="000EF80FD100200FD4F86CB47CE7405D892579DEC7BE68CCC405013B87898D870023300302BCF5D4000000000000000000000000000000000000000048500084" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_flamboyant" />
-            <EquipmentSet id="qin_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_6_5"
@@ -1012,14 +1029,16 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="8" weight="0.477" build="0.478"  key="0016E40FC000261CFD9AA7D3BEDD4E2F4ADB9E8AA4BB6CA32ECE7E358979BDC30067700306DF32E800000000000000000000000000000000000000006ED05102"  />
+            <BodyProperties version="4"
+                age="8"
+                weight="0.477"
+                build="0.478"
+                key="0016E40FC000261CFD9AA7D3BEDD4E2F4ADB9E8AA4BB6CA32ECE7E358979BDC30067700306DF32E800000000000000000000000000000000000000006ED05102" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_medium" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_6_6"
@@ -1033,18 +1052,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_charmer">
         <face>
-            <BodyProperties version="4" age="31" weight="0.156" build="0.352"  key="000EEC0FD114300BF5FA7DF7EDEB475DCCDBBADFFEDFD8FDD419E27D878E9EEA0055200305CFFED8000000000000000000000000000000000000000038984104"  />
+            <BodyProperties version="4"
+                age="31"
+                weight="0.156"
+                build="0.352"
+                key="000EEC0FD114300BF5FA7DF7EDEB475DCCDBBADFFEDFD8FDD419E27D878E9EEA0055200305CFFED8000000000000000000000000000000000000000038984104" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+2" />
+            <Trait id="Valor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_low" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -1066,15 +1086,12 @@
                 key="0015F40FC00035DBACFB28943FFD875C79AA99C8EBBDA2CA7A6E9FB88215DC840045700304B27B160000000000000000000000000000000000000000787060C6" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_medium" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_7_2"
@@ -1088,18 +1105,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_engineer">
         <face>
-            <BodyProperties version="4" age="30" weight="0.138" build="0.128"  key="0010E80FD100300DE4FA7CE6BDEB445DCA478ADECDCEC8FDC408726D878D8EE80062200306CEF8D4000000000000000000000000000000000000000078C040C3"  />
+            <BodyProperties version="4"
+                age="30"
+                weight="0.138"
+                build="0.128"
+                key="0010E80FD100300DE4FA7CE6BDEB445DCA478ADECDCEC8FDC408726D878D8EE80062200306CEF8D4000000000000000000000000000000000000000078C040C3" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Generosity" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_heavy" />
-            <EquipmentSet id="qin_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_7_3"
@@ -1111,14 +1129,16 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="7" weight="0.458" build="0.418"  key="0018F00FC000371CFD9AAAD7CEDE4E2F6ADB9EAAC4CD6EC82ECE7E468979BDE40056700305DF42F8000000000000000000000000000000000000000068A09144"  />
+            <BodyProperties version="4"
+                age="7"
+                weight="0.458"
+                build="0.418"
+                key="0018F00FC000371CFD9AAAD7CEDE4E2F6ADB9EAAC4CD6EC82ECE7E468979BDE40056700305DF42F8000000000000000000000000000000000000000068A09144" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_flamboyant" />
-            <EquipmentSet id="qin_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_7_4"
@@ -1132,18 +1152,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_xbow_1h_2">
         <face>
-            <BodyProperties version="4" age="25" weight="0.351" build="0.205"  key="0018E00FD12C300FE5FA7CE6DDEB455DCA8BBADECDCED8FDC419B27D878E8EE80033500303CEFCD80000000000000000000000000000000000000000066040C3"  />
+            <BodyProperties version="4"
+                age="25"
+                weight="0.351"
+                build="0.205"
+                key="0018E00FD12C300FE5FA7CE6DDEB455DCA8BBADECDCED8FDC419B27D878E8EE80033500303CEFCD80000000000000000000000000000000000000000066040C3" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+2" />
+            <Trait id="Mercy" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_heavy" />
-            <EquipmentSet id="qin_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_7_5"
@@ -1156,15 +1177,17 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="15" weight="0.156" build="0.368"  key="0013EC0FD100100A52B87473DEEC653837C4D9DEE5CA3E757C2EC49B7776EC830016200301C8DD550000000000000000000000000000000000000000483010C3"  />
+            <BodyProperties version="4"
+                age="15"
+                weight="0.156"
+                build="0.368"
+                key="0013EC0FD100100A52B87473DEEC653837C4D9DEE5CA3E757C2EC49B7776EC830016200301C8DD550000000000000000000000000000000000000000483010C3" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="qin_bat_template_medium" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -1186,15 +1209,12 @@
                 key="000DF40FD206174F61D7B9F8BDFA8E0D2C7C9C1C84C97EEEC479BA9981853DB90025400302C4A772000000000000000000000000000000000000000016308041" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Valor" value="+2" />
+            <Trait id="Mercy" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_low" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_8_2"
@@ -1208,18 +1228,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_merchant">
         <face>
-            <BodyProperties version="4" age="23" weight="0.338" build="0.308"  key="0013EC0FD400200DEBFAC8ADEEFC9A6978E7EFEFFECF5F78AFFED5DF8878FDC60015500301FADD9D0000000000000000000000000000000000000000121020C4"  />
+            <BodyProperties version="4"
+                age="23"
+                weight="0.338"
+                build="0.308"
+                key="0013EC0FD400200DEBFAC8ADEEFC9A6978E7EFEFFECF5F78AFFED5DF8878FDC60015500301FADD9D0000000000000000000000000000000000000000121020C4" />
         </face>
         <Traits>
-            <Trait id="Generosity"
-                value="+1" />
-            <Trait id="Mercy"
-                value="+1" />
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Honor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_flamboyant" />
-            <EquipmentSet id="qin_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_8_3"
@@ -1231,14 +1252,16 @@
         culture="Culture.qinguo"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="3" weight="0.372" build="0.255"  key="000DE80FC000275BFD9AA8D4CEDD4E2F5ADB9E9AB4CC6DC82ECE7E468979BDE30034600303DF32F800000000000000000000000000000000000000001A6860C5"  />
+            <BodyProperties version="4"
+                age="3"
+                weight="0.372"
+                build="0.255"
+                key="000DE80FC000275BFD9AA8D4CEDD4E2F5ADB9E9AB4CC6DC82ECE7E468979BDE30034600303DF32F800000000000000000000000000000000000000001A6860C5" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_heavy" />
-            <EquipmentSet id="qin_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_qinguo_8_4"
@@ -1252,18 +1275,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_xbow_2h_2">
         <face>
-            <BodyProperties version="4" age="26" weight="0.162" build="0.162"  key="000DF80FD12C200B8BDA959AEEFC666877E7E9EEF9CF3E768D7ED4DB7777FDA40022200302FADD76000000000000000000000000000000000000000050401003"  />
+            <BodyProperties version="4"
+                age="26"
+                weight="0.162"
+                build="0.162"
+                key="000DF80FD12C200B8BDA959AEEFC666877E7E9EEF9CF3E768D7ED4DB7777FDA40022200302FADD76000000000000000000000000000000000000000050401003" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="+2" />
-            <Trait id="Honor"
-                value="-2" />
+            <Trait id="Generosity" value="+2" />
+            <Trait id="Honor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="qin_bat_template_medium" />
-            <EquipmentSet id="qin_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="qin_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 </NPCCharacters>

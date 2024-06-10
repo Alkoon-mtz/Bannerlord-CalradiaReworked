@@ -25,16 +25,13 @@
                 key="0010240D00580202B379B24D4767849BC78387858587B773A87677498DA05B5D007D560307886597000000000000000000000000000000000000000028E43002" />
         </face>
         <Traits>
-            <Trait id="Honor"
-                value="+2" />
-            <Trait id="Valor"
-                value="+1" />
+            <Trait id="Generosity" value="+2" />
+            <Trait id="Valor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="vla_king_template_bat_m" />
-            <EquipmentSet id="vla_king_template_civ_m"
-                civilian="true" />
+            <EquipmentSet id="vla_king_template_civ_m" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_1_2"
@@ -56,16 +53,13 @@
                 key="0002880E40000015CB6BBCAD9DBDDC97CCA67C486C84E3E6A8DBA65D8B78CEA8006A600306959C8C000000000000000000000000000000000000000048C840C3" />
         </face>
         <Traits>
-            <Trait id="Generosity"
-                value="+2" />
-            <Trait id="Calculating"
-                value="-1" />
+            <Trait id="Generosity" value="+2" />
+            <Trait id="Valor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="vla_king_template_bat_f" />
-            <EquipmentSet id="vla_king_template_civ_f"
-                civilian="true" />
+            <EquipmentSet id="vla_king_template_civ_f" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_1_3"
@@ -84,17 +78,11 @@
                 build="0.582"
                 key="000A200AC0001186AE6CEFF78B7D88B4E5DA818996C4C14BB292BE7A8B696BD500E960030E9D88EE000000000000000000000000000000000000000061D820C4" />
         </face>
-        <Traits>
-            <Trait id="Honor"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="vla_bat_template_low" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_1_4"
@@ -112,13 +100,11 @@
                 build="0.582"
                 key="000A5408C00022C5EE8CEFFABD7D8EB4EDDA8599A7D5C14BD292DE7A8BC96BE700196003019D88EF000000000000000000000000000000000000000064302084" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="vla_bat_template_medium" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_1_5"
@@ -137,13 +123,11 @@
                 build="0.698"
                 key="000D0408C0000381CB6B58AD6D9D9B94BC957C346884E3D2A74AA44C8B47CDA8009A600309929A8600000000000000000000000000000000000000001F3040C0" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="vla_bat_template_heavy" />
-            <EquipmentSet id="vla_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_1_6"
@@ -163,16 +147,13 @@
                 key="000A4C0D80003386EF8A777BADD7DCEAEEDA8AE73AC2E4947DEAAEBE8CB85B9A0069600306ECE664000000000000000000000000000000000000000064D09044" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Valor"
-                value="-1" />
+            <Trait id="Calculating" value="+2" />
+            <Trait id="Valor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="vla_bat_template_medium" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_1_7"
@@ -193,16 +174,13 @@
                 key="0008640B80002207CF7BBDBDAEBDDDD7CCD67C787CA5E3EBA8DCA85D8BE8CEBC00BA60030B989C9C000000000000000000000000000000000000000057806104" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="+2" />
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Mercy" value="+2" />
+            <Trait id="Generosity" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="vla_bat_template_flamboyant" />
-            <EquipmentSet id="vla_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_1_8"
@@ -221,13 +199,11 @@
                 build="0.587"
                 key="0013380A400022C1CF7CCFBDBEBDEDE9CCD97C7D8DE5E4EBA8DCAA5D8CEACECC006A600306A99E9C00000000000000000000000000000000000000005CD86004" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="vla_bat_template_heavy" />
-            <EquipmentSet id="vla_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_1_9"
@@ -245,13 +221,11 @@
                 build="0.483"
                 key="0002280B80003245EA88FFD7DBCAC3CBEDFB8EBA99968BCDA73D7C0C8ECDFDCB0077500307B49B9F000000000000000000000000000000000000000066F89105" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="vla_bat_template_low" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_1_10"
@@ -271,16 +245,13 @@
                 key="0005680B80003343EF8EF77BADEADEEAEEDB8BEABDC2E4949DECCEBE8CC85BAB0068500306EDE685000000000000000000000000000000000000000066C09044" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Valor"
-                value="-1" />
+            <Trait id="Calculating" value="+1" />
+            <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="vla_bat_template_heavy" />
-            <EquipmentSet id="vla_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -302,15 +273,12 @@
                 key="0002040A40001241C778F28E389E92A78ABE7B7BA9B1C99CCACEB35988ECF7FB00285003025D8E7D000000000000000000000000000000000000000056578085" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Valor" value="+2" />
+            <Trait id="Generosity" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_flamboyant" />
-            <EquipmentSet id="vla_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_2_2"
@@ -331,15 +299,12 @@
                 key="0008500B8000238776731F21C4425EB529C68C4744815E26D4349B828A61B96E00686003062EAA8A00000000000000000000000000000000FFFFFFFFB6C8607F" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Mercy" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_medium" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_2_3"
@@ -360,15 +325,12 @@
                 key="000A7809800022468D8E2F9DEDAD5ED75BD88C5DABB3CE57DB3ABBBB8D9EFF8E007A600307DFDCDB000000000000000000000000000000000000000046D88045" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+2" />
+            <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_heavy" />
-            <EquipmentSet id="vla_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_2_4"
@@ -388,15 +350,12 @@
                 key="000F030D800021042D72116D6E6AC35A435B73858B851D2BC3D573BA874D5B970068600309D9649E000000000000000000000000000000000000000003104002" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Valor" value="+2" />
+            <Trait id="Honor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_low" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_2_5"
@@ -414,12 +373,10 @@
                 build="0.681"
                 key="000E800A400023847F73EABEEECCC66A66BE8BE58C95DE9DC3E9BEBB8C9DDFED006A600306DFDDBE000000000000000000000000000000000000000024C88082" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_flamboyant" />
-            <EquipmentSet id="vla_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_2_6"
@@ -438,12 +395,10 @@
                 build="0.555"
                 key="000A4C08C00023427C8D1F9CEC445ED55AC78C4C57A1BE46DA35BB868D65BE6E00787003076FDACB000000000000000000000000000000000000000038F08105" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_low" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_2_7"
@@ -463,15 +418,12 @@
                 key="000D640A400021452E72679DEE7CC46A437E7A858C855D3DC3E993BA898D8FD8007A600307DE7ABE000000000000000000000000000000000000000022D87102" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Mercy" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_low" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_2_8"
@@ -490,12 +442,10 @@
                 build="0.6157"
                 key="0010380A400023428C8D2F9DED7B5ED75AC78C4D6AB3BE46DA35BBB98D67EE7E00796003079FDBCB00000000000000000000000000000000000000003CF08005" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_low" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -517,15 +467,12 @@
                 key="0010500D80001206C678F17E289E92A789BE7B7B7991B99CBABBB35988EBF6FA00985003094D8E7D0000000000000000000000000000000000000000552E8085" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Valor" value="+2" />
+            <Trait id="Mercy" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_flamboyant" />
-            <EquipmentSet id="vla_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_3_2"
@@ -546,15 +493,12 @@
                 key="0005740D000023818C8D2F9CEC685ED75AC78C4D5AB3BE46DA35BB968D66EE7E009A6003099FDBCB000000000000000000000000000000000000000035308045" />
         </face>
         <Traits>
-            <Trait id="Calculating"
-                value="+2" />
-            <Trait id="Generosity"
-                value="-1" />
+            <Trait id="Calculating" value="+1" />
+            <Trait id="Generosity" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_low" />
-            <EquipmentSet id="vla_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_3_3"
@@ -573,16 +517,10 @@
                 build="0.681"
                 key="0002280AC00022835E738A9EEEBCC56A43AE7A958C856D5DC3E9A3BA898D9FD9006A800306DEABBE000000000000000000000000000000000000000026C070C2" />
         </face>
-        <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_heavy" />
-            <EquipmentSet id="vla_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_3_4"
@@ -601,12 +539,10 @@
                 build="0.7176"
                 key="0005000AC00032835D8B51319129E85BDB5E7B3D714418A28577BBDE89F6398D006B600306694CA4000000000000000000000000000000000000000068C01085" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_medium" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_3_5"
@@ -627,15 +563,12 @@
                 key="0008740B800031859D8EDDD4E4ADF8DDDF7E8DAF79B46BD8CBFFEDDE89F8EDFE00694003066DECE6000000000000000000000000000000000000000060D87105" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Generosity" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_medium" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_3_6"
@@ -653,12 +586,10 @@
                 build="0.504"
                 key="000D000E400012840864DF007E8CA2AA44747A4EE1A41AA4844A585A889C7F9C0058500305CF5D25000000000000000000000000000000000000000036B86104" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_flamboyant" />
-            <EquipmentSet id="vla_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_3_7"
@@ -677,12 +608,10 @@
                 build="0.527"
                 key="0009300AC000328B9D8EACB3B38DF8DDDD7E8C9A79B469A8CADBEDDE89D8EDEC00384003036CECD6000000000000000000000000000000000000000064707045" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_low" />
-            <EquipmentSet id="vla_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -705,15 +634,12 @@
                 key="000D000D00002344966BFF7EEA75B5B77C88864FCB63E7EA676FA3898AD9ECF5008A300308476ECA00000000000000000000000000000000000000005D0C4005" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Mercy" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_heavy" />
-            <EquipmentSet id="vla_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_4_2"
@@ -733,15 +659,12 @@
                 key="000A080E400023843875DF7DAAACFEEC94AD7DBCABC69DCBCCEF6EAD8CCCFFFC0059500305DFAECD000000000000000000000000000000000000000052A06101" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Generosity" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_low" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_4_3"
@@ -760,16 +683,10 @@
                 build="0.594"
                 key="0013700E40003345EB6AEFFB052B4AEBD499863F8993EE8AE4A29C338433EBA80099400309D99CDB0000000000000000000000000000000000000000772830C1" />
         </face>
-        <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_flamboyant" />
-            <EquipmentSet id="vla_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_4_4"
@@ -787,12 +704,10 @@
                 build="0.504"
                 key="00087C0D800021850865DF657E8DF2AC84A77C7EE1E54DAA8A8A6CAB88CCFFAC0008500300DF6D69000000000000000000000000000000000000000002106081" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_medium" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_4_5"
@@ -812,15 +727,12 @@
                 key="000D5808000021411865DF7A7E9DF4AC84AC7D9EE6E65DCABA9A6CAD8CCCFFCC00AA90030ADF8E7A000000000000000000000000000000000000000025506001" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+1" />
+            <Trait id="Generosity" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_flamboyant" />
-            <EquipmentSet id="vla_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_4_6"
@@ -841,15 +753,12 @@
                 key="00080C0A400032449D8C5A91A38DF8CDDB7E8C7E78B46BA8C9CAEDDE89F8EAFE00796003076CDCD600000000000000000000000000000000000000006AF87045" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Valor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_medium" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_4_7"
@@ -868,12 +777,10 @@
                 build="0.6065"
                 key="000D540D00003146EC7EEFFCEC5E9EFBEAFD88EFCEE6EE9AEBC2BCC98C58EEE90079300307E9BCED00000000000000000000000000000000000000007CE88104" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_heavy" />
-            <EquipmentSet id="vla_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -895,15 +802,12 @@
                 key="0008200E4000210B5B64E6BF5DBA89D3146871B250D61E147BBDCEB68BD5C1890049400304C21C07000000000000000000000000000000000000000030780100" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_heavy" />
-            <EquipmentSet id="vla_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_5_2"
@@ -924,15 +828,12 @@
                 key="000A500E40003343DB7EEFFB5B5D7AEBD7CD86AE9CD5EE8AE5A2BB558454BCC80069300306D9ACDC000000000000000000000000000000000000000072C87101" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_medium" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_5_3"
@@ -950,12 +851,10 @@
                 build="0.618"
                 key="000A200B80003384A872FF4CD96EDBF8D3DE74C227D15D8DBD8EAEDA8C1D9EFD00595003059E6C0D000000000000000000000000000000000000000066B08004" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_low" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_5_4"
@@ -975,15 +874,12 @@
                 key="00082C09800021060865DF787E8DF3AC84AB7C8EE5E54DAABA8A6CAB8CCCFFAC006A600306DF8E6A00000000000000000000000000000000000000005CB860C6" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Valor" value="+2" />
+            <Trait id="Generosity" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_flamboyant" />
-            <EquipmentSet id="vla_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_5_5"
@@ -1004,15 +900,12 @@
                 key="000D540D00003210EC7EEFFB8C5E9CFBD9FD87DFADE5EE8AEBB2BC698944EEE90069400306E9ACDC000000000000000000000000000000000000000074C87002" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Honor"
-                value="-1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Generosity" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_low" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_5_6"
@@ -1031,12 +924,10 @@
                 build="0.483"
                 key="00025C0D8000320EEC7EEFFB5C5E7AFBD7FD86AFADD5EE8AEAA2BC678644EEE80087400308D9ACDC000000000000000000000000000000000000000077007002" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_medium" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -1058,15 +949,12 @@
                 key="000D680D800032845C7AE9BF5EBBACE3456871B583D62E968DCECECC8BD6C1890099400309C54C2E000000000000000000000000000000000000000037315100" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+1" />
+            <Trait id="Valor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_medium" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_6_2"
@@ -1087,15 +975,12 @@
                 key="00074F0B80001244A579B781E41A6CB8380A81B71211BC99B96584E489B87C800067300306CF91C5000000000000000000000000000000000000000058B83102" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+2" />
+            <Trait id="Mercy" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_heavy" />
-            <EquipmentSet id="vla_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_6_3"
@@ -1114,16 +999,10 @@
                 build="0.618"
                 key="00052C0D000013450472FA45D73A846141D472C007303A4D3B54655A8B04736C00A930030A7D180C000000000000000000000000000000000000000063404004" />
         </face>
-        <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_low" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_6_4"
@@ -1142,12 +1021,10 @@
                 build="0.597"
                 key="00023809800012C3C879FFE8EEBDBDF9ADCC87B82875BEBDE9FAA6EC8ADE7FFA0069500306CFD9DE00000000000000000000000000000000000000005AC070C3" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_flamboyant" />
-            <EquipmentSet id="vla_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_6_5"
@@ -1165,12 +1042,10 @@
                 build="0.618"
                 key="00027008000022815472FF45D96D989741D874C127C15B5DBB86785A8B1D969D00393003037E3A0D000000000000000000000000000000000000000064686104" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_medium" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_6_6"
@@ -1191,15 +1066,12 @@
                 key="00130808C0001385C879EDD8EE4C9DF97B4B86B81834BDBDE9FAA6EB8ADE7FCA0089600308CFD2DE000000000000000000000000000000000000000059107003" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Generosity" value="+2" />
+            <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_low" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -1222,15 +1094,12 @@
                 key="0002380D00003115BF83FE44B6CAB875BF4B859786D1C3C2CC9FABB185B9EAB5006A40030638A9DF000000000000000000000000000000000000000062D73004" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_medium" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_7_2"
@@ -1250,15 +1119,12 @@
                 key="0008400E400023055472FF45D96DC8B791DD74C227C15C5DBD867A6A8B1D999D00795003077E3C0D000000000000000000000000000000000000000064F06044" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Calculating" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_heavy" />
-            <EquipmentSet id="vla_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_7_3"
@@ -1276,12 +1142,10 @@
                 build="0.694"
                 key="0008000A40002385458CCE9BD8C37AFDEAAD8D8FD8E59CD99D8E999A8EFBADB1007C600307AFCDCF000000000000000000000000000000000000000052E86005" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_flamboyant" />
-            <EquipmentSet id="vla_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_7_4"
@@ -1301,15 +1165,12 @@
                 key="000A1C0E4000220603799E4868B373FDD99D8B5CC7928CD97D6A85228D869CB100986003096ECC74000000000000000000000000000000000000000055285042" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Generosity" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_heavy" />
-            <EquipmentSet id="vla_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_7_5"
@@ -1328,13 +1189,11 @@
                 build="0.683"
                 key="000A300C400022819E6DFFBBE9ACFAF284FE89DE84E6CEEDD4BFDBEC8895CFCA008A5003089A2DDD000000000000000000000000000000000000000076F82102" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="vla_bat_template_medium" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -1356,15 +1215,12 @@
                 key="0009080C400033435C7AEACE566BBC73456871B583D62E968DCECECC8BD6C18A0079400307C65C8F000000000000000000000000000000000000000004E15041" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+1" />
+            <Trait id="Mercy" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_low" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_8_2"
@@ -1384,16 +1240,10 @@
                 build="0.683"
                 key="00023C0B800013838E68896BA0AC97E172ED883A40942EE2A2AC4B2C81717F95009A5003094A2DCC00000000000000000000000000000000000000007B200100" />
         </face>
-        <Traits>
-            <Trait id="Generosity"
-                value="+1" />
-            <Trait id="Mercy"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_flamboyant" />
-            <EquipmentSet id="vla_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_8_3"
@@ -1411,12 +1261,10 @@
                 build="0.539"
                 key="00050C08000022C6037ABE48C8C373FDEA9D8B8AD7938CD98D8B979A8D89ACB100786003079FCC77000000000000000000000000000000000000000054E050C4" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_heavy" />
-            <EquipmentSet id="vla_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_lysellois_8_4"
@@ -1437,15 +1285,12 @@
                 key="0008080C400030035C7AEACE566BBC73456871B583D62E968DCECECC8BD6C18A0079400307C65C8F000000000000000000000000000000000000000004E04003" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="+2" />
-            <Trait id="Honor"
-                value="-2" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="vla_bat_template_medium" />
-            <EquipmentSet id="vla_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="vla_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 </NPCCharacters>

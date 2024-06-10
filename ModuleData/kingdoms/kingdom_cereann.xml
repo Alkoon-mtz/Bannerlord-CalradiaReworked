@@ -13,11 +13,11 @@
         culture="Culture.battania"
         settlement_banner_mesh="encounter_flag_e"
         flag_mesh="info_screen_flags_b"
-        name="{=0B27RrYJ}Cereann Union"
-        short_name="{=bgjiFSHZ}Cereanns"
-        title="{=qaDIU0XC}Cereann Union"
-        ruler_title="{=afvM7XpQ}Chief"
-        text="{=ZjaaAoxd}Trying to survive in their woods">
+        name="{=CER_kingdom_name}Cereann Union"
+        short_name="{=CER_short_name}Cereanns"
+        title="{=CER_kingdom_title}Cereann Union"
+        ruler_title="{=CER_ruler_title}Chief"
+        text="{=CER_text}A community withdrawn into itself, trying to survive in their woods">
         <relationships></relationships>
             <!-- <relationship kingdom="Kingdom.kingdom_lysellois"
                 value="-1"

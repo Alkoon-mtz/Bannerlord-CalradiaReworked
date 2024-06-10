@@ -13,11 +13,11 @@
         culture="Culture.empire"
         settlement_banner_mesh="encounter_flag_a"
         flag_mesh="info_screen_flags_b"
-        name="{=frBQ9mbP}Kratorios Empire"
-        short_name="{=GbnlN6na}Kratori"
-        title="{=frBQ9mbP}Kratorios Empire"
-        ruler_title="{=OoHhCa11}Emperor"
-        text="{=kratorios_text}An emerging empire trying to unify the continent">
+        name="{=KRA_kingdom_name}Kratorios Empire"
+        short_name="{=KRA_short_name}Kratori"
+        title="{=KRA_kingdom_title}Kratorios Empire"
+        ruler_title="{=KRA_ruler_title}Emperor"
+        text="{=KRA_text}An emerging empire trying to unify the continent">
         <relationships></relationships>
             <!-- <relationship kingdom="Kingdom.kingdom_zulizwe"
                 value="-1"

@@ -13,11 +13,11 @@
         culture="Culture.aserai"
         settlement_banner_mesh="encounter_flag_c"
         flag_mesh="info_screen_flags_a"
-        name="{=aseraifaction}Aseriyun Sultanate"
-        short_name="{=aseraimembers}Aseriyun"
-        title="{=UsbwPmYb}Aseriyun Sultanate"
-        ruler_title="{=5djtBrHj}Sultan"
-        text="{=qggtvf8Y}Inhabitant of the desert, they lost parts of their sultanate after the wars with Iustrium">
+        name="{=ASE_kingdom_name}Aseriyun Sultanate"
+        short_name="{=ASE_short_name}Aseriyun"
+        title="{=ASE_kingdom_title}Aseriyun Sultanate"
+        ruler_title="{=ASE_ruler_title}Sultan"
+        text="{=ASE_text}Inhabitant of the desert, they lost parts of their sultanate after the wars with Iustrium">
         <relationships></relationships>
             <!-- <relationship kingdom="Kingdom.kingdom_iustrium"
                 value="-1"

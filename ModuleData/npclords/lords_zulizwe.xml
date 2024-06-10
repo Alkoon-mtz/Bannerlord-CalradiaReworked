@@ -24,16 +24,13 @@
                 key="003FF00E4DCC301AEE8E6BCEEDD8EFFFCE7E8FDACAE5CC4BDFFFFFBF992FCCB800EC76030EACCCCA000000000000000000000000000000000000000007CC8144" />
         </face>
         <Traits>
-            <Trait id="Calculating"
-                value="+2" />
-            <Trait id="Valor"
-                value="+1" />
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Honor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="zul_king_template_bat_m" />
-            <EquipmentSet id="zul_king_template_civ_m"
-                civilian="true" />
+            <EquipmentSet id="zul_king_template_civ_m" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_1_2"
@@ -54,16 +51,13 @@
                 key="0039F40FC1CC20158D8AEB6EE7B9ECFACE7E8C6BC8C92C599DFFFFCF9925ECD9009B6603099BA8A300000000000000000000000000000000000000003B3C9100" />
         </face>
         <Traits>
-            <Trait id="Honor"
-                value="+2" />
-            <Trait id="Valor"
-                value="+1" />
+            <Trait id="Generosity" value="+2" />
+            <Trait id="Mercy" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="zul_king_template_bat_f" />
-            <EquipmentSet id="zul_king_template_civ_f"
-                civilian="true" />
+            <EquipmentSet id="zul_king_template_civ_f" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_1_3"
@@ -76,13 +70,13 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_archer_1h_2">
         <face>
-            <BodyProperties version="4" age="22" weight="0.78" build="0.822"  key="003CF80C43CC2018AE7D4EDBE6A6E4FEDE7E8BBADED28CD7AFFFFFCF992EEEF900FCC6030FBBCAB6000000000000000000000000000000000000000009FC3144"  />        </face>
-        <Traits>
-            <Trait id="Honor"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+            <BodyProperties version="4"
+                age="22"
+                weight="0.78"
+                build="0.822"
+                key="003CF80C43CC2018AE7D4EDBE6A6E4FEDE7E8BBADED28CD7AFFFFFCF992EEEF900FCC6030FBBCAB6000000000000000000000000000000000000000009FC3144" />        
+        </face>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="zul_bat_template_low" />
@@ -98,15 +92,17 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="15" weight="0.072" build="0.867"  key="003FEC0E43CC20156E759ADBD6CBDAFFAE7D8EBBDCD85C66ECFFFF4F792ACCA900CD16030C9CC6B60000000000000000000000000000000000000000178C70C1"  />
+            <BodyProperties version="4"
+                age="15"
+                weight="0.072"
+                build="0.867"
+                key="003FEC0E43CC20156E759ADBD6CBDAFFAE7D8EBBDCD85C66ECFFFF4F792ACCA900CD16030C9CC6B60000000000000000000000000000000000000000178C70C1" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="zul_bat_template_medium" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_1_5"
@@ -119,15 +115,17 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="13" weight="0.137" build="0.613"  key="0039F00FC4CC00005E839B6CB3B7D9FCEE7E9E7CD7D3BC5BEEFFFF6F9929EBF900C926030C9CACB400000000000000000000000000000000000000004F841043"  />
+            <BodyProperties version="4"
+                age="13"
+                weight="0.137"
+                build="0.613"
+                key="0039F00FC4CC00005E839B6CB3B7D9FCEE7E9E7CD7D3BC5BEEFFFF6F9929EBF900C926030C9CACB400000000000000000000000000000000000000004F841043" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="zul_bat_template_heavy" />
-            <EquipmentSet id="zul_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_1_6"
@@ -140,19 +138,20 @@
         occupation="Lord"
         skill_template="SkillSet.lord_archer_1h_2">
         <face>
-            <BodyProperties version="4" age="36" weight="0.072" build="0.867"  key="0034EC0F01CC30197E7EDEDEE9CBDDFFCE7F8FCBDDDACC6EEEFFFFBF792EDCC900DD16030D9CCBB6000000000000000000000000000000000000000009AC7046"  />
+            <BodyProperties version="4"
+                age="36"
+                weight="0.072"
+                build="0.867"
+                key="0034EC0F01CC30197E7EDEDEE9CBDDFFCE7F8FCBDDDACC6EEEFFFFBF792EDCC900DD16030D9CCBB6000000000000000000000000000000000000000009AC7046" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Valor"
-                value="-1" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Valor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="zul_bat_template_medium" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_1_7"
@@ -166,19 +165,20 @@
         occupation="Lord"
         skill_template="SkillSet.lord_pol_1h_1">
         <face>
-            <BodyProperties version="4" age="37" weight="0.137" build="0.613"  key="003AEC0C49CC000E9E87DB7DC3CADFFCEE7F9FBCD7D7FCBCEEFFFF6F992FEBF900E926030EACCCB4000000000000000000000000000000000000000057DC3083"  />
+            <BodyProperties version="4"
+                age="37"
+                weight="0.137"
+                build="0.613"
+                key="003AEC0C49CC000E9E87DB7DC3CADFFCEE7F9FBCD7D7FCBCEEFFFF6F992FEBF900E926030EACCCB4000000000000000000000000000000000000000057DC3083" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="+2" />
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Mercy" value="+2" />
+            <Trait id="Honor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="zul_bat_template_flamboyant" />
-            <EquipmentSet id="zul_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_1_8"
@@ -190,15 +190,17 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="13" weight="0.072" build="0.867"  key="003FF40C49CC30177E75ADDEE6CBDAFFCE7F8EBBDCD96C6BECFFFFBF792DDCB900BD16030B9CC8B600000000000000000000000000000000000000001F6C7104"  />
+            <BodyProperties version="4"
+                age="13"
+                weight="0.072"
+                build="0.867"
+                key="003FF40C49CC30177E75ADDEE6CBDAFFCE7F8EBBDCD96C6BECFFFFBF792DDCB900BD16030B9CC8B600000000000000000000000000000000000000001F6C7104" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="zul_bat_template_heavy" />
-            <EquipmentSet id="zul_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_1_9"
@@ -211,15 +213,17 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="10" weight="0.137" build="0.613"  key="003FEC0D01CC00075E83AB6CC3B7DEFCEE7E9F7CD7D3DCACEEFFFF6F9929EBF900C926030C9CBCB400000000000000000000000000000000000000004D943084"  />
+            <BodyProperties version="4"
+                age="10"
+                weight="0.137"
+                build="0.613"
+                key="003FEC0D01CC00075E83AB6CC3B7DEFCEE7E9F7CD7D3DCACEEFFFF6F9929EBF900C926030C9CBCB400000000000000000000000000000000000000004D943084" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="zul_bat_template_low" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_1_10"
@@ -232,19 +236,20 @@
         occupation="Lord"
         skill_template="SkillSet.lord_archer_1h_1">
         <face>
-            <BodyProperties version="4" age="33" weight="0.256" build="0.774"  key="0036F00F02CC201ADD8C5A8CB4C6EAFEBE7C6F9BDBD42C86CCFFFFBF9929E9F900CC46030CBBABBA000000000000000000000000000000000000000029847082"  />
+            <BodyProperties version="4"
+                age="33"
+                weight="0.256"
+                build="0.774"
+                key="0036F00F02CC201ADD8C5A8CB4C6EAFEBE7C6F9BDBD42C86CCFFFFBF9929E9F900CC46030CBBABBA000000000000000000000000000000000000000029847082" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Valor"
-                value="-1" />
+            <Trait id="Generosity" value="+2" />
+            <Trait id="Valor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="zul_bat_template_heavy" />
-            <EquipmentSet id="zul_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -266,16 +271,13 @@
                 key="003CF00F39CC2019ED7B6E9DECD9E9FAEE7D9DACC8E4DC9EDDFFFFBF992DEED800BC86030BBCA9B70000000000000000000000000000000000000000196C9082" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Valor" value="+1" />
+            <Trait id="Generosity" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="zul_bat_template_flamboyant" />
-            <EquipmentSet id="zul_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_2_2"
@@ -289,18 +291,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_archer_1h_2">
         <face>
-            <BodyProperties version="4" age="42" weight="0.137" build="0.8013"  key="0034F80C41CC000E6E83BB6CC3C8DEFCEE7F9F7CD7D6FCACEEFFFF6F9929EBF900BC26030B9CCCB4000000000000000000000000000000000000000059643043"  />
+            <BodyProperties version="4"
+                age="42"
+                weight="0.137"
+                build="0.8013"
+                key="0034F80C41CC000E6E83BB6CC3C8DEFCEE7F9F7CD7D6FCACEEFFFF6F9929EBF900BC26030B9CCCB4000000000000000000000000000000000000000059643043" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+2" />
+            <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_medium" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_2_3"
@@ -314,18 +317,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_pol_throw_1">
         <face>
-            <BodyProperties version="4" age="27" weight="0.216" build="0.672"  key="003FF40FC3CC100EDE866D6BEDD7E6FACE7C89DBDBD72CDFEEFFFF3F9929DDF900AA36030A9BCBB80000000000000000000000000000000000000000395C4043"  />
+            <BodyProperties version="4"
+                age="27"
+                weight="0.216"
+                build="0.672"
+                key="003FF40FC3CC100EDE866D6BEDD7E6FACE7C89DBDBD72CDFEEFFFF3F9929DDF900AA36030A9BCBB80000000000000000000000000000000000000000395C4043" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Mercy" value="+2" />
+            <Trait id="Honor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_heavy" />
-            <EquipmentSet id="zul_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_2_4"
@@ -338,18 +342,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_archer_1h_1">
         <face>
-            <BodyProperties version="4" age="26" weight="0.256" build="0.774"  key="0038F40C49CC2015EE8D5CACB9C8EEFECE7C7FBBDBD8BCBAEFFFFFBF992FE9F900EC46030EBCABBA000000000000000000000000000000000000000021CC7044" />
+            <BodyProperties version="4"
+                age="26"
+                weight="0.256"
+                build="0.774"
+                key="0038F40C49CC2015EE8D5CACB9C8EEFECE7C7FBBDBD8BCBAEFFFFFBF992FE9F900EC46030EBCABBA000000000000000000000000000000000000000021CC7044" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+1" />
+            <Trait id="Valor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_low" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_2_5"
@@ -361,14 +366,16 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="15" weight="0.028" build="0.768"  key="0034EC0D81CC3015CE8CBEBEEEE5EFFCBE7F9FDBDDE9FCDDDFFFFF7F9925EEF900CC06030CBBCCCA00000000000000000000000000000000000000001BA49084"  />
+            <BodyProperties version="4"
+                age="15"
+                weight="0.028"
+                build="0.768"
+                key="0034EC0D81CC3015CE8CBEBEEEE5EFFCBE7F9FDBDDE9FCDDDFFFFF7F9925EEF900CC06030CBBCCCA00000000000000000000000000000000000000001BA49084" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_flamboyant" />
-            <EquipmentSet id="zul_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_2_6"
@@ -381,14 +388,16 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="11" weight="0.216" build="0.672"  key="0034F00D02CC2014EE89BECEEDE8EFFDCE7E99DBDCEA9CDFEEFFFFCF992ADDF900CA36030CBCCCCA0000000000000000000000000000000000000000598C4003"  />
+            <BodyProperties version="4"
+                age="11"
+                weight="0.216"
+                build="0.672"
+                key="0034F00D02CC2014EE89BECEEDE8EFFDCE7E99DBDCEA9CDFEEFFFFCF992ADDF900CA36030CBCCCCA0000000000000000000000000000000000000000598C4003" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_low" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_2_7"
@@ -401,18 +410,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_doctor">
         <face>
-            <BodyProperties version="4" age="29" weight="0.1559" build="0.768"  key="0039F80D87CC201A7E8BBE9CDAC5EFFCAE7F8EDBDDE5ECDCDFFFFF6F8925EEF900DC26030D9BCCCA00000000000000000000000000000000000000003BBC8104"  />
+            <BodyProperties version="4"
+                age="29"
+                weight="0.1559"
+                build="0.768"
+                key="0039F80D87CC201A7E8BBE9CDAC5EFFCAE7F8EDBDDE5ECDCDFFFFF6F8925EEF900DC26030D9BCCCA00000000000000000000000000000000000000003BBC8104" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Generosity" value="+1" />
+            <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_low" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_2_8"
@@ -425,14 +435,16 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="14" weight="0.216" build="0.733"  key="003FF00E4ACC2005DE868EADEDD8EDFBCE7E89DBDCDA5CDFEEFFFF9F992ADDF900DB36030DACCCCA000000000000000000000000000000000000000001BC40C3"  />
+            <BodyProperties version="4"
+                age="14"
+                weight="0.216"
+                build="0.733"
+                key="003FF00E4ACC2005DE868EADEDD8EDFBCE7E89DBDCDA5CDFEEFFFF9F992ADDF900DB36030DACCCCA000000000000000000000000000000000000000001BC40C3" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_low" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -455,16 +467,13 @@
                 key="003FF40E83CC3015CE8BEBCDD7DBD4FEDE7E9E8BCDE6ECAEDEFFFF8F992EEAF900BD76030BBCB7B400000000000000000000000000000000000000001B7460C5" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+1" />
+            <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="zul_bat_template_flamboyant" />
-            <EquipmentSet id="zul_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_3_2"
@@ -477,18 +486,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_rogue">
         <face>
-            <BodyProperties version="4" age="36" weight="0.2299" build="0.768"  key="003FE80D82CC301ABE8CBEBEDAE5EFFCBE7F8FDBDDE8FCDCDFFFFF6F9925EEF900EC36030EABCCCA00000000000000000000000000000000000000001BDC80C5"  />
+            <BodyProperties version="4"
+                age="36"
+                weight="0.2299"
+                build="0.768"
+                key="003FE80D82CC301ABE8CBEBEDAE5EFFCBE7F8FDBDDE8FCDCDFFFFF6F9925EEF900EC36030EABCCCA00000000000000000000000000000000000000001BDC80C5" />
         </face>
         <Traits>
-            <Trait id="Calculating"
-                value="+2" />
-            <Trait id="Generosity"
-                value="-1" />
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Generosity" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_low" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_3_3"
@@ -501,18 +511,16 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_pol_throw_1">
         <face>
-            <BodyProperties version="4" age="20" weight="0.2855" build="0.7577"  key="003CF00FC7CC3016BE8BBEADDAD5EFFCBE7F8EDBDDE6ECDCDFFFFF6F8925EEF900CB46030CABCCCA00000000000000000000000000000000000000005D8C8106"  />
+            <BodyProperties version="4"
+                age="20"
+                weight="0.2855"
+                build="0.7577"
+                key="003CF00FC7CC3016BE8BBEADDAD5EFFCBE7F8EDBDDE6ECDCDFFFFF6F8925EEF900CB46030CABCCCA00000000000000000000000000000000000000005D8C8106" />
         </face>
-        <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_heavy" />
-            <EquipmentSet id="zul_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_3_4"
@@ -525,14 +533,16 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="15" weight="0.216" build="0.672"  key="0034F80E47CC2007DE87BEBEEDE8EEFBCE7E99DBDCDA5CDFEEFFFFAF992ADDF900BA36030BBCCCCA00000000000000000000000000000000000000005F644084"  />
+            <BodyProperties version="4"
+                age="15"
+                weight="0.216"
+                build="0.672"
+                key="0034F80E47CC2007DE87BEBEEDE8EEFBCE7E99DBDCDA5CDFEEFFFFAF992ADDF900BA36030BBCCCCA00000000000000000000000000000000000000005F644084" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_medium" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_3_5"
@@ -546,18 +556,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_archer_1h_2">
         <face>
-            <BodyProperties version="4" age="30" weight="0.216" build="0.7955"  key="0035E80D8ACC2010DE87BEAEEDE8EDFBCE7E99DBDCDA5CDFEEFFFF9F992ADDF900CC36030CBCCCCA00000000000000000000000000000000000000007D8C4003"  />
+            <BodyProperties version="4"
+                age="30"
+                weight="0.216"
+                build="0.7955"
+                key="0035E80D8ACC2010DE87BEAEEDE8EDFBCE7E99DBDCDA5CDFEEFFFF9F992ADDF900CC36030CBCCCCA00000000000000000000000000000000000000007D8C4003" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+1" />
+            <Trait id="Mercy" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_medium" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_3_6"
@@ -569,14 +580,16 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="16" weight="0.198" build="0.881"  key="0036E80FC0CC3016ED827EDDDDB9E2FEAE7F8D9AD5D5BC889EFFFF7F9924C8D900FD36030F9BCBA7000000000000000000000000000000000000000037F43104"  />
+            <BodyProperties version="4"
+                age="16"
+                weight="0.198"
+                build="0.881"
+                key="0036E80FC0CC3016ED827EDDDDB9E2FEAE7F8D9AD5D5BC889EFFFF7F9924C8D900FD36030F9BCBA7000000000000000000000000000000000000000037F43104" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_flamboyant" />
-            <EquipmentSet id="zul_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_3_7"
@@ -589,14 +602,16 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="9" weight="0.212" build="0.757"  key="003CEC0E47CC0002DE8D2E4BC9C8EDFAAE7D696AD5EABC86EEFFFF8F9922DCC900DB36030D9CC5A8000000000000000000000000000000000000000047A40083"  />
+            <BodyProperties version="4"
+                age="9"
+                weight="0.212"
+                build="0.757"
+                key="003CEC0E47CC0002DE8D2E4BC9C8EDFAAE7D696AD5EABC86EEFFFF8F9922DCC900DB36030D9CC5A8000000000000000000000000000000000000000047A40083" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_low" />
-            <EquipmentSet id="zul_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -619,14 +634,13 @@
                 key="003FF40E42CC3017CE8BEBADD6DBD4FEDE7E9E8BCDE6ECAEDEFFFF7F992DDAF9001D760301BCB7B400000000000000000000000000000000000000001A2C6045" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="-1" />
+            <Trait id="Mercy" value="+1" />
+            <Trait id="Generosity" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="zul_bat_template_heavy" />
-            <EquipmentSet id="zul_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_4_2"
@@ -639,18 +653,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_archer_1h_2">
         <face>
-            <BodyProperties version="4" age="38" weight="0.2628" build="0.881"  key="003CF40C46CC3019ED879EDEDEEBE6FFBE7F9FCCDBE5FC88AEFFFF7F9924CDD900FD46030FABCCA900000000000000000000000000000000000000003BFC4044"  />
+            <BodyProperties version="4"
+                age="38"
+                weight="0.2628"
+                build="0.881"
+                key="003CF40C46CC3019ED879EDEDEEBE6FFBE7F9FCCDBE5FC88AEFFFF7F9924CDD900FD46030FABCCA900000000000000000000000000000000000000003BFC4044" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Valor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_low" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_4_3"
@@ -663,18 +678,16 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="17" weight="0.212" build="0.757"  key="003DE80E45CC3004DE8D5E7BE9D9EEFAAE7E699BDBEADCCBEEFFFFCF9923ECD900DB36030D9CCBB900000000000000000000000000000000000000005FC41104"  />
+            <BodyProperties version="4"
+                age="17"
+                weight="0.212"
+                build="0.757"
+                key="003DE80E45CC3004DE8D5E7BE9D9EEFAAE7E699BDBEADCCBEEFFFFCF9923ECD900DB36030D9CCBB900000000000000000000000000000000000000005FC41104" />
         </face>
-        <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_flamboyant" />
-            <EquipmentSet id="zul_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_4_4"
@@ -686,14 +699,16 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="10" weight="0.198" build="0.8193"  key="0036E80C42CC301AED847EDEDEBAE6FEAE7F8FBCD9D5DC889EFFFF7F9924CCD900CC36030C9BCCA8000000000000000000000000000000000000000039844086"  />
+            <BodyProperties version="4"
+                age="10"
+                weight="0.198"
+                build="0.8193"
+                key="0036E80C42CC301AED847EDEDEBAE6FEAE7F8FBCD9D5DC889EFFFF7F9924CCD900CC36030C9BCCA8000000000000000000000000000000000000000039844086" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_medium" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_4_5"
@@ -706,18 +721,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_pol_1h_2">
         <face>
-            <BodyProperties version="4" age="34" weight="0.2628" build="0.7575"  key="0034F40E42CC3017ED849EDEDECBE6FEAE7F9FBCDAE5EC88AEFFFF7F9924CCD900CB46030CABCCA8000000000000000000000000000000000000000027944142"  />
+            <BodyProperties version="4"
+                age="34"
+                weight="0.2628"
+                build="0.7575"
+                key="0034F40E42CC3017ED849EDEDECBE6FEAE7F9FBCDAE5EC88AEFFFF7F9924CCD900CB46030CABCCA8000000000000000000000000000000000000000027944142" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Generosity" value="+2" />
+            <Trait id="Calculating" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_flamboyant" />
-            <EquipmentSet id="zul_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_4_6"
@@ -731,18 +747,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_merchant">
         <face>
-            <BodyProperties version="4" age="32" weight="0.1559" build="0.757"  key="0036F80D09CC0007DE8D4E7BE9D9EEFAAE7E696BD9EADCABEEFFFFCF9923ECD900BB26030B9CC8A90000000000000000000000000000000000000000277410C3"  />
+            <BodyProperties version="4"
+                age="32"
+                weight="0.1559"
+                build="0.757"
+                key="0036F80D09CC0007DE8D4E7BE9D9EEFAAE7E696BD9EADCABEEFFFFCF9923ECD900BB26030B9CC8A90000000000000000000000000000000000000000277410C3" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+1" />
+            <Trait id="Honor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_medium" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_4_7"
@@ -755,14 +772,16 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="15" weight="0.212" build="0.757"  key="0039EC0D00CC2007DE8D4E7BE9D9EEFAAE7E698BDBEADCABEEFFFFCF9923ECD900DB36030D9CC8B9000000000000000000000000000000000000000029AC1044"  />
+            <BodyProperties version="4"
+                age="15"
+                weight="0.212"
+                build="0.757"
+                key="0039EC0D00CC2007DE8D4E7BE9D9EEFAAE7E698BDBEADCABEEFFFFCF9923ECD900DB36030D9CC8B9000000000000000000000000000000000000000029AC1044" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_heavy" />
-            <EquipmentSet id="zul_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -784,14 +803,13 @@
                 key="003FF80F4DCC301A7D783EBDD9E9E9FDCE7F8FCCCED9ECDFEFFFFFCF9929EBA8009C860309ACCCC80000000000000000000000000000000000000000172C9045" />
         </face>
         <Traits>
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Generosity" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="zul_bat_template_heavy" />
-            <EquipmentSet id="zul_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_5_2"
@@ -805,18 +823,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_archer_1h_2">
         <face>
-            <BodyProperties version="4" age="34" weight="0.2608" build="0.881"  key="0036F00D84CC3017ED849EDEDECBE6FEAE7F8FBCDAE5EC889EFFFF7F9924CCD900BD46030B9BCCA80000000000000000000000000000000000000000496C4005"  />
+            <BodyProperties version="4"
+                age="34"
+                weight="0.2608"
+                build="0.881"
+                key="0036F00D84CC3017ED849EDEDECBE6FEAE7F8FBCDAE5EC889EFFFF7F9924CCD900BD46030B9BCCA80000000000000000000000000000000000000000496C4005" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Valor" value="+1" />
+            <Trait id="Generosity" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_medium" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_5_3"
@@ -828,14 +847,16 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="16" weight="0.3256" build="0.751"  key="0034EC0E4DCC3017CE8ABEADDBEBEFFFDE7E9FDBDCE9ACDEAEFFFF9F992EECF900BB56030BBCC8CA0000000000000000000000000000000000000000117C9083"  />
+            <BodyProperties version="4"
+                age="16"
+                weight="0.3256"
+                build="0.751"
+                key="0034EC0E4DCC3017CE8ABEADDBEBEFFFDE7E9FDBDCE9ACDEAEFFFF9F992EECF900BB56030BBCC8CA0000000000000000000000000000000000000000117C9083" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_low" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_5_4"
@@ -848,18 +869,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_pol_1h_2">
         <face>
-            <BodyProperties version="4" age="25" weight="0.262" build="0.751"  key="0034F40E43CC201A7E723D7CD9DBDFFDCE7E9CBBDAC48CDEADFFFF4F992ECAF900DB46030DACC7CA000000000000000000000000000000000000000019AC9081"  />
+            <BodyProperties version="4"
+                age="25"
+                weight="0.262"
+                build="0.751"
+                key="0034F40E43CC201A7E723D7CD9DBDFFDCE7E9CBBDAC48CDEADFFFF4F992ECAF900DB46030DACC7CA000000000000000000000000000000000000000019AC9081" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Calculating" value="+1" />
+            <Trait id="Valor" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_flamboyant" />
-            <EquipmentSet id="zul_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_5_5"
@@ -873,18 +895,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_crafter">
         <face>
-            <BodyProperties version="4" age="26" weight="0.212" build="0.757"  key="003AF00D86CC1007DE8D4E7BE9D9EEFAAE7E698BD9EADCABEEFFFFCF9923ECD900AB36030A9CC8A90000000000000000000000000000000000000000615410C3"  />
+            <BodyProperties version="4"
+                age="26"
+                weight="0.212"
+                build="0.757"
+                key="003AF00D86CC1007DE8D4E7BE9D9EEFAAE7E698BD9EADCABEEFFFFCF9923ECD900AB36030A9CC8A90000000000000000000000000000000000000000615410C3" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Honor"
-                value="-1" />
+            <Trait id="Valor" value="+2" />
+            <Trait id="Honor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_low" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_5_6"
@@ -897,14 +920,16 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="6" weight="0.183" build="0.649" key="003FF50D08CC10159E833E9CD7C6D9FBBE7F689ADAD6DCDFDFFFFF6F992DEDA900CB36030F9CAAB500000000000000000000000000000000000000007B8C1083" />
+            <BodyProperties version="4"
+                age="6"
+                weight="0.183"
+                build="0.649"
+                key="003FF50D08CC10159E833E9CD7C6D9FBBE7F689ADAD6DCDFDFFFFF6F992DEDA900CB36030F9CAAB500000000000000000000000000000000000000007B8C1083" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_medium" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -926,16 +951,13 @@
                 key="0036E80E43CC1017CE8C3B4EDCB7EAFECE7E8C6BC7D4ACB79DFFFF5F9928DD9900FB66030FABB7A5000000000000000000000000000000000000000029FC6143" />
         </face>
         <Traits>
-            <Trait id="Honor"
-                value="-1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Generosity" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="zul_bat_template_medium" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_6_2"
@@ -949,18 +971,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_pol_throw_2">
         <face>
-            <BodyProperties version="4" age="44" weight="0.183" build="0.649"  key="003EF00D06CC3012BE874E9DE9D9EAFCDE7F9D9BDEE8FCDFEFFFFFBF992FEDA900AA36030AACCCCA00000000000000000000000000000000000000007D5C40C4"  />
+            <BodyProperties version="4"
+                age="44"
+                weight="0.183"
+                build="0.649"
+                key="003EF00D06CC3012BE874E9DE9D9EAFCDE7F9D9BDEE8FCDFEFFFFFBF992FEDA900AA36030AACCCCA00000000000000000000000000000000000000007D5C40C4" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Valor" value="+1" />
+            <Trait id="Honor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_heavy" />
-            <EquipmentSet id="zul_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_6_3"
@@ -974,18 +997,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_archer_1h_2">
         <face>
-            <BodyProperties version="4" age="25" weight="0.183" build="0.7114"  key="0034F00F08CC2003BE834E9DD7D7E9FCDE7F7D9BDED8DCDFEFFFFF9F992EEDA900BB36030BACACC800000000000000000000000000000000000000006B6C3043"  />
+            <BodyProperties version="4"
+                age="25"
+                weight="0.183"
+                build="0.7114"
+                key="0034F00F08CC2003BE834E9DD7D7E9FCDE7F7D9BDED8DCDFEFFFFF9F992EEDA900BB36030BACACC800000000000000000000000000000000000000006B6C3043" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+2" />
+            <Trait id="Calculating" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_low" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_6_4"
@@ -997,14 +1021,16 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="17" weight="0.3225" build="0.751"  key="003CEC0D07CC20178E78AE8DDAEBEFFEDE7E9DBBDCE89CDEADFFFF9F992ECAF900CB56030CACC8CA000000000000000000000000000000000000000061949081"  />
+            <BodyProperties version="4"
+                age="17"
+                weight="0.3225"
+                build="0.751"
+                key="003CEC0D07CC20178E78AE8DDAEBEFFEDE7E9DBBDCE89CDEADFFFF9F992ECAF900CB56030CACC8CA000000000000000000000000000000000000000061949081" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_flamboyant" />
-            <EquipmentSet id="zul_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_6_5"
@@ -1017,14 +1043,16 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="10" weight="0.0941" build="0.8373"  key="0036F00C48CC3000BE844E9DE8D8EAFCDE7F9D9BDEE8FCDFEFFFFFBF992FEDA900FD16030FACBCC800000000000000000000000000000000000000000FF43084"  />
+            <BodyProperties version="4"
+                age="10"
+                weight="0.0941"
+                build="0.8373"
+                key="0036F00C48CC3000BE844E9DE8D8EAFCDE7F9D9BDEE8FCDFEFFFFFBF992FEDA900FD16030FACBCC800000000000000000000000000000000000000000FF43084" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_medium" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_6_6"
@@ -1038,18 +1066,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_scout">
         <face>
-            <BodyProperties version="4" age="41" weight="0.183" build="0.7755"  key="003FF40E46CC3008BE844E9DD7D7EAFCDE7F9D9BDEE8ECDFEFFFFF9F992FEDA900FC36030FACACC800000000000000000000000000000000000000005DFC3083"  />
+            <BodyProperties version="4"
+                age="41"
+                weight="0.183"
+                build="0.7755"
+                key="003FF40E46CC3008BE844E9DD7D7EAFCDE7F9D9BDEE8ECDFEFFFFF9F992FEDA900FC36030FACACC800000000000000000000000000000000000000005DFC3083" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Honor" value="+1" />
+            <Trait id="Mercy" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_low" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -1071,16 +1100,13 @@
                 key="003FF40F00CC1018EE8DCCDEEEE9EFFEEE7E8EBBC8D9ACC7BDFFFFCF9928DEE900AB66030ABCB8AA0000000000000000000000000000000000000000174C8044" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Calculating"
-                value="-1" />
+            <Trait id="Mercy" value="+2" />
+            <Trait id="Calculating" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="zul_bat_template_medium" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_7_2"
@@ -1094,18 +1120,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_engineer">
         <face>
-            <BodyProperties version="4" age="27" weight="0.06" build="0.743"  key="0036E80D00CC100CED7BAA5ED8A9D4FADE7F9ECCD6E32CDA9CFFFFBF992CCC8900CB16030CABC5C900000000000000000000000000000000000000002B941003"  />
+            <BodyProperties version="4"
+                age="27"
+                weight="0.06"
+                build="0.743"
+                key="0036E80D00CC100CED7BAA5ED8A9D4FADE7F9ECCD6E32CDA9CFFFFBF992CCC8900CB16030CABC5C900000000000000000000000000000000000000002B941003" />
         </face>
         <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
+            <Trait id="Mercy" value="+2" />
+            <Trait id="Mercy" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_heavy" />
-            <EquipmentSet id="zul_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_7_3"
@@ -1117,14 +1144,16 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="8" weight="0.262" build="0.8127"  key="0039F40FCBCC30159E7ABE8DDAEBEFFFDE7E9FBBDCE99CDEAEFFFF9F992ECAF900CC46030CACC8CA000000000000000000000000000000000000000017949106"  />
+            <BodyProperties version="4"
+                age="8"
+                weight="0.262"
+                build="0.8127"
+                key="0039F40FCBCC30159E7ABE8DDAEBEFFFDE7E9FBBDCE99CDEAEFFFF9F992ECAF900CC46030CACC8CA000000000000000000000000000000000000000017949106" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_flamboyant" />
-            <EquipmentSet id="zul_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_7_4"
@@ -1138,18 +1167,16 @@
         occupation="Lord"
         skill_template="SkillSet.lord_cav_pol_throw_2">
         <face>
-            <BodyProperties version="4" age="24" weight="0.06" build="0.743"  key="003CEC0E47CC2005EE7BAEAEECEAD4FADE7F9ECCD8E98CDCBEFFFFBF992FDCF900CB16030CBBC7CA00000000000000000000000000000000000000003F8C2003"  />
+            <BodyProperties version="4"
+                age="24"
+                weight="0.06"
+                build="0.743"
+                key="003CEC0E47CC2005EE7BAEAEECEAD4FADE7F9ECCD8E98CDCBEFFFFBF992FDCF900CB16030CBBC7CA00000000000000000000000000000000000000003F8C2003" />
         </face>
-        <Traits>
-            <Trait id="Mercy"
-                value="+1" />
-            <Trait id="Generosity"
-                value="+1" />
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_heavy" />
-            <EquipmentSet id="zul_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_7_5"
@@ -1162,15 +1189,17 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="15" weight="0.06" build="0.8503"  key="003FE80D02CC2010EE7BAC6EEAB9D4FADE7F9ECCD8E85CDAADFFFFBF992EDCE900ED16030EBBC5C9000000000000000000000000000000000000000037D41083"  />
+            <BodyProperties version="4"
+                age="15"
+                weight="0.06"
+                build="0.8503"
+                key="003FE80D02CC2010EE7BAC6EEAB9D4FADE7F9ECCD8E85CDAADFFFFBF992EDCE900ED16030EBBC5C9000000000000000000000000000000000000000037D41083" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="zul_bat_template_medium" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 
@@ -1192,14 +1221,13 @@
                 key="003FF40E83CC3015CE8BEBCDD7DBD4FEDE7E9E8BCDE6ECAEDEFFFF8F992EEAF900BD76030BBCB7B400000000000000000000000000000000000000001B7460C5" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="+1" />
+            <Trait id="Valor" value="+2" />
+            <Trait id="Generosity" value="-1" />
         </Traits>
         <Equipments>
             <EquipmentRoster />
             <EquipmentSet id="zul_bat_template_low" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_8_2"
@@ -1213,18 +1241,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_noncom_charmer">
         <face>
-            <BodyProperties version="4" age="23" weight="0.1373" build="0.743"  key="0036EC0D07CC2000EE7BAD9EEBD9D4FADE7F9ECCD8E96CDCAEFFFFBF992FDCF900BB26030BBBC7CA00000000000000000000000000000000000000003F6C1044"  />
+            <BodyProperties version="4"
+                age="23"
+                weight="0.1373"
+                build="0.743"
+                key="0036EC0D07CC2000EE7BAD9EEBD9D4FADE7F9ECCD8E96CDCAEFFFFBF992FDCF900BB26030BBBC7CA00000000000000000000000000000000000000003F6C1044" />
         </face>
         <Traits>
-            <Trait id="Generosity"
-                value="+1" />
-            <Trait id="Mercy"
-                value="+1" />
+            <Trait id="Generosity" value="+1" />
+            <Trait id="Calculating" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_flamboyant" />
-            <EquipmentSet id="zul_civ_template_flamboyant"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_flamboyant" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_8_3"
@@ -1236,14 +1265,16 @@
         culture="Culture.zulizwe"
         occupation="Lord">
         <face>
-            <BodyProperties version="4" age="6" weight="0.262" build="0.751"  key="0036E80FCCCC20199E78AE8DDAEBEFFEDE7E9FBBDCE99CDEAEFFFF9F992ECAF900CB46030CACC8CA00000000000000000000000000000000000000005D949105"  />
+            <BodyProperties version="4"
+                age="6"
+                weight="0.262"
+                build="0.751"
+                key="0036E80FCCCC20199E78AE8DDAEBEFFEDE7E9FBBDCE99CDEAEFFFF9F992ECAF900CB46030CACC8CA00000000000000000000000000000000000000005D949105" />
         </face>
-        <Traits>
-        </Traits>
+        <Traits></Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_heavy" />
-            <EquipmentSet id="zul_civ_template_heavy"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_heavy" civilian="true" />
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="lord_zulizwe_8_4"
@@ -1257,18 +1288,19 @@
         occupation="Lord"
         skill_template="SkillSet.lord_archer_1h_2">
         <face>
-            <BodyProperties version="4" age="22" weight="0" build="0.778"  key="003CF40D87CC30087D737E7DE6A9DBFBAE7D687CD7C52C979DFFFF7F992AECC900BC06030B9CCBC500000000000000000000000000000000000000006F7C2103"  />
+            <BodyProperties version="4"
+                age="22"
+                weight="0"
+                build="0.778"
+                key="003CF40D87CC30087D737E7DE6A9DBFBAE7D687CD7C52C979DFFFF7F992AECC900BC06030B9CCBC500000000000000000000000000000000000000006F7C2103" />
         </face>
         <Traits>
-            <Trait id="Valor"
-                value="+2" />
-            <Trait id="Honor"
-                value="-2" />
+            <Trait id="Mercy" value="+2" />
+            <Trait id="Honor" value="-2" />
         </Traits>
         <Equipments>
             <EquipmentSet id="zul_bat_template_medium" />
-            <EquipmentSet id="zul_civ_template_default"
-                civilian="true" />
+            <EquipmentSet id="zul_civ_template_default" civilian="true" />
         </Equipments>
     </NPCCharacter>
 </NPCCharacters>

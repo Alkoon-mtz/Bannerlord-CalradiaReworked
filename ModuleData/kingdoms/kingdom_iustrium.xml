@@ -12,11 +12,11 @@
         culture="Culture.iustrium"
         settlement_banner_mesh="encounter_flag_c"
         flag_mesh="info_screen_flags_a"
-        name="{=IS_kingdom_name}Iustrium Principalities"
-        short_name="{=IS_short_name}Iustram"
-        title="{=IS_kingdom_title}Iustrium Principalities"
-        ruler_title="{=isnp9abW}Prince"
-        text="{=IS_text}Deus lo Vult">
+        name="{=IUS_kingdom_name}Iustrium Principalities"
+        short_name="{=IUS_short_name}Iustram"
+        title="{=IUS_kingdom_title}Iustrium Principalities"
+        ruler_title="{=IUS_ruler_title}Prince"
+        text="{=IUS_text}An order seeking lost artifacts, the original goal become more and more forgotten because of politics and games of powers">
         <relationships></relationships>
             <!-- <relationship kingdom="Kingdom.kingdom_aseriyun"
                 value="-1"
